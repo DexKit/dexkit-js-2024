@@ -69,15 +69,23 @@ export default function Footer() {
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0 md:space-x-8">
           <div className="text-center md:text-left md:w-1/4">
-            <div style={{ width: isMobile ? '150px' : '200px', height: isMobile ? '57px' : '76px' }}>
-              <Image 
-                src="/imgs/dexkit-logo-white.svg" 
-                alt="DexKit Logo" 
-                width={100}
-                height={76}
-                style={{ width: '100%', height: '100%', objectFit: 'contain' }}
-              />
-            </div>
+            <Link href="/">
+              <div style={{ width: isMobile ? '150px' : '200px', height: isMobile ? '57px' : '76px' }}>
+                <Image 
+                  src="/imgs/dexkit-logo-white.svg" 
+                  alt="DexKit Logo" 
+                  width={200}
+                  height={76}
+                  style={{ 
+                    width: '100%', 
+                    height: 'auto', 
+                    maxWidth: isMobile ? '150px' : '200px', 
+                    maxHeight: isMobile ? '57px' : '76px',
+                    objectFit: 'contain' 
+                  }}
+                />
+              </div>
+            </Link>
           </div>
           <div className="w-full md:w-1/2">
             <h3 className="text-2xl md:text-4xl font-semibold mb-4 text-center md:text-left">Newsletter</h3>

@@ -21,7 +21,7 @@ async function getBlogPosts(): Promise<BlogPost[]> {
       post.id && post.title && post.slug
     );
   } catch (error) {
-    console.error('Error al leer los posts del blog:', error);
+    console.error('Error reading blog posts:', error);
     return [];
   }
 }
@@ -33,7 +33,7 @@ export default async function BlogPage() {
     <div className="min-h-screen">
       <main>
         <div className="container mx-auto px-4 py-8 sm:py-16">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center mb-8 sm:mb-16 text-white">Blog</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center mb-8 sm:mb-16 text-white">The DexKit&apos;s Blog</h1>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {posts.map((post) => (
@@ -49,13 +49,13 @@ export default async function BlogPage() {
                   </div>
                   <div className="p-4 sm:p-6">
                     <div className="flex items-center justify-between mb-2">
-                      <span className="text-xs sm:text-sm text-gray-500">{post.date || 'Fecha no disponible'}</span>
-                      <span className="text-xs sm:text-sm bg-orange-400 text-white px-2 py-1 rounded-full">{post.category || 'Sin categoría'}</span>
+                      <span className="text-xs sm:text-sm text-gray-500">{post.date || 'Date not available'}</span>
+                      <span className="text-xs sm:text-sm bg-orange-400 text-white px-2 py-1 rounded-full">{post.category || 'Uncategorized'}</span>
                     </div>
                     <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">{post.title}</h2>
                     <div className="flex items-center">
                       <Image 
-                        src="/imgs/dexkit-logo-white.svg"
+                        src="/imgs/dexkit-logo-black-d.svg"
                         alt="DexKit Logo" 
                         width={24} 
                         height={24} 

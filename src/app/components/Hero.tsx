@@ -19,7 +19,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="inline-block bg-orange-400 text-black py-2 px-4 sm:py-3 sm:px-6 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-sm sm:text-base md:text-lg"
           >
-            Create my DApp now!
+            Start now!
           </Link>
         </div>
         <div className="md:w-1/2 flex justify-center md:justify-start">

@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation';
 interface BlogPost {
   id: string;
   title: string;
+  author: string;
   date: string;
   imageUrl: string;
   category: string;
@@ -30,35 +31,39 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
   return (
     <div className="min-h-screen">
       <main>
-        <div className="container mx-auto px-4 py-16">
-          <h1 className="text-4xl md:text-6xl font-bold text-center mb-8 text-white">{post.title}</h1>
+        <div className="container mx-auto px-4 py-6 md:py-8">
+          <h1 className="text-3xl md:text-5xl font-bold text-center mb-4 text-white">{post.title}</h1>
           
-          <div className="flex items-center justify-center mb-8">
+          <div className="flex items-center justify-center mb-4">
+            <span className="text-sm md:text-base text-white mr-2">By:</span>
             <Image 
-              src="/imgs/dexkit-logo-white.svg"
+              src="/imgs/dexkit-logo-white-o-o.svg"
               alt="DexKit Logo" 
-              width={40} 
-              height={40} 
-              className="mr-4"
+              width={60} 
+              height={60} 
+              className="mr-2"
             />
-            <span className="text-xl text-white">{post.date}</span>
+            <span className="text-sm md:text-base text-white">
+              {post.author} <span className="mx-1">on</span> {post.date}
+            </span>
           </div>
 
-          <div className="relative w-full h-[50vh] mb-8">
+          <div className="relative w-full max-w-3xl mx-auto aspect-[1200/630] mb-6 md:mb-8">
             <Image 
               src={post.imageUrl} 
               alt={post.title} 
               fill
-              style={{ objectFit: 'contain' }}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 768px"
+              style={{ objectFit: 'cover' }}
               className="rounded-lg"
             />
           </div>
         </div>
 
-        <div className="w-full bg-white shadow-lg">
-          <div className="container mx-auto">
+        <div className="w-full bg-white">
+          <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
             <div 
-              className="prose prose-lg max-w-none py-16 px-4 md:px-8"
+              className="prose prose-sm sm:prose-base md:prose-lg max-w-none py-4 md:py-6"
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
           </div>

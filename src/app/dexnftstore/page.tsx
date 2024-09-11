@@ -11,7 +11,7 @@ export default function DexNFTStore() {
     ];
 
     return (
-      <div className="min-h-screen">
+      <div className="min-h-screen flex flex-col">
         <div className="text-white py-8 sm:py-16">
           <div className="container mx-auto px-4 max-w-5xl">
             <div className="flex flex-col md:flex-row items-center justify-between">
@@ -23,8 +23,8 @@ export default function DexNFTStore() {
           </div>
         </div>
 
-        <div className="bg-white text-black">
-          <div className="container mx-auto px-4 py-8 sm:py-12 max-w-4xl">
+        <div className="bg-white text-black flex-grow">
+          <div className="container mx-auto px-4 py-4 md:py-6 max-w-4xl">
             <nav className="mb-8">
               <ul className="flex flex-wrap space-x-4 sm:space-x-6 border-b border-gray-300">
                 {['description', 'tutorials'].map((tab) => (
@@ -75,7 +75,7 @@ export default function DexNFTStore() {
               </section>
             </div>
 
-            <div className="mt-8">
+            <div className="mt-4 mb-2 md:mb-4">
               <a 
                 href="https://dexappbuilder.dexkit.com/admin/quick-builder/nft-store" 
                 target="_blank" 

@@ -92,13 +92,22 @@ export default function Header() {
   return (
     <header className="py-6 px-4 bg-transparent">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="pl-8">
-          <Image 
-            src="/imgs/dexkit-logo-white.svg"
-            alt="DexKit Logo" 
-            width={150} 
-            height={40} 
-          />
+        <Link href="/">
+          <div style={{ width: isMobile ? '112px' : '150px', height: isMobile ? '30px' : '40px' }}>
+            <Image 
+              src="/imgs/dexkit-logo-white.svg"
+              alt="DexKit Logo" 
+              width={150}
+              height={40}
+              style={{ 
+                width: '100%', 
+                height: 'auto', 
+                maxWidth: isMobile ? '112px' : '150px', 
+                maxHeight: isMobile ? '30px' : '40px',
+                objectFit: 'contain' 
+              }}
+            />
+          </div>
         </Link>
         {isMobile ? (
           <button
