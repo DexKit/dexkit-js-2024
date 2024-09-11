@@ -4,8 +4,8 @@ import Link from 'next/link'
 export default function Hero() {
   return (
     <div className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
-        <div className="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center max-w-6xl">
+        <div className="md:w-1/2 mb-8 md:mb-0 text-center md:text-left md:pr-8">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-white">
             Create your own<br />
             branded <span className="text-orange-400">DApps.</span>
@@ -22,7 +22,7 @@ export default function Hero() {
             Create my DApp now!
           </Link>
         </div>
-        <div className="md:w-1/2 flex justify-center">
+        <div className="md:w-1/2 flex justify-center md:justify-start">
           <Image
             src="/imgs/web3.webp"
             alt="DexKit Web3 Illustration"

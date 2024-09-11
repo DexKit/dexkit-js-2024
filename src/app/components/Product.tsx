@@ -14,7 +14,7 @@ export default function Product() {
             </p>
             <Link 
               href="/dexappbuilder" 
-              className="inline-block bg-orange-400 text-black py-2 px-4 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-sm sm:text-base font-semibold"
+              className="inline-block bg-orange-400 text-black py-2 px-5 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-base sm:text-lg font-semibold"
             >
               Learn more
             </Link>
