@@ -144,7 +144,7 @@ export default function RoadmapPage() {
                     </ul>
                   </div>
                 </div>
-                <div className="hidden sm:block sm:w-2/12 flex justify-center">
+                <div className="hidden sm:flex sm:w-2/12 justify-center">
                   <div className="w-4 h-4 bg-orange-500 rounded-full mt-2"></div>
                 </div>
                 <div className="hidden sm:block sm:w-5/12 px-4"></div>

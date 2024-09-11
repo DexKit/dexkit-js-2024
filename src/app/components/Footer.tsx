@@ -2,10 +2,12 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, FormEvent } from 'react'
 
 export default function Footer() {
   const [isMobile, setIsMobile] = useState(false);
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   useEffect(() => {
     const handleResize = () => {
@@ -34,6 +36,34 @@ export default function Footer() {
     className: "text-white hover:text-orange-400 transition duration-300"
   };
 
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (!email) {
+      setMessage('Please enter an email address.');
+      return;
+    }
+
+    try {
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      if (response.ok) {
+        setMessage('Thanks for subscribing!');
+        setEmail('');
+      } else {
+        setMessage('There was an error subscribing. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error subscribing:', error);
+      setMessage('There was an error subscribing. Please try again.');
+    }
+  };
+
   return (
     <footer className="py-8 md:py-16 w-full text-white">
       <div className="container mx-auto px-4">
@@ -51,16 +81,21 @@ export default function Footer() {
           </div>
           <div className="w-full md:w-1/2">
             <h3 className="text-2xl md:text-4xl font-semibold mb-4 text-center md:text-left">Newsletter</h3>
-            <p className="mb-4 text-center md:text-left">Join the DexKit community and stay ahead of the rapidly-evolving DeFi landscape.</p>
-            <form className="flex">
-              <input 
-                type="email" 
-                placeholder="Your email address" 
-                className="flex-grow p-2 rounded-l-md bg-transparent border border-gray-400 text-white placeholder-gray-400"
-              />
-              <button type="submit" className="bg-orange-400 text-white p-2 rounded-r-md hover:bg-orange-500 transition duration-300">
-                <i className="fas fa-paper-plane"></i>
-              </button>
+            <p className="mb-4 text-center md:text-left">Únete a la comunidad DexKit y mantente al día con el panorama DeFi en rápida evolución.</p>
+            <form onSubmit={handleSubmit} className="flex flex-col">
+              <div className="flex">
+                <input 
+                  type="email" 
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="Tu dirección de correo electrónico" 
+                  className="flex-grow p-2 rounded-l-md bg-transparent border border-gray-400 text-white placeholder-gray-400"
+                />
+                <button type="submit" className="bg-orange-400 text-white p-2 rounded-r-md hover:bg-orange-500 transition duration-300">
+                  <i className="fas fa-paper-plane"></i>
+                </button>
+              </div>
+              {message && <p className="mt-2 text-sm text-center md:text-left">{message}</p>}
             </form>
           </div>
         </div>

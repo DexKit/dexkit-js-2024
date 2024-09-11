@@ -30,7 +30,6 @@ export default function DexExchangePro() {
                     Description
                   </button>
                 </li>
-                {/* Add more tabs here if needed */}
               </ul>
             </nav>
 
@@ -60,12 +59,12 @@ export default function DexExchangePro() {
 
             <div className="mt-8">
               <a 
-                href="https://dexappbuilder.dexkit.com/admin/create" 
+                href="https://dexappbuilder.dexkit.com/admin/quick-builder/exchange" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-block bg-orange-500 text-black font-bold py-2 px-4 sm:px-6 rounded hover:bg-orange-600 transition duration-300 text-sm sm:text-base"
               >
-                Open solution
+                Deploy now!
               </a>
             </div>
           </div>
