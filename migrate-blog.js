@@ -54,7 +54,7 @@ async function fetchPosts() {
     }
     return {
       id: post.id,
-      title: post.title.rendered,
+      title: post.title.rendered.replace(/&#8217;/g, "'"),
       date: new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
       content: normalizeHeaders(post.content.rendered),
       excerpt: post.excerpt.rendered,
