@@ -66,9 +66,9 @@ export default function Footer() {
 
   return (
     <footer className="py-8 md:py-16 w-full text-white">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
-          <div className="mb-8 md:mb-0">
+      <div className="container mx-auto px-4 max-w-6xl">
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0 md:space-x-8">
+          <div className="text-center md:text-left md:w-1/4">
             <div style={{ width: isMobile ? '150px' : '200px', height: isMobile ? '57px' : '76px' }}>
               <Image 
                 src="/imgs/dexkit-logo-white.svg" 
@@ -81,14 +81,14 @@ export default function Footer() {
           </div>
           <div className="w-full md:w-1/2">
             <h3 className="text-2xl md:text-4xl font-semibold mb-4 text-center md:text-left">Newsletter</h3>
-            <p className="mb-4 text-center md:text-left">Únete a la comunidad DexKit y mantente al día con el panorama DeFi en rápida evolución.</p>
+            <p className="mb-4 text-center md:text-left">Join the DexKit community and stay up to date with the rapidly evolving DeFi landscape.</p>
             <form onSubmit={handleSubmit} className="flex flex-col">
               <div className="flex">
                 <input 
                   type="email" 
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Tu dirección de correo electrónico" 
+                  placeholder="Your email address" 
                   className="flex-grow p-2 rounded-l-md bg-transparent border border-gray-400 text-white placeholder-gray-400"
                 />
                 <button type="submit" className="bg-orange-400 text-white p-2 rounded-r-md hover:bg-orange-500 transition duration-300">
@@ -99,7 +99,7 @@ export default function Footer() {
             </form>
           </div>
         </div>
-        <div className="flex flex-wrap justify-center md:justify-start space-x-4 md:space-x-6 mt-8">
+        <div className="flex justify-center md:justify-start space-x-4 md:space-x-6 mt-8">
           {socialNetworks.map((social) => (
             <Link 
               key={social.name} 
