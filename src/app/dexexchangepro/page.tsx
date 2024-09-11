@@ -5,18 +5,13 @@ import { useState } from 'react';
 export default function DexExchangePro() {
     const [activeTab, setActiveTab] = useState('description');
 
-    const tutorials = [
-        { title: "Solution overview (Official docs)", url: "https://docs.dexkit.com/defi-products/dexexchangepro/overview" },
-        { title: "Deploy your Decentralized Exchange onchain app (YouTube)", url: "https://youtube.com/watch?v=0D00j-KIJ00" }
-    ];
-
     return (
       <div className="min-h-screen">
-        <div className="text-white py-16">
+        <div className="text-white py-8 sm:py-16">
           <div className="container mx-auto px-4 max-w-5xl">
-            <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
-              <h1 className="text-5xl lg:text-6xl font-bold mb-4 lg:mb-0 lg:mr-8">DexExchangePro</h1>
-              <p className="text-xl lg:flex-1">
+            <div className="flex flex-col md:flex-row items-center justify-between">
+              <h1 className="text-4xl sm:text-6xl font-bold mb-4 md:mb-0 md:w-1/2 text-center md:text-left">DexExchangePro</h1>
+              <p className="text-lg sm:text-xl md:w-1/2 text-center md:text-left">
                 Your professional and secure decentralized exchange. No intermediaries, no hassle.
               </p>
             </div>
@@ -24,70 +19,53 @@ export default function DexExchangePro() {
         </div>
 
         <div className="bg-white text-black">
-          <div className="container mx-auto px-4 py-12 max-w-4xl">
+          <div className="container mx-auto px-4 py-8 sm:py-12 max-w-4xl">
             <nav className="mb-8">
-              <ul className="flex space-x-6 border-b border-gray-300">
-                {['description', 'tutorials'].map((tab) => (
-                  <li key={tab} className={`pb-2 ${activeTab === tab ? 'border-b-2 border-orange-500' : ''}`}>
-                    <button 
-                      onClick={() => setActiveTab(tab)} 
-                      className={activeTab === tab ? 'text-orange-500' : 'text-gray-600'}
-                    >
-                      {tab.charAt(0).toUpperCase() + tab.slice(1)}
-                    </button>
-                  </li>
-                ))}
+              <ul className="flex flex-wrap space-x-4 sm:space-x-6 border-b border-gray-300">
+                <li className={`pb-2 ${activeTab === 'description' ? 'border-b-2 border-orange-500' : ''}`}>
+                  <button 
+                    onClick={() => setActiveTab('description')} 
+                    className={`text-sm sm:text-base ${activeTab === 'description' ? 'text-orange-500' : 'text-gray-600'}`}
+                  >
+                    Description
+                  </button>
+                </li>
+                {/* Add more tabs here if needed */}
               </ul>
             </nav>
 
             <div className="relative">
               <section id="description" className={`py-4 ${activeTab !== 'description' ? 'hidden' : ''}`}>
-                <p className="mb-4">
-                  DexExchangePro is a <strong>decentralized exchange white label product that enables traders to securely
-                  trade cryptocurrencies directly from their wallets without intermediaries</strong>. Provides traders with
-                  complete control over their funds during the trading process. The platform offers an advanced view
-                  feature, real-time charts, order books, and trading volumes for data-driven decisions. It supports
-                  multiple blockchains, including Ethereum, Binance Chain, Polygon, and more to come. Traders can
-                  easily diversify their portfolios and take advantage of opportunities in different markets. Enabling
-                  traders to place zero-fee limit orders and easily create a wallet using their Google, Discord, or Twitter /
-                  X profiles. DexExchangePro offers a seamless and secure trading experience.
+                <p className="mb-4 text-sm sm:text-base">
+                  DexExchangePro is a <strong>decentralized exchange (DEX) white label product designed for businesses,
+                  entrepreneurs, and crypto enthusiasts who want to launch their own branded DEX</strong>. This powerful
+                  solution offers a professional-grade trading experience with advanced features, high liquidity, and
+                  robust security measures.
+                </p>
+                <p className="mb-4 text-sm sm:text-base">
+                  With DexExchangePro, users can enjoy <strong>seamless token swaps, liquidity provision, yield farming,
+                  and more</strong>, all within a customizable interface that reflects your brand identity. The platform
+                  supports multiple blockchain networks, ensuring wide accessibility and cross-chain functionality.
                 </p>
                 <a 
                   href="https://docs.dexkit.com/defi-products/dexexchangepro/overview" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-orange-600 hover:underline"
+                  className="text-orange-600 hover:underline text-sm sm:text-base"
                 >
                   Overview
                 </a>
-              </section>
-
-              <section id="tutorials" className={`py-4 ${activeTab !== 'tutorials' ? 'hidden' : ''}`}>
-                <ul className="list-disc pl-5 space-y-2">
-                  {tutorials.map((tutorial, index) => (
-                    <li key={index} className="text-lg">
-                      <a 
-                        href={tutorial.url} 
-                        target="_blank" 
-                        rel="noopener noreferrer" 
-                        className="text-black hover:text-orange-600 hover:underline"
-                      >
-                        {tutorial.title}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
               </section>
             </div>
 
             <div className="mt-8">
               <a 
-                href="https://dexappbuilder.dexkit.com/admin/quick-builder/exchange" 
+                href="https://dexappbuilder.dexkit.com/admin/create" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="inline-block bg-orange-500 text-black font-bold py-2 px-6 rounded hover:bg-orange-600 transition duration-300"
+                className="inline-block bg-orange-500 text-black font-bold py-2 px-4 sm:px-6 rounded hover:bg-orange-600 transition duration-300 text-sm sm:text-base"
               >
-                Deploy now
+                Open solution
               </a>
             </div>
           </div>

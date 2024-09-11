@@ -116,26 +116,26 @@ const timelineItems = [
 export default function RoadmapPage() {
   return (
     <div className="min-h-screen text-white">
-      <div className="container mx-auto px-4 py-16">
-        <h1 className="text-4xl md:text-6xl font-bold text-center mb-16">DexKit&apos;s Roadmap</h1>
+      <div className="container mx-auto px-4 py-8 sm:py-16">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center mb-8 sm:mb-16">DexKit&apos;s Roadmap</h1>
         
         <div className="relative">
           {/* Línea vertical */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-orange-500"></div>
+          <div className="absolute left-4 sm:left-1/2 top-0 bottom-0 w-1 bg-orange-500 transform sm:-translate-x-1/2"></div>
           
           {timelineItems.map((item, index) => (
-            <div key={index} className="mb-16">
+            <div key={index} className="mb-8 sm:mb-16">
               {/* Contenido */}
-              <div className={`flex items-start ${index % 2 === 0 ? 'flex-row-reverse' : ''}`}>
-                <div className="w-5/12 px-4">
-                  <div className={`bg-white bg-opacity-10 rounded-lg p-6 ${index % 2 === 0 ? 'text-right' : 'text-left'}`}>
-                    <div className="bg-orange-500 text-white font-bold py-2 px-4 rounded-full inline-block mb-4">
+              <div className={`flex flex-col sm:flex-row items-start ${index % 2 === 0 ? 'sm:flex-row-reverse' : ''}`}>
+                <div className="w-full sm:w-5/12 px-4 mb-4 sm:mb-0">
+                  <div className={`bg-white bg-opacity-10 rounded-lg p-4 sm:p-6 ${index % 2 === 0 ? 'sm:text-right' : 'text-left'}`}>
+                    <div className="bg-orange-500 text-white font-bold py-1 px-3 sm:py-2 sm:px-4 rounded-full inline-block mb-2 sm:mb-4 text-sm sm:text-base">
                       {item.date}
                     </div>
-                    <h3 className="text-2xl font-bold mb-2">{item.title}</h3>
-                    <ul className={`list-none ${index % 2 === 0 ? 'pl-0' : 'pl-4'}`}>
+                    <h3 className="text-xl sm:text-2xl font-bold mb-2">{item.title}</h3>
+                    <ul className={`list-none ${index % 2 === 0 ? 'sm:pl-0' : 'pl-0 sm:pl-4'}`}>
                       {item.items.map((subItem, subIndex) => (
-                        <li key={subIndex} className="mb-2 flex items-center">
+                        <li key={subIndex} className="mb-2 flex items-center text-sm sm:text-base">
                           {subItem.status === 'completed' && <span className="text-green-500 mr-2">✅</span>}
                           {subItem.status === 'pending' && <span className="text-yellow-500 mr-2">⏳</span>}
                           {subItem.text}
@@ -144,10 +144,10 @@ export default function RoadmapPage() {
                     </ul>
                   </div>
                 </div>
-                <div className="w-2/12 flex justify-center">
+                <div className="hidden sm:block sm:w-2/12 flex justify-center">
                   <div className="w-4 h-4 bg-orange-500 rounded-full mt-2"></div>
                 </div>
-                <div className="w-5/12 px-4"></div>
+                <div className="hidden sm:block sm:w-5/12 px-4"></div>
               </div>
             </div>
           ))}

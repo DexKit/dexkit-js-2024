@@ -37,52 +37,92 @@ export default function DexGenerator() {
 
     return (
       <div className="min-h-screen">
-        <div className="text-white py-16">
+        <div className="text-white py-8 sm:py-16">
           <div className="container mx-auto px-4 max-w-5xl">
             <div className="flex flex-col md:flex-row items-center justify-between">
-              <h1 className="text-6xl font-bold mb-4 md:mb-0 md:w-1/2">DexGenerator</h1>
-              <p className="text-xl md:w-1/2">
-                Easily create your own tokens and NFT collections on the blockchain, and take control of your digital assets.
+              <h1 className="text-4xl sm:text-6xl font-bold mb-4 md:mb-0 md:w-1/2 text-center md:text-left">DexGenerator</h1>
+              <p className="text-lg sm:text-xl md:w-1/2 text-center md:text-left">
+                Deploy open-source, secure smart contracts on the blockchain with ease, and seamlessly integrate them with prebuilt user interfaces.
               </p>
             </div>
           </div>
         </div>
 
         <div className="bg-white text-black">
-          <div className="container mx-auto px-4 py-12 max-w-4xl">
+          <div className="container mx-auto px-4 py-8 sm:py-12 max-w-4xl">
             <nav className="mb-8">
-              <ul className="flex space-x-6 border-b border-gray-300">
-                {['description', 'requirements', 'limitations', 'future updates', 'tutorials'].map((tab) => (
-                  <li key={tab} className={`pb-2 ${activeTab === tab ? 'border-b-2 border-orange-500' : ''}`}>
-                    <button 
-                      onClick={() => setActiveTab(tab)} 
-                      className={activeTab === tab ? 'text-orange-500' : 'text-gray-600'}
-                    >
-                      {tab.charAt(0).toUpperCase() + tab.slice(1)}
-                    </button>
-                  </li>
-                ))}
+              <ul className="flex flex-wrap space-x-4 sm:space-x-6 border-b border-gray-300">
+                <li className={`pb-2 ${activeTab === 'description' ? 'border-b-2 border-orange-500' : ''}`}>
+                  <button 
+                    onClick={() => setActiveTab('description')} 
+                    className={`text-sm sm:text-base ${activeTab === 'description' ? 'text-orange-500' : 'text-gray-600'}`}
+                  >
+                    Description
+                  </button>
+                </li>
+                <li className={`pb-2 ${activeTab === 'requirements' ? 'border-b-2 border-orange-500' : ''}`}>
+                  <button 
+                    onClick={() => setActiveTab('requirements')} 
+                    className={`text-sm sm:text-base ${activeTab === 'requirements' ? 'text-orange-500' : 'text-gray-600'}`}
+                  >
+                    Requirements
+                  </button>
+                </li>
+                <li className={`pb-2 ${activeTab === 'limitations' ? 'border-b-2 border-orange-500' : ''}`}>
+                  <button 
+                    onClick={() => setActiveTab('limitations')} 
+                    className={`text-sm sm:text-base ${activeTab === 'limitations' ? 'text-orange-500' : 'text-gray-600'}`}
+                  >
+                    Limitations
+                  </button>
+                </li>
+                <li className={`pb-2 ${activeTab === 'future updates' ? 'border-b-2 border-orange-500' : ''}`}>
+                  <button 
+                    onClick={() => setActiveTab('future updates')} 
+                    className={`text-sm sm:text-base ${activeTab === 'future updates' ? 'text-orange-500' : 'text-gray-600'}`}
+                  >
+                    Future Updates
+                  </button>
+                </li>
+                <li className={`pb-2 ${activeTab === 'tutorials' ? 'border-b-2 border-orange-500' : ''}`}>
+                  <button 
+                    onClick={() => setActiveTab('tutorials')} 
+                    className={`text-sm sm:text-base ${activeTab === 'tutorials' ? 'text-orange-500' : 'text-gray-600'}`}
+                  >
+                    Tutorials
+                  </button>
+                </li>
               </ul>
             </nav>
 
             <div className="relative">
               <section id="description" className={`py-4 ${activeTab !== 'description' ? 'hidden' : ''}`}>
-                <p className="mb-4">
-                  DexGenerator is an innovative platform designed for the <strong>seamless deployment of Smart Contracts</strong>,
-                  offering robust features for generating custom tokens, NFT collections, and personalized contract calls
-                  across various supported blockchain platforms. With DexGenerator, <strong>users can effortlessly create their
-                  own digital currencies, assets, loyalty points, gamified leaderboards, airdrops, split contracts, voting
-                  mechanisms, and NFT collections</strong> on their preferred blockchain. Enhanced with optional AI
-                  completion, DexGenerator supports content creators in streamlining and enhancing their creative
-                  processes. Experience the power and flexibility of DexGenerator for all your blockchain needs.
+                <p className="mb-4 text-sm sm:text-base">
+                  DexGenerator is a <strong>powerful tool designed to simplify the process of creating and deploying
+                  smart contracts on various blockchain networks</strong>. It provides a user-friendly interface for
+                  generating secure, audited smart contracts without requiring extensive coding knowledge.
                 </p>
-                <a href="https://docs.dexkit.com/defi-products/dexgenerator/overview" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">Overview</a>
+                <p className="mb-4 text-sm sm:text-base">
+                  With DexGenerator, users can <strong>easily create custom tokens, NFTs, and other blockchain-based
+                  assets</strong>. The platform offers a range of pre-built templates and customization options,
+                  allowing users to tailor their smart contracts to specific needs. Additionally, DexGenerator
+                  provides seamless integration with pre-built user interfaces, making it easy to create complete
+                  decentralized applications (DApps) with minimal effort.
+                </p>
+                <a 
+                  href="https://docs.dexkit.com/defi-products/dexgenerator/overview" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-orange-600 hover:underline text-sm sm:text-base"
+                >
+                  Overview
+                </a>
               </section>
 
               <section id="requirements" className={`py-4 ${activeTab !== 'requirements' ? 'hidden' : ''}`}>
                 <ul className="list-disc pl-5 space-y-2">
                   {requirements.map((req, index) => (
-                    <li key={index} className="text-lg">{req}</li>
+                    <li key={index} className="text-sm sm:text-base">{req}</li>
                   ))}
                 </ul>
               </section>
@@ -90,7 +130,7 @@ export default function DexGenerator() {
               <section id="limitations" className={`py-4 ${activeTab !== 'limitations' ? 'hidden' : ''}`}>
                 <ul className="list-disc pl-5 space-y-2">
                   {limitations.map((limit, index) => (
-                    <li key={index} className="text-lg">{limit}</li>
+                    <li key={index} className="text-sm sm:text-base">{limit}</li>
                   ))}
                 </ul>
               </section>
@@ -98,7 +138,7 @@ export default function DexGenerator() {
               <section id="future updates" className={`py-4 ${activeTab !== 'future updates' ? 'hidden' : ''}`}>
                 <ul className="list-disc pl-5 space-y-2">
                   {futureUpdates.map((update, index) => (
-                    <li key={index} className="text-lg">{update}</li>
+                    <li key={index} className="text-sm sm:text-base">{update}</li>
                   ))}
                 </ul>
               </section>
@@ -106,7 +146,7 @@ export default function DexGenerator() {
               <section id="tutorials" className={`py-4 ${activeTab !== 'tutorials' ? 'hidden' : ''}`}>
                 <ul className="list-disc pl-5 space-y-2">
                   {tutorials.map((tutorial, index) => (
-                    <li key={index} className="text-lg">
+                    <li key={index} className="text-sm sm:text-base">
                       <a 
                         href={tutorial.url} 
                         target="_blank" 
@@ -126,7 +166,7 @@ export default function DexGenerator() {
                 href="https://dexappbuilder.dexkit.com/contract-wizard" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="inline-block bg-orange-500 text-black font-bold py-2 px-6 rounded hover:bg-orange-600 transition duration-300"
+                className="inline-block bg-orange-500 text-black font-bold py-2 px-4 sm:px-6 rounded hover:bg-orange-600 transition duration-300 text-sm sm:text-base"
               >
                 Open solution
               </a>

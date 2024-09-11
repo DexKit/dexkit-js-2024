@@ -7,51 +7,67 @@ interface BlogPost {
   id: string;
   title: string;
   date: string;
-  imageUrl: string | null;
+  imageUrl: string;
   category: string;
   slug: string;
 }
 
 async function getBlogPosts(): Promise<BlogPost[]> {
   const filePath = path.join(process.cwd(), 'public', 'blog-posts.json');
-  const jsonData = await fs.readFile(filePath, 'utf8');
-  return JSON.parse(jsonData);
+  try {
+    const jsonData = await fs.readFile(filePath, 'utf8');
+    const posts = JSON.parse(jsonData);
+    return posts.filter((post: BlogPost) => 
+      post.id && post.title && post.slug
+    );
+  } catch (error) {
+    console.error('Error al leer los posts del blog:', error);
+    return [];
+  }
 }
 
 export default async function BlogPage() {
   const posts = await getBlogPosts();
 
   return (
-    <div className="min-h-screen text-white">
-      <main className="container mx-auto px-4 py-16">
-        <h1 className="text-6xl font-bold text-center mb-16">The DexKit Blog</h1>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {posts.map((post) => (
-            <Link href={`/blog/${post.slug}`} key={post.id} className="bg-white text-black rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="relative h-48">
-                {post.imageUrl ? (
-                  <Image 
-                    src={post.imageUrl} 
-                    alt={post.title} 
-                    fill
-                    style={{ objectFit: 'cover' }}
-                  />
-                ) : (
-                  <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                    <span className="text-gray-500">No image available</span>
+    <div className="min-h-screen">
+      <main>
+        <div className="container mx-auto px-4 py-8 sm:py-16">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center mb-8 sm:mb-16 text-white">Blog</h1>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            {posts.map((post) => (
+              <Link key={post.id} href={`/blog/${post.slug}`} className="block">
+                <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+                  <div className="relative h-48 sm:h-56 md:h-64">
+                    <Image 
+                      src={post.imageUrl || '/imgs/default-blog-image.jpg'} 
+                      alt={post.title} 
+                      fill
+                      style={{ objectFit: 'cover' }}
+                    />
                   </div>
-                )}
-                <div className="absolute top-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">
-                  {post.category}
+                  <div className="p-4 sm:p-6">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-xs sm:text-sm text-gray-500">{post.date || 'Fecha no disponible'}</span>
+                      <span className="text-xs sm:text-sm bg-orange-400 text-white px-2 py-1 rounded-full">{post.category || 'Sin categoría'}</span>
+                    </div>
+                    <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">{post.title}</h2>
+                    <div className="flex items-center">
+                      <Image 
+                        src="/imgs/dexkit-logo-white.svg"
+                        alt="DexKit Logo" 
+                        width={24} 
+                        height={24} 
+                        className="mr-2"
+                      />
+                      <span className="text-sm text-gray-600">DexKit</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="p-4">
-                <h2 className="text-xl font-semibold mb-2">{post.title}</h2>
-                <p className="text-sm text-gray-400">{post.date}</p>
-              </div>
-            </Link>
-          ))}
+              </Link>
+            ))}
+          </div>
         </div>
       </main>
     </div>
