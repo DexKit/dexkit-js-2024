@@ -9,6 +9,10 @@
 @layer base {
   body {
     font-family: var(--font-sora);
+    background: radial-gradient(circle at left center, #5D23DE 46%, #000000 85%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
   }
 }
 

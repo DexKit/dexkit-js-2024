@@ -9,9 +9,9 @@ import Footer from './components/Footer'
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-4">
+    <div className="w-full">
       <Header />
-      <main>
+      <main className="w-full">
         <Hero />
         <ProblemsAndSolutions />
         <WhatIsDexKit />

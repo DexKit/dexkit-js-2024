@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { sora } from './fonts';
 import ThemeWrapper from './components/ThemeWrapper';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: "DexKit - Create Your Own Branded DApps",
@@ -16,9 +17,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={sora.variable}>
-      <ThemeWrapper>
-        {children}
-      </ThemeWrapper>
+      <head>
+        <Script
+          src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
+          strategy="lazyOnload"
+        />
+      </head>
+      <body className={sora.className}>
+        <ThemeWrapper>
+          {children}
+        </ThemeWrapper>
+      </body>
     </html>
   );
 }

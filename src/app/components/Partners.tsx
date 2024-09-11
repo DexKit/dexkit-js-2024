@@ -1,33 +1,46 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Partners() {
   const partners = [
-    { name: '0x', logo: '/partner-logos/0x.webp' },
-    { name: 'Optimism', logo: '/partner-logos/optimism.webp' },
-    { name: 'Arbitrum', logo: '/partner-logos/arbitrum.webp' },
-    { name: 'Polygon', logo: '/partner-logos/polygon.webp' },
-    { name: 'Base', logo: '/partner-logos/base.webp' },
-    { name: 'Polygon Studios', logo: '/partner-logos/polygonstudios.webp' },
-    { name: 'The Graph', logo: '/partner-logos/thegraph.webp' },
-    { name: 'CoinGecko', logo: '/partner-logos/coingecko.webp' },
-    { name: 'Chainlink', logo: '/partner-logos/chainlink.webp' },
-    { name: 'Crypto.com', logo: '/partner-logos/cryptocom.webp' },
-    { name: 'TradingView', logo: '/partner-logos/tradingview.webp' },
-    { name: 'Darkblock', logo: '/partner-logos/darkblock.webp' },
-    { name: 'Thirdweb', logo: '/partner-logos/thirdweb.webp' },
-    { name: 'Gitcoin', logo: '/partner-logos/gitcoin.webp' },
-    { name: 'Giveth', logo: '/partner-logos/giveth.webp' },
+    { name: '0x', logo: '/partner-logos/0x.svg', url: 'https://0x.org' },
+    { name: 'Optimism', logo: '/partner-logos/optimism.svg', url: 'https://optimism.io/' },
+    { name: 'Arbitrum', logo: '/partner-logos/arbitrum.svg', url: 'https://arbitrum.io/' },
+    { name: 'Polygon', logo: '/partner-logos/polygon.svg', url: 'https://polygon.technology/' },
+    { name: 'Base', logo: '/partner-logos/base.svg', url: 'https://base.org' },
+    { name: 'Polygon Studios', logo: '/partner-logos/polygonstudios.svg', url: 'https://polygonstudios.com/' },
+    { name: 'The Graph', logo: '/partner-logos/thegraph.svg', url: 'https://thegraph.com/' },
+    { name: 'CoinGecko', logo: '/partner-logos/coingecko.svg', url: 'https://www.coingecko.com/' },
+    { name: 'Chainlink', logo: '/partner-logos/chainlink.svg', url: 'https://chain.link/' },
+    { name: 'Crypto.com', logo: '/partner-logos/cryptocom.svg', url: 'https://crypto.com' },
+    { name: 'TradingView', logo: '/partner-logos/tradingview.svg', url: 'https://www.tradingview.com/' },
+    { name: 'Darkblock', logo: '/partner-logos/darkblock.webp', url: 'https://darkblock.io/' },
+    { name: 'Thirdweb', logo: '/partner-logos/thirdweb.svg', url: 'https://thirdweb.com/' },
+    { name: 'Gitcoin', logo: '/partner-logos/gitcoin.svg', url: 'https://www.gitcoin.co/' },
+    { name: 'Giveth', logo: '/partner-logos/giveth.svg', url: 'https://giveth.io/' },
   ]
 
   return (
     <section className="py-16 bg-white w-full">
-      <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">Partners & Integrations</h2>
+      <div className="container mx-auto px-4">
+        <h2 className="text-4xl font-bold mb-12 text-center text-gray-800">Partners & Integrations</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
           {partners.map((partner) => (
-            <div key={partner.name} className="flex justify-center items-center">
-              <Image src={partner.logo} alt={partner.name} width={120} height={60} objectFit="contain" />
-            </div>
+            <Link 
+              key={partner.name} 
+              href={partner.url} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex justify-center items-center transition-transform duration-300 hover:scale-110"
+            >
+              <Image 
+                src={partner.logo} 
+                alt={partner.name} 
+                width={240} 
+                height={120} 
+                className="object-contain"
+              />
+            </Link>
           ))}
         </div>
       </div>
