@@ -21,10 +21,10 @@ export default function Partners() {
   ]
 
   return (
-    <section className="py-16 bg-white w-full">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12 text-center text-gray-800">Partners & Integrations</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
+    <section className="py-12 sm:py-16 bg-white w-full">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12 text-center text-gray-800">Partners & Integrations</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 items-center">
           {partners.map((partner) => (
             <Link 
               key={partner.name} 
@@ -33,13 +33,14 @@ export default function Partners() {
               rel="noopener noreferrer"
               className="flex justify-center items-center transition-transform duration-300 hover:scale-110"
             >
-              <Image 
-                src={partner.logo} 
-                alt={partner.name} 
-                width={240} 
-                height={120} 
-                className="object-contain"
-              />
+              <div className="w-40 h-40 sm:w-44 sm:h-44 md:w-48 md:h-48 relative flex items-center justify-center">
+                <Image 
+                  src={partner.logo} 
+                  alt={partner.name} 
+                  fill
+                  className="object-contain p-2"
+                />
+              </div>
             </Link>
           ))}
         </div>

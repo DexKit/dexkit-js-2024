@@ -29,21 +29,21 @@ export default function Solutions() {
   ]
 
   return (
-    <section className="py-16 w-full">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12 text-center text-white">Solutions</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <section className="py-12 sm:py-16 w-full">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12 text-center text-white">Solutions</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {solutions.map((solution) => (
             <div key={solution.name} className="relative pt-10">
               <div className="absolute top-0 left-4 z-10">
-                <h3 className="text-xl font-semibold bg-orange-400 text-black py-2 px-4 rounded-lg inline-block">
+                <h3 className="text-lg sm:text-xl font-semibold bg-orange-400 text-black py-2 px-4 rounded-lg inline-block">
                   {solution.name}
                 </h3>
               </div>
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden p-6 pt-8">
-                <p className="text-gray-700 mb-4 text-xl">{solution.description}</p>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden p-4 sm:p-6 pt-8">
+                <p className="text-gray-700 mb-4 text-base sm:text-lg">{solution.description}</p>
                 <div className="text-right">
-                  <Link href={`/${solution.name.toLowerCase()}`} className="text-gray-400 hover:text-orange-400">
+                  <Link href={`/${solution.name.toLowerCase()}`} className="text-gray-400 hover:text-orange-400 text-sm sm:text-base">
                     Learn more
                   </Link>
                 </div>

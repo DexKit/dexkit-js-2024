@@ -35,24 +35,24 @@ export default function ProblemsAndSolutions() {
     ];
   
     return (
-      <section className="py-16 bg-white w-full">
-        <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-12 text-center text-black">What problems exist in the ecosystem and how do we help to solve them?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <section className="py-12 sm:py-16 bg-white w-full">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12 text-center text-black">What problems exist in the ecosystem and how do we help to solve them?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             {problems.map((problem, index) => (
-              <div key={index} className="flex items-start">
-                <div className="mr-6 flex-shrink-0">
+              <div key={index} className="flex flex-col sm:flex-row items-center sm:items-start">
+                <div className="mb-4 sm:mb-0 sm:mr-6 flex-shrink-0">
                   <Image 
                     src={problem.icon} 
                     alt={problem.title} 
                     width={80} 
                     height={80}
-                    className={`${index % 2 === 0 ? "text-purple-600" : "text-orange-400"} w-20 h-20`}
+                    className={`${index % 2 === 0 ? "text-purple-600" : "text-orange-400"} w-16 h-16 sm:w-20 sm:h-20`}
                   />
                 </div>
-                <div>
-                  <h3 className="text-2xl font-semibold mb-2 text-black">{problem.title}</h3>
-                  <p className="text-gray-700 text-xl">{problem.description}</p>
+                <div className="text-center sm:text-left">
+                  <h3 className="text-xl sm:text-2xl font-semibold mb-2 text-black">{problem.title}</h3>
+                  <p className="text-gray-700 text-base sm:text-lg">{problem.description}</p>
                 </div>
               </div>
             ))}

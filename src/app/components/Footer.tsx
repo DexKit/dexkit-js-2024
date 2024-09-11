@@ -2,8 +2,20 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState, useEffect } from 'react'
 
 export default function Footer() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const socialNetworks = [
     { name: 'Discord', icon: 'fa-brands fa-discord', url: 'https://discord.com/invite/dexkit-official-943552525217435649' },
     { name: 'YouTube', icon: 'fa-brands fa-youtube', url: 'https://www.youtube.com/@DexKit' },
@@ -23,11 +35,11 @@ export default function Footer() {
   };
 
   return (
-    <footer className="py-16 w-full text-white">
+    <footer className="py-8 md:py-16 w-full text-white">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-start">
-          <div className="mb-8 md:mb-0 pl-4">
-            <div style={{ width: '200px', height: '76px' }}>
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
+          <div className="mb-8 md:mb-0">
+            <div style={{ width: isMobile ? '150px' : '200px', height: isMobile ? '57px' : '76px' }}>
               <Image 
                 src="/imgs/dexkit-logo-white.svg" 
                 alt="DexKit Logo" 
@@ -37,9 +49,9 @@ export default function Footer() {
               />
             </div>
           </div>
-          <div className="w-full md:w-1/2 pr-4">
-            <h3 className="text-4xl font-semibold mb-4">Newsletter</h3>
-            <p className="mb-4">Join the DexKit community and stay ahead of the rapidly-evolving DeFi landscape.</p>
+          <div className="w-full md:w-1/2">
+            <h3 className="text-2xl md:text-4xl font-semibold mb-4 text-center md:text-left">Newsletter</h3>
+            <p className="mb-4 text-center md:text-left">Join the DexKit community and stay ahead of the rapidly-evolving DeFi landscape.</p>
             <form className="flex">
               <input 
                 type="email" 
@@ -52,7 +64,7 @@ export default function Footer() {
             </form>
           </div>
         </div>
-        <div className="flex justify-start space-x-6 mt-8 pl-4">
+        <div className="flex flex-wrap justify-center md:justify-start space-x-4 md:space-x-6 mt-8">
           {socialNetworks.map((social) => (
             <Link 
               key={social.name} 
@@ -60,7 +72,7 @@ export default function Footer() {
               {...linkProps}
             >
               <span className="sr-only">{social.name}</span>
-              <i className={`${social.icon} text-2xl`}></i>
+              <i className={`${social.icon} text-xl md:text-2xl`}></i>
             </Link>
           ))}
         </div>

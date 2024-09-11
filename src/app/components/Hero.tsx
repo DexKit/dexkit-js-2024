@@ -1,20 +1,26 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center">
-        <div className="md:w-1/2 mb-8 md:mb-0 text-center md:text-right">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+    <div className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
+        <div className="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-white">
             Create your own<br />
             branded <span className="text-orange-400">DApps.</span>
           </h1>
-          <p className="text-lg md:text-xl mb-6 text-white">
+          <p className="text-base sm:text-lg md:text-xl mb-6 text-white">
             With DexKit&apos;s no-code/low-code tools.
           </p>
-          <button className="bg-orange-400 text-black py-3 px-6 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-lg">
+          <Link 
+            href="https://dexappbuilder.dexkit.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-orange-400 text-black py-2 px-4 sm:py-3 sm:px-6 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-sm sm:text-base md:text-lg"
+          >
             Create my DApp now!
-          </button>
+          </Link>
         </div>
         <div className="md:w-1/2 flex justify-center">
           <Image
@@ -22,7 +28,7 @@ export default function Hero() {
             alt="DexKit Web3 Illustration"
             width={350}
             height={350}
-            className="w-auto h-auto"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
           />
         </div>
       </div>
