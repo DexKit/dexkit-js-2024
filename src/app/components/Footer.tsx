@@ -44,7 +44,7 @@ export default function Footer() {
               <input 
                 type="email" 
                 placeholder="Your email address" 
-                className="flex-grow p-2 rounded-l-md bg-white text-white placeholder-gray-400"
+                className="flex-grow p-2 rounded-l-md bg-transparent border border-gray-400 text-white placeholder-gray-400"
               />
               <button type="submit" className="bg-orange-400 text-white p-2 rounded-r-md hover:bg-orange-500 transition duration-300">
                 <i className="fas fa-paper-plane"></i>

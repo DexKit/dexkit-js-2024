@@ -7,7 +7,7 @@ export default function Header() {
   const menuItems = [
     { 
       title: 'About us', 
-      href: '/about-us',
+      href: '#',
       subItems: [
         { name: 'Mission, vision and values', href: 'https://docs.dexkit.com/welcome/the-startup/mission-vision-and-values', external: true },
         { name: 'Our team', href: 'https://docs.dexkit.com/welcome/the-startup/meet-the-team', external: true },
@@ -16,14 +16,14 @@ export default function Header() {
     },
     { 
       title: 'Product', 
-      href: '/product',
+      href: '#',
       subItems: [
         { name: 'DexAppBuilder', href: '/dexappbuilder', external: false },
       ]
     },
     { 
       title: 'Solutions', 
-      href: '/solutions',
+      href: '#',
       subItems: [
         { name: 'DexSwap', href: '/dexswap', external: false },
         { name: 'DexNFTMarket', href: '/dexnftmarket', external: false },
@@ -35,7 +35,7 @@ export default function Header() {
     },
     { 
       title: 'Our token', 
-      href: '/our-token',
+      href: '#',
       subItems: [
         { name: 'Tokenomics', href: 'https://docs.dexkit.com/welcome/our-token/tokenomics', external: true },
         { name: 'Utilities', href: 'https://docs.dexkit.com/welcome/our-token/utilities', external: true },
@@ -45,17 +45,17 @@ export default function Header() {
     },
     { 
       title: 'Roadmap', 
-      href: '/roadmap',
+      href: '#',
       subItems: []
     },
     { 
       title: 'Blog', 
-      href: '/blog',
+      href: '#',
       subItems: []
     },
     { 
       title: 'Help center', 
-      href: '/help-center',
+      href: '#',
       subItems: [
         { name: 'User support', href: 'https://dexkit.atlassian.net/servicedesk/customer/portal/2', external: true },
         { name: 'Feature request', href: 'https://dexkit.canny.io/feature-requests', external: true },
@@ -79,14 +79,14 @@ export default function Header() {
           <ul className="flex justify-center space-x-6 items-center">
             {menuItems.map((item) => (
               <li key={item.title} className="relative group">
-                <Link href={item.href} className="text-white hover:text-orange-400 transition-colors duration-300 py-2 flex items-center">
+                <span className="text-white hover:text-orange-400 transition-colors duration-300 py-2 flex items-center cursor-default">
                   {item.title}
                   {item.subItems.length > 0 && (
                     <span className="ml-1">
                       <i className="fas fa-chevron-down text-xs"></i>
                     </span>
                   )}
-                </Link>
+                </span>
                 {item.subItems.length > 0 && (
                   <div className="absolute left-0 mt-0 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 group-hover:opacity-100 transition-opacity duration-200 invisible group-hover:visible">
                     <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">

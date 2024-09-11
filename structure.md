@@ -2,28 +2,36 @@
 └── 📁dexkit-js
     └── 📁public
         └── 📁imgs
+            └── accesibility.svg
+            └── brand.svg
             └── d-letter.webp
             └── dexkit-logo-black.png
+            └── dexkit-logo-black.svg
             └── dexkit-logo-white.png
+            └── dexkit-logo-white.svg
+            └── easy.svg
+            └── limited.svg
+            └── nocode.svg
+            └── ownership.svg
             └── platform.webp
             └── web3.webp
             └── worker.webp
         └── 📁partner-logos
-            └── 0x.webp
-            └── arbitrum.webp
-            └── base.webp
-            └── chainlink.webp
-            └── coingecko.webp
-            └── cryptocom.webp
+            └── 0x.svg
+            └── arbitrum.svg
+            └── base.svg
+            └── chainlink.svg
+            └── coingecko.svg
+            └── cryptocom.svg
             └── darkblock.webp
-            └── gitcoin.webp
-            └── giveth.webp
-            └── optimism.webp
-            └── polygon.webp
-            └── polygonstudios.webp
-            └── thegraph.webp
-            └── thirdweb.webp
-            └── tradingview.webp
+            └── gitcoin.svg
+            └── giveth.svg
+            └── optimism.svg
+            └── polygon.svg
+            └── polygonstudios.svg
+            └── thegraph.svg
+            └── thirdweb.svg
+            └── tradingview.svg
         └── blog-posts.json
     └── 📁src
         └── 📁app

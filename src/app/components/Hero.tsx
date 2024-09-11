@@ -12,7 +12,7 @@ export default function Hero() {
           <p className="text-lg md:text-xl mb-6 text-white">
             With DexKit&apos;s no-code/low-code tools.
           </p>
-          <button className="bg-orange-400 text-black py-3 px-6 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-lg font-semibold">
+          <button className="bg-orange-400 text-black py-3 px-6 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-lg">
             Create my DApp now!
           </button>
         </div>
