@@ -1,39 +1,69 @@
-import fs from 'fs'
-import path from 'path'
+import Image from 'next/image';
+import fs from 'fs/promises';
+import path from 'path';
+import { notFound } from 'next/navigation';
 
 interface BlogPost {
-  id: string
-  title: string
-  date: string
-  content: string
+  id: string;
+  title: string;
+  date: string;
+  imageUrl: string;
+  category: string;
+  slug: string;
+  content: string;
 }
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
-  const blogPosts: BlogPost[] = JSON.parse(
-    fs.readFileSync(path.join(process.cwd(), 'src', 'public', 'blog-posts.json'), 'utf-8')
-  )
+async function getBlogPost(slug: string): Promise<BlogPost | null> {
+  const filePath = path.join(process.cwd(), 'public', 'blog-posts.json');
+  const jsonData = await fs.readFile(filePath, 'utf8');
+  const posts: BlogPost[] = JSON.parse(jsonData);
+  return posts.find(post => post.slug === slug) || null;
+}
 
-  const post = blogPosts.find(p => p.id === params.slug)
+export default async function BlogPostPage({ params }: { params: { slug: string } }) {
+  const post = await getBlogPost(params.slug);
 
   if (!post) {
-    return <div>Article not found.</div>
+    notFound();
   }
 
   return (
-    <div className="container mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
-      <p className="text-gray-600 dark:text-gray-400 mb-8">{post.date}</p>
-      <div className="prose dark:prose-invert" dangerouslySetInnerHTML={{ __html: post.content }} />
+    <div className="min-h-screen">
+      <main>
+        <div className="container mx-auto px-4 py-16">
+          <h1 className="text-4xl md:text-6xl font-bold text-center mb-8 text-white">{post.title}</h1>
+          
+          <div className="flex items-center justify-center mb-8">
+            <Image 
+              src="/imgs/dexkit-logo-white.svg"
+              alt="DexKit Logo" 
+              width={40} 
+              height={40} 
+              className="mr-4"
+            />
+            <span className="text-xl text-white">{post.date}</span>
+          </div>
+
+          <div className="relative w-full h-[50vh] mb-8">
+            <Image 
+              src={post.imageUrl} 
+              alt={post.title} 
+              fill
+              style={{ objectFit: 'contain' }}
+              className="rounded-lg"
+            />
+          </div>
+        </div>
+
+        <div className="w-full bg-white shadow-lg">
+          <div className="container mx-auto">
+            <div 
+              className="prose prose-lg max-w-none py-16 px-4 md:px-8"
+              dangerouslySetInnerHTML={{ __html: post.content }}
+            />
+          </div>
+        </div>
+      </main>
     </div>
-  )
-}
-
-export async function generateStaticParams() {
-  const blogPosts: BlogPost[] = JSON.parse(
-    fs.readFileSync(path.join(process.cwd(), 'src', 'public', 'blog-posts.json'), 'utf-8')
-  )
-
-  return blogPosts.map((post) => ({
-    slug: post.id,
-  }))
+  );
 }

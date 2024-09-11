@@ -15,3 +15,12 @@
     padding: 0;
   }
 }
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prose figure {
+  text-align: center;
+}
