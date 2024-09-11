@@ -1,0 +1,40 @@
+import Image from 'next/image'
+
+export default function WhatIsDexKit() {
+    return (
+      <section className="py-16 bg-gradient-to-br from-purple-600 to-purple-900 text-white">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
+          <div className="md:w-1/2 relative mb-8 md:mb-0 md:pr-8">
+            <div className="relative w-full max-w-md mx-auto md:ml-auto">
+              <Image
+                src="/imgs/worker.webp"
+                alt="DexKit Worker"
+                width={500}
+                height={500}
+                className="relative z-10"
+              />
+              <Image
+                src="/imgs/d-letter.webp"
+                alt="D Letter"
+                width={400}
+                height={400}
+                className="absolute top-0 left-0 z-0 opacity-30"
+              />
+            </div>
+          </div>
+          <div className="md:w-1/2 md:pl-8">
+            <h2 className="text-4xl font-bold mb-6">What is DexKit?</h2>
+            <p className="mb-4">
+              DexKit is a blockchain software company committed to making Decentralized Finance (DeFi) accessible to everyone.
+            </p>
+            <p className="mb-4">
+              Our suite of no-code/low-code tools and solutions empower entrepreneurs to effortlessly create branded DApps (decentralized applications) in the Web3 space while ensuring complete ownership and control over their creations.
+            </p>
+            <p>
+              At DexKit, we believe that DeFi has the potential to revolutionize the financial industry, and we are dedicated to building this technology.
+            </p>
+          </div>
+        </div>
+      </section>
+    )
+  }

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "first-article",
+    "title": "My First Article",
+    "date": "2024-09-08",
+    "content": "<p>This is the content of my first article...</p>"
+  },
+  {
+    "id": "second-article",
+    "title": "My Second Article",
+    "date": "2024-09-09",
+    "content": "<p>This is the content of my second article...</p>"
+  }
+]
