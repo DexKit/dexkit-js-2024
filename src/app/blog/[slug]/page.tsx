@@ -1,28 +1,50 @@
-import Image from 'next/image';
-import fs from 'fs/promises';
+import fs from 'fs';
 import path from 'path';
+import matter from 'gray-matter';
+import { remark } from 'remark';
+import html from 'remark-html';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
 interface BlogPost {
-  id: string;
-  title: string;
-  author: string;
-  date: string;
-  imageUrl: string;
-  category: string;
   slug: string;
-  content: string;
+  title: string;
+  date: string;
+  author: string;
+  category: string;
+  imageUrl: string;
+  contentHtml: string;
 }
 
-async function getBlogPost(slug: string): Promise<BlogPost | null> {
-  const filePath = path.join(process.cwd(), 'public', 'blog-posts.json');
-  const jsonData = await fs.readFile(filePath, 'utf8');
-  const posts: BlogPost[] = JSON.parse(jsonData);
-  return posts.find(post => post.slug === slug) || null;
+async function getPostData(slug: string): Promise<BlogPost | null> {
+  const postsDirectory = path.join(process.cwd(), 'content', 'blog');
+  const fullPath = path.join(postsDirectory, `${slug}.md`);
+
+  try {
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const { data, content } = matter(fileContents);
+
+    const processedContent = await remark()
+      .use(html)
+      .process(content);
+    const contentHtml = processedContent.toString();
+
+    return {
+      slug,
+      title: data.title,
+      date: data.date,
+      author: data.author,
+      category: data.category,
+      imageUrl: data.imageUrl,
+      contentHtml,
+    };
+  } catch (error) {
+    return null;
+  }
 }
 
 export default async function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = await getBlogPost(params.slug);
+  const post = await getPostData(params.slug);
 
   if (!post) {
     notFound();
@@ -64,7 +86,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
           <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
             <div 
               className="prose prose-sm sm:prose-base md:prose-lg max-w-none py-4 md:py-6"
-              dangerouslySetInnerHTML={{ __html: post.content }}
+              dangerouslySetInnerHTML={{ __html: post.contentHtml }}
             />
           </div>
         </div>

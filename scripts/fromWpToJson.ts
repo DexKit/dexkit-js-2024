@@ -1,19 +1,18 @@
-const fetch = require('node-fetch');
-const fs = require('fs').promises;
-const path = require('path');
-const cheerio = require('cheerio');
+import fetch from 'node-fetch';
+import fs from 'fs/promises';
+import path from 'path';
+import * as cheerio from 'cheerio';
 
-async function downloadImage(url, filepath) {
+async function downloadImage(url: string, filepath: string): Promise<void> {
   const response = await fetch(url);
-  const buffer = await response.buffer();
-  await fs.writeFile(filepath, buffer);
+  const buffer = await response.arrayBuffer();
+  await fs.writeFile(filepath, Buffer.from(buffer));
 }
 
-function normalizeHeaders(content) {
+function normalizeHeaders(content: string): string {
   const $ = cheerio.load(content);
   
   $('form').remove();
-
 
   $(':contains("Share with your friends")').closest('div').remove();
   $(':contains("Your Name")').closest('div').remove();
@@ -41,9 +40,33 @@ function normalizeHeaders(content) {
   return $.html();
 }
 
-async function fetchPosts() {
+interface WPPost {
+  id: number;
+  title: { rendered: string };
+  date: string;
+  content: { rendered: string };
+  excerpt: { rendered: string };
+  slug: string;
+  _embedded: {
+    'wp:featuredmedia'?: Array<{ source_url: string }>;
+    'wp:term': Array<Array<{ name: string }>>;
+  };
+}
+
+interface BlogPost {
+  id: number;
+  title: string;
+  date: string;
+  content: string;
+  excerpt: string;
+  slug: string;
+  category: string;
+  imageUrl: string | null;
+}
+
+async function fetchPosts(): Promise<BlogPost[]> {
   const response = await fetch('https://dexkit.com/wp-json/wp/v2/posts?_embed&per_page=100');
-  const posts = await response.json();
+  const posts = await response.json() as WPPost[];
   return Promise.all(posts.map(async post => {
     let imageUrl = post._embedded['wp:featuredmedia'] ? post._embedded['wp:featuredmedia'][0].source_url : null;
     if (imageUrl) {
@@ -65,11 +88,11 @@ async function fetchPosts() {
   }));
 }
 
-async function savePosts(posts) {
+async function savePosts(posts: BlogPost[]): Promise<void> {
   await fs.writeFile('public/blog-posts.json', JSON.stringify(posts, null, 2));
 }
 
-async function migrate() {
+async function migrate(): Promise<void> {
   await fs.mkdir(path.join(process.cwd(), 'public', 'blog-images'), { recursive: true });
   const posts = await fetchPosts();
   await savePosts(posts);
