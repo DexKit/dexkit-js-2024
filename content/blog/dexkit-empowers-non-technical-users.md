@@ -21,9 +21,9 @@ With the latest platform update, managing DEX aggregators becomes even easier wi
 
 DexKit solutions are getting more powerful with each update 💪
 
-#### Another important additions on the latest SuperApp update
+### Another important additions on the latest SuperApp update
 
-Users can now mint their Kittygotchi NFT pets on Ethereum, the most popular network for NFT integrations. DexKit has also added new customizations for the kittens, allowing users to create unique looks based on their $KIT holdings. 
+Users can now mint their Kittygotchi NFT pets on Ethereum, the most popular network for NFT integrations. DexKit has also added new customizations for the kittens, allowing users to create unique looks based on their $KIT holdings.
 
 In the same way, DexKit added a lot of new customizations for the kittens (more clothes, eyes, noses…). No more boring and worn-out outfit! Get a new look based in your $KIT holdings.
 

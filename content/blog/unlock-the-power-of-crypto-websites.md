@@ -13,8 +13,6 @@ As mentioned and described in previous editions, our [Crypto Website Builder Wiz
 
 To assist you in making an informed decision, we have provided a comparative table below, showcasing the features of the three major players in the digital collectibles industry alongside our product. This table will serve as a quick reference to help you identify the most suitable option based on your specific needs.
 
- 
-
 **[Wizard by DexKit](https://whitelabel-nft.dexkit.com/admin/create?_ga=2.19318648.1506910254.1705192601-1648656589.1702664712)**
 
 **[OpenSea](https://opensea.io/)**
@@ -23,7 +21,7 @@ To assist you in making an informed decision, we have provided a comparative tab
 
 **[Superrare](https://superrare.com/)**
 
-**Compatible chains**
+### Compatible chains
 
 Arbitrum, Avalanche, BNB Chain, Ethereum, Optimism, Polygon
 
@@ -33,7 +31,7 @@ Ethereum, Tezos, Solana, Polygon
 
 Ethereum
 
-**Token types**
+### Token types
 
 ERC-721, ERC-1155
 
@@ -43,7 +41,7 @@ ERC-721, ERC-1155
 
 ERC-721
 
-**Fees**
+### Fees
 
 From 0%, creators choice and can be changed anytime.
 
@@ -53,7 +51,7 @@ From 0%, creators choice and can be changed anytime.
 
 3% on top
 
-**Curating**
+### Curating
 
 Allow anyone to list their digital assets for sale
 
@@ -63,7 +61,7 @@ Allow anyone to list their digital assets for sale
 
 Only for certain artists
 
-**Community**
+### Community
 
 Creator should gather and manage his own community.
 
@@ -73,7 +71,7 @@ Medium active community
 
 Low but engaged community
 
-**Market size**
+### Market size
 
 Up to creators advertisement expenses.
 
@@ -83,7 +81,7 @@ Moderate
 
 Small
 
-**Availability**
+### Availability
 
 Worldwide
 
@@ -93,7 +91,7 @@ Worldwide
 
 Worldwide
 
-**Payment methods**
+### Payment methods
 
 Up to creators. Any token on any supported network can be imported and asked for payment.
 
@@ -103,7 +101,7 @@ ETH, MATIC, MoonPay (credit card)
 
 ETH only
 
-**Limitations**
+### Limitations
 
 Impossible to ban. Nobody manage user databases. Total ownership for user
 
@@ -113,7 +111,7 @@ Being banned is possible. Centralized database.
 
 Being banned is possible. Centralized database.
 
-#### Conclusion
+## Conclusion
 
 In the spirit of transparency and fairness, **we can confidently conclude that OpenSea and Rarible are the ideal platforms for newcomers to the world of digital collectibles.** These platforms have invested considerable time in refining their products and have gained genuine recognition for their commitment to quality.
 

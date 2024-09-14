@@ -15,9 +15,7 @@ Ken’s openness extends to discussing challenges faced, offering constructive f
 
 We present this interview as a genuine and unadulterated conversation with Ken, providing a raw and unfiltered glimpse into his experiences with DexKit. We express our sincere gratitude to Ken for his transparency and the valuable time he dedicated to sharing his journey.
 
-#### 
-
-Can you tell us a bit about yourself and your hobbies? How did you get started in the world of NFTs?
+### Can you tell us a bit about yourself and your hobbies? How did you get started in the world of NFTs?
 
 Quick bio…  I’m 54, married 27 years, 2 kids out of college.  I live in the northeast US.  I work as a data analyst for my 9-5, and I also run a LLC on the side for Web Development and Hosting.  I do design, I write code.  In short, I’ve been working with computers since long before it was cool. I did 2 different stints as a live musician (guitar).  After 30 some-odd years I still love to play.  Just not with a band right now.
 
@@ -33,9 +31,7 @@ So I created a collection of [the 256 Web Safe Colors](https://wax.atomichub.io
 
 ![WebSafe colors](https://dexkit.com/wp-content/uploads/websafecolors.png)
 
-Web Safe Colors NFT Collection
-
-#### How did you first come across DexKit products, and what made you choose them for your NFT projects?
+### How did you first come across DexKit products, and what made you choose them for your NFT projects?
 
 The story I tell above was only the very beginning and how I got started in this ecosystem.  After a year or so, and many ups and downs using the WAX chain, I discovered OpenSea.  I had been looking for another system to use, and after doing a bunch of research, that is where I settled. I collected a whole lot of stuff. Learned the ins and outs of how people use that system, and all the chains it supports. I then created a couple of my own collections. 4 of them, as it turns out now. Including a [Polygon Matic version of the Web Safe Colors](https://opensea.io/collection/dp-websafecolors).
 
@@ -47,7 +43,7 @@ At that point, there was still one lingering problem.  The system was only made
 
 So there was a bit of a delay while they added support that allowed me to sell stuff I created.
 
-#### As a creator, what specific features or tools in DexKit have been the most helpful to you in your NFT journey?
+### As a creator, what specific features or tools in DexKit have been the most helpful to you in your NFT journey?
 
 I can only speak of one tool.  The Marketplace.  To be honest, that is the only one I’ve ever used. The reason I was interested in the Marketplace was that it offered me the ability to create my OWN site, that I could design and build.  I could use my OWN domain.  It’s mine.  No middleman.  And they were offering to host the entire thing for free.  
 
@@ -63,7 +59,7 @@ One of the greatest parts of those Custom Layouts is the ability to drop in my o
 
 By example, all of my sites include a widget for sharing to social media.  I built it using plain HTML and Javascript, and it works great!
 
-#### Have you faced any challenges along the way while using DexKit, and how did you overcome them?
+### Have you faced any challenges along the way while using DexKit, and how did you overcome them?
 
 There have been a few.  There are still errors in the admin area.  While I was typing this, I popped over to the admin area to test one error…  It’s still there.  If you try to add an item to the Featured Items section, it crashes the app with no way to recover.  I’ve known about this for a while, and just haven’t complained.  Because I rather prefer to use the Custom Page editor anyway.  That allows for MUCH more flexibility in design and there are no errors.
 
@@ -75,7 +71,7 @@ I use the Marketplace myself for more than just maintaining the storefront.  I 
 
 One other suggestion is this…  The ability to manage files on the server that SEO services look for.  **Robots.txt** and **sitemap.xml**.  There is currently no way to see the files on the root of the server, as everything is run on a CMS.  The ability to create and manage those files would be a great help in making the site easier to find by search engines.
 
-#### Are there any specific DexKit features or improvements you'd like to see in the future?
+### Are there any specific DexKit features or improvements you'd like to see in the future?
 
 I have already submitted a few things.  And many of the changes I suggested worked well.
 
@@ -91,11 +87,11 @@ It’s not impossible to work with.  But it is kind of clunky.  And, really, I
 
 Another oddity about this (a good oddity) is that if you come across a DexKit marketplace that is selling an NFT that you happen to own, you can put it up for sale yourself.  On their site.  That is very much by design.  And that is how I am able to sell different things all in one place.
 
-#### In what ways do you think DexKit stands out from other similar products or platforms in the NFT space?
+### In what ways do you think DexKit stands out from other similar products or platforms in the NFT space?
 
 I’m not even sure that there is another system like this one, or that even compares.  Every other marketplace I’ve ever seen is more like OpenSea or Rareable, where you are using their site and their domain to make sales.  This is the only one I’ve ever seen that allows you to create your site on your OWN top level domain, with no restrictions.  Actually, if you need to, you can use a subdomain too.  Which I did.  Of my 3 marketplaces, 2 of them run on subdomains.  Which is super convenient because that way I don’t need to buy yet another domain.  The nature of subdomains is that one site does not interfere with the main site.
 
-#### What advice would you give to other creators who are just starting their NFT journey and considering using DexKit?
+### What advice would you give to other creators who are just starting their NFT journey and considering using DexKit?
 
 Have patience.  Read the screen.  Know what you’re doing.  Read up on how this technology works.  Read up on what people like and dislike about NFTs.  If you are planning on making your own collection, come up with a new and original idea.  Don’t rehash something that has already been done.  Definitely don’t steal someone else’s artwork either.
 
@@ -103,7 +99,7 @@ Also, don’t use one of those tutorials that shows you how to “create 10,000 
 
 These are just some things to keep in mind.  I’m no expert.  I’m making this up as I go along just like everyone else is.
 
-#### How do you see the future of NFTs evolving, and how do you think DexKit will continue to play a role in that evolution?
+### How do you see the future of NFTs evolving, and how do you think DexKit will continue to play a role in that evolution?
 
 I really wish I had an answer for this.  But alas, my crystal ball is in the shop, and I am unable to make reliable predictions about any of this.  Of course that’s a joke.  This ecosystem is so volatile that even a crystal ball won’t be helpful with predictions.
 
@@ -115,30 +111,30 @@ People use NFTs to promote projects that have a larger project behind them.  Mu
 
 DexKit and their Marketplace fits into this because it is a great way for ANY of those sorts of projects to have their own landing page, on their own domain, to promote their project, as well as make sales.  No matter what else happens on the internet, people are still going to need a web site.  And the DexKit Marketplace is a great way for people to get that part done – at no cost.
 
-#### Lastly, is there anything else you'd like to share with our readers about your experience with DexKit or your passion for NFTs?
+### Lastly, is there anything else you'd like to share with our readers about your experience with DexKit or your passion for NFTs?
 
 Here I will list all of my marketplaces and what they are used for:
 
-*   [https://nft.dailynewspick.com/](https://nft.dailynewspick.com/)  [](https://nft.dailynewspick.com/)  
+[https://nft.dailynewspick.com/](https://nft.dailynewspick.com/)  [](https://nft.dailynewspick.com/)  
 
 This one was created specifically to promote my AI Generate Artwork collection.
 
-*   [https://bluefootmedia.co/](https://bluefootmedia.co/) 
+[https://bluefootmedia.co/](https://bluefootmedia.co/)
 
-This one is not safe for work. 
+This one is not safe for work.
 
-*   https://nft.dpoisn.com/ 
+[https://nft.dpoisn.com/](https://nft.dpoisn.com/)
 
-My landing page that links all of these projects together. 
+My landing page that links all of these projects together.
 
-*   [https://nft.durbnpoisn.com/](https://nft.durbnpoisn.com/) 
+[https://nft.durbnpoisn.com/](https://nft.durbnpoisn.com/)
 
 This is one that has a variety of stuff from all sorts of collections. It’s really more of a sandbox where I can test things.
 
-#### Closing words
+### Closing words
 
 As we conclude this unfiltered dialogue with Ken, we extend our heartfelt appreciation for his openness and willingness to share his journey in the NFT space. DexKit remains grateful to have passionate and dedicated individuals like Ken within its community, contributing to the dynamic and ever-evolving landscape of NFTs. We encourage readers to explore Ken’s various marketplaces, each a unique expression of his creativity within the NFT realm.
 
 Thank you, Ken, for your valuable insights and the authenticity you brought to this conversation. May your journey in the NFT space continue to be filled with creativity, success, and boundless possibilities.
 
-##### Author's Note: The opinions expressed in this interview belong solely to the interviewee, and we have preserved the authenticity of Ken's responses without any modifications.
+#### Author's Note: The opinions expressed in this interview belong solely to the interviewee, and we have preserved the authenticity of Ken's responses without any modifications

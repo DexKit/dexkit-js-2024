@@ -9,11 +9,11 @@ imageUrl: "/blog-images/20230403_Thank-Optimism-blog.png"
 
 DexKit recently announced that it has [successfully received a grant from the Optimism Foundation through Retropgf 2](https://twitter.com/dexkit/status/1641827063828213762). The grant came in the form of OP tokens, which DexKit will hold to show support for the Optimism project and its contribution to scaling the Ethereum network. This win is a testament to the hard work and dedication of the DexKit team, and it comes with great potential for the DeFi industry and the broader Ethereum ecosystem.
 
-![](https://dexkit.com/wp-content/uploads/image-25.png)
+![Optimism Grant](https://dexkit.com/wp-content/uploads/image-25.png)
 
 Together with other important players in the medium, we have secured a share in OP that will help us to increase our governance in the network.
 
-#### Why is this important?
+### Why is this important?
 
 To better understand the significance of this grant, it is important to look at the broader context of the Ethereum network and the challenges it faces. **Ethereum is currently the leading platform** for decentralized applications (dapps) and smart contracts. However, **as the number of users and applications on the network grows, it is becoming increasingly congested**, leading to high transaction fees and slower processing times.
 
@@ -25,7 +25,7 @@ We're providing already Optimism support in our White label products.
 
 By winning the Optimism Foundation grant, DexKit has shown its commitment to supporting the growth and development of the Ethereum network. **As a tech startup that develops white-label DeFi products like DEX aggregators, NFT marketplaces, and smart contracts, DexKit is at the forefront of innovation in the DeFi industry**. By integrating with Optimism, DexKit can provide a better user experience for its customers, with faster transactions and lower fees.
 
-#### What are the benefits of adopting Optimism?
+### What are the benefits of adopting Optimism?
 
 The benefits of layer 2 solutions like Optimism extend beyond just improving the user experience for DeFi products. They also have the potential to drive greater adoption of Ethereum and decentralized finance (DeFi) applications as a whole. By making the network more accessible to a wider range of users, more people can experience the power of DeFi and other Ethereum-based applications. This could lead to more innovation and growth in the ecosystem as a whole.
 

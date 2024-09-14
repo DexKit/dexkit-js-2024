@@ -17,7 +17,7 @@ In contrast, a DEX operates on a decentralized network, often a blockchain. Cons
 
 In simpler terms, CEX represents the traditional method of trading, wherein a centralized entity governs the trading platform, whereas DEX represents a novel approach, whereby no central entity exercises control over the trading platform, transactions, or users’ private information.
 
-#### However, it's crucial to note that DEX trading does not guarantee absolute safety\* 👀👇
+### However, it's crucial to note that DEX trading does not guarantee absolute safety\* 👀👇
 
 In the case of DEXs, one risk is the potential for funds to be stolen or frozen in a liquidity pool. Liquidity pools consist of assets that users can contribute to and withdraw from in order to provide liquidity to the exchange. However, **if the smart contract managing the liquidity pool is compromised, it becomes possible for funds to be stolen or frozen**. Additionally, if a user employs a token bridge to connect to a DEX, they may be exposed to losses if the bridge is hacked.
 
@@ -25,7 +25,7 @@ In the case of DEXs, one risk is the potential for funds to be stolen or frozen 
 
 It’s important to remember that the decentralized nature of DEXs does not render them immune to these risks. Nevertheless, DEXs can provide heightened security and privacy in comparison to CEXs by allowing users to exercise full control over their funds without relying on a central authority for their security. Additionally, the utilization of blockchain technology can make it more challenging for hackers to compromise the exchange.
 
-#### Why do you need both CEX and DEX? 🤔
+### Why do you need both CEX and DEX? 🤔
 
 While it’s ideal to safeguard your valuable savings in a cold hardware wallet, utilizing a stablecoin like DAI, there will come a time when you need to sell a portion of your earnings. In such cases, a reasonably reliable centralized exchange becomes necessary to facilitate fiat trading.
 

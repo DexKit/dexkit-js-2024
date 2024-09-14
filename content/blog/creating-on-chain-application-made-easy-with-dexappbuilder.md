@@ -13,7 +13,7 @@ An on-chain application, also called a [decentralized application (dApp)](https:
 
 If you’re venturing into the realm of dApp development, your journey begins with our platform, [DexAppBuilder](https://dexappbuilder.dexkit.com/).  It’s a no-code/low-code platform that provides the necessary tools for easy creation of on-chain applications. You have the vision and goal for your dApp. DexAppBuilder assists you in turning your project into a market reality.
 
-#### Why DexAppBuilder?
+### Why DexAppBuilder?
 
 With DexAppBuilder, you can build a variety of on-chain applications. Below are some features to add to your on-chain application using our platform’s functionalities. Get inspired by your creativity!
 
@@ -27,7 +27,7 @@ With DexAppBuilder, you can build a variety of on-chain applications. Below are 
 
 ![DexAppBuilder](https://dexkit.com/wp-content/uploads/DexAppBuilder-1.png)
 
-#### Creating your on-chain application made simple
+### Creating your on-chain application made simple
 
 DexAppBuilder is a versatile and agile tool for building on-chain applications. It helps you overcome the technical challenges of developing on Web3. With DexAppBuilder, you can easily create your on-chain application. This enables you to focus on functionality and customization of your project.
 
@@ -39,9 +39,9 @@ DexAppBuilder simplifies the creation of on-chain applications by providing:
 
 **• Deployment and scalability:** As you build your dApp on DexAppBuilder, it’s ready to grow within Web3. It’s primed to scale and adapt to your project’s trajectory.
 
-#### Four stages to create your on-chain application with DexAppBuilder
+### Four stages to create your on-chain application with DexAppBuilder
 
-##### Stage 1: Access DexAppBuilder
+#### Stage 1: Access DexAppBuilder
 
 Begin your creation journey by selecting “Create App” on the DexAppBuilder platform.
 
@@ -49,7 +49,7 @@ Begin your creation journey by selecting “Create App” on the DexAppBuilder p
 
 After naming your dApp, providing your email for notifications, and connecting your wallet, the admin panel becomes your command center.
 
-##### Stage 2: Fill out your dApp settings
+#### Stage 2: Fill out your dApp settings
 
 In the “Settings” menu, you’ll find various features to configure your dApp, including basic and specific settings.
 
@@ -69,7 +69,7 @@ In the “Settings” menu, you’ll find various features to configure your dAp
 
 • **Social Media:**  Link your networks to ensure connectivity and project presence.
 
-##### Stage 3: Organize your dApp's layout
+#### Stage 3: Organize your dApp's layout
 
 Go to the “Layout” menu and let your creativity flow to design your dApp’s user interface.
 
@@ -83,17 +83,17 @@ Find out what each feature in this menu is for:
 
 • **Navbar:** Customize the menu links of your dApp. This enhances user experience and showcases essential features.
 
-• **Footer menu:** Personalize your app’s footer to offer extra details and enhance user guidance. 
+• **Footer menu:** Personalize your app’s footer to offer extra details and enhance user guidance.
 
 • **SEO:** Optimize your dApp’s SEO settings to increase its visibility and ranking on search engines.
 
 • **Analytics:** Incorporate Google Analytics into your dApp for performance optimization.
 
-##### Stage 4: Set up additional features for your dApp as needed for your project
+#### Stage 4: Set up additional features for your dApp as needed for your project
 
 Once you’ve set up your dApp’s foundation, you can add more features to enhance its functionality.
 
-![](https://dexkit.com/wp-content/uploads/Stage-4-Additional-features-1.png)
+![Extra](https://dexkit.com/wp-content/uploads/Stage-4-Additional-features-1.png)
 
 **• Fees:** Set the fees for your dApp. These fees will be added to NFT sales or offers (Marketplace Fees) or to swap transactions in your dApp (Swap Fees).
 
@@ -103,7 +103,7 @@ Once you’ve set up your dApp’s foundation, you can add more features to enha
 
 **• Integrations:** Integrate your application with external platforms. Select and configure connections that best suit your needs.
 
-#### Conclusion
+### Conclusion
 
 Using DexAppBuilder, you can efficiently create your own on-chain application, tailored to your requirements. Our platform empowers you to overcome technical challenges. It helps you focus on the creative aspects of your project.  
 

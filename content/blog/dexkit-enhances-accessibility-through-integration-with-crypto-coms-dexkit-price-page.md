@@ -11,11 +11,11 @@ imageUrl: "/blog-images/cryptodotcomdexkit.jpg"
 
 In addition, DexKit has introduced a price widget for $KIT on its new website’s blog. Users can now conveniently check the real-time price of $KIT while reading the blog, all within a single integrated experience.
 
-![](https://dexkit.com/wp-content/uploads/dexkit_cryptocomwp.png)
+![CryptoCom widget](https://dexkit.com/wp-content/uploads/dexkit_cryptocomwp.png)
 
 A lightweight, useful and well-stylized integration, powered by crypto.com
 
-#### About the partner
+### About the partner
 
 Crypto.com, established in 2016, has rapidly grown into a prominent global cryptocurrency platform. Offering a comprehensive crypto ecosystem, Crypto.com provides various services such as the Crypto.com App, Crypto.com Exchange, Crypto.com DeFi Wallet, DeFi Swap, Crypto.com Visa Cards, Crypto Earn, Crypto Credit, Price Page, NFT marketplace, Ethereum Gas Fees Tracker, and much more.
 

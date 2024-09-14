@@ -11,17 +11,17 @@ We are constantly working to provide our users with easy-to-use, open source, an
 
 [SuperApp](https://app.dexkit.com/) encompasses a wide range of tools necessary for daily crypto activities. It enables users to seamlessly perform token swaps, exchanges, buy and manage crypto assets on 0x-compatible blockchains such as Ethereum, Binance Chain, and Polygon. Additionally, it offers comprehensive trading analysis, a protocol explorer, and numerous other functions.
 
-![](https://dexkit.com/wp-content/uploads/Screenshot_20220629-022019_Crypto-Browser-922x2048.png)
+![DexKit wallet](https://dexkit.com/wp-content/uploads/Screenshot_20220629-022019_Crypto-Browser-922x2048.png)
 
 Full compatibility with every modern mobile browser, without download anything.
 
 Now, let’s delve into the exciting new additions to SuperApp! 🌝
 
-#### OKC Blockchain: The Newest Integration on the Horizon
+### OKC Blockchain: The Newest Integration on the Horizon
 
 We are thrilled to announce that DexKit is dedicating hours of development to integrate the [OKC chain](https://www.okx.com/okc) into SuperApp. This integration will allow OKC network holders to effortlessly manage their crypto assets through a lightweight and intelligent DeFi dashboard.
 
-![](https://dexkit.com/wp-content/uploads/Screenshot_20220629-015047_Brave-600x593.png)
+![OKC](https://dexkit.com/wp-content/uploads/Screenshot_20220629-015047_Brave-600x593.png)
 
 We share a lot of goals with OKC: security, smart contracts development and builders instinct ⛏️
 
@@ -29,11 +29,11 @@ Furthermore, we anticipate that DexKit prediction games will soon be available o
 
 DexKit envisions a collaborative advertising campaign with OKC, wherein the project will be introduced to the OKC community across various social platforms. Our goal is to establish a strong brand presence in the Asian markets.
 
-#### Avalanche and Fantom Networks: Seamless Integration with SuperApp
+### Avalanche and Fantom Networks: Seamless Integration with SuperApp
 
 At DexKit, we value the power of numbers and recognize the demand for top-notch DeFi products among users of EVM networks. With this in mind, we have added the efficient Avalanche and versatile Fantom blockchains as native options within the SuperApp platform.
 
-![](https://dexkit.com/wp-content/uploads/image-1.png)
+![Networks](https://dexkit.com/wp-content/uploads/image-1.png)
 
 Maximum compatibility with the networks above. Users can add custom networks manually too.
 

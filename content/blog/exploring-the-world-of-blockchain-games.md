@@ -9,7 +9,7 @@ imageUrl: "/blog-images/Gaming-genres-blog.png"
 
 With the tremendous popularity of games like [Axie Infinity](https://axieinfinity.com/) (which introduced scholarship opportunities) and [Gods Unchained](https://godsunchained.com/) (currently the most popular Trading Card game) among others, the gaming landscape has undergone a dramatic transformation.
 
-![](https://dexkit.com/wp-content/uploads/image-18.png)
+![Terms violation](https://dexkit.com/wp-content/uploads/image-18.png)
 
 One of the dozens of reasons why Steam is capable of restricting functionality to users ⚠
 
@@ -19,7 +19,7 @@ To bridge the gap between players’ efforts (time spent and skills) and their r
 
 Now, let’s explore the most prevalent genres of blockchain games.
 
-#### Trading card games
+### Trading card games
 
 These games involve collecting, trading, and playing with unique digital trading cards stored on a blockchain. Examples include the aforementioned Axie Infinity and Gods Unchained.
 
@@ -27,7 +27,7 @@ These games involve collecting, trading, and playing with unique digital trading
 
 Yes! We play Gods Unchained regularly! 🧙‍♂️
 
-#### Collectible games
+### Collectible games
 
 Similar to trading card games, collectible games revolve around acquiring, trading, and playing with unique digital collectibles stored on a blockchain. Some notable examples include [CryptoKitties](https://www.cryptokitties.co/) and [NBA Top Shot](https://nbatopshot.com/).
 
@@ -35,7 +35,7 @@ Similar to trading card games, collectible games revolve around acquiring, tradi
 
 CryptoKitties living on Ethereum.
 
-#### Decentralized finance games
+### Decentralized finance games
 
 These games incorporate elements of decentralized finance (DeFi), such as yield farming, staking, and liquidity provision. One significant advantage of these games is the transparency provided by blockchain transactions, enabling a better understanding of the underlying processes.
 
@@ -43,7 +43,7 @@ These games incorporate elements of decentralized finance (DeFi), such as yield 
 
 Bored Ape Yacht Club is one of the most popular games for this genre.
 
-#### Virtual world games
+### Virtual world games
 
 In virtual world games built on a blockchain, players have the freedom to create, own, trade, and interact within these digital realms. These “metaverses” offer hundreds of adventures and quests, fostering strong connections between the project and its users. Examples include [The Sandbox](https://www.sandbox.game/en/), [Somnium Space](https://somniumspace.com/), and [Decentraland](https://decentraland.org/).
 
@@ -51,11 +51,11 @@ In virtual world games built on a blockchain, players have the freedom to create
 
 Decentraland Genesis Plaza. Taken from Decentraland blog.
 
-#### Multiplayer online games
+### Multiplayer online games
 
 These games allow players to compete with others in multiplayer environments that utilize blockchain technology for player data, asset ownership, and in-game transactions. [Our very own Coin League game](https://coinleague.com/) perfectly exemplifies this genre.
 
-#### What about DexKit's Coin League game? 🤔
+### What about DexKit's Coin League game? 🤔
 
 ![Coin League on game](https://dexkit.com/wp-content/uploads/coin_league_race-2.png)
 

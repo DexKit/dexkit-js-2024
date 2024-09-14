@@ -17,7 +17,7 @@ To keep up with this fast-paced trend and captivate younger audiences, technolog
 
 Lacking inspiration or design skills? Our tool is here to assist you! Leveraging the power of natural language processing, it empowers anyone to create captivating artwork using their imagination as a guide! 🎨
 
-#### Minting digital collectibles has changed forever 🖼🤖
+### Minting digital collectibles has changed forever 🖼🤖
 
 Users can effortlessly generate customized images by simply describing their vision, which can then be securely stored on a wide range of blockchains within seconds. Supported blockchains include Ethereum, BNB Chain, Polygon (including the Mumbai testnet), Arbitrum, Avalanche, Optimism, and Fantom.
 

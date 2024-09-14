@@ -9,31 +9,31 @@ imageUrl: "/blog-images/AMM_bot_default.png"
 
 Project’s Head Developer [João Campos](https://github.com/JoaoCampos89) has created a new solution that **will help crypto entrepreneurs from day one to get the required trading volume data** **and get listed on fundamental metrics** pages such as [CoinGecko](https://coingecko.com), [CoinMarketCap](https://coinmarketcap.com), [Nomics](https://nomics.com/), among others.
 
-![](https://dexkit.com/wp-content/uploads/your_crypto_business.jpg)
+![Meme](https://dexkit.com/wp-content/uploads/your_crypto_business.jpg)
 
 Oh yes! From token creation wizard to complete decentralized trading tools with affiliate earnings 🤑
 
-#### What this tool does?
+### What this tool does?
 
 [DexKit’s](https://dexkit.com/) Market Maker bot is an **automated trading bot** capable of buying and selling any preconfigured tokens in order to maintain a minimum trading volume **wit**h **way** **lower cost than conventional market makers**. This bot operates in a fully decentralized way (inside [0x Protocol](https://0x.org/)).
 
-#### It is secure to use?
+### It is secure to use?
 
 As safe as the user allows, because **bot owner will control wallet seed all the time** along with other settings such as buying and selling frequency, amounts, etc.
 
-![](https://dexkit.com/wp-content/uploads/bot_legion.gif)
+![Bot legion](https://dexkit.com/wp-content/uploads/bot_legion.gif)
 
 Make them work for you in the simplest way 🤖
 
-#### About network compatibility
+### About network compatibility
 
 Fully compatible with **Ethereum, Binance Chain, Polygon, Celo, Avalanche, Fantom and Optimism** networks. Run from localhost console, VPS or dApp hosting ([Heroku](http://heroku.com/), [Vercel](https://vercel.com), among others). Users must fill the wallet with the two pair coins they want to trade (KIT and USDC for example) and MATIC Polygon network is preferred in order to pay gas fees.
 
-![](https://dexkit.com/wp-content/uploads/defi_trading_automode.png)
+![Auto trading](https://dexkit.com/wp-content/uploads/defi_trading_automode.png)
 
 You're right! All those transactions are on-chain! 👀
 
-#### Where can I download it?
+### Where can I download it?
 
 Users can get it today from the [DexKit’s Github repository](https://github.com/DexKit/trading-bot).
 
