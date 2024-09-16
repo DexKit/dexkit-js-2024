@@ -1,10 +1,12 @@
 ---
-title: "Crypto Staking Demystified: Exploring Benefits and Risks"
-date: "January 25, 2024"
-excerpt: "<p>Crypto staking is transforming the world of digital currencies by offering users a new way to earn passive income through their existing assets. In this&hellip;</p> "
-category: "Blog"
-slug: "crypto-staking-demystified-exploring-benefits-and-risks"
-imageUrl: "/blog-images/Staking-blog-.png"
+title: 'Crypto Staking Demystified: Exploring Benefits and Risks'
+date: 'January 25, 2024'
+excerpt: >-
+  Crypto staking is transforming the world of digital currencies by offering
+  users a new way to earn passive income through their existing assets.
+category: Blog
+slug: crypto-staking-demystified-exploring-benefits-and-risks
+imageUrl: /blog-images/Staking-blog-.png
 ---
 
 Crypto staking is transforming the world of digital currencies by offering users a new way to earn passive income through their existing assets. In this article, we explore the intricacies of this innovative concept, examining its benefits and risks. Whether you’re interested in earning rewards for participating in blockchain consensus mechanisms or supporting sustainable digital currency practices, crypto staking provides a compelling opportunity.
@@ -13,7 +15,7 @@ At its core, **crypto staking** is a process by which users lock up their digita
 
 ### Decoding Crypto Staking: Navigating the Staking Process
 
-![Person Staking in the phone](https://dexkit.com/wp-content/uploads/266e7068-6b9d-4c70-aac7-95533dc7d4f8.jpg)
+![Person Staking in the phone](/blog-images/266e7068-6b9d-4c70-aac7-95533dc7d4f8.jpg)
 
 The user is transferring tokens to a staking pool as part of the lock-up process
 

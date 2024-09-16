@@ -1,10 +1,12 @@
 ---
-title: "Simple Steps to Keep Your Crypto Safe: A Quick Guide for Beginners"
-date: "January 22, 2024"
-excerpt: "<p>Cryptocurrencies are hot, but so are the risks that come with them. Don&#8217;t worry, though – securing your digital assets doesn&#8217;t have to be rocket&hellip;</p> "
-category: "Blog"
-slug: "simple-steps-to-keep-your-crypto-safe"
-imageUrl: "/blog-images/Crypto-Safe-blog.png"
+title: 'Simple Steps to Keep Your Crypto Safe: A Quick Guide for Beginners'
+date: 'January 22, 2024'
+excerpt: >-
+  Cryptocurrencies are hot, but so are the risks that come with them. Don't
+  worry, though – securing your digital assets is not hard.
+category: Blog
+slug: simple-steps-to-keep-your-crypto-safe
+imageUrl: /blog-images/Crypto-Safe-blog.png
 ---
 
 Cryptocurrencies are hot, but so are the risks that come with them. Don’t worry, though – securing your digital assets doesn’t have to be rocket science.
@@ -13,7 +15,7 @@ Embark on the journey to secure your digital assets with DexWallet, an advanced 
 
 Now, let’s break down in this quick guide the essentials to ensure your crypto stays safe and sound:
 
-![Hacker in action](https://dexkit.com/wp-content/uploads/ce3e8ce3-9c8e-440b-8ae1-906628ec4dc7.jpg)
+![Hacker in action](/blog-images/ce3e8ce3-9c8e-440b-8ae1-906628ec4dc7.jpg)
 
 There are many negative actors roaming the internet, especially on financial platforms, hence the importance of staying safe.
 

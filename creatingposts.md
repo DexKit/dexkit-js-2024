@@ -3,6 +3,7 @@
 For creating new blog posts, use the `createPost.ts` script.
 
 1. Run the script:
+
    ```
    npx ts-node scripts/createPost.ts
    ```

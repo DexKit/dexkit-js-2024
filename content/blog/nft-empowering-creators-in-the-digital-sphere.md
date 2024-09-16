@@ -1,10 +1,12 @@
 ---
-title: "NFT Royalties Unveiled: Empowering Creators in the Digital Sphere"
-date: "August 21, 2023"
-excerpt: "<p>Unlock the potential of NFT royalties: Empowering creators in the digital landscape. Discover how blockchain innovation is reshaping compensation and creativity.</p> "
-category: "Blog"
-slug: "nft-empowering-creators-in-the-digital-sphere"
-imageUrl: "/blog-images/20230821_NFT-royalties-blog-LinkedIn-Facebook.png"
+title: 'NFT Royalties Unveiled: Empowering Creators in the Digital Sphere'
+date: 'August 21, 2023'
+excerpt: >-
+  Unlock the potential of NFT royalties: Empowering creators in the digital
+  landscape.
+category: Blog
+slug: nft-empowering-creators-in-the-digital-sphere
+imageUrl: /blog-images/20230821_NFT-royalties-blog-LinkedIn-Facebook.png
 ---
 
 In the rapidly evolving world of blockchain, Non-Fungible Tokens (NFTs) have burst onto the scene, revolutionizing the way we tokenize and exchange unique digital assets. Among the standout features of NFTs is the concept of royalties. In this article, we’ll take a deep dive into NFT royalties, covering their definition, purpose, tangible benefits for creators, and the timelines that govern them.

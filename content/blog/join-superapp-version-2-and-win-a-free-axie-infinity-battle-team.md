@@ -1,10 +1,12 @@
 ---
-title: "Join SuperApp Version 2 and Win a Free Axie Infinity Battle Team!"
-date: "May 23, 2022"
-excerpt: "<p>Participate in our SuperApp Version 2 launch and get a chance to win a free Axie Infinity battle team. Join now and start battling to earn daily SLP tokens!</p> "
-category: "Community"
-slug: "join-superapp-version-2-and-win-a-free-axie-infinity-battle-team"
-imageUrl: "/blog-images/Axie_giveaway_v2_l.png"
+title: Join SuperApp Version 2 and Win a Free Axie Infinity Battle Team!
+date: 'May 23, 2022'
+excerpt: >-
+  Participate in our SuperApp Version 2 launch and get a chance to win a free
+  Axie Infinity battle team.
+category: Community
+slug: join-superapp-version-2-and-win-a-free-axie-infinity-battle-team
+imageUrl: /blog-images/Axie_giveaway_v2_l.png
 ---
 
 The winner was randomly selected on July 19th, 2022. Results can be seen [here.](https://app.randompicker.com/protocol/761696x87878)
@@ -15,7 +17,7 @@ Axie Infinity has captivated millions of players of all ages, and now you can be
 
 Not only will the winner receive this amazing team, but they can also start battling and earning daily [SLP tokens](https://www.coingecko.com/en/coins/smooth-love-potion) on our platform from day one!
 
-![Three Axie Infinity](https://dexkit.com/wp-content/uploads/image.png)
+![Three Axie Infinity](/blog-images/image.png)
 
 You will got these guys in case win! Good luck! 🥳
 

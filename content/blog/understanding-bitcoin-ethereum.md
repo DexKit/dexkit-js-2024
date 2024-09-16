@@ -1,10 +1,12 @@
 ---
-title: "Cryptocurrencies Exposed: Understanding Bitcoin, Ethereum, and the Next Wave of Financial Revolution"
-date: "January 17, 2024"
-excerpt: "<p>Dive into the world of cryptocurrencies with our comprehensive guide. Explore Bitcoin, Ethereum, Polygon, Arbitrum, and Optimism, uncover blockchain technology, practical applications, and real-world asset tokenization. Elevate your crypto journey with DexAppBuilder, your key to building decentralized applications. Demystify the crypto cosmos and navigate the evolving landscape of financial innovation with us.</p> "
-category: "Blog"
-slug: "understanding-bitcoin-ethereum"
-imageUrl: "/blog-images/cryptocurrencies-exposed.png"
+title: >-
+  Cryptocurrencies Exposed: Understanding Bitcoin, Ethereum, and the Next Wave
+  of Financial Revolution
+date: 'January 17, 2024'
+excerpt: Dive into the world of cryptocurrencies with our comprehensive guide.
+category: Blog
+slug: understanding-bitcoin-ethereum
+imageUrl: /blog-images/cryptocurrencies-exposed.png
 ---
 
 Cryptocurrencies have emerged as a revolutionary force, capturing the attention of investors and tech enthusiasts alike. This article aims to demystify the intricate world of cryptocurrencies, exploring their origins, underlying technology, and practical applications, while spotlighting notable players like Bitcoin, Ethereum, Polygon, Arbitrum, and Optimism.
@@ -13,7 +15,7 @@ Cryptocurrencies have emerged as a revolutionary force, capturing the attention 
 
 Cryptocurrencies are decentralized digital or virtual currencies that use cryptography for secure financial transactions. Operating on blockchain technology, a distributed ledger records transactions across a network of computers, ensuring transparency and security.
 
-![Bitcoin nodes](https://dexkit.com/wp-content/uploads/19eb7d38-31eb-489a-9de7-b7b6e8ba5d71.jpg)
+![Bitcoin nodes](/blog-images/19eb7d38-31eb-489a-9de7-b7b6e8ba5d71.jpg)
 
 Through globally interconnected nodes, cryptocurrencies, such as Bitcoin, reinforce their security and consensus system.
 
@@ -21,7 +23,7 @@ Through globally interconnected nodes, cryptocurrencies, such as Bitcoin, reinfo
 
 Imagine a digital ledger shared across computers, each containing a copy. Transactions are recorded in blocks, which, once reaching a set size, are added to the chain. This decentralized and transparent system prevents tampering and enhances security.
 
-![Cryptocurrency World](https://dexkit.com/wp-content/uploads/925fda3c-fb1e-48a4-8c34-58248cb90ff9.jpg)
+![Cryptocurrency World](/blog-images/925fda3c-fb1e-48a4-8c34-58248cb90ff9.jpg)
 
 Cryptocurrencies saw their greatest popularity during the COVID-19 pandemic, where the world became interconnected more effectively, breaking all barriers.
 
@@ -39,7 +41,7 @@ Cryptocurrencies saw their greatest popularity during the COVID-19 pandemic, whe
 * **Decentralized Finance (DeFi):** With platforms like Arbitrum and Optimism, DeFi expands, offering decentralized lending, borrowing, and trading without traditional intermediaries.
 * **Tokenization of Assets**: Blockchain, including Ethereum, Polygon, Arbitrum and Optimism enables real-world asset tokenization, allowing fractional ownership and increased liquidity for assets like real estate and art. This tokenization extends beyond financial instruments, envisioning a world where ownership and value are redefined across a spectrum of tangible and intangible assets.
 
-![Tokenized land](https://dexkit.com/wp-content/uploads/tokenizedland.png)
+![Tokenized land](/blog-images/tokenizedland.png)
 
 It is possible to tokenize anything, including agricultural and land assets.
 

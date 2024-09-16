@@ -1,15 +1,17 @@
 ---
-title: "DexKit Unleashes a Game-Changing Market Maker Tool for Crypto Entrepreneurs"
-date: "June 3, 2022"
-excerpt: "<p>DexKit introduces a game-changing market maker tool, empowering crypto entrepreneurs with essential trading volume data and listing opportunities. Discover the fully decentralized Market Maker bot, ensuring utmost security and compatibility across major networks. Download and set up the bot effortlessly, supported by our dedicated team for any troubleshooting. Experience a new level of trading with DexKit&#8217;s innovative solution.</p> "
-category: "Innovations"
-slug: "dexkit-unleashes-a-game-changing-market-maker-tool-for-crypto-entrepreneurs"
-imageUrl: "/blog-images/AMM_bot_default.png"
+title: DexKit Unleashes a Game-Changing Market Maker Tool for Crypto Entrepreneurs
+date: 'June 3, 2022'
+excerpt: >-
+  DexKit introduces a game-changing market maker tool, empowering crypto
+  entrepreneurs with essential trading volume data and listing opportunities.
+category: Innovations
+slug: dexkit-unleashes-a-game-changing-market-maker-tool-for-crypto-entrepreneurs
+imageUrl: /blog-images/AMM_bot_default.png
 ---
 
 Project’s Head Developer [João Campos](https://github.com/JoaoCampos89) has created a new solution that **will help crypto entrepreneurs from day one to get the required trading volume data** **and get listed on fundamental metrics** pages such as [CoinGecko](https://coingecko.com), [CoinMarketCap](https://coinmarketcap.com), [Nomics](https://nomics.com/), among others.
 
-![Meme](https://dexkit.com/wp-content/uploads/your_crypto_business.jpg)
+![Meme](/blog-images/your_crypto_business.jpg)
 
 Oh yes! From token creation wizard to complete decentralized trading tools with affiliate earnings 🤑
 
@@ -21,7 +23,7 @@ Oh yes! From token creation wizard to complete decentralized trading tools with 
 
 As safe as the user allows, because **bot owner will control wallet seed all the time** along with other settings such as buying and selling frequency, amounts, etc.
 
-![Bot legion](https://dexkit.com/wp-content/uploads/bot_legion.gif)
+![Bot legion](/blog-images/bot_legion.gif)
 
 Make them work for you in the simplest way 🤖
 
@@ -29,7 +31,7 @@ Make them work for you in the simplest way 🤖
 
 Fully compatible with **Ethereum, Binance Chain, Polygon, Celo, Avalanche, Fantom and Optimism** networks. Run from localhost console, VPS or dApp hosting ([Heroku](http://heroku.com/), [Vercel](https://vercel.com), among others). Users must fill the wallet with the two pair coins they want to trade (KIT and USDC for example) and MATIC Polygon network is preferred in order to pay gas fees.
 
-![Auto trading](https://dexkit.com/wp-content/uploads/defi_trading_automode.png)
+![Auto trading](/blog-images/defi_trading_automode.png)
 
 You're right! All those transactions are on-chain! 👀
 

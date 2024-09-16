@@ -1,15 +1,20 @@
 ---
-title: "AI-Empowered Web3 DApp Building: Ignite Your Creativity with DexAppBuilder's IA Capabilities"
-date: "March 24, 2024"
-excerpt: "<p>We've discovered the missing piece for achieving total versatility! DexAppBuilder, your trusted platform for creating onchain applications, now includes Artificial Intelligence (AI)</p> "
-category: "Blog"
-slug: "ai-empowered-web-3-dapp-building"
-imageUrl: "/blog-images/AI-blog.png"
+title: >-
+  AI-Empowered Web3 DApp Building: Ignite Your Creativity with DexAppBuilder's
+  IA Capabilities
+date: 'March 24, 2024'
+excerpt: >-
+  We've discovered the missing piece for achieving total versatility!
+  DexAppBuilder, your trusted platform for creating onchain applications, now
+  includes Artificial Intelligence (AI)
+category: Blog
+slug: ai-empowered-web-3-dapp-building
+imageUrl: /blog-images/AI-blog.png
 ---
 
 We’ve discovered the missing piece for achieving total versatility! [DexAppBuilder](https://dexappbuilder.dexkit.com), your trusted platform for creating onchain applications, **now includes Artificial Intelligence (AI)** to assist you in creating your Web3 project . This encompasses a wide array of functionalities, from automatically generating optimized titles and descriptions for SEO to creating images for a newly conceived NFT collection, for example, enabling you to effortlessly bring your ideas to life.
 
-![Showcasing AI completation](https://dexkit.com/wp-content/uploads/aicompletation.png)
+![Showcasing AI completation](/blog-images/aicompletation.png)
 
 Say goodbye to dependence on external tools for content creation. Use the AI-powered autocomplete feature to finalize those ideas you've started.
 
@@ -31,7 +36,7 @@ In addition to content generation, DexAppBuilder’s integration of AI offers di
 * **Expand:** Increases the length of a text without losing the original message.
 * **Image generation and editing:** Create and customize images using natural language.
 
-![Improve text with AI](https://dexkit.com/wp-content/uploads/improve_text_ai_dexappbuilder-1.gif)
+![Improve text with AI](/blog-images/improve_text_ai_dexappbuilder-1.gif)
 
 See this useful tool in action that will save you a lot of time and money
 
@@ -39,7 +44,7 @@ See this useful tool in action that will save you a lot of time and money
 
 Using generative AI functions incurs a cost for the project since it involves calls to an external API (OpenAI’s). Thus, each call results in a charge that must be covered to maintain the service. We have set up a straightforward checkout page where users can pre-load their consumption (from $5 to $100) in various cryptocurrencies and blockchain networks.
 
-![Top Up Process](https://dexkit.com/wp-content/uploads/topup.png)
+![Top Up Process](/blog-images/topup.png)
 
 The top-up process is simple, and $5 can last long enough for a budding project.
 

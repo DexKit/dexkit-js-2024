@@ -1,10 +1,10 @@
 ---
-title: "Crypto Trading Reimagined: DexKit's Seamless and Customizable DEX Aggregator"
-date: "May 8, 2023"
-excerpt: "<p>Hey there, DeFinauts! 🐱‍🚀🙋‍♂️If you&#8217;re new to our cool products, you might not know about our super-efficient DEX aggregator built a long time ago. We&hellip;</p> "
-category: "Blog"
-slug: "dexkits-seamless-and-customizable-dex-aggregator"
-imageUrl: "/blog-images/compared.jpg"
+title: 'Crypto Trading Reimagined: DexKit''s Seamless and Customizable DEX Aggregator'
+date: 'May 8, 2023'
+excerpt: "Hey there, DeFinauts! \U0001F431‍\U0001F680\U0001F64B‍♂️If you're new to our cool products, you might not know about our super-efficient DEX aggregator built a long time ago..."
+category: Blog
+slug: dexkits-seamless-and-customizable-dex-aggregator
+imageUrl: /blog-images/compared.jpg
 ---
 
 Hey there, DeFinauts! 🐱‍🚀🙋‍♂️If you’re new to our cool products, you might not know about our [super-efficient DEX aggregator](https://swap.dexkit.com) built a long time ago. We made it by taking ideas from Uniswap v2 and adding a super-smart routing system that can go toe-to-toe with any top platform.

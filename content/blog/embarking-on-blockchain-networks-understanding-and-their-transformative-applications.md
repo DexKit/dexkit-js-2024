@@ -1,10 +1,15 @@
 ---
-title: "Embarking on Blockchain Networks: Understanding and Their Transformative Applications"
-date: "February 17, 2024"
-excerpt: "<p>Once again, decentralized finance is in the eye of public opinion and at DexKit we want to teach you everything about it. We want to&hellip;</p> "
-category: "Blog"
-slug: "embarking-on-blockchain-networks-understanding-and-their-transformative-applications"
-imageUrl: "/blog-images/Blockchain-blog.png"
+title: >-
+  Embarking on Blockchain Networks: Understanding and Their Transformative
+  Applications
+date: 'February 17, 2024'
+excerpt: >-
+  Once again, decentralized finance is in the eye of public opinion and at
+  DexKit we want to teach you everything about it.
+category: Blog
+slug: >-
+  embarking-on-blockchain-networks-understanding-and-their-transformative-applications
+imageUrl: /blog-images/Blockchain-blog.png
 ---
 
 Once again, decentralized finance is in the eye of public opinion and at DexKit we want to teach you everything about it. We want to delve deeply in the concept of «blockchain» in terms of the infinite number of use cases, the clarity with which decisions are executed and the best part: the zero intervention of centralized entities.
@@ -17,7 +22,7 @@ At its core, a blockchain network is made up of three main components: **nodes**
 
 * **Nodes** are the backbone of a blockchain network, serving as the essential participants in its decentralized architecture. These computing entities are responsible for critical functions such as validating and verifying new transactions, ensuring their integrity before adding them to the blockchain ledger. Furthermore, **nodes play a pivotal role in maintaining consensus among all participants**, ensuring the network’s stability and security without the need for centralized oversight. At the same time, some nodes, known as “non-mining nodes” or “full nodes,” focus solely on validating and relaying transactions, maintaining a copy of the entire blockchain, and participating in the consensus process without engaging in the computational work required for mining.
 
-![Nodes](https://dexkit.com/wp-content/uploads/4c7c3a00-8f5c-495a-9f68-c4195f8d64e2-1.jpg)
+![Nodes](/blog-images/4c7c3a00-8f5c-495a-9f68-c4195f8d64e2-1.jpg)
 
 Nodes represent the heart of decentralized systems
 
@@ -39,18 +44,18 @@ The [DexAppBuilder DApp creator](https://dexappbuilder.dexkit.com), DexKit’s f
 * **For smart contracts:** Blockchain networks enable the creation of [self-executing programs called smart contracts](https://www.investopedia.com/terms/s/smart-contracts.asp), which can automate various processes such as asset transfers, payment processing, identity verification, and more. Smart contracts are particularly useful in industries where trust between parties is often lacking or difficult to establish (e.g., real estate transactions, insurance claims). The networks mentioned above (Polygon, Optimism, and Base) are built on Ethereum, the leading blockchain for smart contracts, inheriting its capabilities to host and execute smart contracts. Therefore, you have the flexibility to choose the best network to deploy your project according to your needs and goals.
 * **For supply chain management:** Blockchain networks can provide greater transparency, traceability and security for supply chain management systems by creating an immutable record of all transactions along the entire value chain. This allows businesses and users to more easily track products from production to delivery, detect fraudulent activity (e.g. counterfeit products), and ensure compliance with industry regulations and standards. Amazon allows the management of supply chains through blockchain and [offers that service to its customers](https://aws.amazon.com/es/blockchain/blockchain-for-supply-chain-track-and-trace/).
 
-![Supply chain actors](https://dexkit.com/wp-content/uploads/fcef399c-4fe5-4acb-b737-b481b3c79bec.jpg)
+![Supply chain actors](/blog-images/fcef399c-4fe5-4acb-b737-b481b3c79bec.jpg)
 
 Supply chains can operate more efficiently thanks to Blockchain
 
 * **For artists:** The blockchain can make it possible for artists to earn royalties for their creations more easily by lacking intermediary entities (record labels, representatives, agents) that reduce the artist’s earnings. Projects like [Arpeggi](https://landing.arpeggi.io/) make it easier for musicians to make musical arrangements and compositions and subsequently create NFTs.
 * **For games:** The blockchain gives players ownership over the items obtained in a certain game built on it. This represents incredible progress for the video game industry and an injection of confidence for players who often spend thousands of hours playing a game without any palpable or irrevocable reward. In the past, we published a [post on our blog](https://dexkit.com/exploring-the-world-of-blockchain-games-an-overview-of-popular-genres-and-coin-leagues-unique-offering/) on this topic, and we invite you to read it.
 
-![Axie Infinity battle](https://dexkit.com/wp-content/uploads/axie.jpg)
+![Axie Infinity battle](/blog-images/axie.jpg)
 
 Axie Infinity is a popular game on the blockchain that allowed thousands of people to generate income through scholarships
 
-![Coin League game](https://dexkit.com/wp-content/uploads/CL_playingAGame.png)
+![Coin League game](/blog-images/CL_playingAGame.png)
 
 DexKit is a pioneer in the Play2Learn game mode, in which players are taught how to trade while competing with others.
 
@@ -64,7 +69,7 @@ As adoption of blockchain technology continues to grow, we can expect to see mor
 * **Decentralized storage systems:** Blockchain networks could provide an efficient way to store data securely and decentralized on a global scale. This could allow users to manage their digital content without relying on centralized cloud storage providers such as Amazon Web Services or Google Cloud Platform, which could reduce costs and increase privacy. Currently [IPFS](https://ipfs.tech/) is an example of decentralized storage operating through interconnected nodes around the world.
 * **Digital Identity Management:** Blockchain technology can be used to create secure, tamper-proof digital identity systems that allow individuals to control access to their personal information across multiple platforms. This could lead to better data protection and greater user autonomy in online transactions. As an example we can quote [Worldcoin](https://worldcoin.org/), which is a decentralized digital identity and financial network that aims to provide universal access to the global economy for everyone, regardless of their country or origin.
 
-![Orb device for retina verification](https://dexkit.com/wp-content/uploads/Orb.png)
+![Orb device for retina verification](/blog-images/Orb.png)
 
 Through this device called Orb, the Worldcoin project verifies its users. There are already several installed around the world.
 

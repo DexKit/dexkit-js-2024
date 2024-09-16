@@ -1,10 +1,15 @@
 ---
-title: "Understanding Cryptocurrencies: A Hand Guide to Decentralized Digital Currencies"
-date: "March 6, 2024"
-excerpt: "<p>Cryptocurrencies have taken the world by storm, offering a decentralized alternative to traditional fiat currencies. We have seen in recent hours how Bitcoin has returned&hellip;</p> "
-category: "Blog"
-slug: "understanding-cryptocurrencies-a-hand-guide-to-decentralized-digital-currencies"
-imageUrl: "/blog-images/Cryptocurrencies-blog-1.png"
+title: >-
+  Understanding Cryptocurrencies: A Hand Guide to Decentralized Digital
+  Currencies
+date: 'March 6, 2024'
+excerpt: >-
+  Cryptocurrencies have taken the world by storm, offering a decentralized
+  alternative to traditional fiat currencies.
+category: Blog
+slug: >-
+  understanding-cryptocurrencies-a-hand-guide-to-decentralized-digital-currencies
+imageUrl: /blog-images/Cryptocurrencies-blog-1.png
 ---
 
 Cryptocurrencies have taken the world by storm, offering a decentralized alternative to traditional fiat currencies. We have seen in recent hours how [Bitcoin has returned to its all-time high](https://www.coindesk.com/markets/2024/03/05/bitcoin-soars-to-new-all-time-high-above-69k/), thereby triggering a true bull market in which even the least experienced investor is able to make money.
@@ -17,7 +22,7 @@ Cryptocurrencies are digital or virtual currencies secured by cryptography, allo
 
 **The idea of digital money has always been striking because the advantages are endless.** PayPal has been one of the pioneers in the digital money initiative but its lack of flexibility due to high commissions, geographical restrictions and other conditions make it far behind cryptocurrencies.
 
-![Crypto friends](https://dexkit.com/wp-content/uploads/8880e8eb-30f3-49fa-9a30-94497d326bc0.jpg)
+![Crypto friends](/blog-images/8880e8eb-30f3-49fa-9a30-94497d326bc0.jpg)
 
 Cryptocurrencies, beyond their monetary value, have become an important communication vehicle between people from all hemispheres.
 
@@ -27,7 +32,7 @@ At the same time, there are hundreds of solutions similar to the above-mentioned
 
 Cryptocurrencies operate using blockchain technology – a decentralized and distributed digital ledger where transactions are recorded. Each transaction is verified by multiple network participants (nodes), ensuring its authenticity. Once validated, these transactions get added to the permanent record known as a ‘block’ in the chain.
 
-![Blockchain nodes](https://dexkit.com/wp-content/uploads/19eb7d38-31eb-489a-9de7-b7b6e8ba5d71-1.jpg)
+![Blockchain nodes](/blog-images/19eb7d38-31eb-489a-9de7-b7b6e8ba5d71-1.jpg)
 
 The nodes are responsible for sanitizing transactions between them and penalize those who try to sneak false transactions, thereby ensuring the integrity of the data.
 
@@ -43,7 +48,7 @@ Cryptocurrencies, a revolutionary form of digital currency, boast distinctive fe
 * **Divisibility:** Most cryptocurrencies allow for fractional transactions and can be divided into smaller units (called satoshis for Bitcoin).
 * **Anonymity:** Although not completely anonymous, some cryptocurrencies offer higher levels of privacy compared to traditional banking systems.
 
-![Crypto Anonimity](https://dexkit.com/wp-content/uploads/ce3e8ce3-9c8e-440b-8ae1-906628ec4dc7-1.jpg)
+![Crypto Anonimity](/blog-images/ce3e8ce3-9c8e-440b-8ae1-906628ec4dc7-1.jpg)
 
 Cryptocurrencies, fostering anonymity, draw diverse individuals who express opinions and contribute freely behind NFT avatars and colorful language
 
@@ -66,7 +71,7 @@ Below we mention just some advantages of using cryptocurrencies compared to conv
 
 As the cryptocurrency industry is still in its early stages, there are inherent risks associated with its use. While many of these risks may be readily apparent to inexperienced users, there are also risks that impact all users, including those with more advanced knowledge.
 
-![Hackers stalking an unsuspecting user](https://dexkit.com/wp-content/uploads/d883e43a-2054-4fb5-9895-ab00d2a7b37a.jpg)
+![Hackers stalking an unsuspecting user](/blog-images/d883e43a-2054-4fb5-9895-ab00d2a7b37a.jpg)
 
 There will always be hackers and scammers who try to take your funds. If you pay attention to each of your steps you can keep them at bay.
 

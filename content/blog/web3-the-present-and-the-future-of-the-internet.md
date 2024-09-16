@@ -1,10 +1,13 @@
 ---
-title: "Web3: The Present and the Future of the Internet"
-date: "February 12, 2024"
-excerpt: "<p>In the relentless march of technology, the internet has undergone a profound transformation from its nascent stages to a sophisticated and globally interconnected network. Enter&hellip;</p> "
-category: "Blog"
-slug: "web3-the-present-and-the-future-of-the-internet"
-imageUrl: "/blog-images/Emerging-Web3-blog.png"
+title: 'Web3: The Present and the Future of the Internet'
+date: 'February 12, 2024'
+excerpt: >-
+  In the relentless march of technology, the internet has undergone a profound
+  transformation from its nascent stages to a sophisticated and globally
+  interconnected network...
+category: Blog
+slug: web3-the-present-and-the-future-of-the-internet
+imageUrl: /blog-images/Emerging-Web3-blog.png
 ---
 
 In the relentless march of technology, the internet has undergone a profound transformation from its nascent stages to a sophisticated and globally interconnected network. Enter Web3, an all-encompassing term delineating a set of principles and technologies poised to usher in the next epoch of the internet.
@@ -21,7 +24,7 @@ To see in greater detail the evolution of the Web from its genesis until now, le
 
 Web1, the internet’s first iteration, marked an era primarily accessed through desktop computers and early browsers like [Mosaic](https://en.wikipedia.org/wiki/Mosaic_\(web_browser\)). Yet, its vulnerability stemmed from the centralization of user data within servers, exposing it to potential privacy breaches. This centralization became a critical weakness in an otherwise groundbreaking phase of the internet’s evolution.
 
-![Mosaic Browser](https://dexkit.com/wp-content/uploads/NCSA_Mosaic_Browser_Screenshot.png)
+![Mosaic Browser](/blog-images/NCSA_Mosaic_Browser_Screenshot.png)
 
 View of Mosaic web browser, one of the first that existed.
 
@@ -29,11 +32,11 @@ View of Mosaic web browser, one of the first that existed.
 
 Web2 witnessed a pivotal shift from centralized control to user-generated content, epitomized by the emergence of social media giants like Facebook, Twitter, and Instagram. Though user-centric, these platforms grapple with concerns regarding privacy, data ownership, and the balance of power between users and platforms.
 
-![Facebook 2006](https://dexkit.com/wp-content/uploads/Facebook-2006-profile.webp)
+![Facebook 2006](/blog-images/Facebook-2006-profile.webp)
 
 Facebook at 2006
 
-![Facebook 2024](https://dexkit.com/wp-content/uploads/Facebook-2024.png)
+![Facebook 2024](/blog-images/Facebook-2024.png)
 
 Facebook today
 

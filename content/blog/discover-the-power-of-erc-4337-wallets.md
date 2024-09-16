@@ -1,10 +1,13 @@
 ---
-title: "Discover the power of ERC-4337 smart contract wallets"
-date: "August 17, 2023"
-excerpt: "<p>The ERC-4337 standard (Ethereum Request For Comment 4337) represents an enhanced Ethereum standard that seeks to introduce smart contract capabilities into wallets within the Ethereum ecosystem. This entails the potential for wallet customization to suit diverse needs, applications, or individual users, all within the framework of the ERC-4337 standard. DexKit will provide compatibility with this standard.</p> "
-category: "Blog"
-slug: "discover-the-power-of-erc-4337-wallets"
-imageUrl: "/blog-images/Copy-of-20230817_ERC-4337-blog-LinkedIn-Facebook.png"
+title: Discover the power of ERC-4337 smart contract wallets
+date: 'August 17, 2023'
+excerpt: >-
+  The ERC-4337 standard represents an enhanced Ethereum standard that seeks to
+  introduce smart contract capabilities into wallets within the Ethereum
+  ecosystem.
+category: Blog
+slug: discover-the-power-of-erc-4337-wallets
+imageUrl: /blog-images/Copy-of-20230817_ERC-4337-blog-LinkedIn-Facebook.png
 ---
 
 Meet the ERC-4337 smart contract wallets, web3 wallets designed specifically to manage smart contract accounts. These advanced wallets, built upon the ERC-4337 standard, provide users with a familiar experience similar to traditional Externally-Owned Account (EOA) wallets, while also introducing additional functionalities, adaptability, and heightened security advantages.

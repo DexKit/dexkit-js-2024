@@ -1,10 +1,14 @@
 ---
-title: "Avoiding crypto scams: Because there is no better way to be protected than by being informed"
-date: "February 1, 2024"
-excerpt: "<p>As the cryptocurrency industry continues to grow at a rapid pace, it&#8217;s essential for investors to remain vigilant and cautious when investing their hard-earned money.&hellip;</p> "
-category: "Blog"
-slug: "avoiding-crypto-scams"
-imageUrl: "/blog-images/Scams-blog.png"
+title: >-
+  Avoiding crypto scams: Because there is no better way to be protected than by
+  being informed
+date: 'February 1, 2024'
+excerpt: >-
+  As the cryptocurrency industry continues to grow at a rapid pace, it&#8217;s
+  essential for investors to remain vigilant and cautious when investing...
+category: Blog
+slug: avoiding-crypto-scams
+imageUrl: /blog-images/Scams-blog.png
 ---
 
 As the cryptocurrency industry continues to grow at a rapid pace, it’s essential for investors to remain vigilant and cautious when investing their hard-earned money. Unfortunately, the industry is also plagued by various scams that aim to separate unsuspecting investors from their funds. In this article, we’ll delve into some common crypto scams and provide actionable tips on how to avoid falling prey to them.

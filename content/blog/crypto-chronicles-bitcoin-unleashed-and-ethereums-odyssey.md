@@ -1,10 +1,12 @@
 ---
-title: "Crypto Chronicles: Bitcoin Unleashed and Ethereum's Odyssey"
-date: "January 19, 2024"
-excerpt: "<p>Embark on a riveting journey through the enthralling history of two powerhouse cryptocurrencies &#8211; Bitcoin and Ethereum. Bitcoin Unleashed: The Trailblazing Maverick Picture this: In&hellip;</p> "
-category: "Blog"
-slug: "crypto-chronicles-bitcoin-unleashed-and-ethereums-odyssey"
-imageUrl: "/blog-images/20240109_Crypto-Chronicles.png"
+title: 'Crypto Chronicles: Bitcoin Unleashed and Ethereum''s Odyssey'
+date: 'January 19, 2024'
+excerpt: >-
+  Embark on a riveting journey through the enthralling history of two powerhouse
+  cryptocurrencies Bitcoin and Ethereum....
+category: Blog
+slug: crypto-chronicles-bitcoin-unleashed-and-ethereums-odyssey
+imageUrl: /blog-images/20240109_Crypto-Chronicles.png
 ---
 
 Embark on a riveting journey through the enthralling history of two powerhouse cryptocurrencies – Bitcoin and Ethereum.
@@ -17,7 +19,7 @@ At the core of Bitcoin is the blockchain, **an incorruptible ledger that dances 
 
 Bitcoin transcends being just a coin; **it’s digital gold, globally embraced and reshaping the financial landscape** with its finite supply, gaining acceptance as a store of value.
 
-![Satoshi Nakamoto](https://dexkit.com/wp-content/uploads/f2e94aa0-d9e5-4dc1-9c07-6b8fec4acfd5.jpg)
+![Satoshi Nakamoto](/blog-images/f2e94aa0-d9e5-4dc1-9c07-6b8fec4acfd5.jpg)
 
 The identity of the creator of Bitcoin still remains a mystery, and perhaps will remain that way.
 
@@ -42,7 +44,7 @@ The 2014 Ethereum Initial Coin Offering (ICO) was a carnival of innovation, remi
 
 **Ethereum’s impact extends beyond finance into healthcare and supply chain**, for example. Its adaptability is showcased as it revolutionizes data management in healthcare, ensuring secure and transparent sharing of medical records. In the supply chain, Ethereum’s smart contracts streamline processes, reducing costs and enhancing traceability. The platform’s versatility allows it to address the unique needs of diverse sectors, exemplifying decentralized innovation.
 
-![Man standing in front of Ethereum bright symbol](https://dexkit.com/wp-content/uploads/c6de6a5e-14d2-4fe9-8038-0187b315f3c8.jpeg)
+![Man standing in front of Ethereum bright symbol](/blog-images/c6de6a5e-14d2-4fe9-8038-0187b315f3c8.jpeg)
 
 Ethereum has opened up business opportunities for people all over the world, without distinctions.
 
@@ -66,7 +68,7 @@ Bitcoin takes center stage in the financial arena, with institutions recognizing
 
 In January 2024, Bitcoin secured a significant milestone as the [SEC approved a positive ETF for the cryptocurrency](https://www.thebanker.com/Much-anticipated-the-US-SEC-approves-bitcoin-ETFs-1705393382#:~:text=In%20a%20move%20widely%20anticipated,moment%20for%20the%20crypto%20industry.). This development has further elevated Bitcoin’s prominence in the financial arena, with institutions increasingly recognizing its inherent value. Serving as a financial blockbuster, Bitcoin continues to challenge and reimagine traditional notions of currency, solidifying its position as a transformative force in the world of finance.
 
-![Bitcoin King](https://dexkit.com/wp-content/uploads/94cce3fc-b776-4998-a07d-03bdc04e08ad.jpg)
+![Bitcoin King](/blog-images/94cce3fc-b776-4998-a07d-03bdc04e08ad.jpg)
 
 Bitcoin is called the king of cryptocurrencies
 

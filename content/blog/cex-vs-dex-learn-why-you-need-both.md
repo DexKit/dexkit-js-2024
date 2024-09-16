@@ -1,10 +1,13 @@
 ---
-title: "CEX vs DEX: Learn why you need both in your DeFi adventures"
-date: "January 25, 2023"
-excerpt: "<p>Discover the advantages and disadvantages of Centralized Exchanges (CEXs) and Decentralized Exchanges (DEXs) and why both are essential for those aiming to become DeFi wizards. Explore the differences between CEXs and DEXs, their risks, and the importance of having a diversified trading approach.</p> "
-category: "Blog"
-slug: "cex-vs-dex-learn-why-you-need-both"
-imageUrl: "/blog-images/CEX-x-DEX_DexKit-blog-PNG.png"
+title: 'CEX vs DEX: Learn why you need both in your DeFi adventures'
+date: 'January 25, 2023'
+excerpt: >-
+  Discover the advantages and disadvantages of Centralized Exchanges (CEXs) and
+  Decentralized Exchanges (DEXs) and why both are essential for those aiming to
+  become DeFi wizards.
+category: Blog
+slug: cex-vs-dex-learn-why-you-need-both
+imageUrl: /blog-images/CEX-x-DEX_DexKit-blog-PNG.png
 ---
 
 We’ve taken into consideration some crucial features of Centralized Exchanges (CEXs) such as Binance, OKX, Bitfinex, Coinbase, and others, as well as Decentralized Exchanges (DEXs) like Uniswap, Kyber, Pancakeswap, DexKit trading solutions, and more, to facilitate a comprehensive comparison between the two. Let’s assess the advantages and disadvantages of each and explore why users would require both in order to become DeFi wizards 🧙‍♂️.

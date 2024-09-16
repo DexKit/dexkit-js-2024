@@ -1,10 +1,14 @@
 ---
-title: "Disrupting Traditional Finance: The Power of Decentralized Solutions and DexKit's Innovations"
-date: "April 19, 2023"
-excerpt: "<p>Decentralized finance (DeFi) is transforming the financial landscape by offering increased transparency, accessibility, and autonomy. DexKit specializes in developing DeFi products for digital entrepreneurs, enabling users to maintain control over their assets and trade directly from their wallets. As the DeFi ecosystem continues to evolve, it&#8217;s crucial for individuals and businesses to consider the opportunities offered by DeFi and startups like DexKit to stay competitive and adapt to an increasingly decentralized world.</p> "
-category: "Blog"
-slug: "disrupting-traditional-finance"
-imageUrl: "/blog-images/20230418_DexKit-DeFi-blog.png"
+title: >-
+  Disrupting Traditional Finance: The Power of Decentralized Solutions and
+  DexKit's Innovations
+date: 'April 19, 2023'
+excerpt: >-
+  Decentralized finance (DeFi) is transforming the financial landscape by
+  offering increased transparency, accessibility, and autonomy.
+category: Blog
+slug: disrupting-traditional-finance
+imageUrl: /blog-images/20230418_DexKit-DeFi-blog.png
 ---
 
 The financial landscape has undergone a significant transformation in recent years, with the emergence of decentralized finance (DeFi) challenging the traditional, centralized financial system. At DexKit, we’re specialized in developing DeFi products for digital entrepreneurs, standing as a testament to the advantages offered by DeFi over its centralized counterparts.
@@ -17,7 +21,7 @@ DexKit’s suite of DeFi products integrates seamlessly with decentralized walle
 
 Centralized exchanges (CEXs) have been the dominant players in the cryptocurrency trading space for years. However, they are subject to various risks, including hacks, insider threats, and regulatory constraints. Decentralized exchanges (DEXs), on the other hand, allow users to trade directly from their wallets without relying on a central authority.
 
-![How CeFi and DeFi works](https://dexkit.com/wp-content/uploads/HdKAUevkFqeN52Bt.png)
+![How CeFi and DeFi works](/blog-images/HdKAUevkFqeN52Bt.png)
 
 This is how CeFi (Centralized Finance) and DeFi works.
 

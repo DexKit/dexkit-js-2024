@@ -1,10 +1,10 @@
 ---
-title: "Meet Brandon: A valuable cryptopreneur on DexKit’s community"
-date: "July 4, 2024"
-excerpt: "<p>Warm greetings to all our readers!👋 In this blog post, we are pleased to share a testimonial from a notable Web3 creator who uses our&hellip;</p> "
-category: "Blog"
-slug: "meet-brandon-a-valuable-cryptopreneur-on-dexkits-community"
-imageUrl: "/blog-images/Brandon-blog.png"
+title: 'Meet Brandon: A valuable cryptopreneur on DexKit’s community'
+date: 'July 4, 2024'
+excerpt: "Warm greetings to all our readers!\U0001F44B In this blog post, we are pleased to share a testimonial from a notable Web3 creator..."
+category: Blog
+slug: meet-brandon-a-valuable-cryptopreneur-on-dexkits-community
+imageUrl: /blog-images/Brandon-blog.png
 ---
 
 Warm greetings to all our readers!👋 In this blog post, we are pleased to share a testimonial from a notable Web3 creator who uses our [DexAppBuilder](https://dexappbuilder.dexkit.com/) platform to support his creative and financial endeavors.
@@ -89,4 +89,4 @@ Please check out one of Brandon’s projects created with DexAppBuilder, [Oishi 
 
 Let’s decentralize the future together! 👨‍👩‍👧‍👦
 
-#### _Author’s Note: The opinions expressed in this interview belong solely to the interviewee, and we have preserved the authenticity of Brandon’s responses without any modifications
+#### Author’s Note: The opinions expressed in this interview belong solely to the interviewee, and we have preserved the authenticity of Brandon’s responses without any modifications

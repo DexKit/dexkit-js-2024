@@ -1,10 +1,13 @@
 ---
-title: "Exploring Cryptocurency Exchanges: A Deep Dive into CEX and DEX Dynamics"
-date: "January 18, 2024"
-excerpt: "<p>Dive into the world of cryptocurrencies with our comprehensive guide. Explore Bitcoin, Ethereum, Polygon, Arbitrum, and Optimism, uncover blockchain technology, practical applications, and real-world asset tokenization. Elevate your crypto journey with DexAppBuilder, your key to building decentralized applications. Demystify the crypto cosmos and navigate the evolving landscape of financial innovation with us.</p> "
-category: "Blog"
-slug: "exploring-cryptocurrency-exchanges"
-imageUrl: "/blog-images/Exchanges-blog.png"
+title: 'Exploring Cryptocurency Exchanges: A Deep Dive into CEX and DEX Dynamics'
+date: 'January 18, 2024'
+excerpt: >-
+  Dive into the world of cryptocurrencies with our comprehensive guide. Explore
+  Bitcoin, Ethereum, Polygon, Arbitrum, and Optimism, uncover blockchain
+  technology, practical applications, and real-world asset tokenization.
+category: Blog
+slug: exploring-cryptocurrency-exchanges
+imageUrl: /blog-images/Exchanges-blog.png
 ---
 
 Cryptocurrency exchanges serve as the backbone of the digital asset ecosystem, offering users the ability to engage in buying, selling, and trading various cryptocurrencies. In this in-depth exploration, we will delve into the world of Centralized Exchanges (CEX) and Decentralized Exchanges (DEX), shedding light on their definitions, distinctions, advantages, and disadvantages to empower you in making well-informed decisions.
@@ -13,7 +16,7 @@ Cryptocurrency exchanges serve as the backbone of the digital asset ecosystem, o
 
 Centralized Exchanges operate as intermediaries, managing a shared pool of digital assets deposited by users. Renowned platforms like Coinbase, Binance, and Kraken fall under this category. They play a pivotal role in ensuring secure and smooth transactions between buyers and sellers.
 
-![Binance](https://dexkit.com/wp-content/uploads/binance-logo-og.webp)
+![Binance](/blog-images/binance-logo-og.webp)
 
 Binance is the largest centralized exchange in the world handling an estimated daily trading volume of $13 billion dollars (Source: CoinGecko)
 
@@ -21,7 +24,7 @@ Binance is the largest centralized exchange in the world handling an estimated d
 
 Decentralized Exchanges, in contrast, operate on peer-to-peer networks, eliminating the need for intermediaries. Users maintain control over their private keys and assets, fostering security and autonomy. DEX transactions occur directly between users, facilitated by smart contracts or automated market makers (AMMs). Notable DEX platforms include Uniswap, SushiSwap, PancakeSwap, and DexKit (for whitelabel DeFi products).
 
-![DEX](https://dexkit.com/wp-content/uploads/b1337a17-fb51-4117-98b8-5a9f8f22f571.jpg)
+![DEX](/blog-images/b1337a17-fb51-4117-98b8-5a9f8f22f571.jpg)
 
 This illustration represents DEX trading, where multiple actors, individually, contribute to a liquidity entity to which everyone has equal access.
 
@@ -47,7 +50,7 @@ This illustration represents DEX trading, where multiple actors, individually, c
 * CEX provides a user-friendly experience with intuitive interfaces, robust customer support, and comprehensive features like margin trading and staking.
 * DEX, though improving, may require users to navigate more complex processes and utilize specialized tools.
 
-![DEX vs CEX](https://dexkit.com/wp-content/uploads/dexvscex.jpg)
+![DEX vs CEX](/blog-images/dexvscex.jpg)
 
 CEXs and DEXs have marked differences that in turn become complementary in a positive way.
 
@@ -63,7 +66,7 @@ Deploying a DApp is much easier with [Quick Builder](https://dexappbuilder.dexki
 
 If you are interested in deploying your DApp and learning all the details about the product, visit [this video](https://youtu.be/fXppwjRqVpM) [on the official DexKit channel on YouTube](https://youtu.be/fXppwjRqVpM).
 
-![Swap Interface](https://dexkit.com/wp-content/uploads/Video-4_Swap-interface-thumbail_Youtube.png)
+![Swap Interface](/blog-images/Video-4_Swap-interface-thumbail_Youtube.png)
 
 ### Conclusion
 

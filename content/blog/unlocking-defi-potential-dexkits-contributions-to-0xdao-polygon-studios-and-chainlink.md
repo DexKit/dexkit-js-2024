@@ -1,10 +1,16 @@
 ---
-title: "Unlocking DeFi Potential: DexKit's Contributions to 0xDAO, Polygon Studios, and Chainlink"
-date: "October 3, 2022"
-excerpt: "<p>Discover how DexKit has been instrumental in driving the growth of decentralized finance (DeFi) through its partnerships with 0xDAO, Polygon Studios, and Chainlink. From pioneering NFT trading solutions to leveraging industry-leading Oracle services, DexKit is at the forefront of empowering digital entrepreneurs and revolutionizing the crypto community.</p> "
-category: "Community"
-slug: "unlocking-defi-potential-dexkits-contributions-to-0xdao-polygon-studios-and-chainlink"
-imageUrl: "/blog-images/Promoting-partnerships-GIF.gif"
+title: >-
+  Unlocking DeFi Potential: DexKit's Contributions to 0xDAO, Polygon Studios,
+  and Chainlink
+date: 'October 3, 2022'
+excerpt: >-
+  Discover how DexKit has been instrumental in driving the growth of
+  decentralized finance (DeFi) through its partnerships with 0xDAO, Polygon
+  Studios, and Chainlink.
+category: Community
+slug: >-
+  unlocking-defi-potential-dexkits-contributions-to-0xdao-polygon-studios-and-chainlink
+imageUrl: /blog-images/Promoting-partnerships-GIF.gif
 ---
 
 At DexKit, we specialize not only in designing and developing high-quality DeFi tools for digital entrepreneurs but also in contributing to other decentralized projects. This ensures our voice within the rapidly growing crypto community, which we have actively engaged with for the past two years. This article provides insights into how we have assisted and continue to support other projects, leading to increased exposure.

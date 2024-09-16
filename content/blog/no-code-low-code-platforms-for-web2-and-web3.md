@@ -1,10 +1,10 @@
 ---
-title: "No-Code/Low-Code Platforms for Web2 and Web3"
-date: "April 4, 2024"
-excerpt: "<p>In the previous post, we explored no-code/low-code platforms. We examined how they make app development practical and cost-effective. In this article, we&#8217;ll compare WordPress and Wix,&hellip;</p> "
-category: "Blog"
-slug: "no-code-low-code-platforms-for-web2-and-web3"
-imageUrl: "/blog-images/Web2-and-Web3-blog-1.png"
+title: No-Code/Low-Code Platforms for Web2 and Web3
+date: 'April 4, 2024'
+excerpt: "In the previous post,\_we explored no-code/low-code platforms. We examined how they make app development practical and cost-effective..."
+category: Blog
+slug: no-code-low-code-platforms-for-web2-and-web3
+imageUrl: /blog-images/Web2-and-Web3-blog-1.png
 ---
 
 In the [previous post](https://dexkit.com/no-code-low-code-revolution-transforming-digital-creation/), we explored no-code/low-code platforms. We examined how they make app development practical and cost-effective. In this article, we’ll compare WordPress and Wix, both no-code/low-code platforms designed for Web 2 website creation. Additionally, we’ll show how the DexAppBuilder platform, specific to Web3, differs from them.
@@ -19,7 +19,7 @@ With a significant market share, WordPress offers flexibility and a large suppor
 
 Due to [its open-source nature](https://github.com/WordPress), WordPress allows free access to its source code. This empowers its community to continually adapt and improve it. This feature makes WordPress a versatile and constantly updated tool for establishing an online presence.
 
-![WordPress](https://dexkit.com/wp-content/uploads/Wordpress.png)
+![WordPress](/blog-images/Wordpress.png)
 
 ### Advantages of WordPress
 
@@ -45,7 +45,7 @@ The Wix platform provides customizable templates and the ability to add function
 
 In addition to website creation, Wix entered the music world. It offers musicians a platform to distribute their music directly from their Wix website to popular streaming platforms.
 
-![Wix](https://dexkit.com/wp-content/uploads/Wix.png)
+![Wix](/blog-images/Wix.png)
 
 ### Advantages of Wix
 
@@ -69,13 +69,13 @@ While Wix offers an array of features and a user-friendly experience, it also ha
 
 The development of applications in Web3 is a complex field. Generally, only developers with specific knowledge of blockchain and smart contracts can create app projects in Web3. However, DexAppBuilder eliminates this complexity, making Web3 accessible to all through its platform for effortless DApp creation in Web3.
 
-![DexAppBuilder](https://dexkit.com/wp-content/uploads/DexAppBuilder.png)
+![DexAppBuilder](/blog-images/DexAppBuilder.png)
 
 DexAppBuilder offers specific domains for free. A domain linked to DexKit is automatically generated when you create your DApp on this platform. It supports multiple blockchain networks like Ethereum, Polygon, and Binance Chain (among other popular networks).
 
 For those interested in entering the Web3 space, DexAppBuilder is a valuable tool. Users can pursue various interesting and profitable projects with it. Examples of these projects include creating tokens, selling cryptocurrencies and NFTs, or distributing tokens through airdrops. It is adaptable to the diverse needs of digital businesses in Web3.
 
-![Showcasing DexAppBuilder](https://dexkit.com/wp-content/uploads/showcase_dexappbuilder-1.gif)
+![Showcasing DexAppBuilder](/blog-images/showcase_dexappbuilder-1.gif)
 
 DexKit has published the code of DexAppBuilder on [GitHub](https://github.com/DexKit/open-nft-marketplace). Any user can utilize its open-source tools through [NPM](https://www.npmjs.com/search?q=dexkit). Additionally, DexKit offers numerous [educational tutorials on YouTube](https://www.youtube.com/c/dexkit) about DexAppBuilder and provides [extensive documentation](https://docs.dexkit.com/) written in simple language.
 
@@ -83,7 +83,7 @@ Within the realm of no-code/low-code platforms, DexAppBuilder stands out as the 
 
 Thus, for those looking to start a Web3 project and leverage blockchain security, DexAppBuilder is a promising gateway. It takes you to the future of the decentralized internet.  
 
-![Music NFTs](https://dexkit.com/wp-content/uploads/MusicNFTs.png)
+![Music NFTs](/blog-images/MusicNFTs.png)
 
 Musicians will be able to easily create and sell their musical pieces as NFTs, with all the benefits that this includes.
 

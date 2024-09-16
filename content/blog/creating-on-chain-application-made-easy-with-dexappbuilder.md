@@ -1,10 +1,10 @@
 ---
-title: "Creating on-chain application made easy with DexAppBuilder"
-date: "April 24, 2024"
-excerpt: "<p>In the Web3 era, no-code/low-code platforms  are crucial for developers and app creators. They bridge the gap between users and complex technologies like blockchain. These platforms make on-chain&hellip;</p> "
-category: "Blog"
-slug: "creating-on-chain-application-made-easy-with-dexappbuilder"
-imageUrl: "/blog-images/On-chain-app-blog.png"
+title: Creating on-chain application made easy with DexAppBuilder
+date: 'April 24, 2024'
+excerpt: "In the\_Web3\_era, no-code/low-code platforms\_\_are crucial for developers and app creators. They bridge the gap between users and complex technologies like blockchain..."
+category: Blog
+slug: creating-on-chain-application-made-easy-with-dexappbuilder
+imageUrl: /blog-images/On-chain-app-blog.png
 ---
 
 In the [Web3](https://dexkit.com/web3-the-present-and-the-future-of-the-internet/) era, [no-code/low-code platforms](https://dexkit.com/no-code-low-code-revolution-transforming-digital-creation/)  are crucial for developers and app creators. They bridge the gap between users and complex technologies like blockchain. These platforms make on-chain application development easier.  Consequently, they democratize the process for both coding-savvy and non-technical users. This enables them to participate in the decentralized ecosystem with ease.
@@ -25,7 +25,7 @@ With DexAppBuilder, you can build a variety of on-chain applications. Below are 
 
 • **Exclusive content blog:** DexAppBuilder offers gated content functionality. You can use it to limit public access to your exclusive content. Set a flexible hierarchy of access to this content. Lock content behind specific ERC20 tokens or NFTs.
 
-![DexAppBuilder](https://dexkit.com/wp-content/uploads/DexAppBuilder-1.png)
+![DexAppBuilder](/blog-images/DexAppBuilder-1.png)
 
 ### Creating your on-chain application made simple
 
@@ -45,7 +45,7 @@ DexAppBuilder simplifies the creation of on-chain applications by providing:
 
 Begin your creation journey by selecting “Create App” on the DexAppBuilder platform.
 
-![Screenshot of DexAppBuilder interface showing the first step: clicking on "Create App" to start app creation process.](https://dexkit.com/wp-content/uploads/Stage-1-image-1.png)
+![Screenshot of DexAppBuilder interface showing the first step: clicking on "Create App" to start app creation process.](/blog-images/Stage-1-image-1.png)
 
 After naming your dApp, providing your email for notifications, and connecting your wallet, the admin panel becomes your command center.
 
@@ -53,7 +53,7 @@ After naming your dApp, providing your email for notifications, and connecting y
 
 In the “Settings” menu, you’ll find various features to configure your dApp, including basic and specific settings.
 
-![Screenshot of DexAppBuilder admin panel displaying the 'Settings' menu and its resources for creating an on-chain DApp.](https://dexkit.com/wp-content/uploads/Stage-2-Settings.png)
+![Screenshot of DexAppBuilder admin panel displaying the 'Settings' menu and its resources for creating an on-chain DApp.](/blog-images/Stage-2-Settings.png)
 
  Here’s what to do in each feature:
 
@@ -73,7 +73,7 @@ In the “Settings” menu, you’ll find various features to configure your dAp
 
 Go to the “Layout” menu and let your creativity flow to design your dApp’s user interface.
 
-![Screenshot of DexAppBuilder admin panel displaying the 'Layout' menu and its resources for customizing the layout of the on-chain DApp.](https://dexkit.com/wp-content/uploads/Stage-3-Layout.png)
+![Screenshot of DexAppBuilder admin panel displaying the 'Layout' menu and its resources for customizing the layout of the on-chain DApp.](/blog-images/Stage-3-Layout.png)
 
 Find out what each feature in this menu is for:
 
@@ -93,7 +93,7 @@ Find out what each feature in this menu is for:
 
 Once you’ve set up your dApp’s foundation, you can add more features to enhance its functionality.
 
-![Extra](https://dexkit.com/wp-content/uploads/Stage-4-Additional-features-1.png)
+![Extra](/blog-images/Stage-4-Additional-features-1.png)
 
 **• Fees:** Set the fees for your dApp. These fees will be added to NFT sales or offers (Marketplace Fees) or to swap transactions in your dApp (Swap Fees).
 

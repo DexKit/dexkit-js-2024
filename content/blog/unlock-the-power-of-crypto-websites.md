@@ -1,10 +1,12 @@
 ---
-title: "Unlock the Power of Crypto Websites: Explore Our Revolutionary Product Today!"
-date: "January 20, 2023"
-excerpt: "<p>Discover the game-changing advantages of our Crypto Website Builder Wizard, designed to revolutionize your digital collectibles journey. Explore advanced features, unparalleled customization options, and seamless migration for your crypto website. Don&#8217;t miss out on this opportunity to take your online presence to new heights!</p> "
-category: "Community"
-slug: "unlock-the-power-of-crypto-websites"
-imageUrl: "/blog-images/Wizard-differentials_DexKit-blog.png"
+title: 'Unlock the Power of Crypto Websites: Explore Our Revolutionary Product Today!'
+date: 'January 20, 2023'
+excerpt: >-
+  Discover the game-changing advantages of our Crypto Website Builder Wizard,
+  designed to revolutionize your digital collectibles journey.
+category: Community
+slug: unlock-the-power-of-crypto-websites
+imageUrl: /blog-images/Wizard-differentials_DexKit-blog.png
 ---
 
 We have dedicated significant time and effort to thoroughly analyze and study the key players in the digital collectibles industry, allowing us to develop a truly exceptional product.

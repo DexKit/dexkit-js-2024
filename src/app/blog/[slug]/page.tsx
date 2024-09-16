@@ -5,6 +5,7 @@ import { remark } from 'remark';
 import html from 'remark-html';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
 
 interface BlogPost {
   slug: string;
@@ -14,6 +15,7 @@ interface BlogPost {
   category: string;
   imageUrl: string;
   contentHtml: string;
+  excerpt?: string;
 }
 
 async function getPostData(slug: string): Promise<BlogPost | null> {
@@ -37,10 +39,30 @@ async function getPostData(slug: string): Promise<BlogPost | null> {
       category: data.category,
       imageUrl: data.imageUrl,
       contentHtml,
+      excerpt: data.excerpt || content.slice(0, 160) + '...',
     };
   } catch (error) {
     return null;
   }
+}
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const post = await getPostData(params.slug);
+  if (!post) {
+    return {
+      title: 'Post not found',
+      description: 'The requested blog post could not be found.',
+    };
+  }
+  return {
+    title: `${post.title} | DexKit Blog`,
+    description: post.excerpt,
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      images: [{ url: post.imageUrl }],
+    },
+  };
 }
 
 export default async function BlogPostPage({ params }: { params: { slug: string } }) {

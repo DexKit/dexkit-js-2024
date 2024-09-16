@@ -1,10 +1,15 @@
 ---
-title: "Real-world cryptocurrency exploration: Consumer, Infrastructure, and Governance Tokens"
-date: "February 14, 2024"
-excerpt: "<p>In the expansive realm of cryptocurrency, we encounter diverse types, each playing unique roles: Consumer Cryptocurrencies, Infrastructure Cryptocurrencies, and Governance Tokens. These entities wield distinct&hellip;</p> "
-category: "Blog"
-slug: "real-world-cryptocurrency-exploration-consumer-infrastructure-and-governance-tokens"
-imageUrl: "/blog-images/Real-World.png"
+title: >-
+  Real-world cryptocurrency exploration: Consumer, Infrastructure, and
+  Governance Tokens
+date: 'February 14, 2024'
+excerpt: >-
+  Browse through the essential cryptocurrencies and choose your favorites to
+  save, invest or build.
+category: Blog
+slug: >-
+  real-world-cryptocurrency-exploration-consumer-infrastructure-and-governance-tokens
+imageUrl: /blog-images/Real-World.png
 ---
 
 In the expansive realm of cryptocurrency, we encounter diverse types, each playing unique roles: **Consumer Cryptocurrencies, Infrastructure Cryptocurrencies, and Governance Tokens**. These entities wield distinct influences in the blockchain arena, impacting everyday transactions, optimizing networks, and fostering community engagement. Navigating this dynamic digital currency marketplace requires a deep understanding of these differences. This article delves into a comprehensive comparison of Consumer Cryptocurrencies, Infrastructure Cryptocurrencies, and Governance Tokens, exploring their purpose, functionality, adoption, regulation, and real-world use cases.
@@ -13,7 +18,7 @@ In the expansive realm of cryptocurrency, we encounter diverse types, each playi
 
 **Consumer Cryptocurrencies prioritize everyday transactions**, offering a swifter and more cost-effective alternative to traditional payment methods. Users commonly employ them for online purchases and quick exchanges with friends.
 
-![Cryptocurrency Adoption](https://dexkit.com/wp-content/uploads/09602236-0dd6-483d-bc6c-aa05593bf200.jpg)
+![Cryptocurrency Adoption](/blog-images/09602236-0dd6-483d-bc6c-aa05593bf200.jpg)
 
 Bitcoin has been a step towards global financial freedom by being the pioneer in the industry.
 
@@ -34,7 +39,7 @@ Governance Tokens go beyond abstract voting rights; they are tools enabling hold
 * **DexKit (KIT):** The [KIT tokens](https://docs.dexkit.com/welcome/our-token/contract-addresses) aim to guide development direction and prioritize focus based on governance voting, managing royalty funds from application resale. Those with the required amount can actively participate in decisions, shaping the project’s future.
 * **Filecoin (FIL):** FIL tokens empower the [Filecoin](https://filecoin.io/) community to contribute actively to decisions regarding the project’s growth and development.
 
-![Uniswap token](https://dexkit.com/wp-content/uploads/uniswap.png)
+![Uniswap token](/blog-images/uniswap.png)
 
 Uniswap has become one of the largest DeFi infrastructures by hosting thousands of liquidity pools.
 

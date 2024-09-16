@@ -25,7 +25,7 @@ export default function Hero() {
         <div className="md:w-1/2 flex justify-center md:justify-start">
           <Image
             src="/imgs/web3.webp"
-            alt="DexKit Web3 Illustration"
+            alt="DexKit Web3 Illustration showcasing decentralized application building"
             width={350}
             height={350}
             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"

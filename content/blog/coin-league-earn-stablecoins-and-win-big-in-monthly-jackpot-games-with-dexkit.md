@@ -1,10 +1,15 @@
 ---
-title: "Coin League: Earn Stablecoins and Win Big in Monthly Jackpot Games with DexKit!"
-date: "August 9, 2022"
-excerpt: "<p>Discover how DexKit&#8217;s Coin League offers aspiring traders a unique opportunity to earn stablecoins while enjoying an educational and profitable gaming experience. Participate in the Monthly Jackpot Games, starting from September 1st, 2022, and compete for a prize pool of up to 500 USDT*. Invite others to play through your referral link and start earning even without playing. Join now and test your prediction skills to win big in the exciting world of Coin League!</p> "
-category: "Affiliates"
-slug: "coin-league-earn-stablecoins-and-win-big-in-monthly-jackpot-games-with-dexkit"
-imageUrl: "/blog-images/Jackpot-Game_DexKit-blog.png"
+title: >-
+  Coin League: Earn Stablecoins and Win Big in Monthly Jackpot Games with
+  DexKit!
+date: 'August 9, 2022'
+excerpt: >-
+  Discover how DexKit&#8217;s Coin League offers aspiring traders a unique
+  opportunity to earn stablecoins while enjoying an educational and profitable
+  gaming experience. Participate in the Monthly Jackpot Games...
+category: Affiliates
+slug: coin-league-earn-stablecoins-and-win-big-in-monthly-jackpot-games-with-dexkit
+imageUrl: /blog-images/Jackpot-Game_DexKit-blog.png
 ---
 
 DexKit has developed strategic plans to enable all aspiring traders (including those with traction) to earn stablecoins by participating in Coin League, making it their favorite educational and profitable game. Let’s grab a cup of coffee ☕ together.
@@ -13,7 +18,7 @@ Starting from September 1st, 2022, Monthly Jackpot Games will be held! (and repe
 
 \*The final prize amount will be determined by the total number of players. For every group of ten players, DexKit will contribute an additional 50 $USDT, increasing the prize to 100 $USDT (10 players \* 10 $USDT each) plus an extra 50 $USDT (bonus from DexKit’s team), to be divided among the top three winners. This pattern continues for every additional group of ten players, so if the room is filled with fifty players, the winners will share 750 $USDT. This initiative is expected to attract numerous interested individuals who are eager to play and earn through referrals.
 
-![Coin League Race](https://dexkit.com/wp-content/uploads/coin_league_race_1.png)
+![Coin League Race](/blog-images/coin_league_race_1.png)
 
 You're gonna see how cool those races are! Anyone can win! 🥁🤯
 
@@ -23,7 +28,7 @@ The first jackpot game, called “bull game”
 
 , will run for one month, and the entry fee will be 10 $USDT on Polygon (plus minimal $MATIC fees). Future months may vary based on a public poll conducted on Coin League’s Twitter. Price trends may also vary, so we should adapt accordingly
 
-![Bear](https://dexkit.com/wp-content/uploads/beargamecoinleague_moddy-1.gif)
+![Bear](/blog-images/beargamecoinleague_moddy-1.gif)
 
 We care a lot all bears out there 🐻
 
@@ -31,7 +36,7 @@ We care a lot all bears out there 🐻
 
 Through Coin League, users can earn cryptocurrency without even playing! If you know people who might enjoy the game, invite them to play using your referral link, and you’ll start earning from the moment they join.
 
-![Calculus meme](https://dexkit.com/wp-content/uploads/calculus.gif)
+![Calculus meme](/blog-images/calculus.gif)
 
 Imagine how much you can earn if your favorite Crypto Youtuber knows about the game by your affiliate link 👀
 

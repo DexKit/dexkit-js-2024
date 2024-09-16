@@ -1,15 +1,17 @@
 ---
-title: "Fortress Your Crypto: Battle-Tested Tips to Guard Your Digital Gold"
-date: "February 9, 2024"
-excerpt: "<p>Yo, crypto cadets! In the wild west of digital assets, protecting your loot is paramount. Inside this post is your arsenal of security measures to&hellip;</p> "
-category: "Blog"
-slug: "fortress-your-crypto-battle-tested-tips-to-guard-your-digital-gold"
-imageUrl: "/blog-images/Fortresse-your-crypto-blog.png"
+title: 'Fortress Your Crypto: Battle-Tested Tips to Guard Your Digital Gold'
+date: 'February 9, 2024'
+excerpt: >-
+  Yo, crypto cadets! In the wild west of digital assets, protecting your loot is
+  paramount...
+category: Blog
+slug: fortress-your-crypto-battle-tested-tips-to-guard-your-digital-gold
+imageUrl: /blog-images/Fortresse-your-crypto-blog.png
 ---
 
 Yo, crypto cadets! In the wild west of digital assets, protecting your loot is paramount. Inside this post is your arsenal of security measures to repel cybervillains and keep your coins shiny.
 
-![Crypto Fortress](https://dexkit.com/wp-content/uploads/ca23de1c-a90c-4554-9812-b861da35803d.jpg)
+![Crypto Fortress](/blog-images/ca23de1c-a90c-4554-9812-b861da35803d.jpg)
 
 Learn how to take care of your crypto assets without needing to be a security expert.
 
@@ -17,7 +19,7 @@ Learn how to take care of your crypto assets without needing to be a security ex
 
 **2\. Hardware Haven:** When your stash starts to grow dramatically, consider investing in a hardware wallet – your personal Fort Knox, safeguarding your crypto offline and immune to digital pickpockets.
 
-![Digital Safebox](https://dexkit.com/wp-content/uploads/ced52247-a880-486d-b101-57fb2af625ca.jpg)
+![Digital Safebox](/blog-images/ced52247-a880-486d-b101-57fb2af625ca.jpg)
 
 By taking small security measures you can protect your crypto assets very well.
 
@@ -27,7 +29,7 @@ By taking small security measures you can protect your crypto assets very well.
 
 **5\. Exchange Excellence:** Not all exchanges are created equal. Seek a reputable one, battle-tested against attacks, with a loyal army of satisfied customers. We recommend starting with [Binance](https://binance.com), it’s the biggest centralized exchange in the world and their interface is curated for newbies.
 
-![](https://dexkit.com/wp-content/uploads/coingeckodash.png)
+![Coingecko dashboard](/blog-images/coingeckodash.png)
 
 Platforms like Coingecko or Coinmarketcap can give you valuable information about exchanges.
 

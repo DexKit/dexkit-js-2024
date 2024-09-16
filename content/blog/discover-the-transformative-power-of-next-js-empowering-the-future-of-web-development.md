@@ -1,23 +1,29 @@
 ---
-title: "Discover the transformative power of Next.js: Empowering the Future of Web Development ▲"
-date: "October 26, 2022"
-excerpt: "<p>Explore Next.js, the revolutionary framework unveiled at the Next.js 2022 conference. Discover how it revolutionizes web development by providing solutions to critical challenges faced by developers. With improved speed, compatibility with DeFi tools, and new features, Next.js reshapes the web development landscape, inspiring countless entrepreneurs to redefine the industry.</p> "
-category: "Development"
-slug: "discover-the-transformative-power-of-next-js-empowering-the-future-of-web-development"
-imageUrl: "/blog-images/DexKit_nextjs.png"
+title: >-
+  Discover the transformative power of Next.js: Empowering the Future of Web
+  Development ▲
+date: 'October 26, 2022'
+excerpt: >-
+  Explore Next.js, the revolutionary framework unveiled at the Next.js 2022
+  conference. Discover how it revolutionizes web development by providing
+  solutions to critical challenges faced by developers.
+category: Development
+slug: >-
+  discover-the-transformative-power-of-next-js-empowering-the-future-of-web-development
+imageUrl: /blog-images/DexKit_nextjs.png
 ---
 
 During our relentless daily efforts to advance our project, we virtually participated in the [Next.js 2022 conference](https://nextjs.org/conf), sponsored by [Vercel](https://vercel.com/), held in San Francisco, California. The event exceeded expectations in terms of capacity and delivered invaluable content and announcements.
 
 One groundbreaking announcement made during the conference was the release of Next.js 13. This update addresses critical concerns for developers, including web app responsiveness, 24/7 availability, compatibility with DeFi tools, and innovative features that revolutionize project development and maintenance.
 
-![Vercel Team](https://dexkit.com/wp-content/uploads/image-16.png)
+![Vercel Team](/blog-images/image-16.png)
 
 Yesterday we could see what this group of entrepreneurs is up to, and it is nothing more than changing the vision of the web as we know it.
 
 ### What is Next.js and why is it so important?
 
-![NextJS](https://dexkit.com/wp-content/uploads/Nextjs.b8a717322c08.png)
+![NextJS](/blog-images/Nextjs.b8a717322c08.png)
 
 [Next.js](https://nextjs.org/) is a comprehensive framework that addresses the challenges and requirements faced by developers when building web projects. Take a look at the extensive capabilities offered by Next.js, as stated in [its official documentation](https://nextjs.org/learn/basics/create-nextjs-app):
 

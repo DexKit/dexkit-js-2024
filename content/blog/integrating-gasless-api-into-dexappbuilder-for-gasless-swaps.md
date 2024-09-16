@@ -1,10 +1,12 @@
 ---
-title: "Integrating Gasless API into DexAppBuilder for Gasless Swaps"
-date: "May 23, 2024"
-excerpt: "<p>At DexKit, our mission is to make Web3 accessible. One of the many ways we do this is by simplifying decentralized trading for everyone. Today,&hellip;</p> "
-category: "Blog"
-slug: "integrating-gasless-api-into-dexappbuilder-for-gasless-swaps"
-imageUrl: "/blog-images/Gasless-blog.png"
+title: Integrating Gasless API into DexAppBuilder for Gasless Swaps
+date: 'May 23, 2024'
+excerpt: >-
+  At DexKit, our mission is to make Web3 accessible. One of the many ways we do
+  this is by simplifying decentralized trading for everyone.
+category: Blog
+slug: integrating-gasless-api-into-dexappbuilder-for-gasless-swaps
+imageUrl: /blog-images/Gasless-blog.png
 ---
 
 At DexKit, **our mission is to make Web3 accessible**. One of the many ways we do this is by simplifying decentralized trading for everyone. Today, we’re thrilled to announce the **integration of the Gasless API into our DexAppBuilder platform** for white label DEX swap aggregators. This groundbreaking feature is designed to eliminate gas fees in token swaps. It benefits a wide array of users across the DexKit community. From traders and developers to NFT artists, cryptocurrency enthusiasts, and DApp creators, this integration marks a significant step towards democratizing DeFi. It expands opportunities within the decentralized ecosystem.
@@ -34,13 +36,13 @@ With the Gasless API, users experience smooth and cost-effective trading. Here�
 
 Activating gasless swaps is straightforward and doesn’t require any advanced knowledge. Simply navigate to the swap component configuration. You can find it on any of its pages featuring the Swap section. This section may either be a predefined component or embedded within custom sections. Click on the Edit button (highlighted in green in the image below) to access the swap component configuration.
 
-![Page section](https://dexkit.com/wp-content/uploads/swappages.png)
+![Page section](/blog-images/swappages.png)
 
 Access the swap component configuration with a simple click on the highlighted green Edit button.
 
 Once inside the swap component configuration, check the box labeled **‘Gasless swaps’** and save the changes to your DApp (as shown in the image below).
 
-![Swap combo](https://dexkit.com/wp-content/uploads/swapcompo1.png)
+![Swap combo](/blog-images/swapcompo1.png)
 
 Select the “Gasless swaps” option within the swap component configuration to enable gas-free transactions.
 

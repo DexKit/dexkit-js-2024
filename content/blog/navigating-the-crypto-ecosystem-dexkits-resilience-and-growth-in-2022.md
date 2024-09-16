@@ -1,10 +1,13 @@
 ---
-title: "Navigating the Crypto Ecosystem: DexKit's Resilience and Growth in 2022"
-date: "December 31, 2022"
-excerpt: "<p>Discover how DexKit, despite the challenges faced in 2022, emerged stronger within the crypto ecosystem. Learn about our community-driven approach, innovative solutions, and unwavering commitment to decentralized finance. Explore our journey of resilience and growth as we navigate the ever-changing landscape of the crypto industry.</p> "
-category: "Community"
-slug: "navigating-the-crypto-ecosystem-dexkits-resilience-and-growth-in-2022"
-imageUrl: "/blog-images/png_20221230_224201_0000.png"
+title: 'Navigating the Crypto Ecosystem: DexKit''s Resilience and Growth in 2022'
+date: 'December 31, 2022'
+excerpt: >-
+  Discover how DexKit, despite the challenges faced in 2022, emerged stronger
+  within the crypto ecosystem. Learn about our community-driven approach,
+  innovative solutions, and unwavering commitment to decentralized finance.
+category: Community
+slug: navigating-the-crypto-ecosystem-dexkits-resilience-and-growth-in-2022
+imageUrl: /blog-images/png_20221230_224201_0000.png
 ---
 
 Undoubtedly, 2022 has been a year that many would prefer to erase from their personal history. The global events have sent shockwaves through the financial markets, causing even seemingly strong and stable projects to crumble.

@@ -1,10 +1,12 @@
 ---
-title: "Unlocking NFT Realms: A Candid Conversation with Ken from DexKit Community"
-date: "January 13, 2024"
-excerpt: "<p>In the vibrant realm of NFTs, we had the privilege of sitting down with Ken, a distinguished member of the DexKit community, to delve into&hellip;</p> "
-category: "Blog"
-slug: "a-conversation-with-ken-from-dexkit-community"
-imageUrl: "/blog-images/Unleashing-NFT-Creativity-with-Ken.png"
+title: 'Unlocking NFT Realms: A Candid Conversation with Ken from DexKit Community'
+date: 'January 13, 2024'
+excerpt: >-
+  In the vibrant realm of NFTs, we had the privilege of sitting down with Ken, a
+  distinguished member of the DexKit community, to delve into... 
+category: Blog
+slug: a-conversation-with-ken-from-dexkit-community
+imageUrl: /blog-images/Unleashing-NFT-Creativity-with-Ken.png
 ---
 
 In the vibrant realm of NFTs, we had the privilege of sitting down with Ken, a distinguished member of the DexKit community, to delve into his profound insights and experiences. A seasoned individual with a rich background in data analysis and web development, Ken’s journey into the NFT space unfolded unexpectedly, catalyzed by a gaming contest three years ago. What transpired next was a fascinating exploration into the world of digital assets.
@@ -17,7 +19,7 @@ We present this interview as a genuine and unadulterated conversation with Ken, 
 
 ### Can you tell us a bit about yourself and your hobbies? How did you get started in the world of NFTs?
 
-Quick bio…  I’m 54, married 27 years, 2 kids out of college.  I live in the northeast US.  I work as a data analyst for my 9-5, and I also run a LLC on the side for Web Development and Hosting.  I do design, I write code.  In short, I’ve been working with computers since long before it was cool. I did 2 different stints as a live musician (guitar).  After 30 some-odd years I still love to play.  Just not with a band right now.
+Quick bio… I’m 54, married 27 years, 2 kids out of college.  I live in the northeast US.  I work as a data analyst for my 9-5, and I also run a LLC on the side for Web Development and Hosting.  I do design, I write code.  In short, I’ve been working with computers since long before it was cool. I did 2 different stints as a live musician (guitar).  After 30 some-odd years I still love to play.  Just not with a band right now.
 
 I got started in NFTs about 3 years ago, when a game I was playing offered NFTs on the WAX chain as a prize in a contest.  Curiously, this got me to Discord too.  Because I had to join there to participate.  After holding those NFTs for a little while, it occurred to me that I could sell one.  So I put one up for sale.  Much to my surprise, it sold for 75 WAX.  Which at the time was worth some $65 USD!  Holy crap!  This, believe it or not, is what seeded my entire endeavor with NFTs.
 
@@ -29,7 +31,7 @@ Then NFTs came along.  And I discovered that I could create my own collection.�
 
 So I created a collection of [the 256 Web Safe Colors](https://wax.atomichub.io/explorer/collection/dpsafecolors), minted them all and started selling.  That is the super short version of events.  I’m trying to not annoy your readers with the actual long-form version.
 
-![WebSafe colors](https://dexkit.com/wp-content/uploads/websafecolors.png)
+![WebSafe colors](/blog-images/websafecolors.png)
 
 ### How did you first come across DexKit products, and what made you choose them for your NFT projects?
 

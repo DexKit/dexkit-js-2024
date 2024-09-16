@@ -1,15 +1,19 @@
 ---
-title: "Exciting News for NFT Enthusiasts: Kittygotchi NFT Pets Now on Binance Smart Chain"
-date: "February 11, 2022"
-excerpt: "<p>We&#8217;re excited to share that Kittygotchi NFT pets, a community favorite, are now accessible on the Binance Smart Chain. Dive into a realm of possibilities&hellip;</p> "
-category: "Community"
-slug: "exciting-news-for-nft-enthusiasts-kittygotchi"
-imageUrl: "/blog-images/Cover.png"
+title: >-
+  Exciting News for NFT Enthusiasts: Kittygotchi NFT Pets Now on Binance Smart
+  Chain
+date: 'February 11, 2022'
+excerpt: >-
+  We're excited to share that Kittygotchi NFT pets, a community favorite, are
+  now accessible on the Binance Smart Chain.
+category: Community
+slug: exciting-news-for-nft-enthusiasts-kittygotchi
+imageUrl: /blog-images/Cover.png
 ---
 
 We’re excited to share that Kittygotchi NFT pets, a community favorite, **are now accessible on the Binance Smart Chain**. Dive into a realm of possibilities where you can nurture your pet daily using a bit of BNB.
 
-![Kittygotchi with hat](https://dexkit.com/wp-content/uploads/kitty_blog_feat.png)
+![Kittygotchi with hat](/blog-images/kitty_blog_feat.png)
 
 Your pet that lasts forever 😻
 
@@ -25,7 +29,7 @@ Nurture your pet daily to boost its stats and stand out in our monthly contests.
 
 Integrate your NFTs seamlessly in the SuperApp. It now supports multiple languages, including Portuguese and Spanish, ensuring a smooth experience for all users.
 
-![Add networks in the SuperApp](https://dexkit.com/wp-content/uploads/addnetwork-1-1024x277-1.png)
+![Add networks in the SuperApp](/blog-images/addnetwork-1-1024x277-1.png)
 
 Manage all your ERC20 networks with the SuperApp: send, receive and distribute tokens freely.
 
@@ -33,7 +37,7 @@ Manage all your ERC20 networks with the SuperApp: send, receive and distribute t
 
 By holding 200 $KIT tokens, you can earn passive income through our referral program. Share your unique link, and when friends trade using it, you reap rewards.
 
-![Affiliate page SuperApp](https://dexkit.com/wp-content/uploads/affiliates_d-1024x532-1.png)
+![Affiliate page SuperApp](/blog-images/affiliates_d-1024x532-1.png)
 
 Earn passive incomes bringing your friends to use DexKit's DeFi solutions.
 
@@ -41,7 +45,7 @@ Earn passive incomes bringing your friends to use DexKit's DeFi solutions.
 
 The integration of the Fantom Foundation network into DSWAP marks a significant leap, offering greater exchange flexibility and profit opportunities across multiple blockchains.
 
-![DSWAP networks](https://dexkit.com/wp-content/uploads/dswap_networks.png)
+![DSWAP networks](/blog-images/dswap_networks.png)
 
 With Fantom as new addition, DSWAP is one of the strongest swap platforms out there.
 

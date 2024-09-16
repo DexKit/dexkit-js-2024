@@ -1,10 +1,15 @@
 ---
-title: "From Ideas to Success: DexKit's Latest Update Empowers Digital Entrepreneurs in the Crypto World"
-date: "October 31, 2022"
-excerpt: "<p>Discover how DexKit&#8217;s latest update revolutionizes NFT marketplaces, providing digital entrepreneurs with unparalleled control, enhanced customizations, and improved SEO. Explore the new features, including compatibility with ERC 1155 tokens, simplified deployment process, bug fixes, and more. Learn how DexKit empowers creators to maximize their earnings and amplify their presence in the decentralized finance market</p> "
-category: "Development"
-slug: "from-ideas-to-success-dexkits-latest-update"
-imageUrl: "/blog-images/Marketplace-Update-blog1200.png"
+title: >-
+  From Ideas to Success: DexKit's Latest Update Empowers Digital Entrepreneurs
+  in the Crypto World
+date: 'October 31, 2022'
+excerpt: >-
+  Discover how DexKit's latest update revolutionizes NFT marketplaces, providing
+  digital entrepreneurs with unparalleled control, enhanced customizations, and
+  improved SEO.
+category: Development
+slug: from-ideas-to-success-dexkits-latest-update
+imageUrl: /blog-images/Marketplace-Update-blog1200.png
 ---
 
 If you want to skip all of this and surf now through the NFT marketplace builder, just [click here](https://whitelabel-nft.dexkit.com/admin).

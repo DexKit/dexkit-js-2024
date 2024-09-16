@@ -1,10 +1,14 @@
 ---
-title: "Calling all blockchain developers: join us in building the future of DeFi with DexKit's revolutionary open-source Monorepo for DexAppBuilder!"
-date: "August 4, 2023"
-excerpt: "<p>Greetings, esteemed blockchain developers and DeFi enthusiasts 🙋‍♂️ Are you passionate about the world of decentralized finance and blockchain technology? Are you looking to make&hellip;</p> "
-category: "Blog"
-slug: "calling-all-blockchain-developers"
-imageUrl: "/blog-images/20230803_Calling-blog-LinkedIn-Facebook.png"
+title: >-
+  Calling all blockchain developers: join us in building the future of DeFi with
+  DexKit's revolutionary open-source Monorepo for DexAppBuilder!
+date: 'August 4, 2023'
+excerpt: >-
+  Greetings, esteemed blockchain developers and DeFi enthusiasts! Are you
+  passionate about the world of decentralized finance and blockchain technology?
+category: Blog
+slug: calling-all-blockchain-developers
+imageUrl: /blog-images/20230803_Calling-blog-LinkedIn-Facebook.png
 ---
 
 Greetings, esteemed blockchain developers and DeFi enthusiasts 🙋‍♂️

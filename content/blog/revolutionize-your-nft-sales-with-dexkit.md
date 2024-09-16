@@ -1,10 +1,15 @@
 ---
-title: "Revolutionize Your NFT Sales with the First White-Label NFT Marketplace by DexKit"
-date: "September 14, 2022"
-excerpt: "<p>Discover the groundbreaking white-label NFT marketplace by DexKit, offering artists, entrepreneurs, and musicians an unprecedented opportunity to monetize their digital creations. With unique features like instant selling, music playback compatibility, and seamless ERC-20 token integration, this cutting-edge tool empowers creators to take control of their assets and unlock new revenue streams. Explore the advantages of having your own NFT marketplace, free from fees and restrictions, and get ready to elevate your NFT sales to unprecedented heights. Don&#8217;t miss this exclusive opportunity to join the NFT revolution. Read our comprehensive documentation and start building your marketplace today</p> "
-category: "Innovations"
-slug: "revolutionize-your-nft-sales-with-dexkit"
-imageUrl: "/blog-images/NFT-Marketplace-Launch-blog.png"
+title: >-
+  Revolutionize Your NFT Sales with the First White-Label NFT Marketplace by
+  DexKit
+date: 'September 14, 2022'
+excerpt: >-
+  Discover the groundbreaking white-label NFT marketplace by DexKit, offering
+  artists, entrepreneurs, and musicians an unprecedented opportunity to monetize
+  their digital creations.
+category: Innovations
+slug: revolutionize-your-nft-sales-with-dexkit
+imageUrl: /blog-images/NFT-Marketplace-Launch-blog.png
 ---
 
 Two years have flown by [since we embarked on this exciting new adventure](https://www.youtube.com/watch?v=plcjq7ZZRC4). In the fast-paced and competitive world of cryptocurrencies, these years are like an eternity, an experience that only a select few projects have had the privilege of enjoying. Along the way, [we have witnessed the birth and demise of some projects](https://thebitcoinnews.com/abandoned-and-scam-projects-top-list-of-dead-cryptos-analysis/), while [others have thrived as if it were destiny](https://www.fool.com/investing/2022/06/24/why-polygon-is-soaring-today/). DexKit has weathered the storm of the ever-changing economy, and as a result, we feel a duty to continue building exceptional tools for all of you.

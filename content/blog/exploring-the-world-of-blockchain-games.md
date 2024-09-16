@@ -1,15 +1,20 @@
 ---
-title: "Exploring the World of Blockchain Games: An Overview of Popular Genres and Coin League's Unique Offering"
-date: "February 2, 2023"
-excerpt: "<p>Dive into the exciting realm of blockchain games and discover the most popular genres like trading card games, collectible games, decentralized finance games, virtual world games, and multiplayer online games. Learn about Coin League, a decentralized, blockchain-based game that combines gaming and decentralized finance, allowing players to compete for cryptocurrency prizes while gaining valuable knowledge about DeFi and blockchain technology.</p> "
-category: "Blog"
-slug: "exploring-the-world-of-blockchain-games"
-imageUrl: "/blog-images/Gaming-genres-blog.png"
+title: >-
+  Exploring the World of Blockchain Games: An Overview of Popular Genres and
+  Coin League's Unique Offering
+date: 'February 2, 2023'
+excerpt: >-
+  Dive into the exciting realm of blockchain games and discover the most popular
+  genres like trading card games, collectible games, decentralized finance
+  games, virtual world games, and multiplayer online games.
+category: Blog
+slug: exploring-the-world-of-blockchain-games
+imageUrl: /blog-images/Gaming-genres-blog.png
 ---
 
 With the tremendous popularity of games like [Axie Infinity](https://axieinfinity.com/) (which introduced scholarship opportunities) and [Gods Unchained](https://godsunchained.com/) (currently the most popular Trading Card game) among others, the gaming landscape has undergone a dramatic transformation.
 
-![Terms violation](https://dexkit.com/wp-content/uploads/image-18.png)
+![Terms violation](/blog-images/image-18.png)
 
 One of the dozens of reasons why Steam is capable of restricting functionality to users ⚠
 
@@ -23,7 +28,7 @@ Now, let’s explore the most prevalent genres of blockchain games.
 
 These games involve collecting, trading, and playing with unique digital trading cards stored on a blockchain. Examples include the aforementioned Axie Infinity and Gods Unchained.
 
-![Gods Unchained Game](https://dexkit.com/wp-content/uploads/gods-30_10_2022-12_52_41-a.-m..png)
+![Gods Unchained Game](/blog-images/gods-30_10_2022-12_52_41-a.-m..png)
 
 Yes! We play Gods Unchained regularly! 🧙‍♂️
 
@@ -31,7 +36,7 @@ Yes! We play Gods Unchained regularly! 🧙‍♂️
 
 Similar to trading card games, collectible games revolve around acquiring, trading, and playing with unique digital collectibles stored on a blockchain. Some notable examples include [CryptoKitties](https://www.cryptokitties.co/) and [NBA Top Shot](https://nbatopshot.com/).
 
-![CryptoKitties](https://dexkit.com/wp-content/uploads/image-19.png)
+![CryptoKitties](/blog-images/image-19.png)
 
 CryptoKitties living on Ethereum.
 
@@ -39,7 +44,7 @@ CryptoKitties living on Ethereum.
 
 These games incorporate elements of decentralized finance (DeFi), such as yield farming, staking, and liquidity provision. One significant advantage of these games is the transparency provided by blockchain transactions, enabling a better understanding of the underlying processes.
 
-![Bored Ape Yacht Club](https://dexkit.com/wp-content/uploads/image-23.png)
+![Bored Ape Yacht Club](/blog-images/image-23.png)
 
 Bored Ape Yacht Club is one of the most popular games for this genre.
 
@@ -47,7 +52,7 @@ Bored Ape Yacht Club is one of the most popular games for this genre.
 
 In virtual world games built on a blockchain, players have the freedom to create, own, trade, and interact within these digital realms. These “metaverses” offer hundreds of adventures and quests, fostering strong connections between the project and its users. Examples include [The Sandbox](https://www.sandbox.game/en/), [Somnium Space](https://somniumspace.com/), and [Decentraland](https://decentraland.org/).
 
-![Decentraland Metaverse](https://dexkit.com/wp-content/uploads/image-24.png)
+![Decentraland Metaverse](/blog-images/image-24.png)
 
 Decentraland Genesis Plaza. Taken from Decentraland blog.
 
@@ -57,7 +62,7 @@ These games allow players to compete with others in multiplayer environments tha
 
 ### What about DexKit's Coin League game? 🤔
 
-![Coin League on game](https://dexkit.com/wp-content/uploads/coin_league_race-2.png)
+![Coin League on game](/blog-images/coin_league_race-2.png)
 
 Asset prices are updated in real time within the Smart Contract created for each game ⚡
 

@@ -1,10 +1,13 @@
 ---
-title: "Exciting Development: João Campos Secures $50K Grant for DexKit"
-date: "March 10, 2022"
-excerpt: "<p>Discover the exciting accomplishment as DexKit&#8217;s Head Developer, João Campos, receives a substantial $50k USD grant from 0x DAO. This achievement fuels our pride and excitement as we continue to develop cutting-edge technologies, delivering a satisfying experience with powerful features that truly reflect our project&#8217;s vision.</p> "
-category: "Integrations"
-slug: "joao-campos-secures-50k-grant"
-imageUrl: "/blog-images/Dexkit__0x.png"
+title: 'Exciting Development: João Campos Secures $50K Grant for DexKit'
+date: 'March 10, 2022'
+excerpt: >-
+  Discover the exciting accomplishment as DexKit's Head Developer, João Campos,
+  receives a substantial $50k USD grant from 0x DAO. This achievement fuels our
+  pride and excitement as we continue to develop cutting-edge technologies...
+category: Integrations
+slug: joao-campos-secures-50k-grant
+imageUrl: /blog-images/Dexkit__0x.png
 ---
 
 We’re thrilled to share some fantastic news: João Campos, our esteemed Head Developer, has been awarded a $50,000 grant [from 0x DAO](https://0xdao.gitbook.io/0x-dao/). This funding will enhance our tech offerings, making them more accessible and feature-rich for everyone.

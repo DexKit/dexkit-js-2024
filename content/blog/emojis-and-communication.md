@@ -1,10 +1,12 @@
 ---
-title: "Emojis and communication: how they have gone from irrelevance to indispensable"
-date: "July 17, 2023"
-excerpt: "<p>Discover the fascinating history and profound impact of emojis as we explore their journey from humble beginnings to global icons. Join us in celebrating the International Day of Emojis on July 17th and uncover how these expressive symbols have revolutionized modern communication. From bridging language barriers to enhancing emotional connections, emojis have become indispensable tools in our digital lives. We&#8217;ll even delve into their unexpected foray into the world of investments, highlighting their potential to engage shareholders and investors. Explore the captivating world of emojis and their evolving role in our interconnected society.</p> "
-category: "Blog"
-slug: "emojis-and-communication"
-imageUrl: "/blog-images/20230717_Emoji-day-blog.png"
+title: 'Emojis and communication: how they have gone from irrelevance to indispensable'
+date: 'July 17, 2023'
+excerpt: >-
+  Discover the fascinating history and profound impact of emojis as we explore
+  their journey from humble beginnings to global icons.
+category: Blog
+slug: emojis-and-communication
+imageUrl: /blog-images/20230717_Emoji-day-blog.png
 ---
 
 Greetings, esteemed readers!
@@ -25,7 +27,7 @@ Join me on this enlightening journey as we explore the historical significance o
 
 ### The Birth of Emojis and Their Rise
 
-![Softbank Emojipedia 1997](https://dexkit.com/wp-content/uploads/softbank-emoji-1997-emojipedia-768x768-1.jpg)
+![Softbank Emojipedia 1997](/blog-images/softbank-emoji-1997-emojipedia-768x768-1.jpg)
 
 The World's First Emoji Set: SoftBank, known as J-Phone at the time, releases the SkyWalker DP-211SW mobile phone on the 1st of November 1997, with the world's first known emoji set.
 
@@ -37,7 +39,7 @@ In an era where face-to-face interactions have been replaced by digital conversa
 
 Walther and D’Addario study found that Emoticons were found to have little impact on message interpretations. The study also found that negative emoticons made both positive and negative statements being rated more negative. The use of positive emoticons also made someone being perceived as more agreeable, more open, and more conscientious. Kalyanaraman and Ivory (2012) conducted a study about the effects of emoticons on impression formation, affect, and cognition in chat transcript. It was found that the use of emoticon made someone being perceived as more friendly and competent. (ResearchGate, 2023)
 
-![Emoji's explained](https://dexkit.com/wp-content/uploads/emojisexplained.png)
+![Emoji's explained](/blog-images/emojisexplained.png)
 
 ### Emojis and Investment Communication
 
@@ -49,7 +51,7 @@ However, it’s essential to note that emojis in investment communications have 
 
 When used appropriately, emojis can enhance investor engagement by adding visual appeal and humanizing corporate communications. Emojis, strategically placed, can convey enthusiasm, emphasize key points, or provide subtle context, helping to capture the attention of stakeholders and enhance message retention. In an era where information overload is a constant challenge, emojis can be a valuable tool for companies to stand out and foster a connection with investors and the overall community.
 
-![SEC emojis meme](https://dexkit.com/wp-content/uploads/rocket-emoji-300x300-1.png)
+![SEC emojis meme](/blog-images/rocket-emoji-300x300-1.png)
 
 «The Dapper Labs court determined that the plaintiff sufficiently pled the expectation-of-profit prong based, in part, on allegations about a tweet promoting defendants’ NFTs with the rocket ship 🚀, increasing chart 📈 or moneybag 💰 emojis — or , and , respectively — which the court concluded “objectively mean one thing: a financial return on investment.”» (Holland and Knight, 2023)
 
