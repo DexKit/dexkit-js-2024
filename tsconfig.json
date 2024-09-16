@@ -35,7 +35,10 @@
   ],
   "exclude": [
     "node_modules",
-    "scripts"
+    "scripts",
+    "src/app/api/subscribe.ts",
+    "**/*.firebase.ts",
+    "**/*.firebase.tsx"
   ],
   "ts-node": {
     "compilerOptions": {
