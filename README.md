@@ -1,4 +1,4 @@
-# dexkit-js
+# Dexkit Home Page
 
 ## Blog Management
 
