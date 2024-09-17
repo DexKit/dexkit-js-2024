@@ -1,18 +1,21 @@
 'use client'
 
+import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState, useEffect, useRef } from 'react'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(true);
+  const [hasMounted, setHasMounted] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    setHasMounted(true);
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
+    
     handleResize();
     window.addEventListener('resize', handleResize);
 
@@ -28,6 +31,10 @@ export default function Header() {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, []);
+
+  if (!hasMounted) {
+    return null;
+  }
 
   const menuItems = [
     { 
