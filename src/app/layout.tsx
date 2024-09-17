@@ -13,13 +13,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "DexKit - Making Web3 Accessible",
     description: "Create your own branded DApps with DexKit's no-code/low-code tools.",
-    images: [{ url: "/imgs/dexkit-og.png" }],
+    images: [{ url: "/imgs/dexkit_og.png" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "DexKit - Making Web3 Accessible",
     description: "Create your own branded DApps with DexKit's no-code/low-code tools.",
-    images: ["/imgs/dexkit-og.png"],
+    images: ["/imgs/dexkit_og.png"],
   },
 };
 

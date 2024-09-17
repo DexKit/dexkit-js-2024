@@ -1,17 +1,31 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function DexExchangePro() {
     const [activeTab, setActiveTab] = useState('description');
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+
+        handleResize();
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     return (
       <div className="min-h-screen">
-        <div className="text-white py-8 sm:py-16">
+        <div className="text-white py-8 md:py-16">
           <div className="container mx-auto px-4 max-w-5xl">
-            <div className="flex flex-col md:flex-row items-center justify-between">
-              <h1 className="text-4xl sm:text-6xl font-bold mb-4 md:mb-0 md:w-1/2 text-center md:text-left">DexExchangePro</h1>
-              <p className="text-lg sm:text-xl md:w-1/2 text-center md:text-left">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between space-y-8 md:space-y-0 md:space-x-12">
+              <h1 className={`text-4xl md:text-6xl font-bold mb-4 md:mb-0 ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>DexExchangePro</h1>
+              <p className={`text-lg md:text-xl ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>
                 Your professional and secure decentralized exchange. No intermediaries, no hassle.
               </p>
             </div>

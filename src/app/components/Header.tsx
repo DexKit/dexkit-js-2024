@@ -6,7 +6,7 @@ import { useState, useEffect, useRef } from 'react'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(true);
   const menuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
