@@ -6,12 +6,10 @@ import Link from 'next/link'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(true);
-  const [hasMounted, setHasMounted] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    setHasMounted(true);
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
@@ -24,6 +22,7 @@ export default function Header() {
         setIsMenuOpen(false);
       }
     };
+
     document.addEventListener('mousedown', handleClickOutside);
 
     return () => {
@@ -31,10 +30,6 @@ export default function Header() {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, []);
-
-  if (!hasMounted) {
-    return null;
-  }
 
   const menuItems = [
     { 
@@ -103,19 +98,14 @@ export default function Header() {
     <header className="py-6 px-4 bg-transparent">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
-          <div style={{ width: isMobile ? '112px' : '150px', height: isMobile ? '30px' : '40px' }}>
+          <div className="w-[112px] h-[30px] md:w-[150px] md:h-[40px]">
             <Image 
               src="/imgs/dexkit-logo-white.svg"
               alt="DexKit Logo" 
               width={150}
               height={40}
-              style={{ 
-                width: '100%', 
-                height: 'auto', 
-                maxWidth: isMobile ? '112px' : '150px', 
-                maxHeight: isMobile ? '30px' : '40px',
-                objectFit: 'contain' 
-              }}
+              priority
+              className="w-full h-auto object-contain"
             />
           </div>
         </Link>
@@ -123,13 +113,14 @@ export default function Header() {
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="text-white focus:outline-none"
+            aria-label="Toggle menu"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
         ) : (
-          <nav className="flex-grow">
+          <nav className="hidden md:block flex-grow">
             <ul className="flex justify-center space-x-6 items-center">
               {menuItems.map((item) => (
                 <li key={item.title} className="relative group">
@@ -176,6 +167,7 @@ export default function Header() {
             <button
               onClick={() => setIsMenuOpen(false)}
               className="absolute top-4 right-4 text-gray-600"
+              aria-label="Close menu"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -190,24 +182,13 @@ export default function Header() {
                       <ul className="ml-4 mt-2">
                         {item.subItems.map((subItem) => (
                           <li key={subItem.name} className="mb-2">
-                            {subItem.external ? (
-                              <a 
-                                href={subItem.href}
-                                className="text-gray-600 hover:text-orange-400"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                {subItem.name}
-                              </a>
-                            ) : (
-                              <Link 
-                                href={subItem.href}
-                                className="text-gray-600 hover:text-orange-400"
-                                onClick={() => setIsMenuOpen(false)}
-                              >
-                                {subItem.name}
-                              </Link>
-                            )}
+                            <Link 
+                              href={subItem.href}
+                              className="text-gray-600 hover:text-orange-400"
+                              onClick={() => setIsMenuOpen(false)}
+                            >
+                              {subItem.name}
+                            </Link>
                           </li>
                         ))}
                       </ul>
