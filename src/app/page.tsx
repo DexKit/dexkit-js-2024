@@ -1,3 +1,5 @@
+'use client';
+
 import Hero from './components/Hero'
 import ProblemsAndSolutions from './components/ProblemsAndSolutions'
 import WhatIsDexKit from './components/WhatIsDexKit'

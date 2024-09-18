@@ -2,9 +2,12 @@
 
 import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+import LocalizedLink from './LocalizedLink'
+import { useIntl } from 'react-intl'
+import LanguageSelector from './LanguageSelector';
 
 export default function Header() {
+  const intl = useIntl();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
@@ -33,23 +36,23 @@ export default function Header() {
 
   const menuItems = [
     { 
-      title: 'About us', 
+      title: intl.formatMessage({ id: "header.about" }), 
       href: '#',
       subItems: [
-        { name: 'Mission, vision and values', href: 'https://docs.dexkit.com/welcome/the-startup/mission-vision-and-values', external: true },
-        { name: 'Our team', href: 'https://docs.dexkit.com/welcome/the-startup/meet-the-team', external: true },
-        { name: 'Brand material', href: 'https://docs.dexkit.com/welcome/the-startup/branding-and-press-kit', external: true },
+        { name: intl.formatMessage({ id: "header.missionVision" }), href: 'https://docs.dexkit.com/welcome/the-startup/mission-vision-and-values', external: true },
+        { name: intl.formatMessage({ id: "header.ourTeam" }), href: 'https://docs.dexkit.com/welcome/the-startup/meet-the-team', external: true },
+        { name: intl.formatMessage({ id: "header.brandMaterial" }), href: 'https://docs.dexkit.com/welcome/the-startup/branding-and-press-kit', external: true },
       ]
     },
     { 
-      title: 'Product', 
+      title: intl.formatMessage({ id: "header.product" }), 
       href: '#',
       subItems: [
         { name: 'DexAppBuilder', href: '/dexappbuilder', external: false },
       ]
     },
     { 
-      title: 'Solutions', 
+      title: intl.formatMessage({ id: "header.solutions" }), 
       href: '#',
       subItems: [
         { name: 'DexSwap', href: '/dexswap', external: false },
@@ -61,35 +64,36 @@ export default function Header() {
       ]
     },
     { 
-      title: 'Our token', 
+      title: intl.formatMessage({ id: "header.ourToken" }), 
       href: '#',
       subItems: [
-        { name: 'Tokenomics', href: 'https://docs.dexkit.com/welcome/our-token/tokenomics', external: true },
-        { name: 'Utilities', href: 'https://docs.dexkit.com/welcome/our-token/utilities', external: true },
-        { name: 'Contract addresses', href: 'https://docs.dexkit.com/welcome/our-token/contract-addresses', external: true },
-        { name: 'Governance', href: 'https://docs.dexkit.com/welcome/our-token/governance', external: true },
+        { name: intl.formatMessage({ id: "header.tokenomics" }), href: 'https://docs.dexkit.com/welcome/our-token/tokenomics', external: true },
+        { name: intl.formatMessage({ id: "header.utilities" }), href: 'https://docs.dexkit.com/welcome/our-token/utilities', external: true },
+        { name: intl.formatMessage({ id: "header.contractAddresses" }), href: 'https://docs.dexkit.com/welcome/our-token/contract-addresses', external: true },
+        { name: intl.formatMessage({ id: "header.governance" }), href: 'https://docs.dexkit.com/welcome/our-token/governance', external: true },
       ]
     },
     { 
-      title: 'Roadmap', 
+      title: intl.formatMessage({ id: "header.roadmap" }), 
       href: '/roadmap',
       subItems: []
     },
     { 
-      title: 'Blog', 
+      title: intl.formatMessage({ id: "header.blog" }), 
       href: '#',
       subItems: [
         { name: 'English', href: '/blog', external: false },
         { name: 'Español', href: '/blog-es', external: false },
+        { name: 'Português', href: '/blog-pt', external: false },
       ]
     },
     { 
-      title: 'Help center', 
+      title: intl.formatMessage({ id: "header.helpCenter" }), 
       href: '#',
       subItems: [
-        { name: 'User support', href: 'https://dexkit.atlassian.net/servicedesk/customer/portal/2', external: true },
-        { name: 'Feature request', href: 'https://dexkit.canny.io/feature-requests', external: true },
-        { name: 'White label custom request', href: 'mailto:info@dexkit.com', external: true },
+        { name: intl.formatMessage({ id: "header.userSupport" }), href: 'https://dexkit.atlassian.net/servicedesk/customer/portal/2', external: true },
+        { name: intl.formatMessage({ id: "header.featureRequest" }), href: 'https://dexkit.canny.io/feature-requests', external: true },
+        { name: intl.formatMessage({ id: "header.whiteLabel" }), href: 'mailto:info@dexkit.com', external: true },
       ]
     },
   ];
@@ -97,7 +101,7 @@ export default function Header() {
   return (
     <header className="py-6 px-4 bg-transparent">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/">
+        <LocalizedLink href="/">
           <div className="w-[112px] h-[30px] md:w-[150px] md:h-[40px]">
             <Image 
               src="/imgs/dexkit-logo-white.svg"
@@ -108,7 +112,7 @@ export default function Header() {
               className="w-full h-auto object-contain"
             />
           </div>
-        </Link>
+        </LocalizedLink>
         {isMobile ? (
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -135,31 +139,35 @@ export default function Header() {
                       <div className="absolute left-0 mt-0 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 group-hover:opacity-100 transition-opacity duration-200 invisible group-hover:visible">
                         <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
                           {item.subItems.map((subItem) => (
-                            <Link 
+                            <LocalizedLink 
                               key={subItem.name}
                               href={subItem.href}
                               className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-400 hover:text-white hover:font-bold transition-all duration-200"
                               role="menuitem"
                             >
                               {subItem.name}
-                            </Link>
+                            </LocalizedLink>
                           ))}
                         </div>
                       </div>
                     </>
                   ) : (
-                    <Link 
+                    <LocalizedLink 
                       href={item.href}
                       className="text-white hover:text-orange-400 transition-colors duration-300 py-2 flex items-center"
                     >
                       {item.title}
-                    </Link>
+                    </LocalizedLink>
                   )}
                 </li>
               ))}
             </ul>
           </nav>
         )}
+        <div className="flex items-center">
+          <LanguageSelector />
+          {/* Aquí puedes añadir otros elementos que quieras a la derecha */}
+        </div>
       </div>
       {isMobile && isMenuOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50">
@@ -182,25 +190,25 @@ export default function Header() {
                       <ul className="ml-4 mt-2">
                         {item.subItems.map((subItem) => (
                           <li key={subItem.name} className="mb-2">
-                            <Link 
+                            <LocalizedLink 
                               href={subItem.href}
                               className="text-gray-600 hover:text-orange-400"
                               onClick={() => setIsMenuOpen(false)}
                             >
                               {subItem.name}
-                            </Link>
+                            </LocalizedLink>
                           </li>
                         ))}
                       </ul>
                     </details>
                   ) : (
-                    <Link 
+                    <LocalizedLink 
                       href={item.href}
                       className="text-gray-700 font-semibold hover:text-orange-400"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {item.title}
-                    </Link>
+                    </LocalizedLink>
                   )}
                 </li>
               ))}
