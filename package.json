@@ -11,6 +11,7 @@
   "dependencies": {
     "@tailwindcss/typography": "^0.5.15",
     "@types/turndown": "^5.0.5",
+    "@vitalets/google-translate-api": "^9.2.0",
     "cheerio": "^1.0.0",
     "next": "^14.2.9",
     "next-themes": "^0.3.0",
@@ -19,6 +20,7 @@
     "react-dom": "^18",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
+    "slugify": "^1.6.6",
     "turndown": "^7.2.0"
   },
   "devDependencies": {

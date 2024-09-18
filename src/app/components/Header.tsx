@@ -82,8 +82,11 @@ export default function Header() {
     },
     { 
       title: 'Blog', 
-      href: '/blog',
-      subItems: []
+      href: '#',
+      subItems: [
+        { name: 'English', href: '/blog', external: false },
+        { name: 'Español', href: '/blog-es', external: false },
+      ]
     },
     { 
       title: 'Help center', 
@@ -130,7 +133,7 @@ export default function Header() {
             <ul className="flex justify-center space-x-6 items-center">
               {menuItems.map((item) => (
                 <li key={item.title} className="relative group">
-                  {item.subItems.length > 0 ? (
+                  {item.subItems && item.subItems.length > 0 ? (
                     <>
                       <span className="text-white hover:text-orange-400 transition-colors duration-300 py-2 flex items-center cursor-default">
                         {item.title}
@@ -140,31 +143,15 @@ export default function Header() {
                       </span>
                       <div className="absolute left-0 mt-0 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 group-hover:opacity-100 transition-opacity duration-200 invisible group-hover:visible">
                         <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                          {item.subItems.map((subItem, index) => (
-                            <div key={subItem.name}>
-                              {subItem.external ? (
-                                <a 
-                                  href={subItem.href}
-                                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-400 hover:text-white hover:font-bold transition-all duration-200"
-                                  role="menuitem"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  {subItem.name}
-                                </a>
-                              ) : (
-                                <Link 
-                                  href={subItem.href}
-                                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-400 hover:text-white hover:font-bold transition-all duration-200"
-                                  role="menuitem"
-                                >
-                                  {subItem.name}
-                                </Link>
-                              )}
-                              {index < item.subItems.length - 1 && (
-                                <hr className="border-t border-gray-200" />
-                              )}
-                            </div>
+                          {item.subItems.map((subItem) => (
+                            <Link 
+                              key={subItem.name}
+                              href={subItem.href}
+                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-400 hover:text-white hover:font-bold transition-all duration-200"
+                              role="menuitem"
+                            >
+                              {subItem.name}
+                            </Link>
                           ))}
                         </div>
                       </div>

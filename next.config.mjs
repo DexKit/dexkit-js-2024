@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['dexkit.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'dexkit.com',
+      },
+    ],
   },
 };
 
