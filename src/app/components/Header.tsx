@@ -160,10 +160,11 @@ export default function Header() {
             </ul>
           </nav>
         )}
-        <div className="flex items-center">
-          <LanguageSelector />
-          {/* Aquí puedes añadir otros elementos que quieras a la derecha */}
-        </div>
+        {!isMobile && (
+          <div className="flex items-center">
+            <LanguageSelector />
+          </div>
+        )}
       </div>
       {isMobile && isMenuOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50">
@@ -209,6 +210,9 @@ export default function Header() {
                 </li>
               ))}
             </ul>
+            <div className="mt-4">
+              <LanguageSelector />
+            </div>
           </div>
         </div>
       )}

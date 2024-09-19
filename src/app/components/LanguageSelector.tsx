@@ -28,6 +28,7 @@ const LanguageSelector = () => {
   const pathname = usePathname();
   const [currentLocale, setCurrentLocale] = useState<Locale>(defaultLocale);
   const [isOpen, setIsOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -36,6 +37,17 @@ const LanguageSelector = () => {
       setCurrentLocale(pathLocale);
     }
   }, [pathname]);
+
+  useEffect(() => {
+    const checkIfMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkIfMobile();
+    window.addEventListener('resize', checkIfMobile);
+
+    return () => window.removeEventListener('resize', checkIfMobile);
+  }, []);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -92,16 +104,23 @@ const LanguageSelector = () => {
   };
 
   return (
-    <div className="relative inline-block text-left" ref={dropdownRef}>
+    <div className="relative inline-block text-left w-full" ref={dropdownRef}>
       <button 
         onClick={() => setIsOpen(!isOpen)} 
-        className="flex items-center space-x-2 px-3 py-2 border rounded-md bg-transparent hover:bg-orange-500 transition-colors duration-200"
+        className={`flex items-center space-x-2 px-3 py-2 border rounded-md bg-transparent hover:bg-orange-500 transition-colors duration-200 w-full justify-between ${
+          isMobile ? 'text-black' : 'text-white'
+        }`}
       >
-        <Image src={flagImages[currentLocale]} alt={localeNames[currentLocale]} width={20} height={15} className="rounded-sm" />
-        <span className="text-sm font-medium text-white">{localeNames[currentLocale]}</span>
+        <div className="flex items-center">
+          <Image src={flagImages[currentLocale]} alt={localeNames[currentLocale]} width={20} height={15} className="rounded-sm mr-2" />
+          <span className="text-sm font-medium">{localeNames[currentLocale]}</span>
+        </div>
+        <svg className={`w-4 h-4 ${isMobile ? 'text-black' : 'text-white'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
       </button>
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+        <div className="absolute left-0 right-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
           <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
             {locales.map((locale) => (
               <button
