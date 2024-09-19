@@ -44,8 +44,8 @@ export default function DexNFTStore() {
           </div>
         </div>
 
-        <div className="bg-white text-black flex-grow">
-          <div className="container mx-auto px-4 py-4 md:py-6 max-w-4xl">
+        <div className="bg-white text-black">
+          <div className="container mx-auto px-4 py-8 sm:py-12 max-w-4xl">
             <nav className="mb-8 overflow-x-auto">
               <ul className={`flex ${isMobile ? 'space-x-2' : 'space-x-4 sm:space-x-6'} border-b border-gray-300 whitespace-nowrap`}>
                 {['description', 'tutorials'].map((tab) => (
@@ -103,7 +103,7 @@ export default function DexNFTStore() {
               </section>
             </div>
 
-            <div className={`mt-4 mb-2 md:mb-4 ${isMobile ? 'text-center' : ''}`}>
+            <div className={`mt-8 ${isMobile ? 'text-center' : ''}`}>
               <Link 
                 href="https://dexappbuilder.dexkit.com/admin/quick-builder/nft-store" 
                 target="_blank" 

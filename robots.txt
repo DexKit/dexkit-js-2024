@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://dexkit.com/sitemap.xml
+
+Allow: /blog/
+Allow: /blog-es/
+Allow: /blog-pt/
+
+Allow: /dexappbuilder
+Allow: /dexexchangepro
+Allow: /dexgenerator
+Allow: /dexnftmarket
+Allow: /dexnftstore
+Allow: /dexswap
+Allow: /dexwallet
+
+Allow: /*.js$
+Allow: /*.css$
+Allow: /imgs/
+
+Disallow: /user/
+Disallow: /search?
+
+Crawl-delay: 10
