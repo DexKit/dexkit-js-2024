@@ -89,7 +89,7 @@ export default function BlogPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {posts.map((post) => (
               <Link key={post.slug} href={`/${locale}/blog/${post.slug}`}>
-                <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+                <div className="bg-white rounded-lg shadow-md overflow-hidden">
                   <div className="relative h-48 sm:h-56 md:h-64">
                     <Image 
                       src={post.imageUrl || DEFAULT_IMAGE}
@@ -98,7 +98,7 @@ export default function BlogPage() {
                       style={{ objectFit: 'cover' }}
                     />
                   </div>
-                  <div className="p-4 sm:p-6">
+                  <div className="p-4">
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-xs sm:text-sm text-gray-500">{post.date}</span>
                       <span className="text-xs sm:text-sm bg-orange-400 text-white px-2 py-1 rounded-full">{post.category}</span>
@@ -112,7 +112,9 @@ export default function BlogPage() {
                         height={24} 
                         className="mr-2"
                       />
-                      <span className="text-sm text-gray-600">{post.author}</span>
+                      <span className="text-sm text-gray-600">
+                        {locale === 'en' ? 'DexKit Team' : 'Equipo DexKit'}
+                      </span>
                     </div>
                   </div>
                 </div>

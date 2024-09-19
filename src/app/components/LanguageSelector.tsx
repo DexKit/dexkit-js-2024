@@ -40,18 +40,45 @@ const LanguageSelector = () => {
     };
   }, []);
 
-  const changeLanguage = (newLocale: Locale) => {
+  const changeLanguage = async (newLocale: Locale) => {
     const currentPath = pathname || '/';
     const pathParts = currentPath.split('/').filter(Boolean);
     
-    if (locales.includes(pathParts[0] as Locale)) {
-      pathParts[0] = newLocale;
-    } else {
-      pathParts.unshift(newLocale);
-    }
+    if (locales.includes(pathParts[0] as Locale) && pathParts[1] === 'blog' && pathParts.length > 2) {
+      const currentSlug = pathParts[2];
+      const currentLocale = pathParts[0] as Locale;
+      
+      const newFolder = newLocale === 'en' ? 'blog' : `blog-${newLocale}`;
+      
+      try {
+        const response = await fetch(`/api/blogPosts?locale=${newFolder}`);
+        if (response.ok) {
+          const posts = await response.json();
+          
+          const newPost = posts.find((post: any) => {
+            const currentSlugBase = currentSlug.replace(/^(conozca-a-|conheca-|meet-)/, '');
+            const postSlugBase = post.slug.replace(/^(conozca-a-|conheca-|meet-)/, '');
+            return currentSlugBase === postSlugBase;
+          });
 
-    const newPathname = `/${pathParts.join('/')}`;
-    router.push(newPathname);
+          if (newPost) {
+            router.push(`/${newLocale}/blog/${newPost.slug}`);
+          } else {
+            router.push(`/${newLocale}/blog`);
+          }
+        } else {
+          router.push(`/${newLocale}/blog`);
+        }
+      } catch (error) {
+        console.error('Error al cambiar el idioma del post:', error);
+        router.push(`/${newLocale}/blog`);
+      }
+    } else {
+      pathParts[0] = newLocale;
+      const newPathname = `/${pathParts.join('/')}`;
+      router.push(newPathname);
+    }
+    
     setIsOpen(false);
   };
 

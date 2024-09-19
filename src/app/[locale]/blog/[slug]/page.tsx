@@ -1,11 +1,8 @@
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
-import { remark } from 'remark';
-import html from 'remark-html';
+'use client';
+
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
-import { Metadata } from 'next';
 import { FormattedMessage } from 'react-intl';
 
 interface BlogPost {
@@ -19,56 +16,34 @@ interface BlogPost {
   excerpt?: string;
 }
 
-async function getPostData(slug: string, locale: string): Promise<BlogPost | null> {
-  const localeFolder = locale === 'en' ? 'blog' : `blog-${locale}`;
-  const postsDirectory = path.join(process.cwd(), 'content', localeFolder);
-  const fullPath = path.join(postsDirectory, `${slug}.md`);
+export default function BlogPostPage({ params }: { params: { slug: string, locale: string } }) {
+  const [post, setPost] = useState<BlogPost | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
 
-  try {
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
-    const { data, content } = matter(fileContents);
+  useEffect(() => {
+    async function fetchPost() {
+      try {
+        const localeFolder = params.locale === 'en' ? 'blog' : `blog-${params.locale}`;
+        const response = await fetch(`/api/blogPost?slug=${params.slug}&locale=${localeFolder}`);
+        if (!response.ok) {
+          throw new Error('Failed to fetch post');
+        }
+        const data = await response.json();
+        setPost(data);
+      } catch (error) {
+        console.error('Error fetching post:', error);
+        setPost(null);
+      } finally {
+        setIsLoading(false);
+      }
+    }
 
-    const processedContent = await remark()
-      .use(html)
-      .process(content);
-    const contentHtml = processedContent.toString();
+    fetchPost();
+  }, [params.slug, params.locale]);
 
-    return {
-      slug,
-      title: data.title,
-      date: data.date,
-      author: data.author,
-      category: data.category,
-      imageUrl: data.imageUrl,
-      contentHtml,
-      excerpt: data.excerpt || content.slice(0, 160) + '...',
-    };
-  } catch (error) {
-    return null;
+  if (isLoading) {
+    return <div>Cargando...</div>;
   }
-}
-
-export async function generateMetadata({ params }: { params: { slug: string, locale: string } }): Promise<Metadata> {
-  const post = await getPostData(params.slug, params.locale);
-  if (!post) {
-    return {
-      title: 'Post not found',
-      description: 'The requested blog post could not be found.',
-    };
-  }
-  return {
-    title: `${post.title} | DexKit Blog`,
-    description: post.excerpt,
-    openGraph: {
-      title: post.title,
-      description: post.excerpt,
-      images: [{ url: post.imageUrl }],
-    },
-  };
-}
-
-export default async function BlogPostPage({ params }: { params: { slug: string, locale: string } }) {
-  const post = await getPostData(params.slug, params.locale);
 
   if (!post) {
     notFound();
@@ -92,7 +67,8 @@ export default async function BlogPostPage({ params }: { params: { slug: string,
               className="mr-2"
             />
             <span className="text-sm md:text-base text-white">
-              {post.author} <FormattedMessage id="blog.post.on" defaultMessage="on" /> {post.date}
+              {post.author && `${post.author} `}
+              <FormattedMessage id="blog.post.on" defaultMessage="on" /> {post.date}
             </span>
           </div>
 
