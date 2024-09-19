@@ -13,6 +13,16 @@ const flagImages: Record<Locale, string> = {
   pt: '/flags/pt.png',
 };
 
+interface BlogPost {
+  title: string;
+  date: string;
+  excerpt: string;
+  category: string;
+  slug: string;
+  imageUrl: string;
+  content?: string;
+}
+
 const LanguageSelector = () => {
   const router = useRouter();
   const pathname = usePathname();
@@ -46,16 +56,15 @@ const LanguageSelector = () => {
     
     if (locales.includes(pathParts[0] as Locale) && pathParts[1] === 'blog' && pathParts.length > 2) {
       const currentSlug = pathParts[2];
-      const currentLocale = pathParts[0] as Locale;
       
       const newFolder = newLocale === 'en' ? 'blog' : `blog-${newLocale}`;
       
       try {
         const response = await fetch(`/api/blogPosts?locale=${newFolder}`);
         if (response.ok) {
-          const posts = await response.json();
+          const posts = await response.json() as BlogPost[];
           
-          const newPost = posts.find((post: any) => {
+          const newPost = posts.find((post: BlogPost) => {
             const currentSlugBase = currentSlug.replace(/^(conozca-a-|conheca-|meet-)/, '');
             const postSlugBase = post.slug.replace(/^(conozca-a-|conheca-|meet-)/, '');
             return currentSlugBase === postSlugBase;
