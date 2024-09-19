@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter, usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 import { locales, localeNames, defaultLocale } from '../i18n/config';
 
@@ -18,6 +18,7 @@ const LanguageSelector = () => {
   const pathname = usePathname();
   const [currentLocale, setCurrentLocale] = useState<Locale>(defaultLocale);
   const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const pathLocale = pathname?.split('/')[1] as Locale;
@@ -25,6 +26,19 @@ const LanguageSelector = () => {
       setCurrentLocale(pathLocale);
     }
   }, [pathname]);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   const changeLanguage = (newLocale: Locale) => {
     const currentPath = pathname || '/';
@@ -42,18 +56,29 @@ const LanguageSelector = () => {
   };
 
   return (
-    <div className="languageSelector">
-      <button onClick={() => setIsOpen(!isOpen)} className="currentFlag">
-        <Image src={flagImages[currentLocale]} alt={localeNames[currentLocale]} width={30} height={20} />
+    <div className="relative inline-block text-left" ref={dropdownRef}>
+      <button 
+        onClick={() => setIsOpen(!isOpen)} 
+        className="flex items-center space-x-2 px-3 py-2 border rounded-md bg-transparent hover:bg-orange-500 transition-colors duration-200"
+      >
+        <Image src={flagImages[currentLocale]} alt={localeNames[currentLocale]} width={20} height={15} className="rounded-sm" />
+        <span className="text-sm font-medium text-white">{localeNames[currentLocale]}</span>
       </button>
       {isOpen && (
-        <div className="dropdown">
-          {locales.map((locale) => (
-            <button key={locale} onClick={() => changeLanguage(locale)} className="option">
-              <Image src={flagImages[locale]} alt={localeNames[locale]} width={30} height={20} />
-              <span>{localeNames[locale]}</span>
-            </button>
-          ))}
+        <div className="absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+          <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+            {locales.map((locale) => (
+              <button
+                key={locale}
+                onClick={() => changeLanguage(locale)}
+                className="flex items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-orange-500 hover:text-white transition-colors duration-200"
+                role="menuitem"
+              >
+                <Image src={flagImages[locale]} alt={localeNames[locale]} width={20} height={15} className="mr-3 rounded-sm" />
+                <span>{localeNames[locale]}</span>
+              </button>
+            ))}
+          </div>
         </div>
       )}
     </div>
