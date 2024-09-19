@@ -1,9 +1,10 @@
 'use client'
 
-import { useEffect, useState } from 'react';
+import { useParams } from 'next/navigation';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useParams } from 'next/navigation';
+import { defaultLocale } from '../../i18n/config';
 
 interface BlogPost {
   slug: string;
@@ -47,7 +48,8 @@ function parseCustomDate(dateString: string, locale: string): Date {
 }
 
 export default function BlogPage() {
-  const { locale } = useParams();
+  const params = useParams();
+  const locale = (params?.locale as string) || defaultLocale;
   const [posts, setPosts] = useState<BlogPost[]>([]);
 
   useEffect(() => {
@@ -57,8 +59,8 @@ export default function BlogPage() {
       const data = await response.json();
       
       const sortedPosts = data.sort((a: BlogPost, b: BlogPost) => {
-        const dateA = parseCustomDate(a.date, locale as string);
-        const dateB = parseCustomDate(b.date, locale as string);
+        const dateA = parseCustomDate(a.date, locale);
+        const dateB = parseCustomDate(b.date, locale);
         return dateB.getTime() - dateA.getTime();
       });
       

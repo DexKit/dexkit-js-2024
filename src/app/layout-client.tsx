@@ -2,7 +2,7 @@
 
 import { useEffect, useState, Suspense } from 'react';
 import { IntlProvider } from 'react-intl';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import Script from 'next/script';
 import dynamic from 'next/dynamic';
 
@@ -23,6 +23,7 @@ export default function ClientLayout({
   const [messages, setMessages] = useState({});
   const [locale, setLocale] = useState<Locale>(defaultLocale);
   const pathname = usePathname();
+  const router = useRouter();
 
   useEffect(() => {
     const pathParts = pathname?.split('/') || [];
@@ -30,9 +31,9 @@ export default function ClientLayout({
     if (locales.includes(currentLocale)) {
       setLocale(currentLocale);
     } else {
-      setLocale(defaultLocale);
+      router.replace(`/${defaultLocale}${pathname}`);
     }
-  }, [pathname]);
+  }, [pathname, router]);
 
   useEffect(() => {
     const loadMessages = async () => {

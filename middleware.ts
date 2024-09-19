@@ -5,30 +5,17 @@ import { defaultLocale, locales } from './src/app/i18n/config';
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
-  const pathnameHasLocale = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  const pathnameHasValidLocale = locales.some(locale => 
+    pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
-  if (pathnameHasLocale) return;
-
-  if (pathname.startsWith('/blog-es') || pathname.startsWith('/blog-pt')) {
-    const newPathname = pathname.replace('/blog-', '/');
-    request.nextUrl.pathname = newPathname;
-    return NextResponse.redirect(request.nextUrl);
+  if (!pathnameHasValidLocale) {
+    return NextResponse.redirect(new URL(`/${defaultLocale}${pathname}`, request.url));
   }
 
-  if (pathname === '/blog') {
-    request.nextUrl.pathname = '/en/blog';
-    return NextResponse.redirect(request.nextUrl);
-  }
-
-  const locale = defaultLocale;
-  request.nextUrl.pathname = `/${locale}${pathname}`;
-  return NextResponse.redirect(request.nextUrl);
+  return NextResponse.next();
 }
 
 export const config = {
-  matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico).*)',
-  ],
+  matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)'],
 };
