@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image'
-import LocalizedLink from './LocalizedLink'
 import { FormattedMessage, useIntl } from 'react-intl'
 
 export default function Hero() {
@@ -27,17 +26,17 @@ export default function Hero() {
               defaultMessage="With DexKit's no-code/low-code tools."
             />
           </p>
-          <LocalizedLink 
+          <a 
             href="https://dexappbuilder.dexkit.com"
+            className="inline-block bg-orange-400 text-black py-2 px-4 sm:py-3 sm:px-6 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-sm sm:text-base md:text-lg"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-orange-400 text-black py-2 px-4 sm:py-3 sm:px-6 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-sm sm:text-base md:text-lg"
           >
             <FormattedMessage
               id="hero.cta"
               defaultMessage="Start now!"
             />
-          </LocalizedLink>
+          </a>
         </div>
         <div className="md:w-1/2 flex justify-center md:justify-start">
           <Image
