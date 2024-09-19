@@ -11,8 +11,18 @@ const LocalizedLink: React.FC<LocalizedLinkProps> = ({ href, children, ...props 
   const pathname = usePathname();
   const currentLocale = pathname?.split('/')[1] as Locale;
 
-  const localizedHref = locales.includes(currentLocale)
-    ? `/${currentLocale}${href}`
+  const isExternalUrl = href.startsWith('http://') || href.startsWith('https://') || href.startsWith('//');
+
+  if (isExternalUrl) {
+    return (
+      <a href={href} {...props}>
+        {children}
+      </a>
+    );
+  }
+
+  const localizedHref = locales.includes(currentLocale) && !href.startsWith('/')
+    ? `/${currentLocale}${href.startsWith('/') ? '' : '/'}${href}`
     : href;
 
   return (
