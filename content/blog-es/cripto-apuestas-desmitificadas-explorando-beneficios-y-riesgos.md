@@ -26,7 +26,7 @@ Para comprender mejor cómo funciona el cripto stake, echemos un vistazo más de
 * **Algoritmo de consenso:** Después de depositar sus monedas, los usuarios pueden participar en el mecanismo de consenso que sustenta la red blockchain. Esto implica utilizar sus recursos informáticos para validar transacciones y confirmar bloques a medida que se agregan a la cadena. Al hacerlo, los usuarios obtienen recompensas en forma de monedas recién acuñadas.
 * **Quitar la apuesta:** Cuando un usuario desea retirar sus monedas apostadas del grupo, inicia el proceso de quitar la apuesta. Esto implica esperar una cantidad específica de confirmaciones de la red (conocido como período de desvinculación) antes de poder acceder a sus fondos. La duración de este período varía según el protocolo blockchain específico y puede variar desde horas hasta días.
 
-Si desea comprender el concepto de liquidez y cómo agregarlo a sus contratos inteligentes, visite la [documentación de Uniswap] (https://support.uniswap.org/hc/en-us/categories/8122334631437-Liquidity).
+Si desea comprender el concepto de liquidez y cómo agregarlo a sus contratos inteligentes, visite la [documentación de Uniswap] (<https://support.uniswap.org/hc/en-us/categories/8122334631437-Liquidity>).
 
 ### Beneficios de la criptomoneda: una empresa gratificante
 

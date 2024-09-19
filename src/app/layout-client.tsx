@@ -31,7 +31,7 @@ export default function ClientLayout({
     if (locales.includes(currentLocale)) {
       setLocale(currentLocale);
     } else {
-      router.replace(`/${defaultLocale}${pathname}`);
+      setLocale(defaultLocale);
     }
   }, [pathname, router]);
 

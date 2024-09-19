@@ -22,4 +22,4 @@ La integración nueva y mejorada facilita la configuración de su propio agregad
 
 * * *
 
-Consulte la [documentación actualizada] (https://docs.dexkit.com/defi-products/dexswap/overview) y aprenda cómo implementar su propia copia.
+Consulte la [documentación actualizada] (<https://docs.dexkit.com/defi-products/dexswap/overview>) y aprenda cómo implementar su propia copia.

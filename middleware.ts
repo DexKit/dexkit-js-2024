@@ -5,12 +5,12 @@ import { defaultLocale, locales } from './src/app/i18n/config';
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
-  const pathnameHasValidLocale = locales.some(locale => 
-    pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-  );
+  if (locales.some(locale => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`)) {
+    return NextResponse.next();
+  }
 
-  if (!pathnameHasValidLocale) {
-    return NextResponse.redirect(new URL(`/${defaultLocale}${pathname}`, request.url));
+  if (pathname === '/') {
+    return NextResponse.rewrite(new URL(`/${defaultLocale}${pathname}`, request.url));
   }
 
   return NextResponse.next();

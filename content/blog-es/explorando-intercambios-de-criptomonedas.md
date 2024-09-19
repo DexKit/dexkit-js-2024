@@ -65,7 +65,7 @@ Dentro del ecosistema DexAppBuilder, DexSwap se destaca como una plataforma de i
 
 Implementar una DApp es mucho más fácil con [Quick Builder](https://dexappbuilder.dexkit.com/admin/quick-builder/swap), que permite a los proyectos emergentes crear agregadores DEX en cuestión de segundos, permitiéndoles personalizar todos aspectos críticos, desde el branding hasta el reparto de las comisiones que este producto genera al emprendedor.
 
-Si está interesado en implementar su DApp y conocer todos los detalles sobre el producto, visite [este video](https://youtu.be/fXppwjRqVpM) [en el canal oficial de DexKit en YouTube](https://youtu.be /fXppwjRqVpM).
+Si está interesado en implementar su DApp y conocer todos los detalles sobre el producto, visite [este video](https://youtu.be/fXppwjRqVpM) [en el canal oficial de DexKit en YouTube](https://youtu.be/fXppwjRqVpM).
 
 ![Interfaz de intercambio](/blog-images/Video-4_Swap-interface-thumbail_Youtube.png)
 

@@ -23,7 +23,7 @@ Hoy, como hemos estado [anticipando y anunciando con impaciencia durante varias
 * **Compatibilidad total de reproducción para NFT de música**. Vende tus ritmos en tu mercado. Recomendamos [Arpeggi Studios](https://arpeggi.io/) para crear tus NFT de música, que luego podrás vender en tu propio mercado de NFT.
 * **Acepte su propio token ERC 20**, [creado en la SuperApp](https://app.dexkit.com/wizard/deploy/token), para intercambiar sus NFT. La herramienta incluye un widget de intercambio integrado que simplifica el proceso para sus clientes.
 * **Gane tarifas por cada operación dentro de su mercado NFT**. Recomendamos una tarifa del 1 % como práctica industrial saludable, pero la elección es suya.
-* **Utilice una redirección a su dominio web y ejecute su mercado NFT bajo su propia marca**. DexKit se encargará de alojar su mercado NFT de forma indefinida hasta que decida cerrarlo. Proporcionamos instrucciones detalladas en nuestra documentación sobre cómo configurar la redirección de DNS con Cloudflare ([aquí mismo](https://docs.dexkit.com/defi-products/use-cases/for-entrepreneurs/custom-dswap#creating -tu-cname-alias)).
+* **Utilice una redirección a su dominio web y ejecute su mercado NFT bajo su propia marca**. DexKit se encargará de alojar su mercado NFT de forma indefinida hasta que decida cerrarlo.
 
 ### Como artista, ¿cuáles serían las ventajas para mí de tener mi mercado NFT?
 

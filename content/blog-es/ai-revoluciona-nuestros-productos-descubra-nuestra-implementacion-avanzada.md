@@ -30,6 +30,6 @@ Los usuarios pueden generar fácilmente imágenes personalizadas simplemente des
 
 Además, los usuarios tienen la opción de agregar rasgos de rareza únicos a sus creaciones, haciendo de cada pieza un objeto de colección verdaderamente distintivo.
 
-Para experimentar el Asistente de contratos de primera mano, haga clic en el [enlace siguiente](https://whitelabel-nft.dexkit.com/contract-wizard) y explore nuestra [documentación completa](https://docs.dexkit.com/defi -products/contract-wizard/overview) diseñado para que todos lo entiendan fácilmente.
+Para experimentar el Asistente de contratos de primera mano, haga clic en el [enlace siguiente](https://whitelabel-nft.dexkit.com/contract-wizard) y explore nuestra [documentación completa](https://docs.dexkit.com/defi-products/contract-wizard/overview) diseñado para que todos lo entiendan fácilmente.
 
 El futuro de la tecnología ha llegado, impregnando todos los aspectos de la creatividad y la educación. ¿Te unirás a nosotros para abrazar esta nueva y emocionante era? 👐
