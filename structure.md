@@ -328,6 +328,10 @@
             └── Wizard-differentials_DexKit-blog.png
             └── Wordpress.png
             └── your_crypto_business.jpg
+        └── 📁flags
+            └── en.png
+            └── es.png
+            └── pt.png
         └── 📁imgs
             └── 📁blog
             └── accesibility.svg
@@ -378,7 +382,30 @@
         └── translatePostsENtoPT.ts
     └── 📁src
         └── 📁app
+            └── 📁[locale]
+                └── 📁blog
+                    └── 📁[slug]
+                        └── page.tsx
+                    └── page.tsx
+                └── 📁dexappbuilder
+                    └── page.tsx
+                └── 📁dexexchangepro
+                    └── page.tsx
+                └── 📁dexgenerator
+                    └── page.tsx
+                └── 📁dexnftmarket
+                    └── page.tsx
+                └── 📁dexnftstore
+                    └── page.tsx
+                └── 📁dexswap
+                    └── page.tsx
+                └── 📁dexwallet
+                    └── page.tsx
+                └── layout.tsx
+                └── page.tsx
             └── 📁api
+                └── 📁blogPosts
+                    └── route.ts
                 └── subscribe.ts
             └── 📁blog
                 └── 📁[slug]
@@ -397,9 +424,12 @@
                 └── Header.tsx
                 └── Hero.tsx
                 └── IntlProvider.tsx
+                └── LanguageSelector.tsx
+                └── LocalizedLink.tsx
                 └── Partners.tsx
                 └── ProblemsAndSolutions.tsx
                 └── Product.tsx
+                └── SkeletonLoader.tsx
                 └── Solutions.tsx
                 └── ThemeProvider.tsx
                 └── ThemeWrapper.tsx
@@ -424,11 +454,14 @@
                     └── es.ts
                     └── pt.ts
                 └── config.ts
+                └── types.ts
             └── 📁roadmap
                 └── page.tsx
             └── favicon.ico
             └── fonts.ts
+            └── generateStaticParams.ts
             └── globals.css
+            └── layout-client.tsx
             └── layout.tsx
             └── page.tsx
             └── sitemap.ts
@@ -436,6 +469,7 @@
     └── .eslintrc.json
     └── .gitignore
     └── creatingposts.md
+    └── middleware.ts
     └── migratefromwp.md
     └── next-env.d.ts
     └── next.config.mjs

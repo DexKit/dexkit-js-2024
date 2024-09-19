@@ -80,12 +80,8 @@ export default function Header() {
     },
     { 
       title: intl.formatMessage({ id: "header.blog" }), 
-      href: '#',
-      subItems: [
-        { name: 'English', href: '/blog', external: false },
-        { name: 'Español', href: '/blog-es', external: false },
-        { name: 'Português', href: '/blog-pt', external: false },
-      ]
+      href: '/blog',
+      subItems: []
     },
     { 
       title: intl.formatMessage({ id: "header.helpCenter" }), 

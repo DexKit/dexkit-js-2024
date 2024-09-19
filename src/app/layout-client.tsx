@@ -1,13 +1,17 @@
 'use client';
 
-import ThemeWrapper from './components/ThemeWrapper';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import { useEffect, useState, Suspense } from 'react';
 import { IntlProvider } from 'react-intl';
-import { useEffect, useState } from 'react';
-import Script from 'next/script';
 import { usePathname } from 'next/navigation';
+import Script from 'next/script';
+import dynamic from 'next/dynamic';
+
 import { locales, defaultLocale } from './i18n/config';
+import SkeletonLoader from './components/SkeletonLoader';
+
+const ThemeWrapper = dynamic(() => import('./components/ThemeWrapper'), { ssr: false });
+const Header = dynamic(() => import('./components/Header'), { ssr: false });
+const Footer = dynamic(() => import('./components/Footer'), { ssr: false });
 
 type Locale = typeof locales[number];
 
@@ -43,21 +47,19 @@ export default function ClientLayout({
     loadMessages();
   }, [locale]);
 
-  if (Object.keys(messages).length === 0) {
-    return <div>Loading...</div>;
-  }
-
   return (
     <IntlProvider messages={messages} locale={locale} defaultLocale={defaultLocale}>
       <Script
         src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
         strategy="lazyOnload"
       />
-      <ThemeWrapper>
-        <Header />
-        <main>{children}</main>
-        <Footer />
-      </ThemeWrapper>
+      <Suspense fallback={<SkeletonLoader />}>
+        <ThemeWrapper>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </ThemeWrapper>
+      </Suspense>
     </IntlProvider>
   );
 }

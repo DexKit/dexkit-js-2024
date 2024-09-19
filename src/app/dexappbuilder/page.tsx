@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { FormattedMessage } from 'react-intl';
+import Link from 'next/link';
 
 export default function DexAppBuilder() {
     const [activeTab, setActiveTab] = useState('description');
@@ -20,11 +22,11 @@ export default function DexAppBuilder() {
     }, []);
 
     const tutorials = [
-        { title: "Creating my first DApp", url: "https://docs.dexkit.com/defi-products/dexappbuilder/creating-my-first-app" },
-        { title: "Managing this tool", url: "https://docs.dexkit.com/defi-products/dexappbuilder/managing-this-tool" },
-        { title: "Building custom sections", url: "https://docs.dexkit.com/defi-products/dexappbuilder/building-custom-sections" },
-        { title: "Selling my designs", url: "https://docs.dexkit.com/defi-products/dexappbuilder/selling-my-designs" },
-        { title: "YouTube playlist", url: "https://youtube.com/playlist?list=PLue98kEkVwitaUh2Xc5DF6Y_PoEUEkki8" }
+        { titleId: "dexappbuilder.tutorials.firstDApp", url: "https://docs.dexkit.com/defi-products/dexappbuilder/creating-my-first-app" },
+        { titleId: "dexappbuilder.tutorials.managingTool", url: "https://docs.dexkit.com/defi-products/dexappbuilder/managing-this-tool" },
+        { titleId: "dexappbuilder.tutorials.customSections", url: "https://docs.dexkit.com/defi-products/dexappbuilder/building-custom-sections" },
+        { titleId: "dexappbuilder.tutorials.sellingDesigns", url: "https://docs.dexkit.com/defi-products/dexappbuilder/selling-my-designs" },
+        { titleId: "dexappbuilder.tutorials.youtubePlaylist", url: "https://youtube.com/playlist?list=PLue98kEkVwitaUh2Xc5DF6Y_PoEUEkki8" }
     ];
 
     return (
@@ -32,9 +34,11 @@ export default function DexAppBuilder() {
         <div className="text-white py-8 md:py-16">
           <div className="container mx-auto px-4 max-w-5xl">
             <div className="flex flex-col md:flex-row items-center justify-between">
-              <h1 className={`text-4xl md:text-6xl font-bold mb-4 md:mb-0 ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>DexAppBuilder</h1>
+              <h1 className={`text-4xl md:text-6xl font-bold mb-4 md:mb-0 ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>
+                <FormattedMessage id="dexappbuilder.title" />
+              </h1>
               <p className={`text-lg md:text-xl ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>
-                Empower your crypto app creation and launch your web3 business with guaranteed ownership.
+                <FormattedMessage id="dexappbuilder.subtitle" />
               </p>
             </div>
           </div>
@@ -50,7 +54,7 @@ export default function DexAppBuilder() {
                       onClick={() => setActiveTab(tab)} 
                       className={`${activeTab === tab ? 'text-orange-500' : 'text-gray-600'} ${isMobile ? 'text-xs' : 'text-sm md:text-base'}`}
                     >
-                      {tab.charAt(0).toUpperCase() + tab.slice(1)}
+                      <FormattedMessage id={`dexappbuilder.tabs.${tab}`} />
                     </button>
                   </li>
                 ))}
@@ -60,34 +64,30 @@ export default function DexAppBuilder() {
             <div className="relative">
               <section id="description" className={`py-4 ${activeTab !== 'description' ? 'hidden' : ''}`}>
                 <p className="mb-4 text-sm md:text-base">
-                  DexAppBuilder is a <strong>comprehensive no code and low code DApp builder that enables users to easily
-                  create and launch their own branded Decentralized Applications (DApps) in the Web3 environment</strong>.
+                  <FormattedMessage id="dexappbuilder.description.paragraph1" />
                 </p>
                 <p className="mb-4 text-sm md:text-base">
-                  With DexAppBuilder, users can select the crypto features they want and easily add them to their Dapp
-                  without the need for complicated coding: <strong>NFT Marketplace, Token and NFT generator, NFT online store
-                  (like Shopify, but Web3), Swap, Exchange and Crypto wallet</strong>.
+                  <FormattedMessage id="dexappbuilder.description.paragraph2" />
                 </p>
                 <p className="mb-4 text-sm md:text-base">
-                  DexAppBuilder also provides <strong>customizable templates, intuitive drag-and-drop</strong> functionality, and
-                  <strong>expert / community support</strong> to help users create a professional and polished DApp. Users can also
-                  generate a unique NFT associated with their DApp to prove ownership and take advantage of
-                  monetization opportunities.
+                  <FormattedMessage id="dexappbuilder.description.paragraph3" />
                 </p>
-                <a 
+                <Link 
                   href="https://docs.dexkit.com/defi-products/dexappbuilder/overview" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-orange-600 hover:underline text-sm md:text-base"
                 >
-                  Overview
-                </a>
+                  <FormattedMessage id="dexappbuilder.overview" />
+                </Link>
               </section>
 
               <section id="available networks" className={`py-4 ${activeTab !== 'available networks' ? 'hidden' : ''}`}>
                 <ul className="list-disc pl-5 space-y-2 text-sm md:text-base">
-                  {["Ethereum (Mainnet, Goerli, Sepolia)", "Optimism", "Binance Chain (BNB) (Mainnet and testnet)", "Polygon", "Avalanche", "Arbitrum", "Fantom", "Base", "Blast L2 (Mainnet and testnet)", "Pulsechain"].map((network, index) => (
-                    <li key={index}>{network}</li>
+                  {["Ethereum (Mainnet, Goerli, Sepolia)", "Optimism", "Binance Chain (BNB) (Mainnet, testnet)", "Polygon", "Avalanche", "Arbitrum", "Fantom", "Base", "Blast L2 (Mainnet, testnet)", "Pulsechain"].map((network, index) => (
+                    <li key={index}>
+                      <FormattedMessage id={`dexappbuilder.networks.${index}`} defaultMessage={network} />
+                    </li>
                   ))}
                 </ul>
               </section>
@@ -96,14 +96,14 @@ export default function DexAppBuilder() {
                 <ul className="list-disc pl-5 space-y-2">
                   {tutorials.map((tutorial, index) => (
                     <li key={index} className="text-sm md:text-base">
-                      <a 
+                      <Link 
                         href={tutorial.url} 
                         target="_blank" 
                         rel="noopener noreferrer" 
                         className="text-black hover:text-orange-600 hover:underline"
                       >
-                        {tutorial.title}
-                      </a>
+                        <FormattedMessage id={tutorial.titleId} />
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -111,14 +111,14 @@ export default function DexAppBuilder() {
             </div>
 
             <div className={`mt-8 ${isMobile ? 'text-center' : 'text-center md:text-left'}`}>
-              <a 
+              <Link 
                 href="https://dexappbuilder.dexkit.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className={`inline-block bg-orange-500 text-black font-bold py-2 ${isMobile ? 'px-4' : 'px-6'} rounded hover:bg-orange-600 transition duration-300 ${isMobile ? 'text-sm' : 'text-sm md:text-base'}`}
               >
-                Create my DApp
-              </a>
+                <FormattedMessage id="dexappbuilder.createDApp" />
+              </Link>
             </div>
           </div>
         </div>
