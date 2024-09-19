@@ -1,32 +1,21 @@
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { locales, Locale } from '../i18n/config';
+import Link, { LinkProps } from 'next/link';
+import { useParams } from 'next/navigation';
 
-interface LocalizedLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+interface LocalizedLinkProps extends Omit<LinkProps, 'href'> {
   href: string;
   children: React.ReactNode;
+  className?: string;
+  role?: string;
+  onClick?: () => void;
 }
 
-const LocalizedLink: React.FC<LocalizedLinkProps> = ({ href, children, ...props }) => {
-  const pathname = usePathname();
-  const currentLocale = pathname?.split('/')[1] as Locale;
+const LocalizedLink: React.FC<LocalizedLinkProps> = ({ href, children, className, role, onClick, ...props }) => {
+  const { locale } = useParams();
 
-  const isExternalUrl = href.startsWith('http://') || href.startsWith('https://') || href.startsWith('//');
-
-  if (isExternalUrl) {
-    return (
-      <a href={href} {...props}>
-        {children}
-      </a>
-    );
-  }
-
-  const localizedHref = locales.includes(currentLocale) && !href.startsWith('/')
-    ? `/${currentLocale}${href.startsWith('/') ? '' : '/'}${href}`
-    : href;
+  const localizedHref = href.startsWith('/') ? `/${locale}${href}` : href;
 
   return (
-    <Link href={localizedHref} {...props}>
+    <Link href={localizedHref} className={className} role={role} onClick={onClick} {...props}>
       {children}
     </Link>
   );
