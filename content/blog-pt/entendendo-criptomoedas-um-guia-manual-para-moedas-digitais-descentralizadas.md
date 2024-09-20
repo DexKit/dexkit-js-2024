@@ -32,7 +32,7 @@ As criptomoedas operam usando a tecnologia blockchain – um livro-razão digita
 
 ![Nós de blockchain](/blog-images/19eb7d38-31eb-489a-9de7-b7b6e8ba5d71-1.jpg)
 
-Os nós são responsáveis ​​por higienizar as transações entre eles e penalizar quem tenta furtar transações falsas, garantindo assim a integridade dos dados.
+Os nós são responsáveis por higienizar as transações entre eles e penalizar quem tenta furtar transações falsas, garantindo assim a integridade dos dados.
 
 Dentro do procedimento anterior, a palavra _consenso_ ressoa fortemente, pois é o algoritmo característico com o qual cada ativo criptográfico legitima as transações do usuário: enquanto alguns ativos criptográficos reforçam sua segurança por meio de mineração ou Prova de Trabalho, outros preferem apostar seus ativos em nós de verificação chamados Prova. de Estaqueamento.
 
@@ -76,7 +76,7 @@ Sempre haverá hackers e golpistas tentando roubar seus fundos. Se você prestar
 Abaixo está uma lista de riscos que os usuários enfrentam ao usar criptomoedas:
 
 * **Enviar dinheiro para carteiras erradas**: isso é muito comum, pois a complexidade na legibilidade das carteiras torna difícil distinguir entre o destinatário real e outro diferente. Já existem soluções para este risco, como o [ENS (Ethereum Name Service)](https://ens.domains/) que permite ao usuário criar um endereço legível associado à sua carteira, reduzindo drasticamente a incidência deste erro.
-* **Phishing**: Não vamos negar, todos nós gostamos de ouvir coisas boas e agradáveis ​​de ler, ainda mais quando prometem lucros em criptomoedas com apenas alguns cliques. É aqui que funciona o velho ditado “se parece ótimo, provavelmente não é”. Hackers e engenheiros sociais invadem as redes sociais criando projetos falsos nos quais atraem usuários desavisados ​​a clicarem em links envenenados. Milhares de usuários sofreram perda de fundos com esses golpes nos últimos meses.
+* **Phishing**: Não vamos negar, todos nós gostamos de ouvir coisas boas e agradáveis de ler, ainda mais quando prometem lucros em criptomoedas com apenas alguns cliques. É aqui que funciona o velho ditado “se parece ótimo, provavelmente não é”. Hackers e engenheiros sociais invadem as redes sociais criando projetos falsos nos quais atraem usuários desavisados a clicarem em links envenenados. Milhares de usuários sofreram perda de fundos com esses golpes nos últimos meses.
 * **Hacks massivos em contratos inteligentes:** já testemunhamos hacks importantes em protocolos como [Ronin](https://www.techspot.com/news/93988-hackers-steal-over-615-million-ronin -network-supporting.html) (perdas de 655 milhões de dólares), [Mt.Gox](https://blockonomi.com/mt-gox-hack/) (25.000 Bitcoins em 2011, que hoje é uma fortuna) entre outros que semearam desconfiança entre os investidores. Não há como um usuário ficar isento deste tipo de eventos, embora já existam regulamentações legais para proteger o investidor
 
 ### Conclusão

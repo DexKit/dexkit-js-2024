@@ -12,7 +12,7 @@ category: Blog
 slug: explorando-o-mundo-dos-jogos-blockchain
 imageUrl: /blog-images/Gaming-genres-blog.png
 ---
-Com a enorme popularidade de jogos como [Axie Infinity](https://axieinfinity.com/) (que introduziu oportunidades de bolsas de estudo) e [Gods Unchained](https://godsunchained.com/) (atualmente o jogo de cartas colecionáveis ​​mais popular ) entre outros, o cenário dos jogos passou por uma transformação dramática.
+Com a enorme popularidade de jogos como [Axie Infinity](https://axieinfinity.com/) (que introduziu oportunidades de bolsas de estudo) e [Gods Unchained](https://godsunchained.com/) (atualmente o jogo de cartas colecionáveis mais popular ) entre outros, o cenário dos jogos passou por uma transformação dramática.
 
 ![Violação dos termos](/blog-images/image-18.png)
 
@@ -30,11 +30,11 @@ Esses jogos envolvem coletar, negociar e jogar com cartões comerciais digitais 
 
 ![Jogo Deuses Livres](/blog-images/gods-30_10_2022-12_52_41-a.-m..png)
 
-Sim! Jogamos Gods Unchained regularmente! 🧙‍♂️
+Sim! Jogamos Gods Unchained regularmente! ♂️
 
 ### Jogos colecionáveis
 
-Semelhante aos jogos de cartas colecionáveis, os jogos colecionáveis ​​giram em torno da aquisição, negociação e jogo com itens colecionáveis ​​digitais exclusivos armazenados em um blockchain. Alguns exemplos notáveis ​​incluem [CryptoKitties](https://www.cryptokitties.co/) e [NBA Top Shot](https://nbatopshot.com/).
+Semelhante aos jogos de cartas colecionáveis, os jogos colecionáveis giram em torno da aquisição, negociação e jogo com itens colecionáveis digitais exclusivos armazenados em um blockchain. Alguns exemplos notáveis incluem [CryptoKitties](https://www.cryptokitties.co/) e [NBA Top Shot](https://nbatopshot.com/).
 
 ![CryptoKitties](/blog-images/image-19.png)
 

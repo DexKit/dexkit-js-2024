@@ -44,7 +44,7 @@ Recomendamos criar [sua própria carteira criptografada com DexWallet](https://
 
 ###6\. Mantenha seus segredos em segredo
 
-**Wi-Fi público é como uma armadilha armada por vilões.** Fique longe, a menos que sua VPN esteja ligada. Lembre-se de compartilhar informações confidenciais apenas com pessoas confiáveis ​​e usar apenas serviços VPN conhecidos.
+**Wi-Fi público é como uma armadilha armada por vilões.** Fique longe, a menos que sua VPN esteja ligada. Lembre-se de compartilhar informações confidenciais apenas com pessoas confiáveis e usar apenas serviços VPN conhecidos.
 
 ###7\. Cuidado com Phish Sorrateiro
 

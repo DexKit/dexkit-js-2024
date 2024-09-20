@@ -8,7 +8,7 @@ category: Blog
 slug: compreensao-bitcoin-ethereum
 imageUrl: /blog-images/cryptocurrencies-exposed.png
 ---
-As criptomoedas emergiram como uma força revolucionária, captando a atenção tanto de investidores como de entusiastas da tecnologia. Este artigo tem como objetivo desmistificar o intrincado mundo das criptomoedas, explorando suas origens, tecnologia subjacente e aplicações práticas, ao mesmo tempo em que destaca players notáveis ​​como Bitcoin, Ethereum, Polygon, Arbitrum e Optimism.
+As criptomoedas emergiram como uma força revolucionária, captando a atenção tanto de investidores como de entusiastas da tecnologia. Este artigo tem como objetivo desmistificar o intrincado mundo das criptomoedas, explorando suas origens, tecnologia subjacente e aplicações práticas, ao mesmo tempo em que destaca players notáveis como Bitcoin, Ethereum, Polygon, Arbitrum e Optimism.
 
 ### Compreendendo as criptomoedas
 

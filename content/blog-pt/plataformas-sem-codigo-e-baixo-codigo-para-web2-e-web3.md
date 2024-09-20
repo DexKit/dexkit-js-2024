@@ -34,7 +34,7 @@ WordPress se tornou uma escolha popular para criação de sites devido às suas 
 
 Apesar de suas muitas vantagens, o WordPress também tem suas limitações. É importante estar ciente dessas desvantagens antes de se comprometer a usar a plataforma:
 
-* **Problemas de segurança:** Sites WordPress podem ficar vulneráveis ​​a ataques se não forem mantidos e atualizados adequadamente. Vulnerabilidades de segurança podem surgir de software ou plug-ins desatualizados. Atualizações regulares são essenciais para proteger seu site contra ameaças potenciais.
+* **Problemas de segurança:** Sites WordPress podem ficar vulneráveis a ataques se não forem mantidos e atualizados adequadamente. Vulnerabilidades de segurança podem surgir de software ou plug-ins desatualizados. Atualizações regulares são essenciais para proteger seu site contra ameaças potenciais.
 * **Desempenho prejudicado:** O desempenho de sites WordPress pode ser prejudicado, principalmente quando sobrecarregados com muitos plug-ins ou temas pesados. Isso pode levar a tempos de carregamento mais lentos e a uma experiência do usuário abaixo do ideal.
 * **Dependência de plug-ins:** Os plug-ins estendem a funcionalidade do site WordPress. No entanto, muitos plug-ins causam problemas de compatibilidade, conflitos e desafios de manutenção. É importante selecionar e gerenciar plug-ins com cuidado para evitar esses problemas.
 
@@ -42,7 +42,7 @@ Apesar de suas muitas vantagens, o WordPress também tem suas limitações. É i
 
 [Wix](https://www.wix.com/) é uma plataforma de criação de sites on-line dentro da Web2. É também uma das plataformas no-code/low-code disponíveis no mercado para o ambiente Web2. Wix simplifica o desenvolvimento web por meio de uma interface visual de arrastar e soltar. Ele atende usuários de todos os níveis de habilidade, do iniciante ao avançado.
 
-A plataforma Wix oferece modelos personalizáveis ​​e a capacidade de adicionar funções por meio de aplicativos. Também é popular entre os empreendedores digitais por sua facilidade de uso e flexibilidade. Ao contrário do WordPress, o Wix opera como um serviço baseado em nuvem. Oferece vários planos de assinatura, incluindo opções gratuitas e pagas.
+A plataforma Wix oferece modelos personalizáveis e a capacidade de adicionar funções por meio de aplicativos. Também é popular entre os empreendedores digitais por sua facilidade de uso e flexibilidade. Ao contrário do WordPress, o Wix opera como um serviço baseado em nuvem. Oferece vários planos de assinatura, incluindo opções gratuitas e pagas.
 
 Além da criação de sites, o Wix entrou no mundo da música. Ele oferece aos músicos uma plataforma para distribuir suas músicas diretamente do site Wix para plataformas de streaming populares.
 
@@ -74,7 +74,7 @@ O desenvolvimento de aplicações em Web3 é um campo complexo. Geralmente, apen
 
 DexAppBuilder oferece domínios específicos gratuitamente. Um domínio vinculado ao DexKit é gerado automaticamente quando você cria seu DApp nesta plataforma. Suporta múltiplas redes blockchain como Ethereum, Polygon e Binance Chain (entre outras redes populares).
 
-Para aqueles interessados ​​em entrar no espaço Web3, DexAppBuilder é uma ferramenta valiosa. Os usuários podem realizar vários projetos interessantes e lucrativos com ele. Exemplos desses projetos incluem a criação de tokens, a venda de criptomoedas e NFTs ou a distribuição de tokens por meio de lançamentos aéreos. É adaptável às diversas necessidades dos negócios digitais na Web3.
+Para aqueles interessados em entrar no espaço Web3, DexAppBuilder é uma ferramenta valiosa. Os usuários podem realizar vários projetos interessantes e lucrativos com ele. Exemplos desses projetos incluem a criação de tokens, a venda de criptomoedas e NFTs ou a distribuição de tokens por meio de lançamentos aéreos. É adaptável às diversas necessidades dos negócios digitais na Web3.
 
 ![Apresentando DexAppBuilder](/blog-images/showcase_dexappbuilder-1.gif)
 

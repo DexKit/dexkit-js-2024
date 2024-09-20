@@ -31,21 +31,26 @@ function getBlogPosts(): BlogPost[] {
   const postsDirectory = path.join(process.cwd(), 'content', 'blog-pt');
   const fileNames = fs.readdirSync(postsDirectory);
   
-  const posts = fileNames.map((fileName) => {
-    const slug = fileName.replace(/\.md$/, '');
-    const fullPath = path.join(postsDirectory, fileName);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
-    const { data } = matter(fileContents);  
+  const posts = fileNames.map((fileName): BlogPost | null => {
+    try {
+      const slug = fileName.replace(/\.md$/, '');
+      const fullPath = path.join(postsDirectory, fileName);
+      const fileContents = fs.readFileSync(fullPath, 'utf8');
+      const { data } = matter(fileContents);  
 
-    return {
-      slug,
-      title: data.title || 'Sem título',
-      date: data.date || 'Data não disponível',
-      author: data.author || 'Equipe DexKit',
-      category: data.category || 'Sem categoria',
-      imageUrl: data.imageUrl || DEFAULT_IMAGE,
-    };
-  });
+      return {
+        slug,
+        title: typeof data.title === 'string' ? data.title : 'Sem título',
+        date: typeof data.date === 'string' ? data.date : 'Data não disponível',
+        author: typeof data.author === 'string' ? data.author : 'Equipe DexKit',
+        category: typeof data.category === 'string' ? data.category : 'Sem categoria',
+        imageUrl: typeof data.imageUrl === 'string' ? data.imageUrl : DEFAULT_IMAGE,
+      };
+    } catch (error) {
+      console.error(`Error al procesar el archivo ${fileName}:`, error);
+      return null;
+    }
+  }).filter((post): post is BlogPost => post !== null);
 
   return posts.sort((a, b) => {
     try {

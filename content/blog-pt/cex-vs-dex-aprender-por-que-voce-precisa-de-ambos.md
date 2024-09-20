@@ -9,7 +9,7 @@ category: Blog
 slug: cex-vs-dex-aprender-por-que-voce-precisa-de-ambos
 imageUrl: /blog-images/CEX-x-DEX_DexKit-blog-PNG.png
 ---
-Levamos em consideração alguns recursos cruciais de bolsas centralizadas (CEXs), como Binance, OKX, Bitfinex, Coinbase e outros, bem como bolsas descentralizadas (DEXs), como soluções de negociação Uniswap, Kyber, Pancakeswap, DexKit e muito mais. para facilitar uma comparação abrangente entre os dois. Vamos avaliar as vantagens e desvantagens de cada um e explorar por que os usuários precisariam de ambos para se tornarem magos do DeFi 🧙‍♂️.
+Levamos em consideração alguns recursos cruciais de bolsas centralizadas (CEXs), como Binance, OKX, Bitfinex, Coinbase e outros, bem como bolsas descentralizadas (DEXs), como soluções de negociação Uniswap, Kyber, Pancakeswap, DexKit e muito mais. para facilitar uma comparação abrangente entre os dois. Vamos avaliar as vantagens e desvantagens de cada um e explorar por que os usuários precisariam de ambos para se tornarem magos do DeFi ♂️.
 
 Antes de nos aprofundarmos, é importante observar que CEX significa Centralized Exchange, enquanto DEX significa Descentralized Exchange. A principal distinção reside nos seus mecanismos operacionais, que examinaremos agora:
 

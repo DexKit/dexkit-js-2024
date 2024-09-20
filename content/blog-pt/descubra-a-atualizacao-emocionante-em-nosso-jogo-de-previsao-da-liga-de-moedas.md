@@ -25,7 +25,7 @@ Informamos que o contrato USDT na rede Polygon permanece inalterado \[verifique 
 
 Além de possuir $USDT para participar, os jogadores são obrigados a possuir algum $MATIC para melhorar as interações com os contratos do jogo. Acredito que você já esteja ciente desse pré-requisito, mas um lembrete amigável nunca é demais.
 
-### Dezenas de novos tokens entram na liga! 🚴‍♂️🏃‍♀️🏃‍♂️🤸‍♂️
+### Dezenas de novos tokens entram na liga! ♂️♀️♂️♂️
 
 [$SHIB](https://shibatoken.com/), [$RARI](http://rari.capital/), [$SLP](https://coinmarketcap.com/currencies/smooth-love-potion /), [$PICKLE](https://www.pickle.finance/), [$OCEAN](https://oceanprotocol.com/), [$KLAY](https://klaytn.foundation/), [$GHST](https://www.aavegotchi.com/), [$FTT](https://coinmarketcap.com/currencies/ftx-token/), [$APE](https://apecoin.com /) e muitos outros se alinham ansiosamente para competir no domínio das previsões, transformando jogadores em traders especializados por meio da participação regular na Coin League.
 
@@ -48,7 +48,7 @@ Este recurso contribui significativamente para uma experiência de jogo mais jus
 
 ![Tenha uma boa vida meme](/blog-images/haveanicelife.gif)
 
-Obrigado, BitBoy Squad, por todos os seus serviços e boas vibrações através da nossa parceria 🙋‍♂️
+Obrigado, BitBoy Squad, por todos os seus serviços e boas vibrações através da nossa parceria ♂️
 
 ### Apresentando uma nova coleção NFT no jogo
 

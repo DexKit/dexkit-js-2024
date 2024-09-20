@@ -30,7 +30,7 @@ Existem diferentes tipos de operações de swap no mundo criptográfico, cada um
 
 **1\. Trocas ponto a ponto (P2P):** Ocorrem **diretamente entre usuários sem uma plataforma intermediária**. Os usuários podem executar trocas de criptomoedas por meio de contratos inteligentes em blockchains como Ethereum ou até mesmo em exchanges descentralizadas (DEXs). Para ilustrar melhor, vamos comparar essas duas opções:
 
-* * **Contratos Inteligentes em Blockchains:** Estes são **programas autoexecutáveis ​​armazenados em blockchains**, como o Ethereum. Eles definem as condições de uma transação e são executados automaticamente quando os usuários as atendem. Nas trocas P2P, os contratos inteligentes facilitam as trocas diretas entre os usuários. Eles garantem que ambas as partes recebam os ativos acordados assim que os usuários cumpram as condições.
+* * **Contratos Inteligentes em Blockchains:** Estes são **programas autoexecutáveis armazenados em blockchains**, como o Ethereum. Eles definem as condições de uma transação e são executados automaticamente quando os usuários as atendem. Nas trocas P2P, os contratos inteligentes facilitam as trocas diretas entre os usuários. Eles garantem que ambas as partes recebam os ativos acordados assim que os usuários cumpram as condições.
     * **Bolsas Descentralizadas (DEXs):** Ao contrário das bolsas centralizadas, são plataformas de negociação que funcionam de forma descentralizada. Não há autoridade central controlando as transações. Eles operam por meio de contratos inteligentes, que gerenciam ordens de compra e venda de forma segura e transparente. **Os usuários podem negociar criptomoedas diretamente entre si, sem necessidade de intermediário.**
 
 ![Componente de troca](/blog-images/swapcomponent.png)

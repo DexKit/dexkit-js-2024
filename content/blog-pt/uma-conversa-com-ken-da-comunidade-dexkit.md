@@ -18,15 +18,15 @@ Apresentamos esta entrevista como uma conversa genuína e não adulterada com Ke
 
 ### Você pode nos contar um pouco sobre você e seus hobbies? Como você começou no mundo dos NFTs?
 
-Biografia rápida… Tenho 54 anos, casado há 27 anos, 2 filhos fora da faculdade.  Eu moro no nordeste dos EUA.  Eu trabalho como analista de dados das 9h às 17h e também administro uma LLC para desenvolvimento e hospedagem web.  Eu desenho, escrevo código.  Resumindo, trabalho com computadores muito antes de isso ser legal. Fiz 2 passagens diferentes como músico ao vivo (guitarra).  Depois de 30 anos, ainda adoro jogar.  Só não com uma banda agora.
+Biografia rápida… Tenho 54 anos, casado há 27 anos, 2 filhos fora da faculdade. Eu moro no nordeste dos EUA.  Eu trabalho como analista de dados das 9h às 17h e também administro uma LLC para desenvolvimento e hospedagem web.  Eu desenho, escrevo código.  Resumindo, trabalho com computadores muito antes de isso ser legal. Fiz 2 passagens diferentes como músico ao vivo (guitarra).  Depois de 30 anos, ainda adoro jogar.  Só não com uma banda agora.
 
-Comecei nos NFTs há cerca de 3 anos, quando um jogo que eu estava jogando oferecia NFTs na rede WAX ​​como prêmio em um concurso.  Curiosamente, isso me levou ao Discord também.  Porque eu tive que entrar lá para participar.  Depois de segurar esses NFTs por um tempo, ocorreu-me que poderia vender um.  Então coloquei um à venda.  Para minha surpresa, foi vendido por 75 WAX.  Que na época valia cerca de US$ 65!  Caramba!  Isso, acredite ou não, foi o que impulsionou todo o meu esforço com NFTs.
+Comecei nos NFTs há cerca de 3 anos, quando um jogo que eu estava jogando oferecia NFTs na rede WAX como prêmio em um concurso.  Curiosamente, isso me levou ao Discord também.  Porque eu tive que entrar lá para participar.  Depois de segurar esses NFTs por um tempo, ocorreu-me que poderia vender um. Então coloquei um à venda.  Para minha surpresa, foi vendido por 75 WAX.  Que na época valia cerca de US$ 65!  Caramba!  Isso, acredite ou não, foi o que impulsionou todo o meu esforço com NFTs.
 
-Pouco antes de isso acontecer, tive a ideia de abrir minha própria loja, onde ofereceria algo às pessoas por um preço muito barato.  Meu pensamento era que se eu conseguisse que algumas 1.000 pessoas comprassem algo por menos de US$ 1, eu me sairia muito bem.  Até tive uma ideia do que vender.  Eu criaria personagens do conjunto original de Web Safe Colors e os disponibilizaria para venda.
+Pouco antes de isso acontecer, tive a ideia de abrir minha própria loja, onde ofereceria algo às pessoas por um preço muito barato.  Meu pensamento era que se eu conseguisse que algumas 1.000 pessoas comprassem algo por menos de US$ 1, eu me sairia muito bem.  Até tive uma ideia do que vender. Eu criaria personagens do conjunto original de Web Safe Colors e os disponibilizaria para venda.
 
-O que eu não tinha era nenhuma maneira de fazer transações monetárias.  Eu não aceitava cartões de crédito e, uau, é muito trabalhoso escrever uma vitrine inteira.
+O que eu não tinha era nenhuma maneira de fazer transações monetárias. Eu não aceitava cartões de crédito e, uau, é muito trabalhoso escrever uma vitrine inteira.
 
-Então surgiram os NFTs.  E descobri que poderia criar minha própria coleção.  E não custou nada.  E todas as transações são realizadas por uma infraestrutura completa, instalada e em uso!  Ele literalmente respondeu a todo o meu problema de uma só vez.
+Então surgiram os NFTs.  E descobri que poderia criar minha própria coleção. E não custou nada.  E todas as transações são realizadas por uma infraestrutura completa, instalada e em uso!  Ele literalmente respondeu a todo o meu problema de uma só vez.
 
 Então criei uma coleção de [as 256 Web Safe Colors](https://wax.atomichub.io/explorer/collection/dpsafecolors), criei todas elas e comecei a vender.  Essa é a versão super curta dos eventos.  Estou tentando não incomodar seus leitores com a versão longa.
 
@@ -62,13 +62,13 @@ Por exemplo, todos os meus sites incluem um widget para compartilhamento nas red
 
 ### Você enfrentou algum desafio ao usar o DexKit e como você os superou?
 
-Houve alguns.  Ainda existem erros na área administrativa.  Enquanto digitava isso, fui até a área de administração para testar um erro... Ele ainda está lá.  Se você tentar adicionar um item à seção Itens em destaque, o aplicativo travará e não será possível recuperá-lo.  Já sei disso há algum tempo e simplesmente não reclamei.  Porque prefiro usar o editor de páginas personalizadas de qualquer maneira.  Isso permite MUITO mais flexibilidade no design e não há erros.
+Houve alguns.  Ainda existem erros na área administrativa.  Enquanto digitava isso, fui até a área de administração para testar um erro... Ele ainda está lá.  Se você tentar adicionar um item à seção Itens em destaque, o aplicativo travará e não será possível recuperá-lo.  Já sei disso há algum tempo e simplesmente não reclamei. Porque prefiro usar o editor de páginas personalizadas de qualquer maneira.  Isso permite MUITO mais flexibilidade no design e não há erros.
 
-O único outro desafio é que ainda não estou fazendo muitas vendas.  É muito difícil promover meus Marketplaces.  Suspeito que muitos usuários tenham receio de conectar suas carteiras e fazer compras.  Não tenho certeza do que alguém pode fazer sobre isso.  Talvez seja necessário dar alguma ênfase ao quão seguros e confiáveis ​​são os Marketplaces.
+O único outro desafio é que ainda não estou fazendo muitas vendas.  É muito difícil promover meus Marketplaces. Suspeito que muitos usuários tenham receio de conectar suas carteiras e fazer compras.  Não tenho certeza do que alguém pode fazer sobre isso.  Talvez seja necessário dar alguma ênfase ao quão seguros e confiáveis são os Marketplaces.
 
 E sejamos claros.  ELES ESTÃO seguros e protegidos.
 
-Eu mesmo uso o Marketplace para mais do que apenas manter a vitrine.  Eu também o uso para trocar tokens.  E esse é um recurso incrível!
+Eu mesmo uso o Marketplace para mais do que apenas manter a vitrine. Eu também o uso para trocar tokens. E esse é um recurso incrível!
 
 Outra sugestão é esta…  A capacidade de gerenciar arquivos no servidor que os serviços de SEO procuram.  **Robots.txt** e **sitemap.xml**.  Atualmente não há como ver os arquivos na raiz do servidor, pois tudo é executado em um CMS.  A capacidade de criar e gerenciar esses arquivos seria de grande ajuda para tornar o site mais fácil de ser encontrado pelos mecanismos de busca.
 
@@ -102,11 +102,11 @@ Estas são apenas algumas coisas que você deve ter em mente.  Não sou especia
 
 ### Como você vê a evolução do futuro dos NFTs e como você acha que o DexKit continuará a desempenhar um papel nessa evolução?
 
-Eu realmente gostaria de ter uma resposta para isso.  Mas, infelizmente, minha bola de cristal está na loja e não consigo fazer previsões confiáveis ​​sobre nada disso.  Claro que isso é uma piada.  Este ecossistema é tão volátil que mesmo uma bola de cristal não será útil nas previsões.
+Eu realmente gostaria de ter uma resposta para isso.  Mas, infelizmente, minha bola de cristal está na loja e não consigo fazer previsões confiáveis sobre nada disso.  Claro que isso é uma piada.  Este ecossistema é tão volátil que mesmo uma bola de cristal não será útil nas previsões.
 
 No curto período de existência dos NFTs, o mercado e o uso se espalharam cada vez mais, e em mais direções e maneiras, do que qualquer um poderia ter previsto.
 
-Isso remonta ao início do próprio blockchain, quando havia apenas algumas moedas.  Ninguém previu que as pessoas começariam a usar o blockchain para NFTs.  E de repente aconteceu.  E agora cresceu como uma bola de neve de muitas maneiras diferentes.  Os NFTs são usados ​​para tudo, desde coletar, lançar, segurar, apostar, jogos e 1.000 outras coisas.
+Isso remonta ao início do próprio blockchain, quando havia apenas algumas moedas.  Ninguém previu que as pessoas começariam a usar o blockchain para NFTs.  E de repente aconteceu.  E agora cresceu como uma bola de neve de muitas maneiras diferentes.  Os NFTs são usados para tudo, desde coletar, lançar, segurar, apostar, jogos e 1.000 outras coisas.
 
 As pessoas usam NFTs para promover projetos que têm um projeto maior por trás deles.  Músicos usam NFTs para lançar novas músicas.  As pessoas usam NFTs para promover seu próprio token, que usam para negociar como moeda nas bolsas.  Em seguida, eles permitem que as pessoas apostem esses NFTs para ganhar novos tokens.
 

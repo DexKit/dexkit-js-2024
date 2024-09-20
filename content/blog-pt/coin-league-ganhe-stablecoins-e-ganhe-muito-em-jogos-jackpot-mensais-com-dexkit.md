@@ -16,7 +16,7 @@ A DexKit desenvolveu planos estratégicos para permitir que todos os aspirantes 
 
 A partir de 1º de setembro de 2022, os Jogos Jackpot Mensais serão realizados! (e repetido no dia 1 de cada mês, em função do interesse gerado por esta iniciativa). Esses jogos oferecem a chance de ganhar um prêmio total de 500 USDT\* ([clique aqui para entrar](https://app.dexkit.com/coin-league/16)).
 
-\*O valor final do prêmio será determinado pelo número total de jogadores. Para cada grupo de dez jogadores, o DexKit contribuirá com 50 $USDT adicionais, aumentando o prêmio para 100 $USDT (10 jogadores \* 10 $USDT cada) mais 50 $USDT extras (bônus da equipe do DexKit), a serem divididos entre os três primeiros vencedores. Este padrão continua para cada grupo adicional de dez jogadores, portanto, se a sala estiver lotada com cinquenta jogadores, os vencedores dividirão 750 $USDT. Espera-se que esta iniciativa atraia numerosos indivíduos interessados ​​que estão ansiosos para jogar e ganhar através de referências.
+\*O valor final do prêmio será determinado pelo número total de jogadores. Para cada grupo de dez jogadores, o DexKit contribuirá com 50 $USDT adicionais, aumentando o prêmio para 100 $USDT (10 jogadores \* 10 $USDT cada) mais 50 $USDT extras (bônus da equipe do DexKit), a serem divididos entre os três primeiros vencedores. Este padrão continua para cada grupo adicional de dez jogadores, portanto, se a sala estiver lotada com cinquenta jogadores, os vencedores dividirão 750 $USDT. Espera-se que esta iniciativa atraia numerosos indivíduos interessados que estão ansiosos para jogar e ganhar através de referências.
 
 ![Corrida da Liga de Moedas](/blog-images/coin_league_race_1.png)
 

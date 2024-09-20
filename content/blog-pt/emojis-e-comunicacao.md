@@ -10,17 +10,7 @@ imageUrl: /blog-images/20230717_Emoji-day-blog.png
 ---
 Saudações, estimados leitores!
 
-![🙋‍♂️](https://s.w.org/images/core/emoji/14.0.0/svg/1f64b-200d-2642-fe0f.svg)
-
-![🙋‍♀️](https://s.w.org/images/core/emoji/14.0.0/svg/1f64b-200d-2640-fe0f.svg)
-
-À medida que nos aproximamos de julho
-
-![1️⃣](https://s.w.org/images/core/emoji/14.0.0/svg/31-20e3.svg)
-
-![7️⃣](https://s.w.org/images/core/emoji/14.0.0/svg/37-20e3.svg)
-
-No dia Internacional dos Emojis, é um momento oportuno para mergulhar na história cativante e no impacto profundo destes ícones expressivos. Os Emojis não só transformaram a forma como comunicamos, mas também deixaram a sua marca em áreas inesperadas, incluindo o mundo dos investimentos.
+À medida que nos aproximamos de julho No dia Internacional dos Emojis, é um momento oportuno para mergulhar na história cativante e no impacto profundo destes ícones expressivos. Os Emojis não só transformaram a forma como comunicamos, mas também deixaram a sua marca em áreas inesperadas, incluindo o mundo dos investimentos.
 
 Junte-se a mim nesta jornada esclarecedora enquanto exploramos o significado histórico dos emojis, sua indispensabilidade na comunicação moderna e até mesmo seu envolvimento com as regulamentações financeiras.
 
@@ -42,13 +32,13 @@ O estudo de Walther e D’Addario descobriu que os Emoticons tiveram pouco impac
 
 ### Emojis e comunicação de investimentos
 
-Além do seu papel na comunicação pessoal, os emojis entraram no mundo dos investimentos. Nos últimos anos, o uso de emojis na comunicação empresarial e nas relações com investidores ganhou força. Algumas empresas incorporaram emojis de forma criativa em seus relatórios financeiros e postagens nas redes sociais para interagir com acionistas e investidores. Os emojis, quando usados ​​criteriosamente, podem adicionar personalidade, clareza e capacidade de identificação às comunicações corporativas, aumentando potencialmente o envolvimento dos investidores.
+Além do seu papel na comunicação pessoal, os emojis entraram no mundo dos investimentos. Nos últimos anos, o uso de emojis na comunicação empresarial e nas relações com investidores ganhou força. Algumas empresas incorporaram emojis de forma criativa em seus relatórios financeiros e postagens nas redes sociais para interagir com acionistas e investidores. Os emojis, quando usados criteriosamente, podem adicionar personalidade, clareza e capacidade de identificação às comunicações corporativas, aumentando potencialmente o envolvimento dos investidores.
 
 ### A posição da SEC sobre emojis
 
 No entanto, é essencial observar que os emojis nas comunicações de investimento têm enfrentado escrutínio. A Comissão de Valores Mobiliários dos EUA (SEC) emitiu diretrizes para empresas sobre o uso de emojis e outras métricas não-GAAP (Princípios Contábeis Geralmente Aceitos). A SEC pretendia garantir que o uso de emojis não enganasse os investidores nem obscurecesse informações financeiras críticas. Esta intervenção regulatória reflete a importância crescente dos emojis na comunicação de investimento e a necessidade de uma utilização responsável num ambiente regulamentado.
 
-Quando usados ​​adequadamente, os emojis podem aumentar o envolvimento dos investidores, adicionando apelo visual e humanizando as comunicações corporativas. Os emojis, estrategicamente colocados, podem transmitir entusiasmo, enfatizar pontos-chave ou fornecer um contexto subtil, ajudando a captar a atenção das partes interessadas e a melhorar a retenção da mensagem. Numa era em que a sobrecarga de informação é um desafio constante, os emojis podem ser uma ferramenta valiosa para as empresas se destacarem e promoverem a ligação com os investidores e a comunidade em geral.
+Quando usados adequadamente, os emojis podem aumentar o envolvimento dos investidores, adicionando apelo visual e humanizando as comunicações corporativas. Os emojis, estrategicamente colocados, podem transmitir entusiasmo, enfatizar pontos-chave ou fornecer um contexto subtil, ajudando a captar a atenção das partes interessadas e a melhorar a retenção da mensagem. Numa era em que a sobrecarga de informação é um desafio constante, os emojis podem ser uma ferramenta valiosa para as empresas se destacarem e promoverem a ligação com os investidores e a comunidade em geral.
 
 ![Meme de emojis da SEC](/blog-images/rocket-emoji-300x300-1.png)
 
@@ -56,6 +46,6 @@ Quando usados ​​adequadamente, os emojis podem aumentar o envolvimento dos i
 
 ### Considerações finais
 
-Ao celebrarmos o Dia Internacional dos Emojis, reconheçamos o amplo impacto destes símbolos expressivos. Desde a revolução da comunicação pessoal até a infiltração no cenário de investimentos, os emojis tornaram-se indispensáveis ​​em nossa era digital. Embora ofereçam uma via única para a ligação emocional e o envolvimento dos investidores, é vital navegar de forma responsável no panorama regulamentar. À medida que continuamos a adotar os emojis como meio de expressão, vamos apreciar o seu potencial para colmatar lacunas, transmitir emoções e até melhorar a comunicação com os investidores.
+Ao celebrarmos o Dia Internacional dos Emojis, reconheçamos o amplo impacto destes símbolos expressivos. Desde a revolução da comunicação pessoal até a infiltração no cenário de investimentos, os emojis tornaram-se indispensáveis em nossa era digital. Embora ofereçam uma via única para a ligação emocional e o envolvimento dos investidores, é vital navegar de forma responsável no panorama regulamentar. À medida que continuamos a adotar os emojis como meio de expressão, vamos apreciar o seu potencial para colmatar lacunas, transmitir emoções e até melhorar a comunicação com os investidores.
 
 #### **Feliz Dia Mundial do Emoji! 🎉🌍💬**

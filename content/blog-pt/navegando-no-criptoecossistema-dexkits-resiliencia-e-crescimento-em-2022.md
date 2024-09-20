@@ -12,7 +12,7 @@ category: Community
 slug: navegando-no-criptoecossistema-dexkits-resiliencia-e-crescimento-em-2022
 imageUrl: /blog-images/png_20221230_224201_0000.png
 ---
-Sem dúvida, 2022 foi um ano que muitos prefeririam apagar da sua história pessoal. Os acontecimentos globais enviaram ondas de choque através dos mercados financeiros, fazendo com que até projectos aparentemente fortes e estáveis ​​desmoronassem.
+Sem dúvida, 2022 foi um ano que muitos prefeririam apagar da sua história pessoal. Os acontecimentos globais enviaram ondas de choque através dos mercados financeiros, fazendo com que até projectos aparentemente fortes e estáveis desmoronassem.
 
 Como participantes nesta indústria ferozmente competitiva, é impossível não sentir medo e incerteza face a tais condições, onde até mesmo a queda do próximo grande interveniente é desconhecida. Infelizmente, o colapso de um grande projecto muitas vezes leva consigo outros mais pequenos, deixando no seu rasto a devastação dos meios de subsistência de centenas de indivíduos que dedicaram o seu tempo e esforço para apoiar o que acabou por ser um frágil castelo de cartas.
 

@@ -17,7 +17,7 @@ Ei, criptocadetes! No oeste selvagem dos ativos digitais, proteger o seu saque �
 
 Aprenda como cuidar de seus ativos criptográficos sem precisar ser um especialista em segurança.
 
-**1\. Ativação da senha: ** Abandone “password123” como um novato. Crie fortalezas indecifráveis ​​com senhas longas e complexas e 2FA (autenticação de dois fatores) – como uma grade dupla de laser ao redor do seu cofre criptográfico. Você pode gerenciar suas senhas com ferramentas como [LastPass](https://www.lastpass.com/) e [1Password](https://1password.com/es).
+**1\. Ativação da senha: ** Abandone “password123” como um novato. Crie fortalezas indecifráveis com senhas longas e complexas e 2FA (autenticação de dois fatores) – como uma grade dupla de laser ao redor do seu cofre criptográfico. Você pode gerenciar suas senhas com ferramentas como [LastPass](https://www.lastpass.com/) e [1Password](https://1password.com/es).
 
 **2\. Hardware Haven:** Quando seu estoque começar a crescer dramaticamente, considere investir em uma carteira de hardware – seu Fort Knox pessoal, protegendo sua criptografia offline e imune a batedores de carteira digitais.
 
@@ -37,6 +37,6 @@ Plataformas como Coingecko ou Coinmarketcap podem fornecer informações valiosa
 
 **6\. Software Samurai:** Software desatualizado? Esse é um convite aberto para hackers. Mantenha suas defesas fortes com os patches de segurança mais recentes para todos os seus dispositivos – até mesmo sua geladeira inteligente ou seu relógio, é como atualizar sua armadura para o próximo duelo digital.
 
-**7\. Isca de e-mail descartável:** Não deixe seu e-mail ser a chave do seu baú de criptografia. Use endereços de e-mail descartáveis ​​para transações ou contas criptografadas, o que equivale a jogar areia nos olhos do invasor.
+**7\. Isca de e-mail descartável:** Não deixe seu e-mail ser a chave do seu baú de criptografia. Use endereços de e-mail descartáveis para transações ou contas criptografadas, o que equivale a jogar areia nos olhos do invasor.
 
 **⚠ Lembre-se:** A criptografia é uma aventura de alto risco, mas com essas medidas de segurança testadas em batalha, você será um formidável guerreiro criptográfico, pronto para colher os frutos enquanto minimiza os perigos. Agora vá em frente e conquiste a fronteira digital!

@@ -23,7 +23,7 @@ Binance é a maior bolsa centralizada do mundo, lidando com um volume diário es
 
 ### O que são DEX?
 
-As bolsas descentralizadas, por outro lado, operam em redes peer-to-peer, eliminando a necessidade de intermediários. Os usuários mantêm o controle sobre suas chaves privadas e ativos, promovendo segurança e autonomia. As transações DEX ocorrem diretamente entre usuários, facilitadas por contratos inteligentes ou formadores de mercado automatizados (AMMs). Plataformas DEX notáveis ​​incluem Uniswap, SushiSwap, PancakeSwap e DexKit (para produtos DeFi de marca branca).
+As bolsas descentralizadas, por outro lado, operam em redes peer-to-peer, eliminando a necessidade de intermediários. Os usuários mantêm o controle sobre suas chaves privadas e ativos, promovendo segurança e autonomia. As transações DEX ocorrem diretamente entre usuários, facilitadas por contratos inteligentes ou formadores de mercado automatizados (AMMs). Plataformas DEX notáveis incluem Uniswap, SushiSwap, PancakeSwap e DexKit (para produtos DeFi de marca branca).
 
 ![DEX](/blog-images/b1337a17-fb51-4117-98b8-5a9f8f22f571.jpg)
 
@@ -65,7 +65,7 @@ Dentro do ecossistema DexAppBuilder, DexSwap se destaca como uma plataforma de s
 
 Implantar um DApp é muito mais fácil com o [Quick Builder](https://dexappbuilder.dexkit.com/admin/quick-builder/swap), que permite que projetos emergentes criem agregadores DEX em questão de segundos, permitindo que personalizem todos aspectos críticos, desde o branding até a distribuição das comissões que este produto gera para o empreendedor.
 
-Se você tiver interesse em implantar seu DApp e conhecer todos os detalhes sobre o produto, acesse [este vídeo](https://youtu.be/fXppwjRqVpM) [no canal oficial do DexKit no YouTube](https://youtu.be /fXppwjRqVpM).
+Se você tiver interesse em implantar seu DApp e conhecer todos os detalhes sobre o produto, acesse [este vídeo no canal oficial do DexKit no YouTube](https://youtu.be/fXppwjRqVpM).
 
 ![Interface de troca](/blog-images/Video-4_Swap-interface-thumbail_Youtube.png)
 

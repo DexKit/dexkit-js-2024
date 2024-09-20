@@ -19,7 +19,7 @@ Verifique a documentação disponível para este produto [aqui](https://docs.dex
 
 Na DexKit, priorizamos empreendedores digitais que inspiram outras pessoas com suas ideias criativas e impulsionam a exploração do mundo das criptomoedas. Nossas ferramentas são projetadas para capacitar esses empreendedores, dando-lhes total propriedade, controle e gerenciamento sobre suas criações digitais.
 
-A atualização mais recente de nosso mercado White Label NFT apresenta uma ampla gama de novos recursos, incluindo **personalizações aprimoradas**, **correções de bugs** **e compatibilidade aprimorada com as redes EVM mais populares**. Também evoluímos para incluir compatibilidade com tokens ERC 1155, que se tornaram um padrão da indústria devido à sua eficiência e funcionalidade adicional em comparação com os contratos ERC 721 tradicionalmente usados ​​por desenvolvedores para projetos NFT
+A atualização mais recente de nosso mercado White Label NFT apresenta uma ampla gama de novos recursos, incluindo **personalizações aprimoradas**, **correções de bugs** **e compatibilidade aprimorada com as redes EVM mais populares**. Também evoluímos para incluir compatibilidade com tokens ERC 1155, que se tornaram um padrão da indústria devido à sua eficiência e funcionalidade adicional em comparação com os contratos ERC 721 tradicionalmente usados por desenvolvedores para projetos NFT
 
 ### Quais benefícios a implantação do seu NFT Marketplace oferece aos empreendedores digitais?
 
@@ -45,11 +45,11 @@ Saiba mais sobre as novas atualizações:
 
 * * **Implantação simplificada no mercado:** Você só precisa de um endereço de e-mail para iniciar o processo de implantação. Este assistente amigável irá guiá-lo pelas etapas necessárias.
 
-* * **Personalizações aprimoradas:** os usuários agora podem adicionar páginas personalizáveis ​​com blocos de texto, cabeçalhos, imagens, vídeos, seções de código e outros recursos. Além disso, agora é possível incluir um cabeçalho e rodapé estáticos em seu mercado NFT, apresentando seus links de mídia social.
+* * **Personalizações aprimoradas:** os usuários agora podem adicionar páginas personalizáveis com blocos de texto, cabeçalhos, imagens, vídeos, seções de código e outros recursos. Além disso, agora é possível incluir um cabeçalho e rodapé estáticos em seu mercado NFT, apresentando seus links de mídia social.
 
 * * **Correções de bugs:** Como uma ferramenta beta, encontramos alguns pequenos bugs durante o processo de produção, todos os quais foram resolvidos. Também melhoramos a compatibilidade com bibliotecas de framework, tornando o aplicativo escalável. A colaboração contínua com outros desenvolvedores contribuirá para melhorias adicionais ao longo do tempo.
 
-* * **Domínio gratuito para seu mercado NFT:** Ao implantar seu mercado NFT pela primeira vez e preencher todas as opções necessárias, você receberá um link direto para seu mercado NFT com um `name-of-marketplace.dexkit Sufixo .app`. Isto elimina a necessidade de criar um CNAME em um domínio para fins de roteamento.
+* * **Domínio gratuito para seu mercado NFT:** Ao implantar seu mercado NFT pela primeira vez e preencher todas as opções necessárias, você receberá um link direto para seu mercado NFT com um `name-of-marketplace.dexkit.app`. Isto elimina a necessidade de criar um CNAME em um domínio para fins de roteamento.
 
 * * **Hospedagem centralizada para recursos de mídia:** Na versão anterior do mercado NFT de marca branca, os usuários tinham que fornecer seus próprios links de imagem. Isso não é mais necessário.
 
@@ -59,4 +59,4 @@ Continuamos comprometidos em criar ferramentas DeFi notáveis, independentemente
 
 Além disso, não nos esquecemos do nosso querido [jogo Coin League](https://coinleague.com/). No momento, estamos trabalhando em uma grande atualização que permitirá que você jogue de graça, sem incorrer em taxas de rede.
 
-#### **Fique atento às atualizações! 🧙‍♂️**
+#### **Fique atento às atualizações! ♂️**

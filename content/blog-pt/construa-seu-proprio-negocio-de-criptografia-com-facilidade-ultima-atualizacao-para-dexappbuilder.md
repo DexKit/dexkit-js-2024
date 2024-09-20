@@ -23,7 +23,7 @@ Esta última atualização inclui um tour guiado que explica progressivamente tu
 
 * Interfaces pré-construídas e [projetos comunitários](https://whitelabel-nft.dexkit.com/site) estão disponíveis para aqueles que estão ocupados demais para criar os seus próprios.
 
-* **Uma loja Express NFT que permite que você exiba suas melhores ofertas NFT** ou descontos. Você não precisa mais exibir todas as suas coleções residentes em seu mercado NFT se quiser vender apenas alguns de seus itens colecionáveis ​​digitais. Com **DexNFTShop** basta escolher aqueles que deseja vender e exibi-los facilmente, como o [Shopify](https://www.shopify.com/), mas com NFTs.
+* **Uma loja Express NFT que permite que você exiba suas melhores ofertas NFT** ou descontos. Você não precisa mais exibir todas as suas coleções residentes em seu mercado NFT se quiser vender apenas alguns de seus itens colecionáveis digitais. Com **DexNFTShop** basta escolher aqueles que deseja vender e exibi-los facilmente, como o [Shopify](https://www.shopify.com/), mas com NFTs.
 
 * **Seu CryptoApp agora é inteiramente seu** (até que você decida vendê-lo ou transferi-lo). Ninguém será capaz de clonar seus aplicativos criptográficos se você os cunhar como NFTs. Isso permitirá que você os venda em qualquer mercado descentralizado, proporcionando a oportunidade de ganhar vendendo seus designs personalizados a terceiros, respeitando seu tempo e esforços de design.
 

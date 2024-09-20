@@ -86,6 +86,6 @@ Confira um dos projetos de Brandon criados com DexAppBuilder, [Oishi vs. Kuma](h
 
 **Obrigado, Brandon, por compartilhar sua história e por seu apoio contínuo ao DexKit! 🤝** Para todos os nossos leitores, agora é o momento perfeito para construir seus DApps com DexAppBuilder e se tornar parte da revolução Web3.
 
-Vamos descentralizar o futuro juntos! 👨‍👩‍👧‍👦
+Vamos descentralizar o futuro juntos! 👦
 
 #### Nota do Autor: As opiniões expressas nesta entrevista pertencem exclusivamente ao entrevistado, e preservamos a autenticidade das respostas de Brandon sem quaisquer modificações

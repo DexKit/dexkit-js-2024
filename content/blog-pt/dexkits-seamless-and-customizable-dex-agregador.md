@@ -1,12 +1,12 @@
 ---
 title: 'Crypto Trading Reimaginado: Agregador DEX Contínuo e Personalizável do DexKit'
 date: 8 de maio de 2023
-excerpt: "Olá, DeFinauts! \U0001F431‍\U0001F680\U0001F64B‍♂️Se você é novo em nossos produtos incríveis, talvez não conheça nosso agregador DEX supereficiente construído há muito tempo..."
+excerpt: "Olá, DeFinauts! Se você é novo em nossos produtos incríveis, talvez não conheça nosso agregador DEX supereficiente construído há muito tempo..."
 category: Blog
 slug: dexkits-seamless-and-customizable-dex-agregador
 imageUrl: /blog-images/compared.jpg
 ---
-Olá, DeFinauts! 🐱‍🚀🙋‍♂️Se você é novo em nossos produtos incríveis, talvez não conheça nosso [agregador DEX supereficiente](https://swap.dexkit.com) construído há muito tempo. Conseguimos isso pegando ideias do Uniswap v2 e adicionando um sistema de roteamento superinteligente que pode ir de igual para igual com qualquer plataforma de ponta.
+Olá, DeFinauts! Se você é novo em nossos produtos incríveis, talvez não conheça nosso [agregador DEX supereficiente](https://swap.dexkit.com) construído há muito tempo. Conseguimos isso pegando ideias do Uniswap v2 e adicionando um sistema de roteamento superinteligente que pode ir de igual para igual com qualquer plataforma de ponta.
 
 Iniciamos um projeto que permite aos usuários criar versões personalizadas do agregador DEX, usando nosso produto de marca branca inspirado no design do Uniswap v2. Muitos entusiastas da criptografia adotaram esse recurso, dependendo do nosso sistema para suas atividades comerciais diárias. Isso nos ajudou a acumular um volume impressionante de APIs, beneficiando simultaneamente todos que a utilizam em suas operações, seja diretamente por meio de nosso link ou por meio de qualquer solução de marca branca elaborada com nossas ferramentas.
 

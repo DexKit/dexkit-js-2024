@@ -46,6 +46,6 @@ Esses projetos incluem Avalanche, Fantom, Optimism e Arbitrum, que, junto com Et
 
 Embora tenhamos considerado [construir dentro da rede Bitcoin](https://www.nasdaq.com/articles/building-applications-on-top-of-the-bitcoin-protocol), ainda não encontramos a tração desejada. O que você acha dessa ideia? Por favor, informe-nos através de qualquer um dos nossos canais de mídia social (fique tranquilo, nós lemos todos eles). Se você acredita que deveríamos considerar adicionar outra rede, informe-nos e iniciaremos discussões em nossa comunidade.
 
-Na DexKit, acreditamos firmemente na colaboração genuína para atingir nossos objetivos e, ao mesmo tempo, ajudar outros a realizar os deles. Mantemos sempre as nossas caixas de correio abertas para projetos notáveis ​​que procuram construir ao nosso lado.
+Na DexKit, acreditamos firmemente na colaboração genuína para atingir nossos objetivos e, ao mesmo tempo, ajudar outros a realizar os deles. Mantemos sempre as nossas caixas de correio abertas para projetos notáveis que procuram construir ao nosso lado.
 
 Obrigado por ler e convidamos você calorosamente a se juntar à nossa família cada vez maior 🤗

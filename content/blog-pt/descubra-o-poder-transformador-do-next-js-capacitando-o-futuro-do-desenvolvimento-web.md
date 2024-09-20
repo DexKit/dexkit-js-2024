@@ -12,7 +12,7 @@ slug: >-
   descubra-o-poder-transformador-do-next-js-capacitando-o-futuro-do-desenvolvimento-web
 imageUrl: /blog-images/DexKit_nextjs.png
 ---
-Durante nossos incansáveis ​​esforços diários para avançar nosso projeto, participamos virtualmente da [conferência Next.js 2022](https://nextjs.org/conf), patrocinada por [Vercel](https://vercel.com/), realizado em São Francisco, Califórnia. O evento superou as expectativas em termos de capacidade e entregou conteúdos e anúncios de valor inestimável.
+Durante nossos incansáveis esforços diários para avançar nosso projeto, participamos virtualmente da [conferência Next.js 2022](https://nextjs.org/conf), patrocinada por [Vercel](https://vercel.com/), realizado em São Francisco, Califórnia. O evento superou as expectativas em termos de capacidade e entregou conteúdos e anúncios de valor inestimável.
 
 Um anúncio inovador feito durante a conferência foi o lançamento do Next.js 13. Esta atualização aborda preocupações críticas dos desenvolvedores, incluindo capacidade de resposta de aplicativos da web, disponibilidade 24 horas por dia, 7 dias por semana, compatibilidade com ferramentas DeFi e recursos inovadores que revolucionam o desenvolvimento e manutenção de projetos.
 
@@ -43,4 +43,4 @@ Nos domínios ferozmente competitivos das criptomoedas e das finanças descentra
 
 Temos notícias emocionantes! Estamos no processo de migração de todos os nossos produtos web, incluindo nosso site principal (sim, aquele que você está agora 😅), para Next.js. Nosso objetivo é proporcionar a você a melhor experiência possível ao ler nosso blog e interagir com nossos produtos. Fique atento às mudanças positivas que ocorrerão no DexKit – sua jornada conosco está prestes a se tornar ainda mais gratificante 😁
 
-Assista Guillermo Rauch –[Vercel](https://vercel.com) CEO e fundador– iniciar a conferência com este incrível Keynote. Apreciá-lo! 🍿​
+Assista Guillermo Rauch –[Vercel](https://vercel.com) CEO e fundador– iniciar a conferência com este incrível Keynote. Apreciá-lo! 🍿
