@@ -31,7 +31,7 @@ export default function DexWallet() {
         <div className="text-white py-8 sm:py-16">
           <div className="container mx-auto px-4 max-w-5xl">
             <div className={`flex flex-col ${isMobile ? '' : 'md:flex-row'} items-center justify-between`}>
-              <h1 className={`text-4xl ${isMobile ? '' : 'sm:text-6xl'} font-bold mb-4 ${isMobile ? 'w-full' : 'md:mb-0 md:w-1/2'} text-center ${isMobile ? '' : 'md:text-left'}`}>
+              <h1 className={`text-4xl ${isMobile ? '' : 'sm:text-6xl'} font-bold mb-4 ${isMobile ? 'w-full' : 'md:mb-0 md:w-1/2'} text-center ${isMobile ? '' : 'md:text-left'} md:pl-12`}>
                 <FormattedMessage id="dexwallet.title" defaultMessage="DexWallet" />
               </h1>
               <p className={`text-lg ${isMobile ? '' : 'sm:text-xl'} ${isMobile ? 'w-full' : 'md:w-1/2'} text-center ${isMobile ? '' : 'md:text-left'}`}>

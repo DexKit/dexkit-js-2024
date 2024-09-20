@@ -64,15 +64,12 @@ const LanguageSelector = () => {
     let newPathname: string;
 
     if (pathParts.length > 0 && locales.includes(pathParts[0] as Locale)) {
-      // Si ya hay un locale en la ruta, reemplázalo
       pathParts[0] = newLocale;
       newPathname = `/${pathParts.join('/')}`;
     } else {
-      // Si no hay locale, añádelo al principio
       newPathname = `/${newLocale}${currentPath}`;
     }
 
-    // Si estamos en una página de blog individual, redirige a la página principal del blog
     if (pathParts.length > 2 && pathParts[1] === 'blog') {
       newPathname = `/${newLocale}/blog`;
     }

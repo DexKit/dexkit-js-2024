@@ -401,9 +401,13 @@
                     └── page.tsx
                 └── 📁dexwallet
                     └── page.tsx
+                └── 📁roadmap
+                    └── page.tsx
                 └── layout.tsx
                 └── page.tsx
             └── 📁api
+                └── 📁blogPost
+                    └── route.ts
                 └── 📁blogPosts
                     └── route.ts
                 └── subscribe.ts
@@ -455,11 +459,8 @@
                     └── pt.ts
                 └── config.ts
                 └── types.ts
-            └── 📁roadmap
-                └── page.tsx
             └── favicon.ico
             └── fonts.ts
-            └── generateStaticParams.ts
             └── globals.css
             └── layout-client.tsx
             └── layout.tsx
@@ -477,6 +478,7 @@
     └── package.json
     └── postcss.config.mjs
     └── README.md
+    └── robots.txt
     └── structure.md
     └── tailwind.config.ts
     └── tsconfig.json

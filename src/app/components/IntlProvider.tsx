@@ -4,29 +4,43 @@ import { IntlProvider as ReactIntlProvider } from 'react-intl';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { defaultLocale, locales } from '../i18n/config';
-import en from '../i18n/messages/en';
-import es from '../i18n/messages/es';
-import pt from '../i18n/messages/pt';
 import { Messages } from '../i18n/types';
+import SkeletonLoader from './SkeletonLoader';
 
-const messages: Record<string, Messages> = { en, es, pt };
+const messages: Record<string, Messages> = {};
 
 export function IntlProvider({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [activeLocale, setActiveLocale] = useState<typeof locales[number]>(defaultLocale);
+  const [loadedMessages, setLoadedMessages] = useState<Messages | null>(null);
 
   useEffect(() => {
     const pathLocale = pathname?.split('/')[1] as typeof locales[number];
-    if (locales.includes(pathLocale)) {
-      setActiveLocale(pathLocale);
+    const newLocale = locales.includes(pathLocale) ? pathLocale : defaultLocale;
+    setActiveLocale(newLocale);
+
+    if (!messages[newLocale]) {
+      import(`../i18n/messages/${newLocale}.ts`)
+        .then((module) => {
+          messages[newLocale] = module.default;
+          setLoadedMessages(module.default);
+        })
+        .catch((error) => {
+          console.error(`Error loading messages for ${newLocale}:`, error);
+          setLoadedMessages(messages[defaultLocale]);
+        });
     } else {
-      setActiveLocale(defaultLocale);
+      setLoadedMessages(messages[newLocale]);
     }
   }, [pathname]);
 
+  if (!loadedMessages) {
+    return <SkeletonLoader />;
+  }
+
   return (
     <ReactIntlProvider 
-      messages={messages[activeLocale] ?? messages[defaultLocale]} 
+      messages={loadedMessages} 
       locale={activeLocale} 
       defaultLocale={defaultLocale}
     >
