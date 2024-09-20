@@ -1,9 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { FormattedMessage } from 'react-intl';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
-import { FormattedMessage } from 'react-intl';
+import SkeletonLoader from '../../../components/SkeletonLoader';
 
 interface BlogPost {
   slug: string;
@@ -13,10 +14,16 @@ interface BlogPost {
   category: string;
   imageUrl: string;
   contentHtml: string;
-  excerpt?: string;
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string, locale: string } }) {
+interface BlogPostPageProps {
+  params: { 
+    slug: string;
+    locale: string;
+  }
+}
+
+export default function BlogPostPage({ params }: BlogPostPageProps) {
   const [post, setPost] = useState<BlogPost | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -42,7 +49,14 @@ export default function BlogPostPage({ params }: { params: { slug: string, local
   }, [params.slug, params.locale]);
 
   if (isLoading) {
-    return <div>Cargando...</div>;
+    return (
+      <div className="container mx-auto px-4 py-8">
+        <SkeletonLoader type="title" />
+        <SkeletonLoader type="image" />
+        <SkeletonLoader type="text" />
+        <SkeletonLoader type="text" />
+      </div>
+    );
   }
 
   if (!post) {

@@ -4,16 +4,16 @@ import { defaultLocale, locales } from './src/app/i18n/config';
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
+  const pathnameIsMissingLocale = locales.every(
+    (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
+  );
 
-  if (locales.some(locale => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`)) {
-    return NextResponse.next();
+  if (pathnameIsMissingLocale) {
+    const locale = defaultLocale;
+    return NextResponse.redirect(
+      new URL(`/${locale}${pathname}`, request.url)
+    );
   }
-
-  if (pathname === '/') {
-    return NextResponse.rewrite(new URL(`/${defaultLocale}${pathname}`, request.url));
-  }
-
-  return NextResponse.next();
 }
 
 export const config = {

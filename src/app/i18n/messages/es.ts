@@ -258,6 +258,7 @@ const messages: Messages = {
   // Blog
   'blog.post.by': "Por:",
   'blog.post.on': "en",
+  'blog.redirectMessage': 'Has sido redirigido a la página principal del blog debido al cambio de idioma.',
 
   // Common
   'common.description': 'Descripción',

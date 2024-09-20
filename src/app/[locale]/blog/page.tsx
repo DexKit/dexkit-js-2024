@@ -5,6 +5,8 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { defaultLocale } from '../../i18n/config';
+import { useSearchParams } from 'next/navigation';
+import { useIntl } from 'react-intl';
 
 interface BlogPost {
   slug: string;
@@ -80,6 +82,10 @@ export default function BlogPage() {
     }
   }
 
+  const intl = useIntl();
+  const searchParams = useSearchParams();
+  const fromPost = searchParams.get('fromPost');
+
   return (
     <div className="min-h-screen">
       <main>
@@ -125,6 +131,16 @@ export default function BlogPage() {
           </div>
         </div>
       </main>
+      {fromPost && (
+        <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 mb-4" role="alert">
+          <p>
+            {intl.formatMessage({
+              id: 'blog.redirectMessage',
+              defaultMessage: 'You have been redirected to the main blog page due to the language change.'
+            })}
+          </p>
+        </div>
+      )}
     </div>
   );
 }

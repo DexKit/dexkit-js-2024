@@ -1,7 +1,7 @@
 import Link, { LinkProps } from 'next/link';
 import { useParams } from 'next/navigation';
 import { defaultLocale } from '../i18n/config';
-
+  
 interface LocalizedLinkProps extends Omit<LinkProps, 'href'> {
   href: string;
   children: React.ReactNode;
@@ -11,11 +11,12 @@ interface LocalizedLinkProps extends Omit<LinkProps, 'href'> {
 }
 
 const LocalizedLink: React.FC<LocalizedLinkProps> = ({ href, children, className, role, onClick, ...props }) => {
-  const { locale } = useParams();
+  const params = useParams();
+  const locale = params?.locale as string || defaultLocale;
 
-  const localizedHref = locale && locale !== defaultLocale
-    ? (href.startsWith('/') ? `/${locale}${href}` : href)
-    : href.replace(`/${defaultLocale}`, '');
+  const localizedHref = href.startsWith('/') 
+    ? `/${locale}${href}`
+    : href;
 
   return (
     <Link href={localizedHref} className={className} role={role} onClick={onClick} {...props}>

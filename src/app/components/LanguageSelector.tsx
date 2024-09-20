@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter, usePathname } from 'next/navigation';
-import { useEffect, useState, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { locales, localeNames, defaultLocale } from '../i18n/config';
 
@@ -12,16 +12,6 @@ const flagImages: Record<Locale, string> = {
   es: '/flags/es.png',
   pt: '/flags/pt.png',
 };
-
-interface BlogPost {
-  title: string;
-  date: string;
-  excerpt: string;
-  category: string;
-  slug: string;
-  imageUrl: string;
-  content?: string;
-}
 
 const LanguageSelector = () => {
   const router = useRouter();
@@ -62,44 +52,32 @@ const LanguageSelector = () => {
     };
   }, []);
 
-  const changeLanguage = async (newLocale: Locale) => {
+  const changeLanguage = (newLocale: Locale) => {
+    if (newLocale === currentLocale) {
+      setIsOpen(false);
+      return;
+    }
+
     const currentPath = pathname || '/';
     const pathParts = currentPath.split('/').filter(Boolean);
     
-    if (locales.includes(pathParts[0] as Locale) && pathParts[1] === 'blog' && pathParts.length > 2) {
-      const currentSlug = pathParts[2];
-      
-      const newFolder = newLocale === 'en' ? 'blog' : `blog-${newLocale}`;
-      
-      try {
-        const response = await fetch(`/api/blogPosts?locale=${newFolder}`);
-        if (response.ok) {
-          const posts = await response.json() as BlogPost[];
-          
-          const newPost = posts.find((post: BlogPost) => {
-            const currentSlugBase = currentSlug.replace(/^(conozca-a-|conheca-|meet-)/, '');
-            const postSlugBase = post.slug.replace(/^(conozca-a-|conheca-|meet-)/, '');
-            return currentSlugBase === postSlugBase;
-          });
+    let newPathname: string;
 
-          if (newPost) {
-            router.push(`/${newLocale}/blog/${newPost.slug}`);
-          } else {
-            router.push(`/${newLocale}/blog`);
-          }
-        } else {
-          router.push(`/${newLocale}/blog`);
-        }
-      } catch (error) {
-        console.error('Error al cambiar el idioma del post:', error);
-        router.push(`/${newLocale}/blog`);
-      }
-    } else {
+    if (pathParts.length > 0 && locales.includes(pathParts[0] as Locale)) {
+      // Si ya hay un locale en la ruta, reemplázalo
       pathParts[0] = newLocale;
-      const newPathname = `/${pathParts.join('/')}`;
-      router.push(newPathname);
+      newPathname = `/${pathParts.join('/')}`;
+    } else {
+      // Si no hay locale, añádelo al principio
+      newPathname = `/${newLocale}${currentPath}`;
     }
-    
+
+    // Si estamos en una página de blog individual, redirige a la página principal del blog
+    if (pathParts.length > 2 && pathParts[1] === 'blog') {
+      newPathname = `/${newLocale}/blog`;
+    }
+
+    router.push(newPathname);
     setIsOpen(false);
   };
 

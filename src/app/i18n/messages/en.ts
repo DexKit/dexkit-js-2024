@@ -253,6 +253,7 @@ const messages: Messages = {
   // Blog
   'blog.post.by': "By:",
   'blog.post.on': "on",
+  'blog.redirectMessage': 'You have been redirected to the main blog page due to the language change.',
 
   // Common
   'common.description': 'Description', 
