@@ -13,12 +13,15 @@ const flagImages: Record<Locale, string> = {
   pt: '/flags/pt.png',
 };
 
-const LanguageSelector = () => {
+interface LanguageSelectorProps {
+  textColor: string;
+}
+
+const LanguageSelector: React.FC<LanguageSelectorProps> = ({ textColor }) => {
   const router = useRouter();
   const pathname = usePathname();
   const [currentLocale, setCurrentLocale] = useState<Locale>(defaultLocale);
   const [isOpen, setIsOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -27,17 +30,6 @@ const LanguageSelector = () => {
       setCurrentLocale(pathLocale);
     }
   }, [pathname]);
-
-  useEffect(() => {
-    const checkIfMobile = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    checkIfMobile();
-    window.addEventListener('resize', checkIfMobile);
-
-    return () => window.removeEventListener('resize', checkIfMobile);
-  }, []);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -82,15 +74,13 @@ const LanguageSelector = () => {
     <div className="relative inline-block text-left w-full" ref={dropdownRef}>
       <button 
         onClick={() => setIsOpen(!isOpen)} 
-        className={`flex items-center space-x-2 px-3 py-2 border rounded-md bg-transparent hover:bg-orange-500 transition-colors duration-200 w-full justify-between ${
-          isMobile ? 'text-black' : 'text-white'
-        }`}
+        className={`flex items-center space-x-2 px-3 py-2 border rounded-md bg-transparent hover:bg-orange-500 transition-colors duration-200 w-full justify-between ${textColor}`}
       >
         <div className="flex items-center">
           <Image src={flagImages[currentLocale]} alt={localeNames[currentLocale]} width={20} height={15} className="rounded-sm mr-2" />
-          <span className="text-sm font-medium">{localeNames[currentLocale]}</span>
+          <span className={`text-sm font-medium ${textColor}`}>{localeNames[currentLocale]}</span>
         </div>
-        <svg className={`w-4 h-4 ${isMobile ? 'text-black' : 'text-white'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <svg className={`w-4 h-4 ${textColor}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
       </button>

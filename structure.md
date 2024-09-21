@@ -328,12 +328,60 @@
             └── Wizard-differentials_DexKit-blog.png
             └── Wordpress.png
             └── your_crypto_business.jpg
+        └── 📁branding
+            └── 📁docs
+                └── Brand_Guidelines.pdf
+            └── 📁Normal_logo
+                └── 📁Normal_Imagotype
+                    └── 01_Imagotype_DexKit.png
+                    └── 01_Imagotype_DexKit.svg
+                    └── 02_Imagotype_DexKit.png
+                    └── 02_Imagotype_DexKit.svg
+                    └── black_Imagotype_DexKit.png
+                    └── black_Imagotype_DexKit.svg
+                    └── white_Imagotype_DexKit.svg
+                └── 📁Normal_Isotype
+                    └── black_Isotype_DexKit.png
+                    └── black_Isotype_DexKit.svg
+                    └── orange_Isotype_DexKit.png
+                    └── orange_Isotype_DexKit.svg
+                    └── white_Isotype_DexKit.png
+                    └── white_Isotype_DexKit.svg
+            └── 📁Outline_logo
+                └── 📁Outline_Imagotype
+                    └── Outline_01_Imagotype_DexKit.png
+                    └── Outline_01_Imagotype_DexKit.svg
+                    └── Outline_02_Imagotype_DexKit.png
+                    └── Outline_02_Imagotype_DexKit.svg
+                    └── Outline_black_Imago_DexKit.png
+                    └── Outline_black_Imago_DexKit.svg
+                    └── Outline_white_Imago_DexKit.png
+                    └── Outline_white_Imago_DexKit.svg
+                └── 📁Outline_Isotype
+                    └── 📁Outline_Isotype_PNG
+                        └── Outline_black_Isotype_DexKit.png
+                        └── Outline_orange_Isotype_DexKit.png
+                        └── Outline_white_Isotype_DexKit.png
+                    └── 📁Outline_Isotype_SVG
+                        └── Outline_black_Isotype_DexKit.svg
+                        └── Outline_orange_Isotype_DexKit.svg
+                        └── Outline_white_Isotype_DexKit.svg
+            └── 📁Powered_by
+                └── Powered_by[black].png
+                └── Powered_by[black].svg
+                └── Powered_by[versions].png
+                └── Powered_by[white].png
+                └── Powered_by[white].svg
         └── 📁flags
             └── en.png
             └── es.png
             └── pt.png
         └── 📁imgs
             └── 📁blog
+            └── 📁team
+                └── eliecer.jpg
+                └── joao.jpg
+                └── mariama.jpg
             └── accesibility.svg
             └── brand.svg
             └── d-letter.webp
@@ -383,6 +431,17 @@
     └── 📁src
         └── 📁app
             └── 📁[locale]
+                └── 📁about
+                    └── 📁brand-material
+                        └── BrandMaterial.tsx
+                        └── page.tsx
+                    └── 📁mission-vision-values
+                        └── MissionVisionContent.tsx
+                        └── page.tsx
+                    └── 📁our-team
+                        └── OurTeamContent.tsx
+                        └── page.tsx
+                    └── page.tsx
                 └── 📁blog
                     └── 📁[slug]
                         └── page.tsx
@@ -456,6 +515,7 @@
                 └── 📁messages
                     └── en.ts
                     └── es.ts
+                    └── index.ts
                     └── pt.ts
                 └── config.ts
                 └── types.ts

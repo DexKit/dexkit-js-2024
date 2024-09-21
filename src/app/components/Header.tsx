@@ -16,7 +16,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
+      setIsMobile(window.innerWidth < 1024);
     };
     
     const handleScroll = () => {
@@ -150,51 +150,51 @@ export default function Header() {
               </svg>
             </button>
           ) : (
-            <nav className="hidden md:block flex-grow">
-              <ul className="flex justify-center space-x-6 items-center">
-                {menuItems.map((item) => (
-                  <li key={item.title} className="relative group">
-                    {item.subItems && item.subItems.length > 0 ? (
-                      <>
-                        <span className="text-white hover:text-orange-500 transition-colors duration-300 py-2 flex items-center cursor-default">
-                          {item.title}
-                          <span className="ml-1">
+            <>
+              <nav className="hidden lg:block flex-grow">
+                <ul className="flex justify-center space-x-6 items-center">
+                  {menuItems.map((item) => (
+                    <li key={item.title} className="relative group">
+                      {item.subItems && item.subItems.length > 0 ? (
+                        <>
+                          <span className="text-white hover:text-orange-500 transition-colors duration-300 py-2 flex items-center cursor-default">
+                            {item.title}
+                            <span className="ml-1">
 
-                            <i className="fas fa-chevron-down text-xs"></i>
+                              <i className="fas fa-chevron-down text-xs"></i>
+                            </span>
                           </span>
-                        </span>
-                        <div className="absolute left-0 mt-0 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 group-hover:opacity-100 transition-opacity duration-200 invisible group-hover:visible">
-                          <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                            {item.subItems.map((subItem) => (
-                              <LocalizedLink 
-                                key={subItem.name}
-                                href={subItem.href}
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-500 hover:text-white hover:font-bold transition-all duration-200"
-                                role="menuitem"
-                              >
-                                {subItem.name}
-                              </LocalizedLink>
-                            ))}
+                          <div className="absolute left-0 mt-0 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 group-hover:opacity-100 transition-opacity duration-200 invisible group-hover:visible">
+                            <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                              {item.subItems.map((subItem) => (
+                                <LocalizedLink 
+                                  key={subItem.name}
+                                  href={subItem.href}
+                                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-500 hover:text-white hover:font-bold transition-all duration-200"
+                                  role="menuitem"
+                                >
+                                  {subItem.name}
+                                </LocalizedLink>
+                              ))}
+                            </div>
                           </div>
-                        </div>
-                      </>
-                    ) : (
-                      <LocalizedLink 
-                        href={item.href}
-                        className="text-white hover:text-orange-500 transition-colors duration-300 py-2 flex items-center"
-                      >
-                        {item.title}
-                      </LocalizedLink>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </nav>
-          )}
-          {!isMobile && (
-            <div className="flex items-center">
-              <LanguageSelector />
-            </div>
+                        </>
+                      ) : (
+                        <LocalizedLink 
+                          href={item.href}
+                          className="text-white hover:text-orange-500 transition-colors duration-300 py-2 flex items-center"
+                        >
+                          {item.title}
+                        </LocalizedLink>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+              <div className="flex items-center">
+                <LanguageSelector textColor="text-white" />
+              </div>
+            </>
           )}
         </div>
       </header>
@@ -244,7 +244,7 @@ export default function Header() {
               ))}
             </ul>
             <div className="mt-4">
-              <LanguageSelector />
+              <LanguageSelector textColor="text-black" />
             </div>
           </div>
         </div>

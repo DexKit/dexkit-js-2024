@@ -201,22 +201,18 @@ export default function BrandMaterialContent() {
                 {brandAssets.map(asset => renderAsset(asset))}
               </div>
             </div>
-            <div className="bg-gray-100 p-6 rounded-lg flex flex-col justify-between">
-              <div>
-                <h2 className="text-2xl font-bold mb-4 text-gray-800">{intl.formatMessage({ id: "brandMaterial.pdfViewer" })}</h2>
-                <p className="text-gray-600 mb-4">{intl.formatMessage({ id: "brandMaterial.pdfDescription" })}</p>
-              </div>
-              <div className="text-left">
-                <a 
-                  href={pdfUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-orange-400 text-black px-4 py-2 rounded hover:bg-orange-500 transition-colors inline-flex items-center"
-                >
-                  <FaExternalLinkAlt className="mr-2" />
-                  {intl.formatMessage({ id: "brandMaterial.viewPdf" })}
-                </a>
-              </div>
+            <div className="bg-gray-100 p-6 rounded-lg flex flex-col" style={{ height: 'fit-content' }}>
+              <h2 className="text-2xl font-bold mb-4 text-gray-800">{intl.formatMessage({ id: "brandMaterial.pdfViewer" })}</h2>
+              <p className="text-gray-600 mb-6">{intl.formatMessage({ id: "brandMaterial.pdfDescription" })}</p>
+              <a 
+                href={pdfUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-orange-400 text-black px-4 py-2 rounded hover:bg-orange-500 transition-colors inline-flex items-center self-start"
+              >
+                <FaExternalLinkAlt className="mr-2" />
+                {intl.formatMessage({ id: "brandMaterial.viewPdf" })}
+              </a>
             </div>
           </div>
         </main>
