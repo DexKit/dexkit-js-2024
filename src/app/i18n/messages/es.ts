@@ -282,7 +282,7 @@ const messages: Messages = {
   'utilities.title': 'Utilidades',
   'utilities.subtitle': '¿Qué puedes hacer, actualmente, con nuestra moneda?',
   'utilities.listTitle': 'Utilidades del token KIT',
-  'utilities.hold1000': 'Mantén 1000 tokens KIT en cualquier red [consulta las direcciones de contrato] para la eliminación de la firma de DexKit en DApps, el diseño de DApps como NFT, entre otras comodidades.',
+  'utilities.hold1000': 'Mantén 1000 tokens KIT en cualquier red para la eliminación de la firma de DexKit en DApps, el diseño de DApps como NFT, entre otras comodidades.',
   'utilities.contractAddresses': 'Direcciones de contrato',
   'utilities.hold20': 'Mantén 20 KIT para personalizar la mascota NFT Kittygotchi en varios niveles en las redes Binance Smart Chain, Polygon y Ethereum;',
   'utilities.kittygotchi50': 'El 50% de las ganancias de Kittygotchi se utilizan para recomprar y proporcionar liquidez en el token KIT en las redes Binance Smart Chain, Polygon y Ethereum;',

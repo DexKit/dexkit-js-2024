@@ -278,7 +278,7 @@ const messages: Messages = {
   'utilities.title': 'Utilities',
   'utilities.subtitle': 'What can you do, currently, holding our currency?',
   'utilities.listTitle': 'KIT Token Utilities',
-  'utilities.hold1000': 'Hold 1,000 KIT tokens on any network [check Contract addresses] for DexKit signature removal on DApps, DApp design mint as NFT, among other amenities.',
+  'utilities.hold1000': 'Hold 1,000 KIT tokens on any network for DexKit signature removal on DApps, DApp design mint as NFT, among other amenities.',
   'utilities.contractAddresses': 'Contract addresses',
   'utilities.hold20': 'Hold 20 KIT to customize Kittygotchi NFT pet in several levels on Binance Smart Chain, Polygon and Ethereum networks;',
   'utilities.kittygotchi50': '50% of Kittygotchi earnings is used to buyback and provide liquidity on KIT token on Binance Smart Chain, Polygon and Ethereum networks;',
