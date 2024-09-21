@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
+import fs from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
 
@@ -10,33 +10,28 @@ export async function GET(request: Request) {
   const postsDirectory = path.join(process.cwd(), 'content', locale);
   
   try {
-    if (!fs.existsSync(postsDirectory)) {
-      console.warn(`Directory not found: ${postsDirectory}`);
-      return NextResponse.json([]);
-    }
-
-    const fileNames = fs.readdirSync(postsDirectory);
+    const fileNames = await fs.readdir(postsDirectory);
   
-    const posts = fileNames.filter(fileName => fileName.endsWith('.md')).map((fileName) => {
+    const posts = await Promise.all(fileNames.filter(fileName => fileName.endsWith('.md')).map(async (fileName) => {
       const slug = fileName.replace(/\.md$/, '');
       const fullPath = path.join(postsDirectory, fileName);
-      const fileContents = fs.readFileSync(fullPath, 'utf8');
+      const fileContents = await fs.readFile(fullPath, 'utf8');
       const { data } = matter(fileContents);
 
       return {
         slug,
-        title: data.title || 'Sin título',
-        date: data.date || 'Fecha no disponible',
-        author: data.author || 'Equipo DexKit',
-        category: data.category || 'Sin categoría',
+        title: data.title || 'Untitled',
+        date: data.date || 'No data available',
+        author: data.author || 'DexKit Team',
+        category: data.category || 'Uncategorized',
         imageUrl: data.imageUrl || '/imgs/dexkit_og.png',
         excerpt: data.excerpt || '',
       };
-    });
+    }));
 
     return NextResponse.json(posts);
   } catch (error) {
-    console.error('Error al leer los posts del blog:', error);
-    return NextResponse.json([]);
+    console.error('Error reading blog posts:', error);
+    return NextResponse.json({ error: 'Error reading blog posts' }, { status: 500 });
   }
 }

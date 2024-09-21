@@ -89,10 +89,10 @@ export default function Header() {
       title: intl.formatMessage({ id: "header.ourToken" }), 
       href: '#',
       subItems: [
-        { name: intl.formatMessage({ id: "header.tokenomics" }), href: 'https://docs.dexkit.com/welcome/our-token/tokenomics', external: true },
-        { name: intl.formatMessage({ id: "header.utilities" }), href: 'https://docs.dexkit.com/welcome/our-token/utilities', external: true },
-        { name: intl.formatMessage({ id: "header.contractAddresses" }), href: 'https://docs.dexkit.com/welcome/our-token/contract-addresses', external: true },
-        { name: intl.formatMessage({ id: "header.governance" }), href: 'https://docs.dexkit.com/welcome/our-token/governance', external: true },
+        { name: intl.formatMessage({ id: "header.tokenomics" }), href: '/our-token/tokenomics', external: false },
+        { name: intl.formatMessage({ id: "header.utilities" }), href: '/our-token/utilities', external: false },
+        { name: intl.formatMessage({ id: "header.contractAddresses" }), href: '/our-token/contract-addresses', external: false },
+        { name: intl.formatMessage({ id: "header.governance" }), href: '/our-token/governance', external: false },
       ]
     },
     { 

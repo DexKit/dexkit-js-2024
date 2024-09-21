@@ -27,7 +27,7 @@ function parsePortugueseDate(dateString: string): Date {
   return new Date(year, months[month], day);
 }
 
-function getBlogPosts(): BlogPost[] {
+async function getBlogPosts(): Promise<BlogPost[]> {
   const postsDirectory = path.join(process.cwd(), 'content', 'blog-pt');
   const fileNames = fs.readdirSync(postsDirectory);
   
@@ -47,7 +47,7 @@ function getBlogPosts(): BlogPost[] {
         imageUrl: typeof data.imageUrl === 'string' ? data.imageUrl : DEFAULT_IMAGE,
       };
     } catch (error) {
-      console.error(`Error al procesar el archivo ${fileName}:`, error);
+      console.error(`Error ao processar o arquivo ${fileName}:`, error);
       return null;
     }
   }).filter((post): post is BlogPost => post !== null);
@@ -64,8 +64,8 @@ function getBlogPosts(): BlogPost[] {
   });
 }
 
-export default function BlogPage() {
-  const posts = getBlogPosts();
+export default async function BlogPage() {
+  const posts = await getBlogPosts();
 
   return (
     <div className="min-h-screen">

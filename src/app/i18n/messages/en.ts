@@ -241,9 +241,75 @@ const messages: Messages = {
   'brandMaterial.selectPdf': 'Select a PDF to view',
   'brandMaterial.viewPdf': 'View PDF',
 
-  
-  // What is DexKit
+  // Tokenomics
+  'tokenomics.title': 'Tokenomics',
+  'tokenomics.description': 'Technical and financial details of our ERC-20 token.',
+  'tokenomics.details.title': 'Token Details',
+  'tokenomics.details.description': 'DexKit\'s native token $KIT has the following characteristics:',
+  'tokenomics.details.supply': 'Maximum hard-coded supply of 10 million tokens',
+  'tokenomics.details.networks': 'Present on Ethereum, Binance Chain and Polygon blockchains with proxied Contracts',
+  'tokenomics.distribution.title': 'Token Distribution',
+  'tokenomics.distribution.liquidity': 'Liquidity',
+  'tokenomics.distribution.marketing': 'Marketing',
+  'tokenomics.distribution.development': 'Development',
+  'tokenomics.distribution.otcSales': 'OTC sales',
+  'tokenomics.distribution.partnerships': 'Partnerships & Exchanges',
+  'tokenomics.distribution.team': 'Team',
+  'tokenomics.distribution.team.title': '5% to the team with a three-year staggered release',
+  'tokenomics.distribution.team.description': 'In order to keep inflation under control, this blocking time was arranged in the creation of the Smart Contract that hosts the native currency of the project.',
+  'tokenomics.distribution.otcSales.title': '15% to Over The Counter (OTC) sales',
+  'tokenomics.distribution.otcSales.description': 'This portion will be traded directly between counterparties without being listed on an exchange.',
+  'tokenomics.distribution.partnerships.title': '15% for partnerships & Exchanges',
+  'tokenomics.distribution.partnerships.description': 'Enriching the project platform with new products and alliances is essential for organic growth and adoption. Some percentage of this capital will also be available to list KIT in renowned centralized exchanges (CEXs).',
+  'tokenomics.distribution.marketing.title': '20% for marketing with a three-year staggered release',
+  'tokenomics.distribution.marketing.description': 'We believe that the marketing of the project should be healthy in order to attract more investment and keep old investors optimistic about the new inventions that DexKit develops throughout each period.',
+  'tokenomics.distribution.development.title': '20% for development with a three-year staggered release',
+  'tokenomics.distribution.development.description': 'Finding good and committed developers is an arduous task, and that is why this percentage is used to acquire new talent that contributes to building the project\'s innovations.',
+  'tokenomics.distribution.liquidity.title': '25% for liquidity',
+  'tokenomics.distribution.liquidity.description': 'On Ethereum, Binance Chain, Polygon or another networks that DexKit\'s team decided to deploy KIT.',
+  'tokenomics.securityAudits.title': 'Security audits',
+  'tokenomics.securityAudits.certik.description': 'The native DexKit token was audited on June 30, 2021 by the reputable entity CertiK, with positive overall results. Follow the link below to check all the findings.',
+  'tokenomics.securityAudits.certik.linkText': 'DexKit - CertiK Security Leaderboard',
+  'tokenomics.securityAudits.goplus.description': 'GoPlusSecurity provides a comprehensive security analysis for the DexKit token. Click the link below to view the detailed security report.',
+  'tokenomics.securityAudits.goplus.linkText': 'Token Security',
+  'tokenomics.externalAnalytics.title': 'External Analytic Sites',
 
+  // Utilities page
+  'utilities.title': 'Utilities',
+  'utilities.subtitle': 'What can you do, currently, holding our currency?',
+  'utilities.listTitle': 'KIT Token Utilities',
+  'utilities.hold1000': 'Hold 1,000 KIT tokens on any network [check Contract addresses] for DexKit signature removal on DApps, DApp design mint as NFT, among other amenities.',
+  'utilities.contractAddresses': 'Contract addresses',
+  'utilities.hold20': 'Hold 20 KIT to customize Kittygotchi NFT pet in several levels on Binance Smart Chain, Polygon and Ethereum networks;',
+  'utilities.kittygotchi50': '50% of Kittygotchi earnings is used to buyback and provide liquidity on KIT token on Binance Smart Chain, Polygon and Ethereum networks;',
+  'utilities.hold500': 'Hold 500 KIT to receive fees on Aggregator;',
+  'utilities.hold750': 'Hold 750 KIT to receive 90% discount on trading fees using the DSWAP aggregator;',
+  'utilities.aggregator70': '70% of aggregator fees are used to buyback and liquidity on $KIT token;',
+  'utilities.hold1000Snapshot': 'Hold 1,000 KIT tokens to propose and vote on Snapshot space. Also get access to private Discord server for governance.',
+
+  // Contract Addresses page
+  'contractAddresses.title': 'Contract addresses',
+  'contractAddresses.subtitle': 'If you are interested in holding $KIT tokens, follow the steps below so that you can buy from the correct contracts, according to your needs.',
+  'contractAddresses.warning.title': 'Warning!',
+  'contractAddresses.warning.message': 'Use only the addresses below to buy the real KIT tokens. We know about scam addresses trying to impersonate our project. Always double-check before buy.',
+  'contractAddresses.viewOnExplorer': 'View on Explorer',
+
+  // Governance page
+  'governance.title': 'Governance',
+  'governance.subtitle': 'Governance refers to the ability to make decisions and voting on protocols, such as changing its parameters, deciding on new features, and more.',
+  'governance.description': 'Governance is a crucial aspect of our project, allowing token holders to actively participate in shaping the future of DexKit.',
+  'governance.kitHolders': '$KIT holders will be able to propose and vote for ideas and solutions that are consistent with the goals of our project. Our projects are thinking for mass adoption due compatibility with all devices with a browser that supports JavaScript.',
+  'governance.participation.title': 'How to Participate',
+  'governance.participation.description': 'To participate in Snapshot Governance, users must meet the following requirements:',
+  'governance.participation.requirement': 'Hold a minimum of one thousand (1,000) tokens on any ',
+  'governance.participation.supportedNetwork': 'KIT supported network',
+  'governance.participation.discord': 'Holders with governance power can also access our private Discord channel on ',
+  'governance.participation.discordServer': 'DexKit\'s official server',
+  'governance.participate.title': 'Start Participating',
+  'governance.participate.description': 'Ready to make your voice heard? Click the button below to access our Snapshot Governance platform and start participating in shaping the future of DexKit.',
+  'governance.participate.button': 'Go to Snapshot Governance',
+
+  // What is DexKit
   'whatisdexkit.title': 'What is DexKit?',
   'whatisdexkit.description1': 'DexKit is a blockchain software company committed to making Decentralized Finance (DeFi) accessible to everyone.',
   'whatisdexkit.description2': 'Our suite of no-code/low-code tools and solutions empower entrepreneurs to effortlessly create branded DApps (decentralized applications) in the Web3 space while ensuring complete ownership and control over their creations.',
@@ -318,6 +384,8 @@ const messages: Messages = {
   'common.availableNetworks': 'Available Networks',
   'common.tutorials': 'Tutorials',
   'common.openSolution': 'Open solution',
+  'common.copy': 'Copy',
+  'common.copied': 'Copied!',
 };
 
 export default messages;

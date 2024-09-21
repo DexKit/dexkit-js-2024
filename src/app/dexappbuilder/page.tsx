@@ -95,7 +95,7 @@ export default function DexAppBuilder() {
               <section id="tutorials" className={`py-4 ${activeTab !== 'tutorials' ? 'hidden' : ''}`}>
                 <ul className="list-disc pl-5 space-y-2">
                   {tutorials.map((tutorial, index) => (
-                    <li key={index} className="text-sm font-bold md:text-base">
+                    <li key={index} className="text-sm md:text-base">
                       <Link 
                         href={tutorial.url} 
                         target="_blank" 
