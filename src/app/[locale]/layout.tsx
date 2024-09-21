@@ -1,19 +1,31 @@
-import { locales } from '../i18n/config';
+'use client';
+
+import { IntlProvider } from 'react-intl';
+import { useParams } from 'next/navigation';
+import messages from '@/app/i18n/messages';
+
+// Definimos los locales válidos
+type ValidLocale = keyof typeof messages;
+
+// Función para verificar si un locale es válido
+function isValidLocale(locale: string): locale is ValidLocale {
+  return locale in messages;
+}
 
 export default function LocaleLayout({
   children,
-  params: { locale }
 }: {
-  children: React.ReactNode;
-  params: { locale: string };
+  children: React.ReactNode
 }) {
-  return (
-    <div lang={locale}>
-      {children}
-    </div>
-  );
-}
+  const params = useParams();
+  const localeParam = params?.locale as string;
+  
+  // Verificamos si el locale es válido, si no, usamos 'en'
+  const locale = isValidLocale(localeParam) ? localeParam : 'en';
 
-export function generateStaticParams() {
-  return locales.map(locale => ({ locale }));
+  return (
+    <IntlProvider messages={messages[locale]} locale={locale} defaultLocale="en">
+      {children}
+    </IntlProvider>
+  );
 }
