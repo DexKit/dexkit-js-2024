@@ -84,7 +84,7 @@ export default function DexExchangePro() {
                 href="https://dexappbuilder.dexkit.com/admin/quick-builder/exchange" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="inline-block bg-orange-500 text-black font-bold py-2 px-4 sm:px-6 rounded hover:bg-orange-600 transition duration-300 text-sm sm:text-base"
+                className="inline-block bg-orange-400 text-black font-bold py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base"
               >
                 <FormattedMessage id="dexexchangepro.deployNow" defaultMessage="Deploy now!" />
               </Link>

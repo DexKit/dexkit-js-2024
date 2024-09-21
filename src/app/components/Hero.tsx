@@ -28,7 +28,7 @@ export default function Hero() {
           </p>
           <a 
             href="https://dexappbuilder.dexkit.com"
-            className="inline-block bg-orange-400 text-black py-2 px-4 sm:py-3 sm:px-6 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-sm sm:text-base md:text-lg"
+            className="inline-block bg-orange-400 text-black font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-sm sm:text-base md:text-lg"
             target="_blank"
             rel="noopener noreferrer"
           >

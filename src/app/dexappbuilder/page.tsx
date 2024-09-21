@@ -95,12 +95,12 @@ export default function DexAppBuilder() {
               <section id="tutorials" className={`py-4 ${activeTab !== 'tutorials' ? 'hidden' : ''}`}>
                 <ul className="list-disc pl-5 space-y-2">
                   {tutorials.map((tutorial, index) => (
-                    <li key={index} className="text-sm md:text-base">
+                    <li key={index} className="text-sm font-bold md:text-base">
                       <Link 
                         href={tutorial.url} 
                         target="_blank" 
                         rel="noopener noreferrer" 
-                        className="text-black hover:text-orange-600 hover:underline"
+                        className="text-black hover:text-orange-500 hover:underline"
                       >
                         <FormattedMessage id={tutorial.titleId} />
                       </Link>
@@ -115,7 +115,7 @@ export default function DexAppBuilder() {
                 href="https://dexappbuilder.dexkit.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className={`inline-block bg-orange-500 text-black font-bold py-2 ${isMobile ? 'px-4' : 'px-6'} rounded hover:bg-orange-600 transition duration-300 ${isMobile ? 'text-sm' : 'text-sm md:text-base'}`}
+                className={`inline-block bg-orange-400 text-black font-bold py-2 ${isMobile ? 'px-4' : 'px-6'} rounded hover:bg-orange-500 transition duration-300 ${isMobile ? 'text-sm' : 'text-sm md:text-base'}`}
               >
                 <FormattedMessage id="dexappbuilder.createDApp" />
               </Link>

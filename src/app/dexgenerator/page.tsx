@@ -157,7 +157,7 @@ export default function DexGenerator() {
                 href="https://dexappbuilder.dexkit.com/contract-wizard" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className={`inline-block bg-orange-500 text-black font-bold py-2 ${isMobile ? 'px-4' : 'px-4 sm:px-6'} rounded hover:bg-orange-600 transition duration-300 ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}
+                className={`inline-block bg-orange-400 text-black font-bold py-2 ${isMobile ? 'px-4' : 'px-4 sm:px-6'} rounded hover:bg-orange-500 transition duration-300 ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}
               >
                 <FormattedMessage id="dexgenerator.openSolution" defaultMessage="Open solution" />
               </Link>

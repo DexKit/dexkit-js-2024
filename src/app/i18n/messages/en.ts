@@ -185,8 +185,65 @@ const messages: Messages = {
   'dexwallet.tutorials.managingTool': 'Managing this tool',
   'dexwallet.openSolution': 'Open solution',
   
+  // Our Team
+  'ourTeam.title': 'Our Team',
+  'ourTeam.role1': 'Founder & Head of Engineering',
+  'ourTeam.title1': 'Electric Engineer',
+  'ourTeam.bio1': 'João holds a PhD in Electrical Engineering and is a former university professor turned passionate Full Stack developer. With an impressive track record in both education and professional work, his outstanding contributions to open-source projects, particularly his ongoing collaboration with the 0x project, have earned him wide respect within the Web3 developer community. João is currently a full-time developer at DexKit and resides in Brazil.',
+  'ourTeam.role2': 'Process and project manager',
+  'ourTeam.title2': 'Industrial Engineer',
 
+  'ourTeam.bio2': 'Mariama is a key member of the Core team, specializing in Production Engineering and Process Management. Her keen attention to detail significantly contributes to the success of the products she oversees. Working closely with João in Natal, Brazil, she brings her exceptional background in education and professional experience, having played a vital role in building companies from the ground up to success.',
+  'ourTeam.role3': 'Generalist',
+  'ourTeam.title3': 'Lawyer and IT Specialist',
+  'ourTeam.bio3': 'Eliécer is a lawyer and IT specialist with over 15 years of experience. As a versatile professional, he contributes to DexKit by creating content, identifying bugs, and advising the Founder on operational matters. Eliécer has a strong background in providing strategic guidance to small startups in his region, Canada and Panama. Currently working remotely, he is fully dedicated to helping João elevate DexKit as a leading startup in the Hispanic tech ecosystem.',
+  'ourTeam.description': 'Our team is composed of experts in various fields, including engineering, law, project management, and marketing. We are a diverse group of individuals who are passionate about blockchain technology and its potential to transform the world.',
+
+
+  // Mission, Vision and Values
+  'missionVisionValues.title': 'Mission, Vision and Values',
+  'missionVisionValues.description': 'Because each company must know what it wants to know where it is going. Here are the guidelines that sustain us as open source software developers.',
+  'missionVisionValues.missionTitle': 'Our Mission',
+  'missionVisionValues.missionDesc': 'Our mission is to empower users to create and expand their crypto projects by making advanced Decentralized Finance (DeFi) tools accessible, in addition to providing resources to help users easily learn about cryptocurrencies.',
+  'missionVisionValues.visionTitle': 'Our Vision',
+  'missionVisionValues.visionDesc': 'Our vision is to consolidate the DexKit brand on the global stage as a reference in making Decentralized Finance (DeFi) technologies (also known as Web3) accessible and applying these technologies to people and businesses.',
+  'missionVisionValues.valuesTitle': 'Our Values',
+  'missionVisionValues.value1Icon': '🔒',
+  'missionVisionValues.value1Title': 'Safety',
+  'missionVisionValues.value1Desc': 'Our systems must guarantee security for users and that security results from trust in the technologies we adopt.',
+  'missionVisionValues.value2Icon': '💰',
+  'missionVisionValues.value2Title': 'Financial autonomy',
+  'missionVisionValues.value2Desc': 'We work so that people and businesses fully own their financial resources, without intermediaries.',
+  'missionVisionValues.value3Icon': '👫',
+  'missionVisionValues.value3Title': 'Accessibility',
+  'missionVisionValues.value3Desc': 'We prioritize building tools and services in Decentralized Finance (DeFi) technologies and cryptocurrencies that are easy to use. We want these tools and services to be accessible to everyone.',
+  'missionVisionValues.value4Icon': '🆕',
+  'missionVisionValues.value4Title': 'Innovation',
+  'missionVisionValues.value4Desc': 'We are attentive to what may enter the market as a novelty and we want to be pioneers developing innovative solutions.',
+  'missionVisionValues.value5Icon': '📱',
+  'missionVisionValues.value5Title': 'User Experience',
+  'missionVisionValues.value5Desc': 'We want the user experience of our applications to be user-friendly and enjoyable.',
+  'missionVisionValues.value6Icon': '🤝',
+  'missionVisionValues.value6Title': 'Collaboration',
+  'missionVisionValues.value6Desc': 'We develop innovative systems together. People and companies are welcome to help and evolve with us in partnership, to build the future of Decentralized Finance (DeFi).',
+  'missionVisionValues.value7Icon': '✅',
+  'missionVisionValues.value7Title': 'Ease',
+  'missionVisionValues.value7Desc': 'We seek to simplify the complexity of Decentralized Finance (DeFi) and cryptocurrencies into intuitive tools that are easy to use for everyone.',
+
+  // Brand Material
+  'brandMaterial.title': 'Branding & Press Kit',
+  'brandMaterial.description': 'Need to use DexKit\'s logo and colors and don\'t know where to start? Don\'t worry! Here you will find all the necessary materials to create your content.',
+  'brandMaterial.availableFiles': 'Available Files',
+  'brandMaterial.lastModified': 'Last modified',
+  'brandMaterial.download': 'Download',
+  'brandMaterial.pdfViewer': 'The Brand Guidelines',
+  'brandMaterial.pdfDescription': 'The Brand Guidelines document contains the complete set of guidelines for using the DexKit brand and logo.',
+  'brandMaterial.selectPdf': 'Select a PDF to view',
+  'brandMaterial.viewPdf': 'View PDF',
+
+  
   // What is DexKit
+
   'whatisdexkit.title': 'What is DexKit?',
   'whatisdexkit.description1': 'DexKit is a blockchain software company committed to making Decentralized Finance (DeFi) accessible to everyone.',
   'whatisdexkit.description2': 'Our suite of no-code/low-code tools and solutions empower entrepreneurs to effortlessly create branded DApps (decentralized applications) in the Web3 space while ensuring complete ownership and control over their creations.',
