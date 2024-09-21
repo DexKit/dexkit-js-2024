@@ -1,5 +1,8 @@
+'use client';
+
 import { useIntl } from 'react-intl';
 import LocalizedLink from '@/app/components/LocalizedLink';
+import React from 'react';
 
 export default function AboutPage() {
   const intl = useIntl();

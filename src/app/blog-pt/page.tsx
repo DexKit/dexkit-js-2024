@@ -1,6 +1,6 @@
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
+'use client';
+
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -27,32 +27,13 @@ function parsePortugueseDate(dateString: string): Date {
   return new Date(year, months[month], day);
 }
 
-function getBlogPosts(): BlogPost[] {
-  const postsDirectory = path.join(process.cwd(), 'content', 'blog-pt');
-  const fileNames = fs.readdirSync(postsDirectory);
-  
-  const posts = fileNames.map((fileName): BlogPost | null => {
-    try {
-      const slug = fileName.replace(/\.md$/, '');
-      const fullPath = path.join(postsDirectory, fileName);
-      const fileContents = fs.readFileSync(fullPath, 'utf8');
-      const { data } = matter(fileContents);  
-
-      return {
-        slug,
-        title: typeof data.title === 'string' ? data.title : 'Sem título',
-        date: typeof data.date === 'string' ? data.date : 'Data não disponível',
-        author: typeof data.author === 'string' ? data.author : 'Equipe DexKit',
-        category: typeof data.category === 'string' ? data.category : 'Sem categoria',
-        imageUrl: typeof data.imageUrl === 'string' ? data.imageUrl : DEFAULT_IMAGE,
-      };
-    } catch (error) {
-      console.error(`Error al procesar el archivo ${fileName}:`, error);
-      return null;
-    }
-  }).filter((post): post is BlogPost => post !== null);
-
-  return posts.sort((a, b) => {
+async function getBlogPosts(): Promise<BlogPost[]> {
+  const res = await fetch('/api/blogPosts?locale=blog-pt');
+  if (!res.ok) {
+    throw new Error('Failed to fetch blog posts');
+  }
+  const posts = await res.json();
+  return posts.sort((a: BlogPost, b: BlogPost) => {
     try {
       const dateA = parsePortugueseDate(a.date);
       const dateB = parsePortugueseDate(b.date);
@@ -65,7 +46,11 @@ function getBlogPosts(): BlogPost[] {
 }
 
 export default function BlogPage() {
-  const posts = getBlogPosts();
+  const [posts, setPosts] = useState<BlogPost[]>([]);
+
+  useEffect(() => {
+    getBlogPosts().then(setPosts).catch(console.error);
+  }, []);
 
   return (
     <div className="min-h-screen">
