@@ -48,7 +48,7 @@ export default function MissionVisionContent() {
       <div className="bg-white">
         <main className="container mx-auto px-4 py-12">
           <section className="mb-12">
-            <h2 className="text-3xl font-semibold text-purple-900 mb-4">
+            <h2 className="text-3xl font-bold text-black mb-4">
               {intl.formatMessage({ id: "missionVisionValues.missionTitle" })}
             </h2>
             <p className="text-gray-700">
@@ -57,7 +57,7 @@ export default function MissionVisionContent() {
           </section>
 
           <section className="mb-12">
-            <h2 className="text-3xl font-semibold text-purple-900 mb-4">
+            <h2 className="text-3xl font-bold text-black mb-4">
               {intl.formatMessage({ id: "missionVisionValues.visionTitle" })}
             </h2>
             <p className="text-gray-700">
@@ -66,15 +66,15 @@ export default function MissionVisionContent() {
           </section>
 
           <section>
-            <h2 className="text-3xl font-semibold text-purple-900 mb-8">
+            <h2 className="text-3xl font-bold text-black mb-8">
               {intl.formatMessage({ id: "missionVisionValues.valuesTitle" })}
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {values.map((value, index) => (
-                <div key={index} className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                <div key={index} className="bg-gray-100 rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-xl hover:scale-105">
                   <div className="flex items-center mb-4">
                     <span className="text-4xl mr-4">{value.icon}</span>
-                    <h3 className="text-xl font-semibold text-purple-900">
+                    <h3 className="text-xl font-semibold text-black">
                       {intl.formatMessage({ id: `missionVisionValues.${value.title}` })}
                     </h3>
                   </div>

@@ -63,12 +63,12 @@ export default function ContractAddressesContent() {
                 <Image src={contract.icon} alt={`${contract.network} logo`} width={32} height={32} className="mr-2" />
                 {contract.network}
               </h2>
-              <div className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg shadow-lg p-6 md:p-8">
+              <div className="bg-gray-100 rounded-lg shadow-lg p-6 md:p-8">
                 <div className="flex flex-col md:flex-row items-center justify-between">
                   <code className="text-sm md:text-base break-all mb-4 md:mb-0">{contract.address}</code>
                   <button
                     onClick={() => copyToClipboard(contract.address)}
-                    className="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition-colors duration-300"
+                    className="bg-orange-400 text-black font-bold px-4 py-2 rounded hover:bg-orange-500 transition-colors duration-300"
                   >
                     {copiedAddress === contract.address
                       ? intl.formatMessage({ id: "common.copied" })

@@ -148,10 +148,10 @@ export default function TokenomicsContent() {
               <div className="w-full lg:w-1/2 lg:pl-8">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {distributionItems.map((item, index) => (
-                    <div key={index} className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg shadow-lg p-4 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <div key={index} className="bg-gray-100 rounded-lg shadow-lg p-4 transition-all duration-300 hover:shadow-xl hover:scale-105">
                       <div className="flex items-center mb-2">
                         <span className="text-3xl mr-3">{item.icon}</span>
-                        <h3 className="text-lg font-semibold text-purple-900">
+                        <h3 className="text-lg font-semibold text-black">
                           {intl.formatMessage({ id: `tokenomics.distribution.${item.key}.title` })}
                         </h3>
                       </div>
@@ -171,7 +171,7 @@ export default function TokenomicsContent() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               {securityAudits.map((audit, index) => (
-                <div key={index} className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                <div key={index} className="bg-gray-100 rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-xl hover:scale-105">
                   <div className="flex items-center mb-4">
                     <Image 
                       src={audit.icon}
@@ -180,7 +180,7 @@ export default function TokenomicsContent() {
                       height={48}
                       className="mr-4"
                     />
-                    <h3 className="text-xl font-semibold text-purple-900">
+                    <h3 className="text-xl font-semibold text-black">
                       {audit.title}
                     </h3>
                   </div>
@@ -191,7 +191,7 @@ export default function TokenomicsContent() {
                     href={audit.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition-colors duration-300"
+                    className="inline-block bg-orange-400 text-black font-bold px-4 py-2 rounded hover:bg-orange-500 transition-colors duration-300"
                   >
                     {intl.formatMessage({ id: audit.linkText })}
                   </a>
@@ -211,7 +211,7 @@ export default function TokenomicsContent() {
                   href={site.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg shadow-lg p-4 transition-all duration-300 hover:shadow-xl hover:scale-105 flex flex-col items-center justify-center"
+                  className="bg-gray-100 rounded-lg shadow-lg p-4 transition-all duration-300 hover:shadow-xl hover:scale-105 flex flex-col items-center justify-center"
                 >
                   <Image 
                     src={site.icon}
@@ -220,7 +220,7 @@ export default function TokenomicsContent() {
                     height={48}
                     className="mb-2"
                   />
-                  <span className="text-sm font-semibold text-purple-900 text-center">{site.name}</span>
+                  <span className="text-sm font-semibold text-black text-center">{site.name}</span>
                 </a>
               ))}
             </div>

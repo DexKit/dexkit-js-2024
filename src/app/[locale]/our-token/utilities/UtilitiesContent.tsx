@@ -61,11 +61,11 @@ export default function UtilitiesContent() {
             <h2 className="text-2xl md:text-3xl font-bold mb-8">
               {intl.formatMessage({ id: "utilities.listTitle" })}
             </h2>
-            <div className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg shadow-lg p-6 md:p-8">
+            <div className="bg-gray-100 rounded-lg shadow-lg p-6 md:p-8">
               <ul className="space-y-4">
                 {utilities.map((utility, index) => (
                   <li key={index} className="flex items-start">
-                    <span className="text-green-500 mr-3 text-xl">•</span>
+                    <span className="text-orange-400 mr-3 text-xl">•</span>
                     <span className="text-gray-800">
                       {utility.text}
                       {utility.link && (

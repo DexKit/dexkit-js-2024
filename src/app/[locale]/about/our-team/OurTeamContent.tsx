@@ -113,8 +113,8 @@ export default function OurTeamContent() {
                   />
                 </div>
                 <div className="p-4 flex flex-col flex-grow">
-                  <h2 className="text-xl font-semibold text-purple-900 mb-1">{member.name}</h2>
-                  <p className="font-medium text-purple-700 mb-1">{member.title}</p>
+                  <h2 className="text-xl font-semibold text-black mb-1">{member.name}</h2>
+                  <p className="font-medium text-gray-800 mb-1">{member.title}</p>
                   <p className="text-sm text-gray-600 mb-2">{member.role}</p>
                   <p className="text-sm text-gray-700 mb-3 flex-grow">{member.bio}</p>
                   <div className="flex justify-start space-x-4 mt-auto">

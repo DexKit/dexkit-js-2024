@@ -74,7 +74,7 @@ export default function GovernanceContent() {
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               {intl.formatMessage({ id: "governance.participate.title" })}
             </h2>
-            <div className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg shadow-lg p-6 md:p-8">
+            <div className="bg-gray-100 rounded-lg shadow-lg p-6 md:p-8">
               <p className="text-base md:text-lg mb-4">
                 {intl.formatMessage({ id: "governance.participate.description" })}
               </p>
@@ -82,7 +82,7 @@ export default function GovernanceContent() {
                 href="https://vote.dexkit.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors duration-300 text-lg font-semibold"
+                className="inline-block bg-orange-400 text-black font-bold px-6 py-3 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-lg"
               >
                 {intl.formatMessage({ id: "governance.participate.button" })}
               </a>
