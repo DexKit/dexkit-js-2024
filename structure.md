@@ -377,7 +377,23 @@
             └── es.png
             └── pt.png
         └── 📁imgs
+            └── 📁analytics
+                └── coinbrain.png
+                └── coindataflow.png
+                └── coingecko.png
+                └── coinmarketcap.png
+                └── crypto-com.png
+                └── forbes.png
+                └── livecoinwatch.png
+                └── messari.png
+            └── 📁auditors
+                └── certik.png
+                └── goplusec.png
             └── 📁blog
+            └── 📁networks
+                └── binance.png
+                └── ethereum.png
+                └── polygon.png
             └── 📁team
                 └── eliecer.jpg
                 └── joao.jpg
@@ -460,6 +476,20 @@
                     └── page.tsx
                 └── 📁dexwallet
                     └── page.tsx
+                └── 📁our-token
+                    └── 📁contract-addresses
+                        └── ContractAddressesContent.tsx
+                        └── page.tsx
+                    └── 📁governance
+                        └── GovernanceContent.tsx
+                        └── page.tsx
+                    └── 📁tokenomics
+                        └── page.tsx
+                        └── PieChart.tsx
+                        └── TokenomicsContent.tsx
+                    └── 📁utilities
+                        └── page.tsx
+                        └── UtilitiesContent.tsx
                 └── 📁roadmap
                     └── page.tsx
                 └── layout.tsx

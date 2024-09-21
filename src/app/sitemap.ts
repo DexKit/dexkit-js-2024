@@ -2,14 +2,15 @@ import { MetadataRoute } from 'next'
 import fs from 'fs'
 import path from 'path'
 
-function getBlogSlugs(lang: 'en' | 'es') {
-  const postsDirectory = path.join(process.cwd(), 'content', lang === 'en' ? 'blog' : 'blog-es')
+function getBlogSlugs(lang: 'en' | 'es' | 'pt') {
+  const postsDirectory = path.join(process.cwd(), 'content', lang === 'en' ? 'blog' : `blog-${lang}`)
   return fs.readdirSync(postsDirectory).map(fileName => fileName.replace(/\.md$/, ''))
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const enBlogSlugs = getBlogSlugs('en')
   const esBlogSlugs = getBlogSlugs('es')
+  const ptBlogSlugs = getBlogSlugs('pt')
   
   const routes = [
     { route: '', priority: 1.0, changefreq: 'weekly' as const },
@@ -20,9 +21,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { route: '/dexwallet', priority: 0.8, changefreq: 'monthly' as const },
     { route: '/dexnftmarket', priority: 0.8, changefreq: 'monthly' as const },
     { route: '/dexnftstore', priority: 0.8, changefreq: 'monthly' as const },
-    { route: '/blog', priority: 0.7, changefreq: 'weekly' as const },
-    { route: '/blog-es', priority: 0.7, changefreq: 'weekly' as const },
+    { route: '/en/blog', priority: 0.7, changefreq: 'weekly' as const },
+    { route: '/es/blog', priority: 0.7, changefreq: 'weekly' as const },
+    { route: '/pt/blog', priority: 0.7, changefreq: 'weekly' as const },
     { route: '/roadmap', priority: 0.6, changefreq: 'monthly' as const },
+    { route: '/about', priority: 0.6, changefreq: 'monthly' as const },
+    { route: '/about/mission-vision-values', priority: 0.6, changefreq: 'monthly' as const },
+    { route: '/about/our-team', priority: 0.6, changefreq: 'monthly' as const },
+    { route: '/about/brand-material', priority: 0.6, changefreq: 'monthly' as const },
+    { route: '/our-token/tokenomics', priority: 0.7, changefreq: 'monthly' as const },
+    { route: '/our-token/utilities', priority: 0.7, changefreq: 'monthly' as const },
+    { route: '/our-token/contract-addresses', priority: 0.7, changefreq: 'monthly' as const },
+    { route: '/our-token/governance', priority: 0.7, changefreq: 'monthly' as const },
   ].map(({ route, priority, changefreq }) => ({
     url: `https://dexkit.com${route}`,
     lastModified: new Date().toISOString(),
@@ -31,18 +41,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   const enBlogRoutes = enBlogSlugs.map((slug) => ({
-    url: `https://dexkit.com/blog/${slug}`,
+    url: `https://dexkit.com/en/blog/${slug}`,
     lastModified: new Date().toISOString(),
     changeFrequency: 'monthly' as const,
     priority: 0.6,
   }))
 
   const esBlogRoutes = esBlogSlugs.map((slug) => ({
-    url: `https://dexkit.com/blog-es/${slug}`,
+    url: `https://dexkit.com/es/blog/${slug}`,
     lastModified: new Date().toISOString(),
     changeFrequency: 'monthly' as const,
     priority: 0.6,
   }))
 
-  return [...routes, ...enBlogRoutes, ...esBlogRoutes]
+  const ptBlogRoutes = ptBlogSlugs.map((slug) => ({
+    url: `https://dexkit.com/pt/blog/${slug}`,
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }))
+
+  return [...routes, ...enBlogRoutes, ...esBlogRoutes, ...ptBlogRoutes]
 }
