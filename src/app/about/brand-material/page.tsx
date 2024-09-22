@@ -12,7 +12,7 @@ interface BrandAsset {
   children?: BrandAsset[];
 }
 
-export default function BrandMaterialContent() {
+export default function BrandMaterial() {
   const intl = useIntl();
   const [isMobile, setIsMobile] = useState(false);
   const pdfUrl = '/branding/docs/Brand_Guidelines.pdf';

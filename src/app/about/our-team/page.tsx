@@ -21,7 +21,7 @@ interface TeamMember {
   socialMedia: SocialMedia;
 }
 
-export default function OurTeamContent() {
+export default function OurTeam() {
   const intl = useIntl();
   const [isMobile, setIsMobile] = useState(false);
 

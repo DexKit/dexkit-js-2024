@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { defaultLocale } from '../../i18n/config';
 import { useSearchParams } from 'next/navigation';
 import { useIntl } from 'react-intl';
+import SkeletonLoader from '@/app/components/SkeletonLoader';
 
 interface BlogPost {
   slug: string;
@@ -50,6 +51,7 @@ function parseCustomDate(dateString: string, locale: string): Date {
 }
 
 export default function BlogPage() {
+  const [isLoading, setIsLoading] = useState(true);
   const params = useParams();
   const locale = (params?.locale as string) || defaultLocale;
   const [posts, setPosts] = useState<BlogPost[]>([]);
@@ -85,6 +87,18 @@ export default function BlogPage() {
   const intl = useIntl();
   const searchParams = useSearchParams();
   const fromPost = searchParams.get('fromPost');
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <SkeletonLoader />;
+  }
 
   return (
     <div className="min-h-screen">

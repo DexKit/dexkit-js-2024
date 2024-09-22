@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import OurTeamContent from './OurTeamContent';
+import OurTeam from '../../../about/our-team/page';
 
 export const metadata: Metadata = {
   title: 'Our Team | DexKit',
@@ -7,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function OurTeamPage() {
-  return <OurTeamContent />;
+  return <OurTeam />;
 }

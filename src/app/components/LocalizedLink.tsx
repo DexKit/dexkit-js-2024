@@ -17,9 +17,14 @@ const LocalizedLink: React.FC<LocalizedLinkProps> = ({ href, children, className
   const params = useParams();
   const locale = params?.locale as string || defaultLocale;
 
-  const localizedHref = href.startsWith('/') 
-    ? `/${locale}${href}`
-    : href;
+  let localizedHref = href;
+  if (href.startsWith('/')) {
+    if (locale !== defaultLocale) {
+      localizedHref = `/${locale}${href}`;
+    } else {
+      localizedHref = href;
+    }
+  }
 
   return (
     <Link href={localizedHref} className={className} role={role} onClick={onClick} {...props}>

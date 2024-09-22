@@ -28,6 +28,8 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ textColor }) => {
     const pathLocale = pathname?.split('/')[1] as Locale;
     if (locales.includes(pathLocale)) {
       setCurrentLocale(pathLocale);
+    } else {
+      setCurrentLocale(defaultLocale);
     }
   }, [pathname]);
 
@@ -55,17 +57,25 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ textColor }) => {
     
     let newPathname: string;
 
-    if (pathParts.length > 0 && locales.includes(pathParts[0] as Locale)) {
-      pathParts[0] = newLocale;
+    if (locales.includes(pathParts[0] as Locale)) {
+      pathParts.shift();
+    }
+
+    if (newLocale === defaultLocale) {
       newPathname = `/${pathParts.join('/')}`;
     } else {
-      newPathname = `/${newLocale}${currentPath}`;
+      newPathname = `/${newLocale}/${pathParts.join('/')}`;
     }
 
-    if (pathParts.length > 2 && pathParts[1] === 'blog') {
-      newPathname = `/${newLocale}/blog`;
+    if (pathParts[0] === 'blog' && pathParts.length > 1) {
+      newPathname = `/${newLocale === defaultLocale ? '' : newLocale + '/'}blog`;
     }
 
+    if (newPathname === '') {
+      newPathname = '/';
+    }
+
+    setCurrentLocale(newLocale);
     router.push(newPathname);
     setIsOpen(false);
   };

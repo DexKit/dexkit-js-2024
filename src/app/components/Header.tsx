@@ -169,7 +169,7 @@ export default function Header() {
                               {item.subItems.map((subItem) => (
                                 <LocalizedLink 
                                   key={subItem.name}
-                                  href={subItem.href}
+                                  href={subItem.external ? subItem.href : subItem.href}
                                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-500 hover:text-white hover:font-bold transition-all duration-200"
                                   role="menuitem"
                                 >

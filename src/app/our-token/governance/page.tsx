@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useIntl } from 'react-intl';
-import LocalizedLink from '../../../components/LocalizedLink';
+import LocalizedLink from '../../components/LocalizedLink';
 
 export default function GovernanceContent() {
   const intl = useIntl();

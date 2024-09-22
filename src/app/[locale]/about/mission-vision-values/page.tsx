@@ -1,5 +1,5 @@
-import MissionVisionContent from './MissionVisionContent';
+import MissionVisionValues from '../../../about/mission-vision-values/page';
 
 export default function MissionVisionValuesPage() {
-  return <MissionVisionContent />;
+  return <MissionVisionValues />;
 }

@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useIntl } from 'react-intl';
 
-export default function MissionVisionContent() {
+export default function MissionVisionValues() {
   const intl = useIntl();
   const [isMobile, setIsMobile] = useState(false);
 

@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { defaultLocale, locales } from './src/app/i18n/config';
+import { locales } from './src/app/i18n/config';
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
@@ -9,10 +9,11 @@ export function middleware(request: NextRequest) {
   );
 
   if (pathnameIsMissingLocale) {
-    const locale = defaultLocale;
-    return NextResponse.redirect(
-      new URL(`/${locale}${pathname}`, request.url)
-    );
+
+    if (pathname === '/roadmap/roadmap') {
+      return NextResponse.redirect(new URL('/roadmap', request.url));
+    }
+    return NextResponse.next();
   }
 }
 
