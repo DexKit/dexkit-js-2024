@@ -399,6 +399,9 @@ const messages: Messages = {
   'common.openSolution': 'Open solution',
   'common.copy': 'Copy',
   'common.copied': 'Copied!',
+  'notFound.title': 'Oops! Page Not Found',
+  'notFound.message': 'The page you are looking for might have been removed or is temporarily unavailable.',
+  'notFound.returnHome': 'Return Home',
 };
 
 export default messages;

@@ -403,6 +403,9 @@ const messages: Messages = {
   'common.openSolution': 'Abrir solução',
   'common.copy': 'Copiar',
   'common.copied': 'Copiado!',
+  'notFound.title': 'Ops! Página não encontrada',
+  'notFound.message': 'A página que você está procurando pode ter sido removida ou está temporariamente indisponível.',
+  'notFound.returnHome': 'Voltar para a página inicial',
 };
 
 export default messages;
