@@ -140,4 +140,4 @@ Al concluir este diálogo sin filtros con Ken, extendemos nuestro más sincero a
 
 Gracias, Ken, por tus valiosos conocimientos y la autenticidad que aportaste a esta conversación. Que su viaje en el espacio NFT siga lleno de creatividad, éxito y posibilidades ilimitadas.
 
-#### Nota del autor: Las opiniones expresadas en esta entrevista pertenecen únicamente al entrevistado y hemos preservado la autenticidad de las respuestas de Ken sin ninguna modificación.
+#### Nota del autor: Las opiniones expresadas en esta entrevista pertenecen únicamente al entrevistado y hemos preservado la autenticidad de las respuestas de Ken sin ninguna modificación

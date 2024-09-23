@@ -13,7 +13,7 @@ En DexKit, **nuestra misión es hacer que Web3 sea accesible**. Una de las mucha
 
 ### ¿Qué es la API sin gas?
 
-La [API sin gas] (https://0x.org/post/0x-101-intro-to-gasless-api) simplifica el comercio de tokens ERC-20 al eliminar la necesidad de mantener tokens nativos para las tarifas del gas. Proporcionada por [0x](https://0x.org/), esta API permite a los usuarios acceder a liquidez, precios y cotizaciones sin esfuerzo. Al aceptar una cotización, los usuarios firman un mensaje EIP-712. Esto permite a la API gestionar aprobaciones y enviar transacciones en su nombre, cubriendo las tarifas del gas.
+La [API sin gas] (<https://0x.org/post/0x-101-intro-to-gasless-api>) simplifica el comercio de tokens ERC-20 al eliminar la necesidad de mantener tokens nativos para las tarifas del gas. Proporcionada por [0x](https://0x.org/), esta API permite a los usuarios acceder a liquidez, precios y cotizaciones sin esfuerzo. Al aceptar una cotización, los usuarios firman un mensaje EIP-712. Esto permite a la API gestionar aprobaciones y enviar transacciones en su nombre, cubriendo las tarifas del gas.
 
 ### Características clave de la API sin gas
 

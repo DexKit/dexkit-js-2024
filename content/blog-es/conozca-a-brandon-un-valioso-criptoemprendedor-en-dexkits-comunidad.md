@@ -35,7 +35,7 @@ Sin más preámbulos, y emocionados de compartir las experiencias de Brandon, pr
 Para los creadores que buscan construir sin experiencia en codificación, DexAppBuilder ofrece:
 
 * **Interfaz sin código/código bajo:** Nuestra plataforma presenta una interfaz intuitiva que permite el desarrollo sin necesidad de experiencia en codificación.
-* **Plantillas personalizables:** Las [plantillas] versátiles (https://dexappbuilder.dexkit.com/site/templates) dentro de DexAppBuilder se pueden adaptar para satisfacer las necesidades específicas de su proyecto.
+* **Plantillas personalizables:** Las [plantillas] versátiles (<https://dexappbuilder.dexkit.com/site/templates>) dentro de DexAppBuilder se pueden adaptar para satisfacer las necesidades específicas de su proyecto.
 * **Integraciones perfectas:** DexAppBuilder se integra automáticamente con liquidez 0x y se conecta perfectamente con servicios externos como [Darkblock](https://www.darkblock.io/) y muchos otros.
 
 Estas son algunas de las soluciones que los usuarios pueden incluir actualmente en sus DApps creadas con DexAppBuilder:
@@ -88,4 +88,4 @@ Consulte uno de los proyectos de Brandon creado con DexAppBuilder, [Oishi vs. Ku
 
 ¡Descentralicemos el futuro juntos! 👨‍👩‍👧‍👦
 
-#### Nota del autor: Las opiniones expresadas en esta entrevista pertenecen únicamente al entrevistado y hemos preservado la autenticidad de las respuestas de Brandon sin ninguna modificación.
+#### Nota del autor: Las opiniones expresadas en esta entrevista pertenecen únicamente al entrevistado y hemos preservado la autenticidad de las respuestas de Brandon sin ninguna modificación

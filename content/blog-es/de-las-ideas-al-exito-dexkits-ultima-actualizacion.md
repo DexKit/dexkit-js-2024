@@ -59,4 +59,4 @@ Obtenga más información sobre las nuevas actualizaciones:
 
 Además, no nos hemos olvidado de nuestro querido [juego Coin League](https://coinleague.com/). Actualmente estamos trabajando en una actualización importante que te permitirá jugar gratis, sin incurrir en ninguna tarifa de red.
 
-#### ** ¡Estén atentos a las actualizaciones! 🧙‍♂️**
+#### **¡Estén atentos a las actualizaciones! 🧙‍♂️**

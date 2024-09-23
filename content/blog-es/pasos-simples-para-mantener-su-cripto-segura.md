@@ -52,7 +52,7 @@ Las estafas de phishing, como los ladrones disfrazados, intentan engañarlo para
 
 ### 8\. Congele sus activos en almacenamiento en frío
 
-Piense en el almacenamiento en frío como congelar sus criptomonedas: **está a salvo de amenazas en línea.** Utilice una billetera de hardware y será como Fort Knox en cuanto a moneda digital. [Trezor](https://trezor.io/), [Ledger](https://www.ledger.com/) e incluso [metal cold wallets](https://materialbitcoin.com/producto/material-bitcoin -estándar/) son las mejores opciones si quieres guardar tu cofre del tesoro.
+Piense en el almacenamiento en frío como congelar sus criptomonedas: **está a salvo de amenazas en línea.** Utilice una billetera de hardware y será como Fort Knox en cuanto a moneda digital. [Trezor](https://trezor.io/), [Ledger](https://www.ledger.com/) e incluso metal cold wallets son las mejores opciones si quieres guardar tu cofre del tesoro.
 
 ### 9\. Planes de respaldo con una frase inicial
 

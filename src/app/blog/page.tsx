@@ -13,7 +13,7 @@ interface BlogPost {
   imageUrl: string;
 }
 
-const DEFAULT_IMAGE = '/imgs/default-blog-image.jpg';
+const DEFAULT_IMAGE = '/imgs/dexkit_og.png';
 
 function getBlogPosts(): BlogPost[] {
   const postsDirectory = path.join(process.cwd(), 'content', 'blog');

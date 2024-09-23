@@ -13,7 +13,7 @@ interface BlogPost {
   imageUrl: string;
 }
 
-const DEFAULT_IMAGE = '/imgs/default-blog-image.jpg';
+const DEFAULT_IMAGE = '/imgs/dexkit_og.png';
 
 function parseSpanishDate(dateString: string): Date {
   const months: { [key: string]: number } = {
@@ -27,8 +27,9 @@ function parseSpanishDate(dateString: string): Date {
   return new Date(year, months[month], day);
 }
 
-function getBlogPosts(): BlogPost[] {
-  const postsDirectory = path.join(process.cwd(), 'content', 'blog-es');
+function getBlogPosts(locale: string): BlogPost[] {
+  const localeFolder = locale === 'en' ? 'blog' : `blog-${locale}`;
+  const postsDirectory = path.join(process.cwd(), 'content', localeFolder);
   const fileNames = fs.readdirSync(postsDirectory);
   
   const posts = fileNames.map((fileName) => {
@@ -60,7 +61,7 @@ function getBlogPosts(): BlogPost[] {
 }
 
 export default function BlogPage() {
-  const posts = getBlogPosts();
+  const posts = getBlogPosts('es');
 
   return (
     <div className="min-h-screen">
