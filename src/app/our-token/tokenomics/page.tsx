@@ -5,7 +5,7 @@ import { useIntl } from 'react-intl';
 import PieChart from './PieChart';
 import Image from 'next/image';
 import { ChartData, ChartOptions } from 'chart.js';
-import { FaExternalLinkAlt } from 'react-icons/fa'; // Importa el ícono al principio del archivo
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 export default function TokenomicsContent() {
   const intl = useIntl();

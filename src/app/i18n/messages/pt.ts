@@ -32,6 +32,7 @@ const messages: Messages = {
   'footer.newsletter.success': 'Obrigado por se inscrever!',
   'footer.newsletter.error': 'Houve um erro ao se inscrever. Por favor, tente novamente.',
   'footer.newsletter.emailRequired': 'Por favor, insira um endereço de e-mail.',
+  'footer.subscribe.button': 'Inscrever-se na newsletter',
 
   // Hero
   'hero.title': 'Crie seus próprios DApps de marca.',
@@ -65,6 +66,18 @@ const messages: Messages = {
   'product.learnMore': 'Saiba mais',
   'product.sectionAriaLabel': 'Nosso Produto',
   'product.dexappbuilder.imageAlt': 'Plataforma DexAppBuilder',
+  'produto.dexnftmarket.title': 'DexNFTMarket',
+  'product.dexnftmarket.description': 'Desbloqueie o potencial da sua arte digital e lucre com a sua criatividade.',
+  'produto.dexnftstore.title': 'DexNFTStore',
+  'product.dexnftstore.description': 'Maximize suas vendas de NFT com uma plataforma semelhante ao Shopify para criadores de NFT.',
+  'produto.dexgenerator.title': 'DexGenerator',
+  'product.dexgenerator.description': 'Implante contratos inteligentes seguros e de código aberto no blockchain com facilidade.',
+  'produto.dexswap.title': 'DexSwap',
+  'product.dexswap.description': 'Troca tokens de forma segura e eficiente em múltiplas cadeias.',
+  'produto.dexexchangepro.title': 'DexExchangePro',
+  'product.dexexchangepro.description': 'Sua exchange descentralizada profissional e segura. Sem intermediários, sem complicações.',
+  'produto.dexwallet.title': 'DexWallet',
+  'product.dexwallet.description': 'Gerencie seus ativos digitais com segurança e facilidade.',
 
   // DexAppBuilder
   'dexappbuilder.title': 'DexAppBuilder',
@@ -311,7 +324,7 @@ const messages: Messages = {
   'governance.participation.discordServer': 'Servidor oficial do DexKit',
   'governance.participate.title': 'Comece a participar',
   'governance.participate.description': 'Pronto para fazer sua voz ser ouvida? Clique no botão abaixo para acessar nossa plataforma Snapshot Governance e começar a participar da formação do futuro do DexKit.',
-  'governance.participate.button': 'Ir para Snapshot Governance',
+  'governance.participate.button': 'Ir para Snapshot',
 
   // What is DexKit
   'whatisdexkit.sectionAriaLabel': 'O que é DexKit?',

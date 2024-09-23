@@ -80,7 +80,7 @@ export default function DexExchangePro() {
               </section>
             </div>
 
-            <div className="mt-8">
+            <div className="mt-8 text-left">
               <Link 
                 href="https://dexappbuilder.dexkit.com/admin/quick-builder/exchange" 
                 target="_blank" 

@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useIntl } from 'react-intl';
 import LocalizedLink from '../../components/LocalizedLink';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 export default function GovernanceContent() {
   const intl = useIntl();
@@ -82,8 +83,9 @@ export default function GovernanceContent() {
                 href="https://vote.dexkit.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-orange-400 text-black font-bold px-6 py-3 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-lg"
+                className="inline-flex items-center bg-orange-400 text-black font-bold px-6 py-3 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-lg"
               >
+                <FaExternalLinkAlt className="mr-2" />
                 {intl.formatMessage({ id: "governance.participate.button" })}
               </a>
             </div>

@@ -11,7 +11,7 @@ export async function GET(request: Request) {
   const locale = searchParams.get('locale') || 'blog';
 
   if (!slug) {
-    return NextResponse.json({ error: 'Slug no proporcionado' }, { status: 400 });
+    return NextResponse.json({ error: 'Slug not provided' }, { status: 400 });
   }
 
   const postsDirectory = path.join(process.cwd(), 'content', locale);
@@ -19,13 +19,12 @@ export async function GET(request: Request) {
 
   try {
     if (!fs.existsSync(fullPath)) {
-      return NextResponse.json({ error: 'Post no encontrado' }, { status: 404 });
+      return NextResponse.json({ error: 'Post not found' }, { status: 404 });
     }
 
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
 
-    // Procesar el contenido Markdown a HTML
     const processedContent = await remark()
       .use(html)
       .process(content);
@@ -33,10 +32,10 @@ export async function GET(request: Request) {
 
     const post = {
       slug,
-      title: data.title || 'Sin título',
-      date: data.date || 'Fecha no disponible',
-      author: data.author && data.author !== 'Equipo DexKit' ? data.author : '',
-      category: data.category || 'Sin categoría',
+      title: data.title || 'Untitled',
+      date: data.date || 'Date not available',
+      author: data.author && data.author !== 'DexKit Team' ? data.author : '',
+      category: data.category || 'Uncategorized',
       imageUrl: data.imageUrl || '/imgs/dexkit_og.png',
       excerpt: data.excerpt || '',
       contentHtml,
@@ -44,7 +43,7 @@ export async function GET(request: Request) {
 
     return NextResponse.json(post);
   } catch (error) {
-    console.error('Error al leer el post del blog:', error);
-    return NextResponse.json({ error: 'Error al obtener el post' }, { status: 500 });
+    console.error('Error reading blog post:', error);
+    return NextResponse.json({ error: 'Error fetching blog post' }, { status: 500 });
   }
 }

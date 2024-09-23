@@ -97,7 +97,7 @@ export default function Footer() {
               <FormattedMessage id="footer.newsletter.description" />
             </p>
             <form onSubmit={handleSubmit} className="flex flex-col">
-              <div className="flex">
+            <div className="flex">
                 <input 
                   type="email" 
                   value={email}
@@ -105,7 +105,11 @@ export default function Footer() {
                   placeholder={intl.formatMessage({ id: 'footer.newsletter.placeholder' })}
                   className="flex-grow p-2 rounded-l-md bg-transparent border border-gray-400 text-white placeholder-gray-400"
                 />
-                <button type="submit" className="bg-orange-400 text-black p-2 rounded-r-md hover:bg-orange-500 transition duration-300">
+                <button 
+                  type="submit" 
+                  className="bg-orange-400 text-black p-2 rounded-r-md hover:bg-orange-500 transition duration-300"
+                  aria-label={intl.formatMessage({ id: 'footer.subscribe.button' })}
+                >
                   <i className="fas fa-paper-plane"></i>
                 </button>
               </div>

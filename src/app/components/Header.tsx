@@ -6,6 +6,19 @@ import LocalizedLink from './LocalizedLink'
 import { useIntl } from 'react-intl'
 import LanguageSelector from './LanguageSelector';
 
+interface MenuItem {
+  title: string;
+  href: string;
+  subItems: SubItem[];
+}
+
+interface SubItem {
+  name: string;
+  href: string;
+  external: boolean;
+  description?: string;
+}
+
 export default function Header() {
   const intl = useIntl();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -56,7 +69,7 @@ export default function Header() {
     };
   }, []);
 
-  const menuItems = [
+  const menuItems: MenuItem[] = [
     { 
       title: intl.formatMessage({ id: "header.about" }), 
       href: '/about',
@@ -70,19 +83,19 @@ export default function Header() {
       title: intl.formatMessage({ id: "header.product" }), 
       href: '#',
       subItems: [
-        { name: 'DexAppBuilder', href: '/dexappbuilder', external: false },
+        { name: 'DexAppBuilder', href: '/dexappbuilder', external: false, description: intl.formatMessage({ id: "product.dexappbuilder.description" }) },
       ]
     },
     { 
       title: intl.formatMessage({ id: "header.solutions" }), 
       href: '#',
       subItems: [
-        { name: 'DexSwap', href: '/dexswap', external: false },
-        { name: 'DexNFTMarket', href: '/dexnftmarket', external: false },
-        { name: 'DexNFTStore', href: '/dexnftstore', external: false },
-        { name: 'DexGenerator', href: '/dexgenerator', external: false },
-        { name: 'DexWallet', href: '/dexwallet', external: false },
-        { name: 'DexExchangePro', href: '/dexexchangepro', external: false },
+        { name: 'DexSwap', href: '/dexswap', external: false, description: intl.formatMessage({ id: "product.dexswap.description" }) },
+        { name: 'DexNFTMarket', href: '/dexnftmarket', external: false, description: intl.formatMessage({ id: "product.dexnftmarket.description" }) },
+        { name: 'DexNFTStore', href: '/dexnftstore', external: false, description: intl.formatMessage({ id: "product.dexnftstore.description" }) },
+        { name: 'DexGenerator', href: '/dexgenerator', external: false, description: intl.formatMessage({ id: "product.dexgenerator.description" }) },
+        { name: 'DexWallet', href: '/dexwallet', external: false, description: intl.formatMessage({ id: "product.dexwallet.description" }) },
+        { name: 'DexExchangePro', href: '/dexexchangepro', external: false, description: intl.formatMessage({ id: "product.dexexchangepro.description" }) },
       ]
     },
     { 
@@ -172,6 +185,7 @@ export default function Header() {
                                   href={subItem.external ? subItem.href : subItem.href}
                                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-500 hover:text-white hover:font-bold transition-all duration-200"
                                   role="menuitem"
+                                  aria-label={subItem.description ? `${subItem.name}: ${subItem.description}` : subItem.name}
                                 >
                                   {subItem.name}
                                 </LocalizedLink>
