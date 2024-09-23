@@ -105,7 +105,7 @@ export default function Footer() {
                   placeholder={intl.formatMessage({ id: 'footer.newsletter.placeholder' })}
                   className="flex-grow p-2 rounded-l-md bg-transparent border border-gray-400 text-white placeholder-gray-400"
                 />
-                <button type="submit" className="bg-orange-400 text-white p-2 rounded-r-md hover:bg-orange-500 transition duration-300">
+                <button type="submit" className="bg-orange-400 text-black p-2 rounded-r-md hover:bg-orange-500 transition duration-300">
                   <i className="fas fa-paper-plane"></i>
                 </button>
               </div>

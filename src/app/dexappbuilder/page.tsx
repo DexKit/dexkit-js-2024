@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { FormattedMessage } from 'react-intl';
 import Link from 'next/link';
+import { FaTools } from 'react-icons/fa';
 
 export default function DexAppBuilder() {
     const [activeTab, setActiveTab] = useState('description');
@@ -115,8 +116,9 @@ export default function DexAppBuilder() {
                 href="https://dexappbuilder.dexkit.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className={`inline-block bg-orange-400 text-black font-bold py-2 ${isMobile ? 'px-4' : 'px-6'} rounded hover:bg-orange-500 transition duration-300 ${isMobile ? 'text-sm' : 'text-sm md:text-base'}`}
+                className={`inline-flex items-center bg-orange-400 text-black py-2 ${isMobile ? 'px-4' : 'px-6'} rounded hover:bg-orange-500 transition duration-300 ${isMobile ? 'text-sm' : 'text-sm md:text-base'}`}
               >
+                <FaTools className="mr-2" />
                 <FormattedMessage id="dexappbuilder.createDApp" />
               </Link>
             </div>

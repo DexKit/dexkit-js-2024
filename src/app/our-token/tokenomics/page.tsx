@@ -5,6 +5,7 @@ import { useIntl } from 'react-intl';
 import PieChart from './PieChart';
 import Image from 'next/image';
 import { ChartData, ChartOptions } from 'chart.js';
+import { FaExternalLinkAlt } from 'react-icons/fa'; // Importa el ícono al principio del archivo
 
 export default function TokenomicsContent() {
   const intl = useIntl();
@@ -54,6 +55,12 @@ export default function TokenomicsContent() {
     plugins: {
       legend: {
         position: 'bottom',
+        labels: {
+          font: {
+            size: isMobile ? 10 : 14,
+          },
+          boxWidth: isMobile ? 10 : 20,
+        },
       },
       tooltip: {
         callbacks: {
@@ -191,9 +198,10 @@ export default function TokenomicsContent() {
                     href={audit.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-orange-400 text-black font-bold px-4 py-2 rounded hover:bg-orange-500 transition-colors duration-300"
+                    className="inline-flex items-center bg-orange-400 text-black font-bold px-4 py-2 rounded hover:bg-orange-500 transition-colors duration-300"
                   >
-                    {intl.formatMessage({ id: audit.linkText })}
+                    <FaExternalLinkAlt className="mr-2" />
+                    View
                   </a>
                 </div>
               ))}

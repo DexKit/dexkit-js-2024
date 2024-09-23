@@ -63,7 +63,7 @@ export default function ProblemsAndSolutions() {
                   <h3 className="text-xl sm:text-2xl font-semibold mb-2 text-black">
                     <FormattedMessage id={problem.titleId} />
                   </h3>
-                  <p className="text-gray-700 text-base sm:text-lg">
+                  <p className="text-gray-700 text-base sm:text-lg md:text-xl">
                     <FormattedMessage id={problem.descriptionId} />
                   </p>
                 </div>

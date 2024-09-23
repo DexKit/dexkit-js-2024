@@ -172,7 +172,7 @@ const messages: Messages = {
   'dexswap.tutorials.firstSwap': 'Creating my first exchange/DApp (Official Documentation)', 
   'dexswap.tutorials.managingTool': 'Managing this tool', 
   'dexswap.tutorials.deployingDApp': 'Deploying your DApp (YouTube Video)', 
-  'dexswap.openSolution': 'Open Solution',
+  'dexswap.openSolution': 'Open solution',
 
   // DexWallet
   'dexwallet.title': 'DexWallet',

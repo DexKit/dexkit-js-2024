@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { FormattedMessage, useIntl } from 'react-intl'
+import { FaRocket } from 'react-icons/fa';
 
 export default function Hero() {
   const intl = useIntl();
@@ -28,10 +29,11 @@ export default function Hero() {
           </p>
           <a 
             href="https://dexappbuilder.dexkit.com"
-            className="inline-block bg-orange-400 text-black font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-sm sm:text-base md:text-lg"
+            className="inline-flex items-center bg-orange-400 text-black py-2 px-5 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-base sm:text-lg font-semibold"
             target="_blank"
             rel="noopener noreferrer"
           >
+            <FaRocket className="mr-2 text-black" />
             <FormattedMessage
               id="hero.cta"
               defaultMessage="Start now!"

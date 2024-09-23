@@ -31,7 +31,7 @@ export default function Solutions() {
                   </h3>
                 </div>
                 <div className="bg-white rounded-lg shadow-lg overflow-hidden p-4 sm:p-6 pt-8 h-full flex flex-col">
-                  <p className="text-gray-700 mb-4 text-base sm:text-lg flex-grow">
+                  <p className="text-gray-700 mb-4 text-base sm:text-lg md:text-xl flex-grow">
                     <FormattedMessage id={`solutions.${solution}.description`} />
                   </p>
                   <div className="text-right mt-auto">

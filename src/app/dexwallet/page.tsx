@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { FormattedMessage } from 'react-intl';
 import Link from 'next/link';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 export default function DexWallet() {
     const [activeTab, setActiveTab] = useState('description');
@@ -108,8 +109,9 @@ export default function DexWallet() {
                 href="https://dexappbuilder.dexkit.com/admin/quick-builder/wallet" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className={`inline-block bg-orange-400 text-black font-bold py-2 ${isMobile ? 'px-4' : 'px-4 sm:px-6'} rounded hover:bg-orange-500 transition duration-300 ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}
+                className={`inline-flex items-center bg-orange-400 text-black py-2 ${isMobile ? 'px-4' : 'px-4 sm:px-6'} rounded hover:bg-orange-500 transition duration-300 ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}
               >
+                <FaExternalLinkAlt className="mr-2" />
                 <FormattedMessage id="dexwallet.openSolution" defaultMessage="Open solution" />
               </Link>
             </div>
