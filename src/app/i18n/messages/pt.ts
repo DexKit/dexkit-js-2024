@@ -69,6 +69,15 @@ const messages: Messages = {
   'problems.nftOwnership.title': 'NFTs fornecem propriedade real',
   'problems.nftOwnership.description': 'Com as soluções da DexKit, os construtores de DApps podem possuir e vender suas criações como NFTs, dando-lhes uma audiência mais ampla e mais flexibilidade para vender seu trabalho.',
 
+  // About
+  "about.title": "Sobre a DexKit",
+  "about.missionVisionValues": "Missão, Visão e Valores",
+  "about.missionVisionValuesDesc": "Descubra os princípios que orientam nosso trabalho e nossa visão para o futuro do DeFi.",
+  "about.ourTeam": "Nossa Equipe",
+  "about.ourTeamDesc": "Conheça as pessoas apaixonadas por trás da DexKit que estão impulsionando a inovação no espaço DeFi.",
+  "about.brandMaterial": "Material da Marca",
+  "about.brandMaterialDesc": "Acesse os ativos da marca DexKit e as diretrizes para uso adequado em seus projetos.",
+  
   // Product
   'product.title': 'Produto',
   'product.dexappbuilder.title': 'DexAppBuilder',

@@ -11,7 +11,7 @@ function AboutPageContent() {
   const intl = useIntl();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-900 to-indigo-900">
+    <div className="min-h-screen bg-transparent">
       <main className="container mx-auto px-4 py-12">
         <h1 className="text-4xl md:text-6xl font-bold text-center text-white mb-8">
           {intl.formatMessage({ id: "about.title" })}

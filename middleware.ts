@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { locales } from './src/app/i18n/config';
+import redirects from './redirects.json';
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
@@ -10,12 +11,18 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
+  if (pathname in redirects) {
+    const redirect = redirects[pathname as keyof typeof redirects];
+    return NextResponse.redirect(new URL(redirect.destination, request.url), 
+      redirect.permanent ? 308 : 307
+    );
+  }
+
   const pathnameIsMissingLocale = locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );
 
   if (pathnameIsMissingLocale) {
-
     if (pathname === '/roadmap/roadmap') {
       return NextResponse.redirect(new URL('/roadmap', request.url));
     }
