@@ -150,6 +150,12 @@ const messages: Messages = {
   'solutions.dexexchangepro.description': 'Sua troca descentralizada profissional e segura. Sem intermediários, sem complicações.',
   'solutions.dexwallet.title': 'DexWallet',
   'solutions.dexwallet.description': 'Seu companheiro cripto: Gerencie e custodie suas criptomoedas e NFTs com facilidade.',
+  'solutions.dexnftmarket.learnMore': 'Saiba mais sobre o DexNFTMarket',
+  'solutions.dexnftstore.learnMore': 'Saiba mais sobre o DexNFTStore',
+  'solutions.dexgenerator.learnMore': 'Saiba mais sobre o DexGenerator',
+  'solutions.dexswap.learnMore': 'Saiba mais sobre o DexSwap',
+  'solutions.dexexchangepro.learnMore': 'Saiba mais sobre o DexExchangePro',
+  'solutions.dexwallet.learnMore': 'Saiba mais sobre o DexWallet',
 
   // DexExchangePro
   'dexexchangepro.title': 'DexExchangePro',

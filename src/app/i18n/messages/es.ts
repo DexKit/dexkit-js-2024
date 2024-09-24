@@ -150,6 +150,12 @@ const messages: Messages = {
   'solutions.dexwallet.description': 'Tu compañero cripto: Gestiona tus criptomonedas y NFTs con facilidad.',
   'solutions.sectionAriaLabel': 'Nuestras Soluciones',
   'solutions.title': 'Soluciones',
+  'solutions.dexnftmarket.learnMore': 'Obtenga más información sobre DexNFTMarket',
+  'solutions.dexnftstore.learnMore': 'Obtenga más información sobre DexNFTStore',
+  'solutions.dexgenerator.learnMore': 'Obtenga más información sobre DexGenerator',
+  'solutions.dexswap.learnMore': 'Obtenga más información sobre DexSwap',
+  'solutions.dexexchangepro.learnMore': 'Obtenga más información sobre DexExchangePro',
+  'solutions.dexwallet.learnMore': 'Obtenga más información sobre DexWallet',
 
   // DexExchangePro
   'dexexchangepro.title': 'DexExchangePro',

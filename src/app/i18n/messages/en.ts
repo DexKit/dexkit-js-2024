@@ -134,6 +134,7 @@ const messages: Messages = {
 
   // Solutions
   'solutions.title': 'Solutions',
+  'solutions.sectionAriaLabel': 'Our Solutions',
   'solutions.dexnftmarket.title': 'DexNFTMarket',
   'solutions.dexnftmarket.description': 'Unlock the potential of your digital art and profit from your creativity.',
   'solutions.dexnftstore.title': 'DexNFTStore',
@@ -146,6 +147,12 @@ const messages: Messages = {
   'solutions.dexswap.description': 'Deploy your own branded DEX aggregator and swap cryptocurrencies smarter and efficiently with real-time prices and zero-cost gas fees.',
   'solutions.dexwallet.title': 'DexWallet',
   'solutions.dexwallet.description': 'Your crypto companion: Manage and custody your cryptocurrencies and NFTs with ease.',
+  'solutions.dexnftmarket.learnMore': 'Learn more about DexNFTMarket',
+  'solutions.dexnftstore.learnMore': 'Learn more about DexNFTStore',
+  'solutions.dexgenerator.learnMore': 'Learn more about DexGenerator',
+  'solutions.dexswap.learnMore': 'Learn more about DexSwap',
+  'solutions.dexexchangepro.learnMore': 'Learn more about DexExchangePro',
+  'solutions.dexwallet.learnMore': 'Learn more about DexWallet',
 
   // DexExchangePro
   'dexexchangepro.title': 'DexExchangePro',
