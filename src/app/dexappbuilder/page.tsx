@@ -77,7 +77,7 @@ export default function DexAppBuilder() {
                   href="https://docs.dexkit.com/defi-products/dexappbuilder/overview" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-orange-600 hover:underline text-sm md:text-base"
+                  className="text-orange-500 hover:underline text-sm md:text-base"
                 >
                   <FormattedMessage id="dexappbuilder.overview" />
                 </Link>

@@ -61,7 +61,6 @@ const messages: Messages = {
   'product.title': 'Product',
   'product.dexappbuilder.title': 'DexAppBuilder',
   'product.dexappbuilder.description': 'Empower your DApp creation and launch your Web3 business with guaranteed ownership.',
-  'product.learnMore': 'Learn more',
   'product.dexnftmarket.title': 'DexNFTMarket',
   'product.dexnftmarket.description': 'Unlock the potential of your digital art and profit from your creativity.',
   'product.dexnftstore.title': 'DexNFTStore',
@@ -74,6 +73,16 @@ const messages: Messages = {
   'product.dexexchangepro.description': 'Your professional and secure decentralized exchange. No middlemen, no complications.',
   'product.dexwallet.title': 'DexWallet',
   'product.dexwallet.description': 'Manage your digital assets safely and easily.',
+  
+  // Learn more
+  'product.learnMore': 'Learn more',
+  'product.learnMore.dexappbuilder': 'Learn more about DexAppBuilder',
+  'product.learnMore.dexnftmarket': 'Learn more about DexNFTMarket',
+  'product.learnMore.dexnftstore': 'Learn more about DexNFTStore',
+  'product.learnMore.dexgenerator': 'Learn more about DexGenerator',
+  'product.learnMore.dexswap': 'Learn more about DexSwap',
+  'product.learnMore.dexexchangepro': 'Learn more about DexExchangePro',
+  'product.learnMore.dexwallet': 'Learn more about DexWallet',
 
   // DexAppBuilder
   'dexappbuilder.title': 'DexAppBuilder',
@@ -282,9 +291,9 @@ const messages: Messages = {
   'tokenomics.distribution.liquidity.description': 'On Ethereum, Binance Chain, Polygon or another networks that DexKit\'s team decided to deploy KIT.',
   'tokenomics.securityAudits.title': 'Security audits',
   'tokenomics.securityAudits.certik.description': 'The native DexKit token was audited on June 30, 2021 by the reputable entity CertiK, with positive overall results. Follow the link below to check all the findings.',
-  'tokenomics.securityAudits.certik.linkText': 'DexKit - CertiK Security Leaderboard',
+  'tokenomics.securityAudits.certik.linkText': 'View audit',
   'tokenomics.securityAudits.goplus.description': 'GoPlusSecurity provides a comprehensive security analysis for the DexKit token. Click the link below to view the detailed security report.',
-  'tokenomics.securityAudits.goplus.linkText': 'Token Security',
+  'tokenomics.securityAudits.goplus.linkText': 'View audit',
   'tokenomics.externalAnalytics.title': 'External Analytic Sites',
 
   // Utilities page
