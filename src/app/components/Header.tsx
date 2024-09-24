@@ -170,7 +170,7 @@ export default function Header() {
                     <li key={item.title} className="relative group">
                       {item.subItems && item.subItems.length > 0 ? (
                         <>
-                          <span className="text-white hover:text-orange-500 transition-colors duration-300 py-2 flex items-center cursor-default">
+                          <span className="text-white hover:text-orange-400 transition-colors duration-300 py-2 flex items-center cursor-default">
                             {item.title}
                             <span className="ml-1">
 
@@ -183,7 +183,7 @@ export default function Header() {
                                 <LocalizedLink 
                                   key={subItem.name}
                                   href={subItem.external ? subItem.href : subItem.href}
-                                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-500 hover:text-white hover:font-bold transition-all duration-200"
+                                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-400 hover:text-white hover:font-bold transition-all duration-200"
                                   role="menuitem"
                                   aria-label={subItem.description ? `${subItem.name}: ${subItem.description}` : subItem.name}
                                 >
@@ -196,7 +196,7 @@ export default function Header() {
                       ) : (
                         <LocalizedLink 
                           href={item.href}
-                          className="text-white hover:text-orange-500 transition-colors duration-300 py-2 flex items-center"
+                          className="text-white hover:text-orange-400 transition-colors duration-300 py-2 flex items-center"
                         >
                           {item.title}
                         </LocalizedLink>
@@ -236,7 +236,7 @@ export default function Header() {
                           <li key={subItem.name} className="mb-2">
                             <LocalizedLink 
                               href={subItem.href}
-                              className="text-gray-600 hover:text-orange-500"
+                              className="text-gray-600 hover:text-orange-400"
                               onClick={() => setIsMenuOpen(false)}
                             >
                               {subItem.name}
@@ -248,7 +248,7 @@ export default function Header() {
                   ) : (
                     <LocalizedLink 
                       href={item.href}
-                      className="text-gray-700 font-semibold hover:text-orange-500"
+                      className="text-gray-700 font-semibold hover:text-orange-400"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {item.title}

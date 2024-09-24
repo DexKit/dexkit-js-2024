@@ -73,7 +73,7 @@ export default function DexExchangePro() {
                   href="https://docs.dexkit.com/defi-products/dexexchangepro/overview" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-orange-600 hover:underline text-sm sm:text-base"
+                  className="text-orange-500 hover:underline text-sm sm:text-base"
                 >
                   <FormattedMessage id="common.overview" defaultMessage="Overview" />
                 </Link>

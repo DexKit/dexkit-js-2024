@@ -80,7 +80,7 @@ export default function DexNFTStore() {
                   href="https://docs.dexkit.com/defi-products/dexnftstore/overview" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className={`text-orange-600 hover:underline ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}
+                  className={`text-orange-500 hover:underline ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}
                 >
                   <FormattedMessage id="common.overview" defaultMessage="Overview" />
                 </Link>

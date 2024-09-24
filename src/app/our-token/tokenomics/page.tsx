@@ -198,10 +198,10 @@ export default function TokenomicsContent() {
                     href={audit.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center bg-orange-400 text-black font-bold px-4 py-2 rounded hover:bg-orange-500 transition-colors duration-300"
+                    className="inline-flex items-center bg-orange-400 text-black px-4 py-2 rounded hover:bg-orange-500 transition-colors duration-300"
                   >
                     <FaExternalLinkAlt className="mr-2" />
-                    View
+                    {intl.formatMessage({ id: audit.linkText })}
                   </a>
                 </div>
               ))}
