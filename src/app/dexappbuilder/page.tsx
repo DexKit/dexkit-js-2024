@@ -111,12 +111,12 @@ export default function DexAppBuilder() {
               </section>
             </div>
 
-            <div className={`mt-8 ${isMobile ? 'text-center' : 'text-center md:text-left'}`}>
+            <div className="mt-8 text-left">
               <Link 
                 href="https://dexappbuilder.dexkit.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className={`inline-flex items-center bg-orange-400 text-black py-2 ${isMobile ? 'px-4' : 'px-6'} rounded hover:bg-orange-500 transition duration-300 ${isMobile ? 'text-sm' : 'text-sm md:text-base'}`}
+                className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base"
               >
                 <FaTools className="mr-2" />
                 <FormattedMessage id="dexappbuilder.createDApp" />

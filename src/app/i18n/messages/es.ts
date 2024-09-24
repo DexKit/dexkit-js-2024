@@ -32,6 +32,7 @@ const messages: Messages = {
   'footer.newsletter.success': '¡Gracias por suscribirte!',
   'footer.newsletter.error': 'Hubo un error al suscribirse. Por favor, inténtalo de nuevo.',
   'footer.newsletter.emailRequired': 'Por favor, introduce una dirección de correo electrónico.',
+  'footer.subscribe.button': 'Suscribirse al boletín',
 
   // Hero
   'hero.title': 'Crea tus propios DApps de marca.',
@@ -65,6 +66,18 @@ const messages: Messages = {
   'product.learnMore': 'Saber más',
   'product.sectionAriaLabel': 'Nuestro Producto',
   'product.dexappbuilder.imageAlt': 'Plataforma DexAppBuilder',
+  'product.dexnftmarket.title': 'DexNFTMarket',
+  'product.dexnftmarket.description': 'Desbloquea el potencial de tu arte digital y obtén beneficios de tu creatividad.',
+  'product.dexnftstore.title': 'DexNFTStore',
+  'product.dexnftstore.description': 'Maximiza tus ventas de NFT con una plataforma tipo Shopify para creadores de NFT.',
+  'product.dexgenerator.title': 'DexGenerator',
+  'product.dexgenerator.description': 'Despliega contratos inteligentes de código abierto y seguros en la blockchain con facilidad.',
+  'product.dexswap.title': 'DexSwap',
+  'product.dexswap.description': 'Intercambia tokens de manera segura y eficiente en múltiples cadenas.',
+  'product.dexexchangepro.title': 'DexExchangePro',
+  'product.dexexchangepro.description': 'Tu intercambio descentralizado profesional y seguro. Sin intermediarios, sin complicaciones.',
+  'product.dexwallet.title': 'DexWallet',
+  'product.dexwallet.description': 'Gestiona tus activos digitales de forma segura y fácil.',
 
   // DexAppBuilder
   'dexappbuilder.title': 'DexAppBuilder',
@@ -311,7 +324,7 @@ const messages: Messages = {
   'governance.participation.discordServer': 'Servidor oficial de DexKit',
   'governance.participate.title': 'Comienza a participar',
   'governance.participate.description': '¿Estás listo para hacer oír tu voz? Haga clic en el botón a continuación para acceder a nuestra plataforma Snapshot Governance y comenzar a participar en la creación del futuro de DexKit.',
-  'governance.participate.button': 'Ir a Snapshot Governance',
+  'governance.participate.button': 'Ir a Snapshot',
 
   // What is DexKit
   'whatisdexkit.sectionAriaLabel': '¿Qué es DexKit?',
@@ -379,7 +392,7 @@ const messages: Messages = {
 
   // Blog
   'blog.post.by': "Por:",
-  'blog.post.on': "en",
+  'blog.post.on': "el",
   'blog.redirectMessage': 'Has sido redirigido a la página principal del blog debido al cambio de idioma.',
 
   // Common
@@ -390,6 +403,9 @@ const messages: Messages = {
   'common.openSolution': 'Abrir solución',
   'common.copy': 'Copiar',
   'common.copied': '¡Copiado!',
+  'notFound.title': '¡Ups! Página no encontrada',
+  'notFound.message': 'La página que estás buscando puede haber sido eliminada o no está disponible temporalmente.',
+  'notFound.returnHome': 'Volver al inicio',
 };
 
 export default messages;

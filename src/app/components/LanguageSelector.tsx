@@ -85,9 +85,10 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ textColor }) => {
       <button 
         onClick={() => setIsOpen(!isOpen)} 
         className={`flex items-center space-x-2 px-3 py-2 border rounded-md bg-transparent hover:bg-orange-500 transition-colors duration-200 w-full justify-between ${textColor}`}
+        aria-label={`Select language: ${localeNames[currentLocale]}`}
       >
         <div className="flex items-center">
-          <Image src={flagImages[currentLocale]} alt={localeNames[currentLocale]} width={20} height={15} className="rounded-sm mr-2" />
+          <Image src={flagImages[currentLocale]} alt="" width={20} height={15} className="rounded-sm mr-2" />
           <span className={`text-sm font-medium ${textColor}`}>{localeNames[currentLocale]}</span>
         </div>
         <svg className={`w-4 h-4 ${textColor}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -104,7 +105,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ textColor }) => {
                 className="flex items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-orange-500 hover:text-white transition-colors duration-200"
                 role="menuitem"
               >
-                <Image src={flagImages[locale]} alt={localeNames[locale]} width={20} height={15} className="mr-3 rounded-sm" />
+                <Image src={flagImages[locale]} alt="" width={20} height={15} className="mr-3 rounded-sm" />
                 <span>{localeNames[locale]}</span>
               </button>
             ))}

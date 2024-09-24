@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useIntl } from 'react-intl';
 import Image from 'next/image';
+import { FaCopy } from 'react-icons/fa';
 
 export default function ContractAddressesContent() {
   const intl = useIntl();
@@ -64,25 +65,28 @@ export default function ContractAddressesContent() {
                 {contract.network}
               </h2>
               <div className="bg-gray-100 rounded-lg shadow-lg p-6 md:p-8">
-                <div className="flex flex-col md:flex-row items-center justify-between">
-                  <code className="text-sm md:text-base break-all mb-4 md:mb-0">{contract.address}</code>
-                  <button
-                    onClick={() => copyToClipboard(contract.address)}
-                    className="bg-orange-400 text-black font-bold px-4 py-2 rounded hover:bg-orange-500 transition-colors duration-300"
-                  >
-                    {copiedAddress === contract.address
-                      ? intl.formatMessage({ id: "common.copied" })
-                      : intl.formatMessage({ id: "common.copy" })}
-                  </button>
+                <div className="flex flex-col items-start">
+                  <code className="text-sm md:text-base break-all mb-4">{contract.address}</code>
+                  <div className="flex flex-col items-start w-full">
+                    <button
+                      onClick={() => copyToClipboard(contract.address)}
+                      className="inline-flex items-center bg-orange-400 text-black px-4 py-2 rounded hover:bg-orange-500 transition-colors duration-300 mb-2"
+                    >
+                      <FaCopy className="mr-2" />
+                      {copiedAddress === contract.address
+                        ? intl.formatMessage({ id: "common.copied" })
+                        : intl.formatMessage({ id: "common.copy" })}
+                    </button>
+                    <a
+                      href={contract.explorer}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-orange-500 hover:underline inline-block"
+                    >
+                      {intl.formatMessage({ id: "contractAddresses.viewOnExplorer" })}
+                    </a>
+                  </div>
                 </div>
-                <a
-                  href={contract.explorer}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-orange-500 hover:underline mt-4 inline-block"
-                >
-                  {intl.formatMessage({ id: "contractAddresses.viewOnExplorer" })}
-                </a>
               </div>
             </section>
           ))}

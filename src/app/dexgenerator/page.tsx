@@ -153,12 +153,12 @@ export default function DexGenerator() {
               </section>
             </div>
 
-            <div className={`mt-8 ${isMobile ? 'text-center' : ''}`}>
+            <div className="mt-8 text-left">
               <Link 
                 href="https://dexappbuilder.dexkit.com/contract-wizard" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className={`inline-flex items-center bg-orange-400 text-black py-2 ${isMobile ? 'px-4' : 'px-4 sm:px-6'} rounded hover:bg-orange-500 transition duration-300 ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}
+                className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base"
               >
                 <FaExternalLinkAlt className="mr-2" />
                 <FormattedMessage id="dexgenerator.openSolution" defaultMessage="Open solution" />

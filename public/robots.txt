@@ -6,8 +6,8 @@ Disallow: /api/
 Sitemap: https://dexkit.com/sitemap.xml
 
 Allow: /blog/
-Allow: /blog-es/
-Allow: /blog-pt/
+Allow: /es/blog/
+Allow: /pt/blog/
 
 Allow: /dexappbuilder
 Allow: /dexexchangepro

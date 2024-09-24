@@ -32,6 +32,7 @@ const messages: Messages = {
   'footer.newsletter.success': 'Thanks for subscribing!',
   'footer.newsletter.error': 'There was an error subscribing. Please try again.',
   'footer.newsletter.emailRequired': 'Please enter an email address.',
+  'footer.subscribe.button': 'Subscribe to newsletter',
 
   // Hero
   'hero.title': 'Create your own branded DApps.',
@@ -61,6 +62,18 @@ const messages: Messages = {
   'product.dexappbuilder.title': 'DexAppBuilder',
   'product.dexappbuilder.description': 'Empower your DApp creation and launch your Web3 business with guaranteed ownership.',
   'product.learnMore': 'Learn more',
+  'product.dexnftmarket.title': 'DexNFTMarket',
+  'product.dexnftmarket.description': 'Unlock the potential of your digital art and profit from your creativity.',
+  'product.dexnftstore.title': 'DexNFTStore',
+  'product.dexnftstore.description': 'Maximize your NFT sales with a Shopify-like platform for NFT creators.',
+  'product.dexgenerator.title': 'DexGenerator',
+  'product.dexgenerator.description': 'Deploy open-source, secure smart contracts on the blockchain with ease.',
+  'product.dexswap.title': 'DexSwap',
+  'product.dexswap.description': 'Securely and efficiently exchange tokens across multiple chains.',
+  'product.dexexchangepro.title': 'DexExchangePro',
+  'product.dexexchangepro.description': 'Your professional and secure decentralized exchange. No middlemen, no complications.',
+  'product.dexwallet.title': 'DexWallet',
+  'product.dexwallet.description': 'Manage your digital assets safely and easily.',
 
   // DexAppBuilder
   'dexappbuilder.title': 'DexAppBuilder',
@@ -307,7 +320,7 @@ const messages: Messages = {
   'governance.participation.discordServer': 'DexKit\'s official server',
   'governance.participate.title': 'Start Participating',
   'governance.participate.description': 'Ready to make your voice heard? Click the button below to access our Snapshot Governance platform and start participating in shaping the future of DexKit.',
-  'governance.participate.button': 'Go to Snapshot Governance',
+  'governance.participate.button': 'View Snapshot',
 
   // What is DexKit
   'whatisdexkit.title': 'What is DexKit?',
@@ -386,6 +399,9 @@ const messages: Messages = {
   'common.openSolution': 'Open solution',
   'common.copy': 'Copy',
   'common.copied': 'Copied!',
+  'notFound.title': 'Oops! Page Not Found',
+  'notFound.message': 'The page you are looking for might have been removed or is temporarily unavailable.',
+  'notFound.returnHome': 'Return Home',
 };
 
 export default messages;
