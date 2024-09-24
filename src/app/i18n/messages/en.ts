@@ -23,6 +23,17 @@ const messages: Messages = {
   'header.userSupport': 'User support',
   'header.featureRequest': 'Feature request',
   'header.whiteLabel': 'White label custom request',
+  "header.missionVision.description": "Learn about our mission, vision, and values",
+  "header.ourTeam.description": "Meet the DexKit team",
+  "header.brandMaterial.description": "Access DexKit brand materials",
+  "header.tokenomics.description": "Understand DexKit token economics",
+  "header.utilities.description": "Explore DexKit token utilities",
+  "header.contractAddresses.description": "View DexKit token contract addresses",
+  "header.governance.description": "Learn about DexKit governance",
+  "header.userSupport.description": "Get help with DexKit products",
+  "header.featureRequest.description": "Suggest new features for DexKit",
+  "header.whiteLabel.description": "Request custom white label solutions",
+    
 
   // Footer
   'footer.newsletter.title': 'Newsletter',
@@ -110,6 +121,7 @@ const messages: Messages = {
   'dexappbuilder.networks.7': 'Base',
   'dexappbuilder.networks.8': 'Blast L2 (Mainnet, testnet)',
   'dexappbuilder.networks.9': 'Pulsechain',
+  'dexappbuilder.overviewLink': 'Explore DexAppBuilder features',
 
   // Solutions
   'solutions.title': 'Solutions',
@@ -132,6 +144,7 @@ const messages: Messages = {
   'dexexchangepro.description.paragraph1': 'DexExchangePro is a white-label decentralized exchange (DEX) product designed for businesses, entrepreneurs, and crypto enthusiasts looking to launch their own branded DEX. This powerful solution offers a professional-grade trading experience with advanced features, high liquidity, and robust security measures.',
   'dexexchangepro.description.paragraph2': 'With DexExchangePro, users can enjoy seamless token swaps, liquidity provision, yield farming, and more, all within a customizable interface that reflects their brand identity. The platform supports multiple blockchain networks, ensuring broad cross-chain accessibility and functionality.',
   'dexexchangepro.deployNow': 'Deploy Now!',
+  'dexexchangepro.overviewLink': 'Explore DexExchangePro features',
 
   // DexGenerator
   'dexgenerator.title': 'DexGenerator',
@@ -156,6 +169,7 @@ const messages: Messages = {
   'dexgenerator.tutorials.firstCollection': 'Creating my first NFT collection (Official Documentation)', 
   'dexgenerator.tutorials.thirdwebContracts': 'Deploying different Thirdweb contracts (YouTube playlist)',
   'dexgenerator.openSolution': 'Open Solution',
+  'dexgenerator.overviewLink': 'Learn about DexGenerator features',
 
   // DexNFTMarket
   'dexnftmarket.title': 'DexNFTMarket',
@@ -173,6 +187,7 @@ const messages: Messages = {
   'dexnftmarket.tutorials.firstMarketplace': 'Creating my first NFT marketplace',
   'dexnftmarket.tutorials.managingListings': 'Managing NFT listings',
   'dexnftmarket.openSolution': 'Open solution',
+  'dexnftmarket.overviewLink': 'Discover DexNFTMarket capabilities',
 
   // DexNFTStore
   'dexnftstore.title': 'DexNFTStore',
@@ -184,6 +199,7 @@ const messages: Messages = {
   'dexnftstore.tutorials.firstStore': 'Creating my first store',
   'dexnftstore.tutorials.managingTool': 'Managing this tool',
   'dexnftstore.openSolution': 'Open solution',
+  'dexnftstore.overviewLink': 'Explore DexNFTStore features',
 
   // DexSwap
   'dexswap.title': 'DexSwap',
@@ -195,6 +211,7 @@ const messages: Messages = {
   'dexswap.tutorials.managingTool': 'Managing this tool', 
   'dexswap.tutorials.deployingDApp': 'Deploying your DApp (YouTube Video)', 
   'dexswap.openSolution': 'Open solution',
+  'dexswap.overviewLink': 'Learn about DexSwap features',
 
   // DexWallet
   'dexwallet.title': 'DexWallet',
@@ -206,6 +223,7 @@ const messages: Messages = {
   'dexwallet.tutorials.firstWallet': 'Creating my first wallet',
   'dexwallet.tutorials.managingTool': 'Managing this tool',
   'dexwallet.openSolution': 'Open solution',
+  'dexwallet.overviewLink': 'Discover DexWallet features',
   
   // Our Team
   'ourTeam.title': 'Our Team',

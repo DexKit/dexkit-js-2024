@@ -74,9 +74,9 @@ export default function Header() {
       title: intl.formatMessage({ id: "header.about" }), 
       href: '/about',
       subItems: [
-        { name: intl.formatMessage({ id: "header.missionVision" }), href: '/about/mission-vision-values', external: false },
-        { name: intl.formatMessage({ id: "header.ourTeam" }), href: '/about/our-team', external: false },
-        { name: intl.formatMessage({ id: "header.brandMaterial" }), href: '/about/brand-material', external: false },
+        { name: intl.formatMessage({ id: "header.missionVision" }), href: '/about/mission-vision-values', external: false, description: intl.formatMessage({ id: "header.missionVision.description" }) },
+        { name: intl.formatMessage({ id: "header.ourTeam" }), href: '/about/our-team', external: false, description: intl.formatMessage({ id: "header.ourTeam.description" }) },
+        { name: intl.formatMessage({ id: "header.brandMaterial" }), href: '/about/brand-material', external: false, description: intl.formatMessage({ id: "header.brandMaterial.description" }) },
       ]
     },
     { 
@@ -102,10 +102,10 @@ export default function Header() {
       title: intl.formatMessage({ id: "header.ourToken" }), 
       href: '#',
       subItems: [
-        { name: intl.formatMessage({ id: "header.tokenomics" }), href: '/our-token/tokenomics', external: false },
-        { name: intl.formatMessage({ id: "header.utilities" }), href: '/our-token/utilities', external: false },
-        { name: intl.formatMessage({ id: "header.contractAddresses" }), href: '/our-token/contract-addresses', external: false },
-        { name: intl.formatMessage({ id: "header.governance" }), href: '/our-token/governance', external: false },
+        { name: intl.formatMessage({ id: "header.tokenomics" }), href: '/our-token/tokenomics', external: false, description: intl.formatMessage({ id: "header.tokenomics.description" }) },
+        { name: intl.formatMessage({ id: "header.utilities" }), href: '/our-token/utilities', external: false, description: intl.formatMessage({ id: "header.utilities.description" }) },
+        { name: intl.formatMessage({ id: "header.contractAddresses" }), href: '/our-token/contract-addresses', external: false, description: intl.formatMessage({ id: "header.contractAddresses.description" }) },
+        { name: intl.formatMessage({ id: "header.governance" }), href: '/our-token/governance', external: false, description: intl.formatMessage({ id: "header.governance.description" }) },
       ]
     },
     { 
@@ -122,9 +122,9 @@ export default function Header() {
       title: intl.formatMessage({ id: "header.helpCenter" }), 
       href: '#',
       subItems: [
-        { name: intl.formatMessage({ id: "header.userSupport" }), href: 'https://dexkit.atlassian.net/servicedesk/customer/portal/2', external: true },
-        { name: intl.formatMessage({ id: "header.featureRequest" }), href: 'https://dexkit.canny.io/feature-requests', external: true },
-        { name: intl.formatMessage({ id: "header.whiteLabel" }), href: 'mailto:info@dexkit.com', external: true },
+        { name: intl.formatMessage({ id: "header.userSupport" }), href: 'https://dexkit.atlassian.net/servicedesk/customer/portal/2', external: true, description: intl.formatMessage({ id: "header.userSupport.description" }) },
+        { name: intl.formatMessage({ id: "header.featureRequest" }), href: 'https://dexkit.canny.io/feature-requests', external: true, description: intl.formatMessage({ id: "header.featureRequest.description" }) },
+        { name: intl.formatMessage({ id: "header.whiteLabel" }), href: 'mailto:info@dexkit.com', external: true, description: intl.formatMessage({ id: "header.whiteLabel.description" }) },
       ]
     },
   ];
@@ -185,7 +185,7 @@ export default function Header() {
                                   href={subItem.external ? subItem.href : subItem.href}
                                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-400 hover:text-white hover:font-bold transition-all duration-200"
                                   role="menuitem"
-                                  aria-label={subItem.description ? `${subItem.name}: ${subItem.description}` : subItem.name}
+                                  aria-label={subItem.description}
                                 >
                                   {subItem.name}
                                 </LocalizedLink>

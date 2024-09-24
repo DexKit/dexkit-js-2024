@@ -83,7 +83,7 @@ export default function DexSwap() {
                   rel="noopener noreferrer" 
                   className={`text-orange-500 hover:underline ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}
                 >
-                  <FormattedMessage id="common.overview" defaultMessage="Overview" />
+                  <FormattedMessage id="dexswap.overviewLink" defaultMessage="Learn about DexSwap features" />
                 </Link>
               </section>
 
@@ -112,7 +112,7 @@ export default function DexSwap() {
                 className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base"
               >
                 <FaExternalLinkAlt className="mr-2" />
-                <FormattedMessage id="dexswap.openSolution" defaultMessage="Open solution" />
+                <FormattedMessage id="dexswap.openSolution" defaultMessage="Create your swap platform with DexSwap" />
               </Link>
             </div>
           </div>

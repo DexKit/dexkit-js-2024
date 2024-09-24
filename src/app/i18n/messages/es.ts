@@ -23,6 +23,16 @@ const messages: Messages = {
   'header.userSupport': 'Soporte al usuario',
   'header.featureRequest': 'Solicitud de funciones',
   'header.whiteLabel': 'Solicitud personalizada de marca blanca',
+  "header.missionVision.description": "Conoce nuestra misión, visión y valores",
+  "header.ourTeam.description": "Conoce al equipo de DexKit",
+  "header.brandMaterial.description": "Accede a los materiales de marca de DexKit",
+  "header.tokenomics.description": "Comprende la economía del token de DexKit",
+  "header.utilities.description": "Explora las utilidades del token de DexKit",
+  "header.contractAddresses.description": "Ver las direcciones de contrato del token de DexKit",
+  "header.governance.description": "Aprende sobre la gobernanza de DexKit",
+  "header.userSupport.description": "Obtén ayuda con los productos de DexKit",
+  "header.featureRequest.description": "Sugiere nuevas características para DexKit",
+  "header.whiteLabel.description": "Solicita soluciones personalizadas de marca blanca",
 
   // Footer
   'footer.newsletter.title': 'Boletín',
@@ -114,6 +124,7 @@ const messages: Messages = {
   'dexappbuilder.networks.7': 'Base',
   'dexappbuilder.networks.8': 'Blast L2 (Mainnet, testnet)',
   'dexappbuilder.networks.9': 'Pulsechain',
+  'dexappbuilder.overviewLink': 'Explora las características de DexAppBuilder',
 
   // Solutions
   'solutions.dexnftmarket.title': 'DexNFTMarket',
@@ -137,6 +148,7 @@ const messages: Messages = {
   'dexexchangepro.description.paragraph1': 'DexExchangePro es un producto de intercambio descentralizado (DEX) de marca blanca diseñado para empresas, emprendedores y entusiastas de las criptomonedas que desean lanzar su propio DEX de marca. Esta poderosa solución ofrece una experiencia de trading de nivel profesional con características avanzadas, alta liquidez y robustas medidas de seguridad.',
   'dexexchangepro.description.paragraph2': 'Con DexExchangePro, los usuarios pueden disfrutar de intercambios de tokens sin problemas, provisión de liquidez, yield farming y más, todo dentro de una interfaz personalizable que refleja la identidad de tu marca. La plataforma es compatible con múltiples redes blockchain, garantizando una amplia accesibilidad y funcionalidad entre cadenas.',
   'dexexchangepro.deployNow': '¡Desplegar ahora!',
+  'dexexchangepro.overviewLink': 'Explora las características de DexExchangePro',
 
   // DexGenerator
   'dexgenerator.title': 'DexGenerator',
@@ -161,6 +173,7 @@ const messages: Messages = {
   'dexgenerator.tutorials.firstCollection': 'Creando mi primera colección de NFT (Documentación oficial)',
   'dexgenerator.tutorials.thirdwebContracts': 'Desplegando diferentes contratos de Thirdweb (Lista de reproducción de YouTube)',
   'dexgenerator.openSolution': 'Abrir solución',
+  'dexgenerator.overviewLink': 'Aprende sobre las características de DexGenerator',
 
   // DexNFTMarket
   'dexnftmarket.title': 'DexNFTMarket',
@@ -178,6 +191,7 @@ const messages: Messages = {
   'dexnftmarket.tutorials.firstMarketplace': 'Creando mi primer mercado de NFT',
   'dexnftmarket.tutorials.managingListings': 'Gestionando listados de NFT',
   'dexnftmarket.openSolution': 'Abrir solución',
+  'dexnftmarket.overviewLink': 'Descubre las capacidades de DexNFTMarket',
 
   // DexNFTStore
   'dexnftstore.title': 'DexNFTStore',
@@ -189,6 +203,7 @@ const messages: Messages = {
   'dexnftstore.tutorials.firstStore': 'Creando mi primera tienda',
   'dexnftstore.tutorials.managingTool': 'Gestionando esta herramienta',
   'dexnftstore.openSolution': 'Abrir solución',
+  'dexnftstore.overviewLink': 'Explora las características de DexNFTStore',
 
   // DexSwap
   'dexswap.title': 'DexSwap',
@@ -201,6 +216,7 @@ const messages: Messages = {
   'dexswap.tutorials.managingTool': 'Gestionando esta herramienta',
   'dexswap.tutorials.deployingDApp': 'Desplegando tu DApp (Video de YouTube)',
   'dexswap.openSolution': 'Abrir solución',
+  'dexswap.overviewLink': 'Aprende sobre las características de DexSwap',
 
   // DexWallet
   'dexwallet.title': 'DexWallet',
@@ -212,6 +228,7 @@ const messages: Messages = {
   'dexwallet.tutorials.firstWallet': 'Creando mi primera billetera',
   'dexwallet.tutorials.managingTool': 'Gestionando esta herramienta',
   'dexwallet.openSolution': 'Abrir solución',
+  'dexwallet.overviewLink': 'Descubre las características de DexWallet',
 
   // Our Team
   'ourTeam.title': 'Nuestro equipo',

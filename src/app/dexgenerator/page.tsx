@@ -101,7 +101,7 @@ export default function DexGenerator() {
                   rel="noopener noreferrer" 
                   className={`text-orange-500 hover:underline ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}
                 >
-                  <FormattedMessage id="common.overview" defaultMessage="Overview" />
+                  <FormattedMessage id="dexgenerator.overviewLink" defaultMessage="Learn about DexGenerator features" />
                 </Link>
               </section>
 
@@ -161,7 +161,7 @@ export default function DexGenerator() {
                 className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base"
               >
                 <FaExternalLinkAlt className="mr-2" />
-                <FormattedMessage id="dexgenerator.openSolution" defaultMessage="Open solution" />
+                <FormattedMessage id="dexgenerator.openSolution" defaultMessage="Start generating smart contracts with DexGenerator" />
               </Link>
             </div>
           </div>

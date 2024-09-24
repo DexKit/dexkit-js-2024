@@ -36,7 +36,7 @@ export default function Solutions() {
                   </p>
                   <div className="text-right mt-auto">
                     <LocalizedLink href={`/${solution}`} className="text-gray-400 hover:text-orange-400 text-sm sm:text-base">
-                      <FormattedMessage id="product.learnMore" />
+                      <FormattedMessage id={`solutions.${solution}.learnMore`} defaultMessage={`Learn more about ${solution}`} />
                     </LocalizedLink>
                   </div>
                 </div>
