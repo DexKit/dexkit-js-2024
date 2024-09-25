@@ -4,6 +4,9 @@ const messages: Messages = {
   // Layout
   'layout.title': 'DexKit - Making Web3 Accessible | No-Code DApp Builder',
   'layout.description': 'DexKit provides no-code/low-code tools for creating decentralized applications (DApps) in the Web3 space. Build your own branded DApps easily and efficiently.',
+  'dexnftstore.description': 'Create and manage your own customized NFT marketplace with our no-code tool.',
+  'blog.description': 'Stay updated with the latest news and tutorials on DeFi and Web3 in our blog.',
+  'nocodebuilder.description': 'Build decentralized applications without coding using our intuitive platform.',
 
   // Header
   'header.about': 'About us',
@@ -114,7 +117,6 @@ const messages: Messages = {
   'dexappbuilder.description.paragraph2': 'With DexAppBuilder, users can select the crypto features they want and easily add them to their Dapp without any complicated coding: NFT Marketplace, Token & NFT Generator, Online Store NFT line (like Shopify, but Web3), Exchange, and Crypto Wallet.',
   'dexappbuilder.description.paragraph3': 'DexAppBuilder also provides customizable templates, intuitive drag-and-drop functionality, and expert/community support to help users build a professional and polished DApp. Users can also generate a unique NFT associated with their DApp to prove ownership and take advantage of monetization opportunities.', 
   'dexappbuilder.overview': 'Overview', 
-  'dexappbuilder.createDApp': 'Build my DApp', 
   'dexappbuilder.tutorials.firstDApp': 'Building my first DApp', 
   'dexappbuilder.tutorials.managingTool': 'Managing this tool', 
   'dexappbuilder.tutorials.customSections': 'Building custom sections', 
@@ -131,6 +133,7 @@ const messages: Messages = {
   'dexappbuilder.networks.8': 'Blast L2 (Mainnet, testnet)',
   'dexappbuilder.networks.9': 'Pulsechain',
   'dexappbuilder.overviewLink': 'Explore DexAppBuilder features',
+  'dexappbuilder.createDApp': 'Create your DApp with DexAppBuilder',
 
   // Solutions
   'solutions.title': 'Solutions',

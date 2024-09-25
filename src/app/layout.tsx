@@ -2,31 +2,38 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { sora } from './fonts';
 import ClientLayout from './layout-client';
+import messages from './i18n/messages';
 
-export const metadata: Metadata = {
-  title: "DexKit - Making Web3 Accessible | No-Code DApp Builder",
-  description: "DexKit provides no-code/low-code tools for creating decentralized applications (DApps) in the Web3 space. Build your own branded DApps easily and efficiently.",
-  keywords: "DexKit, DApps, Web3, Blockchain, No-Code, Low-Code, Decentralized Finance, DeFi, Ethereum, Polygon, Arbitrum, NFT Marketplace",
-  openGraph: {
-    title: "DexKit - Making Web3 Accessible",
-    description: "Create your own branded DApps with DexKit's no-code/low-code tools.",
-    images: [{ url: "/imgs/dexkit_og.png" }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "DexKit - Making Web3 Accessible",
-    description: "Create your own branded DApps with DexKit's no-code/low-code tools.",
-    images: ["/imgs/dexkit_og.png"],
-  },
-};
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const localeMessages = messages[params.locale as keyof typeof messages] || messages.en;
+
+  return {
+    title: localeMessages['layout.title'],
+    description: localeMessages['layout.description'],
+    keywords: "DexKit, DApps, Web3, Blockchain, No-Code, Low-Code, Decentralized Finance, DeFi, Ethereum, Polygon, Arbitrum, NFT Marketplace",
+    openGraph: {
+      title: localeMessages['layout.title'],
+      description: localeMessages['layout.description'],
+      images: [{ url: "/imgs/dexkit_og.png" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: localeMessages['layout.title'],
+      description: localeMessages['layout.description'],
+      images: ["/imgs/dexkit_og.png"],
+    },
+  };
+}
 
 export default function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: { locale: string };
 }) {
   return (
-    <html className={`${sora.variable}`}>
+    <html className={`${sora.variable}`} lang={params.locale}>
       <body className={sora.className}>
         <ClientLayout>{children}</ClientLayout>
       </body>

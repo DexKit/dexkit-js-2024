@@ -1,13 +1,14 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 import Link from 'next/link';
-import { FaTools } from 'react-icons/fa';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 export default function DexAppBuilder() {
     const [activeTab, setActiveTab] = useState('description');
     const [isMobile, setIsMobile] = useState(false);
+    const intl = useIntl();
 
     useEffect(() => {
         const handleResize = () => {
@@ -117,8 +118,9 @@ export default function DexAppBuilder() {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base"
+                title={intl.formatMessage({ id: 'dexappbuilder.createDApp' })}
               >
-                <FaTools className="mr-2" />
+                <FaExternalLinkAlt className="mr-2" />
                 <FormattedMessage id="dexappbuilder.createDApp" defaultMessage="Create your DApp with DexAppBuilder" />
               </Link>
             </div>

@@ -4,6 +4,10 @@ const messages: Messages = {
   // Layout
   'layout.title': 'DexKit - Haciendo Web3 Accesible | Constructor de DApps Sin Código',
   'layout.description': 'DexKit proporciona herramientas sin código/bajo código para crear aplicaciones descentralizadas (DApps) en el espacio Web3. Construye tus propias DApps de marca fácil y eficientemente.',
+  'dexnftstore.description': 'Crea y gestiona tu propio mercado de NFT personalizado con nuestra herramienta sin código.',
+  'blog.description': 'Mantente actualizado con las últimas noticias y tutoriales sobre DeFi y Web3 en nuestro blog.',
+  'nocodebuilder.description': 'Construye aplicaciones descentralizadas sin necesidad de codificar con nuestra plataforma intuitiva.',
+  'dexswap.description': 'Intercambia tokens de manera eficiente con nuestro agregador DEX optimizado para bajas tarifas.',
 
   // Header
   'header.about': 'Sobre nosotros',
@@ -117,7 +121,6 @@ const messages: Messages = {
   'dexappbuilder.description.paragraph2': 'Con DexAppBuilder, los usuarios pueden seleccionar las características cripto que desean y agregarlas fácilmente a su Dapp sin necesidad de codificación complicada: Mercado NFT, generador de Tokens y NFT, tienda en línea NFT (como Shopify, pero Web3), Intercambio, Exchange y Billetera Cripto.',
   'dexappbuilder.description.paragraph3': 'DexAppBuilder también proporciona plantillas personalizables, funcionalidad intuitiva de arrastrar y soltar, y soporte de expertos / comunidad para ayudar a los usuarios a crear una DApp profesional y pulida. Los usuarios también pueden generar un NFT único asociado con su DApp para probar la propiedad y aprovechar las oportunidades de monetización.',
   'dexappbuilder.overview': 'Visión general',
-  'dexappbuilder.createDApp': 'Crear mi DApp',
   'dexappbuilder.tutorials.firstDApp': 'Creando mi primera DApp',
   'dexappbuilder.tutorials.managingTool': 'Gestionando esta herramienta',
   'dexappbuilder.tutorials.customSections': 'Construyendo secciones personalizadas',
@@ -134,6 +137,7 @@ const messages: Messages = {
   'dexappbuilder.networks.8': 'Blast L2 (Mainnet, testnet)',
   'dexappbuilder.networks.9': 'Pulsechain',
   'dexappbuilder.overviewLink': 'Explora las características de DexAppBuilder',
+  'dexappbuilder.createDApp': 'Crea tu DApp con DexAppBuilder',
 
   // Solutions
   'solutions.dexnftmarket.title': 'DexNFTMarket',
