@@ -77,7 +77,7 @@ export default function DexNFTMarket() {
                   rel="noopener noreferrer" 
                   className={`text-orange-500 hover:underline ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}
                 >
-                  <FormattedMessage id="common.overview" defaultMessage="Overview" />
+                  <FormattedMessage id="dexnftmarket.overviewLink" defaultMessage="Discover DexNFTMarket capabilities" />
                 </Link>
               </section>
 
@@ -125,7 +125,7 @@ export default function DexNFTMarket() {
                 className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base"
               >
                 <FaExternalLinkAlt className="mr-2" />
-                <FormattedMessage id="dexnftmarket.openSolution" defaultMessage="Open solution" />
+                <FormattedMessage id="dexnftmarket.openSolution" defaultMessage="Create your NFT marketplace with DexNFTMarket" />
               </Link>
             </div>
           </div>

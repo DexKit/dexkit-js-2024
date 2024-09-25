@@ -75,7 +75,7 @@ export default function DexExchangePro() {
                   rel="noopener noreferrer" 
                   className="text-orange-500 hover:underline text-sm sm:text-base"
                 >
-                  <FormattedMessage id="common.overview" defaultMessage="Overview" />
+                  <FormattedMessage id="dexexchangepro.overviewLink" defaultMessage="Explore DexExchangePro features" />
                 </Link>
               </section>
             </div>
@@ -88,7 +88,7 @@ export default function DexExchangePro() {
                 className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base"
               >
                 <FaExternalLinkAlt className="mr-2" />
-                <FormattedMessage id="dexexchangepro.deployNow" defaultMessage="Deploy now!" />
+                <FormattedMessage id="dexexchangepro.deployNow" defaultMessage="Deploy your DexExchangePro now" />
               </Link>
             </div>
           </div>

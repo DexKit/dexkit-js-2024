@@ -79,7 +79,7 @@ export default function DexAppBuilder() {
                   rel="noopener noreferrer" 
                   className="text-orange-500 hover:underline text-sm md:text-base"
                 >
-                  <FormattedMessage id="dexappbuilder.overview" />
+                  <FormattedMessage id="dexappbuilder.overviewLink" defaultMessage="Explore DexAppBuilder overview" />
                 </Link>
               </section>
 
@@ -119,7 +119,7 @@ export default function DexAppBuilder() {
                 className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base"
               >
                 <FaTools className="mr-2" />
-                <FormattedMessage id="dexappbuilder.createDApp" />
+                <FormattedMessage id="dexappbuilder.createDApp" defaultMessage="Create your DApp with DexAppBuilder" />
               </Link>
             </div>
           </div>

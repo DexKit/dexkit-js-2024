@@ -23,6 +23,16 @@ const messages: Messages = {
   'header.userSupport': 'Suporte ao usuário',
   'header.featureRequest': 'Solicitação de recursos',
   'header.whiteLabel': 'Solicitação personalizada de marca branca',
+  "header.missionVision.description": "Conheça nossa missão, visão e valores",
+  "header.ourTeam.description": "Conheça a equipe DexKit",
+  "header.brandMaterial.description": "Acesse os materiais da marca DexKit",
+  "header.tokenomics.description": "Entenda a economia do token DexKit",
+  "header.utilities.description": "Explore as utilidades do token DexKit",
+  "header.contractAddresses.description": "Veja os endereços do contrato do token DexKit",
+  "header.governance.description": "Aprenda sobre a governança DexKit",
+  "header.userSupport.description": "Obtenha ajuda com os produtos DexKit",
+  "header.featureRequest.description": "Sugira novos recursos para o DexKit",
+  "header.whiteLabel.description": "Solicite soluções personalizadas de marca branca",
 
   // Footer
   'footer.newsletter.title': 'Boletim informativo',
@@ -59,6 +69,15 @@ const messages: Messages = {
   'problems.nftOwnership.title': 'NFTs fornecem propriedade real',
   'problems.nftOwnership.description': 'Com as soluções da DexKit, os construtores de DApps podem possuir e vender suas criações como NFTs, dando-lhes uma audiência mais ampla e mais flexibilidade para vender seu trabalho.',
 
+  // About
+  "about.title": "Sobre a DexKit",
+  "about.missionVisionValues": "Missão, Visão e Valores",
+  "about.missionVisionValuesDesc": "Descubra os princípios que orientam nosso trabalho e nossa visão para o futuro do DeFi.",
+  "about.ourTeam": "Nossa Equipe",
+  "about.ourTeamDesc": "Conheça as pessoas apaixonadas por trás da DexKit que estão impulsionando a inovação no espaço DeFi.",
+  "about.brandMaterial": "Material da Marca",
+  "about.brandMaterialDesc": "Acesse os ativos da marca DexKit e as diretrizes para uso adequado em seus projetos.",
+  
   // Product
   'product.title': 'Produto',
   'product.dexappbuilder.title': 'DexAppBuilder',
@@ -114,6 +133,7 @@ const messages: Messages = {
   'dexappbuilder.networks.7': 'Base',
   'dexappbuilder.networks.8': 'Blast L2 (Mainnet, testnet)',
   'dexappbuilder.networks.9': 'Pulsechain',
+  'dexappbuilder.overviewLink': 'Explore as características de DexAppBuilder',
 
   // Solutions
   'solutions.sectionAriaLabel': 'Nossas Soluções',
@@ -130,6 +150,12 @@ const messages: Messages = {
   'solutions.dexexchangepro.description': 'Sua troca descentralizada profissional e segura. Sem intermediários, sem complicações.',
   'solutions.dexwallet.title': 'DexWallet',
   'solutions.dexwallet.description': 'Seu companheiro cripto: Gerencie e custodie suas criptomoedas e NFTs com facilidade.',
+  'solutions.dexnftmarket.learnMore': 'Saiba mais sobre o DexNFTMarket',
+  'solutions.dexnftstore.learnMore': 'Saiba mais sobre o DexNFTStore',
+  'solutions.dexgenerator.learnMore': 'Saiba mais sobre o DexGenerator',
+  'solutions.dexswap.learnMore': 'Saiba mais sobre o DexSwap',
+  'solutions.dexexchangepro.learnMore': 'Saiba mais sobre o DexExchangePro',
+  'solutions.dexwallet.learnMore': 'Saiba mais sobre o DexWallet',
 
   // DexExchangePro
   'dexexchangepro.title': 'DexExchangePro',
@@ -137,6 +163,7 @@ const messages: Messages = {
   'dexexchangepro.description.paragraph1': 'DexExchangePro é um produto de troca descentralizada (DEX) de marca branca projetado para empresas, empreendedores e entusiastas de criptomoedas que desejam lançar seu próprio DEX de marca. Esta solução poderosa oferece uma experiência de negociação de nível profissional com recursos avançados, alta liquidez e medidas de segurança robustas.',
   'dexexchangepro.description.paragraph2': 'Com DexExchangePro, os usuários podem desfrutar de trocas de tokens contínuas, fornecimento de liquidez, produção agrícola e muito mais, tudo dentro de uma interface personalizável que reflete a identidade de sua marca. A plataforma suporta múltiplas redes blockchain, garantindo ampla acessibilidade e funcionalidade entre cadeias.',
   'dexexchangepro.deployNow': 'Implantar agora!',
+  'dexexchangepro.overviewLink': 'Explore as características de DexExchangePro',
 
   // DexGenerator
   'dexgenerator.title': 'DexGenerator',
@@ -161,6 +188,7 @@ const messages: Messages = {
   'dexgenerator.tutorials.firstCollection': 'Criando minha primeira coleção NFT (documentação oficial)',
   'dexgenerator.tutorials.thirdwebContracts': 'Implantando diferentes contratos Thirdweb (lista de reprodução do YouTube)',
   'dexgenerator.openSolution': 'Solução aberta',
+  'dexgenerator.overviewLink': 'Explore as características de DexGenerator',
 
   // DexNFTMarket
   'dexnftmarket.title': 'DexNFTMarket',
@@ -178,6 +206,7 @@ const messages: Messages = {
   'dexnftmarket.tutorials.firstMarketplace': 'Criando meu primeiro mercado NFT',
   'dexnftmarket.tutorials.managingListings': 'Gerenciando listagens NFT',
   'dexnftmarket.openSolution': 'Solução aberta',
+  'dexnftmarket.overviewLink': 'Explore as características de DexNFTMarket',
 
   // DexNFTStore
   'dexnftstore.title': 'DexNFTStore',
@@ -189,6 +218,7 @@ const messages: Messages = {
   'dexnftstore.tutorials.firstStore': 'Criando minha primeira loja',
   'dexnftstore.tutorials.managingTool': 'Gerenciando esta ferramenta',
   'dexnftstore.openSolution': 'Solução aberta',
+  'dexnftstore.overviewLink': 'Explore as características de DexNFTStore',
 
   // DexSwap
   'dexswap.title': 'DexSwap',
@@ -201,6 +231,7 @@ const messages: Messages = {
   'dexswap.tutorials.managingTool': 'Gerenciando esta ferramenta',
   'dexswap.tutorials.deployingDApp': 'Implantando seu DApp (vídeo do YouTube)',
   'dexswap.openSolution': 'Solução aberta',
+  'dexswap.overviewLink': 'Explore as características de DexSwap',
 
   // DexWallet
   'dexwallet.title': 'DexWallet',
@@ -212,6 +243,7 @@ const messages: Messages = {
   'dexwallet.tutorials.firstWallet': 'Criando minha primeira carteira',
   'dexwallet.tutorials.managingTool': 'Gerenciando esta ferramenta',
   'dexwallet.openSolution': 'Solução aberta',
+  'dexwallet.overviewLink': 'Explore as características de DexWallet',
 
   // Our Team
   'ourTeam.title': 'Nossa Equipe',

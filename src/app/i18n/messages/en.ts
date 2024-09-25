@@ -23,6 +23,17 @@ const messages: Messages = {
   'header.userSupport': 'User support',
   'header.featureRequest': 'Feature request',
   'header.whiteLabel': 'White label custom request',
+  "header.missionVision.description": "Learn about our mission, vision, and values",
+  "header.ourTeam.description": "Meet the DexKit team",
+  "header.brandMaterial.description": "Access DexKit brand materials",
+  "header.tokenomics.description": "Understand DexKit token economics",
+  "header.utilities.description": "Explore DexKit token utilities",
+  "header.contractAddresses.description": "View DexKit token contract addresses",
+  "header.governance.description": "Learn about DexKit governance",
+  "header.userSupport.description": "Get help with DexKit products",
+  "header.featureRequest.description": "Suggest new features for DexKit",
+  "header.whiteLabel.description": "Request custom white label solutions",
+    
 
   // Footer
   'footer.newsletter.title': 'Newsletter',
@@ -57,6 +68,15 @@ const messages: Messages = {
   'problems.nftOwnership.title': 'NFTs provides real ownership',
   'problems.nftOwnership.description': 'With DexKit\'s solutions, DApp builders can own and sell their creations as NFTs, giving them a wider audience and more flexibility in selling their work.',
 
+  // About
+  "about.title": "About DexKit",
+  "about.missionVisionValues": "Mission, Vision & Values",
+  "about.missionVisionValuesDesc": "Discover the principles that guide our work and our vision for the future of DeFi.",
+  "about.ourTeam": "Our Team",
+  "about.ourTeamDesc": "Meet the passionate individuals behind DexKit who are driving innovation in the DeFi space.",
+  "about.brandMaterial": "Brand Material",
+  
+  "about.brandMaterialDesc": "Access DexKit's brand assets and guidelines for proper usage in your projects.",
   // Product
   'product.title': 'Product',
   'product.dexappbuilder.title': 'DexAppBuilder',
@@ -110,9 +130,11 @@ const messages: Messages = {
   'dexappbuilder.networks.7': 'Base',
   'dexappbuilder.networks.8': 'Blast L2 (Mainnet, testnet)',
   'dexappbuilder.networks.9': 'Pulsechain',
+  'dexappbuilder.overviewLink': 'Explore DexAppBuilder features',
 
   // Solutions
   'solutions.title': 'Solutions',
+  'solutions.sectionAriaLabel': 'Our Solutions',
   'solutions.dexnftmarket.title': 'DexNFTMarket',
   'solutions.dexnftmarket.description': 'Unlock the potential of your digital art and profit from your creativity.',
   'solutions.dexnftstore.title': 'DexNFTStore',
@@ -125,6 +147,12 @@ const messages: Messages = {
   'solutions.dexswap.description': 'Deploy your own branded DEX aggregator and swap cryptocurrencies smarter and efficiently with real-time prices and zero-cost gas fees.',
   'solutions.dexwallet.title': 'DexWallet',
   'solutions.dexwallet.description': 'Your crypto companion: Manage and custody your cryptocurrencies and NFTs with ease.',
+  'solutions.dexnftmarket.learnMore': 'Learn more about DexNFTMarket',
+  'solutions.dexnftstore.learnMore': 'Learn more about DexNFTStore',
+  'solutions.dexgenerator.learnMore': 'Learn more about DexGenerator',
+  'solutions.dexswap.learnMore': 'Learn more about DexSwap',
+  'solutions.dexexchangepro.learnMore': 'Learn more about DexExchangePro',
+  'solutions.dexwallet.learnMore': 'Learn more about DexWallet',
 
   // DexExchangePro
   'dexexchangepro.title': 'DexExchangePro',
@@ -132,6 +160,7 @@ const messages: Messages = {
   'dexexchangepro.description.paragraph1': 'DexExchangePro is a white-label decentralized exchange (DEX) product designed for businesses, entrepreneurs, and crypto enthusiasts looking to launch their own branded DEX. This powerful solution offers a professional-grade trading experience with advanced features, high liquidity, and robust security measures.',
   'dexexchangepro.description.paragraph2': 'With DexExchangePro, users can enjoy seamless token swaps, liquidity provision, yield farming, and more, all within a customizable interface that reflects their brand identity. The platform supports multiple blockchain networks, ensuring broad cross-chain accessibility and functionality.',
   'dexexchangepro.deployNow': 'Deploy Now!',
+  'dexexchangepro.overviewLink': 'Explore DexExchangePro features',
 
   // DexGenerator
   'dexgenerator.title': 'DexGenerator',
@@ -156,6 +185,7 @@ const messages: Messages = {
   'dexgenerator.tutorials.firstCollection': 'Creating my first NFT collection (Official Documentation)', 
   'dexgenerator.tutorials.thirdwebContracts': 'Deploying different Thirdweb contracts (YouTube playlist)',
   'dexgenerator.openSolution': 'Open Solution',
+  'dexgenerator.overviewLink': 'Learn about DexGenerator features',
 
   // DexNFTMarket
   'dexnftmarket.title': 'DexNFTMarket',
@@ -173,6 +203,7 @@ const messages: Messages = {
   'dexnftmarket.tutorials.firstMarketplace': 'Creating my first NFT marketplace',
   'dexnftmarket.tutorials.managingListings': 'Managing NFT listings',
   'dexnftmarket.openSolution': 'Open solution',
+  'dexnftmarket.overviewLink': 'Discover DexNFTMarket capabilities',
 
   // DexNFTStore
   'dexnftstore.title': 'DexNFTStore',
@@ -184,6 +215,7 @@ const messages: Messages = {
   'dexnftstore.tutorials.firstStore': 'Creating my first store',
   'dexnftstore.tutorials.managingTool': 'Managing this tool',
   'dexnftstore.openSolution': 'Open solution',
+  'dexnftstore.overviewLink': 'Explore DexNFTStore features',
 
   // DexSwap
   'dexswap.title': 'DexSwap',
@@ -195,6 +227,7 @@ const messages: Messages = {
   'dexswap.tutorials.managingTool': 'Managing this tool', 
   'dexswap.tutorials.deployingDApp': 'Deploying your DApp (YouTube Video)', 
   'dexswap.openSolution': 'Open solution',
+  'dexswap.overviewLink': 'Learn about DexSwap features',
 
   // DexWallet
   'dexwallet.title': 'DexWallet',
@@ -206,6 +239,7 @@ const messages: Messages = {
   'dexwallet.tutorials.firstWallet': 'Creating my first wallet',
   'dexwallet.tutorials.managingTool': 'Managing this tool',
   'dexwallet.openSolution': 'Open solution',
+  'dexwallet.overviewLink': 'Discover DexWallet features',
   
   // Our Team
   'ourTeam.title': 'Our Team',

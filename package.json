@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npx ts-node scripts/generate-rss.ts",
     "start": "next start",
     "lint": "next lint"
   },
@@ -24,6 +24,7 @@
     "react-intl": "^6.6.8",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
+    "rss": "^1.2.2",
     "sharp": "^0.33.5",
     "slugify": "^1.6.6",
     "turndown": "^7.2.0"
@@ -34,6 +35,7 @@
     "@types/node": "^20.16.5",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/rss": "^0.0.32",
     "axios": "^1.7.7",
     "eslint": "^8",
     "eslint-config-next": "14.2.9",
