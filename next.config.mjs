@@ -1,3 +1,14 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const redirectsJson = JSON.parse(
+  fs.readFileSync(path.join(__dirname, 'redirects.json'), 'utf8')
+);
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -7,6 +18,14 @@ const nextConfig = {
         hostname: 'dexkit.com',
       },
     ],
+  },
+  async redirects() {
+    // Convertir el objeto de redirecciones en un array
+    return Object.entries(redirectsJson).map(([source, { destination, permanent }]) => ({
+      source,
+      destination,
+      permanent,
+    }));
   },
 };
 
