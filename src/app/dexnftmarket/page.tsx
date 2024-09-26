@@ -1,13 +1,14 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 import Link from 'next/link';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
 export default function DexNFTMarket() {
     const [activeTab, setActiveTab] = useState('description');
     const [isMobile, setIsMobile] = useState(false);
+    const intl = useIntl();
 
     useEffect(() => {
         const handleResize = () => {
@@ -50,7 +51,7 @@ export default function DexNFTMarket() {
                       onClick={() => setActiveTab(tab)} 
                       className={`${activeTab === tab ? 'text-orange-500' : 'text-gray-600'} ${isMobile ? 'text-xs' : 'text-sm sm:text-base'}`}
                     >
-                      <FormattedMessage id={`dexnftmarket.tabs.${tab}`} defaultMessage={tab} />
+                      {intl.formatMessage({ id: `dexnftmarket.tabs.${tab}` })}
                     </button>
                   </li>
                 ))}
@@ -125,7 +126,7 @@ export default function DexNFTMarket() {
                 className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base"
               >
                 <FaExternalLinkAlt className="mr-2" />
-                <FormattedMessage id="dexnftmarket.openSolution" defaultMessage="Create your NFT marketplace with DexNFTMarket" />
+                {intl.formatMessage({ id: "dexnftmarket.openSolution" })}
               </Link>
             </div>
           </div>

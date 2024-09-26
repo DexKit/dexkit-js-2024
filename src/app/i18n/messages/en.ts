@@ -78,8 +78,8 @@ const messages: Messages = {
   "about.ourTeam": "Our Team",
   "about.ourTeamDesc": "Meet the passionate individuals behind DexKit who are driving innovation in the DeFi space.",
   "about.brandMaterial": "Brand Material",
-  
   "about.brandMaterialDesc": "Access DexKit's brand assets and guidelines for proper usage in your projects.",
+  
   // Product
   'product.title': 'Product',
   'product.dexappbuilder.title': 'DexAppBuilder',
