@@ -18,20 +18,22 @@ export function middleware(request: NextRequest) {
     );
   }
 
-  const pathnameIsMissingLocale = locales.every(
-    (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
-  );
+  const pathnameHasLocale = locales.some(locale => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`);
 
-  if (pathnameIsMissingLocale) {
-    if (!redirects.hasOwnProperty(pathname) && pathname !== '/roadmap/roadmap') {
-      return NextResponse.redirect(new URL(`/${locales[0]}/404`, request.url));
+  if (pathnameHasLocale) {
+    if (!pathname.startsWith('/en/') && pathname !== '/en') {
+      return NextResponse.next();
     }
+    const newPathname = pathname.replace(/^\/en/, '');
+    return NextResponse.redirect(new URL(newPathname || '/', request.url));
+  }
 
-    if (pathname === '/roadmap/roadmap') {
-      return NextResponse.redirect(new URL('/roadmap', request.url));
-    }
+  if (pathname === '/roadmap/roadmap') {
+    return NextResponse.redirect(new URL('/roadmap', request.url));
+  }
 
-    return NextResponse.redirect(new URL(`/${locales[0]}${pathname}`, request.url));
+  if (!redirects.hasOwnProperty(pathname) && pathname !== '/') {
+    return NextResponse.redirect(new URL(`/404`, request.url));
   }
 
   return NextResponse.next();
