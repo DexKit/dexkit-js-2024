@@ -23,6 +23,10 @@ export function middleware(request: NextRequest) {
   );
 
   if (pathnameIsMissingLocale) {
+    if (!redirects.hasOwnProperty(pathname) && pathname !== '/roadmap/roadmap') {
+      return NextResponse.redirect(new URL(`/${locales[0]}/404`, request.url));
+    }
+
     if (pathname === '/roadmap/roadmap') {
       return NextResponse.redirect(new URL('/roadmap', request.url));
     }

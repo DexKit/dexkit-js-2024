@@ -20,7 +20,6 @@ const nextConfig = {
     ],
   },
   async redirects() {
-    // Convertir el objeto de redirecciones en un array
     return Object.entries(redirectsJson).map(([source, { destination, permanent }]) => ({
       source,
       destination,
