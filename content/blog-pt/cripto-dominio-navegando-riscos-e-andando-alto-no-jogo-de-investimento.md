@@ -16,7 +16,7 @@ Investir em criptomoedas tornou-se cada vez mais popular nos últimos anos, mas 
 
 Os mercados de criptomoedas são famosos pelas suas oscilações bruscas, onde os preços podem mudar abruptamente devido a fatores como mudanças regulatórias, incidentes de hackers e mudanças no sentimento do mercado. Para aqueles que não estão equipados para enfrentar estas tempestades, as consequências podem ser financeiramente devastadoras.
 
-Tomemos, por exemplo, a bomba de criptomoeda de 2017. O Bitcoin disparou de cerca de US$ 1.000 para quase US$ 20.000, apenas para [cair de volta para cerca de US$ 8.000](https://www.nbcnews.com/tech/internet/bitcoin-loses-more-half-its-value-amid-crypto- crash-n844056) até o primeiro trimestre de 2018, deixando investidores despreparados em um mar de perdas.
+Tomemos, por exemplo, a bomba de criptomoeda de 2017. O Bitcoin disparou de cerca de US$ 1.000 para quase US$ 20.000, apenas para [cair de volta para cerca de US$ 8.000](https://www.nbcnews.com/tech/internet/bitcoin-loses-more-half-its-value-amid-crypto-crash-n844056) até o primeiro trimestre de 2018, deixando investidores despreparados em um mar de perdas.
 
 Para navegar nos mares da volatilidade do mercado, os investidores experientes devem considerar diversificar as suas participações em várias criptomoedas ou outras classes de ativos. Por exemplo, uma combinação de Bitcoin, Ethereum e Litecoin, cada um com casos de utilização e perfis de risco distintos, pode fornecer um portfólio mais robusto e proteção contra incertezas.
 
@@ -52,7 +52,7 @@ Os primeiros dias do Bitcoin servem como exemplo de adoção limitada, principal
 
 A atual adoção de criptomoedas, embora não seja generalizada, está se difundindo muito rapidamente.
 
-Estamos experimentando uma adoção crescente devido a uma variedade de produtos e invenções originais em finanças descentralizadas. Isso inclui protocolos que oferecem retornos atraentes por meio de [juros compostos](https://www.bitpanda.com/academy/en/lessons/how-does-compound-interest-work/) e [jogos blockchain](https://dexkit .com/exploring-the-world-of-blockchain-games-an-overview-of-popular-genres-and-coin-leagues-unique-offering/), que fornecem aos jogadores não apenas ganhos em criptomoedas, mas também propriedade de ativos na forma de NFTs (tokens não fungíveis) armazenados em suas carteiras
+Estamos experimentando uma adoção crescente devido a uma variedade de produtos e invenções originais em finanças descentralizadas. Isso inclui protocolos que oferecem retornos atraentes por meio de [juros compostos](https://www.bitpanda.com/academy/en/lessons/how-does-compound-interest-work/) e [jogos blockchain](https://dexkit.com/exploring-the-world-of-blockchain-games-an-overview-of-popular-genres-and-coin-leagues-unique-offering/), que fornecem aos jogadores não apenas ganhos em criptomoedas, mas também propriedade de ativos na forma de NFTs (tokens não fungíveis) armazenados em suas carteiras
 
 ### Falta de compreensão: a educação é essencial para a adoção
 
@@ -62,7 +62,7 @@ Um número significativo de investidores em criptomoedas não possui uma compree
 
 A criptografia pode ter problemas técnicos difíceis de entender, mas felizmente a Internet está repleta de recursos educacionais.
 
-[T](https://consensys.io/blog/the-inside-story-of-the-cryptokitties-congestion-crisis)[a crise de congestionamento de Cryptokitties de 2017](https://consensys.io/blog/the- inside-story-of-cryptokitties-congestion-crisis) exemplifica essa falta de compreensão e problemas de escalabilidade. Um jogo muito popular que causou um aumento nas taxas do gás Ethereum destacou a necessidade de melhores recursos educacionais e interfaces fáceis de usar na indústria de criptografia.
+[Crise de congestionamento de Cryptokitties de 2017](https://consensys.io/blog/the-inside-story-of-cryptokitties-congestion-crisis) exemplifica essa falta de compreensão e problemas de escalabilidade. Um jogo muito popular que causou um aumento nas taxas do gás Ethereum destacou a necessidade de melhores recursos educacionais e interfaces fáceis de usar na indústria de criptografia.
 
 Tudo isso levou ao dimensionamento do Ethereum através de projetos como Polygon, Arbitrum, Optimism e outros que baseados em EVM (Ethereum Virtual Machine) resolveram alguns desses problemas de congestionamento e ganharam muito espaço na indústria, colaborando por sua vez com projetos que se constroem sobre essas redes blockchain.
 

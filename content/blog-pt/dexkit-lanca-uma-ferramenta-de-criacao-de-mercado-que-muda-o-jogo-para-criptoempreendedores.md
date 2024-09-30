@@ -12,7 +12,7 @@ slug: >-
   dexkit-lanca-uma-ferramenta-de-criacao-de-mercado-que-muda-o-jogo-para-criptoempreendedores
 imageUrl: /blog-images/AMM_bot_default.png
 ---
-O desenvolvedor-chefe do projeto [João Campos](https://github.com/JoaoCampos89) criou uma nova solução que **ajudará os empreendedores de criptografia desde o primeiro dia a obter os dados de volume de negociação necessários** **e a serem listados em métricas fundamentais ** páginas como [CoinGecko](https://coingecko.com), [CoinMarketCap](https://coinmarketcap.com), [Nomics](https://nomics.com/), entre outras.
+O desenvolvedor-chefe do projeto [João Campos](https://github.com/JoaoCampos89) criou uma nova solução que **ajudará os empreendedores de criptografia desde o primeiro dia a obter os dados de volume de negociação necessários e a serem listados em métricas fundamentais** como [CoinGecko](https://coingecko.com), [CoinMarketCap](https://coinmarketcap.com), [Nomics](https://nomics.com/), entre outras.
 
 ![Meme](/blog-images/your_crypto_business.jpg)
 
@@ -20,7 +20,7 @@ Oh sim! Do assistente de criação de tokens às ferramentas de negociação des
 
 ### O que esta ferramenta faz?
 
-O bot Market Maker do [DexKit](https://dexkit.com/) é um **bot de negociação automatizado** capaz de comprar e vender qualquer token pré-configurado para manter um volume mínimo de negociação **de maneira **h ** ** **custo mais baixo do que os formadores de mercado convencionais**. Este bot opera de forma totalmente descentralizada (dentro do [Protocolo 0x](https://0x.org/)).
+O bot Market Maker do [DexKit](https://dexkit.com/) é um **bot de negociação automatizado** capaz de comprar e vender qualquer token pré-configurado para manter um volume mínimo de negociação com custo mais baixo do que os formadores de mercado convencionais. Este bot opera de forma totalmente descentralizada (dentro do [Protocolo 0x](https://0x.org/)).
 
 ### É seguro usar?
 
@@ -32,7 +32,7 @@ Faça-os trabalhar para você da maneira mais simples 🤖
 
 ### Sobre compatibilidade de rede
 
-Totalmente compatível com redes **Ethereum, Binance Chain, Polygon, Celo, Avalanche, Fantom e Optimism**. Execute a partir do console localhost, hospedagem VPS ou dApp ([Heroku](http://heroku.com/), [Vercel](https://vercel.com), entre outros). Os usuários devem preencher a carteira com os dois pares de moedas que desejam negociar (KIT e USDC, por exemplo) e a rede MATIC Polygon é preferida para pagar taxas de gás.
+Totalmente compatível com redes **Ethereum, Binance Chain, Polygon, Celo, Avalanche, Fantom e Optimism**. Execute a partir do console localhost, hospedagem VPS ou dApp. Os usuários devem preencher a carteira com os dois pares de moedas que desejam negociar (KIT e USDC, por exemplo) e a rede MATIC Polygon é preferida para pagar taxas de gás.
 
 ![Negociação automática](/blog-images/defi_trading_automode.png)
 

@@ -21,13 +21,7 @@ DexKit ha desarrollado planes estratégicos para permitir que todos los aspirant
 
 ![Carrera de la Liga de Monedas](/blog-images/coin_league_race_1.png)
 
-¡Verás lo geniales que son esas carreras! ¡Cualquiera puede ganar! 🥁🤯
-
-El primer juego de jackpot, llamado “juego del toro”
-
-![🐂](https://s.w.org/images/core/emoji/14.0.0/svg/1f402.svg)
-
-, tendrá una duración de un mes y la tarifa de inscripción será de 10 $USDT en Polygon (más tarifas mínimas de $MATIC). Los meses futuros pueden variar según una encuesta pública realizada en el Twitter de Coin League. Las tendencias de precios también pueden variar, por lo que debemos adaptarnos en consecuencia.
+El primer juego de jackpot, llamado “juego del toro” 🐂 tendrá una duración de un mes y la tarifa de inscripción será de 10 $USDT en Polygon (más tarifas mínimas de $MATIC). Los meses futuros pueden variar según una encuesta pública realizada en el Twitter de Coin League. Las tendencias de precios también pueden variar, por lo que debemos adaptarnos en consecuencia.
 
 ![Oso](/blog-images/beargamecoinleague_moddy-1.gif)
 

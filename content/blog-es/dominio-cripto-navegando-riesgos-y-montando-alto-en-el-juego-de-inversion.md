@@ -16,7 +16,7 @@ Invertir en criptomonedas se ha vuelto cada vez más popular en los últimos añ
 
 Los mercados de criptomonedas son conocidos por sus cambios bruscos, donde los precios pueden cambiar abruptamente debido a factores como cambios regulatorios, incidentes de piratería y cambios en el sentimiento del mercado. Para quienes no están preparados para capear estas tormentas, las consecuencias pueden ser financieramente devastadoras.
 
-Tomemos, por ejemplo, la bomba de criptomonedas de 2017. Bitcoin se disparó de aproximadamente $1,000 a casi $20,000, solo para [volver a caer a aproximadamente $8,000](<https://www.nbcnews.com/tech/internet/bitcoin-loses-more-half-its-value-amid-crypto-> crash-n844056) para el primer trimestre de 2018, dejando a los inversores desprevenidos en un mar de pérdidas.
+Tomemos, por ejemplo, la bomba de criptomonedas de 2017. Bitcoin se disparó de aproximadamente $1,000 a casi $20,000, solo para [volver a caer a aproximadamente $8,000](https://www.nbcnews.com/tech/internet/bitcoin-loses-more-half-its-value-amid-crypto-crash-n844056) para el primer trimestre de 2018, dejando a los inversores desprevenidos en un mar de pérdidas.
 
 Para navegar por los mares de la volatilidad del mercado, los inversores inteligentes deberían considerar diversificar sus tenencias en varias criptomonedas u otras clases de activos. Por ejemplo, una combinación de Bitcoin, Ethereum y Litecoin, cada uno con casos de uso y perfiles de riesgo distintos, puede proporcionar una cartera más sólida y protección contra la incertidumbre.
 
@@ -52,7 +52,7 @@ Los primeros días de Bitcoin sirven como ejemplo de adopción limitada, princip
 
 La adopción actual de las criptomonedas, aunque no es generalizada, se está generalizando muy rápidamente.
 
-Estamos experimentando una mayor adopción debido a una variedad de productos e invenciones originales en las finanzas descentralizadas. Estos incluyen protocolos que ofrecen retornos atractivos a través de [interés compuesto](https://www.bitpanda.com/academy/en/lessons/how-does-compound-interest-work/) y [juegos blockchain](<<https://dexkit.com/exploring-the-world-of-blockchain-games-an-overview-of-popular-genres-and-coin-leagues-unique-offering/>), que brindan a los jugadores no solo ganancias en criptomonedas sino también propiedad de activos. en forma de NFT (tokens no fungibles) almacenados en sus billeteras
+Estamos experimentando una mayor adopción debido a una variedad de productos e invenciones originales en las finanzas descentralizadas. Estos incluyen protocolos que ofrecen retornos atractivos a través de [interés compuesto](https://www.bitpanda.com/academy/en/lessons/how-does-compound-interest-work/) y [juegos blockchain](https://dexkit.com/exploring-the-world-of-blockchain-games-an-overview-of-popular-genres-and-coin-leagues-unique-offering/), que brindan a los jugadores no solo ganancias en criptomonedas sino también propiedad de activos. en forma de NFT (tokens no fungibles) almacenados en sus billeteras
 
 ### Falta de comprensión: la educación es fundamental para la adopción
 

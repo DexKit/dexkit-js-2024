@@ -19,65 +19,35 @@ As carteiras de contratos inteligentes melhoram a sua funcionalidade através da
 
 Destacados abaixo estão vários dos recursos potenciais que as carteiras de contratos inteligentes trazem:
 
-* **Autenticação de fator duplo
-
-    ![✔️](https://s.w.org/images/core/emoji/14.0.0/svg/2714.svg)
-
-    **
+* **Autenticação de fator duplo**
 
 As carteiras de contratos inteligentes podem incorporar autenticação de fator duplo, que exige dois componentes distintos para verificar a identidade de um usuário. Esses componentes podem incluir algo que o usuário conhece (como uma senha), algo que o usuário possui (como um telefone) ou um aspecto biológico (como uma impressão digital). Esse recurso, predominante na web2, aumenta a segurança e obstrui o acesso não autorizado.
 
-* **Recuperação social
-
-    ![🤝](https://s.w.org/images/core/emoji/14.0.0/svg/1f91d.svg)
-
-    **
+* **Recuperação social**
 
 A recuperação social permite que a chave pública de uma carteira de contrato inteligente seja alterada caso a chave privada original seja perdida. Este processo envolve uma transação multisig com amigos ou familiares de confiança atuando como tutores. Conseqüentemente, não há necessidade de o proprietário da carteira reter frases-semente.
 
 * **Estratégias flexíveis de gás**
 
-    **![⛽](https://s.w.org/images/core/emoji/14.0.0/svg/26fd.svg)**
-
 Carteiras de contratos inteligentes podem estabelecer políticas versáteis de gás usando APIs que aderem à especificação Paymaster do ERC-4337. Isso permite que os desenvolvedores patrocinem transações em nome dos usuários (permitindo transações sem gás) e permite que os usuários paguem taxas de gás em qualquer token ERC-20 (por exemplo, USDC).
 
-* ** Esquemas de assinatura personalizados
-
-    ![🖋️](https://s.w.org/images/core/emoji/14.0.0/svg/1f58b.svg)
-
-    **
+* **Esquemas de assinatura personalizados**
 
 Carteiras de contratos inteligentes podem ser programadas para adotar diversos esquemas de assinatura, substituindo assim o ECDSA padrão utilizado no Ethereum. Isso poderia envolver multisig, recuperação social ou até mesmo alternativas resistentes à computação quântica, como Crystals-Kyber.
 
-* ** Funcionalidade multichamada
-
-    ![🔄](https://s.w.org/images/core/emoji/14.0.0/svg/1f504.svg)
-
-    **
+* **Funcionalidade multichamada**
 
 A funcionalidade multicall permite que uma carteira de contrato inteligente execute múltiplas ações em uma única transação atômica. Isto melhora significativamente o modelo atual de carteira, onde cada transação necessita de confirmação individual, resultando em tempos de processamento prolongados e numa experiência de utilizador insatisfatória.
 
-* **Limites de gastos para diferentes signatários
-
-    ![💳](https://s.w.org/images/core/emoji/14.0.0/svg/1f4b3.svg)
-
-    **
+* **Limites de gastos para diferentes signatários**
 
 As carteiras de contratos inteligentes podem ser configuradas para reconhecer vários signatários válidos, o que por sua vez permite o estabelecimento de limites de gastos distintos para cada signatário. Por exemplo, um usuário pode incluir seu laptop e a carteira de hardware Ledger como assinantes, permitindo transações de até 0,05 ETH por meio de seu laptop, enquanto as transações que excedem esse limite exigem o uso da carteira de hardware.
 
-* **Lista de permissões e lista de bloqueios de endereços
-
-    ![📃](https://s.w.org/images/core/emoji/14.0.0/svg/1f4c3.svg)
-
-    **
+* **Lista de permissões e lista de bloqueios de endereços**
 
 As carteiras de contratos inteligentes permitem que os usuários concedam ou neguem acesso a endereços de carteira específicos, contribuindo para maior segurança e controle do usuário.
 
-* **Suporte para carteira multi-sig
-
-    ![💼](https://s.w.org/images/core/emoji/14.0.0/svg/1f4bc.svg)
-
-    **
+* **Suporte para carteira multi-sig**
 
 O suporte para funcionalidade de múltiplas assinaturas em carteiras de contratos inteligentes é particularmente valioso para organizações, onde múltiplas aprovações são frequentemente essenciais antes que uma transação possa ser executada. Esta camada adicional de segurança frustra os esforços de um indivíduo solitário que procura apropriar-se indevidamente de fundos ou realizar transações não autorizadas.
 

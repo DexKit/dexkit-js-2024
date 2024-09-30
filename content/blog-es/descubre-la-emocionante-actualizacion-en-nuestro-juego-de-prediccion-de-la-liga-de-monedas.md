@@ -22,7 +22,7 @@ En DexKit cumplimos las promesas de nuestra hoja de ruta a pesar de los mercados
 
 ### USDT 💲 moneda estable: la puerta de entrada para jugar y recompensar
 
-Tenga en cuenta que el contrato USDT en la red Polygon permanece sin cambios \[verifíquelo aquí: [https://polygonscan.com/token/0xc2132d05d31c914a87c6611c10748aeb04b58e8f](https://polygonscan.com/token/0xc2132d05d31c914a87c6611c1074 8aeb04b58e8f)\].
+Tenga en cuenta que el contrato USDT en la red Polygon permanece sin cambios, verifíquelo aquí: [https://polygonscan.com/token/0xc2132d05d31c914a87c6611c10748aeb04b58e8f](https://polygonscan.com/token/0xc2132d05d31c914a87c6611c10748aeb04b58e8f).
 
 ![Modos de juego de Coin League](/blog-images/image-3.png)
 
@@ -30,7 +30,7 @@ Además de poseer $USDT para participar, los jugadores deben tener algo de $MATI
 
 ### ¡Docenas de nuevos tokens se unen a la liga! 🚴‍♂️🏃‍♀️🏃‍♂️🤸‍♂️
 
-[$SHIB](https://shibatoken.com/), [$RARI](http://rari.capital/), [$SLP](https://coinmarketcap.com/currencies/smooth-love-potion /), [$PICKLE](https://www.pickle.finance/), [$OCEAN](https://oceanprotocol.com/), [$KLAY](https://klaytn.foundation/), [$GHST](https://www.aavegotchi.com/), [$FTT](https://coinmarketcap.com/currencies/ftx-token/), [$APE](https://apecoin.com /) y muchos otros se alinean con entusiasmo para competir en el ámbito de las predicciones, transformando a los jugadores en comerciantes expertos a través de la participación regular en Coin League.
+[$SHIB](https://shibatoken.com/), [$RARI](http://rari.capital/), [$SLP](https://coinmarketcap.com/currencies/smooth-love-potion/), [$PICKLE](https://www.pickle.finance/), [$OCEAN](https://oceanprotocol.com/), [$KLAY](https://klaytn.foundation/), [$GHST](https://www.aavegotchi.com/), [$FTT](https://coinmarketcap.com/currencies/ftx-token/), [$APE](https://apecoin.com/) y muchos otros se alinean con entusiasmo para competir en el ámbito de las predicciones, transformando a los jugadores en comerciantes expertos a través de la participación regular en Coin League.
 
 ![Análisis de precios de Coin League](/blog-images/image-7.png)
 

@@ -19,65 +19,35 @@ Las billeteras de contratos inteligentes mejoran su funcionalidad mediante el us
 
 A continuación se destacan varias de las capacidades potenciales que aportan las billeteras de contratos inteligentes:
 
-* **Autenticación de doble factor
-
-    ![✔️](https://s.w.org/images/core/emoji/14.0.0/svg/2714.svg)
-
-    **
+* **Autenticación de doble factor**
 
 Las carteras de contratos inteligentes pueden incorporar autenticación de doble factor, que exige dos componentes distintos para verificar la identidad de un usuario. Estos componentes podrían incluir algo que el usuario conoce (como una contraseña), algo que posee (como un teléfono) o un aspecto biológico (como una huella digital). Esta característica, frecuente en web2, aumenta la seguridad y obstruye el acceso no autorizado.
 
-* **Recuperación social
-
-    ![🤝](https://s.w.org/images/core/emoji/14.0.0/svg/1f91d.svg)
-
-    **
+* **Recuperación social**
 
 La recuperación social permite modificar la clave pública de una billetera de contrato inteligente si se pierde la clave privada original. Este proceso implica una transacción multifirma con amigos o familiares de confianza que actúan como tutores. En consecuencia, no es necesario que el propietario de la billetera conserve las frases iniciales.
 
 * **Estrategias de gas flexibles**
 
-    **![⛽](https://s.w.org/images/core/emoji/14.0.0/svg/26fd.svg)**
-
 Las billeteras de contratos inteligentes pueden establecer políticas de gas versátiles utilizando API que cumplen con la especificación Paymaster del ERC-4337. Esto permite a los desarrolladores patrocinar transacciones en nombre de los usuarios (lo que permite transacciones sin gas) y permite a los usuarios liquidar las tarifas del gas en cualquier token ERC-20 (por ejemplo, USDC).
 
-* **Esquemas de firma personalizados
-
-    ![🖋️](https://s.w.org/images/core/emoji/14.0.0/svg/1f58b.svg)
-
-    **
+* **Esquemas de firma personalizados**
 
 Las billeteras de contratos inteligentes se pueden programar para adoptar diversos esquemas de firma, reemplazando así el estándar ECDSA utilizado en Ethereum. Esto podría implicar multifirma, recuperación social o incluso alternativas resistentes a la computación cuántica, como Crystals-Kyber.
 
-* **Funcionalidad de llamadas múltiples
-
-    ![🔄](https://s.w.org/images/core/emoji/14.0.0/svg/1f504.svg)
-
-    **
+* **Funcionalidad de llamadas múltiples**
 
 La funcionalidad multicall permite que una billetera de contrato inteligente ejecute múltiples acciones dentro de una sola transacción atómica. Esto mejora significativamente el modelo de billetera actual, donde cada transacción requiere una confirmación individual, lo que resulta en tiempos de procesamiento prolongados y una experiencia de usuario insatisfactoria.
 
-* **Límites de gasto para diferentes firmantes
-
-    ![💳](https://s.w.org/images/core/emoji/14.0.0/svg/1f4b3.svg)
-
-    **
+* **Límites de gasto para diferentes firmantes**
 
 Las billeteras de contratos inteligentes se pueden configurar para reconocer múltiples firmantes válidos, lo que a su vez permite establecer límites de gasto distintos para cada firmante. Por ejemplo, un usuario puede incluir tanto su computadora portátil como su billetera de hardware Ledger como firmantes, lo que permite transacciones de hasta 0,05 ETH a través de su computadora portátil, mientras que las transacciones que exceden este límite requieren el uso de la billetera de hardware.
 
-* **Lista de direcciones permitidas y denegadas
-
-    ![📃](https://s.w.org/images/core/emoji/14.0.0/svg/1f4c3.svg)
-
-    **
+* **Lista de direcciones permitidas y denegadas**
 
 Las billeteras de contrato inteligentes permiten a los usuarios otorgar o denegar el acceso a direcciones de billetera específicas, lo que contribuye a mejorar la seguridad y el control del usuario.
 
-* **Soporte de billetera multifirma
-
-    ![💼](https://s.w.org/images/core/emoji/14.0.0/svg/1f4bc.svg)
-
-    **
+* **Soporte de billetera multifirma**
 
 El soporte para la funcionalidad de firmas múltiples dentro de billeteras de contratos inteligentes es particularmente valioso para las organizaciones, donde a menudo son esenciales múltiples aprobaciones antes de que se pueda ejecutar una transacción. Esta capa adicional de seguridad frustra los esfuerzos de un individuo solitario que busca malversar fondos o realizar transacciones no autorizadas.
 

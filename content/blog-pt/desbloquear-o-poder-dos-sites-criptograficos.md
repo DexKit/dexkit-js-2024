@@ -26,93 +26,93 @@ Para ajudá-lo a tomar uma decisão informada, fornecemos uma tabela comparativa
 
 ### Correntes compatíveis
 
-Arbitrum, Avalanche, Cadeia BNB, Ethereum, Otimismo, Polígono
+**Assistente por DexKit:** Arbitrum, Avalanche, Cadeia BNB, Ethereum, Otimismo, Polígono
 
-Arbitrum, Avalanche, Cadeia BNB, Ethereum, Klaytn, Otimismo, Polígono, Solana
+**OpenSea:** Arbitrum, Avalanche, Cadeia BNB, Ethereum, Klaytn, Otimismo, Polígono, Solana
 
-Ethereum, Tezos, Solana, Polígono
+**Rarível:** Ethereum, Tezos, Solana, Polígono
 
-Ethereum
+**Superraro:** Ethereum
 
 ### Tipos de token
 
-ERC-721, ERC-1155
+**Assistente por DexKit:** ERC-721, ERC-1155
 
-ERC-721, ERC-1155
+**OpenSea:** ERC-721, ERC-1155
 
-ERC-721, ERC-1155
+**Rarível:** ERC-721, ERC-1155
 
-ERC-721
+**Superraro:** ERC-721
 
 ### Tarifas
 
-A partir de 0%, escolha do criador e pode ser alterada a qualquer momento.
+**Assistente por DexKit:** A partir de 0%, escolha do criador e pode ser alterada a qualquer momento.
 
-2,5% no topo
+**OpenSea:** 2,5% no topo
 
-1% no topo
+**Rarível:** 1% no topo
 
-3% no topo
+**Superraro:** 3% no topo
 
 ### Curadoria
 
-Permitir que qualquer pessoa liste seus ativos digitais para venda
+**Assistente por DexKit:** Permitir que qualquer pessoa liste seus ativos digitais para venda
 
-Permitir que qualquer pessoa liste seus ativos digitais para venda
+**OpenSea:** Permitir que qualquer pessoa liste seus ativos digitais para venda
 
-Permitir que qualquer pessoa liste seus ativos digitais para venda
+**Rarível:** Permitir que qualquer pessoa liste seus ativos digitais para venda
 
-Apenas para alguns artistas
+**Superraro:** Apenas para alguns artistas
 
 ### Comunidade
 
-O criador deve reunir e gerenciar sua própria comunidade.
+**Assistente por DexKit:** O criador deve reunir e gerenciar sua própria comunidade.
 
-Grande comunidade ativa
+**OpenSea:** Grande comunidade ativa
 
-Comunidade média ativa
+**OpenSea:** Comunidade média ativa
 
-Comunidade baixa, mas engajada
+**Rarível:** Comunidade baixa, mas engajada
 
 ### Tamanho do mercado
 
-Até despesas de publicidade dos criadores.
+**Assistente por DexKit:** Até despesas de publicidade dos criadores.
 
-Maior
+**OpenSea:** Maior
 
-Moderado
+**OpenSea:** Moderado
 
-Pequeno
+**Rarível:** Pequeno
 
 ### Disponibilidade
 
-Mundialmente
+**Assistente por DexKit:** Mundialmente
 
-Em todo o mundo (com algumas restrições geográficas). Verifique seus Termos de Serviço)
+**OpenSea:** Em todo o mundo (com algumas restrições geográficas). Verifique seus Termos de Serviço)
 
-Mundialmente
+**Rarível:** Mundialmente
 
-Mundialmente
+**Superraro:** Mundialmente
 
 ### Métodos de pagamento
 
-Até os criadores. Qualquer token em qualquer rede suportada pode ser importado e solicitado para pagamento.
+**Assistente por DexKit:** Até os criadores. Qualquer token em qualquer rede suportada pode ser importado e solicitado para pagamento.
 
-ETH, BNB, MATIC, DAI (top tokens), cartões de crédito.
+**OpenSea:** ETH, BNB, MATIC, DAI (top tokens), cartões de crédito.
 
-ETH, MATIC, MoonPay (cartão de crédito)
+**Rarível:** ETH, MATIC, MoonPay (cartão de crédito)
 
-Apenas ETH
+**Superraro:** Apenas ETH
 
 ### Limitações
 
-Impossível proibir. Ninguém gerencia bancos de dados de usuários. Propriedade total do usuário
+**Assistente por DexKit:** Impossível proibir. Ninguém gerencia bancos de dados de usuários. Propriedade total do usuário
 
-Ser banido é possível. Banco de dados centralizado.
+**OpenSea:** Ser banido é possível. Banco de dados centralizado.
 
-Ser banido é possível. Banco de dados centralizado.
+**Rarível:** Ser banido é possível. Banco de dados centralizado.
 
-Ser banido é possível. Banco de dados centralizado.
+**Superraro:** Ser banido é possível. Banco de dados centralizado.
 
 ## Conclusão
 

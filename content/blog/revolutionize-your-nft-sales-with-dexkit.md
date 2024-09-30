@@ -39,11 +39,11 @@ A lot, check them below 👇
 
 Because there will always be users who want to maximize the potential of each tool, the premium version of the white-label NFT marketplace will offer incredible customizations not available in the free version. These may include:
 
-* * **Custom fonts**
+* **Custom fonts**
 
-* * **Expanded range of color combinations**
+* **Expanded range of color combinations**
 
-* * **Priority customer support**
+* **Priority customer support**
 
 This subscription does not yet have a launch date, but it is expected that it will be available to the public in the coming weeks.
 

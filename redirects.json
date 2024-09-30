@@ -38,5 +38,7 @@
     "/dexkit-unleashes-a-game-changing-market-maker-tool-for-crypto-entrepreneurs": { "destination": "/blog/dexkit-unleashes-a-game-changing-market-maker-tool-for-crypto-entrepreneurs", "permanent": true },
     "/superapp-v0-0-6-23-introducing-new-integrations-for-enhanced-user-experience": { "destination": "/blog/superapp-v0-0-6-23-introducing-new-integrations-for-enhanced-user-experience", "permanent": true },
     "/discover-the-exciting-update-in-our-coin-league-prediction-game": { "destination": "/blog/discover-the-exciting-update-in-our-coin-league-prediction-game", "permanent": true },
-    "/discover-the-transformative-power-of-next-js-empowering-the-future-of-web-development": { "destination": "/blog/discover-the-transformative-power-of-next-js-empowering-the-future-of-web-development", "permanent": true }
+    "/discover-the-transformative-power-of-next-js-empowering-the-future-of-web-development": { "destination": "/blog/discover-the-transformative-power-of-next-js-empowering-the-future-of-web-development", "permanent": true },
+    "/web3-the-present-and-the-future-of-the-internet": { "destination": "blog/web3-the-present-and-the-future-of-the-internet", "permanent": true },
+    "no-code-low-code-revolution-transforming-digital-creation/": { "destination": "blog/no-code-low-code-revolution-transforming-digital-creation", "permanent": true }
   }

@@ -16,7 +16,7 @@ Na DexKit, nos especializamos não apenas em projetar e desenvolver ferramentas 
 
 ### Somos bons amigos da comunidade 0xDAO e do projeto 0x
 
-Nosso estimado desenvolvedor líder, [João Campos](https://docs.dexkit.com/welcome/the-startup/meet-the-team#joao-campos), é um membro respeitado da [comunidade 0xDAO](https: //twitter.com/0xCommunityDAO), posição que conquistou por meio de suas contribuições excepcionais ao ecossistema 0x, superando a criação do DexKit como um projeto pessoal.
+Nosso estimado desenvolvedor líder, [João Campos](https://docs.dexkit.com/welcome/the-startup/meet-the-team#joao-campos), é um membro respeitado da [comunidade 0xDAO](https://twitter.com/0xCommunityDAO), posição que conquistou por meio de suas contribuições excepcionais ao ecossistema 0x, superando a criação do DexKit como um projeto pessoal.
 
 João recentemente fez contribuições significativas para o [desenvolvimento da funcionalidade de negociação NFT dentro do protocolo 0x](https://twitter.com/0xCommunityDAO/status/1501630674817671170). Esta inovação permite a negociação direta de NFT sem depender de tokens ERC20. É importante notar que esta é a primeira solução de negociação NFT totalmente funcional utilizando contratos 0x v4.
 
@@ -24,13 +24,13 @@ João recentemente fez contribuições significativas para o [desenvolvimento d
 
 ### Também recebemos contribuições valiosas da Polygon Studios😎
 
-Em nossa busca incansável de formar alianças com projetos robustos que inspirem confiança em nossa comunidade, investidores e criadores, nossa jornada se entrelaçou com [Polygon](https://polygonstudios.com/) [Studios](https://polygonstudios.com /), uma organização que representa a base do [Polygon](https://polygon.technology/) (um projeto nascido da necessidade de escalar o Ethereum).
+Em nossa busca incansável de formar alianças com projetos robustos que inspirem confiança em nossa comunidade, investidores e criadores, nossa jornada se entrelaçou com [Polygon Studios](https://polygonstudios.com/), uma organização que representa a base do [Polygon](https://polygon.technology/) (um projeto nascido da necessidade de escalar o Ethereum).
 
 A Polygon Studios nos forneceu apoio econômico e orientação inestimável, permitindo-nos traçar um caminho sólido a seguir. Nossa crescente comunidade deve muito às ferramentas inovadoras que desenvolvemos em conjunto com a Polygon Studios.
 
 ### Chainlink é nosso pastor. Não nos falta nada usando o oráculo deles 🙏
 
-Aproximadamente um ano atrás, nos aventuramos no mundo dos jogos blockchain com [Coin League](https://coinleague.com/), servindo como um jogo pioneiro com [código-fonte aberto](https://github.com/ DexKit/ligas de moedas). Este empreendimento nos permitiu aprimorar nossas habilidades de desenvolvimento de dApps, ao mesmo tempo que estabelecemos as bases para um HUB de previsão que abrange outros jogos atualmente em desenvolvimento.
+Aproximadamente um ano atrás, nos aventuramos no mundo dos jogos blockchain com [Coin League](https://coinleague.com/), servindo como um jogo pioneiro com [código-fonte aberto](https://github.com/DexKit/). Este empreendimento nos permitiu aprimorar nossas habilidades de desenvolvimento de dApps, ao mesmo tempo que estabelecemos as bases para um HUB de previsão que abrange outros jogos atualmente em desenvolvimento.
 
 Para garantir a entrega eficaz de preços em tempo real, livre de manipulação ou interrupções, adotamos o [Chainlink](https://chain.link/), o serviço Oracle descentralizado mais eficiente e popular disponível. Ao fazer isso, fornecemos aos nossos jogadores a segurança que somente os jogos hospedados em blockchain podem oferecer.
 
@@ -40,7 +40,7 @@ Além de oferecer produtos excepcionais para nossos esforços de desenvolvimento
 
 ### Apoiar projetos e empreendedores emergentes é a nossa prioridade
 
-Estamos bem cientes de que durante a fase de expansão do Ethereum, [o aumento das taxas de rede e gargalos](https://finance.yahoo.com/news/ethereum-gas-price-surges-unsustainable-160039803.html) exigiu o surgimento de outras redes compatível com ZeroEx. Essas redes tiveram um sucesso notável, [recebendo até mesmo o reconhecimento de Vitalik Buterin, cofundador da Ethereum, como concorrentes formidáveis](https://cointelegraph.com/news/vitalik-shows-support-for-optimism-s-governance-structure -e-op-gás-proposta). Sem mencionar as comunidades substanciais que acumularam e as parcerias valiosas que formaram.
+Estamos bem cientes de que durante a fase de expansão do Ethereum, [o aumento das taxas de rede e gargalos](https://finance.yahoo.com/news/ethereum-gas-price-surges-unsustainable-160039803.html) exigiu o surgimento de outras redes compatível com ZeroEx. Essas redes tiveram um sucesso notável, recebendo até mesmo o reconhecimento de Vitalik Buterin, cofundador da Ethereum, como concorrentes formidáveis. Sem mencionar as comunidades substanciais que acumularam e as parcerias valiosas que formaram.
 
 Esses projetos incluem Avalanche, Fantom, Optimism e Arbitrum, que, junto com Ethereum, Binance Chain e Polygon, são adições essenciais à nossa lista de verificação. Atualmente, estamos adaptando progressivamente os nossos produtos a estas redes, ao mesmo tempo que desenvolvemos novos produtos com base na procura.
 

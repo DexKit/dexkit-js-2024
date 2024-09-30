@@ -22,15 +22,9 @@ Starting from September 1st, 2022, Monthly Jackpot Games will be held! (and repe
 
 You're gonna see how cool those races are! Anyone can win! 🥁🤯
 
-The first jackpot game, called “bull game”
-
-![🐂](https://s.w.org/images/core/emoji/14.0.0/svg/1f402.svg)
-
-, will run for one month, and the entry fee will be 10 $USDT on Polygon (plus minimal $MATIC fees). Future months may vary based on a public poll conducted on Coin League’s Twitter. Price trends may also vary, so we should adapt accordingly
+The first jackpot game, called “bull game” 🐂, will run for one month, and the entry fee will be 10 $USDT on Polygon (plus minimal $MATIC fees). Future months may vary based on a public poll conducted on Coin League’s Twitter. Price trends may also vary, so we should adapt accordingly
 
 ![Bear](/blog-images/beargamecoinleague_moddy-1.gif)
-
-We care a lot all bears out there 🐻
 
 ### Nay to play, but yay to earn?
 

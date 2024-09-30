@@ -10,7 +10,7 @@ category: Blog
 slug: dexkit-asegura-la-subvencion-de-la-fundacion-optimismo
 imageUrl: /blog-images/20230403_Thank-Optimism-blog.png
 ---
-DexKit anunció recientemente que [recibió con éxito una subvención de la Optimism Foundation a través de Retropgf 2] (<https://twitter.com/dexkit/status/1641827063828213762>). La subvención llegó en forma de tokens OP, que DexKit conservará para mostrar su apoyo al proyecto Optimism y su contribución al escalamiento de la red Ethereum. Esta victoria es un testimonio del arduo trabajo y la dedicación del equipo de DexKit, y tiene un gran potencial para la industria DeFi y el ecosistema Ethereum en general.
+DexKit anunció recientemente que [recibió con éxito una subvención de la Optimism Foundation a través de Retropgf 2](https://twitter.com/dexkit/status/1641827063828213762). La subvención llegó en forma de tokens OP, que DexKit conservará para mostrar su apoyo al proyecto Optimism y su contribución al escalamiento de la red Ethereum. Esta victoria es un testimonio del arduo trabajo y la dedicación del equipo de DexKit, y tiene un gran potencial para la industria DeFi y el ecosistema Ethereum en general.
 
 ![Beca de Optimismo](/blog-images/image-25.png)
 

@@ -16,9 +16,7 @@ Un swap es una **transacción entre dos partes en la que intercambian activos o 
 
 En el mundo de las criptomonedas, los intercambios de criptomonedas suelen implicar el intercambio de una criptomoneda por otra a un valor determinado. Por ejemplo, alguien puede cambiar Bitcoin por Ethereum o viceversa. La gente suele hacer esto por varias razones. Su objetivo es **diversificar su cartera**. También quieren **aprovechar las oportunidades de arbitraje**, comprando barato en un mercado y vendiendo caro en otro. Además, a los usuarios les gusta **especular sobre los precios**, apostando a que subirán o bajarán.
 
-![Intercambiar](/blog-images/Imagen-33.png)
-
-Hay una variedad de criptomonedas para explorar en el mundo de las criptomonedas para intercambiar.
+![Intercambiar](/blog-images/Image-33.png)
 
 Entendamos rápidamente el concepto de intercambios de criptomonedas antes de analizar los tipos de intercambios de criptomonedas. **Las bolsas son plataformas donde los usuarios pueden comprar, vender e intercambiar criptomonedas.** Funcionan de forma similar a las bolsas de valores tradicionales, pero se ocupan exclusivamente de activos digitales. En estas plataformas, los usuarios pueden intercambiar criptomonedas entre sí o directamente con el propio intercambio.
 

@@ -21,11 +21,11 @@ export function middleware(request: NextRequest) {
   const pathnameHasLocale = locales.some(locale => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`);
 
   if (pathnameHasLocale) {
-    if (!pathname.startsWith('/en/') && pathname !== '/en') {
-      return NextResponse.next();
+    if (pathname.startsWith('/en/') || pathname === '/en') {
+      const newPathname = pathname.replace(/^\/en/, '');
+      return NextResponse.redirect(new URL(newPathname || '/', request.url));
     }
-    const newPathname = pathname.replace(/^\/en/, '');
-    return NextResponse.redirect(new URL(newPathname || '/', request.url));
+    return NextResponse.next();
   }
 
   if (pathname === '/roadmap/roadmap') {

@@ -11,7 +11,7 @@ slug: >-
   entender-las-criptomonedas-una-guia-manual-para-las-monedas-digitales-descentralizadas
 imageUrl: /blog-images/Cryptocurrencies-blog-1.png
 ---
-Las criptomonedas han conquistado el mundo y ofrecen una alternativa descentralizada a las monedas fiduciarias tradicionales. Hemos visto en las últimas horas como [Bitcoin ha vuelto a su máximo histórico](https://www.coindesk.com/markets/2024/03/05/bitcoin-soars-to-new-all-time-high -above-69k/), desencadenando así un verdadero mercado alcista en el que incluso el inversor menos experimentado es capaz de ganar dinero.
+Las criptomonedas han conquistado el mundo y ofrecen una alternativa descentralizada a las monedas fiduciarias tradicionales. Hemos visto en las últimas horas como [Bitcoin ha vuelto a su máximo histórico](https://www.coindesk.com/markets/2024/03/05/bitcoin-soars-to-new-all-time-high-above-69k/), desencadenando así un verdadero mercado alcista en el que incluso el inversor menos experimentado es capaz de ganar dinero.
 
 Pero ¿qué son exactamente las criptomonedas y cómo funcionan? Esta breve guía pretende responder a estas preguntas sin complejidades. Conocer esta tecnología te posicionará como una persona que conoce lo último en finanzas, con todas las ventajas que eso trae.
 
@@ -78,7 +78,7 @@ A continuación se muestra una lista de riesgos que experimentan los usuarios al
 
 * **Enviar dinero a billeteras equivocadas**: esto es muy común ya que la complejidad en la legibilidad de las billeteras dificulta distinguir entre el destinatario real y otro diferente. Ya existen soluciones para este riesgo, como [ENS (Ethereum Name Service)](https://ens.domains/) que permite al usuario crear una dirección legible por humanos asociada a su billetera, reduciendo drásticamente la incidencia de este riesgo. error.
 * **Phishing**: No lo neguemos, a todos nos gusta que nos digan cosas bonitas y agradables de leer, y más cuando prometen ganancias en criptomonedas con tan solo unos pocos clics. Aquí es donde opera el viejo dicho “si suena genial, probablemente no lo sea”. Los piratas informáticos y los ingenieros sociales pululan por las redes sociales creando proyectos falsos en los que atraen a usuarios desprevenidos para que hagan clic en enlaces envenenados. Miles de usuarios han sufrido pérdidas de fondos con estas estafas en los últimos meses.
-* **Hacks masivos a contratos inteligentes:** ya hemos sido testigos de hacks importantes a protocolos como [Ronin](https://www.techspot.com/news/93988-hackers-steal-over-615-million-ronin -network-supporting.html) (pérdidas de 655 millones de dólares), [Mt.Gox](https://blockonomi.com/mt-gox-hack/) (25.000 Bitcoins en 2011, que hoy es una fortuna) entre otros que sembraron desconfianza entre los inversores. No hay manera de que un usuario quede exento de este tipo de eventos aunque ahora existen normas legales para proteger al inversor.
+* **Hacks masivos a contratos inteligentes:** ya hemos sido testigos de hacks importantes a protocolos como [Ronin](https://www.techspot.com/news/93988-hackers-steal-over-615-million-ronin-network-supporting.html) (pérdidas de 655 millones de dólares), [Mt.Gox](https://blockonomi.com/mt-gox-hack/) (25.000 Bitcoins en 2011, que hoy es una fortuna) entre otros que sembraron desconfianza entre los inversores. No hay manera de que un usuario quede exento de este tipo de eventos aunque ahora existen normas legales para proteger al inversor.
 
 ### Conclusión
 

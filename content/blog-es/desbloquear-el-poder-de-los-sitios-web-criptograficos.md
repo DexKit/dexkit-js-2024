@@ -27,93 +27,93 @@ Para ayudarle a tomar una decisión informada, a continuación le proporcionamos
 
 ### Cadenas compatibles
 
-Arbitrum, Avalancha, Cadena BNB, Ethereum, Optimismo, Polígono
+**Asistente de DexKit**: Arbitrum, Avalancha, Cadena BNB, Ethereum, Optimismo, Polígono
 
-Arbitrum, Avalanche, BNB Chain, Ethereum, Klaytn, Optimismo, Polygon, Solana
+**OpenSea**: Arbitrum, Avalanche, BNB Chain, Ethereum, Klaytn, Optimismo, Polygon, Solana
 
-Ethereum, Tezos, Solana, Polígono
+**Rarible**: Ethereum, Tezos, Solana, Polígono
 
-Etereum
+**Superrare**: Etereum
 
 ### Tipos de tokens
 
-ERC-721, ERC-1155
+**Asistente de DexKit**: ERC-721, ERC-1155
 
-ERC-721, ERC-1155
+**OpenSea**: ERC-721, ERC-1155
 
-ERC-721, ERC-1155
+**Rarible**: ERC-721, ERC-1155
 
-ERC-721
+**Superrare**: ERC-721
 
 ### Honorarios
 
-Desde 0%, elección de los creadores y se puede cambiar en cualquier momento.
+**Asistente de DexKit**: Desde 0%, elección de los creadores y se puede cambiar en cualquier momento.
 
-2,5% encima
+**OpenSea**: 2,5% encima
 
-1% encima
+**Rarible**: 1% encima
 
-3% encima
+**Superrare**: 3% encima
 
 ### Comisariado
 
-Permitir que cualquiera ponga a la venta sus activos digitales
+**Asistente de DexKit**: Permitir que cualquiera ponga a la venta sus activos digitales
 
-Permitir que cualquiera ponga a la venta sus activos digitales
+**OpenSea**: Permitir que cualquiera ponga a la venta sus activos digitales
 
-Permitir que cualquiera ponga a la venta sus activos digitales
+**Rarible**: Permitir que cualquiera ponga a la venta sus activos digitales
 
-Sólo para ciertos artistas.
+**Superrare**: Sólo para ciertos artistas.
 
 ### Comunidad
 
-El creador debe reunir y gestionar su propia comunidad.
+**Asistente de DexKit**: El creador debe reunir y gestionar su propia comunidad.
 
-Gran comunidad activa
+**OpenSea**: Gran comunidad activa
 
-Comunidad medianamente activa
+**Rarible**: Comunidad medianamente activa
 
-Comunidad baja pero comprometida
+**Superrare**: Comunidad baja pero comprometida
 
 ### Tamaño del mercado
 
-Hasta los gastos de publicidad de los creadores.
+**Asistente de DexKit**: Hasta los gastos de publicidad de los creadores.
 
-más grande
+**OpenSea**: Más grande
 
-Moderado
+**Rarible**: Moderado
 
-Pequeño
+**Superrare**: Pequeño
 
 ### Disponibilidad
 
-Mundial
+**Asistente de DexKit**: Mundial
 
-En todo el mundo (con algunas restricciones geográficas). Consulte sus Términos de servicio)
+**OpenSea**: En todo el mundo (con algunas restricciones geográficas). Consulte sus Términos de servicio)
 
-Mundial
+**Rarible**: Mundial
 
-Mundial
+**Superrare**: Mundial
 
 ### Métodos de pago
 
-Depende de los creadores. Se puede importar cualquier token en cualquier red compatible y solicitar el pago.
+**Asistente de DexKit**: Depende de los creadores. Se puede importar cualquier token en cualquier red compatible y solicitar el pago.
 
-ETH, BNB, MATIC, DAI (tokens principales), tarjetas de crédito.
+**OpenSea**: ETH, BNB, MATIC, DAI (tokens principales), tarjetas de crédito.
 
-ETH, MATIC, MoonPay (tarjeta de crédito)
+**Rarible**: ETH, MATIC, MoonPay (tarjeta de crédito)
 
-Sólo ETH
+**Superrare**: Sólo ETH
 
 ### Limitaciones
 
-Imposible de prohibir. Nadie gestiona las bases de datos de los usuarios. Propiedad total para el usuario
+**Asistente de DexKit**: Imposible de prohibir. Nadie gestiona las bases de datos de los usuarios. Propiedad total para el usuario
 
-Ser prohibido es posible. Base de datos centralizada.
+**OpenSea**: Ser prohibido es posible. Base de datos centralizada.
 
-Ser prohibido es posible. Base de datos centralizada.
+**Rarible**: Ser prohibido es posible. Base de datos centralizada.
 
-Ser prohibido es posible. Base de datos centralizada.
+**Superrare**: Ser prohibido es posible. Base de datos centralizada.
 
 ## Conclusión
 

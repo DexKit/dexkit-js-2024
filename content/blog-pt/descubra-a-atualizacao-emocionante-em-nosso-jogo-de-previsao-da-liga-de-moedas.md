@@ -19,7 +19,7 @@ Na DexKit, mantivemos nossas promessas de roteiro, apesar dos mercados em baixa.
 
 ### USDT 💲 stablecoin: a porta de entrada para jogar e recompensar
 
-Informamos que o contrato USDT na rede Polygon permanece inalterado \[verifique aqui: [https://polygonscan.com/token/0xc2132d05d31c914a87c6611c10748aeb04b58e8f](https://polygonscan.com/token/0xc2132d05d31c914a87c6611c1074 8aeb04b58e8f)\].
+Informamos que o contrato USDT na rede Polygon permanece inalterado [verifique aqui](https://polygonscan.com/token/0xc2132d05d31c914a87c6611c10748aeb04b58e8f).
 
 ![Modos de jogo da Coin League](/blog-images/image-3.png)
 
@@ -27,7 +27,7 @@ Além de possuir $USDT para participar, os jogadores são obrigados a possuir al
 
 ### Dezenas de novos tokens entram na liga! ♂️♀️♂️♂️
 
-[$SHIB](https://shibatoken.com/), [$RARI](http://rari.capital/), [$SLP](https://coinmarketcap.com/currencies/smooth-love-potion /), [$PICKLE](https://www.pickle.finance/), [$OCEAN](https://oceanprotocol.com/), [$KLAY](https://klaytn.foundation/), [$GHST](https://www.aavegotchi.com/), [$FTT](https://coinmarketcap.com/currencies/ftx-token/), [$APE](https://apecoin.com /) e muitos outros se alinham ansiosamente para competir no domínio das previsões, transformando jogadores em traders especializados por meio da participação regular na Coin League.
+[$SHIB](https://shibatoken.com/), [$RARI](http://rari.capital/), [$SLP](https://coinmarketcap.com/currencies/smooth-love-potion), [$PICKLE](https://www.pickle.finance/), [$OCEAN](https://oceanprotocol.com/), [$KLAY](https://klaytn.foundation/), [$GHST](https://www.aavegotchi.com/), [$FTT](https://coinmarketcap.com/currencies/ftx-token/), [$APE](https://apecoin.com/) e muitos outros se alinham ansiosamente para competir no domínio das previsões, transformando jogadores em traders especializados por meio da participação regular na Coin League.
 
 ![Análise de preços da Coin League](/blog-images/image-7.png)
 
@@ -43,7 +43,7 @@ Este recurso contribui significativamente para uma experiência de jogo mais jus
 
 ### Principais atualizações
 
-* Desassociação da Coleção NFT da BitBoy Crypto: É fundamental reconhecer que a coleção de Campeões NFT atribuída ao BitBoy Crypto (Ben Armstrong) e sua equipe foi oficialmente desassociada, conforme comunicado anteriormente por João Campos, Head Developer \[consulte o documento lançado anteriormente\]. O DexKit não oferece mais suporte a essa coleção, e qualquer associação entre o DexKit e essa coleção NFT específica é anulada.
+* Desassociação da Coleção NFT da BitBoy Crypto: É fundamental reconhecer que a coleção de Campeões NFT atribuída ao BitBoy Crypto (Ben Armstrong) e sua equipe foi oficialmente desassociada, conforme comunicado anteriormente por João Campos, Head Developer. O DexKit não oferece mais suporte a essa coleção, e qualquer associação entre o DexKit e essa coleção NFT específica é anulada.
 * Pequenas correções de interface, otimização de gás de rede, melhoria de roteamento, entre outros.
 
 ![Tenha uma boa vida meme](/blog-images/haveanicelife.gif)
@@ -52,7 +52,7 @@ Obrigado, BitBoy Squad, por todos os seus serviços e boas vibrações através 
 
 ### Apresentando uma nova coleção NFT no jogo
 
-A DexKit desenvolverá sua própria coleção NFT, com ofertas exclusivas e skins surpreendentes (estamos até considerando skins radicais para a coleção 🤔). Aceitamos sugestões em nosso servidor Discord. Essas ofertas desbloquearão acesso a maiores ganhos no jogo, bem como fornecerão aos jogadores NFTs gratuitos. Além disso, planejamos implementar [OATs](https://docs.galaxy.eco/into-the-galaxy/galaxy-oat/) 👑 (em colaboração com o [Project Galaxy](https://galxe.com/) ) como um mecanismo de recompensa para os melhores jogadores em várias disciplinas de jogo.
+A DexKit desenvolverá sua própria coleção NFT, com ofertas exclusivas e skins surpreendentes (estamos até considerando skins radicais para a coleção 🤔). Aceitamos sugestões em nosso servidor Discord. Essas ofertas desbloquearão acesso a maiores ganhos no jogo, bem como fornecerão aos jogadores NFTs gratuitos. Além disso, planejamos implementar [OATs](https://docs.galaxy.eco/into-the-galaxy/galaxy-oat/) 👑 em colaboração com o [Project Galaxy](https://galxe.com/) como um mecanismo de recompensa para os melhores jogadores em várias disciplinas de jogo.
 
 ![Projeto Galáxia](/blog-images/image-5.png)
 

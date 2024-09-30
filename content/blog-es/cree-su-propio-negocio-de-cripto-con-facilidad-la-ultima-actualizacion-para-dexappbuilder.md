@@ -11,7 +11,7 @@ slug: >-
   cree-su-propio-negocio-de-cripto-con-facilidad-la-ultima-actualizacion-para-dexappbuilder
 imageUrl: /blog-images/DexAppBuilderblog-1200x630-1.png
 ---
-En reconocimiento a nuestro compromiso de crear herramientas descentralizadas que brinden a nuestros clientes y usuarios una propiedad genuina y sin cargas sobre sus activos, hemos implementado una variedad de mejoras en la última actualización de nuestro [creador de mercado NFT] (<https://whitelabel-nft.dexkit.com/>), lo que lo hace verdaderamente distintivo en su enfoque.
+En reconocimiento a nuestro compromiso de crear herramientas descentralizadas que brinden a nuestros clientes y usuarios una propiedad genuina y sin cargas sobre sus activos, hemos implementado una variedad de mejoras en la última actualización de nuestro [creador de mercado NFT](https://whitelabel-nft.dexkit.com/), lo que lo hace verdaderamente distintivo en su enfoque.
 
 Sin embargo, antes de profundizar en las nuevas e interesantes funciones, nos gustaría anunciar que **hemos bautizado a nuestro creador de mercado NFT como DexAppBuilder**, **su CMS para web3**, que le permite crear aplicaciones descentralizadas excepcionales para su negocio.
 
@@ -35,4 +35,4 @@ Nuestra actualización más reciente transforma nuestro producto en un socio só
 
 Visite la [documentación de este producto](https://docs.dexkit.com/defi-products/nft-marketplace/overview) para iniciar su negocio de cifrado con DexKit hoy o visite nuestro canal de YouTube y mire los [videos instructivos](https://www.youtube.com/watch?v=UHPY3CIx6G4).
 
-Si su requisito va más allá de las características de nuestros productos, no dude en [comunicarse con nosotros](https://www.dexkit.com/contact-us/) en cualquiera de esos significados o visitar nuestro [servidor de Discord](https:/ /discord.com/invite/GJCRu4CYFH). El equipo principal está ahí y su requerimiento será respondido rápidamente.
+Si su requisito va más allá de las características de nuestros productos, no dude en [comunicarse con nosotros](https://dexkit.com/contact-us/) en cualquiera de esos significados o visitar nuestro [servidor de Discord](https://discord.com/invite/GJCRu4CYFH). El equipo principal está ahí y su requerimiento será respondido rápidamente.

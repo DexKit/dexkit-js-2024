@@ -24,7 +24,7 @@ Você vai pegar esses caras caso ganhe! Boa sorte! 🥳
 
 O vencedor será selecionado aleatoriamente com base na quantidade de pontos acumulados através do nosso formulário. **Cada ponto equivale a uma entrada no sorteio final.** Por exemplo, se você ganhar cinco pontos, terá cinco entradas, aumentando suas chances de ganhar.
 
-O sorteio acontecerá no domingo, 12 de junho deste ano, em nosso [servidor Discord](https://discord.com/invite/GJCRu4CYFH), usando o site [random.org](https://www.random. org/) gerador de números. Também transmitiremos o sorteio ao vivo no [canal do DexKit no YouTube](https://www.youtube.com/c/dexkit), então certifique-se de estar inscrito para a emocionante revelação.
+O sorteio acontecerá no domingo, 12 de junho deste ano, em nosso [servidor Discord](https://discord.com/invite/GJCRu4CYFH), usando o site [random.org](https://www.random.org/) gerador de números. Também transmitiremos o sorteio ao vivo no [canal do DexKit no YouTube](https://www.youtube.com/c/dexkit), então certifique-se de estar inscrito para a emocionante revelação.
 
 Todos os detalhes e tarefas do concurso estão [disponíveis no formulário](https://buff.ly/3wC8La2). Se você tiver alguma dúvida, não hesite em entrar em contato conosco pelo [Discord](https://discord.com/invite/GJCRu4CYFH) ou [Telegram](https://t.me/dexkit). Nossa equipe está sempre disponível para atendê-lo.
 
