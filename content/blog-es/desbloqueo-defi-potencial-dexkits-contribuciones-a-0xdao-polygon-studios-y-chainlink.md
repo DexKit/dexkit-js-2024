@@ -20,7 +20,7 @@ Nuestro estimado desarrollador principal, [João Campos](https://dexkit.com/abo
 
 João hizo recientemente contribuciones importantes al [desarrollo de la funcionalidad comercial de NFT dentro del protocolo 0x](https://twitter.com/0xCommunityDAO/status/1501630674817671170). Este avance permite el comercio directo de NFT sin depender de tokens ERC20. Vale la pena señalar que esta es la primera solución comercial NFT completamente funcional que utiliza contratos 0x v4.
 
-«[Descubra cómo puede implementar su propio mercado NFT de forma gratuita leyendo aquí](https://dexkit.com/were-the-first-project-in-the-whole-world-providing-this-nft-tool/ )»
+«[Descubra cómo puede implementar su propio mercado NFT de forma gratuita leyendo aquí](https://dexkit.com/es/blog/de-las-ideas-al-exito-dexkits-ultima-actualizacion)»
 
 ### También recibimos valiosas contribuciones de Polygon Studios😎
 

@@ -21,7 +21,7 @@ Además, DexKit ha introducido un widget de precios para $KIT en el blog de su n
 
 Una integración ligera, útil y bien estilizada, impulsada por crypto.com
 
-### Sobre el socio
+### Sobre el partner
 
 Crypto.com, fundada en 2016, se ha convertido rápidamente en una destacada plataforma mundial de criptomonedas. Al ofrecer un ecosistema criptográfico integral, Crypto.com ofrece varios servicios, como la aplicación Crypto.com, Crypto.com Exchange, Crypto.com DeFi Wallet, DeFi Swap, Crypto.com Visa Cards, Crypto Earn, Crypto Credit, Price Page, NFT. mercado, rastreador de tarifas de gas Ethereum y mucho más.
 

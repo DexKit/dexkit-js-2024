@@ -47,7 +47,7 @@ DexKit se erige como una startup pionera de software blockchain, dedicada a demo
 
 Comenzar a contribuir a la evolución de DexAppBuilder es sencillo. Simplemente siga los pasos a continuación:
 
-Visite [nuestro repositorio de GitHub](https://github.com/DexKit/dexkit-open-monorepo) para acceder a todo lo que necesita para sumergirse en el desarrollo abierto de Monorepo de DexAppBuilder;
+Visite [nuestro repositorio de GitHub](https://github.com/DexKit/dexkit-open-monorepo) para acceder a todo lo que necesita para sumergirse en el desarrollo abierto de Monorepo de DexAppBuilder.
 
 1. Bifurque el repositorio en su dispositivo, luego clónelo (descárguelo) y abra el zip extraído con su intérprete de código preferido. Usaremos [VS Code](https://code.visualstudio.com/download) para nuestros ejemplos e implementaciones porque es la herramienta más amigable para los desarrolladores;
 2. Suponiendo que tiene el repositorio, ejecute `yarn` en la terminal y espere a que se descarguen todas las dependencias;
@@ -72,11 +72,11 @@ En DexKit, creemos firmemente en el poder de la colaboración de código abierto
 
 * 🏅 **Exhibición de tus proyectos:** Mostraremos con orgullo proyectos e innovaciones destacados creados por colaboradores, brindándote visibilidad y reconocimiento por tu trabajo excepcional dentro de la comunidad.
 
-* 📈´**Crecimiento profesional:** Al participar activamente en el desarrollo de DexAppBuilder, puede mejorar su reputación como desarrollador de blockchain, lo que podría abrir puertas a emocionantes oportunidades profesionales y reconocimiento de la industria.
+* 📈 **Crecimiento profesional:** Al participar activamente en el desarrollo de DexAppBuilder, puede mejorar su reputación como desarrollador de blockchain, lo que podría abrir puertas a emocionantes oportunidades profesionales y reconocimiento de la industria.
 
 ### Construyamos juntos el futuro de DeFi
 
 DexKit se compromete a empoderar a los criptoempresarios y reconocemos que esta misión sólo se puede lograr mediante la colaboración. Al unir fuerzas, podemos crear un panorama financiero descentralizado que sea inclusivo, eficiente y seguro para todos. Aproveche esta increíble oportunidad de crecimiento, reconocimiento y colaboración en el mundo de Web3 al convertirse en parte de nuestra comunidad dinámica que impulsa la evolución de DeFi. Únase a nosotros y deje su huella en el futuro de la tecnología blockchain. Gracias por considerar nuestra invitación. ¡Juntos, liberemos todo el potencial de DeFi con DexAppBuilder!
 
-Feliz codificación,
+Feliz desarrollo,
 Equipo DexKit.

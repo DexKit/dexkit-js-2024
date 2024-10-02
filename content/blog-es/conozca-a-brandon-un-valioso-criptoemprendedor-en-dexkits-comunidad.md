@@ -20,7 +20,7 @@ Sin más preámbulos, y emocionados de compartir las experiencias de Brandon, pr
 
 “Mi nombre es Brandon y vivo en Nueva York. Siempre me han interesado las criptomonedas y las NFT. Hago arte y ropa y siempre quise incorporar NFT en mi obra de arte”.
 
-**Nota del autor:**  [Ken](https://nft.dpoisn.com/), otro creador destacado de nuestra comunidad, está tan entusiasmado con DexAppBuilder como Brandon. "Usar DexAppBuilder ha transformado mi proceso creativo, permitiéndome concentrarme en mi arte mientras aprovecho la tecnología de vanguardia", dice Ken.
+**Nota del autor:** [Ken](https://nft.dpoisn.com/), otro creador destacado de nuestra comunidad, está tan entusiasmado con DexAppBuilder como Brandon. "Usar DexAppBuilder ha transformado mi proceso creativo, permitiéndome concentrarme en mi arte mientras aprovecho la tecnología de vanguardia", dice Ken.
 
 ### ¿Qué te llevó a descubrir los productos DexKit y por qué decidiste utilizarlos para tus proyectos NFT?
 
@@ -35,7 +35,7 @@ Sin más preámbulos, y emocionados de compartir las experiencias de Brandon, pr
 Para los creadores que buscan construir sin experiencia en codificación, DexAppBuilder ofrece:
 
 * **Interfaz sin código/código bajo:** Nuestra plataforma presenta una interfaz intuitiva que permite el desarrollo sin necesidad de experiencia en codificación.
-* **Plantillas personalizables:** Las [plantillas] versátiles (<https://dexappbuilder.dexkit.com/site/templates>) dentro de DexAppBuilder se pueden adaptar para satisfacer las necesidades específicas de su proyecto.
+* **Plantillas personalizables:** Las [plantillas versátiles](https://dexappbuilder.dexkit.com/site/templates) dentro de DexAppBuilder se pueden adaptar para satisfacer las necesidades específicas de su proyecto.
 * **Integraciones perfectas:** DexAppBuilder se integra automáticamente con liquidez 0x y se conecta perfectamente con servicios externos como [Darkblock](https://www.darkblock.io/) y muchos otros.
 
 Estas son algunas de las soluciones que los usuarios pueden incluir actualmente en sus DApps creadas con DexAppBuilder:

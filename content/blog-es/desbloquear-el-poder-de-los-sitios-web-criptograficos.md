@@ -17,13 +17,13 @@ Como se mencionó y describió en ediciones anteriores, nuestro [Asistente de cr
 
 Para ayudarle a tomar una decisión informada, a continuación le proporcionamos una tabla comparativa que muestra las características de los tres principales actores de la industria de los coleccionables digitales junto con nuestro producto. Esta tabla le servirá como referencia rápida para ayudarle a identificar la opción más adecuada según sus necesidades específicas.
 
-**[Asistente de DexKit](https://whitelabel-nft.dexkit.com/admin/create?_ga=2.19318648.1506910254.1705192601-1648656589.1702664712)**
+**[Asistente de DexKit](https://whitelabel-nft.dexkit.com/admin/create)**
 
 **[OpenSea](https://opensea.io/)**
 
 **[Rarible](https://rarible.com/)**
 
-**[Superraro](https://superrare.com/)**
+**[Superrare](https://superrare.com/)**
 
 ### Cadenas compatibles
 

@@ -15,9 +15,9 @@ imageUrl: /blog-images/Jackpot-Game_DexKit-blog.png
 ---
 DexKit ha desarrollado planes estratégicos para permitir que todos los aspirantes a comerciantes (incluidos aquellos con tracción) ganen monedas estables participando en Coin League, convirtiéndolo en su juego educativo y rentable favorito. Tomemos una taza de café ☕ juntos.
 
-¡A partir del 1 de septiembre de 2022, se llevarán a cabo juegos de jackpot mensuales! (y repetido el día 1 de cada mes, en función del interés que genere esta iniciativa). Estos juegos ofrecen la oportunidad de ganar un premio acumulado de 500 USDT\* ([haga clic aquí para participar](https://app.dexkit.com/coin-league/16)).
+¡A partir del 1 de septiembre de 2022, se llevarán a cabo juegos de jackpot mensuales! (y repetido el día 1 de cada mes, en función del interés que genere esta iniciativa). Estos juegos ofrecen la oportunidad de ganar un premio acumulado de 500 USDT* [haga clic aquí para participar](https://app.dexkit.com/coin-league/16).
 
-\*El monto del premio final estará determinado por el número total de jugadores. Por cada grupo de diez jugadores, DexKit aportará 50 $USDT adicionales, aumentando el premio a 100 $USDT (10 jugadores \* 10 $USDT cada uno) más 50 $USDT extra (bono del equipo de DexKit), a dividir entre los tres primeros ganadores. Este patrón continúa para cada grupo adicional de diez jugadores, por lo que si la sala se llena con cincuenta jugadores, los ganadores compartirán 750 $USDT. Se espera que esta iniciativa atraiga a numerosas personas interesadas que estén ansiosas por jugar y ganar dinero a través de referencias.
+\*El monto del premio final estará determinado por el número total de jugadores. Por cada grupo de diez jugadores, DexKit aportará 50 $USDT adicionales, aumentando el premio a 100 $USDT (10 jugadores, 10 $USDT cada uno) más 50 $USDT extra (bono del equipo de DexKit), a dividir entre los tres primeros ganadores. Este patrón continúa para cada grupo adicional de diez jugadores, por lo que si la sala se llena con cincuenta jugadores, los ganadores compartirán 750 $USDT. Se espera que esta iniciativa atraiga a numerosas personas interesadas que estén ansiosas por jugar y ganar dinero a través de referencias.
 
 ![Carrera de la Liga de Monedas](/blog-images/coin_league_race_1.png)
 

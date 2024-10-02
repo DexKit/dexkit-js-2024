@@ -22,15 +22,15 @@ Bitcoin trasciende ser sólo una moneda; **Es oro digital, adoptado globalmente 
 
 La identidad del creador de Bitcoin sigue siendo un misterio, y tal vez siga siéndolo.
 
-#### Pros y contras de Bitcoin
+### Pros y contras de Bitcoin
 
-##### Ventajas
+#### Ventajas
 
 * Suministro limitado limitado a 21 millones (oro digital)
-*Descentralización extrema.
+* Descentralización extrema.
 * Accesibilidad global. Cualquier persona en el mundo puede obtener Bitcoin.
 
-##### Contras
+#### Contras
 
 * Desafíos de escalabilidad. Las velocidades de transacción son bajas (en comparación con otros activos) y en su mayoría caras.
 * Preocupaciones por el consumo de energía.
@@ -47,7 +47,7 @@ La Oferta Inicial de Monedas (ICO) de Ethereum de 2014 fue un carnaval de innova
 
 Ethereum ha abierto oportunidades de negocio para personas de todo el mundo, sin distinciones.
 
-#### Pros y contras de Ethereum
+### Pros y contras de Ethereum
 
 #### Ventajas de usar Ethereum
 
@@ -56,7 +56,7 @@ Ethereum ha abierto oportunidades de negocio para personas de todo el mundo, sin
 * Aceptación global y casos de uso.
 * Comunidad de desarrollo activo
 
-Contras de usar Ethereum
+#### Contras de usar Ethereum
 
 * Desafíos de escalabilidad en cuanto a velocidad, costos de transacción y seguridad.
 * Complejidad para los recién llegados. No hay suficiente abstracción para los novatos.
