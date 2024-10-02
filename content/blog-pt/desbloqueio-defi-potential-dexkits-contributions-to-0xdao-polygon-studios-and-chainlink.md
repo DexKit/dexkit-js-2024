@@ -20,7 +20,7 @@ Nosso estimado desenvolvedor líder, [João Campos](https://docs.dexkit.com/wel
 
 João recentemente fez contribuições significativas para o [desenvolvimento da funcionalidade de negociação NFT dentro do protocolo 0x](https://twitter.com/0xCommunityDAO/status/1501630674817671170). Esta inovação permite a negociação direta de NFT sem depender de tokens ERC20. É importante notar que esta é a primeira solução de negociação NFT totalmente funcional utilizando contratos 0x v4.
 
-«[Descubra como você pode implantar seu próprio mercado NFT gratuitamente lendo aqui](https://dexkit.com/were-the-first-project-in-the-whole-world-providing-this-nft-tool/ )»
+«[Descubra como você pode implantar seu próprio mercado NFT gratuitamente lendo aqui](https://dexkit.com/pt/blog/construa-seu-proprio-negocio-de-criptografia-com-facilidade-ultima-atualizacao-para-dexappbuilder)»
 
 ### Também recebemos contribuições valiosas da Polygon Studios😎
 

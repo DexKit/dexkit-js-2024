@@ -16,7 +16,7 @@ Conforme mencionado e descrito nas edições anteriores, nosso [Crypto Website B
 
 Para ajudá-lo a tomar uma decisão informada, fornecemos uma tabela comparativa abaixo, mostrando as características dos três principais players da indústria de colecionáveis digitais junto com nosso produto. Esta tabela servirá como uma referência rápida para ajudá-lo a identificar a opção mais adequada com base nas suas necessidades específicas.
 
-**[Assistente por DexKit](https://whitelabel-nft.dexkit.com/admin/create?_ga=2.19318648.1506910254.1705192601-1648656589.1702664712)**
+**[Assistente por DexKit](https://whitelabel-nft.dexkit.com/admin/create)**
 
 **[OpenSea](https://opensea.io/)**
 
@@ -30,9 +30,9 @@ Para ajudá-lo a tomar uma decisão informada, fornecemos uma tabela comparativa
 
 **OpenSea:** Arbitrum, Avalanche, Cadeia BNB, Ethereum, Klaytn, Otimismo, Polígono, Solana
 
-**Rarível:** Ethereum, Tezos, Solana, Polígono
+**Rarible:** Ethereum, Tezos, Solana, Polígono
 
-**Superraro:** Ethereum
+**Superrare:** Ethereum
 
 ### Tipos de token
 
@@ -40,9 +40,9 @@ Para ajudá-lo a tomar uma decisão informada, fornecemos uma tabela comparativa
 
 **OpenSea:** ERC-721, ERC-1155
 
-**Rarível:** ERC-721, ERC-1155
+**Rarible:** ERC-721, ERC-1155
 
-**Superraro:** ERC-721
+**Superrare:** ERC-721
 
 ### Tarifas
 
@@ -50,9 +50,9 @@ Para ajudá-lo a tomar uma decisão informada, fornecemos uma tabela comparativa
 
 **OpenSea:** 2,5% no topo
 
-**Rarível:** 1% no topo
+**Rarible:** 1% no topo
 
-**Superraro:** 3% no topo
+**Superrare:** 3% no topo
 
 ### Curadoria
 
@@ -60,9 +60,9 @@ Para ajudá-lo a tomar uma decisão informada, fornecemos uma tabela comparativa
 
 **OpenSea:** Permitir que qualquer pessoa liste seus ativos digitais para venda
 
-**Rarível:** Permitir que qualquer pessoa liste seus ativos digitais para venda
+**Rarible:** Permitir que qualquer pessoa liste seus ativos digitais para venda
 
-**Superraro:** Apenas para alguns artistas
+**Superrare:** Apenas para alguns artistas
 
 ### Comunidade
 
@@ -70,9 +70,9 @@ Para ajudá-lo a tomar uma decisão informada, fornecemos uma tabela comparativa
 
 **OpenSea:** Grande comunidade ativa
 
-**OpenSea:** Comunidade média ativa
+**Rarible:** Comunidade média ativa
 
-**Rarível:** Comunidade baixa, mas engajada
+**Superrare:** Comunidade baixa, mas engajada
 
 ### Tamanho do mercado
 
@@ -80,9 +80,9 @@ Para ajudá-lo a tomar uma decisão informada, fornecemos uma tabela comparativa
 
 **OpenSea:** Maior
 
-**OpenSea:** Moderado
+**Rarible:** Moderado
 
-**Rarível:** Pequeno
+**Superrare:** Pequeno
 
 ### Disponibilidade
 
@@ -90,9 +90,9 @@ Para ajudá-lo a tomar uma decisão informada, fornecemos uma tabela comparativa
 
 **OpenSea:** Em todo o mundo (com algumas restrições geográficas). Verifique seus Termos de Serviço)
 
-**Rarível:** Mundialmente
+**Rarible:** Mundialmente
 
-**Superraro:** Mundialmente
+**Superrare:** Mundialmente
 
 ### Métodos de pagamento
 
@@ -100,9 +100,9 @@ Para ajudá-lo a tomar uma decisão informada, fornecemos uma tabela comparativa
 
 **OpenSea:** ETH, BNB, MATIC, DAI (top tokens), cartões de crédito.
 
-**Rarível:** ETH, MATIC, MoonPay (cartão de crédito)
+**Rarible:** ETH, MATIC, MoonPay (cartão de crédito)
 
-**Superraro:** Apenas ETH
+**Superrare:** Apenas ETH
 
 ### Limitações
 
@@ -110,9 +110,9 @@ Para ajudá-lo a tomar uma decisão informada, fornecemos uma tabela comparativa
 
 **OpenSea:** Ser banido é possível. Banco de dados centralizado.
 
-**Rarível:** Ser banido é possível. Banco de dados centralizado.
+**Rarible:** Ser banido é possível. Banco de dados centralizado.
 
-**Superraro:** Ser banido é possível. Banco de dados centralizado.
+**Superrare:** Ser banido é possível. Banco de dados centralizado.
 
 ## Conclusão
 

@@ -52,7 +52,7 @@ As criptomoedas, que promovem o anonimato, atraem diversos indivíduos que expre
 
 ### Tipos de criptomoedas
 
-Existem vários tipos de criptomoedas. Dentre as diversas classificações, podemos dividir as criptomoedas em três categorias: **consumidor**, **governança** e **infraestrutura**. Escrevemos uma [postagem no blog sobre essas categorias](https://dexkit.com/real-world-cryptocurrency-exploration-consumer-infrastructure-and-governance-tokens/) e incentivamos você a lê-la para se aprofundar mais fundo neles
+Existem vários tipos de criptomoedas. Dentre as diversas classificações, podemos dividir as criptomoedas em três categorias: **consumidor**, **governança** e **infraestrutura**. Escrevemos uma [postagem no blog sobre essas categorias](https://dexkit.com/pt/blog/tokens-de-infraestrutura-e-governanca-de-consumo-de-criptomoeda-do-mundo-real) e incentivamos você a lê-la para se aprofundar mais fundo neles
 
 ### Vantagens de usar criptomoedas
 

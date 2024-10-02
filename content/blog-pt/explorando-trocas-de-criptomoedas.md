@@ -59,7 +59,7 @@ CEXs e DEXs têm diferenças marcantes que por sua vez se tornam complementares 
 
 O DexKit desempenha um papel importante no mundo das finanças descentralizadas ao desenvolver o [DexAppBuilder](https://dexappbuilder.dexkit.com), que serve como uma plataforma geradora de DApp para qualquer pessoa e casos de uso infinitos, desde agregadores DEX (com liquidez conectada a 0x) para mercados e coleções NFT, conteúdo fechado para fãs, blogs monetizados e muito mais.
 
-###DexSwap
+### DexSwap
 
 Dentro do ecossistema DexAppBuilder, DexSwap se destaca como uma plataforma de swap descentralizada e produto de marca branca. Facilita a troca fácil de criptomoedas, agregando liquidez de múltiplas fontes. O DexSwap otimiza as taxas do gás, reduzindo as taxas de derrapagem e os custos de transação para os traders. Oferecendo recursos como troca de tokens em pools de liquidez 0x, colocação de pedidos com limite e adição de liquidez a pools, o DexSwap simplifica a experiência de negociação para os usuários. Opera em múltiplas redes, tornando-se uma ferramenta inovadora e poderosa para comerciantes que procuram negociar criptomoedas de forma eficiente.
 

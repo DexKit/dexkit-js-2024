@@ -9,7 +9,7 @@ category: Community
 slug: descubra-a-atualizacao-emocionante-em-nosso-jogo-de-previsao-da-liga-de-moedas
 imageUrl: /blog-images/stadium2222.png
 ---
-Uma atualização extraordinária foi anunciada e implantada em nosso notável jogo de previsões, [Coin League](https://app.dexkit.com/coin-league)**, onde estamos passando por uma transição da moeda nativa, $MATIC, para $USDT na rede Polygon**. Este movimento estratégico, que foi extensivamente consultado e meticulosamente planeado, visa garantir recompensas justas para os vencedores das previsões e aumentar o seu envolvimento com a plataforma.
+Uma atualização extraordinária foi anunciada e implantada em nosso notável jogo de previsões, [Coin League](https://app.dexkit.com/coin-league), **onde estamos passando por uma transição da moeda nativa, $MATIC, para $USDT na rede Polygon**. Este movimento estratégico, que foi extensivamente consultado e meticulosamente planeado, visa garantir recompensas justas para os vencedores das previsões e aumentar o seu envolvimento com a plataforma.
 
 Reconhecendo a necessidade de otimizar o desempenho económico para traders e jogadores, esta conversão para $USDT na rede Polygon surgiu como a solução mais viável. É particularmente digno de nota considerando que a nossa equipa dedicada tem trabalhado persistentemente em melhorias adicionais dentro do #SuperApp, mesmo em meio a um mercado baixista desafiador, o que pode desiludir até mesmo os apoiadores mais fervorosos e obrigá-los a se desligarem.
 

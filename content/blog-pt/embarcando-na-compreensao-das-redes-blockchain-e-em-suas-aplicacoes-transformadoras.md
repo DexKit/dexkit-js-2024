@@ -46,7 +46,7 @@ O [criador DApp DexAppBuilder](https://dexappbuilder.dexkit.com), principal prod
 As cadeias de abastecimento podem operar de forma mais eficiente graças ao Blockchain
 
 * **Para artistas:** O blockchain pode permitir que os artistas ganhem royalties por suas criações com mais facilidade, por não ter entidades intermediárias (gravadoras, representantes, agentes) que reduzam os ganhos do artista. Projetos como [Arpeggi](https://landing.arpeggi.io/) tornam mais fácil para os músicos fazerem arranjos e composições musicais e, posteriormente, criarem NFTs.
-* **Para jogos:** O blockchain dá aos jogadores a propriedade sobre os itens obtidos em um determinado jogo construído nele. Isso representa um progresso incrível para a indústria de videogames e uma injeção de confiança para os jogadores que muitas vezes passam milhares de horas jogando sem qualquer recompensa palpável ou irrevogável. No passado, publicamos uma [postagem em nosso blog](http://localhost:3000/blog/exploring-the-world-of-blockchain-games) sobre este tópico, e convidamos você a lê-lo.
+* **Para jogos:** O blockchain dá aos jogadores a propriedade sobre os itens obtidos em um determinado jogo construído nele. Isso representa um progresso incrível para a indústria de videogames e uma injeção de confiança para os jogadores que muitas vezes passam milhares de horas jogando sem qualquer recompensa palpável ou irrevogável. No passado, publicamos uma [postagem em nosso blog](https://dexkit.com/pt/blog/explorando-o-mundo-dos-jogos-blockchain) sobre este tópico, e convidamos você a lê-lo.
 
 ![Batalha do Axie Infinity](/blog-images/axie.jpg)
 
