@@ -8,7 +8,7 @@ category: Blog
 slug: dexkits-agregador-dex-perfecto-y-personalizable
 imageUrl: /blog-images/compared.jpg
 ---
-¡Hola, DeFinauts! 🐱‍🚀🙋‍♂️Si eres nuevo en nuestros fantásticos productos, es posible que no conozcas nuestro [agregador DEX súper eficiente](https://swap.dexkit.com) creado hace mucho tiempo. Lo logramos tomando ideas de Uniswap v2 y agregando un sistema de enrutamiento súper inteligente que puede competir cara a cara con cualquier plataforma superior.
+¡Hola, DeFinautas! 🐱‍🚀🙋‍♂️Si eres nuevo en nuestros fantásticos productos, es posible que no conozcas nuestro [agregador DEX súper eficiente](https://swap.dexkit.com) creado hace mucho tiempo. Lo logramos tomando ideas de Uniswap v2 y agregando un sistema de enrutamiento súper inteligente que puede competir cara a cara con cualquier plataforma superior.
 
 Iniciamos un proyecto que permite a los usuarios crear versiones personalizadas del agregador DEX, utilizando nuestro producto de marca blanca inspirado en el diseño de Uniswap v2. Muchos entusiastas de las criptomonedas han adoptado esta función y dependen de nuestro sistema para sus actividades comerciales diarias. Esto nos ha ayudado a acumular un volumen de API impresionante, beneficiando simultáneamente a todos los que la usaron para sus operaciones, ya sea directamente a través de nuestro enlace o mediante cualquier solución de marca blanca diseñada con nuestras herramientas.
 
@@ -22,4 +22,4 @@ La integración nueva y mejorada facilita la configuración de su propio agregad
 
 * * *
 
-Consulte la [documentación actualizada] (<https://docs.dexkit.com/defi-products/dexswap/overview>) y aprenda cómo implementar su propia copia.
+Consulte la [documentación actualizada](https://docs.dexkit.com/defi-products/dexswap/overview) y aprenda cómo implementar su propia copia.

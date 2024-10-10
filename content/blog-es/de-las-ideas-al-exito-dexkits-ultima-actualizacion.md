@@ -43,20 +43,20 @@ Estamos buscando activamente socios y patrocinadores que nos ayuden a mejorar nu
 
 Obtenga más información sobre las nuevas actualizaciones:
 
-* * **Implementación de mercado simplificada:** Solo necesita una dirección de correo electrónico para comenzar el proceso de implementación. Este asistente fácil de usar lo guiará a través de los pasos necesarios.
+* **Implementación de mercado simplificada:** Solo necesita una dirección de correo electrónico para comenzar el proceso de implementación. Este asistente fácil de usar lo guiará a través de los pasos necesarios.
 
-* * **Personalizaciones mejoradas:** Los usuarios ahora pueden agregar páginas personalizables con bloques de texto, encabezados, imágenes, videos, secciones de código y otros recursos. Además, ahora es posible incluir un encabezado y pie de página estáticos en su mercado NFT, con sus enlaces a redes sociales.
+* **Personalizaciones mejoradas:** Los usuarios ahora pueden agregar páginas personalizables con bloques de texto, encabezados, imágenes, videos, secciones de código y otros recursos. Además, ahora es posible incluir un encabezado y pie de página estáticos en su mercado NFT, con sus enlaces a redes sociales.
 
-* * **Corrección de errores:** Como herramienta beta, encontramos algunos errores menores durante el proceso de producción, los cuales se han resuelto. También hemos mejorado la compatibilidad con las bibliotecas del marco, haciendo que la aplicación sea escalable. La colaboración continua con otros desarrolladores contribuirá a realizar mejoras adicionales con el tiempo.
+* **Corrección de errores:** Como herramienta beta, encontramos algunos errores menores durante el proceso de producción, los cuales se han resuelto. También hemos mejorado la compatibilidad con las bibliotecas del marco, haciendo que la aplicación sea escalable. La colaboración continua con otros desarrolladores contribuirá a realizar mejoras adicionales con el tiempo.
 
-* * **Dominio gratuito para su mercado NFT:** Cuando implemente su mercado NFT por primera vez y complete todas las opciones requeridas, recibirá un enlace directo a su mercado NFT con un ``nombre-del-mercado.dexkit Sufijo .app`. Esto elimina la necesidad de crear un CNAME en un dominio con fines de enrutamiento.
+* **Dominio gratuito para su mercado NFT:** Cuando implemente su mercado NFT por primera vez y complete todas las opciones requeridas, recibirá un enlace directo a su mercado NFT con un `nombre-del-mercado.dexkit.app`. Esto elimina la necesidad de crear un CNAME en un dominio con fines de enrutamiento.
 
-* * **Hospedaje centralizado para recursos multimedia:** En la versión anterior del mercado NFT de marca blanca, los usuarios tenían que proporcionar sus propios enlaces de imágenes. Esto ya no es necesario.
+* **Hospedaje centralizado para recursos multimedia:** En la versión anterior del mercado NFT de marca blanca, los usuarios tenían que proporcionar sus propios enlaces de imágenes. Esto ya no es necesario.
 
-* * **SEO mejorado y tiempos de carga más rápidos:** Tu mercado ahora será indexado por los motores de búsqueda, lo que aumentará su exposición. Utilizamos los últimos marcos React y Next.js para garantizar una velocidad excepcional para todos los mercados.
+* **SEO mejorado y tiempos de carga más rápidos:** Tu mercado ahora será indexado por los motores de búsqueda, lo que aumentará su exposición. Utilizamos los últimos marcos React y Next.js para garantizar una velocidad excepcional para todos los mercados.
 
 ¡Seguimos comprometidos a crear herramientas DeFi extraordinarias, independientemente de las condiciones del mercado! 🤓
 
 Además, no nos hemos olvidado de nuestro querido [juego Coin League](https://coinleague.com/). Actualmente estamos trabajando en una actualización importante que te permitirá jugar gratis, sin incurrir en ninguna tarifa de red.
 
-#### **¡Estén atentos a las actualizaciones! 🧙‍♂️**
+#### **¡Estén atentos a las actualizaciones!🧙‍♂️**

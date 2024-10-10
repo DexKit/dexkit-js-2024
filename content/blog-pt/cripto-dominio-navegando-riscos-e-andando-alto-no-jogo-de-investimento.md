@@ -16,7 +16,7 @@ Investir em criptomoedas tornou-se cada vez mais popular nos últimos anos, mas 
 
 Os mercados de criptomoedas são famosos pelas suas oscilações bruscas, onde os preços podem mudar abruptamente devido a fatores como mudanças regulatórias, incidentes de hackers e mudanças no sentimento do mercado. Para aqueles que não estão equipados para enfrentar estas tempestades, as consequências podem ser financeiramente devastadoras.
 
-Tomemos, por exemplo, a bomba de criptomoeda de 2017. O Bitcoin disparou de cerca de US$ 1.000 para quase US$ 20.000, apenas para [cair de volta para cerca de US$ 8.000](https://www.nbcnews.com/tech/internet/bitcoin-loses-more-half-its-value-amid-crypto- crash-n844056) até o primeiro trimestre de 2018, deixando investidores despreparados em um mar de perdas.
+Tomemos, por exemplo, a bomba de criptomoeda de 2017. O Bitcoin disparou de cerca de US$ 1.000 para quase US$ 20.000, apenas para [cair de volta para cerca de US$ 8.000](https://www.nbcnews.com/tech/internet/bitcoin-loses-more-half-its-value-amid-crypto-crash-n844056) até o primeiro trimestre de 2018, deixando investidores despreparados em um mar de perdas.
 
 Para navegar nos mares da volatilidade do mercado, os investidores experientes devem considerar diversificar as suas participações em várias criptomoedas ou outras classes de ativos. Por exemplo, uma combinação de Bitcoin, Ethereum e Litecoin, cada um com casos de utilização e perfis de risco distintos, pode fornecer um portfólio mais robusto e proteção contra incertezas.
 
@@ -32,11 +32,11 @@ Considere o [Mt. Gox hack em 2014](https://www.wired.com/2014/03/bitcoin-exchan
 
 Para mitigar os riscos regulamentares, os investidores devem manter-se a par dos desenvolvimentos na sua jurisdição e optar por bolsas e carteiras respeitáveis. [DexWallet, uma solução da DexAppBuilder](https://dexkit.com/dexwallet/), ajuda você a implantar uma interface de carteira e gerenciar sua própria carteira DeFi sem delegar essa responsabilidade a ninguém.
 
-[Estaqueamento de criptografia](https://dexkit.com/crypto-stake-demystified-exploring-benefits-and-risks/) representa um conceito revolucionário que oferece inúmeros benefícios para usuários que buscam obter renda passiva, promover segurança de rede e suporte práticas sustentáveis ​​de moeda digital. No entanto, não está isento de riscos, e os utilizadores devem considerar cuidadosamente estes factores antes de comprometerem fundos para um pool de apostas. Ao fazer isso, você pode tomar uma decisão informada sobre se o staking de criptografia é a escolha certa para suas necessidades.
+[Estaqueamento de criptografia](https://dexkit.com/pt/blog/cripto-staking-desmistificado-explorando-beneficios-e-riscos) representa um conceito revolucionário que oferece inúmeros benefícios para usuários que buscam obter renda passiva, promover segurança de rede e suporte práticas sustentáveis ​​de moeda digital. No entanto, não está isento de riscos, e os utilizadores devem considerar cuidadosamente estes factores antes de comprometerem fundos para um pool de apostas. Ao fazer isso, você pode tomar uma decisão informada sobre se o staking de criptografia é a escolha certa para suas necessidades.
 
 ### Hackers e agentes maliciosos estão sempre atentos
 
-Os ativos criptográficos, armazenados digitalmente, são suscetíveis a hackers e roubos. Perder ou ter chaves privadas roubadas pode significar a perda de todos os fundos. [Proteger chaves privadas e implementar autenticação multifator](https://dexkit.com/simple-steps-to-keep-your-crypto-safe-a-quick-guide-for-beginners/) são precauções essenciais.
+Os ativos criptográficos, armazenados digitalmente, são suscetíveis a hackers e roubos. Perder ou ter chaves privadas roubadas pode significar a perda de todos os fundos. [Proteger chaves privadas e implementar autenticação multifator](https://dexkit.com/pt/blog/etapas-simples-para-manter-sua-criptografia-segura) são precauções essenciais.
 
 [Th](https://en.wikipedia.org/wiki/2016_Bitfinex_hack)[e 2016 Bitfinex hack](https://en.wikipedia.org/wiki/2016_Bitfinex_hack), que resultou na perda de cerca de US$ 72 milhões no valor de do Bitcoin, destaca a urgência de medidas de segurança robustas, como autenticação multifatorial e soluções de armazenamento refrigerado.
 
@@ -52,7 +52,7 @@ Os primeiros dias do Bitcoin servem como exemplo de adoção limitada, principal
 
 A atual adoção de criptomoedas, embora não seja generalizada, está se difundindo muito rapidamente.
 
-Estamos experimentando uma adoção crescente devido a uma variedade de produtos e invenções originais em finanças descentralizadas. Isso inclui protocolos que oferecem retornos atraentes por meio de [juros compostos](https://www.bitpanda.com/academy/en/lessons/how-does-compound-interest-work/) e [jogos blockchain](https://dexkit .com/exploring-the-world-of-blockchain-games-an-overview-of-popular-genres-and-coin-leagues-unique-offering/), que fornecem aos jogadores não apenas ganhos em criptomoedas, mas também propriedade de ativos na forma de NFTs (tokens não fungíveis) armazenados em suas carteiras
+Estamos experimentando uma adoção crescente devido a uma variedade de produtos e invenções originais em finanças descentralizadas. Isso inclui protocolos que oferecem retornos atraentes por meio de [juros compostos](https://www.bitpanda.com/academy/en/lessons/how-does-compound-interest-work/) e [jogos blockchain](https://dexkit.com/pt/blog/explorando-o-mundo-dos-jogos-blockchain), que fornecem aos jogadores não apenas ganhos em criptomoedas, mas também propriedade de ativos na forma de NFTs (tokens não fungíveis) armazenados em suas carteiras
 
 ### Falta de compreensão: a educação é essencial para a adoção
 
@@ -62,7 +62,7 @@ Um número significativo de investidores em criptomoedas não possui uma compree
 
 A criptografia pode ter problemas técnicos difíceis de entender, mas felizmente a Internet está repleta de recursos educacionais.
 
-[T](https://consensys.io/blog/the-inside-story-of-the-cryptokitties-congestion-crisis)[a crise de congestionamento de Cryptokitties de 2017](https://consensys.io/blog/the- inside-story-of-cryptokitties-congestion-crisis) exemplifica essa falta de compreensão e problemas de escalabilidade. Um jogo muito popular que causou um aumento nas taxas do gás Ethereum destacou a necessidade de melhores recursos educacionais e interfaces fáceis de usar na indústria de criptografia.
+[Crise de congestionamento de Cryptokitties de 2017](https://consensys.io/blog/the-inside-story-of-cryptokitties-congestion-crisis) exemplifica essa falta de compreensão e problemas de escalabilidade. Um jogo muito popular que causou um aumento nas taxas do gás Ethereum destacou a necessidade de melhores recursos educacionais e interfaces fáceis de usar na indústria de criptografia.
 
 Tudo isso levou ao dimensionamento do Ethereum através de projetos como Polygon, Arbitrum, Optimism e outros que baseados em EVM (Ethereum Virtual Machine) resolveram alguns desses problemas de congestionamento e ganharam muito espaço na indústria, colaborando por sua vez com projetos que se constroem sobre essas redes blockchain.
 

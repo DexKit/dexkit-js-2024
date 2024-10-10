@@ -11,7 +11,7 @@ slug: >-
   construa-seu-proprio-negocio-de-criptografia-com-facilidade-ultima-atualizacao-para-dexappbuilder
 imageUrl: /blog-images/DexAppBuilderblog-1200x630-1.png
 ---
-Em reconhecimento ao nosso compromisso em criar ferramentas descentralizadas que capacitam nossos clientes e usuários com a propriedade genuína e desimpedida de seus ativos, implementamos uma série de melhorias na atualização mais recente de nosso [criador de mercado NFT](https://whitelabel-nft .dexkit.com/), tornando-o verdadeiramente diferenciado em sua abordagem.
+Em reconhecimento ao nosso compromisso em criar ferramentas descentralizadas que capacitam nossos clientes e usuários com a propriedade genuína e desimpedida de seus ativos, implementamos uma série de melhorias na atualização mais recente de nosso [criador de mercado NFT](https://whitelabel-nft.dexkit.com/), tornando-o verdadeiramente diferenciado em sua abordagem.
 
 No entanto, antes de mergulhar nos novos recursos interessantes, gostaríamos de anunciar que **batizamos nosso construtor de mercado NFT como DexAppBuilder**, **seu CMS para web3**, permitindo que você crie aplicativos descentralizados excepcionais para o seu negócio.
 
@@ -33,6 +33,6 @@ Esta última atualização inclui um tour guiado que explica progressivamente tu
 
 Nossa atualização mais recente transforma nosso produto em um parceiro robusto para empreendedores digitais modernos que exigem ferramentas poderosas sem a inconveniência que é frequentemente associada a alternativas avançadas – e centralizadas.
 
-Visite a [documentação deste produto](https://docs.dexkit.com/defi-products/nft-marketplace/overview) para iniciar seu negócio de criptografia com DexKit hoje mesmo ou visite nosso canal no YouTube e assista aos [vídeos de instruções ](https://www.youtube.com/watch?v=UHPY3CIx6G4).
+Visite a [documentação deste produto](https://docs.dexkit.com/defi-products/nft-marketplace/overview) para iniciar seu negócio de criptografia com DexKit hoje mesmo ou visite nosso canal no YouTube e assista aos [vídeos de instruções](https://www.youtube.com/watch?v=UHPY3CIx6G4).
 
-Se sua necessidade for além dos recursos de nossos produtos, sinta-se à vontade para [entre em contato conosco](https://www.dexkit.com/contact-us/) sobre qualquer um desses significados ou visite nosso [servidor Discord](https:/ /discord.com/invite/GJCRu4CYFH). A equipe principal está presente e sua necessidade será rapidamente atendida.
+Se sua necessidade for além dos recursos de nossos produtos, sinta-se à vontade para [entre em contato conosco](https://www.dexkit.com/contact-us/) sobre qualquer um desses significados ou visite nosso [servidor Discord](https://discord.com/invite/GJCRu4CYFH). A equipe principal está presente e sua necessidade será rapidamente atendida.

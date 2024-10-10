@@ -15,7 +15,7 @@ As mentioned and described in previous editions, our [Crypto Website Builder Wiz
 
 To assist you in making an informed decision, we have provided a comparative table below, showcasing the features of the three major players in the digital collectibles industry alongside our product. This table will serve as a quick reference to help you identify the most suitable option based on your specific needs.
 
-**[Wizard by DexKit](https://whitelabel-nft.dexkit.com/admin/create?_ga=2.19318648.1506910254.1705192601-1648656589.1702664712)**
+**[Wizard by DexKit](https://whitelabel-nft.dexkit.com/admin/create)**
 
 **[OpenSea](https://opensea.io/)**
 
@@ -25,93 +25,93 @@ To assist you in making an informed decision, we have provided a comparative tab
 
 ### Compatible chains
 
-Arbitrum, Avalanche, BNB Chain, Ethereum, Optimism, Polygon
+**Wizard by DexKit**: Arbitrum, Avalanche, BNB Chain, Ethereum, Optimism, Polygon
 
-Arbitrum, Avalanche, BNB Chain, Ethereum, Klaytn, Optimism, Polygon, Solana
+**OpenSea**: Arbitrum, Avalanche, BNB Chain, Ethereum, Klaytn, Optimism, Polygon, Solana
 
-Ethereum, Tezos, Solana, Polygon
+**Rarible**: Ethereum, Tezos, Solana, Polygon
 
-Ethereum
+**Superrare**: Ethereum
 
 ### Token types
 
-ERC-721, ERC-1155
+**Wizard by DexKit**: ERC-721, ERC-1155
 
-ERC-721, ERC-1155
+**OpenSea**: ERC-721, ERC-1155
 
-ERC-721, ERC-1155
+**Rarible**: ERC-721, ERC-1155
 
-ERC-721
+**Superrare**: ERC-721
 
 ### Fees
 
-From 0%, creators choice and can be changed anytime.
+**Wizard by DexKit**: From 0%, creators choice and can be changed anytime.
 
-2.5% on top
+**OpenSea**: 2.5% on top
 
-1% on top
+**Rarible**: 1% on top
 
-3% on top
+**Superrare**: 3% on top
 
 ### Curating
 
-Allow anyone to list their digital assets for sale
+**Wizard by DexKit**: Allow anyone to list their digital assets for sale
 
-Allow anyone to list their digital assets for sale
+**OpenSea**: Allow anyone to list their digital assets for sale
 
-Allow anyone to list their digital assets for sale
+**Rarible**: Allow anyone to list their digital assets for sale
 
-Only for certain artists
+**Superrare**: Only for certain artists
 
 ### Community
 
-Creator should gather and manage his own community.
+**Wizard by DexKit**: Creator should gather and manage his own community.
 
-Large active community
+**OpenSea**: Large active community
 
-Medium active community
+**Rarible**: Medium active community
 
-Low but engaged community
+**Superrare**: Low but engaged community
 
 ### Market size
 
-Up to creators advertisement expenses.
+**Wizard by DexKit**: Up to creators advertisement expenses.
 
-Largest
+**OpenSea**: Largest
 
-Moderate
+**Rarible**: Moderate
 
-Small
+**Superrare**: Small
 
 ### Availability
 
-Worldwide
+**Wizard by DexKit**: Worldwide
 
-Worldwide (with some geo restrictions). Check their Terms of Service)
+**OpenSea**: Worldwide (with some geo restrictions). Check their Terms of Service
 
-Worldwide
+**Rarible**: Worldwide
 
-Worldwide
+**Superrare**: Worldwide
 
 ### Payment methods
 
-Up to creators. Any token on any supported network can be imported and asked for payment.
+**Wizard by DexKit**: Up to creators. Any token on any supported network can be imported and asked for payment.
 
-ETH, BNB, MATIC, DAI (top tokens), credit cards.
+**OpenSea**: ETH, BNB, MATIC, DAI (top tokens), credit cards.
 
-ETH, MATIC, MoonPay (credit card)
+**Rarible**: ETH, MATIC, MoonPay (credit card)
 
-ETH only
+**Superrare**: ETH only
 
 ### Limitations
 
-Impossible to ban. Nobody manage user databases. Total ownership for user
+**Wizard by DexKit**: Impossible to ban. Nobody manage user databases. Total ownership for user
 
-Being banned is possible. Centralized database.
+**OpenSea**: Being banned is possible. Centralized database.
 
-Being banned is possible. Centralized database.
+**Rarible**: Being banned is possible. Centralized database.
 
-Being banned is possible. Centralized database.
+**Superrare**: Being banned is possible. Centralized database.
 
 ## Conclusion
 
@@ -125,6 +125,6 @@ The best part? Everything is customizable, and if you’re inclined to offer zer
 
 Start your journey today [by cloning](https://whitelabel-nft.dexkit.com/site) some of the creations made by our vibrant community, or if you’re feeling particularly creative, we encourage you to begin building your website from scratch 👨‍🎨
 
-You can find the [available documentation here.](https://docs.dexkit.com/defi-products/nft-marketplace/overview)
+You can find the [available documentation here](https://docs.dexkit.com/defi-products/nft-marketplace/overview)
 
 Thank you for taking the time to read our post ✌

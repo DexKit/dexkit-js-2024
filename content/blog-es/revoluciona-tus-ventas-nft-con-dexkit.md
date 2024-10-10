@@ -13,7 +13,7 @@ imageUrl: /blog-images/NFT-Marketplace-Launch-blog.png
 ---
 Han pasado dos años volando [desde que nos embarcamos en esta nueva y apasionante aventura](https://www.youtube.com/watch?v=plcjq7ZZRC4). En el vertiginoso y competitivo mundo de las criptomonedas, estos años son como una eternidad, una experiencia que sólo unos pocos proyectos selectos han tenido el privilegio de disfrutar. En el camino, [hemos sido testigos del nacimiento y desaparición de algunos proyectos](https://thebitcoinnews.com/abandoned-and-scam-projects-top-list-of-dead-cryptos-analysis/), mientras que [otros han prosperado como si fuera el destino](https://www.fool.com/investing/2022/06/24/why-polygon-is-soaring-today/). DexKit ha capeado la tormenta de una economía en constante cambio y, como resultado, sentimos el deber de seguir creando herramientas excepcionales para todos ustedes.
 
-Hoy, como hemos estado [anticipando y anunciando con impaciencia durante varias semanas](https://twitter.com/dexkit/status/1560642826131492865), estamos encantados de presentar una herramienta de vanguardia que estamos seguros beneficiará a los artistas visuales, emprendedores digitales, autónomos e [incluso músicos](https://twitter.com/dexkit/status/1562767468334305280) que desean obtener ingresos automáticamente de sus creaciones digitales acuñadas como NFT. **Estamos orgullosos de ser el primer proyecto en el mundo en desarrollar esta herramienta Whitelabel**, y ahora está [disponible en el repositorio público de DexKit](https://github.com/DexKit/open-nft-marketplace/) . Además, invitamos a nuevos desarrolladores a contribuir a este proyecto, haciendo que la aplicación sea más fuerte y más alineada con las necesidades actuales. Nos complace anunciar que ya hemos creado el primer Marketplace completamente funcional basado en contratos ZRX (0x) v4 y hemos recibido una generosa subvención para mantener este producto de código abierto.
+Hoy, como hemos estado [anticipando y anunciando con impaciencia durante varias semanas](https://twitter.com/dexkit/status/1560642826131492865), estamos encantados de presentar una herramienta de vanguardia que estamos seguros beneficiará a los artistas visuales, emprendedores digitales, autónomos e [incluso músicos](https://twitter.com/dexkit/status/1562767468334305280) que desean obtener ingresos automáticamente de sus creaciones digitales acuñadas como NFT. **Estamos orgullosos de ser el primer proyecto en el mundo en desarrollar esta herramienta Whitelabel**, y ahora está [disponible en el repositorio público de DexKit](https://github.com/DexKit/open-nft-marketplace/). Además, invitamos a nuevos desarrolladores a contribuir a este proyecto, haciendo que la aplicación sea más fuerte y más alineada con las necesidades actuales. Nos complace anunciar que ya hemos creado el primer Marketplace completamente funcional basado en contratos ZRX (0x) v4 y hemos recibido una generosa subvención para mantener este producto de código abierto.
 
 **La idea misma de poder llenar un vacío que existía en el mundo de las finanzas descentralizadas nos inspiró** a crear esta herramienta, en la que profundizaremos en breve. Hasta hoy, fecha de lanzamiento de este producto, no había una herramienta comparable disponible en el mundo. ¿Puedes sentir la emoción, la frescura de un auto nuevo? 😃
 
@@ -38,11 +38,11 @@ Mucho, compruébalos a continuación 👇
 
 Debido a que siempre habrá usuarios que quieran maximizar el potencial de cada herramienta, la versión premium del mercado NFT de marca blanca ofrecerá personalizaciones increíbles que no están disponibles en la versión gratuita. Estos pueden incluir:
 
-* * **Fuentes personalizadas**
+* **Fuentes personalizadas**
 
-* * **Gama ampliada de combinaciones de colores**
+* **Gama ampliada de combinaciones de colores**
 
-* * **Atención al cliente prioritaria**
+* **Atención al cliente prioritaria**
 
 Esta suscripción aún no tiene fecha de lanzamiento, pero se espera que esté disponible para el público en las próximas semanas.
 

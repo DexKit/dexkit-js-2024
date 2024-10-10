@@ -1,13 +1,14 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 import Link from 'next/link';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
 export default function DexSwap() {
     const [activeTab, setActiveTab] = useState('description');
     const [isMobile, setIsMobile] = useState(false);
+    const intl = useIntl();
 
     useEffect(() => {
         const handleResize = () => {
@@ -56,7 +57,7 @@ export default function DexSwap() {
                       onClick={() => setActiveTab(tab)} 
                       className={`${activeTab === tab ? 'text-orange-500' : 'text-gray-600'} ${isMobile ? 'text-xs' : 'text-sm sm:text-base'}`}
                     >
-                      <FormattedMessage id={`dexswap.tabs.${tab}`} defaultMessage={tab} />
+                      {intl.formatMessage({ id: `dexswap.tabs.${tab}` })}
                     </button>
                   </li>
                 ))}
@@ -112,7 +113,7 @@ export default function DexSwap() {
                 className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base"
               >
                 <FaExternalLinkAlt className="mr-2" />
-                <FormattedMessage id="dexswap.openSolution" defaultMessage="Create your swap platform with DexSwap" />
+                {intl.formatMessage({ id: "dexswap.openSolution" })}
               </Link>
             </div>
           </div>

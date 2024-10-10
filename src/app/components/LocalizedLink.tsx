@@ -19,7 +19,7 @@ const LocalizedLink: React.FC<LocalizedLinkProps> = ({ href, children, className
   const currentLocale = locales.includes(pathParts[0] as Locale) ? pathParts[0] as Locale : defaultLocale;
   
   let localizedHref = href;
-  if (href.startsWith('/')) {
+  if (href.startsWith('/') && currentLocale !== defaultLocale) {
     localizedHref = `/${currentLocale}${href.startsWith('/') ? href : `/${href}`}`;
   }
 

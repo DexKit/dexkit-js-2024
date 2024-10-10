@@ -17,7 +17,7 @@ Ei, criptocadetes! No oeste selvagem dos ativos digitais, proteger o seu saque �
 
 Aprenda como cuidar de seus ativos criptográficos sem precisar ser um especialista em segurança.
 
-**1\. Ativação da senha: ** Abandone “password123” como um novato. Crie fortalezas indecifráveis com senhas longas e complexas e 2FA (autenticação de dois fatores) – como uma grade dupla de laser ao redor do seu cofre criptográfico. Você pode gerenciar suas senhas com ferramentas como [LastPass](https://www.lastpass.com/) e [1Password](https://1password.com/es).
+**1\. Ativação da senha:** Abandone “password123” como um novato. Crie fortalezas indecifráveis com senhas longas e complexas e 2FA (autenticação de dois fatores) – como uma grade dupla de laser ao redor do seu cofre criptográfico. Você pode gerenciar suas senhas com ferramentas como [LastPass](https://www.lastpass.com/) e [1Password](https://1password.com/es).
 
 **2\. Hardware Haven:** Quando seu estoque começar a crescer dramaticamente, considere investir em uma carteira de hardware – seu Fort Knox pessoal, protegendo sua criptografia offline e imune a batedores de carteira digitais.
 

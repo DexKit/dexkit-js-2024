@@ -22,15 +22,15 @@ Bitcoin trasciende ser sólo una moneda; **Es oro digital, adoptado globalmente 
 
 La identidad del creador de Bitcoin sigue siendo un misterio, y tal vez siga siéndolo.
 
-#### Pros y contras de Bitcoin
+### Pros y contras de Bitcoin
 
-##### Ventajas
+#### Ventajas
 
 * Suministro limitado limitado a 21 millones (oro digital)
-*Descentralización extrema.
+* Descentralización extrema.
 * Accesibilidad global. Cualquier persona en el mundo puede obtener Bitcoin.
 
-##### Contras
+#### Contras
 
 * Desafíos de escalabilidad. Las velocidades de transacción son bajas (en comparación con otros activos) y en su mayoría caras.
 * Preocupaciones por el consumo de energía.
@@ -47,7 +47,7 @@ La Oferta Inicial de Monedas (ICO) de Ethereum de 2014 fue un carnaval de innova
 
 Ethereum ha abierto oportunidades de negocio para personas de todo el mundo, sin distinciones.
 
-#### Pros y contras de Ethereum
+### Pros y contras de Ethereum
 
 #### Ventajas de usar Ethereum
 
@@ -56,7 +56,7 @@ Ethereum ha abierto oportunidades de negocio para personas de todo el mundo, sin
 * Aceptación global y casos de uso.
 * Comunidad de desarrollo activo
 
-Contras de usar Ethereum
+#### Contras de usar Ethereum
 
 * Desafíos de escalabilidad en cuanto a velocidad, costos de transacción y seguridad.
 * Complejidad para los recién llegados. No hay suficiente abstracción para los novatos.
@@ -65,7 +65,7 @@ Contras de usar Ethereum
 
 Bitcoin ocupa un lugar central en el ámbito financiero y las instituciones reconocen su valor. Es un éxito financiero que reinventa las nociones tradicionales de moneda.
 
-En enero de 2024, Bitcoin consiguió un hito importante cuando la [SEC aprobó un ETF positivo para la criptomoneda](<https://www.thebanker.com/Much-anticipated-the-US-SEC-approves-bitcoin-ETFs-1705393382#> :~:text=En%20a%20movimiento%20ampliamente%20anticipado, momento%20para%20la%20industria%20cripto.). Este desarrollo ha elevado aún más la prominencia de Bitcoin en el ámbito financiero, y las instituciones reconocen cada vez más su valor inherente. Bitcoin, que actúa como un éxito de taquilla financiero, continúa desafiando y reimaginando las nociones tradicionales de moneda, solidificando su posición como una fuerza transformadora en el mundo de las finanzas.
+En enero de 2024, Bitcoin consiguió un hito importante cuando la [SEC aprobó un ETF positivo para la criptomoneda](https://www.thebanker.com/Much-anticipated-the-US-SEC-approves-bitcoin-ETFs-1705393382). Este desarrollo ha elevado aún más la prominencia de Bitcoin en el ámbito financiero, y las instituciones reconocen cada vez más su valor inherente. Bitcoin, que actúa como un éxito de taquilla financiero, continúa desafiando y reimaginando las nociones tradicionales de moneda, solidificando su posición como una fuerza transformadora en el mundo de las finanzas.
 
 ![Rey Bitcoin](/blog-images/94cce3fc-b776-4998-a07d-03bdc04e08ad.jpg)
 

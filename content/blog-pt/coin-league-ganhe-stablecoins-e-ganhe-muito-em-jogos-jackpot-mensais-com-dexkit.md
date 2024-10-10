@@ -22,11 +22,7 @@ A partir de 1º de setembro de 2022, os Jogos Jackpot Mensais serão realizados!
 
 Você vai ver como essas corridas são legais! Qualquer um pode vencer! 🥁🤯
 
-O primeiro jogo de jackpot, chamado “jogo do touro”
-
-![🐂](https://s.w.org/images/core/emoji/14.0.0/svg/1f402.svg)
-
-, terá duração de um mês e a taxa de inscrição será de 10 $USDT no Polygon (mais taxas mínimas de $MATIC). Os próximos meses podem variar com base em uma enquete pública realizada no Twitter da Coin League. As tendências de preços também podem variar, por isso devemos nos adaptar de acordo
+O primeiro jogo de jackpot, chamado “jogo do touro” 🐂, terá duração de um mês e a taxa de inscrição será de 10 $USDT no Polygon (mais taxas mínimas de $MATIC). Os próximos meses podem variar com base em uma enquete pública realizada no Twitter da Coin League. As tendências de preços também podem variar, por isso devemos nos adaptar de acordo
 
 ![Urso](/blog-images/beargamecoinleague_moddy-1.gif)
 
@@ -46,4 +42,4 @@ A Coin League também fornece [documentação](https://docs.dexkit.com/gaming/p
 
 A DexKit deseja a você boa sorte 🤗 e, mais uma vez, obrigado por fazer da Coin League a primeira plataforma Play(2)Learn: justa, educacional e lucrativa.
 
-**Caso você tenha perdido o link do jogo Jackpot,** aqui está [https://app.dexkit.com/coin-league/16](https://app.dexkit.com/coin-league/16)
+**Caso você tenha perdido o link do jogo Jackpot**, aqui está [https://app.dexkit.com/coin-league/16](https://app.dexkit.com/coin-league/16)

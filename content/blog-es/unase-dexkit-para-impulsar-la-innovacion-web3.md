@@ -11,7 +11,7 @@ category: Blog
 slug: unase-dexkit-para-impulsar-la-innovacion-web3
 imageUrl: /blog-images/20230928_Arbitrum-Grant-blog-LinkedIn-Facebook.png
 ---
-Muy bien, entusiastas de las criptomonedas, ¡aquí está la primicia! DexKit se ha subido al tren de Gitcoin 🚂, convirtiéndose en el centro de atención de la [Ronda Nova orquestada por Arbitrum Grants DAO] (https://twitter.com/ArbitrumGrants/status/1706746479736426855). Esto no es solo un concierto de financiación regular, es un **considerable grupo de 24,000 ARB en juego** 💰, lo que marca un apoyo colosal para el juego de herramientas para desarrolladores en el ecosistema Arbitrum.
+Muy bien, entusiastas de las criptomonedas, ¡aquí está la primicia! DexKit se ha subido al tren de Gitcoin 🚂, convirtiéndose en el centro de atención de la [Ronda Nova orquestada por Arbitrum Grants DAO](https://twitter.com/ArbitrumGrants/status/1706746479736426855). Esto no es solo un concierto de financiación regular, es un **considerable grupo de 24,000 ARB en juego** 💰, lo que marca un apoyo colosal para el juego de herramientas para desarrolladores en el ecosistema Arbitrum.
 
 DexKit está generando calor con su [DexAppBuilder](https://dexappbuilder.dexkit.com), una potencia de **herramientas sin código/bajo código**, lo que hace que el desarrollo de DApps Web3 sea un **pan comido para todos** . Esta iniciativa tiene como objetivo eliminar la jerga tecnológica y los obstáculos de codificación, allanando un camino fluido para cualquiera interesado en construir en el terreno Web3.
 

@@ -20,7 +20,7 @@ Estamos encantados de compartir una noticia fantástica: João Campos, nuestro e
 >
 > ☑️ integra [@0xProject](https://twitter.com/0xProject?ref_src=twsrc%5Etfw) v4 + [@usetrader](https://twitter.com/usetrader?ref_src=twsrc%5Etfw) SDK NFTSwap para soporte multicadena
 >
-> — 0x DAO (@0xCommunityDAO) [9 de marzo de 2022] (<https://twitter.com/0xCommunityDAO/status/1501630674817671170?ref_src=twsrc%5Etfw>)
+> — 0x DAO (@0xCommunityDAO) [9 de marzo de 2022](https://twitter.com/0xCommunityDAO/status/1501630674817671170?ref_src=twsrc%5Etfw)
 
 ### Mercado innovador en el horizonte
 

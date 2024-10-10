@@ -16,9 +16,7 @@ Un swap es una **transacción entre dos partes en la que intercambian activos o 
 
 En el mundo de las criptomonedas, los intercambios de criptomonedas suelen implicar el intercambio de una criptomoneda por otra a un valor determinado. Por ejemplo, alguien puede cambiar Bitcoin por Ethereum o viceversa. La gente suele hacer esto por varias razones. Su objetivo es **diversificar su cartera**. También quieren **aprovechar las oportunidades de arbitraje**, comprando barato en un mercado y vendiendo caro en otro. Además, a los usuarios les gusta **especular sobre los precios**, apostando a que subirán o bajarán.
 
-![Intercambiar](/blog-images/Imagen-33.png)
-
-Hay una variedad de criptomonedas para explorar en el mundo de las criptomonedas para intercambiar.
+![Intercambiar](/blog-images/Image-33.png)
 
 Entendamos rápidamente el concepto de intercambios de criptomonedas antes de analizar los tipos de intercambios de criptomonedas. **Las bolsas son plataformas donde los usuarios pueden comprar, vender e intercambiar criptomonedas.** Funcionan de forma similar a las bolsas de valores tradicionales, pero se ocupan exclusivamente de activos digitales. En estas plataformas, los usuarios pueden intercambiar criptomonedas entre sí o directamente con el propio intercambio.
 
@@ -30,8 +28,8 @@ Existen diferentes tipos de operaciones de swap en el mundo cripto, cada una con
 
 **1\. Intercambios entre pares (P2P):** Ocurren **directamente entre usuarios sin una plataforma intermediaria**. Los usuarios pueden ejecutar intercambios de cifrado a través de contratos inteligentes en cadenas de bloques como Ethereum o incluso en intercambios descentralizados (DEX). Para ilustrar más, comparemos estas dos opciones:
 
-* * **Contratos inteligentes en Blockchains:** Estos son **programas autoejecutables almacenados en blockchains**, como Ethereum. Definen las condiciones de una transacción y se ejecutan automáticamente cuando los usuarios las cumplen. En los intercambios P2P, los contratos inteligentes facilitan los intercambios directos entre usuarios. Garantizan que ambas partes reciban los activos acordados una vez que los usuarios cumplan las condiciones.
-    * **Intercambios descentralizados (DEX):** A diferencia de los intercambios centralizados, son plataformas comerciales que funcionan de manera descentralizada. No existe una autoridad central que controle las transacciones. Operan mediante contratos inteligentes, que gestionan las órdenes de compra y venta de forma segura y transparente. **Los usuarios pueden intercambiar criptomonedas directamente entre sí, sin necesidad de intermediarios.**
+* **Contratos inteligentes en Blockchains:** Estos son **programas autoejecutables almacenados en blockchains**, como Ethereum. Definen las condiciones de una transacción y se ejecutan automáticamente cuando los usuarios las cumplen. En los intercambios P2P, los contratos inteligentes facilitan los intercambios directos entre usuarios. Garantizan que ambas partes reciban los activos acordados una vez que los usuarios cumplan las condiciones.
+* **Intercambios descentralizados (DEX):** A diferencia de los intercambios centralizados, son plataformas comerciales que funcionan de manera descentralizada. No existe una autoridad central que controle las transacciones. Operan mediante contratos inteligentes, que gestionan las órdenes de compra y venta de forma segura y transparente. **Los usuarios pueden intercambiar criptomonedas directamente entre sí, sin necesidad de intermediarios.**
 
 ![Componente de intercambio](/blog-images/swapcomponent.png)
 

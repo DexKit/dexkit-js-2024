@@ -9,19 +9,7 @@ slug: emojis-and-communication
 imageUrl: /blog-images/20230717_Emoji-day-blog.png
 ---
 
-Greetings, esteemed readers!
-
-![🙋‍♂️](https://s.w.org/images/core/emoji/14.0.0/svg/1f64b-200d-2642-fe0f.svg)
-
-![🙋‍♀️](https://s.w.org/images/core/emoji/14.0.0/svg/1f64b-200d-2640-fe0f.svg)
-
-As we approach July
-
-![1️⃣](https://s.w.org/images/core/emoji/14.0.0/svg/31-20e3.svg)
-
-![7️⃣](https://s.w.org/images/core/emoji/14.0.0/svg/37-20e3.svg)
-
-th, the International Day of Emojis, it is an opportune time to delve into the captivating history and profound impact of these expressive icons. Emojis have not only transformed the way we communicate but have also made their mark in unexpected areas, including the world of investments.
+Greetings, esteemed readers! As we approach July 17th, the International Day of Emojis, it is an opportune time to delve into the captivating history and profound impact of these expressive icons. Emojis have not only transformed the way we communicate but have also made their mark in unexpected areas, including the world of investments.
 
 Join me on this enlightening journey as we explore the historical significance of emojis, their indispensability in modern communication, and even their entanglement with financial regulations.
 

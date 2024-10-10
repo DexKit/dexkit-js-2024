@@ -1,13 +1,14 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 import Link from 'next/link';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
 export default function DexExchangePro() {
     const [activeTab, setActiveTab] = useState('description');
     const [isMobile, setIsMobile] = useState(false);
+    const intl = useIntl();
 
     useEffect(() => {
         const handleResize = () => {
@@ -49,7 +50,7 @@ export default function DexExchangePro() {
                     onClick={() => setActiveTab('description')} 
                     className={`text-sm sm:text-base ${activeTab === 'description' ? 'text-orange-500' : 'text-gray-600'}`}
                   >
-                    <FormattedMessage id="common.description" defaultMessage="Description" />
+                    {intl.formatMessage({ id: "common.description" })}
                   </button>
                 </li>
               </ul>
@@ -88,7 +89,7 @@ export default function DexExchangePro() {
                 className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base"
               >
                 <FaExternalLinkAlt className="mr-2" />
-                <FormattedMessage id="dexexchangepro.deployNow" defaultMessage="Deploy your DexExchangePro now" />
+                {intl.formatMessage({ id: "dexexchangepro.deployNow" })}
               </Link>
             </div>
           </div>

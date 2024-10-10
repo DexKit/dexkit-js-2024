@@ -26,7 +26,7 @@ A identidade do criador do Bitcoin ainda permanece um mistério, e talvez contin
 
 ##### Prós
 
-*Fornecimento limitado limitado a 21 milhões (ouro digital)
+* Fornecimento limitado limitado a 21 milhões (ouro digital)
 * Descentralização extrema.
 * Acessibilidade global. Qualquer pessoa no mundo pode obter Bitcoin.
 
@@ -65,7 +65,7 @@ Contras de usar Ethereum
 
 O Bitcoin ocupa um lugar central na arena financeira, com as instituições reconhecendo o seu valor. É um grande sucesso financeiro, reimaginando as noções tradicionais de moeda.
 
-Em janeiro de 2024, o Bitcoin garantiu um marco significativo quando a [SEC aprovou um ETF positivo para a criptomoeda](https://www.thebanker.com/Much-anticipated-the-US-SEC-approves-bitcoin-ETFs-1705393382# :~:text=Em%20a%20move%20amplamente%20antecipado,momento%20para%20a%20criptografia%20indústria.). Este desenvolvimento elevou ainda mais a proeminência do Bitcoin na arena financeira, com as instituições reconhecendo cada vez mais o seu valor inerente. Servindo como um blockbuster financeiro, o Bitcoin continua a desafiar e a reimaginar as noções tradicionais de moeda, solidificando a sua posição como uma força transformadora no mundo das finanças.
+Em janeiro de 2024, o Bitcoin garantiu um marco significativo quando a [SEC aprovou um ETF positivo para a criptomoeda](https://www.thebanker.com/Much-anticipated-the-US-SEC-approves-bitcoin-ETFs-1705393382). Este desenvolvimento elevou ainda mais a proeminência do Bitcoin na arena financeira, com as instituições reconhecendo cada vez mais o seu valor inerente. Servindo como um blockbuster financeiro, o Bitcoin continua a desafiar e a reimaginar as noções tradicionais de moeda, solidificando a sua posição como uma força transformadora no mundo das finanças.
 
 ![Rei Bitcoin](/blog-images/94cce3fc-b776-4998-a07d-03bdc04e08ad.jpg)
 

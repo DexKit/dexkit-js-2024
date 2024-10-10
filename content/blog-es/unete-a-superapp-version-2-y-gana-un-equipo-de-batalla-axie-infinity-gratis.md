@@ -24,7 +24,7 @@ El ganador no solo recibirá este increíble equipo, sino que también podrá co
 
 El ganador será seleccionado aleatoriamente en función de la cantidad de puntos que acumule a través de nuestro formulario. **Cada punto equivale a una participación en el sorteo final.** Por ejemplo, si ganas cinco puntos, tendrás cinco participaciones, lo que aumentará tus posibilidades de ganar.
 
-El sorteo se llevará a cabo el domingo 12 de junio de este año, en nuestro [servidor de Discord](https://discord.com/invite/GJCRu4CYFH), utilizando la página [random.org](https://www.random. org/) generador de números. También transmitiremos en vivo el sorteo en el [canal de YouTube de DexKit] (https://www.youtube.com/c/dexkit), así que asegúrese de estar suscrito para ver esta emocionante revelación.
+El sorteo se llevará a cabo el domingo 12 de junio de este año, en nuestro [servidor de Discord](https://discord.com/invite/GJCRu4CYFH), utilizando la página [random.org](https://www.random.org/) generador de números. También transmitiremos en vivo el sorteo en el [canal de YouTube de DexKit](https://www.youtube.com/c/dexkit), así que asegúrese de estar suscrito para ver esta emocionante revelación.
 
 Todos los detalles y tareas del concurso están [disponibles en el formulario](https://buff.ly/3wC8La2). Si tiene alguna pregunta, no dude en comunicarse con nosotros en [Discord](https://discord.com/invite/GJCRu4CYFH) o [Telegram](https://t.me/dexkit). Nuestro equipo está siempre disponible para ayudarle.
 

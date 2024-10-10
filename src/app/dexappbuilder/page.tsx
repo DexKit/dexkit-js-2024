@@ -56,7 +56,7 @@ export default function DexAppBuilder() {
                       onClick={() => setActiveTab(tab)} 
                       className={`${activeTab === tab ? 'text-orange-500' : 'text-gray-600'} ${isMobile ? 'text-xs' : 'text-sm md:text-base'}`}
                     >
-                      <FormattedMessage id={`dexappbuilder.tabs.${tab}`} />
+                      {intl.formatMessage({ id: `dexappbuilder.tabs.${tab}` })}
                     </button>
                   </li>
                 ))}
@@ -80,7 +80,7 @@ export default function DexAppBuilder() {
                   rel="noopener noreferrer" 
                   className="text-orange-500 hover:underline text-sm md:text-base"
                 >
-                  <FormattedMessage id="dexappbuilder.overviewLink" defaultMessage="Explore DexAppBuilder overview" />
+                  {intl.formatMessage({ id: "dexappbuilder.overviewLink" })}
                 </Link>
               </section>
 
@@ -88,7 +88,7 @@ export default function DexAppBuilder() {
                 <ul className="list-disc pl-5 space-y-2 text-sm md:text-base">
                   {["Ethereum (Mainnet, Goerli, Sepolia)", "Optimism", "Binance Chain (BNB) (Mainnet, testnet)", "Polygon", "Avalanche", "Arbitrum", "Fantom", "Base", "Blast L2 (Mainnet, testnet)", "Pulsechain"].map((network, index) => (
                     <li key={index}>
-                      <FormattedMessage id={`dexappbuilder.networks.${index}`} defaultMessage={network} />
+                      {intl.formatMessage({ id: `dexappbuilder.networks.${index}`, defaultMessage: network })}
                     </li>
                   ))}
                 </ul>
@@ -104,7 +104,7 @@ export default function DexAppBuilder() {
                         rel="noopener noreferrer" 
                         className="text-black hover:text-orange-500 hover:underline"
                       >
-                        <FormattedMessage id={tutorial.titleId} />
+                        {intl.formatMessage({ id: tutorial.titleId })}
                       </Link>
                     </li>
                   ))}
@@ -121,7 +121,7 @@ export default function DexAppBuilder() {
                 title={intl.formatMessage({ id: 'dexappbuilder.createDApp' })}
               >
                 <FaExternalLinkAlt className="mr-2" />
-                <FormattedMessage id="dexappbuilder.createDApp" defaultMessage="Create your DApp with DexAppBuilder" />
+                {intl.formatMessage({ id: "dexappbuilder.createDApp" })}
               </Link>
             </div>
           </div>

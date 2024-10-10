@@ -31,6 +31,6 @@ Es importante recordar que la naturaleza descentralizada de los DEX no los hace 
 
 Si bien es ideal salvaguardar sus valiosos ahorros en una billetera de hardware fría, utilizando una moneda estable como DAI, llegará un momento en el que necesitará vender una parte de sus ganancias. En tales casos, se hace necesario un intercambio centralizado razonablemente confiable para facilitar el comercio fiduciario.
 
-Vale la pena considerar que las plataformas DeFi generalmente manejan dinero fiduciario (a través de integraciones como Transak, Ramp, entre otras), pero para el usuario final, **retirar fondos a su cuenta bancaria sin la participación de un CEX con liquidez establecida no siempre es sencillo. .**
+Vale la pena considerar que las plataformas DeFi generalmente manejan dinero fiduciario (a través de integraciones como Transak, Ramp, entre otras), pero para el usuario final, **retirar fondos a su cuenta bancaria sin la participación de un CEX con liquidez establecida no siempre es sencillo.**
 
 Esto resalta la importancia de CEX y DEX para aquellos que aspiran a convertirse en maestros de DeFi 😎

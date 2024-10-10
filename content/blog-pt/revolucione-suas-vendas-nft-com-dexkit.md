@@ -13,7 +13,7 @@ imageUrl: /blog-images/NFT-Marketplace-Launch-blog.png
 ---
 Dois anos se passaram [desde que embarcamos nesta nova e emocionante aventura](https://www.youtube.com/watch?v=plcjq7ZZRC4). No mundo acelerado e competitivo das criptomoedas, estes anos são como uma eternidade, uma experiência que apenas alguns projetos selecionados tiveram o privilégio de desfrutar. Ao longo do caminho, [testemunhamos o nascimento e o fim de alguns projetos](https://thebitcoinnews.com/abandoned-and-scam-projects-top-list-of-dead-cryptos-análise/), enquanto [outros prosperaram como se fosse o destino](https://www.fool.com/investing/2022/06/24/why-polygon-is-soaring-today/). O DexKit resistiu à tempestade da economia em constante mudança e, como resultado, sentimos o dever de continuar a construir ferramentas excepcionais para todos vocês.
 
-Hoje, como temos esperado e anunciado há várias semanas](https://twitter.com/dexkit/status/1560642826131492865), estamos entusiasmados em apresentar uma ferramenta de ponta que temos certeza de que beneficiará os artistas visuais, empreendedores digitais, freelancers e [até músicos](https://twitter.com/dexkit/status/1562767468334305280) que desejam obter renda automaticamente com suas criações digitais cunhadas como NFTs. **Temos orgulho de ser o primeiro projeto no mundo a desenvolver esta ferramenta Whitelabel**, e ela agora está [disponível no repositório público do DexKit](https://github.com/DexKit/open-nft-marketplace/) . Além disso, convidamos novos desenvolvedores a contribuir com este projeto, tornando o aplicativo mais forte e alinhado às necessidades atuais. Temos o prazer de anunciar que já construímos o primeiro Marketplace totalmente funcional baseado em contratos ZRX (0x) v4 e recebemos uma doação generosa para manter este produto de código aberto.
+Hoje, [como temos esperado e anunciado há várias semanas](https://twitter.com/dexkit/status/1560642826131492865), estamos entusiasmados em apresentar uma ferramenta de ponta que temos certeza de que beneficiará os artistas visuais, empreendedores digitais, freelancers e [até músicos](https://twitter.com/dexkit/status/1562767468334305280) que desejam obter renda automaticamente com suas criações digitais cunhadas como NFTs. **Temos orgulho de ser o primeiro projeto no mundo a desenvolver esta ferramenta Whitelabel**, e ela agora está [disponível no repositório público do DexKit](https://github.com/DexKit/open-nft-marketplace/) . Além disso, convidamos novos desenvolvedores a contribuir com este projeto, tornando o aplicativo mais forte e alinhado às necessidades atuais. Temos o prazer de anunciar que já construímos o primeiro Marketplace totalmente funcional baseado em contratos ZRX (0x) v4 e recebemos uma doação generosa para manter este produto de código aberto.
 
 **A própria noção de ser capaz de preencher uma lacuna que existia no mundo das Finanças Descentralizadas nos inspirou** a criar esta ferramenta, na qual nos aprofundaremos em breve. Até hoje, data de lançamento deste produto, não existia nenhuma ferramenta comparável disponível no mundo. Você consegue sentir a emoção, o frescor de um carro novo? 😃
 
@@ -23,7 +23,7 @@ Hoje, como temos esperado e anunciado há várias semanas](https://twitter.com/d
 * **Compatibilidade total de reprodução para NFTs de música**. Venda suas batidas em seu mercado. Recomendamos [Arpeggi Studios](https://arpeggi.io/) para criar seus NFTs de música, que você pode vender em seu próprio mercado de NFT.
 * **Aceite seu próprio token ERC 20**, [criado no SuperApp](https://app.dexkit.com/wizard/deploy/token), para negociar seus NFTs. A ferramenta inclui um widget de troca integrado que simplifica o processo para seus clientes.
 * **Ganhe taxas para cada negociação em seu mercado NFT**. Recomendamos uma taxa de 1% como prática saudável do setor, mas a escolha é sua.
-* **Utilize um redirecionamento para seu domínio da web e administre seu mercado NFT com sua própria marca**. O DexKit cuidará da hospedagem do seu mercado NFT indefinidamente até que você decida encerrá-lo. Fornecemos instruções detalhadas em nossa documentação sobre como configurar o redirecionamento de DNS com Cloudflare ([aqui](https://docs.dexkit.com/defi-products/use-cases/for-entrepreneurs/custom-dswap#creating -seu-nome-alias)).
+* **Utilize um redirecionamento para seu domínio da web e administre seu mercado NFT com sua própria marca**. O DexKit cuidará da hospedagem do seu mercado NFT indefinidamente até que você decida encerrá-lo.
 
 ### Como artista, quais seriam as vantagens para mim de ter meu marketplace NFT?
 
@@ -38,11 +38,11 @@ Muito, confira abaixo 👇
 
 Como sempre haverá usuários que desejam maximizar o potencial de cada ferramenta, a versão premium do mercado NFT de marca branca oferecerá personalizações incríveis não disponíveis na versão gratuita. Isso pode incluir:
 
-* * **Fontes personalizadas**
+* **Fontes personalizadas**
 
-* * **Gama ampliada de combinações de cores**
+* **Gama ampliada de combinações de cores**
 
-* * **Suporte ao cliente prioritário**
+* **Suporte ao cliente prioritário**
 
 Esta assinatura ainda não tem data de lançamento, mas espera-se que esteja disponível ao público nas próximas semanas.
 

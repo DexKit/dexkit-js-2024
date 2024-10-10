@@ -20,65 +20,35 @@ Smart contract wallets enhance their functionality through the use of programmab
 
 Highlighted below are several of the potential capabilities that smart contract wallets bring:
 
-* **Dual-factor authentication
-
-    ![✔️](https://s.w.org/images/core/emoji/14.0.0/svg/2714.svg)
-
-    **
+* **Dual-factor authentication**
 
 Smart contract wallets can incorporate dual-factor authentication, which demands two distinct components to verify a user’s identity. These components could include something the user knows (like a password), something the user possesses (such as a phone), or a biological aspect (like a fingerprint). This feature, prevalent in web2, heightens security and obstructs unauthorized access.
 
-* **Social recovery
-
-    ![🤝](https://s.w.org/images/core/emoji/14.0.0/svg/1f91d.svg)
-
-    **
+* **Social recovery**
 
 Social recovery allows the public key of a smart contract wallet to be altered if the original private key is lost. This process involves a multisig transaction with trusted friends or family members acting as guardians. Consequently, there is no need for the wallet owner to retain seed phrases.
 
 * **Flexible gas strategies**
 
-    **![⛽](https://s.w.org/images/core/emoji/14.0.0/svg/26fd.svg)**
-
 Smart contract wallets can establish versatile gas policies using APIs that adhere to the ERC-4337’s Paymaster specification. This permits developers to sponsor transactions on users’ behalf (enabling gasless transactions) and enables users to settle gas fees in any ERC-20 tokens (e.g., USDC).
 
-* **Personalized signature schemes
-
-    ![🖋️](https://s.w.org/images/core/emoji/14.0.0/svg/1f58b.svg)
-
-    **
+* **Personalized signature schemes**
 
 Smart contract wallets can be programmed to adopt diverse signature schemes, thereby replacing the standard ECDSA utilized in Ethereum. This could involve multisig, social recovery, or even alternatives resistant to quantum computing, like Crystals-Kyber.
 
-* **Multicall functionality
-
-    ![🔄](https://s.w.org/images/core/emoji/14.0.0/svg/1f504.svg)
-
-    **
+* **Multicall functionality**
 
 Multicall functionality empowers a smart contract wallet to execute multiple actions within a single atomic transaction. This significantly enhances the current wallet model where each transaction necessitates individual confirmation, resulting in extended processing times and an unsatisfactory user experience.
 
-* **Spending limits for different signers
-
-    ![💳](https://s.w.org/images/core/emoji/14.0.0/svg/1f4b3.svg)
-
-    **
+* **Spending limits for different signers**
 
 Smart contract wallets can be configured to recognize multiple valid signers, which in turn enables the establishment of distinct spending limits for each signer. For instance, a user might include both their laptop and Ledger hardware wallet as signers, allowing transactions up to 0.05 ETH via their laptop, while transactions exceeding this limit necessitate the use of the hardware wallet.
 
-* **Address allowlisting and denylisting
-
-    ![📃](https://s.w.org/images/core/emoji/14.0.0/svg/1f4c3.svg)
-
-    **
+* **Address allowlisting and denylisting**
 
 Smart contract wallets empower users to either grant or deny access to specific wallet addresses, contributing to enhanced security and user control.
 
-* **Multi-sig wallet support
-
-    ![💼](https://s.w.org/images/core/emoji/14.0.0/svg/1f4bc.svg)
-
-    **
+* **Multi-sig wallet support**
 
 The support for multi-signature functionality within smart contract wallets is particularly valuable for organizations, where multiple approvals are often essential before a transaction can be executed. This added layer of security thwarts the efforts of a lone individual seeking to misappropriate funds or conduct unauthorized transactions.
 

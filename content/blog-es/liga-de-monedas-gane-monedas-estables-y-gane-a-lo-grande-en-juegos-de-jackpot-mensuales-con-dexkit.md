@@ -15,19 +15,13 @@ imageUrl: /blog-images/Jackpot-Game_DexKit-blog.png
 ---
 DexKit ha desarrollado planes estratégicos para permitir que todos los aspirantes a comerciantes (incluidos aquellos con tracción) ganen monedas estables participando en Coin League, convirtiéndolo en su juego educativo y rentable favorito. Tomemos una taza de café ☕ juntos.
 
-¡A partir del 1 de septiembre de 2022, se llevarán a cabo juegos de jackpot mensuales! (y repetido el día 1 de cada mes, en función del interés que genere esta iniciativa). Estos juegos ofrecen la oportunidad de ganar un premio acumulado de 500 USDT\* ([haga clic aquí para participar](https://app.dexkit.com/coin-league/16)).
+¡A partir del 1 de septiembre de 2022, se llevarán a cabo juegos de jackpot mensuales! (y repetido el día 1 de cada mes, en función del interés que genere esta iniciativa). Estos juegos ofrecen la oportunidad de ganar un premio acumulado de 500 USDT* [haga clic aquí para participar](https://app.dexkit.com/coin-league/16).
 
-\*El monto del premio final estará determinado por el número total de jugadores. Por cada grupo de diez jugadores, DexKit aportará 50 $USDT adicionales, aumentando el premio a 100 $USDT (10 jugadores \* 10 $USDT cada uno) más 50 $USDT extra (bono del equipo de DexKit), a dividir entre los tres primeros ganadores. Este patrón continúa para cada grupo adicional de diez jugadores, por lo que si la sala se llena con cincuenta jugadores, los ganadores compartirán 750 $USDT. Se espera que esta iniciativa atraiga a numerosas personas interesadas que estén ansiosas por jugar y ganar dinero a través de referencias.
+\*El monto del premio final estará determinado por el número total de jugadores. Por cada grupo de diez jugadores, DexKit aportará 50 $USDT adicionales, aumentando el premio a 100 $USDT (10 jugadores, 10 $USDT cada uno) más 50 $USDT extra (bono del equipo de DexKit), a dividir entre los tres primeros ganadores. Este patrón continúa para cada grupo adicional de diez jugadores, por lo que si la sala se llena con cincuenta jugadores, los ganadores compartirán 750 $USDT. Se espera que esta iniciativa atraiga a numerosas personas interesadas que estén ansiosas por jugar y ganar dinero a través de referencias.
 
 ![Carrera de la Liga de Monedas](/blog-images/coin_league_race_1.png)
 
-¡Verás lo geniales que son esas carreras! ¡Cualquiera puede ganar! 🥁🤯
-
-El primer juego de jackpot, llamado “juego del toro”
-
-![🐂](https://s.w.org/images/core/emoji/14.0.0/svg/1f402.svg)
-
-, tendrá una duración de un mes y la tarifa de inscripción será de 10 $USDT en Polygon (más tarifas mínimas de $MATIC). Los meses futuros pueden variar según una encuesta pública realizada en el Twitter de Coin League. Las tendencias de precios también pueden variar, por lo que debemos adaptarnos en consecuencia.
+El primer juego de jackpot, llamado “juego del toro” 🐂 tendrá una duración de un mes y la tarifa de inscripción será de 10 $USDT en Polygon (más tarifas mínimas de $MATIC). Los meses futuros pueden variar según una encuesta pública realizada en el Twitter de Coin League. Las tendencias de precios también pueden variar, por lo que debemos adaptarnos en consecuencia.
 
 ![Oso](/blog-images/beargamecoinleague_moddy-1.gif)
 

@@ -16,7 +16,7 @@ Conforme mencionado e descrito nas edições anteriores, nosso [Crypto Website B
 
 Para ajudá-lo a tomar uma decisão informada, fornecemos uma tabela comparativa abaixo, mostrando as características dos três principais players da indústria de colecionáveis digitais junto com nosso produto. Esta tabela servirá como uma referência rápida para ajudá-lo a identificar a opção mais adequada com base nas suas necessidades específicas.
 
-**[Assistente por DexKit](https://whitelabel-nft.dexkit.com/admin/create?_ga=2.19318648.1506910254.1705192601-1648656589.1702664712)**
+**[Assistente por DexKit](https://whitelabel-nft.dexkit.com/admin/create)**
 
 **[OpenSea](https://opensea.io/)**
 
@@ -26,93 +26,93 @@ Para ajudá-lo a tomar uma decisão informada, fornecemos uma tabela comparativa
 
 ### Correntes compatíveis
 
-Arbitrum, Avalanche, Cadeia BNB, Ethereum, Otimismo, Polígono
+**Assistente por DexKit:** Arbitrum, Avalanche, Cadeia BNB, Ethereum, Otimismo, Polígono
 
-Arbitrum, Avalanche, Cadeia BNB, Ethereum, Klaytn, Otimismo, Polígono, Solana
+**OpenSea:** Arbitrum, Avalanche, Cadeia BNB, Ethereum, Klaytn, Otimismo, Polígono, Solana
 
-Ethereum, Tezos, Solana, Polígono
+**Rarible:** Ethereum, Tezos, Solana, Polígono
 
-Ethereum
+**Superrare:** Ethereum
 
 ### Tipos de token
 
-ERC-721, ERC-1155
+**Assistente por DexKit:** ERC-721, ERC-1155
 
-ERC-721, ERC-1155
+**OpenSea:** ERC-721, ERC-1155
 
-ERC-721, ERC-1155
+**Rarible:** ERC-721, ERC-1155
 
-ERC-721
+**Superrare:** ERC-721
 
 ### Tarifas
 
-A partir de 0%, escolha do criador e pode ser alterada a qualquer momento.
+**Assistente por DexKit:** A partir de 0%, escolha do criador e pode ser alterada a qualquer momento.
 
-2,5% no topo
+**OpenSea:** 2,5% no topo
 
-1% no topo
+**Rarible:** 1% no topo
 
-3% no topo
+**Superrare:** 3% no topo
 
 ### Curadoria
 
-Permitir que qualquer pessoa liste seus ativos digitais para venda
+**Assistente por DexKit:** Permitir que qualquer pessoa liste seus ativos digitais para venda
 
-Permitir que qualquer pessoa liste seus ativos digitais para venda
+**OpenSea:** Permitir que qualquer pessoa liste seus ativos digitais para venda
 
-Permitir que qualquer pessoa liste seus ativos digitais para venda
+**Rarible:** Permitir que qualquer pessoa liste seus ativos digitais para venda
 
-Apenas para alguns artistas
+**Superrare:** Apenas para alguns artistas
 
 ### Comunidade
 
-O criador deve reunir e gerenciar sua própria comunidade.
+**Assistente por DexKit:** O criador deve reunir e gerenciar sua própria comunidade.
 
-Grande comunidade ativa
+**OpenSea:** Grande comunidade ativa
 
-Comunidade média ativa
+**Rarible:** Comunidade média ativa
 
-Comunidade baixa, mas engajada
+**Superrare:** Comunidade baixa, mas engajada
 
 ### Tamanho do mercado
 
-Até despesas de publicidade dos criadores.
+**Assistente por DexKit:** Até despesas de publicidade dos criadores.
 
-Maior
+**OpenSea:** Maior
 
-Moderado
+**Rarible:** Moderado
 
-Pequeno
+**Superrare:** Pequeno
 
 ### Disponibilidade
 
-Mundialmente
+**Assistente por DexKit:** Mundialmente
 
-Em todo o mundo (com algumas restrições geográficas). Verifique seus Termos de Serviço)
+**OpenSea:** Em todo o mundo (com algumas restrições geográficas). Verifique seus Termos de Serviço)
 
-Mundialmente
+**Rarible:** Mundialmente
 
-Mundialmente
+**Superrare:** Mundialmente
 
 ### Métodos de pagamento
 
-Até os criadores. Qualquer token em qualquer rede suportada pode ser importado e solicitado para pagamento.
+**Assistente por DexKit:** Até os criadores. Qualquer token em qualquer rede suportada pode ser importado e solicitado para pagamento.
 
-ETH, BNB, MATIC, DAI (top tokens), cartões de crédito.
+**OpenSea:** ETH, BNB, MATIC, DAI (top tokens), cartões de crédito.
 
-ETH, MATIC, MoonPay (cartão de crédito)
+**Rarible:** ETH, MATIC, MoonPay (cartão de crédito)
 
-Apenas ETH
+**Superrare:** Apenas ETH
 
 ### Limitações
 
-Impossível proibir. Ninguém gerencia bancos de dados de usuários. Propriedade total do usuário
+**Assistente por DexKit:** Impossível proibir. Ninguém gerencia bancos de dados de usuários. Propriedade total do usuário
 
-Ser banido é possível. Banco de dados centralizado.
+**OpenSea:** Ser banido é possível. Banco de dados centralizado.
 
-Ser banido é possível. Banco de dados centralizado.
+**Rarible:** Ser banido é possível. Banco de dados centralizado.
 
-Ser banido é possível. Banco de dados centralizado.
+**Superrare:** Ser banido é possível. Banco de dados centralizado.
 
 ## Conclusão
 

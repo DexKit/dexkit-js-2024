@@ -8,7 +8,7 @@ category: Blog
 slug: plataformas-sem-codigo-e-baixo-codigo-para-web2-e-web3
 imageUrl: /blog-images/Web2-and-Web3-blog-1.png
 ---
-Na [postagem anterior](https://dexkit.com/no-code-low-code-revolution-transforming-digital-creation/), exploramos plataformas sem código/low-code. Examinamos como eles tornam o desenvolvimento de aplicativos prático e econômico. Neste artigo, compararemos WordPress e Wix, ambas plataformas sem código/low-code projetadas para criação de sites Web 2. Além disso, mostraremos como a plataforma DexAppBuilder, específica para Web3, difere deles.
+Na [postagem anterior](https://dexkit.com/pt/blog/sem-codigo-low-code-revolucao-transformando-criacao-digital), exploramos plataformas sem código/low-code. Examinamos como eles tornam o desenvolvimento de aplicativos prático e econômico. Neste artigo, compararemos WordPress e Wix, ambas plataformas sem código/low-code projetadas para criação de sites Web 2. Além disso, mostraremos como a plataforma DexAppBuilder, específica para Web3, difere deles.
 
 WordPress ou Wix? Se você deseja construir seu projeto em Web3, a resposta a esta pergunta é: **DexAppBuilder**. WordPress e Wix são plataformas desenvolvidas para o ambiente Web2. Ao contrário deles, **DexAppBuilder** é uma plataforma que oferece **soluções para criação de aplicativos Web3**.
 

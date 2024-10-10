@@ -43,5 +43,3 @@ In the fiercely competitive realms of cryptocurrencies and decentralized finance
 ### Exciting plans await: Migrating to Next.js for a seamless experience 🚀
 
 We have exciting news! We are in the process of migrating all our web products, including our main website (yes, the one you’re on right now 😅), to Next.js. Our goal is to provide you with the best possible experience while reading our blog and interacting with our products. Stay tuned for positive changes coming to DexKit—your journey with us is about to become even more rewarding 😁
-
-Watch Guillermo Rauch –[Vercel](https://vercel.com) CEO and founder– start the conference with this amazing Keynote. Enjoy it! 🍿​

@@ -19,7 +19,7 @@ Em contraste, uma DEX opera em uma rede descentralizada, geralmente uma blockcha
 
 Em termos mais simples, o CEX representa o método tradicional de negociação, em que uma entidade centralizada governa a plataforma de negociação, enquanto o DEX representa uma abordagem inovadora, em que nenhuma entidade central exerce controlo sobre a plataforma de negociação, as transações ou as informações privadas dos utilizadores.
 
-### No entanto, é crucial observar que a negociação de DEX não garante segurança absoluta\* 👀👇
+### No entanto, é crucial observar que a negociação de DEX não garante segurança absoluta 👀👇
 
 No caso dos DEXs, um risco é o potencial de roubo ou congelamento de fundos em um pool de liquidez. Os pools de liquidez consistem em ativos com os quais os usuários podem contribuir e retirar para fornecer liquidez à bolsa. No entanto, **se o contrato inteligente que gerencia o pool de liquidez for comprometido, será possível que os fundos sejam roubados ou congelados**. Além disso, se um usuário utilizar uma ponte de token para se conectar a um DEX, ele poderá ficar exposto a perdas se a ponte for hackeada.
 
