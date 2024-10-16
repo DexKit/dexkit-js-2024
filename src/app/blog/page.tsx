@@ -3,6 +3,17 @@ import path from 'path';
 import matter from 'gray-matter';
 import Link from 'next/link';
 import Image from 'next/image';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'DexKit Blog | News and Articles about Web3 and DeFi',
+  description: 'Explore the latest news, tutorials, and analysis on Web3, DeFi, and the blockchain ecosystem in the official DexKit blog.',
+  openGraph: {
+    title: 'DexKit Blog | News and Articles about Web3 and DeFi',
+    description: 'Explore the latest news, tutorials, and analysis on Web3, DeFi, and the blockchain ecosystem in the official DexKit blog.',
+    images: [{ url: '/imgs/dexkit_og.png' }],
+  },
+};
 
 interface BlogPost {
   slug: string;
