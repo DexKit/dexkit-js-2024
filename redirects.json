@@ -46,5 +46,9 @@
     "/exploring-the-world-of-blockchain-games-an-overview-of-popular-genres-and-coin-leagues-unique-offering/": { "destination": "/blog/exploring-the-world-of-blockchain-games-an-overview-of-popular-genres-and-coin-leagues-unique-offering", "permanent": true },
     "/simple-steps-to-keep-your-crypto-safe-a-quick-guide-for-beginners/": { "destination": "/blog/simple-steps-to-keep-your-crypto-safe-a-quick-guide-for-beginners", "permanent": true },
     "/were-the-first-project-in-the-whole-world-providing-this-nft-tool/": { "destination": "/blog/revolutionize-your-nft-sales-with-dexkit/", "permanent": true },
-    "/cripto-apuestas-desmitificadas-explorando-beneficios-y-riesgos/": { "destination": "/blog/staking-cripto-desmitificado-explorando-beneficios-y-riesgos", "permanent": true }
+    "/cripto-apuestas-desmitificadas-explorando-beneficios-y-riesgos/": { "destination": "/blog/staking-cripto-desmitificado-explorando-beneficios-y-riesgos", "permanent": true },
+    "/practical-applications-of-cryptocurrencies/": { "destination": "/blog/practical-applications-of-cryptocurrencies", "permanent": true },
+    "/join-superapp-version-2-and-win-a-free-axie-infinity-battle-team/": { "destination": "/blog/join-superapp-version-2-and-win-a-free-axie-infinity-battle-team", "permanent": true },
+    "/faq/": { "destination": "/", "permanent": true },
+    "/category/faq": { "destination": "/", "permanent": true }
   }

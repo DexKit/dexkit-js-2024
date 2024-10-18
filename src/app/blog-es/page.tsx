@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import Link from 'next/link';
 import Image from 'next/image';
+import { Metadata } from 'next';
 
 interface BlogPost {
   slug: string;
@@ -58,6 +59,18 @@ function getBlogPosts(locale: string): BlogPost[] {
       return 0; 
     }
   });
+}
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Blog de DexKit | Noticias y Artículos sobre Web3 y DeFi',
+    description: 'Explora las últimas noticias, tutoriales y análisis sobre Web3, DeFi, y el ecosistema blockchain en el blog oficial de DexKit.',
+    openGraph: {
+      title: 'Blog de DexKit | Noticias y Artículos sobre Web3 y DeFi',
+      description: 'Explora las últimas noticias, tutoriales y análisis sobre Web3, DeFi, y el ecosistema blockchain en el blog oficial de DexKit.',
+      images: [{ url: '/imgs/dexkit_og.png' }],
+    },
+  };
 }
 
 export default function BlogPage() {

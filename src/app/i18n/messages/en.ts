@@ -52,6 +52,7 @@ const messages: Messages = {
   'hero.title': 'Create your own branded DApps.',
   'hero.subtitle': 'With DexKit\'s no-code/low-code tools.',
   'hero.cta': 'Start now!',
+  'hero.imageAlt': 'DexKit Web3 Illustration showcasing decentralized application building',
 
   // Partners
   'partners.title': 'Partners & Integrations',
@@ -96,6 +97,7 @@ const messages: Messages = {
   'product.dexexchangepro.description': 'Your professional and secure decentralized exchange. No middlemen, no complications.',
   'product.dexwallet.title': 'DexWallet',
   'product.dexwallet.description': 'Manage your digital assets safely and easily.',
+  'product.dexappbuilder.imageAlt': 'DexAppBuilder Platform',
   
   // Learn more
   'product.learnMore': 'Learn more',

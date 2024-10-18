@@ -26,7 +26,7 @@ export default function Product() {
               href="/dexappbuilder" 
               className="inline-block bg-orange-400 text-black py-2 px-5 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-base sm:text-lg font-semibold"
             >
-              <FormattedMessage id="product.learnMore" />
+              <FormattedMessage id="product.learnMore.dexappbuilder" defaultMessage="Learn more about DexAppBuilder"/>
             </LocalizedLink>
           </div>
           <div className="md:w-1/2 flex justify-center md:justify-start">

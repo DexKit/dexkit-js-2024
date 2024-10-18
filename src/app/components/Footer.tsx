@@ -4,6 +4,9 @@ import Image from 'next/image'
 import LocalizedLink from './LocalizedLink'
 import { useState, useEffect, FormEvent } from 'react'
 import { FormattedMessage, useIntl } from 'react-intl'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDiscord, faYoutube, faXTwitter, faTelegram, faLinkedin, faReddit, faMedium, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 
 export default function Footer() {
   const intl = useIntl();
@@ -21,15 +24,15 @@ export default function Footer() {
   }, []);
 
   const socialNetworks = [
-    { name: 'Discord', icon: 'fa-brands fa-discord', url: 'https://discord.com/invite/dexkit-official-943552525217435649' },
-    { name: 'YouTube', icon: 'fa-brands fa-youtube', url: 'https://www.youtube.com/@DexKit' },
-    { name: 'Twitter', icon: 'fa-brands fa-twitter', url: 'https://twitter.com/dexkit' },
-    { name: 'Telegram', icon: 'fa-brands fa-telegram', url: 'https://t.me/dexkit' },
-    { name: 'LinkedIn', icon: 'fa-brands fa-linkedin', url: 'https://www.linkedin.com/company/dexkit' },
-    { name: 'Reddit', icon: 'fa-brands fa-reddit', url: 'https://www.reddit.com/r/dexkit' },
-    { name: 'Medium', icon: 'fa-brands fa-medium', url: 'https://dexkit.medium.com/' },
-    { name: 'Instagram', icon: 'fa-brands fa-instagram', url: 'https://www.instagram.com/dexkit.io' },
-    { name: 'Facebook', icon: 'fa-brands fa-facebook', url: 'https://www.facebook.com/dexkit.io' },
+    { name: 'Discord', icon: faDiscord, url: 'https://discord.com/invite/dexkit-official-943552525217435649' },
+    { name: 'YouTube', icon: faYoutube, url: 'https://www.youtube.com/@DexKit' },
+    { name: 'X', icon: faXTwitter, url: 'https://x.com/dexkit' },
+    { name: 'Telegram', icon: faTelegram, url: 'https://t.me/dexkit' },
+    { name: 'LinkedIn', icon: faLinkedin, url: 'https://www.linkedin.com/company/dexkit' },
+    { name: 'Reddit', icon: faReddit, url: 'https://www.reddit.com/r/dexkit' },
+    { name: 'Medium', icon: faMedium, url: 'https://dexkit.medium.com/' },
+    { name: 'Instagram', icon: faInstagram, url: 'https://www.instagram.com/dexkit.io' },
+    { name: 'Facebook', icon: faFacebook, url: 'https://www.facebook.com/dexkit.io' },
   ]
 
   const linkProps = {
@@ -110,7 +113,7 @@ export default function Footer() {
                   className="bg-orange-400 text-black p-2 rounded-r-md hover:bg-orange-500 transition duration-300"
                   aria-label={intl.formatMessage({ id: 'footer.subscribe.button' })}
                 >
-                  <i className="fas fa-paper-plane"></i>
+                  <FontAwesomeIcon icon={faPaperPlane} />
                 </button>
               </div>
               {message && <p className="mt-2 text-sm text-center md:text-left">{message}</p>}
@@ -125,7 +128,7 @@ export default function Footer() {
               {...linkProps}
             >
               <span className="sr-only">{social.name}</span>
-              <i className={`${social.icon} text-xl md:text-2xl`}></i>
+              <FontAwesomeIcon icon={social.icon} className="text-xl md:text-2xl" />
             </LocalizedLink>
           ))}
         </div>
