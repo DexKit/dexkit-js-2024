@@ -9,6 +9,9 @@ export default function UtilitiesContent() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    const productTitle = intl.formatMessage({ id: 'utilities.title' });
+    document.title = `${productTitle} | DexKit`;
+
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
@@ -19,7 +22,7 @@ export default function UtilitiesContent() {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [intl]);
 
   const utilities = [
     {

@@ -11,6 +11,9 @@ export default function DexNFTMarket() {
     const intl = useIntl();
 
     useEffect(() => {
+        const productTitle = intl.formatMessage({ id: 'product.dexnftmarket.title' });
+        document.title = `${productTitle} | DexKit`;
+
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768);
         };
@@ -21,7 +24,7 @@ export default function DexNFTMarket() {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, []);
+    }, [intl]);
 
     return (
       <div className="min-h-screen">

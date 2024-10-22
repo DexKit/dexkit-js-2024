@@ -7,8 +7,8 @@ export type Locale = typeof locales[number];
 
 export const localeNames: { [key in Locale]: string } = {
   en: 'English',
-  es: 'Español',
-  pt: 'Português'
+  es: 'Espa\u00F1ol',
+  pt: 'Portugu\u00EAs'
 };
 
 export async function loadMessages(locale: Locale): Promise<Messages> {

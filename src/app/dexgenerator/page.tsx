@@ -11,6 +11,9 @@ export default function DexGenerator() {
     const intl = useIntl();
 
     useEffect(() => {
+        const productTitle = intl.formatMessage({ id: 'product.dexgenerator.title' });
+        document.title = `${productTitle} | DexKit`;
+
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768);
         };
@@ -21,7 +24,7 @@ export default function DexGenerator() {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, []);
+    }, [intl]);
 
     const requirements = [
         'dexgenerator.requirements.metamask',

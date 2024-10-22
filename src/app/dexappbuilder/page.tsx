@@ -11,6 +11,9 @@ export default function DexAppBuilder() {
     const intl = useIntl();
 
     useEffect(() => {
+        const productTitle = intl.formatMessage({ id: 'product.dexappbuilder.title' });
+        document.title = `${productTitle} | DexKit`;
+
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768);
         };
@@ -21,7 +24,7 @@ export default function DexAppBuilder() {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, []);
+    }, [intl]);
 
     const tutorials = [
         { titleId: "dexappbuilder.tutorials.firstDApp", url: "https://docs.dexkit.com/defi-products/dexappbuilder/creating-my-first-app" },
@@ -30,6 +33,7 @@ export default function DexAppBuilder() {
         { titleId: "dexappbuilder.tutorials.sellingDesigns", url: "https://docs.dexkit.com/defi-products/dexappbuilder/selling-my-designs" },
         { titleId: "dexappbuilder.tutorials.youtubePlaylist", url: "https://youtube.com/playlist?list=PLue98kEkVwitaUh2Xc5DF6Y_PoEUEkki8" }
     ];
+
 
     return (
       <div className="min-h-screen">

@@ -8,6 +8,9 @@ export default function MissionVisionValues() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    const pageTitle = intl.formatMessage({ id: 'missionVisionValues.title' });
+    document.title = `${pageTitle} | DexKit`;
+
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
@@ -18,7 +21,7 @@ export default function MissionVisionValues() {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [intl]);
 
   const values = [
     { icon: '🔒', title: 'value1Title', desc: 'value1Desc' },

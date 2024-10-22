@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { FaDownload, FaFolder, FaFolderOpen, FaExternalLinkAlt } from 'react-icons/fa';
 import { FormattedMessage } from 'react-intl';
+import { useIntl } from 'react-intl';
 
 interface BrandAsset {
   name: string;
@@ -13,10 +14,14 @@ interface BrandAsset {
 }
 
 export default function BrandMaterial() {
+  const intl = useIntl();
   const [isMobile, setIsMobile] = useState(false);
   const pdfUrl = '/branding/docs/Brand_Guidelines.pdf';
 
   useEffect(() => {
+    const pageTitle = intl.formatMessage({ id: 'brandMaterial.title' });
+    document.title = `${pageTitle} | DexKit`;
+
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
@@ -27,7 +32,7 @@ export default function BrandMaterial() {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [intl]);
 
   const [expandedFolders, setExpandedFolders] = useState<string[]>([]);
 

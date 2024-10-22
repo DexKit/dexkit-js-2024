@@ -1,10 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 import Link from 'next/link';
 import { FaExternalLinkAlt } from 'react-icons/fa';
-import { useIntl } from 'react-intl';
 
 export default function DexNFTStore() {
     const [activeTab, setActiveTab] = useState('description');
@@ -12,6 +11,9 @@ export default function DexNFTStore() {
     const intl = useIntl();
 
     useEffect(() => {
+        const productTitle = intl.formatMessage({ id: 'product.dexnftstore.title' });
+        document.title = `${productTitle} | DexKit`;
+
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768);
         };
@@ -22,7 +24,7 @@ export default function DexNFTStore() {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, []);
+    }, [intl]);
 
     const tutorials = [
         { titleId: "dexnftstore.tutorials.firstStore", url: "https://docs.dexkit.com/defi-products/dexnftstore/creating-my-first-store" },

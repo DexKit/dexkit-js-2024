@@ -2,17 +2,24 @@ import "./globals.css";
 import { sora } from './fonts';
 import ClientLayout from './layout-client';
 import Analytics from './components/Analytics';
-import { generateMetadata } from './metadata';
+import { generateMetadata as generateMetadataBase } from './metadata';
 
-export { generateMetadata };
+export async function generateMetadata({ params }: { params: { locale: string } }) {
+  return generateMetadataBase({ params });
+}
 
-export default function RootLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
+export default async function RootLayout(
+  props: {
+    children: React.ReactNode;
+    params: Promise<{ locale: string }>;
+  }
+) {
+  const params = await props.params;
+
+  const {
+    children
+  } = props;
+
   return (
     <html className={`${sora.variable}`} lang={params.locale}>
       <body className={sora.className}>

@@ -2,6 +2,7 @@
 
 import { useIntl } from 'react-intl';
 import LocalizedLink from '@/app/components/LocalizedLink';
+import { useEffect } from 'react';
 
 export default function AboutPage() {
   return <AboutPageContent />;
@@ -9,6 +10,11 @@ export default function AboutPage() {
 
 function AboutPageContent() {
   const intl = useIntl();
+
+  useEffect(() => {
+    const pageTitle = intl.formatMessage({ id: 'about.title' });
+    document.title = `${pageTitle} | DexKit`;
+  }, [intl]);
 
   return (
     <div className="min-h-screen bg-transparent">

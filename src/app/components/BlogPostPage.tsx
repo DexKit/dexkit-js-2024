@@ -1,12 +1,9 @@
 'use client';
 
-import { useState, useEffect, use } from 'react';
-import { FormattedMessage, useIntl } from 'react-intl';
+import { FormattedMessage } from 'react-intl';
 import Image from 'next/image';
-import { notFound } from 'next/navigation';
-import SkeletonLoader from '../../../components/SkeletonLoader';
 
-interface BlogPost {
+export interface BlogPost {
   slug: string;
   title: string;
   date: string;
@@ -14,61 +11,16 @@ interface BlogPost {
   category: string;
   imageUrl: string;
   contentHtml: string;
+  excerpt?: string;
 }
 
 interface BlogPostPageProps {
-  params: Promise<{ 
-    slug: string;
-    locale: string;
-  }>
+  post: BlogPost;
 }
 
-export default function BlogPostPage(props: BlogPostPageProps) {
-  const params = use(props.params);
-  const [post, setPost] = useState<BlogPost | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
-  const intl = useIntl();
-
-  useEffect(() => {
-    async function fetchPost() {
-      try {
-        const localeFolder = params.locale === 'en' ? 'blog' : `blog-${params.locale}`;
-        const response = await fetch(`/api/blogPost?slug=${params.slug}&locale=${localeFolder}`);
-        if (!response.ok) {
-          throw new Error('Failed to fetch post');
-        }
-        const data = await response.json();
-        setPost(data);
-      } catch (error) {
-        console.error('Error fetching post:', error);
-        setPost(null);
-      } finally {
-        setIsLoading(false);
-      }
-    }
-
-    fetchPost();
-  }, [params.slug, params.locale]);
-
-  useEffect(() => {
-    if (post) {
-      document.title = `${post.title} | ${intl.formatMessage({ id: 'blog.titleSuffix' })}`;
-    }
-  }, [post, intl]);
-
-  if (isLoading) {
-    return (
-      <div className="container mx-auto px-4 py-8">
-        <SkeletonLoader type="title" />
-        <SkeletonLoader type="image" />
-        <SkeletonLoader type="text" />
-        <SkeletonLoader type="text" />
-      </div>
-    );
-  }
-
+export default function BlogPostPage({ post }: BlogPostPageProps) {
   if (!post) {
-    notFound();
+    return <div>Post not found</div>;
   }
 
   return (
@@ -83,7 +35,7 @@ export default function BlogPostPage(props: BlogPostPageProps) {
             </span>
             <Image 
               src="/imgs/dexkit-logo-white-o-o.svg"
-              alt={intl.formatMessage({ id: 'blog.dexkitLogo' })}
+              alt="DexKit Logo" 
               width={60} 
               height={60} 
               className="mr-2"

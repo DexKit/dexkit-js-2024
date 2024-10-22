@@ -11,6 +11,9 @@ export default function ContractAddressesContent() {
   const [copiedAddress, setCopiedAddress] = useState('');
 
   useEffect(() => {
+    const pageTitle = intl.formatMessage({ id: 'contractAddresses.title' });
+    document.title = `${pageTitle} | DexKit`;
+
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
@@ -21,7 +24,7 @@ export default function ContractAddressesContent() {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [intl]);
 
   const contracts = [
     { network: 'Ethereum', address: '0x7866e48c74cbfb8183cd1a929cd9b95a7a5cb4f4', icon: '/imgs/networks/ethereum.png', explorer: 'https://etherscan.io/token/0x7866e48c74cbfb8183cd1a929cd9b95a7a5cb4f4' },

@@ -1,29 +1,37 @@
 'use client';
 
 import { IntlProvider } from 'react-intl';
-import { Locale, loadMessages } from '../i18n/config';
-import { useEffect, useState } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import { useParams, usePathname, notFound } from 'next/navigation';
+import messages from '@/app/i18n/messages';
+
+type ValidLocale = keyof typeof messages;
+
+function isValidLocale(locale: string): locale is ValidLocale {
+  return locale in messages;
+}
 
 export default function ClientLayout({
   children,
   locale,
 }: {
   children: React.ReactNode;
-  locale: Locale;
+  locale: string;
 }) {
-  const [messages, setMessages] = useState({});
+  const params = useParams();
+  const pathname = usePathname();
+  const localeParam = locale || params?.locale as string;
+  
+  if (pathname === '/robots.txt' || pathname === '/sitemap.xml') {
+    return <>{children}</>;
+  }
 
-  useEffect(() => {
-    loadMessages(locale).then(setMessages);
-  }, [locale]);
+  if (!isValidLocale(localeParam)) {
+    notFound();
+  }
 
   return (
-    <IntlProvider messages={messages} locale={locale}>
-      <Header />
-      <main>{children}</main>
-      <Footer />
+    <IntlProvider messages={messages[localeParam]} locale={localeParam} defaultLocale="en">
+      {children}
     </IntlProvider>
   );
 }

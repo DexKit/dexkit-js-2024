@@ -1,8 +1,8 @@
 import { headers } from 'next/headers';
 import messages from '@/app/i18n/messages';
 
-export function getLocale() {
-  const headersList = headers();
+export async function getLocale() {
+  const headersList = await headers();
   const pathname = headersList.get('x-invoke-path') || '';
   if (pathname.startsWith('/es')) return 'es';
   if (pathname.startsWith('/pt')) return 'pt';

@@ -13,6 +13,9 @@ export default function TokenomicsContent() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    const productTitle = intl.formatMessage({ id: 'tokenomics.title' });
+    document.title = `${productTitle} | DexKit`;
+
     const handleResize = () => {
       const width = window.innerWidth;
       setIsMobile(width < 768);
@@ -25,7 +28,7 @@ export default function TokenomicsContent() {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [intl]);
 
   const data = [
     { name: intl.formatMessage({ id: 'tokenomics.distribution.liquidity' }), value: 25 },

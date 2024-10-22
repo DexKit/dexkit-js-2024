@@ -26,6 +26,9 @@ export default function OurTeam() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    const pageTitle = intl.formatMessage({ id: 'ourTeam.title' });
+    document.title = `${pageTitle} | DexKit`;
+
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
@@ -36,7 +39,7 @@ export default function OurTeam() {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [intl]);
 
   const teamMembers: TeamMember[] = [
     {

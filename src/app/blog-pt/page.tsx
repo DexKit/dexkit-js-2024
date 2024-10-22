@@ -31,12 +31,12 @@ const DEFAULT_IMAGE = '/imgs/dexkit_og.png';
 
 function parsePortugueseDate(dateString: string): Date {
   const months: { [key: string]: number } = {
-    'janeiro': 0, 'fevereiro': 1, 'março': 2, 'abril': 3, 'maio': 4, 'junho': 5,
+    'janeiro': 0, 'fevereiro': 1, 'marco': 2, 'abril': 3, 'maio': 4, 'junho': 5,
     'julho': 6, 'agosto': 7, 'setembro': 8, 'outubro': 9, 'novembro': 10, 'dezembro': 11
   };
   const parts = dateString.split(' ');
   const day = parseInt(parts[0]);
-  const month = parts[2].toLowerCase();
+  const month = parts[2].toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   const year = parseInt(parts[4]);
   return new Date(year, months[month], day);
 }
