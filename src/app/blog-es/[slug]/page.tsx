@@ -6,6 +6,7 @@ import html from 'remark-html';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
+import { getMessage } from '@/app/utils/locale';
 
 interface BlogPost {
   slug: string;
@@ -47,23 +48,23 @@ async function getPostData(slug: string): Promise<BlogPost | null> {
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-    const post = await getPostData(params.slug);
-    if (!post) {
-        return {
-        title: 'Publicación no encontrada',
-        description: 'La publicación del blog solicitada no pudo ser encontrada.',
-        };
-    }
+  const post = await getPostData(params.slug);
+  if (!post) {
     return {
-        title: `${post.title} | Blog de DexKit`,
-        description: post.excerpt,
-        openGraph: {
-        title: post.title,
-        description: post.excerpt,
-        images: [{ url: post.imageUrl }],
-        },
+      title: getMessage('blog.postNotFound', 'es'),
+      description: getMessage('blog.postNotFoundDescription', 'es'),
     };
-    }
+  }
+  return {
+    title: `${post.title} | ${getMessage('blog.titleSuffix', 'es')}`,
+    description: post.excerpt,
+    openGraph: {
+      title: `${post.title} | ${getMessage('blog.titleSuffix', 'es')}`,
+      description: post.excerpt,
+      images: [{ url: post.imageUrl }],
+    },
+  };
+}
 
 export default async function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = await getPostData(params.slug);
@@ -79,16 +80,16 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
           <h1 className="text-3xl md:text-5xl font-bold text-center mb-4 text-white">{post.title}</h1>
           
           <div className="flex items-center justify-center mb-4">
-            <span className="text-sm md:text-base text-white mr-2">Por:</span>
+            <span className="text-sm md:text-base text-white mr-2">{getMessage('blog.by', 'es')}:</span>
             <Image 
               src="/imgs/dexkit-logo-white-o-o.svg"
-              alt="Logo de DexKit" 
+              alt={getMessage('blog.dexkitLogo', 'es')}
               width={60} 
               height={60} 
               className="mr-2"
             />
             <span className="text-sm md:text-base text-white">
-              {post.author} <span className="mx-1">el</span> {post.date}
+              {post.author} <span className="mx-1">{getMessage('blog.on', 'es')}</span> {post.date}
             </span>
           </div>
 

@@ -4,6 +4,8 @@ import matter from 'gray-matter';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
+import { getMessage } from '@/app/utils/locale';
+import { useIntl } from 'react-intl';
 
 interface BlogPost {
   slug: string;
@@ -62,25 +64,34 @@ function getBlogPosts(locale: string): BlogPost[] {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
+  console.log('Generating metadata for Spanish blog');
+  console.log('Blog title:', getMessage('blog.title', 'es'));
+  
   return {
-    title: 'Blog de DexKit | Noticias y Artículos sobre Web3 y DeFi',
-    description: 'Explora las últimas noticias, tutoriales y análisis sobre Web3, DeFi, y el ecosistema blockchain en el blog oficial de DexKit.',
+    title: getMessage('blog.title', 'es'),
+    description: getMessage('blog.description', 'es'),
     openGraph: {
-      title: 'Blog de DexKit | Noticias y Artículos sobre Web3 y DeFi',
-      description: 'Explora las últimas noticias, tutoriales y análisis sobre Web3, DeFi, y el ecosistema blockchain en el blog oficial de DexKit.',
+      title: getMessage('blog.title', 'es'),
+      description: getMessage('blog.description', 'es'),
       images: [{ url: '/imgs/dexkit_og.png' }],
     },
   };
 }
 
 export default function BlogPage() {
+  const intl = useIntl();
   const posts = getBlogPosts('es');
+
+  console.log('Rendering Spanish blog page');
+  console.log('Blog title:', intl.formatMessage({ id: 'blog.title' }));
 
   return (
     <div className="min-h-screen">
       <main>
         <div className="container mx-auto px-4 py-8 sm:py-16">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center mb-8 sm:mb-16 text-white">El Blog de DexKit</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center mb-8 sm:mb-16 text-white">
+            {intl.formatMessage({ id: 'blog.title' })}
+          </h1>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {posts.map((post) => (

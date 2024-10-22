@@ -1,7 +1,20 @@
 'use client';
 
 import { useIntl } from 'react-intl';
-import LocalizedLink from '@/app/components/LocalizedLink';
+import Link from 'next/link';
+import { useLocale } from '@/app/i18n/client';
+
+interface LocalizedLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+  href: string;
+}
+
+function LocalizedLink({ href, ...rest }: LocalizedLinkProps) {
+  const { locale } = useLocale();
+
+  const localizedHref = locale === 'en' ? href : `/${locale}${href}`;
+
+  return <Link href={localizedHref} {...rest} />;
+}
 
 export default function AboutPage() {
   return <AboutPageContent />;

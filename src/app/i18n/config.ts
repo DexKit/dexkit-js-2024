@@ -1,3 +1,5 @@
+import messages, { Messages } from './messages';
+
 export const defaultLocale = 'en' as const;
 export const locales = ['en', 'es', 'pt'] as const;
 
@@ -9,7 +11,6 @@ export const localeNames: { [key in Locale]: string } = {
   pt: 'Português'
 };
 
-export async function loadMessages(locale: Locale) {
-  const messages = await import(`./messages/${locale}.ts`);
-  return messages.default;
+export async function loadMessages(locale: Locale): Promise<Messages> {
+  return messages[locale];
 }
