@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useEffect, use } from 'react';
+import { useState, useEffect } from 'react';
 import { FormattedMessage, useIntl } from 'react-intl';
+import { useParams } from 'next/navigation';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import SkeletonLoader from '../../../components/SkeletonLoader';
@@ -16,15 +17,10 @@ interface BlogPost {
   contentHtml: string;
 }
 
-interface BlogPostPageProps {
-  params: Promise<{ 
-    slug: string;
-    locale: string;
-  }>
-}
-
-export default function BlogPostPage(props: BlogPostPageProps) {
-  const params = use(props.params);
+export default function BlogPostPage() {
+  const params = useParams();
+  const locale = params?.locale as string;
+  const slug = params?.slug as string;
   const [post, setPost] = useState<BlogPost | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const intl = useIntl();
@@ -32,8 +28,8 @@ export default function BlogPostPage(props: BlogPostPageProps) {
   useEffect(() => {
     async function fetchPost() {
       try {
-        const localeFolder = params.locale === 'en' ? 'blog' : `blog-${params.locale}`;
-        const response = await fetch(`/api/blogPost?slug=${params.slug}&locale=${localeFolder}`);
+        const localeFolder = locale === 'en' ? 'blog' : `blog-${locale}`;
+        const response = await fetch(`/api/blogPost?slug=${slug}&locale=${localeFolder}`);
         if (!response.ok) {
           throw new Error('Failed to fetch post');
         }
@@ -48,7 +44,7 @@ export default function BlogPostPage(props: BlogPostPageProps) {
     }
 
     fetchPost();
-  }, [params.slug, params.locale]);
+  }, [slug, locale]);
 
   useEffect(() => {
     if (post) {

@@ -1,12 +1,10 @@
 'use client'
 
 import { useParams } from 'next/navigation';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { defaultLocale } from '../../i18n/config';
-import { useSearchParams } from 'next/navigation';
-import { useIntl } from 'react-intl';
 import SkeletonLoader from '@/app/components/SkeletonLoader';
 
 interface BlogPost {
@@ -19,6 +17,7 @@ interface BlogPost {
 }
 
 const DEFAULT_IMAGE = '/imgs/dexkit_og.png';
+const POSTS_PER_PAGE = 6;
 
 function parseCustomDate(dateString: string, locale: string): Date {
   const months: { [key: string]: { [key: string]: number } } = {
@@ -52,12 +51,15 @@ function parseCustomDate(dateString: string, locale: string): Date {
 
 export default function BlogPage() {
   const [isLoading, setIsLoading] = useState(true);
+  const [posts, setPosts] = useState<BlogPost[]>([]);
+  const [displayedPosts, setDisplayedPosts] = useState<BlogPost[]>([]);
+  const [hasMore, setHasMore] = useState(true);
+  const loadingRef = useRef(null);
   const params = useParams();
   const locale = (params?.locale as string) || defaultLocale;
-  const [posts, setPosts] = useState<BlogPost[]>([]);
 
   useEffect(() => {
-    async function fetchPosts() {
+    const fetchPosts = async () => {
       const localeFolder = locale === 'en' ? 'blog' : `blog-${locale}`;
       const response = await fetch(`/api/blogPosts?locale=${localeFolder}`);
       const data = await response.json();
@@ -69,9 +71,51 @@ export default function BlogPage() {
       });
       
       setPosts(sortedPosts);
-    }
+      setDisplayedPosts(sortedPosts.slice(0, POSTS_PER_PAGE));
+      setIsLoading(false);
+    };
+
     fetchPosts();
   }, [locale]);
+
+  const loadMorePosts = useCallback(() => {
+    const nextPosts = posts.slice(
+      displayedPosts.length,
+      displayedPosts.length + POSTS_PER_PAGE
+    );
+    
+    if (nextPosts.length > 0) {
+      setDisplayedPosts(prev => [...prev, ...nextPosts]);
+      if (displayedPosts.length + nextPosts.length >= posts.length) {
+        setHasMore(false);
+      }
+    } else {
+      setHasMore(false);
+    }
+  }, [posts, displayedPosts]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const first = entries[0];
+        if (first.isIntersecting && hasMore) {
+          loadMorePosts();
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    const currentRef = loadingRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
+    }
+
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
+    };
+  }, [hasMore, posts, loadMorePosts]);
 
   const getBlogTitle = () => {
     switch(locale) {
@@ -82,19 +126,7 @@ export default function BlogPage() {
       default:
         return "DexKit's Blog";
     }
-  }
-
-  const intl = useIntl();
-  const searchParams = useSearchParams();
-  const fromPost = searchParams.get('fromPost');
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 1000);
-
-    return () => clearTimeout(timer);
-  }, []);
+  };
 
   if (isLoading) {
     return <SkeletonLoader />;
@@ -109,7 +141,7 @@ export default function BlogPage() {
           </h1>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {posts.map((post) => (
+            {displayedPosts.map((post) => (
               <Link key={post.slug} href={`/${locale}/blog/${post.slug}`}>
                 <div className="bg-white rounded-lg shadow-md overflow-hidden">
                   <div className="relative h-48 sm:h-56 md:h-64">
@@ -123,7 +155,9 @@ export default function BlogPage() {
                   <div className="p-4">
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-xs sm:text-sm text-gray-500">{post.date}</span>
-                      <span className="text-xs sm:text-sm bg-orange-400 text-white px-2 py-1 rounded-full">{post.category}</span>
+                      <span className="text-xs sm:text-sm bg-orange-400 text-white px-2 py-1 rounded-full">
+                        {post.category}
+                      </span>
                     </div>
                     <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">{post.title}</h2>
                     <div className="flex items-center">
@@ -143,18 +177,17 @@ export default function BlogPage() {
               </Link>
             ))}
           </div>
+          
+          {hasMore && (
+            <div 
+              ref={loadingRef}
+              className="w-full text-center py-8"
+            >
+              <SkeletonLoader type="text" />
+            </div>
+          )}
         </div>
       </main>
-      {fromPost && (
-        <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 mb-4" role="alert">
-          <p>
-            {intl.formatMessage({
-              id: 'blog.redirectMessage',
-              defaultMessage: 'You have been redirected to the main blog page due to the language change.'
-            })}
-          </p>
-        </div>
-      )}
     </div>
   );
 }
