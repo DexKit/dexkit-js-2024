@@ -2,6 +2,7 @@ import { Messages } from '../types';
 
 const messages: Messages = {
   // Layout
+  'home.title': 'DexKit - Haciendo Web3 Accesible | Constructor de DApps Sin Código',
   'layout.title': 'DexKit - Haciendo Web3 Accesible | Constructor de DApps Sin Código',
   'layout.description': 'DexKit proporciona herramientas sin código/bajo código para crear aplicaciones descentralizadas (DApps) en el espacio Web3. Construye tus propias DApps de marca fácil y eficientemente.',
   'dexnftstore.description': 'Crea y gestiona tu propio mercado de NFT personalizado con nuestra herramienta sin código.',
@@ -436,9 +437,16 @@ const messages: Messages = {
   'roadmap.Q3_2020.item3': 'Sitio web y redes sociales de DexKit',
 
   // Blog
+  'blog.title': 'Blog de DexKit | Noticias y Artículos sobre Web3 y DeFi',
   'blog.post.by': "Por:",
   'blog.post.on': "el",
   'blog.redirectMessage': 'Has sido redirigido a la página principal del blog debido al cambio de idioma.',
+  'blog.by': 'Por',
+  'blog.on': 'el',
+  'blog.dexkitLogo': 'Logo de DexKit',
+  'blog.postNotFound': 'Publicación no encontrada',
+  'blog.postNotFoundDescription': 'Lo sentimos, la publicación que estás buscando no existe.',
+  'blog.titleSuffix': 'Blog de DexKit',
 
   // Common
   'common.description': 'Descripción',

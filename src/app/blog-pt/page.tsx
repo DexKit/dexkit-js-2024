@@ -4,16 +4,19 @@ import matter from 'gray-matter';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
+import { getMessage } from '@/app/utils/locale';
 
-export const metadata: Metadata = {
-  title: 'Blog da DexKit | Notícias e Artigos sobre Web3 e DeFi',
-  description: 'Explore as últimas notícias, tutoriais e análises sobre Web3, DeFi e o ecossistema blockchain no blog oficial da DexKit.',
-  openGraph: {
-    title: 'Blog da DexKit | Notícias e Artigos sobre Web3 e DeFi',
-    description: 'Explore as últimas notícias, tutoriais e análises sobre Web3, DeFi e o ecossistema blockchain no blog oficial da DexKit.',
-    images: [{ url: '/imgs/dexkit_og.png' }],
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: getMessage('blog.title', 'pt'),
+    description: getMessage('blog.description', 'pt'),
+    openGraph: {
+      title: getMessage('blog.title', 'pt'),
+      description: getMessage('blog.description', 'pt'),
+      images: [{ url: '/imgs/dexkit_og.png' }],
+    },
+  };
+}
 
 interface BlogPost {
   slug: string;
@@ -28,12 +31,12 @@ const DEFAULT_IMAGE = '/imgs/dexkit_og.png';
 
 function parsePortugueseDate(dateString: string): Date {
   const months: { [key: string]: number } = {
-    'janeiro': 0, 'fevereiro': 1, 'março': 2, 'abril': 3, 'maio': 4, 'junho': 5,
+    'janeiro': 0, 'fevereiro': 1, 'marco': 2, 'abril': 3, 'maio': 4, 'junho': 5,
     'julho': 6, 'agosto': 7, 'setembro': 8, 'outubro': 9, 'novembro': 10, 'dezembro': 11
   };
   const parts = dateString.split(' ');
   const day = parseInt(parts[0]);
-  const month = parts[2].toLowerCase();
+  const month = parts[2].toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   const year = parseInt(parts[4]);
   return new Date(year, months[month], day);
 }
@@ -82,7 +85,9 @@ export default async function BlogPage() {
     <div className="min-h-screen">
       <main>
         <div className="container mx-auto px-4 py-8 sm:py-16">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center mb-8 sm:mb-16 text-white">O Blog da DexKit</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center mb-8 sm:mb-16 text-white">
+            {getMessage('blog.title', 'pt')}
+          </h1>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {posts.map((post) => (

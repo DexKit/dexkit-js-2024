@@ -61,14 +61,10 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ textColor }) => {
       pathParts.shift();
     }
 
-    if (newLocale === defaultLocale) {
-      newPathname = `/${pathParts.join('/')}`;
-    } else {
-      newPathname = `/${newLocale}/${pathParts.join('/')}`;
-    }
-
     if (pathParts[0] === 'blog' && pathParts.length > 1) {
-      newPathname = `/${newLocale === defaultLocale ? '' : newLocale + '/'}blog`;
+      newPathname = newLocale === defaultLocale ? '/blog' : `/${newLocale}/blog`;
+    } else {
+      newPathname = newLocale === defaultLocale ? `/${pathParts.join('/')}` : `/${newLocale}/${pathParts.join('/')}`;
     }
 
     if (newPathname === '') {
@@ -88,7 +84,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ textColor }) => {
         aria-label={`Select language: ${localeNames[currentLocale]}`}
       >
         <div className="flex items-center">
-          <Image src={flagImages[currentLocale]} alt="" width={20} height={15} className="rounded-sm mr-2" />
+          <Image src={flagImages[currentLocale]} alt={`Flag of ${localeNames[currentLocale]}`} width={20} height={15} className="rounded-sm mr-2" />
           <span className={`text-sm font-medium ${textColor}`}>{localeNames[currentLocale]}</span>
         </div>
         <svg className={`w-4 h-4 ${textColor}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -105,7 +101,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ textColor }) => {
                 className="flex items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-orange-500 hover:text-white transition-colors duration-200"
                 role="menuitem"
               >
-                <Image src={flagImages[locale]} alt="" width={20} height={15} className="mr-3 rounded-sm" />
+                <Image src={flagImages[locale]} alt={`Flag of ${localeNames[locale]}`} width={20} height={15} className="mr-3 rounded-sm" />
                 <span>{localeNames[locale]}</span>
               </button>
             ))}

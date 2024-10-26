@@ -3,6 +3,7 @@ import { Messages } from '../types';
 const messages: Messages = {
   // Layout
   'layout.title': 'DexKit - Making Web3 Accessible | No-Code DApp Builder',
+  'home.title': 'DexKit - Making Web3 Accessible | No-Code DApp Builder',
   'layout.description': 'DexKit provides no-code/low-code tools for creating decentralized applications (DApps) in the Web3 space. Build your own branded DApps easily and efficiently.',
   'dexnftstore.description': 'Create and manage your own customized NFT marketplace with our no-code tool.',
   'blog.description': 'Stay updated with the latest news and tutorials on DeFi and Web3 in our blog.',
@@ -435,6 +436,7 @@ const messages: Messages = {
   'roadmap.Q3_2020.item3': 'DexKit Website and Social Media',
 
   // Blog
+  'blog.title': 'DexKit Blog | News and Articles about Web3 and DeFi',
   'blog.post.by': "By:",
   'blog.post.on': "on",
   'blog.redirectMessage': 'You have been redirected to the main blog page due to the language change.',

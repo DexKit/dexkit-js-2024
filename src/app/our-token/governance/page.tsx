@@ -10,6 +10,9 @@ export default function GovernanceContent() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    const pageTitle = intl.formatMessage({ id: 'governance.title' });
+    document.title = `${pageTitle} | DexKit`;
+
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
@@ -20,7 +23,7 @@ export default function GovernanceContent() {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [intl]);
 
   return (
     <div className="min-h-screen">

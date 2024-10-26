@@ -11,6 +11,9 @@ export default function DexWallet() {
     const intl = useIntl();
 
     useEffect(() => {
+        const productTitle = intl.formatMessage({ id: 'product.dexwallet.title' });
+        document.title = `${productTitle} | DexKit`;
+
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768);
         };
@@ -21,7 +24,7 @@ export default function DexWallet() {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, []);
+    }, [intl]);
 
     const tutorials = [
         { titleId: "dexwallet.tutorials.firstWallet", url: "https://docs.dexkit.com/defi-products/dexwallet/creating-my-first-wallet" },

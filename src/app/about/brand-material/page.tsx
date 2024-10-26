@@ -1,9 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useIntl } from 'react-intl';
 import Image from 'next/image';
 import { FaDownload, FaFolder, FaFolderOpen, FaExternalLinkAlt } from 'react-icons/fa';
+import { FormattedMessage } from 'react-intl';
+import { useIntl } from 'react-intl';
 
 interface BrandAsset {
   name: string;
@@ -18,6 +19,9 @@ export default function BrandMaterial() {
   const pdfUrl = '/branding/docs/Brand_Guidelines.pdf';
 
   useEffect(() => {
+    const pageTitle = intl.formatMessage({ id: 'brandMaterial.title' });
+    document.title = `${pageTitle} | DexKit`;
+
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
@@ -28,7 +32,7 @@ export default function BrandMaterial() {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [intl]);
 
   const [expandedFolders, setExpandedFolders] = useState<string[]>([]);
 
@@ -183,10 +187,10 @@ export default function BrandMaterial() {
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <h1 className={`text-4xl md:text-6xl font-bold mb-4 md:mb-0 w-full ${isMobile ? 'text-center' : 'md:w-1/2 md:text-left'}`}>
-              {intl.formatMessage({ id: "brandMaterial.title" })}
+              <FormattedMessage id="brandMaterial.title" />
             </h1>
             <p className={`text-lg md:text-xl w-full ${isMobile ? 'text-center' : 'md:w-1/2 md:pl-4 md:text-left'}`}>
-              {intl.formatMessage({ id: "brandMaterial.description" })}
+              <FormattedMessage id="brandMaterial.description" />
             </p>
           </div>
         </div>
@@ -196,14 +200,20 @@ export default function BrandMaterial() {
         <main className="container mx-auto px-4 py-12">
           <div className={`grid ${isMobile ? 'grid-cols-1' : 'md:grid-cols-3'} gap-8`}>
             <div className="md:col-span-2 bg-gray-100 p-6 rounded-lg overflow-auto" style={{ maxHeight: isMobile ? '400px' : '600px' }}>
-              <h2 className="text-2xl font-bold mb-4 text-gray-800">{intl.formatMessage({ id: "brandMaterial.availableFiles" })}</h2>
+              <h2 className="text-2xl font-bold mb-4 text-gray-800">
+                <FormattedMessage id="brandMaterial.availableFiles" />
+              </h2>
               <div className="space-y-2">
                 {brandAssets.map(asset => renderAsset(asset))}
               </div>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg flex flex-col" style={{ height: 'fit-content' }}>
-              <h2 className="text-2xl font-bold mb-4 text-gray-800">{intl.formatMessage({ id: "brandMaterial.pdfViewer" })}</h2>
-              <p className="text-gray-600 mb-6">{intl.formatMessage({ id: "brandMaterial.pdfDescription" })}</p>
+              <h2 className="text-2xl font-bold mb-4 text-gray-800">
+                <FormattedMessage id="brandMaterial.pdfViewer" />
+              </h2>
+              <p className="text-gray-600 mb-6">
+                <FormattedMessage id="brandMaterial.pdfDescription" />
+              </p>
               <a 
                 href={pdfUrl}
                 target="_blank"
@@ -211,7 +221,7 @@ export default function BrandMaterial() {
                 className="bg-orange-400 text-black px-4 py-2 rounded hover:bg-orange-500 transition-colors inline-flex items-center self-start"
               >
                 <FaExternalLinkAlt className="mr-2" />
-                {intl.formatMessage({ id: "brandMaterial.viewPdf" })}
+                <FormattedMessage id="brandMaterial.viewPdf" />
               </a>
             </div>
           </div>

@@ -1,6 +1,7 @@
 'use client'
 
 import { useIntl } from 'react-intl';
+import { useEffect } from 'react';
 
 const timelineItems = [
   {
@@ -131,6 +132,11 @@ const timelineItems = [
 
 export default function RoadmapPage() {
   const intl = useIntl();
+
+  useEffect(() => {
+    const pageTitle = intl.formatMessage({ id: 'roadmap.title', defaultMessage: 'Roadmap' });
+    document.title = `${pageTitle} | DexKit`;
+  }, [intl]);
 
   return (
     <div className="min-h-screen text-white">

@@ -4,6 +4,9 @@ import matter from 'gray-matter';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
+import { getMessage } from '@/app/utils/locale';
+import { IntlShape } from 'react-intl';
+import { Suspense } from 'react';
 
 interface BlogPost {
   slug: string;
@@ -61,60 +64,77 @@ function getBlogPosts(locale: string): BlogPost[] {
   });
 }
 
+type IntlMessage = {
+  id: string;
+  defaultMessage?: string;
+};
+
+function formatMessage(intl: IntlShape | undefined, message: IntlMessage): string {
+  if (intl && typeof intl.formatMessage === 'function') {
+    return intl.formatMessage(message);
+  }
+  return message.defaultMessage || message.id;
+}
+
 export async function generateMetadata(): Promise<Metadata> {
+  
   return {
-    title: 'Blog de DexKit | Noticias y Artículos sobre Web3 y DeFi',
-    description: 'Explora las últimas noticias, tutoriales y análisis sobre Web3, DeFi, y el ecosistema blockchain en el blog oficial de DexKit.',
+    title: getMessage('blog.title', 'es'),
+    description: getMessage('blog.description', 'es'),
     openGraph: {
-      title: 'Blog de DexKit | Noticias y Artículos sobre Web3 y DeFi',
-      description: 'Explora las últimas noticias, tutoriales y análisis sobre Web3, DeFi, y el ecosistema blockchain en el blog oficial de DexKit.',
+      title: getMessage('blog.title', 'es'),
+      description: getMessage('blog.description', 'es'),
       images: [{ url: '/imgs/dexkit_og.png' }],
     },
   };
 }
 
-export default function BlogPage() {
-  const posts = getBlogPosts('es');
+export default async function BlogPage() {
+  const posts = await getBlogPosts('es');
 
   return (
     <div className="min-h-screen">
       <main>
         <div className="container mx-auto px-4 py-8 sm:py-16">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center mb-8 sm:mb-16 text-white">El Blog de DexKit</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center mb-8 sm:mb-16 text-white">
+            {formatMessage(undefined, { id: 'blog.title', defaultMessage: 'El Blog de DexKit' })}
+          </h1>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {posts.map((post) => (
-              <Link key={post.slug} href={`/blog-es/${post.slug}`}>
-                <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
-                  <div className="relative h-48 sm:h-56 md:h-64">
-                    <Image 
-                      src={post.imageUrl || DEFAULT_IMAGE}
-                      alt={post.title} 
-                      fill
-                      style={{ objectFit: 'cover' }}
-                    />
-                  </div>
-                  <div className="p-4 sm:p-6">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-xs sm:text-sm text-gray-500">{post.date}</span>
-                      <span className="text-xs sm:text-sm bg-orange-400 text-white px-2 py-1 rounded-full">{post.category}</span>
-                    </div>
-                    <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">{post.title}</h2>
-                    <div className="flex items-center">
+          <Suspense fallback={<div>Cargando...</div>}>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+              {posts.map((post) => (
+                <Link key={post.slug} href={`/blog-es/${post.slug}`}>
+                  <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+                    <div className="relative h-48 sm:h-56 md:h-64">
                       <Image 
-                        src="/imgs/dexkit-logo-black-d.svg"
-                        alt="Logo de DexKit" 
-                        width={24} 
-                        height={24} 
-                        className="mr-2"
+                        src={post.imageUrl || DEFAULT_IMAGE}
+                        alt={post.title} 
+                        fill
+                        style={{ objectFit: 'cover' }}
                       />
-                      <span className="text-sm text-gray-600">{post.author}</span>
+                    </div>
+                    <div className="p-4 sm:p-6">
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="text-xs sm:text-sm text-gray-500">{post.date}</span>
+                        <span className="text-xs sm:text-sm bg-orange-400 text-white px-2 py-1 rounded-full">{post.category}</span>
+                      </div>
+                      <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">{post.title}</h2>
+                      <div className="flex items-center">
+                        <Image 
+                          src="/imgs/dexkit-logo-black-d.svg"
+                          alt="Logo de DexKit" 
+                          width={24} 
+                          height={24} 
+                          className="mr-2"
+                        />
+                        <span className="text-sm text-gray-600">{post.author}</span>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </Link>
-            ))}
-          </div>
+                </Link>
+              ))}
+            </div>
+          </Suspense>
         </div>
       </main>
     </div>

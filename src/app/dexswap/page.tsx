@@ -11,6 +11,9 @@ export default function DexSwap() {
     const intl = useIntl();
 
     useEffect(() => {
+        const productTitle = intl.formatMessage({ id: 'product.dexswap.title' });
+        document.title = `${productTitle} | DexKit`;
+
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768);
         };
@@ -21,7 +24,7 @@ export default function DexSwap() {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, []);
+    }, [intl]);
 
     const tutorials = [
         { titleId: "dexswap.tutorials.firstSwap", url: "https://docs.dexkit.com/defi-products/dexswap/creating-my-first-swap" },

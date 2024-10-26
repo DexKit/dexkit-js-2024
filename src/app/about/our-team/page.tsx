@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useIntl } from 'react-intl';
+import { useIntl, FormattedMessage } from 'react-intl';
 import Image from 'next/image';
 import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
 
@@ -26,6 +26,9 @@ export default function OurTeam() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    const pageTitle = intl.formatMessage({ id: 'ourTeam.title' });
+    document.title = `${pageTitle} | DexKit`;
+
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
@@ -36,7 +39,7 @@ export default function OurTeam() {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [intl]);
 
   const teamMembers: TeamMember[] = [
     {
@@ -86,10 +89,10 @@ export default function OurTeam() {
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <h1 className={`text-4xl md:text-6xl font-bold mb-4 md:mb-0 ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>
-              {intl.formatMessage({ id: "ourTeam.title" })}
+              <FormattedMessage id="ourTeam.title" />
             </h1>
             <p className={`text-lg md:text-xl ${isMobile ? 'w-full' : 'md:w-1/2 md:pl-4'} text-center md:text-left`}>
-              {intl.formatMessage({ id: "ourTeam.description" })}
+              <FormattedMessage id="ourTeam.description" />
             </p>
           </div>
         </div>
