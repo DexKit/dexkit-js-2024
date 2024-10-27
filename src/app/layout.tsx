@@ -1,7 +1,6 @@
 import "./globals.css";
 import { sora } from './fonts';
 import ClientLayout from './layout-client';
-import Analytics from './components/Analytics';
 import { generateMetadata as generateMetadataBase } from './metadata';
 
 export async function generateMetadata({ params }: { params: { locale: string } }) {
@@ -24,7 +23,6 @@ export default async function RootLayout(
     <html className={`${sora.variable}`} lang={params.locale}>
       <body className={sora.className}>
         <ClientLayout>{children}</ClientLayout>
-        <Analytics />
       </body>
     </html>
   );
