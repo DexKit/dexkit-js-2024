@@ -9,3 +9,4 @@ To create new blog posts, please refer to the [Creating Posts Guide](creatingpos
 ### Migrating from WordPress
 
 If you're migrating content from a WordPress site, we've prepared a detailed guide to help you through the process. Please see the [Migrate from WordPress Guide](migratefromwp.md) for instructions on how to transfer your existing blog posts to this new system.
+
