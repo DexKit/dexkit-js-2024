@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useIntl, FormattedMessage } from 'react-intl';
 import Image from 'next/image';
-import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaXTwitter, FaLinkedin, FaGithub } from 'react-icons/fa6';
 
 interface SocialMedia {
   twitter?: string;
@@ -117,13 +117,13 @@ export default function OurTeam() {
                 </div>
                 <div className="p-4 flex flex-col flex-grow">
                   <h2 className="text-xl font-semibold text-black mb-1">{member.name}</h2>
-                  <p className="font-medium text-gray-800 mb-1">{member.title}</p>
-                  <p className="text-sm text-gray-600 mb-2">{member.role}</p>
-                  <p className="text-sm text-gray-700 mb-3 flex-grow">{member.bio}</p>
+                  <p className="text-base font-medium text-orange-500 mb-2">{member.title}</p>
+                  <p className="text-base font-medium text-gray-800 bg-gray-100 px-3 py-1 rounded-full inline-block mb-2">{member.role}</p>
+                  <p className="text-base text-gray-600 mb-3 flex-grow">{member.bio}</p>
                   <div className="flex justify-start space-x-4 mt-auto">
                     {member.socialMedia.twitter && (
                       <a href={member.socialMedia.twitter} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600">
-                        <FaTwitter size={20} />
+                        <FaXTwitter size={20} />
                       </a>
                     )}
                     {member.socialMedia.linkedin && (

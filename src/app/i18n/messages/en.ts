@@ -434,6 +434,10 @@ const messages: Messages = {
   'roadmap.Q3_2020.item1': 'KIT token sale and launch',
   'roadmap.Q3_2020.item2': 'DSWAP Aggregator deployment',
   'roadmap.Q3_2020.item3': 'DexKit Website and Social Media',
+  'roadmap.Q3_2024.title': 'Q3 Roadmap',
+  'roadmap.Q3_2024.item1': 'DexAppBuilder diverse integrations',
+  'roadmap.Q3_2024.item2': 'E-Commerce integration with stablecoin-enabled payments',
+  'roadmap.Q3_2024.item3': 'DexKit site improvements',
 
   // Blog
   'blog.title': 'DexKit Blog | News and Articles about Web3 and DeFi',
