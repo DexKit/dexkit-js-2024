@@ -5,6 +5,15 @@ import { useEffect } from 'react';
 
 const timelineItems = [
   {
+    date: 'Q3-2024',
+    title: 'Q3 Roadmap',
+    titleKey: 'roadmap.Q3_2024.title',
+    items: [
+      { text: 'E-Commerce integration (Beta)', textKey: 'roadmap.Q3_2024.item2', status: 'completed' },
+      { text: 'DexKit site improvements', textKey: 'roadmap.Q3_2024.item3', status: 'completed' },
+    ],
+  },
+  {
     date: 'Q2-2024',
     title: 'Q2 Roadmap',
     titleKey: 'roadmap.Q2_2024.title',

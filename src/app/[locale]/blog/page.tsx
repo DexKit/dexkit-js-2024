@@ -4,8 +4,9 @@ import { useParams } from 'next/navigation';
 import { useState, useEffect, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { defaultLocale } from '../../i18n/config';
+import { defaultLocale } from '@/app/i18n/config';
 import SkeletonLoader from '@/app/components/SkeletonLoader';
+import { SearchBar } from '@/app/components/SearchBar';
 
 interface BlogPost {
   slug: string;
@@ -14,6 +15,7 @@ interface BlogPost {
   author: string;
   category: string;
   imageUrl: string;
+  excerpt?: string;
 }
 
 const DEFAULT_IMAGE = '/imgs/dexkit_og.png';
@@ -57,22 +59,29 @@ export default function BlogPage() {
   const loadingRef = useRef(null);
   const params = useParams();
   const locale = (params?.locale as string) || defaultLocale;
+  const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
     const fetchPosts = async () => {
-      const localeFolder = locale === 'en' ? 'blog' : `blog-${locale}`;
-      const response = await fetch(`/api/blogPosts?locale=${localeFolder}`);
-      const data = await response.json();
-      
-      const sortedPosts = data.sort((a: BlogPost, b: BlogPost) => {
-        const dateA = parseCustomDate(a.date, locale);
-        const dateB = parseCustomDate(b.date, locale);
-        return dateB.getTime() - dateA.getTime();
-      });
-      
-      setPosts(sortedPosts);
-      setDisplayedPosts(sortedPosts.slice(0, POSTS_PER_PAGE));
-      setIsLoading(false);
+      try {
+        const localeFolder = locale === 'en' ? 'blog' : `blog-${locale}`;
+        const response = await fetch(`/api/blogPosts?locale=${localeFolder}`);
+        if (!response.ok) throw new Error('Failed to fetch posts');
+        const data = await response.json();
+        
+        const sortedPosts = data.sort((a: BlogPost, b: BlogPost) => {
+          const dateA = parseCustomDate(a.date, locale);
+          const dateB = parseCustomDate(b.date, locale);
+          return dateB.getTime() - dateA.getTime();
+        });
+        
+        setPosts(sortedPosts);
+        setDisplayedPosts(sortedPosts.slice(0, POSTS_PER_PAGE));
+      } catch (error) {
+        console.error('Error fetching posts:', error);
+      } finally {
+        setIsLoading(false);
+      }
     };
 
     fetchPosts();
@@ -115,7 +124,7 @@ export default function BlogPage() {
         observer.unobserve(currentRef);
       }
     };
-  }, [hasMore, posts, loadMorePosts]);
+  }, [hasMore, loadMorePosts]);
 
   const getBlogTitle = () => {
     switch(locale) {
@@ -127,6 +136,15 @@ export default function BlogPage() {
         return "DexKit's Blog";
     }
   };
+
+  const filteredPosts = displayedPosts.filter(post => {
+    if (!searchTerm) return true;
+    const searchLower = searchTerm.toLowerCase();
+    return (
+      post.title.toLowerCase().includes(searchLower) ||
+      post.category.toLowerCase().includes(searchLower)
+    );
+  });
 
   if (isLoading) {
     return <SkeletonLoader />;
@@ -140,8 +158,15 @@ export default function BlogPage() {
             {getBlogTitle()}
           </h1>
           
+          <SearchBar 
+            placeholder={locale === 'es' ? 'Buscar artículos...' : 
+                       locale === 'pt' ? 'Pesquisar artigos...' : 
+                       'Search articles...'}
+            onSearch={setSearchTerm}
+          />
+          
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {displayedPosts.map((post) => (
+            {filteredPosts.map((post) => (
               <Link key={post.slug} href={`/${locale}/blog/${post.slug}`}>
                 <div className="bg-white rounded-lg shadow-md overflow-hidden">
                   <div className="relative h-48 sm:h-56 md:h-64">
