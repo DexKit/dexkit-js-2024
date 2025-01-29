@@ -50,7 +50,7 @@ const messages: Messages = {
   'footer.subscribe.button': 'Suscribirse al boletín',
 
   // Hero
-  'hero.title': 'Crea tus propios DApps de marca.',
+  'hero.title': 'Crea tus propias DApps de marca.',
   'hero.subtitle': 'Con las herramientas sin código/bajo código de DexKit.',
   'hero.cta': '¡Empieza ahora!',
   'hero.imageAlt': 'Ilustración DexKit Web3 mostrando la construcción de aplicaciones descentralizadas',
