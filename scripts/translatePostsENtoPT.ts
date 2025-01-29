@@ -23,13 +23,26 @@ async function translatePost(fileName: string) {
   const fileContents = fs.readFileSync(sourcePath, 'utf8');
   const { data, content } = matter(fileContents);
 
-  const translatedContent = await translate(content, { to: 'pt' });
+  // Verify if the post date is after January 28, 2025
+  const postDate = new Date(data.date);
+  const cutoffDate = new Date('2025-01-28');
+  if (postDate < cutoffDate) {
+    console.log(`Skipping ${fileName} - date is before 2025-01-28`);
+    return;
+  }
 
+  // Verify if the file already exists in the target directory
+  const portugueseSlug = await translateAndSlugify(path.parse(fileName).name);
+  const targetPath = path.join(targetDir, `${portugueseSlug}.md`);
+  if (fs.existsSync(targetPath)) {
+    console.log(`Skipping ${fileName} - already translated`);
+    return;
+  }
+
+  const translatedContent = await translate(content, { to: 'pt' });
   const translatedTitle = await translate(data.title, { to: 'pt' });
   const translatedExcerpt = data.excerpt ? await translate(data.excerpt, { to: 'pt' }) : undefined;
   const translatedDate = await translateDate(data.date);
-
-  const portugueseSlug = await translateAndSlugify(path.parse(fileName).name);
 
   const translatedData = {
     ...data,
@@ -40,8 +53,6 @@ async function translatePost(fileName: string) {
   };
 
   const translatedFileContents = matter.stringify(translatedContent.text, translatedData);
-
-  const targetPath = path.join(targetDir, `${portugueseSlug}.md`);
   fs.writeFileSync(targetPath, translatedFileContents);
 
   console.log(`Translated and renamed: ${fileName} -> ${portugueseSlug}.md`);

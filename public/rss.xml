@@ -4,9 +4,39 @@
         <description><![CDATA[Latest posts from DexKit Blog in English, Spanish, and Portuguese]]></description>
         <link>https://dexkit.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 03 Dec 2024 22:50:42 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Jan 2025 02:25:36 GMT</lastBuildDate>
         <atom:link href="https://dexkit.com/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Empower Web3 Innovation: Support DexAppBuilder in Giveth’s Public Goods Round]]></title>
+            <description><![CDATA[Join DexKit’s mission to democratize Web3 development! From Jan 28 to Feb 14, your donations to DexAppBuilder—the no-code DApp builder—will be amplified by Giveth’s $100K matching pool. Help us open-source the platform and accelerate integrations.]]></description>
+            <link>https://dexkit.com/blog/support-dexappbuilder-giveth-public-goods-round</link>
+            <guid isPermaLink="true">https://dexkit.com/blog/support-dexappbuilder-giveth-public-goods-round</guid>
+            <category><![CDATA[Blog]]></category>
+            <dc:creator><![CDATA[DexKit Team]]></dc:creator>
+            <pubDate>Tue, 28 Jan 2025 04:00:00 GMT</pubDate>
+            <enclosure url="/blog-images/lovingoodsqf.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Empoderando la innovación Web3: Apoyo a DexAppBuilder en la ronda de bienes públicos de Giveth]]></title>
+            <description><![CDATA[¡Únete a la misión de Dexkit para democratizar el desarrollo de Web3! Del 28 de enero al 14 de febrero, sus donaciones a DexAppBuilder, el Builder DAPP sin código, serán amplificados por el grupo correspondiente de $ 100k de Giveth. Ayúdanos a la plataforma abierta y acelerar las integraciones.]]></description>
+            <link>https://dexkit.com/es/blog/apoya-dexappbuilder-en-la-ronda-de-bienes-públicos-de-giveth</link>
+            <guid isPermaLink="true">https://dexkit.com/es/blog/apoya-dexappbuilder-en-la-ronda-de-bienes-públicos-de-giveth</guid>
+            <category><![CDATA[Blog]]></category>
+            <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
+            <pubDate>Tue, 28 Jan 2025 04:00:00 GMT</pubDate>
+            <enclosure url="/blog-images/lovingoodsqf.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Empoderando a inovação Web3: Apoie DexAppBuilder na rodada de bens públicos de Giveth]]></title>
+            <description><![CDATA[Junte-se à missão de Dexkit de democratizar o desenvolvimento do Web3! De 28 de janeiro a 14 de fevereiro, suas doações para DexAppBuilder-o construtor DAPP sem código-serão amplificadas pelo pool de correspondência de US $ 100 mil da Giveth. Ajude-nos a fonte aberta da plataforma e a acelerar integrações.]]></description>
+            <link>https://dexkit.com/pt/blog/suporte-dexappbuilder-giveth-public-goods-round</link>
+            <guid isPermaLink="true">https://dexkit.com/pt/blog/suporte-dexappbuilder-giveth-public-goods-round</guid>
+            <category><![CDATA[Blog]]></category>
+            <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
+            <pubDate>Tue, 28 Jan 2025 04:00:00 GMT</pubDate>
+            <enclosure url="/blog-images/lovingoodsqf.jpg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Meet Brandon: A valuable cryptopreneur on DexKit’s community]]></title>
             <description><![CDATA[Warm greetings to all our readers!👋 In this blog post, we are pleased to share a testimonial from a notable Web3 creator...]]></description>
