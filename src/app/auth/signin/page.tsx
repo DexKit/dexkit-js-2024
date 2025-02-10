@@ -29,8 +29,7 @@ export default function SignIn() {
         setError(intl.formatMessage({ id: 'auth.signin.error.invalid' }));
         setIsLoading(false);
       } else if (result?.ok) {
-        router.refresh();
-        await new Promise(resolve => setTimeout(resolve, 500));
+        await new Promise(resolve => setTimeout(resolve, 1000));
         router.replace('/admin/subscribers');
       }
     } catch (error) {
