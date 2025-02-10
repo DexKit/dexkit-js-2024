@@ -464,6 +464,24 @@ const messages: Messages = {
   'notFound.title': 'Ops! Página não encontrada',
   'notFound.message': 'A página que você está procurando pode ter sido removida ou está temporariamente indisponível.',
   'notFound.returnHome': 'Voltar para a página inicial',
+
+  // Auth
+  'auth.signin.title': 'Entrar',
+  'auth.signin.email': 'E-mail',
+  'auth.signin.password': 'Senha',
+  'auth.signin.button': 'Entrar',
+  'auth.signin.button.loading': 'Entrando...',
+  'auth.signin.error.invalid': 'Credenciais inválidas',
+  'auth.signin.error.generic': 'Erro ao entrar',
+
+  // Admin
+  'admin.subscribers.title': 'Assinantes da Newsletter',
+  'admin.subscribers.loading': 'Carregando assinantes...',
+  'admin.subscribers.error': 'Erro ao carregar dados',
+  'admin.subscribers.table.email': 'E-mail',
+  'admin.subscribers.table.date': 'Data de assinatura',
+  'admin.subscribers.table.status': 'Status',
+  'admin.subscribers.empty': 'Nenhum assinante encontrado',
 };
 
 export default messages;

@@ -5,6 +5,8 @@ import { IntlProvider } from 'react-intl';
 import { usePathname } from 'next/navigation';
 import Script from 'next/script';
 import dynamic from 'next/dynamic';
+import { SessionProvider } from "next-auth/react";
+import AuthProvider from "@/providers/AuthProvider";
 
 import { locales, defaultLocale } from './i18n/config';
 import SkeletonLoader from './components/SkeletonLoader';
@@ -48,18 +50,22 @@ export default function ClientLayout({
   }, [locale]);
 
   return (
-    <IntlProvider messages={messages} locale={locale} defaultLocale={defaultLocale}>
-      <Script
-        src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
-        strategy="lazyOnload"
-      />
-      <Suspense fallback={<SkeletonLoader />}>
-        <ThemeWrapper>
-          <Header />
-          <main>{children}</main>
-          <Footer />
-        </ThemeWrapper>
-      </Suspense>
-    </IntlProvider>
+    <AuthProvider>
+      <SessionProvider>
+        <IntlProvider messages={messages} locale={locale} defaultLocale={defaultLocale}>
+          <Script
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
+            strategy="lazyOnload"
+          />
+          <Suspense fallback={<SkeletonLoader />}>
+            <ThemeWrapper>
+              <Header />
+              <main>{children}</main>
+              <Footer />
+            </ThemeWrapper>
+          </Suspense>
+        </IntlProvider>
+      </SessionProvider>
+    </AuthProvider>
   );
 }

@@ -456,6 +456,24 @@ const messages: Messages = {
   'notFound.title': 'Oops! Page Not Found',
   'notFound.message': 'The page you are looking for might have been removed or is temporarily unavailable.',
   'notFound.returnHome': 'Return Home',
+
+  // Auth
+  'auth.signin.title': 'Sign In',
+  'auth.signin.email': 'Email',
+  'auth.signin.password': 'Password',
+  'auth.signin.button': 'Sign In',
+  'auth.signin.button.loading': 'Signing in...',
+  'auth.signin.error.invalid': 'Invalid credentials',
+  'auth.signin.error.generic': 'Error signing in',
+
+  // Admin
+  'admin.subscribers.title': 'Newsletter Subscribers',
+  'admin.subscribers.loading': 'Loading subscribers...',
+  'admin.subscribers.error': 'Error loading data',
+  'admin.subscribers.table.email': 'Email',
+  'admin.subscribers.table.date': 'Subscription Date',
+  'admin.subscribers.table.status': 'Status',
+  'admin.subscribers.empty': 'No subscribers found',
 };
 
 export default messages;

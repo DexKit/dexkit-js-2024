@@ -2,6 +2,9 @@ import "./globals.css";
 import { sora } from './fonts';
 import ClientLayout from './layout-client';
 import { generateMetadata as generateMetadataBase } from './metadata';
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export async function generateMetadata({ params }: { params: { locale: string } }) {
   return generateMetadataBase({ params });
@@ -20,7 +23,7 @@ export default async function RootLayout(
   } = props;
 
   return (
-    <html className={`${sora.variable}`} lang={params.locale}>
+    <html className={`${sora.variable} ${inter.className}`} lang={params.locale}>
       <body className={sora.className}>
         <ClientLayout>{children}</ClientLayout>
       </body>
