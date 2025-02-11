@@ -48,6 +48,19 @@ const messages: Messages = {
   'footer.newsletter.error': 'Houve um erro ao se inscrever. Por favor, tente novamente.',
   'footer.newsletter.emailRequired': 'Por favor, insira um endereço de e-mail.',
   'footer.subscribe.button': 'Inscrever-se na newsletter',
+  'footer.newsletter.invalidEmail': 'Por favor, insira um endereço de e-mail válido',
+
+  // Newsletter
+  'newsletter.title': 'Inscreva-se em nossa newsletter',
+  'newsletter.placeholder': 'Seu e-mail',
+  'newsletter.button': 'Inscrever-se',
+  'newsletter.button.loading': 'Inscrevendo...',
+  'newsletter.success': 'Inscrito com sucesso',
+  'newsletter.error.required': 'O e-mail é obrigatório',
+  'newsletter.error.invalid': 'E-mail inválido',
+  'newsletter.error.duplicate': 'Este e-mail já está inscrito',
+  'newsletter.error.rateLimit': 'Muitas tentativas. Por favor, aguarde',
+  'newsletter.error.internal': 'Erro interno. Por favor, tente novamente mais tarde',
 
   // Hero
   'hero.title': 'Crie seus próprios DApps de marca.',

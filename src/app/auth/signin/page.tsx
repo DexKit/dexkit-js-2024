@@ -2,10 +2,8 @@
 
 import { useState } from 'react';
 import { signIn } from 'next-auth/react';
-import { useIntl } from 'react-intl';
 
 export default function SignIn() {
-  const intl = useIntl();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -20,80 +18,87 @@ export default function SignIn() {
       const result = await signIn('credentials', {
         email,
         password,
-        redirect: false
+        redirect: false,
       });
 
       if (result?.error) {
-        setError(intl.formatMessage({ id: 'auth.signin.error.invalid' }));
+        setError('Invalid credentials');
         setIsLoading(false);
-      } else if (result?.ok) {
-        window.location.href = '/admin/subscribers';
       } else {
-        setError(intl.formatMessage({ id: 'auth.signin.error.generic' }));
-        setIsLoading(false);
+        window.location.href = '/admin/subscribers';
       }
     } catch (error) {
       console.error('Error:', error);
-      setError(intl.formatMessage({ id: 'auth.signin.error.generic' }));
+      setError('An error occurred while signing in');
       setIsLoading(false);
     }
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center" style={{
-      background: 'radial-gradient(circle at left center, #5D23DE 46%, #000000 85%)'
-    }}>
-      <div className="w-full max-w-md p-8">
-        <h1 className="text-3xl font-bold text-white mb-8 text-center">
-          {intl.formatMessage({ id: 'auth.signin.title' })}
-        </h1>
+    <div className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8" 
+         style={{
+           background: 'radial-gradient(circle at left center, #5D23DE 46%, #000000 85%)'
+         }}>
+      <div className="w-full max-w-sm space-y-8 bg-black/30 p-6 sm:p-8 rounded-2xl backdrop-blur-lg border border-white/10">
+        <div>
+          <h1 className="text-2xl sm:text-3xl font-bold text-white text-center">
+            Sign In
+          </h1>
+        </div>
         
         {error && (
-          <div className="bg-red-500/20 border border-red-500/50 text-red-100 px-4 py-3 rounded mb-4">
+          <div className="bg-red-500/20 border border-red-500/50 text-red-100 px-4 py-3 rounded-lg text-sm sm:text-base">
             {error}
           </div>
         )}
 
-        <form onSubmit={handleSubmit} className="space-y-6">
-          <div>
-            <label className="block text-white text-sm font-medium mb-2">
-              {intl.formatMessage({ id: 'auth.signin.email' })}
-            </label>
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-              required
-              disabled={isLoading}
-            />
-          </div>
+        <form onSubmit={handleSubmit} className="mt-8 space-y-6">
+          <div className="space-y-4">
+            <div>
+              <label htmlFor="email" className="block text-white text-sm font-medium mb-2">
+                Email
+              </label>
+              <input
+                id="email"
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 
+                         focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent
+                         text-sm sm:text-base"
+                required
+                disabled={isLoading}
+              />
+            </div>
 
-          <div>
-            <label className="block text-white text-sm font-medium mb-2">
-              {intl.formatMessage({ id: 'auth.signin.password' })}
-            </label>
-            <input
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-              required
-              disabled={isLoading}
-            />
+            <div>
+              <label htmlFor="password" className="block text-white text-sm font-medium mb-2">
+                Password
+              </label>
+              <input
+                id="password"
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                className="w-full px-3 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 
+                         focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent
+                         text-sm sm:text-base"
+                required
+                disabled={isLoading}
+              />
+            </div>
           </div>
 
           <button
             type="submit"
             disabled={isLoading}
-            className={`w-full bg-[#5D23DE] hover:bg-[#4c1cb3] text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-gray-900 ${
-              isLoading ? 'opacity-50 cursor-not-allowed' : ''
-            }`}
+            className="w-full flex justify-center py-2.5 px-4 border border-transparent rounded-lg
+                     text-sm sm:text-base font-medium text-white bg-purple-600 hover:bg-purple-700
+                     focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500
+                     disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200
+                     shadow-lg shadow-purple-500/30"
           >
-            {isLoading 
-              ? intl.formatMessage({ id: 'auth.signin.button.loading' })
-              : intl.formatMessage({ id: 'auth.signin.button' })
-            }
+            {isLoading ? 'Signing in...' : 'Sign in'}
           </button>
         </form>
       </div>
