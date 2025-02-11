@@ -6,12 +6,13 @@ import { useState, useEffect, FormEvent } from 'react'
 import { FormattedMessage, useIntl } from 'react-intl'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord, faYoutube, faXTwitter, faTelegram, faLinkedin, faReddit, faMedium, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import confetti from 'canvas-confetti'
 
 export default function Footer() {
   const intl = useIntl();
   const [isMobile, setIsMobile] = useState(false);
   const [email, setEmail] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
   const [message, setMessage] = useState('');
 
   useEffect(() => {
@@ -41,12 +42,34 @@ export default function Footer() {
     className: "text-white hover:text-orange-400 transition duration-300"
   };
 
+  const triggerConfetti = (buttonElement: HTMLButtonElement) => {
+    const rect = buttonElement.getBoundingClientRect();
+    const x = (rect.left + rect.width / 2) / window.innerWidth;
+    const y = (rect.top + rect.height / 2) / window.innerHeight;
+
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { x, y },
+      colors: ['#FF9843', '#FFC93C', '#FF5733', '#C70039', '#900C3F'],
+      angle: 90,
+      startVelocity: 30,
+      gravity: 0.9,
+      ticks: 200,
+      shapes: ['circle', 'square'],
+      zIndex: 9999
+    });
+  };
+
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    
+    setIsLoading(true);
+    setMessage('');
+
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!email || !emailRegex.test(email)) {
       setMessage(intl.formatMessage({ id: 'footer.newsletter.invalidEmail' }));
+      setIsLoading(false);
       return;
     }
 
@@ -63,20 +86,23 @@ export default function Footer() {
         }),
       });
 
-      if (response.ok) {
-        setMessage(intl.formatMessage({ id: 'footer.newsletter.success' }));
-        setEmail('');
+      const data = await response.json();
+
+      if (!response.ok) {
+        setMessage(intl.formatMessage({ id: data.messageId }));
       } else {
-        const data = await response.json();
-        if (data.error === 'DUPLICATE_EMAIL') {
-          setMessage(intl.formatMessage({ id: 'footer.newsletter.alreadySubscribed' }));
-        } else {
-          setMessage(intl.formatMessage({ id: 'footer.newsletter.error' }));
+        setMessage(intl.formatMessage({ id: 'newsletter.success' }));
+        setEmail('');
+        const buttonElement = document.querySelector('button[type="submit"]') as HTMLButtonElement;
+        if (buttonElement) {
+          triggerConfetti(buttonElement);
         }
       }
     } catch (error) {
       console.error('Error subscribing:', error);
-      setMessage(intl.formatMessage({ id: 'footer.newsletter.error' }));
+      setMessage(intl.formatMessage({ id: 'newsletter.error.internal' }));
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -111,23 +137,38 @@ export default function Footer() {
               <FormattedMessage id="footer.newsletter.description" />
             </p>
             <form onSubmit={handleSubmit} className="flex flex-col">
-            <div className="flex">
+              <div className="flex">
                 <input 
                   type="email" 
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder={intl.formatMessage({ id: 'footer.newsletter.placeholder' })}
-                  className="flex-grow p-2 rounded-l-md bg-transparent border border-gray-400 text-white placeholder-gray-400"
+                  placeholder={intl.formatMessage({ id: 'newsletter.placeholder' })}
+                  disabled={isLoading}
+                  className={`flex-grow p-2 rounded-l-md bg-transparent border border-gray-400 text-white placeholder-gray-400 ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`}
                 />
                 <button 
                   type="submit" 
-                  className="bg-orange-400 text-black p-2 rounded-r-md hover:bg-orange-500 transition duration-300"
+                  disabled={isLoading}
+                  className={`flex items-center justify-center space-x-2 bg-orange-400 text-black p-2 rounded-r-md hover:bg-orange-500 transition duration-300 ${isLoading ? 'opacity-50 cursor-not-allowed bg-gray-400' : ''}`}
                   aria-label={intl.formatMessage({ id: 'footer.subscribe.button' })}
                 >
-                  <FontAwesomeIcon icon={faPaperPlane} />
+                  <span>
+                    {isLoading 
+                      ? intl.formatMessage({ id: 'newsletter.button.loading' })
+                      : intl.formatMessage({ id: 'newsletter.button' })}
+                  </span>
+                  <i className={`fas fa-paper-plane ${isLoading ? 'opacity-50' : ''}`} />
                 </button>
               </div>
-              {message && <p className="mt-2 text-sm text-center md:text-left">{message}</p>}
+              {message && (
+                <p className={`mt-2 text-sm text-center md:text-left ${
+                  message === intl.formatMessage({ id: 'newsletter.success' })
+                    ? 'text-green-500'
+                    : 'text-red-500'
+                }`}>
+                  {message}
+                </p>
+              )}
             </form>
           </div>
         </div>

@@ -48,6 +48,7 @@ const messages: Messages = {
   'footer.newsletter.error': 'There was an error subscribing. Please try again.',
   'footer.newsletter.emailRequired': 'Please enter an email address.',
   'footer.subscribe.button': 'Subscribe to newsletter',
+  'footer.newsletter.invalidEmail': 'Please enter a valid email address',
 
   // Hero
   'hero.title': 'Create your own branded DApps.',
@@ -487,6 +488,18 @@ const messages: Messages = {
   'admin.subscribers.actions.error': 'Operation failed',
   'admin.signout': 'Sign Out',
   'admin.subscribers.table.actions': 'Actions',
+
+  // Newsletter
+  'newsletter.title': 'Subscribe to our newsletter',
+  'newsletter.placeholder': 'Your email',
+  'newsletter.button': 'Subscribe',
+  'newsletter.button.loading': 'Subscribing...',
+  'newsletter.success': 'Successfully subscribed',
+  'newsletter.error.required': 'Email is required',
+  'newsletter.error.invalid': 'Invalid email',
+  'newsletter.error.duplicate': 'This email is already subscribed',
+  'newsletter.error.rateLimit': 'Too many attempts. Please wait',
+  'newsletter.error.internal': 'Internal error. Please try again later',
 };
 
 export default messages;

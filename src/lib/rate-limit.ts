@@ -8,38 +8,62 @@ interface RateLimitResponse {
   remaining: number;
 }
 
-export async function rateLimit(ip: string, limit: number = 5, windowHrs: number = 1): Promise<RateLimitResponse> {
+export async function rateLimit(ip: string, limit: number = 10, windowMin: number = 5): Promise<RateLimitResponse> {
   const now = new Date();
-  const windowMs = windowHrs * 60 * 60 * 1000;
+  const windowMs = windowMin * 60 * 1000;
 
-  await prisma.rateLimit.deleteMany({
-    where: {
-      expiresAt: {
-        lt: now
+  return await prisma.$transaction(async (tx) => {
+    await tx.rateLimit.deleteMany({
+      where: {
+        expiresAt: {
+          lt: now
+        }
       }
-    }
-  });
+    });
 
-  const rateLimit = await prisma.rateLimit.upsert({
-    where: {
-      ip,
-    },
-    update: {
-      count: {
-        increment: 1
+    const currentLimit = await tx.rateLimit.findUnique({
+      where: { ip }
+    });
+
+    if (!currentLimit) {
+      await tx.rateLimit.create({
+        data: {
+          ip,
+          count: 1,
+          expiresAt: new Date(now.getTime() + windowMs)
+        }
+      });
+      return {
+        success: true,
+        current: 1,
+        limit,
+        remaining: limit - 1
+      };
+    }
+
+    if (currentLimit.count >= limit) {
+      return {
+        success: false,
+        current: currentLimit.count,
+        limit,
+        remaining: 0
+      };
+    }
+
+    const updated = await tx.rateLimit.update({
+      where: { ip },
+      data: {
+        count: {
+          increment: 1
+        }
       }
-    },
-    create: {
-      ip,
-      count: 1,
-      expiresAt: new Date(now.getTime() + windowMs)
-    }
-  });
+    });
 
-  return {
-    success: rateLimit.count <= limit,
-    current: rateLimit.count,
-    limit,
-    remaining: Math.max(0, limit - rateLimit.count)
-  };
+    return {
+      success: updated.count <= limit,
+      current: updated.count,
+      limit,
+      remaining: Math.max(0, limit - updated.count)
+    };
+  });
 } 

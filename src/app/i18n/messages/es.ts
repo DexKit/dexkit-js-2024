@@ -48,6 +48,7 @@ const messages: Messages = {
   'footer.newsletter.error': 'Hubo un error al suscribirse. Por favor, inténtalo de nuevo.',
   'footer.newsletter.emailRequired': 'Por favor, introduce una dirección de correo electrónico.',
   'footer.subscribe.button': 'Suscribirse al boletín',
+  'footer.newsletter.invalidEmail': 'Por favor, introduce un correo electrónico válido',
 
   // Hero
   'hero.title': 'Crea tus propias DApps de marca.',
@@ -490,6 +491,18 @@ const messages: Messages = {
   'admin.subscribers.table.actions': 'Acciones',
   'admin.subscribers.view.timeline': 'Vista Timeline',
   'admin.subscribers.view.table': 'Vista Tabla',
+
+  // Newsletter
+  'newsletter.title': 'Suscríbete a nuestro boletín',
+  'newsletter.placeholder': 'Tu correo electrónico',
+  'newsletter.button': 'Suscribirse',
+  'newsletter.button.loading': 'Suscribiendo...',
+  'newsletter.success': 'Te has suscrito exitosamente',
+  'newsletter.error.required': 'El correo electrónico es requerido',
+  'newsletter.error.invalid': 'Correo electrónico inválido',
+  'newsletter.error.duplicate': 'Este correo ya está suscrito',
+  'newsletter.error.rateLimit': 'Demasiados intentos. Por favor, espera un momento',
+  'newsletter.error.internal': 'Error interno. Por favor, intenta más tarde',
 };
 
 export default messages;
