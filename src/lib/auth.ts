@@ -14,7 +14,6 @@ export const authOptions: NextAuthOptions = {
           throw new Error('Incomplete credentials');
         }
 
-
         const isValid = 
           credentials.email === process.env.ADMIN_EMAIL &&
           credentials.password === process.env.ADMIN_PASSWORD;
@@ -57,10 +56,21 @@ export const authOptions: NextAuthOptions = {
       return session;
     },
     async redirect({ url, baseUrl }) {
-      if (url.startsWith(baseUrl)) return url;
-      if (url.startsWith('/')) return `${baseUrl}${url}`;
+      if (url.startsWith('/')) {
+        url = `${baseUrl}${url}`;
+      }
+      if (url.includes('admin/subscribers')) {
+        return `${baseUrl}/admin/subscribers`;
+      }
+      if (url.includes('auth/signin')) {
+        return `${baseUrl}/auth/signin`;
+      }
       return baseUrl;
     }
+  },
+  events: {
+    async signOut() {
+    },
   },
   debug: process.env.NODE_ENV === 'development'
 } 

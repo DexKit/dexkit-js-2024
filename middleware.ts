@@ -6,6 +6,10 @@ import redirects from './redirects.json';
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   
+  if (pathname.startsWith('/admin') || pathname.startsWith('/api/auth') || pathname.startsWith('/auth')) {
+    return NextResponse.next();
+  }
+
   const publicFiles = ['robots.txt', 'sitemap.xml', 'favicon.ico'];
   if (publicFiles.some(file => pathname.endsWith(file))) {
     return NextResponse.next();

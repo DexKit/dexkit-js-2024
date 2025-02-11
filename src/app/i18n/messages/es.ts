@@ -472,16 +472,22 @@ const messages: Messages = {
   'auth.signin.button.loading': 'Iniciando sesión...',
   'auth.signin.error.invalid': 'Credenciales inválidas',
   'auth.signin.error.generic': 'Error al iniciar sesión',
+  'auth.signin.error.session': 'Error al establecer la sesión. Por favor, inténtalo de nuevo.',
 
   // Admin
   'admin.subscribers.title': 'Suscriptores del Boletín',
-  'admin.subscribers.loading': 'Cargando suscriptores...',
-  'admin.subscribers.error': 'Error al cargar datos',
-  'admin.subscribers.table.email': 'Correo electrónico',
-  'admin.subscribers.table.date': 'Fecha de suscripción',
-  'admin.subscribers.table.status': 'Estado',
-  'admin.subscribers.empty': 'No se encontraron suscriptores',
+  'admin.subscribers.stats.total': 'Total Suscriptores',
+  'admin.subscribers.stats.active': 'Suscriptores Activos',
+  'admin.subscribers.stats.lastRegistration': 'Último Registro',
+  'admin.subscribers.actions.export': 'Exportar CSV',
+  'admin.subscribers.actions.delete': 'Eliminar',
+  'admin.subscribers.actions.deactivate': 'Desactivar',
+  'admin.subscribers.actions.activate': 'Activar',
+  'admin.subscribers.actions.confirm': '¿Estás seguro?',
+  'admin.subscribers.actions.success': 'Operación exitosa',
+  'admin.subscribers.actions.error': 'Error en la operación',
   'admin.signout': 'Cerrar sesión',
+  'admin.subscribers.table.actions': 'Acciones',
 };
 
 export default messages;

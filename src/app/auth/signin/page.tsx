@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { signIn } from 'next-auth/react';
-import { useRouter } from 'next/navigation';
 import { useIntl } from 'react-intl';
 
 export default function SignIn() {
@@ -11,7 +10,6 @@ export default function SignIn() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const router = useRouter();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -29,8 +27,10 @@ export default function SignIn() {
         setError(intl.formatMessage({ id: 'auth.signin.error.invalid' }));
         setIsLoading(false);
       } else if (result?.ok) {
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        router.replace('/admin/subscribers');
+        window.location.href = '/admin/subscribers';
+      } else {
+        setError(intl.formatMessage({ id: 'auth.signin.error.generic' }));
+        setIsLoading(false);
       }
     } catch (error) {
       console.error('Error:', error);

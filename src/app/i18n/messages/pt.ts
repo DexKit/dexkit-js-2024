@@ -473,15 +473,28 @@ const messages: Messages = {
   'auth.signin.button.loading': 'Entrando...',
   'auth.signin.error.invalid': 'Credenciais inválidas',
   'auth.signin.error.generic': 'Erro ao entrar',
+  'auth.signin.error.session': 'Erro ao estabelecer sessão. Por favor, tente novamente.',
 
   // Admin
   'admin.subscribers.title': 'Assinantes da Newsletter',
   'admin.subscribers.loading': 'Carregando assinantes...',
   'admin.subscribers.error': 'Erro ao carregar dados',
   'admin.subscribers.table.email': 'E-mail',
-  'admin.subscribers.table.date': 'Data de assinatura',
+  'admin.subscribers.table.date': 'Data de Assinatura',
   'admin.subscribers.table.status': 'Status',
   'admin.subscribers.empty': 'Nenhum assinante encontrado',
+  'admin.subscribers.stats.total': 'Total de Assinantes',
+  'admin.subscribers.stats.active': 'Assinantes Ativos',
+  'admin.subscribers.stats.lastRegistration': 'Último Registro',
+  'admin.subscribers.actions.export': 'Exportar CSV',
+  'admin.subscribers.actions.delete': 'Excluir',
+  'admin.subscribers.actions.deactivate': 'Desativar',
+  'admin.subscribers.actions.activate': 'Ativar',
+  'admin.subscribers.actions.confirm': 'Tem certeza?',
+  'admin.subscribers.actions.success': 'Operação bem-sucedida',
+  'admin.subscribers.actions.error': 'Falha na operação',
+  'admin.signout': 'Sair',
+  'admin.subscribers.table.actions': 'Ações',
 };
 
 export default messages;
