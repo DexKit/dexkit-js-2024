@@ -43,25 +43,36 @@ export default function Footer() {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!email) {
-      setMessage(intl.formatMessage({ id: 'footer.newsletter.emailRequired' }));
+    
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email || !emailRegex.test(email)) {
+      setMessage(intl.formatMessage({ id: 'footer.newsletter.invalidEmail' }));
       return;
     }
 
     try {
-      const response = await fetch('/api/subscribe', {
+      const response = await fetch('/api/newsletter/subscribe', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ 
+          email,
+          locale: intl.locale,
+          subscriptionDate: new Date().toISOString(),
+        }),
       });
 
       if (response.ok) {
         setMessage(intl.formatMessage({ id: 'footer.newsletter.success' }));
         setEmail('');
       } else {
-        setMessage(intl.formatMessage({ id: 'footer.newsletter.error' }));
+        const data = await response.json();
+        if (data.error === 'DUPLICATE_EMAIL') {
+          setMessage(intl.formatMessage({ id: 'footer.newsletter.alreadySubscribed' }));
+        } else {
+          setMessage(intl.formatMessage({ id: 'footer.newsletter.error' }));
+        }
       }
     } catch (error) {
       console.error('Error subscribing:', error);

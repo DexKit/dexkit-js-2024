@@ -6,6 +6,15 @@ import redirects from './redirects.json';
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   
+  if (pathname.startsWith('/admin') || pathname.startsWith('/api/auth') || pathname.startsWith('/auth')) {
+    const pathParts = pathname.split('/');
+    if (locales.includes(pathParts[1] as Locale)) {
+      const newPath = pathname.replace(`/${pathParts[1]}`, '');
+      return NextResponse.redirect(new URL(newPath, request.url));
+    }
+    return NextResponse.next();
+  }
+
   const publicFiles = ['robots.txt', 'sitemap.xml', 'favicon.ico'];
   if (publicFiles.some(file => pathname.endsWith(file))) {
     return NextResponse.next();

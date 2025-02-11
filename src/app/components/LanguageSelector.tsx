@@ -55,6 +55,11 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ textColor }) => {
     const currentPath = pathname || '/';
     const pathParts = currentPath.split('/').filter(Boolean);
     
+    if (pathParts[0] === 'admin' || pathParts[0] === 'auth') {
+      setIsOpen(false);
+      return;
+    }
+
     let newPathname: string;
 
     if (locales.includes(pathParts[0] as Locale)) {

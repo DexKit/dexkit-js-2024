@@ -463,6 +463,33 @@ const messages: Messages = {
   'notFound.title': '¡Ups! Página no encontrada',
   'notFound.message': 'La página que estás buscando puede haber sido eliminada o no está disponible temporalmente.',
   'notFound.returnHome': 'Volver al inicio',
+
+  // Auth
+  'auth.signin.title': 'Iniciar Sesión',
+  'auth.signin.email': 'Correo electrónico',
+  'auth.signin.password': 'Contraseña',
+  'auth.signin.button': 'Iniciar Sesión',
+  'auth.signin.button.loading': 'Iniciando sesión...',
+  'auth.signin.error.invalid': 'Credenciales inválidas',
+  'auth.signin.error.generic': 'Error al iniciar sesión',
+  'auth.signin.error.session': 'Error al establecer la sesión. Por favor, inténtalo de nuevo.',
+
+  // Admin
+  'admin.subscribers.title': 'Suscriptores del Boletín',
+  'admin.subscribers.stats.total': 'Total Suscriptores',
+  'admin.subscribers.stats.active': 'Suscriptores Activos',
+  'admin.subscribers.stats.lastRegistration': 'Último Registro',
+  'admin.subscribers.actions.export': 'Exportar CSV',
+  'admin.subscribers.actions.delete': 'Eliminar',
+  'admin.subscribers.actions.deactivate': 'Desactivar',
+  'admin.subscribers.actions.activate': 'Activar',
+  'admin.subscribers.actions.confirm': '¿Estás seguro?',
+  'admin.subscribers.actions.success': 'Operación exitosa',
+  'admin.subscribers.actions.error': 'Error en la operación',
+  'admin.signout': 'Cerrar sesión',
+  'admin.subscribers.table.actions': 'Acciones',
+  'admin.subscribers.view.timeline': 'Vista Timeline',
+  'admin.subscribers.view.table': 'Vista Tabla',
 };
 
 export default messages;

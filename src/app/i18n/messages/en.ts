@@ -456,6 +456,37 @@ const messages: Messages = {
   'notFound.title': 'Oops! Page Not Found',
   'notFound.message': 'The page you are looking for might have been removed or is temporarily unavailable.',
   'notFound.returnHome': 'Return Home',
+
+  // Auth
+  'auth.signin.title': 'Sign In',
+  'auth.signin.email': 'Email',
+  'auth.signin.password': 'Password',
+  'auth.signin.button': 'Sign In',
+  'auth.signin.button.loading': 'Signing in...',
+  'auth.signin.error.invalid': 'Invalid credentials',
+  'auth.signin.error.generic': 'Error signing in',
+  'auth.signin.error.session': 'Error establishing session. Please try again.',
+
+  // Admin
+  'admin.subscribers.title': 'Newsletter Subscribers',
+  'admin.subscribers.loading': 'Loading subscribers...',
+  'admin.subscribers.error': 'Error loading data',
+  'admin.subscribers.table.email': 'Email',
+  'admin.subscribers.table.date': 'Subscription Date',
+  'admin.subscribers.table.status': 'Status',
+  'admin.subscribers.empty': 'No subscribers found',
+  'admin.subscribers.stats.total': 'Total Subscribers',
+  'admin.subscribers.stats.active': 'Active Subscribers',
+  'admin.subscribers.stats.lastRegistration': 'Last Registration',
+  'admin.subscribers.actions.export': 'Export CSV',
+  'admin.subscribers.actions.delete': 'Delete',
+  'admin.subscribers.actions.deactivate': 'Deactivate',
+  'admin.subscribers.actions.activate': 'Activate',
+  'admin.subscribers.actions.confirm': 'Are you sure?',
+  'admin.subscribers.actions.success': 'Operation successful',
+  'admin.subscribers.actions.error': 'Operation failed',
+  'admin.signout': 'Sign Out',
+  'admin.subscribers.table.actions': 'Actions',
 };
 
 export default messages;
