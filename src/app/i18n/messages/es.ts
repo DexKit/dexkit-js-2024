@@ -488,6 +488,8 @@ const messages: Messages = {
   'admin.subscribers.actions.error': 'Error en la operación',
   'admin.signout': 'Cerrar sesión',
   'admin.subscribers.table.actions': 'Acciones',
+  'admin.subscribers.view.timeline': 'Vista Timeline',
+  'admin.subscribers.view.table': 'Vista Tabla',
 };
 
 export default messages;

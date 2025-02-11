@@ -15,6 +15,10 @@ interface Subscriber {
   createdAt: string;
 }
 
+interface GroupedSubscribers {
+  [key: string]: Subscriber[];
+}
+
 export default function SubscribersPage() {
   const intl = useIntl();
   const { data: session, status } = useSession();
@@ -106,6 +110,94 @@ export default function SubscribersPage() {
     }
   };
 
+  const groupSubscribersByDate = (subscribers: Subscriber[]): GroupedSubscribers => {
+    return subscribers.reduce((groups: GroupedSubscribers, subscriber) => {
+      const date = new Date(subscriber.subscriptionDate).toLocaleDateString(intl.locale, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+      });
+      
+      if (!groups[date]) {
+        groups[date] = [];
+      }
+      groups[date].push(subscriber);
+      return groups;
+    }, {});
+  };
+
+  const renderTimelineView = () => {
+    const groupedSubscribers = groupSubscribersByDate(subscribers);
+    return (
+      <div className="mt-8 space-y-8">
+        {Object.entries(groupedSubscribers).map(([date, dateSubscribers]) => (
+          <div key={date} className="relative">
+            <div className="flex items-center">
+              <div className="flex-grow h-0.5 bg-gray-200"></div>
+              <span className="flex-shrink-0 px-6 py-2 bg-orange-400 text-white rounded-full text-sm font-medium">
+                {date}
+              </span>
+              <div className="flex-grow h-0.5 bg-gray-200"></div>
+            </div>
+            
+            <div className="mt-4 bg-white rounded-xl shadow-lg overflow-hidden">
+              <table className="w-full">
+                <thead className="bg-gray-50">
+                  <tr>
+                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                      {intl.formatMessage({ id: 'admin.subscribers.table.email' })}
+                    </th>
+                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                      {intl.formatMessage({ id: 'admin.subscribers.table.status' })}
+                    </th>
+                    <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                      {intl.formatMessage({ id: 'admin.subscribers.table.actions' })}
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  {dateSubscribers.map((subscriber) => (
+                    <tr key={subscriber.id} className="hover:bg-gray-50">
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                        {subscriber.email}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <span className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${
+                          subscriber.status === 'ACTIVE' 
+                            ? 'bg-green-100 text-green-800' 
+                            : 'bg-red-100 text-red-800'
+                        }`}>
+                          {subscriber.status}
+                        </span>
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                        <button
+                          onClick={() => handleStatusChange(subscriber.id, 
+                            subscriber.status === 'ACTIVE' ? 'INACTIVE' : 'ACTIVE')}
+                          className="text-indigo-600 hover:text-indigo-900 mr-4"
+                        >
+                          {subscriber.status === 'ACTIVE' ? 
+                            intl.formatMessage({ id: 'admin.subscribers.actions.deactivate' }) :
+                            intl.formatMessage({ id: 'admin.subscribers.actions.activate' })}
+                        </button>
+                        <button
+                          onClick={() => handleDelete(subscriber.id)}
+                          className="text-red-600 hover:text-red-900"
+                        >
+                          {intl.formatMessage({ id: 'admin.subscribers.actions.delete' })}
+                        </button>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  };
+
   if (status === 'loading' || loading) {
     return <SkeletonLoader />;
   }
@@ -121,101 +213,42 @@ export default function SubscribersPage() {
           <h1 className="text-2xl font-bold text-gray-900">
             {intl.formatMessage({ id: 'admin.subscribers.title' })}
           </h1>
-          <div className="flex gap-4">
+          <div className="flex items-center space-x-4">
             <button
               onClick={handleExportCSV}
-              className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+              className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600"
             >
               {intl.formatMessage({ id: 'admin.subscribers.actions.export' })}
             </button>
             <button
               onClick={handleSignOut}
-              className="px-4 py-2 text-sm text-gray-600 hover:text-gray-900 bg-gray-100 hover:bg-gray-200 rounded-lg transition-all duration-200"
+              className="px-4 py-2 text-gray-600 bg-gray-100 rounded-lg hover:bg-gray-200"
             >
               {intl.formatMessage({ id: 'admin.signout' })}
             </button>
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-2xl overflow-hidden">
-          <div className="grid grid-cols-3 gap-4 p-6 bg-gray-50 border-b">
-            <div className="text-center">
-              <p className="text-sm text-gray-600">{intl.formatMessage({ id: 'admin.subscribers.stats.total' })}</p>
-              <p className="text-2xl font-bold text-purple-900">{subscribers.length}</p>
-            </div>
-            <div className="text-center">
-              <p className="text-sm text-gray-600">{intl.formatMessage({ id: 'admin.subscribers.stats.active' })}</p>
-              <p className="text-2xl font-bold text-purple-900">
-                {subscribers.filter(s => s.status === 'ACTIVE').length}
-              </p>
-            </div>
-            <div className="text-center">
-              <p className="text-sm text-gray-600">{intl.formatMessage({ id: 'admin.subscribers.stats.lastRegistration' })}</p>
-              <p className="text-2xl font-bold text-purple-900">
-                {subscribers[0]?.subscriptionDate ? new Date(subscribers[0].subscriptionDate).toLocaleDateString() : '-'}
-              </p>
-            </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <div className="text-center">
+            <p className="text-sm text-gray-600">{intl.formatMessage({ id: 'admin.subscribers.stats.total' })}</p>
+            <p className="text-2xl font-bold text-purple-900">{subscribers.length}</p>
           </div>
-
-          <div className="overflow-x-auto">
-            <table className="w-full">
-              <thead className="bg-gray-50">
-                <tr>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    {intl.formatMessage({ id: 'admin.subscribers.table.email' })}
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    {intl.formatMessage({ id: 'admin.subscribers.table.date' })}
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    {intl.formatMessage({ id: 'admin.subscribers.table.status' })}
-                  </th>
-                  <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    {intl.formatMessage({ id: 'admin.subscribers.table.actions' })}
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {subscribers.map((subscriber) => (
-                  <tr key={subscriber.id} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                      {subscriber.email}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {new Date(subscriber.subscriptionDate).toLocaleDateString()}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap">
-                      <span className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${
-                        subscriber.status === 'ACTIVE' 
-                          ? 'bg-green-100 text-green-800' 
-                          : 'bg-red-100 text-red-800'
-                      }`}>
-                        {subscriber.status}
-                      </span>
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                      <button
-                        onClick={() => handleStatusChange(subscriber.id, 
-                          subscriber.status === 'ACTIVE' ? 'INACTIVE' : 'ACTIVE')}
-                        className="text-indigo-600 hover:text-indigo-900 mr-4"
-                      >
-                        {subscriber.status === 'ACTIVE' ? 
-                          intl.formatMessage({ id: 'admin.subscribers.actions.deactivate' }) :
-                          intl.formatMessage({ id: 'admin.subscribers.actions.activate' })}
-                      </button>
-                      <button
-                        onClick={() => handleDelete(subscriber.id)}
-                        className="text-red-600 hover:text-red-900"
-                      >
-                        {intl.formatMessage({ id: 'admin.subscribers.actions.delete' })}
-                      </button>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <div className="text-center">
+            <p className="text-sm text-gray-600">{intl.formatMessage({ id: 'admin.subscribers.stats.active' })}</p>
+            <p className="text-2xl font-bold text-purple-900">
+              {subscribers.filter(s => s.status === 'ACTIVE').length}
+            </p>
+          </div>
+          <div className="text-center">
+            <p className="text-sm text-gray-600">{intl.formatMessage({ id: 'admin.subscribers.stats.lastRegistration' })}</p>
+            <p className="text-2xl font-bold text-purple-900">
+              {subscribers[0]?.subscriptionDate ? new Date(subscribers[0].subscriptionDate).toLocaleDateString() : '-'}
+            </p>
           </div>
         </div>
+
+        {renderTimelineView()}
       </div>
     </div>
   );
