@@ -1,4 +1,4 @@
-// NOT IMPLEMENTED YET
+/* // NOT IMPLEMENTED YET
 // This file is for future use with a Firestore database
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
@@ -39,4 +39,4 @@ export async function POST(request: NextRequest) {
     console.error('Error processing the subscription:', error);
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
   }
-}
+} */
