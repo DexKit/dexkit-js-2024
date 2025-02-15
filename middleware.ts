@@ -6,6 +6,12 @@ import redirects from './redirects.json';
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   
+  if (pathname === '/terms') {
+    const userLanguage = request.headers.get('accept-language')?.split(',')[0].split('-')[0] || defaultLocale;
+    const locale = locales.includes(userLanguage as Locale) ? userLanguage : defaultLocale;
+    return NextResponse.redirect(new URL(`/${locale}/terms`, request.url));
+  }
+
   if (pathname.startsWith('/admin') || pathname.startsWith('/api/auth') || pathname.startsWith('/auth')) {
     const pathParts = pathname.split('/');
     if (locales.includes(pathParts[1] as Locale)) {
@@ -39,15 +45,13 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL('/roadmap', request.url));
   }
 
-  const userLanguage = request.headers.get('accept-language')?.split(',')[0].split('-')[0] || defaultLocale;
-  const locale = locales.includes(userLanguage as Locale) ? userLanguage : defaultLocale;
-
+  const locale = defaultLocale;
   const newUrl = new URL(`/${locale}${pathname}`, request.url);
   return NextResponse.rewrite(newUrl);
 }
 
 export const config = {
   matcher: [
-    '/((?!api|_next/static|_next/image|images|favicon.ico).*)',
+    '/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)',
   ],
 };

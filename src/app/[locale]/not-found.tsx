@@ -1,20 +1,38 @@
 'use client';
 
 import { FormattedMessage } from 'react-intl';
-import LocalizedLink from '@/app/components/LocalizedLink';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useParams } from 'next/navigation';
+import { FaHome } from 'react-icons/fa';
 
 export default function NotFound() {
+  const { locale } = useParams();
+
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-6xl font-bold text-gray-800 mb-4">
-        <FormattedMessage id="notFound.title" defaultMessage="404" />
-      </h1>
-      <p className="text-2xl text-gray-600 mb-8">
-        <FormattedMessage id="notFound.message" defaultMessage="Oops! Page not found." />
-      </p>
-      <LocalizedLink href="/" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-        <FormattedMessage id="notFound.returnHome" defaultMessage="Return to Home" />
-      </LocalizedLink>
+    <div className="min-h-screen bg-gradient-to-br from-[#8B5CF6] to-[#6366F1] flex items-center justify-center p-4">
+      <div className="bg-white rounded-2xl shadow-xl p-8 max-w-md w-full text-center">
+        <Image
+          src="/imgs/dexkit-logo-black-d.svg"
+          alt="DexKit Logo"
+          width={80}
+          height={80}
+          className="mx-auto mb-6"
+        />
+        <h1 className="text-3xl font-bold text-gray-800 mb-4">
+          <FormattedMessage id="notFound.title" defaultMessage="Oops! Page Not Found" />
+        </h1>
+        <p className="text-gray-600 mb-8">
+          <FormattedMessage id="notFound.message" />
+        </p>
+        <Link 
+          href={`/${locale}`}
+          className="inline-flex items-center justify-center bg-[#8B5CF6] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#7C3AED] transition-colors"
+        >
+          <FaHome className="mr-2" />
+          <FormattedMessage id="notFound.returnHome" />
+        </Link>
+      </div>
     </div>
   );
 }
