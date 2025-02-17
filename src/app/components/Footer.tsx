@@ -7,6 +7,8 @@ import { FormattedMessage, useIntl } from 'react-intl'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord, faYoutube, faXTwitter, faTelegram, faLinkedin, faReddit, faMedium, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
 import confetti from 'canvas-confetti'
+import Link from 'next/link'
+import { useParams } from 'next/navigation'
 
 export default function Footer() {
   const intl = useIntl();
@@ -14,6 +16,7 @@ export default function Footer() {
   const [email, setEmail] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [message, setMessage] = useState('');
+  const { locale } = useParams();
 
   useEffect(() => {
     const handleResize = () => {
@@ -106,6 +109,9 @@ export default function Footer() {
     }
   };
 
+  // Construir la ruta de términos basada en el locale
+  const termsPath = locale ? `/${locale}/terms` : '/terms';
+
   return (
     <footer className="py-8 md:py-16 w-full text-white">
       <div className="container mx-auto px-4 max-w-6xl">
@@ -172,17 +178,33 @@ export default function Footer() {
             </form>
           </div>
         </div>
-        <div className="flex justify-center md:justify-start space-x-4 md:space-x-6 mt-8">
-          {socialNetworks.map((social) => (
-            <LocalizedLink 
-              key={social.name} 
-              href={social.url} 
-              {...linkProps}
-            >
-              <span className="sr-only">{social.name}</span>
-              <FontAwesomeIcon icon={social.icon} className="text-xl md:text-2xl" />
-            </LocalizedLink>
-          ))}
+        <div className="flex flex-col md:flex-row justify-between items-center mt-8">
+          <div className="flex space-x-4 md:space-x-6">
+            {socialNetworks.map((social) => (
+              <LocalizedLink 
+                key={social.name} 
+                href={social.url} 
+                {...linkProps}
+              >
+                <span className="sr-only">{social.name}</span>
+                <FontAwesomeIcon icon={social.icon} className="text-xl md:text-2xl" />
+              </LocalizedLink>
+            ))}
+          </div>
+          
+          <Link 
+            href={termsPath} 
+            className="hidden md:block text-gray-400 hover:text-orange-400 transition-colors duration-200"
+          >
+            <FormattedMessage id="footer.legal.terms" />
+          </Link>
+
+          <Link 
+            href={termsPath} 
+            className="md:hidden text-gray-400 hover:text-orange-400 transition-colors duration-200 mt-4"
+          >
+            <FormattedMessage id="footer.legal.terms" />
+          </Link>
         </div>
       </div>
     </footer>
