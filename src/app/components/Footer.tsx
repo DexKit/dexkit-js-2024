@@ -30,7 +30,7 @@ export default function Footer() {
   const socialNetworks = [
     { name: 'Discord', icon: faDiscord, url: 'https://discord.com/invite/dexkit-official-943552525217435649' },
     { name: 'YouTube', icon: faYoutube, url: 'https://www.youtube.com/@DexKit' },
-    { name: 'X', icon: faXTwitter, url: 'https://x.com/dexkit' },
+    { name: 'X', icon: faXTwitter, url: 'https://x.com/intent/follow?screen_name=dexkit' },
     { name: 'Telegram', icon: faTelegram, url: 'https://t.me/dexkit' },
     { name: 'LinkedIn', icon: faLinkedin, url: 'https://www.linkedin.com/company/dexkit' },
     { name: 'Reddit', icon: faReddit, url: 'https://www.reddit.com/r/dexkit' },
@@ -109,7 +109,6 @@ export default function Footer() {
     }
   };
 
-  // Construir la ruta de términos basada en el locale
   const termsPath = locale ? `/${locale}/terms` : '/terms';
 
   return (

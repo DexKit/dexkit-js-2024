@@ -11,7 +11,6 @@ export default function DexExchangePro() {
     const intl = useIntl();
 
     useEffect(() => {
-        // Añadir lógica para establecer el título de la página
         const productTitle = intl.formatMessage({ id: 'product.dexexchangepro.title' });
         document.title = `${productTitle} | DexKit`;
 

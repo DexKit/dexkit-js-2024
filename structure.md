@@ -1,72 +1,16 @@
-```
-└── 📁dexkit-js
     └── 📁content
         └── 📁blog
-            └── a-conversation-with-ken-from-dexkit-community.md
-            └── ai-empowered-web-3-dapp-building.md
-            └── ai-revolutionizes-our-products-discover-our-advanced-implementation.md
-            └── avoiding-crypto-scams.md
-            └── best-practices-in-crypto-staking-optimizing-your-passive-income-journey.md
-            └── build-your-own-crypto-business-with-ease-latest-update-to-dexappbuilder.md
-            └── calling-all-blockchain-developers.md
-            └── cex-vs-dex-learn-why-you-need-both.md
-            └── coin-league-earn-stablecoins-and-win-big-in-monthly-jackpot-games-with-dexkit.md
-            └── creating-on-chain-application-made-easy-with-dexappbuilder.md
-            └── crypto-chronicles-bitcoin-unleashed-and-ethereums-odyssey.md
-            └── crypto-mastery-navigating-risks-and-riding-high-in-the-investment-game.md
-            └── crypto-staking-demystified-exploring-benefits-and-risks.md
-            └── cryptocurrency-mining-the-key-to-decentralized-networks.md
-            └── deciphering-crypto-swap.md
-            └── dexkit-empowers-non-technical-users.md
-            └── dexkit-enhances-accessibility-through-integration-with-crypto-coms-dexkit-price-page.md
-            └── dexkit-secures-optimism-foundation-grant.md
-            └── dexkit-unleashes-a-game-changing-market-maker-tool-for-crypto-entrepreneurs.md
-            └── dexkits-seamless-and-customizable-dex-aggregator.md
-            └── discover-the-exciting-update-in-our-coin-league-prediction-game.md
-            └── discover-the-power-of-erc-4337-wallets.md
-            └── discover-the-transformative-power-of-next-js-empowering-the-future-of-web-development.md
-            └── disrupting-traditional-finance.md
-            └── embarking-on-blockchain-networks-understanding-and-their-transformative-applications.md
-            └── embracing-the-digital-renaissance.md
-            └── emojis-and-communication.md
-            └── exciting-news-for-nft-enthusiasts-kittygotchi.md
-            └── exploring-cryptocurrency-exchanges.md
-            └── exploring-the-world-of-blockchain-games.md
-            └── fortress-your-crypto-battle-tested-tips-to-guard-your-digital-gold.md
-            └── from-ideas-to-success-dexkits-latest-update.md
-            └── integrating-gasless-api-into-dexappbuilder-for-gasless-swaps.md
-            └── joao-campos-secures-50k-grant.md
-            └── join-dexkit-in-powering-web3-innovation.md
-            └── join-superapp-version-2-and-win-a-free-axie-infinity-battle-team.md
-            └── join-us-at-websummit-rio-2023.md
-            └── maximizing-success-on-blockchain-networks-top-options-for-dapp-developers-and-builders-and-cryptopreneurs.md
-            └── meet-brandon-a-valuable-cryptopreneur-on-dexkits-community.md
-            └── navigating-the-crypto-ecosystem-dexkits-resilience-and-growth-in-2022.md
-            └── nft-empowering-creators-in-the-digital-sphere.md
-            └── no-code-low-code-platforms-for-web2-and-web3.md
-            └── no-code-low-code-revolution-transforming-digital-creation.md
-            └── practical-applications-of-cryptocurrencies.md
-            └── real-world-cryptocurrency-exploration-consumer-infrastructure-and-governance-tokens.md
-            └── revolutionize-your-nft-sales-with-dexkit.md
-            └── simple-steps-to-keep-your-crypto-safe.md
-            └── superapp-v0-0-6-23-introducing-new-integrations-for-enhanced-user-experience.md
-            └── the-power-of-decentralized-applications-dapps.md
-            └── understanding-bitcoin-ethereum.md
-            └── understanding-cryptocurrencies-a-hand-guide-to-decentralized-digital-currencies.md
-            └── unlock-the-power-of-crypto-websites.md
-            └── unlocking-defi-potential-dexkits-contributions-to-0xdao-polygon-studios-and-chainlink.md
-            └── web3-the-present-and-the-future-of-the-internet.md
         └── 📁blog-es
             └── abrazando-el-renacimiento-digital.md
             └── ai-revoluciona-nuestros-productos-descubra-nuestra-implementacion-avanzada.md
             └── aplicaciones-practicas-de-las-criptomonedas.md
+            └── apoya-dexappbuilder-en-la-ronda-de-bienes-públicos-de-giveth.md
             └── cex-vs-dex-aprende-por-que-necesitas-ambos.md
             └── comprension-bitcoin-ethereum.md
             └── conozca-a-brandon-un-valioso-criptoemprendedor-en-dexkits-comunidad.md
             └── construccion-de-dapp-web-3-empoderada-por-ai.md
             └── creacion-de-aplicaciones-en-cadena-simple-con-dexappbuilder.md
             └── cree-su-propio-negocio-de-cripto-con-facilidad-la-ultima-actualizacion-para-dexappbuilder.md
-            └── cripto-apuestas-desmitificadas-explorando-beneficios-y-riesgos.md
             └── cripto-cronicas-bitcoin-desatado-y-ethereums-odyssey.md
             └── de-las-ideas-al-exito-dexkits-ultima-actualizacion.md
             └── desbloquear-el-poder-de-los-sitios-web-criptograficos.md
@@ -104,6 +48,7 @@
             └── plataformas-sin-code-low-code-para-web2-y-web3.md
             └── revolucion-sin-codigo-bajo-codigo-transformando-la-creacion-digital.md
             └── revoluciona-tus-ventas-nft-con-dexkit.md
+            └── staking-cripto-desmitificado-explorando-beneficios-y-riesgos.md
             └── superapp-v0-0-6-23-presentamos-nuevas-integraciones-para-mejorar-la-experiencia-de-usuario.md
             └── tokens-de-gobernanza-y-infraestructura-del-consumidor-de-exploracion-de-criptomonedas-del-mundo-real.md
             └── una-conversacion-con-ken-de-la-comunidad-dexkit.md
@@ -163,9 +108,71 @@
             └── revolucione-suas-vendas-nft-com-dexkit.md
             └── sem-codigo-low-code-revolucao-transformando-criacao-digital.md
             └── superapp-v0-0-6-23-apresentando-novas-integracoes-para-experiencia-do-usuario-aprimorada.md
+            └── suporte-dexappbuilder-giveth-public-goods-round.md
             └── tokens-de-infraestrutura-e-governanca-de-consumo-de-criptomoeda-do-mundo-real.md
             └── uma-conversa-com-ken-da-comunidade-dexkit.md
             └── web3-o-presente-e-o-futuro-da-internet.md
+            └── a-conversation-with-ken-from-dexkit-community.md
+            └── ai-empowered-web-3-dapp-building.md
+            └── ai-revolutionizes-our-products-discover-our-advanced-implementation.md
+            └── avoiding-crypto-scams.md
+            └── best-practices-in-crypto-staking-optimizing-your-passive-income-journey.md
+            └── build-your-own-crypto-business-with-ease-latest-update-to-dexappbuilder.md
+            └── calling-all-blockchain-developers.md
+            └── cex-vs-dex-learn-why-you-need-both.md
+            └── coin-league-earn-stablecoins-and-win-big-in-monthly-jackpot-games-with-dexkit.md
+            └── creating-on-chain-application-made-easy-with-dexappbuilder.md
+            └── crypto-chronicles-bitcoin-unleashed-and-ethereums-odyssey.md
+            └── crypto-mastery-navigating-risks-and-riding-high-in-the-investment-game.md
+            └── crypto-staking-demystified-exploring-benefits-and-risks.md
+            └── cryptocurrency-mining-the-key-to-decentralized-networks.md
+            └── deciphering-crypto-swap.md
+            └── dexkit-empowers-non-technical-users.md
+            └── dexkit-enhances-accessibility-through-integration-with-crypto-coms-dexkit-price-page.md
+            └── dexkit-secures-optimism-foundation-grant.md
+            └── dexkit-unleashes-a-game-changing-market-maker-tool-for-crypto-entrepreneurs.md
+            └── dexkits-seamless-and-customizable-dex-aggregator.md
+            └── discover-the-exciting-update-in-our-coin-league-prediction-game.md
+            └── discover-the-power-of-erc-4337-wallets.md
+            └── discover-the-transformative-power-of-next-js-empowering-the-future-of-web-development.md
+            └── disrupting-traditional-finance.md
+            └── embarking-on-blockchain-networks-understanding-and-their-transformative-applications.md
+            └── embracing-the-digital-renaissance.md
+            └── emojis-and-communication.md
+            └── exciting-news-for-nft-enthusiasts-kittygotchi.md
+            └── exploring-cryptocurrency-exchanges.md
+            └── exploring-the-world-of-blockchain-games.md
+            └── fortress-your-crypto-battle-tested-tips-to-guard-your-digital-gold.md
+            └── from-ideas-to-success-dexkits-latest-update.md
+            └── integrating-gasless-api-into-dexappbuilder-for-gasless-swaps.md
+            └── joao-campos-secures-50k-grant.md
+            └── join-dexkit-in-powering-web3-innovation.md
+            └── join-superapp-version-2-and-win-a-free-axie-infinity-battle-team.md
+            └── join-us-at-websummit-rio-2023.md
+            └── maximizing-success-on-blockchain-networks-top-options-for-dapp-developers-and-builders-and-cryptopreneurs.md
+            └── meet-brandon-a-valuable-cryptopreneur-on-dexkits-community.md
+            └── navigating-the-crypto-ecosystem-dexkits-resilience-and-growth-in-2022.md
+            └── nft-empowering-creators-in-the-digital-sphere.md
+            └── no-code-low-code-platforms-for-web2-and-web3.md
+            └── no-code-low-code-revolution-transforming-digital-creation.md
+            └── practical-applications-of-cryptocurrencies.md
+            └── real-world-cryptocurrency-exploration-consumer-infrastructure-and-governance-tokens.md
+            └── revolutionize-your-nft-sales-with-dexkit.md
+            └── simple-steps-to-keep-your-crypto-safe.md
+            └── superapp-v0-0-6-23-introducing-new-integrations-for-enhanced-user-experience.md
+            └── support-dexappbuilder-giveth-public-goods-round.md
+            └── the-power-of-decentralized-applications-dapps.md
+            └── understanding-bitcoin-ethereum.md
+            └── understanding-cryptocurrencies-a-hand-guide-to-decentralized-digital-currencies.md
+            └── unlock-the-power-of-crypto-websites.md
+            └── unlocking-defi-potential-dexkits-contributions-to-0xdao-polygon-studios-and-chainlink.md
+            └── web3-the-present-and-the-future-of-the-internet.md
+    └── 📁prisma
+        └── 📁migrations
+            └── 📁20250210150854_add_rate_limits
+                └── migration.sql
+            └── migration_lock.toml
+        └── schema.prisma
     └── 📁public
         └── 📁blog-images
             └── 09602236-0dd6-483d-bc6c-aa05593bf200.jpg
@@ -238,6 +245,7 @@
             └── cryptodotcomdexkit.jpg
             └── d883e43a-2054-4fb5-9895-ab00d2a7b37a.jpg
             └── DApp-blog.png
+            └── dappondab.gif
             └── dcefcfdd-7b19-43fe-aab7-de5725c7caa7.jpg
             └── defi_trading_automode.png
             └── DexAppBuilder-1.png
@@ -279,6 +287,7 @@
             └── Jackpot-Game_DexKit-blog.png
             └── kitty_blog_feat.png
             └── kitty_superapp.png
+            └── lovingoodsqf.jpg
             └── Marketplace-Update-blog1200.png
             └── MusicNFTs.png
             └── NCSA_Mosaic_Browser_Screenshot.png
@@ -328,6 +337,7 @@
             └── Wizard-differentials_DexKit-blog.png
             └── Wordpress.png
             └── your_crypto_business.jpg
+        └── blog-posts.json
         └── 📁branding
             └── 📁docs
                 └── Brand_Guidelines.pdf
@@ -377,6 +387,7 @@
             └── es.png
             └── pt.png
         └── 📁imgs
+            └── accesibility.svg
             └── 📁analytics
                 └── coinbrain.png
                 └── coindataflow.png
@@ -390,15 +401,6 @@
                 └── certik.png
                 └── goplusec.png
             └── 📁blog
-            └── 📁networks
-                └── binance.png
-                └── ethereum.png
-                └── polygon.png
-            └── 📁team
-                └── eliecer.jpg
-                └── joao.jpg
-                └── mariama.jpg
-            └── accesibility.svg
             └── brand.svg
             └── d-letter.webp
             └── default-blog-image.jpg
@@ -411,15 +413,24 @@
             └── dexkit-logo-white.svg
             └── easy.svg
             └── limited.svg
+            └── 📁networks
+                └── base.png
+                └── binance.png
+                └── ethereum.png
+                └── polygon.png
             └── nocode.svg
             └── ownership.svg
             └── platform.webp
+            └── 📁team
+                └── eliecer.jpg
+                └── joao.jpg
+                └── mariama.jpg
             └── web3.webp
             └── worker.webp
         └── 📁locales
             └── 📁en
             └── 📁es
-            ├── pt
+            └── 📁pt
         └── 📁partner-logos
             └── 0x.svg
             └── arbitrum.svg
@@ -436,10 +447,14 @@
             └── thegraph.svg
             └── thirdweb.svg
             └── tradingview.svg
-        └── blog-posts.json
+        └── robots.txt
+        └── rss.xml
+        └── 📁temp-images
     └── 📁scripts
+        └── clean-markdown.ts
         └── createPost.ts
         └── fromWpToJson.ts
+        └── generate-rss.ts
         └── imageScraperAndUpdater.ts
         └── jsonToMarkdown.ts
         └── translatePostsENtoES.ts
@@ -449,19 +464,18 @@
             └── 📁[locale]
                 └── 📁about
                     └── 📁brand-material
-                        └── BrandMaterial.tsx
                         └── page.tsx
                     └── 📁mission-vision-values
-                        └── MissionVisionContent.tsx
                         └── page.tsx
                     └── 📁our-team
-                        └── OurTeamContent.tsx
                         └── page.tsx
                     └── page.tsx
                 └── 📁blog
                     └── 📁[slug]
                         └── page.tsx
+                    └── layout.tsx
                     └── page.tsx
+                └── ClientLayout.tsx
                 └── 📁dexappbuilder
                     └── page.tsx
                 └── 📁dexexchangepro
@@ -476,34 +490,56 @@
                     └── page.tsx
                 └── 📁dexwallet
                     └── page.tsx
+                └── layout.tsx
+                └── metadata.ts
+                └── not-found.tsx
                 └── 📁our-token
                     └── 📁contract-addresses
-                        └── ContractAddressesContent.tsx
                         └── page.tsx
                     └── 📁governance
-                        └── GovernanceContent.tsx
                         └── page.tsx
                     └── 📁tokenomics
                         └── page.tsx
-                        └── PieChart.tsx
-                        └── TokenomicsContent.tsx
                     └── 📁utilities
                         └── page.tsx
-                        └── UtilitiesContent.tsx
+                └── page.tsx
                 └── 📁roadmap
                     └── page.tsx
-                └── layout.tsx
+                └── ServerLayout.tsx
+                └── 📁terms
+                    └── page.tsx
+            └── 📁about
+                └── 📁brand-material
+                    └── page.tsx
+                └── 📁mission-vision-values
+                    └── page.tsx
+                └── 📁our-team
+                    └── page.tsx
                 └── page.tsx
+            └── 📁admin
+                └── 📁subscribers
+                    └── page.tsx
             └── 📁api
+                └── 📁auth
+                    └── 📁[...nextauth]
+                        └── route.ts
                 └── 📁blogPost
                     └── route.ts
                 └── 📁blogPosts
                     └── route.ts
+                └── 📁newsletter
+                    └── 📁subscribe
+                        └── route.ts
+                    └── 📁subscribers
+                        └── 📁[id]
+                            └── route.ts
+                        └── route.ts
+                └── 📁search
                 └── subscribe.ts
-            └── 📁blog
-                └── 📁[slug]
+            └── 📁auth
+                └── 📁signin
                     └── page.tsx
-                └── page.tsx
+            └── 📁blog
             └── 📁blog-es
                 └── 📁[slug]
                     └── page.tsx
@@ -512,7 +548,13 @@
                 └── 📁[slug]
                     └── page.tsx
                 └── page.tsx
+                └── 📁[slug]
+                    └── page.tsx
+                └── ClientBlogWrapper.tsx
+                └── page.tsx
+                └── types.ts
             └── 📁components
+                └── BlogPostPage.tsx
                 └── Footer.tsx
                 └── Header.tsx
                 └── Hero.tsx
@@ -522,6 +564,7 @@
                 └── Partners.tsx
                 └── ProblemsAndSolutions.tsx
                 └── Product.tsx
+                └── SearchBar.tsx
                 └── SkeletonLoader.tsx
                 └── Solutions.tsx
                 └── ThemeProvider.tsx
@@ -541,24 +584,56 @@
                 └── page.tsx
             └── 📁dexwallet
                 └── page.tsx
+            └── favicon.ico
+            └── fonts.ts
+            └── globals.css
             └── 📁i18n
+                └── client.ts
+                └── config.ts
                 └── 📁messages
+                └── messages.ts
                     └── en.ts
                     └── es.ts
                     └── index.ts
                     └── pt.ts
-                └── config.ts
                 └── types.ts
-            └── favicon.ico
-            └── fonts.ts
-            └── globals.css
             └── layout-client.tsx
             └── layout.tsx
+            └── metadata.ts
+            └── not-found.tsx
+            └── 📁our-token
+                └── 📁contract-addresses
+                    └── page.tsx
+                └── 📁governance
+                    └── page.tsx
+                └── 📁tokenomics
+                    └── page.tsx
+                    └── PieChart.tsx
+                └── 📁utilities
+                    └── page.tsx
             └── page.tsx
+            └── 📁roadmap
+                └── page.tsx
+            └── rss.ts
             └── sitemap.ts
+            └── 📁terms
+                └── page.tsx
+            └── 📁utils
+                └── blogUtils.ts
+                └── language.ts
+                └── locale.ts
+        └── 📁lib
+            └── auth.ts
+            └── encryption.ts
+            └── prisma.ts
+            └── rate-limit.ts
+        └── 📁providers
+            └── AuthProvider.tsx
+    └── .env
     └── .env.local.example
     └── .eslintrc.json
     └── .gitignore
+    └── .markdownlint.json
     └── creatingposts.md
     └── middleware.ts
     └── migratefromwp.md
@@ -568,7 +643,7 @@
     └── package.json
     └── postcss.config.mjs
     └── README.md
-    └── robots.txt
+    └── redirects.json
     └── structure.md
     └── tailwind.config.ts
     └── tsconfig.json
