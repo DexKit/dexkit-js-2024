@@ -4,7 +4,7 @@
         <description><![CDATA[Latest posts from DexKit Blog in English, Spanish, and Portuguese]]></description>
         <link>https://dexkit.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 14 Feb 2025 19:42:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Feb 2025 01:29:55 GMT</lastBuildDate>
         <atom:link href="https://dexkit.com/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <item>
@@ -1328,32 +1328,12 @@
             <enclosure url="/blog-images/DexKit_nextjs.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[Unlocking DeFi Potential: DexKit's Contributions to 0xDAO, Polygon Studios, and Chainlink]]></title>
-            <description><![CDATA[Discover how DexKit has been instrumental in driving the growth of decentralized finance (DeFi) through its partnerships with 0xDAO, Polygon Studios, and Chainlink.]]></description>
-            <link>https://dexkit.com/blog/unlocking-defi-potential-dexkits-contributions-to-0xdao-polygon-studios-and-chainlink</link>
-            <guid isPermaLink="true">https://dexkit.com/blog/unlocking-defi-potential-dexkits-contributions-to-0xdao-polygon-studios-and-chainlink</guid>
-            <category><![CDATA[Community]]></category>
-            <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Mon, 03 Oct 2022 04:00:00 GMT</pubDate>
-            <enclosure url="/blog-images/Promoting-partnerships-GIF.gif" length="0" type="image/gif"/>
-        </item>
-        <item>
             <title><![CDATA[Liberando el potencial de DeFi: contribuciones de DexKit a 0xDAO, Polygon Studios y Chainlink]]></title>
             <description><![CDATA[Descubra cómo DexKit ha sido fundamental para impulsar el crecimiento de las finanzas descentralizadas (DeFi) a través de sus asociaciones con 0xDAO, Polygon Studios y Chainlink.]]></description>
             <link>https://dexkit.com/es/blog/desbloqueo-defi-potencial-dexkits-contribuciones-a-0xdao-polygon-studios-y-chainlink</link>
             <guid isPermaLink="true">https://dexkit.com/es/blog/desbloqueo-defi-potencial-dexkits-contribuciones-a-0xdao-polygon-studios-y-chainlink</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Mon, 03 Oct 2022 04:00:00 GMT</pubDate>
-            <enclosure url="/blog-images/Promoting-partnerships-GIF.gif" length="0" type="image/gif"/>
-        </item>
-        <item>
-            <title><![CDATA[Desbloqueando o potencial DeFi: contribuições do DexKit para 0xDAO, Polygon Studios e Chainlink]]></title>
-            <description><![CDATA[Descubra como o DexKit tem sido fundamental para impulsionar o crescimento das finanças descentralizadas (DeFi) por meio de suas parcerias com 0xDAO, Polygon Studios e Chainlink.]]></description>
-            <link>https://dexkit.com/pt/blog/desbloqueio-defi-potential-dexkits-contributions-to-0xdao-polygon-studios-and-chainlink</link>
-            <guid isPermaLink="true">https://dexkit.com/pt/blog/desbloqueio-defi-potential-dexkits-contributions-to-0xdao-polygon-studios-and-chainlink</guid>
-            <category><![CDATA[Community]]></category>
-            <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
             <pubDate>Mon, 03 Oct 2022 04:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Promoting-partnerships-GIF.gif" length="0" type="image/gif"/>
         </item>
@@ -1478,36 +1458,6 @@
             <enclosure url="/blog-images/20220625_Dexkit_and_OKC_version2.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[DexKit Unleashes a Game-Changing Market Maker Tool for Crypto Entrepreneurs]]></title>
-            <description><![CDATA[DexKit introduces a game-changing market maker tool, empowering crypto entrepreneurs with essential trading volume data and listing opportunities.]]></description>
-            <link>https://dexkit.com/blog/dexkit-unleashes-a-game-changing-market-maker-tool-for-crypto-entrepreneurs</link>
-            <guid isPermaLink="true">https://dexkit.com/blog/dexkit-unleashes-a-game-changing-market-maker-tool-for-crypto-entrepreneurs</guid>
-            <category><![CDATA[Innovations]]></category>
-            <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Fri, 03 Jun 2022 04:00:00 GMT</pubDate>
-            <enclosure url="/blog-images/AMM_bot_default.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[DexKit lanza una innovadora herramienta de creación de mercado para criptoempresarios]]></title>
-            <description><![CDATA[DexKit presenta una herramienta innovadora para crear mercado, que brinda a los empresarios criptográficos datos esenciales sobre el volumen de operaciones y oportunidades de cotización.]]></description>
-            <link>https://dexkit.com/es/blog/dexkit-lanza-una-herramienta-creadora-de-mercado-que-cambia-las-juegos-para-criptoempresarios</link>
-            <guid isPermaLink="true">https://dexkit.com/es/blog/dexkit-lanza-una-herramienta-creadora-de-mercado-que-cambia-las-juegos-para-criptoempresarios</guid>
-            <category><![CDATA[Innovations]]></category>
-            <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Fri, 03 Jun 2022 04:00:00 GMT</pubDate>
-            <enclosure url="/blog-images/AMM_bot_default.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[DexKit lança uma ferramenta de criação de mercado revolucionária para empreendedores criptográficos]]></title>
-            <description><![CDATA[DexKit apresenta uma ferramenta revolucionária de criação de mercado, capacitando empreendedores de criptografia com dados essenciais de volume de negociação e oportunidades de listagem.]]></description>
-            <link>https://dexkit.com/pt/blog/dexkit-lanca-uma-ferramenta-de-criacao-de-mercado-que-muda-o-jogo-para-criptoempreendedores</link>
-            <guid isPermaLink="true">https://dexkit.com/pt/blog/dexkit-lanca-uma-ferramenta-de-criacao-de-mercado-que-muda-o-jogo-para-criptoempreendedores</guid>
-            <category><![CDATA[Innovations]]></category>
-            <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Fri, 03 Jun 2022 04:00:00 GMT</pubDate>
-            <enclosure url="/blog-images/AMM_bot_default.png" length="0" type="image/png"/>
-        </item>
-        <item>
             <title><![CDATA[Join SuperApp Version 2 and Win a Free Axie Infinity Battle Team!]]></title>
             <description><![CDATA[Participate in our SuperApp Version 2 launch and get a chance to win a free Axie Infinity battle team.]]></description>
             <link>https://dexkit.com/blog/join-superapp-version-2-and-win-a-free-axie-infinity-battle-team</link>
@@ -1566,36 +1516,6 @@
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
             <pubDate>Tue, 22 Mar 2022 04:00:00 GMT</pubDate>
             <enclosure url="/blog-images/SuperApp_00619.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Exciting Development: João Campos Secures $50K Grant for DexKit]]></title>
-            <description><![CDATA[Discover the exciting accomplishment as DexKit's Head Developer, João Campos, receives a substantial $50k USD grant from 0x DAO. This achievement fuels our pride and excitement as we continue to develop cutting-edge technologies...]]></description>
-            <link>https://dexkit.com/blog/joao-campos-secures-50k-grant</link>
-            <guid isPermaLink="true">https://dexkit.com/blog/joao-campos-secures-50k-grant</guid>
-            <category><![CDATA[Integrations]]></category>
-            <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Thu, 10 Mar 2022 04:00:00 GMT</pubDate>
-            <enclosure url="/blog-images/Dexkit__0x.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Desarrollo emocionante: João Campos obtiene una subvención de 50.000 dólares para DexKit]]></title>
-            <description><![CDATA[Descubra el emocionante logro cuando el desarrollador principal de DexKit, João Campos, recibe una importante subvención de 50.000 dólares de 0x DAO. Este logro alimenta nuestro orgullo y entusiasmo a medida que continuamos desarrollando tecnologías de vanguardia...]]></description>
-            <link>https://dexkit.com/es/blog/joao-campos-obtiene-beca-50k</link>
-            <guid isPermaLink="true">https://dexkit.com/es/blog/joao-campos-obtiene-beca-50k</guid>
-            <category><![CDATA[Integrations]]></category>
-            <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Thu, 10 Mar 2022 04:00:00 GMT</pubDate>
-            <enclosure url="/blog-images/Dexkit__0x.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Desenvolvimento emocionante: João Campos garante doação de US$ 50 mil para o DexKit]]></title>
-            <description><![CDATA[Descubra a conquista emocionante quando o desenvolvedor-chefe da DexKit, João Campos, recebe uma doação substancial de US$ 50 mil do 0x DAO. Essa conquista alimenta nosso orgulho e entusiasmo à medida que continuamos a desenvolver tecnologias de ponta...]]></description>
-            <link>https://dexkit.com/pt/blog/joao-campos-segura-50k-grant</link>
-            <guid isPermaLink="true">https://dexkit.com/pt/blog/joao-campos-segura-50k-grant</guid>
-            <category><![CDATA[Integrations]]></category>
-            <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Thu, 10 Mar 2022 04:00:00 GMT</pubDate>
-            <enclosure url="/blog-images/Dexkit__0x.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[DexKit Enhances Accessibility Through Integration with Crypto.com's DexKit Price Page]]></title>

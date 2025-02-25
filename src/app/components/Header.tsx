@@ -75,8 +75,8 @@ export default function Header() {
       href: '/about',
       subItems: [
         { name: intl.formatMessage({ id: "header.missionVision" }), href: '/about/mission-vision-values', external: false, description: intl.formatMessage({ id: "header.missionVision.description" }) },
-        { name: intl.formatMessage({ id: "header.ourTeam" }), href: '/about/our-team', external: false, description: intl.formatMessage({ id: "header.ourTeam.description" }) },
-        { name: intl.formatMessage({ id: "header.brandMaterial" }), href: '/about/brand-material', external: false, description: intl.formatMessage({ id: "header.brandMaterial.description" }) },
+/*         { name: intl.formatMessage({ id: "header.ourTeam" }), href: '/about/our-team', external: false, description: intl.formatMessage({ id: "header.ourTeam.description" }) },
+ */        { name: intl.formatMessage({ id: "header.brandMaterial" }), href: '/about/brand-material', external: false, description: intl.formatMessage({ id: "header.brandMaterial.description" }) },
       ]
     },
     { 

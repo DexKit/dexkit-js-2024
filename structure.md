@@ -35,7 +35,6 @@
             └── explorando-intercambios-de-criptomonedas.md
             └── fortalezca-su-cripto-batalla-consejos-probados-para-proteger-su-oro-digital.md
             └── integrando-api-sin-gas-en-dexappbuilder-para-swaps-sin-gas.md
-            └── joao-campos-obtiene-beca-50k.md
             └── liga-de-monedas-gane-monedas-estables-y-gane-a-lo-grande-en-juegos-de-jackpot-mensuales-con-dexkit.md
             └── llamando-a-todos-los-desarrolladores-de-blockchain.md
             └── maximizar-el-exito-en-las-redes-blockchain-principales-opciones-para-desarrolladores-y-constructores-y-criptoemprendedores-de-dapps.md
@@ -92,7 +91,6 @@
             └── explorando-o-mundo-dos-jogos-blockchain.md
             └── explorando-trocas-de-criptomoedas.md
             └── integrando-gasless-api-into-dexappbuilder-for-gasless-swaps.md
-            └── joao-campos-segura-50k-grant.md
             └── junte-se-a-nos-no-websummit-rio-2023.md
             └── junte-se-dexkit-in-powering-web3-innovation.md
             └── junte-se-superapp-versao-2-e-ganhe-um-time-de-battle-axie-infinity-gratis.md
@@ -145,7 +143,6 @@
             └── fortress-your-crypto-battle-tested-tips-to-guard-your-digital-gold.md
             └── from-ideas-to-success-dexkits-latest-update.md
             └── integrating-gasless-api-into-dexappbuilder-for-gasless-swaps.md
-            └── joao-campos-secures-50k-grant.md
             └── join-dexkit-in-powering-web3-innovation.md
             └── join-superapp-version-2-and-win-a-free-axie-infinity-battle-team.md
             └── join-us-at-websummit-rio-2023.md
@@ -422,9 +419,6 @@
             └── ownership.svg
             └── platform.webp
             └── 📁team
-                └── eliecer.jpg
-                └── joao.jpg
-                └── mariama.jpg
             └── web3.webp
             └── worker.webp
         └── 📁locales
