@@ -5,7 +5,7 @@ import LocalizedLink from './LocalizedLink'
 import { useState, useEffect, FormEvent } from 'react'
 import { FormattedMessage, useIntl } from 'react-intl'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDiscord, faYoutube, faXTwitter, faTelegram, faLinkedin, faReddit, faMedium, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faDiscord, faYoutube, faXTwitter, faTelegram, faLinkedin, faReddit, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
 import confetti from 'canvas-confetti'
 import Link from 'next/link'
 import { useParams } from 'next/navigation'
@@ -34,7 +34,6 @@ export default function Footer() {
     { name: 'Telegram', icon: faTelegram, url: 'https://t.me/dexkit' },
     { name: 'LinkedIn', icon: faLinkedin, url: 'https://www.linkedin.com/company/dexkit' },
     { name: 'Reddit', icon: faReddit, url: 'https://www.reddit.com/r/dexkit' },
-    { name: 'Medium', icon: faMedium, url: 'https://dexkit.medium.com/' },
     { name: 'Instagram', icon: faInstagram, url: 'https://www.instagram.com/dexkit.io' },
     { name: 'Facebook', icon: faFacebook, url: 'https://www.facebook.com/dexkit.io' },
   ]
