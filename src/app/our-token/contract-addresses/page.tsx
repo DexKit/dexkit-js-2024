@@ -30,6 +30,7 @@ export default function ContractAddressesContent() {
     { network: 'Ethereum', address: '0x7866e48c74cbfb8183cd1a929cd9b95a7a5cb4f4', icon: '/imgs/networks/ethereum.png', explorer: 'https://etherscan.io/token/0x7866e48c74cbfb8183cd1a929cd9b95a7a5cb4f4' },
     { network: 'Polygon', address: '0x4d0def42cf57d6f27cd4983042a55dce1c9f853c', icon: '/imgs/networks/polygon.png', explorer: 'https://polygonscan.com/token/0x4d0def42cf57d6f27cd4983042a55dce1c9f853c' },
     { network: 'Binance Chain', address: '0x314593fa9a2fa16432913dbccc96104541d32d11', icon: '/imgs/networks/binance.png', explorer: 'https://bscscan.com/token/0x314593fa9a2fa16432913dbccc96104541d32d11' },
+    { network: 'Base', address: '0x946f8b0ef009f3f5b1b35e6511a82a58b09d8d4e', icon: '/imgs/networks/basenew.png', explorer: 'https://basescan.org/token/0x946f8b0ef009f3f5b1b35e6511a82a58b09d8d4e' },
   ];
 
   const copyToClipboard = (address: string) => {

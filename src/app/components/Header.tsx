@@ -133,30 +133,26 @@ export default function Header() {
     <>
       <header 
         ref={headerRef}
-        className={`py-6 px-4 fixed top-0 left-0 right-0 z-40 transition-all duration-300`}
-        style={{
-          backgroundColor: `rgba(0, 0, 0, ${scrollProgress * 0.9})`,
-          backdropFilter: `blur(${scrollProgress * 5}px)`,
-        }}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+          scrollProgress > 0 ? 'bg-black bg-opacity-90 shadow-lg' : 'bg-transparent'
+        }`}
       >
-        <div className="container mx-auto flex justify-between items-center">
-          <LocalizedLink href="/">
-            <div className="w-[112px] h-[30px] md:w-[150px] md:h-[40px]">
-              <Image 
-                src="/imgs/dexkit-logo-white.svg"
-                alt="DexKit Logo" 
-                width={150}
-                height={40}
-                priority
-                className="w-full h-auto object-contain"
-              />
-            </div>
+        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+          <LocalizedLink href="/" className="flex items-center">
+            <Image 
+              src="/imgs/dexkit-logo-white.svg" 
+              alt="DexKit Logo" 
+              width={isMobile ? 120 : 150} 
+              height={isMobile ? 46 : 57} 
+              className="h-auto"
+            />
           </LocalizedLink>
+          
           {isMobile ? (
             <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-white focus:outline-none"
-              aria-label="Toggle menu"
+              onClick={() => setIsMenuOpen(true)}
+              className="text-white p-2"
+              aria-label="Open menu"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -164,34 +160,35 @@ export default function Header() {
             </button>
           ) : (
             <>
-              <nav className="hidden lg:block flex-grow">
-                <ul className="flex justify-center space-x-6 items-center">
+              <nav className="hidden lg:block">
+                <ul className="flex space-x-6 text-sm sm:text-base">
                   {menuItems.map((item) => (
-                    <li key={item.title} className="relative group">
-                      {item.subItems && item.subItems.length > 0 ? (
+                    <li key={item.title} className="relative">
+                      {item.subItems.length > 0 ? (
                         <>
-                          <span className="text-white hover:text-orange-400 transition-colors duration-300 py-2 flex items-center cursor-default">
-                            {item.title}
-                            <span className="ml-1">
-
-                              <i className="fas fa-chevron-down text-xs"></i>
+                          <span className="group relative">
+                            <span className="text-white hover:text-orange-400 transition-colors duration-300 py-2 flex items-center cursor-pointer">
+                              {item.title}
+                              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                              </svg>
                             </span>
-                          </span>
-                          <div className="absolute left-0 mt-0 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 group-hover:opacity-100 transition-opacity duration-200 invisible group-hover:visible">
-                            <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                              {item.subItems.map((subItem) => (
-                                <LocalizedLink 
-                                  key={subItem.name}
-                                  href={subItem.external ? subItem.href : subItem.href}
-                                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-400 hover:text-white hover:font-bold transition-all duration-200"
-                                  role="menuitem"
-                                  aria-label={subItem.description}
-                                >
-                                  {subItem.name}
-                                </LocalizedLink>
-                              ))}
+                            <div className="absolute left-0 mt-0 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 group-hover:opacity-100 transition-opacity duration-200 invisible group-hover:visible">
+                              <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                                {item.subItems.map((subItem) => (
+                                  <LocalizedLink 
+                                    key={subItem.name}
+                                    href={subItem.external ? subItem.href : subItem.href}
+                                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-400 hover:text-white hover:font-bold transition-all duration-200"
+                                    role="menuitem"
+                                    aria-label={subItem.description}
+                                  >
+                                    {subItem.name}
+                                  </LocalizedLink>
+                                ))}
+                              </div>
                             </div>
-                          </div>
+                          </span>
                         </>
                       ) : (
                         <LocalizedLink 
@@ -230,13 +227,13 @@ export default function Header() {
                 <li key={item.title} className="mb-4">
                   {item.subItems.length > 0 ? (
                     <details>
-                      <summary className="text-gray-700 font-semibold cursor-pointer">{item.title}</summary>
+                      <summary className="text-gray-700 font-semibold cursor-pointer text-sm sm:text-base">{item.title}</summary>
                       <ul className="ml-4 mt-2">
                         {item.subItems.map((subItem) => (
                           <li key={subItem.name} className="mb-2">
                             <LocalizedLink 
                               href={subItem.href}
-                              className="text-gray-600 hover:text-orange-400"
+                              className="text-gray-600 hover:text-orange-400 text-sm"
                               onClick={() => setIsMenuOpen(false)}
                             >
                               {subItem.name}
@@ -248,7 +245,7 @@ export default function Header() {
                   ) : (
                     <LocalizedLink 
                       href={item.href}
-                      className="text-gray-700 font-semibold hover:text-orange-400"
+                      className="text-gray-700 font-semibold hover:text-orange-400 text-sm sm:text-base"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {item.title}

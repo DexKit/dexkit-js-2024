@@ -79,10 +79,10 @@ export default async function BlogPostPage(props: { params: Promise<{ slug: stri
     <div className="min-h-screen">
       <main>
         <div className="container mx-auto px-4 py-6 md:py-8">
-          <h1 className="text-3xl md:text-5xl font-bold text-center mb-4 text-white">{post.title}</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-4 text-white">{post.title}</h1>
           
           <div className="flex items-center justify-center mb-4">
-            <span className="text-sm md:text-base text-white mr-2">{getMessage('blog.by', 'pt')}:</span>
+            <span className="text-sm sm:text-base md:text-lg text-white mr-2">{getMessage('blog.by', 'pt')}:</span>
             <Image 
               src="/imgs/dexkit-logo-white-o-o.svg"
               alt={getMessage('blog.dexkitLogo', 'pt')}
@@ -90,7 +90,7 @@ export default async function BlogPostPage(props: { params: Promise<{ slug: stri
               height={60} 
               className="mr-2"
             />
-            <span className="text-sm md:text-base text-white">
+            <span className="text-sm sm:text-base md:text-lg text-white">
               {post.author} <span className="mx-1">{getMessage('blog.on', 'pt')}</span> {post.date}
             </span>
           </div>

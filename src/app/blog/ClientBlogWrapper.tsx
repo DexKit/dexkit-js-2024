@@ -57,7 +57,7 @@ export function ClientBlogWrapper({ initialPosts }: ClientBlogWrapperProps) {
                     {post.category}
                   </span>
                 </div>
-                <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">{post.title}</h2>
+                <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">{post.title}</h2>
                 <div className="flex items-center">
                   <Image 
                     src="/imgs/dexkit-logo-black-d.svg"
@@ -66,7 +66,7 @@ export function ClientBlogWrapper({ initialPosts }: ClientBlogWrapperProps) {
                     height={24} 
                     className="mr-2"
                   />
-                  <span className="text-sm text-gray-600">DexKit Team</span>
+                  <span className="text-sm sm:text-base text-gray-600">DexKit Team</span>
                 </div>
               </div>
             </div>

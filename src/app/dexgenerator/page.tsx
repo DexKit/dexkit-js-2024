@@ -52,16 +52,16 @@ export default function DexGenerator() {
 
     return (
       <div className="min-h-screen">
-        <div className="text-white py-8 sm:py-16">
+        <div className="text-white py-8 md:py-16">
           <div className="container mx-auto px-4 max-w-5xl">
-            <div className={`flex flex-col ${isMobile ? '' : 'md:flex-row'} items-center justify-between`}>
-              <h1 className={`text-4xl ${isMobile ? '' : 'sm:text-6xl'} font-bold mb-4 ${isMobile ? 'w-full' : 'md:mb-0 md:w-1/2'} text-center ${isMobile ? '' : 'md:text-left'}`}>
+            <div className="flex flex-col md:flex-row items-center justify-between">
+              <h1 className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-0 ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>
                 <FormattedMessage id="dexgenerator.title" defaultMessage="DexGenerator" />
               </h1>
-              <p className={`text-lg ${isMobile ? '' : 'sm:text-xl'} ${isMobile ? 'w-full' : 'md:w-1/2'} text-center ${isMobile ? '' : 'md:text-left'}`}>
+              <p className={`text-base sm:text-lg md:text-xl ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>
                 <FormattedMessage 
                   id="dexgenerator.subtitle" 
-                  defaultMessage="Deploy open-source, secure smart contracts on the blockchain with ease, and seamlessly integrate them with prebuilt user interfaces."
+                  defaultMessage="Create and deploy NFT collections with ease, no coding required."
                 />
               </p>
             </div>
@@ -69,14 +69,14 @@ export default function DexGenerator() {
         </div>
 
         <div className="bg-white text-black">
-          <div className="container mx-auto px-4 py-8 sm:py-12 max-w-4xl">
+          <div className="container mx-auto px-4 py-8 md:py-12 max-w-4xl">
             <nav className="mb-8 overflow-x-auto">
-              <ul className={`flex ${isMobile ? 'space-x-2' : 'space-x-4 sm:space-x-6'} border-b border-gray-300 whitespace-nowrap`}>
+              <ul className="flex space-x-4 sm:space-x-6 border-b border-gray-300 whitespace-nowrap">
                 {['description', 'requirements', 'limitations', 'future updates', 'tutorials'].map((tab) => (
                   <li key={tab} className={`pb-2 ${activeTab === tab ? 'border-b-2 border-orange-500' : ''}`}>
                     <button 
                       onClick={() => setActiveTab(tab)} 
-                      className={`${activeTab === tab ? 'text-orange-500' : 'text-gray-600'} ${isMobile ? 'text-xs' : 'text-sm sm:text-base'}`}
+                      className={`text-sm sm:text-base ${activeTab === tab ? 'text-orange-500' : 'text-gray-600'}`}
                     >
                       {intl.formatMessage({ id: `dexgenerator.tabs.${tab}` })}
                     </button>
@@ -87,30 +87,30 @@ export default function DexGenerator() {
 
             <div className="relative">
               <section id="description" className={`py-4 ${activeTab !== 'description' ? 'hidden' : ''}`}>
-                <p className={`mb-4 ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}>
+                <p className="mb-4 text-sm sm:text-base md:text-lg">
                   <FormattedMessage 
                     id="dexgenerator.description.paragraph1" 
-                    defaultMessage="DexGenerator is a powerful tool designed to simplify the process of creating and deploying smart contracts on various blockchain networks. It provides a user-friendly interface for generating secure, audited smart contracts without requiring extensive coding knowledge."
+                    defaultMessage="DexGenerator is a powerful tool that allows you to create and deploy NFT collections without any coding knowledge. With an intuitive interface, you can upload your artwork, set collection parameters, and deploy directly to the blockchain."
                   />
                 </p>
-                <p className={`mb-4 ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}>
+                <p className="mb-4 text-sm sm:text-base md:text-lg">
                   <FormattedMessage 
                     id="dexgenerator.description.paragraph2" 
-                    defaultMessage="With DexGenerator, users can easily create custom tokens, NFTs, and other blockchain-based assets. The platform offers a range of pre-built templates and customization options, allowing users to tailor their smart contracts to specific needs. Additionally, DexGenerator provides seamless integration with pre-built user interfaces, making it easy to create complete decentralized applications (DApps) with minimal effort."
+                    defaultMessage="This solution supports various NFT standards and blockchain networks, making it accessible to creators regardless of their technical expertise. DexGenerator streamlines the process of bringing your digital art to the blockchain market."
                   />
                 </p>
                 <Link 
                   href="https://docs.dexkit.com/defi-products/dexgenerator/overview" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className={`text-orange-500 hover:underline ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}
+                  className="text-orange-500 hover:underline text-sm sm:text-base"
                 >
-                  <FormattedMessage id="dexgenerator.overviewLink" defaultMessage="Learn about DexGenerator features" />
+                  <FormattedMessage id="dexgenerator.overviewLink" defaultMessage="Learn more about DexGenerator" />
                 </Link>
               </section>
 
               <section id="requirements" className={`py-4 ${activeTab !== 'requirements' ? 'hidden' : ''}`}>
-                <ul className={`list-disc pl-5 space-y-2 ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}>
+                <ul className="list-disc pl-5 space-y-2 text-sm sm:text-base md:text-lg">
                   {requirements.map((req, index) => (
                     <li key={index}>
                       <FormattedMessage id={req} />
@@ -120,7 +120,7 @@ export default function DexGenerator() {
               </section>
 
               <section id="limitations" className={`py-4 ${activeTab !== 'limitations' ? 'hidden' : ''}`}>
-                <ul className={`list-disc pl-5 space-y-2 ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}>
+                <ul className="list-disc pl-5 space-y-2 text-sm sm:text-base md:text-lg">
                   {limitations.map((limit, index) => (
                     <li key={index}>
                       <FormattedMessage id={limit} />
@@ -130,7 +130,7 @@ export default function DexGenerator() {
               </section>
 
               <section id="future updates" className={`py-4 ${activeTab !== 'future updates' ? 'hidden' : ''}`}>
-                <ul className={`list-disc pl-5 space-y-2 ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}>
+                <ul className="list-disc pl-5 space-y-2 text-sm sm:text-base md:text-lg">
                   {futureUpdates.map((update, index) => (
                     <li key={index}>
                       <FormattedMessage id={update} />
@@ -140,7 +140,7 @@ export default function DexGenerator() {
               </section>
 
               <section id="tutorials" className={`py-4 ${activeTab !== 'tutorials' ? 'hidden' : ''}`}>
-                <ul className={`list-disc pl-5 space-y-2 ${isMobile ? 'text-sm' : 'text-sm sm:text-base'}`}>
+                <ul className="list-disc pl-5 space-y-2 text-sm sm:text-base md:text-lg">
                   {tutorials.map((tutorial, index) => (
                     <li key={index}>
                       <Link 
@@ -162,7 +162,7 @@ export default function DexGenerator() {
                 href="https://dexappbuilder.dexkit.com/contract-wizard" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base"
+                className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base md:text-lg"
               >
                 <FaExternalLinkAlt className="mr-2" />
                 {intl.formatMessage({ id: "dexgenerator.openSolution" })}

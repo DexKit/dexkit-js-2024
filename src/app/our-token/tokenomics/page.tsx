@@ -117,18 +117,18 @@ export default function TokenomicsContent() {
 
   return (
     <div className="min-h-screen">
-        <div className="text-white py-8 md:py-16">
-          <div className="container mx-auto px-4 max-w-5xl">
-            <div className="flex flex-col md:flex-row items-center justify-between">
-              <h1 className={`text-4xl md:text-6xl font-bold mb-4 md:mb-0 ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>
-                {intl.formatMessage({ id: "tokenomics.title" })}
+      <div className="text-white py-8 md:py-16">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <h1 className={`text-4xl md:text-6xl font-bold mb-4 md:mb-0 ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>
+              {intl.formatMessage({ id: "tokenomics.title" })}
             </h1>
-            <p className={`text-lg ${isMobile ? '' : 'sm:text-xl'} ${isMobile ? 'w-full' : 'md:w-1/2'} text-center ${isMobile ? '' : 'md:text-left'}`}>
-                {intl.formatMessage({ id: "tokenomics.description" })}
+            <p className={`text-base sm:text-lg md:text-xl ${isMobile ? 'w-full' : 'md:w-1/2'} text-center ${isMobile ? '' : 'md:text-left'}`}>
+              {intl.formatMessage({ id: "tokenomics.description" })}
             </p>
-            </div>
+          </div>
         </div>
-        </div>
+      </div>
 
       <div className="bg-white text-black">
         <main className="container mx-auto px-4 py-8 md:py-12">

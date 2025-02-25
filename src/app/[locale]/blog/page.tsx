@@ -168,7 +168,7 @@ export default function BlogPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {filteredPosts.map((post) => (
               <Link key={post.slug} href={`/${locale}/blog/${post.slug}`}>
-                <div className="bg-white rounded-lg shadow-md overflow-hidden">
+                <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
                   <div className="relative h-48 sm:h-56 md:h-64">
                     <Image 
                       src={post.imageUrl || DEFAULT_IMAGE}
@@ -184,7 +184,7 @@ export default function BlogPage() {
                         {post.category}
                       </span>
                     </div>
-                    <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">{post.title}</h2>
+                    <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">{post.title}</h2>
                     <div className="flex items-center">
                       <Image 
                         src="/imgs/dexkit-logo-black-d.svg"
@@ -193,7 +193,7 @@ export default function BlogPage() {
                         height={24} 
                         className="mr-2"
                       />
-                      <span className="text-sm text-gray-600">
+                      <span className="text-sm sm:text-base text-gray-600">
                         {locale === 'en' ? 'DexKit Team' : 'Equipo DexKit'}
                       </span>
                     </div>

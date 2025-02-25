@@ -113,12 +113,12 @@ export default async function BlogPage() {
                         style={{ objectFit: 'cover' }}
                       />
                     </div>
-                    <div className="p-4 sm:p-6">
+                    <div className="p-4">
                       <div className="flex items-center justify-between mb-2">
                         <span className="text-xs sm:text-sm text-gray-500">{post.date}</span>
                         <span className="text-xs sm:text-sm bg-orange-400 text-white px-2 py-1 rounded-full">{post.category}</span>
                       </div>
-                      <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">{post.title}</h2>
+                      <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">{post.title}</h2>
                       <div className="flex items-center">
                         <Image 
                           src="/imgs/dexkit-logo-black-d.svg"
@@ -127,7 +127,7 @@ export default async function BlogPage() {
                           height={24} 
                           className="mr-2"
                         />
-                        <span className="text-sm text-gray-600">{post.author}</span>
+                        <span className="text-sm sm:text-base text-gray-600">{post.author}</span>
                       </div>
                     </div>
                   </div>

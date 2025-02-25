@@ -76,7 +76,7 @@ export default function OurTeam() {
       socialMedia: {
         twitter: "https://twitter.com/eliecerhf",
         linkedin: "https://www.linkedin.com/in/eliecerhf/",
-        github: "https://github.com/Paraguanads"
+        github: "https://github.com/eliecerhf"
       }
     },
   ];
@@ -88,10 +88,10 @@ export default function OurTeam() {
       <div className="text-white py-8 md:py-16">
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <h1 className={`text-4xl md:text-6xl font-bold mb-4 md:mb-0 ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>
+            <h1 className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-0 ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>
               <FormattedMessage id="ourTeam.title" />
             </h1>
-            <p className={`text-lg md:text-xl ${isMobile ? 'w-full' : 'md:w-1/2 md:pl-4'} text-center md:text-left`}>
+            <p className={`text-sm sm:text-base md:text-lg ${isMobile ? 'w-full' : 'md:w-1/2 md:pl-4'} text-center md:text-left`}>
               <FormattedMessage id="ourTeam.description" />
             </p>
           </div>
@@ -100,7 +100,7 @@ export default function OurTeam() {
 
       <div className="bg-white">
         <main className="container mx-auto px-4 py-12">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {sortedTeamMembers.map((member, index) => (
               <div 
                 key={index}
@@ -116,10 +116,10 @@ export default function OurTeam() {
                   />
                 </div>
                 <div className="p-4 flex flex-col flex-grow">
-                  <h2 className="text-xl font-semibold text-black mb-1">{member.name}</h2>
-                  <p className="text-base font-medium text-orange-500 mb-2">{member.title}</p>
-                  <p className="text-base font-medium text-gray-800 bg-gray-100 px-3 py-1 rounded-full inline-block mb-2">{member.role}</p>
-                  <p className="text-base text-gray-600 mb-3 flex-grow">{member.bio}</p>
+                  <h2 className="text-lg sm:text-xl font-semibold text-black mb-1">{member.name}</h2>
+                  <p className="text-sm sm:text-base font-medium text-orange-500 mb-2">{member.title}</p>
+                  <p className="text-sm sm:text-base font-medium text-gray-800 bg-gray-100 px-3 py-1 rounded-full inline-block mb-2">{member.role}</p>
+                  <p className="text-sm sm:text-base text-gray-600 mb-3 flex-grow">{member.bio}</p>
                   <div className="flex justify-start space-x-4 mt-auto">
                     {member.socialMedia.twitter && (
                       <a href={member.socialMedia.twitter} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600">

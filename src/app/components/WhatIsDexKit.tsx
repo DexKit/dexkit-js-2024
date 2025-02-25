@@ -34,13 +34,13 @@ export default function WhatIsDexKit() {
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6">
               <FormattedMessage id="whatisdexkit.title" />
             </h2>
-            <p className="mb-4 text-base sm:text-lg md:text-xl">
+            <p className="text-base sm:text-lg md:text-xl mb-4">
               <FormattedMessage id="whatisdexkit.description1" />
             </p>
-            <p className="mb-4 text-base sm:text-lg md:text-xl">
+            <p className="text-base sm:text-lg md:text-xl mb-4">
               <FormattedMessage id="whatisdexkit.description2" />
             </p>
-            <p className="mb-4 text-base sm:text-lg md:text-xl">
+            <p className="text-base sm:text-lg md:text-xl mb-4">
               <FormattedMessage id="whatisdexkit.description3" />
             </p>
           </div>

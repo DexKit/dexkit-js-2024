@@ -51,7 +51,7 @@ export default function UtilitiesContent() {
               <h1 className={`text-4xl md:text-6xl font-bold mb-4 md:mb-0 ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>
                 {intl.formatMessage({ id: "utilities.title" })}
             </h1>
-            <p className={`text-lg ${isMobile ? '' : 'sm:text-xl'} ${isMobile ? 'w-full' : 'md:w-1/2'} text-center ${isMobile ? '' : 'md:text-left'}`}>
+            <p className={`text-lg sm:text-xl ${isMobile ? 'w-full' : 'md:w-1/2'} text-center ${isMobile ? '' : 'md:text-left'}`}>
                 {intl.formatMessage({ id: "utilities.subtitle" })}
             </p>
             </div>
@@ -59,7 +59,7 @@ export default function UtilitiesContent() {
         </div>
 
       <div className="bg-white text-black">
-        <main className="container mx-auto px-4 py-8 md:py-12">
+        <main className="container mx-auto px-4 py-8 md:py-12 max-w-5xl">
           <section className="mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl font-bold mb-8">
               {intl.formatMessage({ id: "utilities.listTitle" })}
@@ -69,7 +69,7 @@ export default function UtilitiesContent() {
                 {utilities.map((utility, index) => (
                   <li key={index} className="flex items-start">
                     <span className="text-orange-400 mr-3 text-xl">•</span>
-                    <span className="text-gray-800">
+                    <span className="text-gray-800 text-sm sm:text-base">
                       {utility.text}
                       {utility.link && (
                         <>

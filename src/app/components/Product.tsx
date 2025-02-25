@@ -16,10 +16,10 @@ export default function Product() {
         </h2>
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="md:w-1/2 text-center md:text-right">
-            <h3 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-3 text-black">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-3 text-black">
               <FormattedMessage id="product.dexappbuilder.title" />
             </h3>
-            <p className="mb-4 text-black text-base sm:text-lg md:text-xl">
+            <p className="text-base sm:text-lg md:text-xl mb-4 text-black">
               <FormattedMessage id="product.dexappbuilder.description" />
             </p>
             <LocalizedLink 

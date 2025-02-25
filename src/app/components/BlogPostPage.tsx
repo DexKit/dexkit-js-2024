@@ -27,10 +27,10 @@ export default function BlogPostPage({ post }: BlogPostPageProps) {
     <div className="min-h-screen">
       <main>
         <div className="container mx-auto px-4 py-6 md:py-8">
-          <h1 className="text-3xl md:text-5xl font-bold text-center mb-4 text-white">{post.title}</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-4 text-white">{post.title}</h1>
           
           <div className="flex items-center justify-center mb-4">
-            <span className="text-sm md:text-base text-white mr-2">
+            <span className="text-sm sm:text-base md:text-lg text-white mr-2">
               <FormattedMessage id="blog.post.by" defaultMessage="By:" />
             </span>
             <Image 
@@ -40,7 +40,7 @@ export default function BlogPostPage({ post }: BlogPostPageProps) {
               height={60} 
               className="mr-2"
             />
-            <span className="text-sm md:text-base text-white">
+            <span className="text-sm sm:text-base md:text-lg text-white">
               {post.author && `${post.author} `}
               <FormattedMessage id="blog.post.on" defaultMessage="on" /> {post.date}
             </span>

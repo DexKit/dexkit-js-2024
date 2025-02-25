@@ -11,7 +11,7 @@ export default function Hero() {
     <div className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center max-w-6xl">
         <div className="md:w-1/2 mb-8 md:mb-0 text-center md:text-left md:pr-8">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-white">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
             <FormattedMessage
               id="hero.title"
               defaultMessage="Create your own<br />branded <span>DApps.</span>"
