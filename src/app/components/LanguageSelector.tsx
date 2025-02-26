@@ -97,7 +97,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ textColor }) => {
         </svg>
       </button>
       {isOpen && (
-        <div className="absolute left-0 right-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+        <div className="absolute left-0 right-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
           <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
             {locales.map((locale) => (
               <button

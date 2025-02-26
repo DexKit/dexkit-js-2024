@@ -186,10 +186,10 @@ export default function BrandMaterial() {
       <div className="text-white py-8 md:py-16">
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <h1 className={`text-4xl md:text-6xl font-bold mb-4 md:mb-0 w-full ${isMobile ? 'text-center' : 'md:w-1/2 md:text-left'}`}>
+            <h1 className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-0 w-full ${isMobile ? 'text-center' : 'md:w-1/2 md:text-left'}`}>
               <FormattedMessage id="brandMaterial.title" />
             </h1>
-            <p className={`text-lg md:text-xl w-full ${isMobile ? 'text-center' : 'md:w-1/2 md:pl-4 md:text-left'}`}>
+            <p className={`text-sm sm:text-base md:text-lg w-full ${isMobile ? 'text-center' : 'md:w-1/2 md:pl-4 md:text-left'}`}>
               <FormattedMessage id="brandMaterial.description" />
             </p>
           </div>
@@ -197,10 +197,10 @@ export default function BrandMaterial() {
       </div>
   
       <div className="bg-white">
-        <main className="container mx-auto px-4 py-12">
+        <main className="container mx-auto px-4 py-8 md:py-12">
           <div className={`grid ${isMobile ? 'grid-cols-1' : 'md:grid-cols-3'} gap-8`}>
             <div className="md:col-span-2 bg-gray-100 p-6 rounded-lg overflow-auto" style={{ maxHeight: isMobile ? '400px' : '600px' }}>
-              <h2 className="text-2xl font-bold mb-4 text-gray-800">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-gray-800">
                 <FormattedMessage id="brandMaterial.availableFiles" />
               </h2>
               <div className="space-y-2">
@@ -208,17 +208,17 @@ export default function BrandMaterial() {
               </div>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg flex flex-col" style={{ height: 'fit-content' }}>
-              <h2 className="text-2xl font-bold mb-4 text-gray-800">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-gray-800">
                 <FormattedMessage id="brandMaterial.pdfViewer" />
               </h2>
-              <p className="text-gray-600 mb-6">
+              <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-6">
                 <FormattedMessage id="brandMaterial.pdfDescription" />
               </p>
               <a 
                 href={pdfUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-orange-400 text-black px-4 py-2 rounded hover:bg-orange-500 transition-colors inline-flex items-center self-start"
+                className="bg-orange-400 text-black px-4 py-2 rounded hover:bg-orange-500 transition-colors inline-flex items-center self-start text-sm sm:text-base"
               >
                 <FaExternalLinkAlt className="mr-2" />
                 <FormattedMessage id="brandMaterial.viewPdf" />

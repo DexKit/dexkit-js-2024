@@ -44,26 +44,25 @@ export default function ProblemsAndSolutions() {
         aria-label={intl.formatMessage({ id: "problems.sectionAriaLabel", defaultMessage: "Problems and Solutions" })}
       >
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12 text-center text-black">
-            <FormattedMessage id="problems.title" />
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12 text-center text-gray-800">
+            <FormattedMessage id="problems.title" defaultMessage="What problems exist in the ecosystem and how we help solve them?" />
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {problems.map((problem, index) => (
-              <div key={index} className="flex flex-col sm:flex-row items-center sm:items-start">
-                <div className="mb-4 sm:mb-0 sm:mr-6 flex-shrink-0">
-                  <Image 
-                    src={problem.icon} 
-                    alt={intl.formatMessage({ id: problem.titleId })}
-                    width={80} 
-                    height={80}
-                    className={`${index % 2 === 0 ? "text-purple-600" : "text-orange-400"} w-16 h-16 sm:w-20 sm:h-20`}
-                  />
-                </div>
-                <div className="text-center sm:text-left">
-                  <h3 className="text-xl sm:text-2xl font-semibold mb-2 text-black">
+              <div key={index} className="bg-white rounded-lg shadow-md p-6 transition-transform hover:scale-105">
+                <div className="flex flex-col items-center text-center">
+                  <div className="w-16 h-16 mb-4 relative">
+                    <Image 
+                      src={problem.icon} 
+                      alt="" 
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-800">
                     <FormattedMessage id={problem.titleId} />
                   </h3>
-                  <p className="text-gray-700 text-base sm:text-lg md:text-xl">
+                  <p className="text-sm sm:text-base text-gray-600">
                     <FormattedMessage id={problem.descriptionId} />
                   </p>
                 </div>

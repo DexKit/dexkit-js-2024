@@ -5,7 +5,7 @@ import LocalizedLink from './LocalizedLink'
 import { useState, useEffect, FormEvent } from 'react'
 import { FormattedMessage, useIntl } from 'react-intl'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDiscord, faYoutube, faXTwitter, faTelegram, faLinkedin, faReddit, faMedium, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faDiscord, faYoutube, faXTwitter, faTelegram, faLinkedin, faReddit, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
 import confetti from 'canvas-confetti'
 import Link from 'next/link'
 import { useParams } from 'next/navigation'
@@ -30,11 +30,10 @@ export default function Footer() {
   const socialNetworks = [
     { name: 'Discord', icon: faDiscord, url: 'https://discord.com/invite/dexkit-official-943552525217435649' },
     { name: 'YouTube', icon: faYoutube, url: 'https://www.youtube.com/@DexKit' },
-    { name: 'X', icon: faXTwitter, url: 'https://x.com/dexkit' },
+    { name: 'X', icon: faXTwitter, url: 'https://x.com/intent/follow?screen_name=dexkit' },
     { name: 'Telegram', icon: faTelegram, url: 'https://t.me/dexkit' },
     { name: 'LinkedIn', icon: faLinkedin, url: 'https://www.linkedin.com/company/dexkit' },
     { name: 'Reddit', icon: faReddit, url: 'https://www.reddit.com/r/dexkit' },
-    { name: 'Medium', icon: faMedium, url: 'https://dexkit.medium.com/' },
     { name: 'Instagram', icon: faInstagram, url: 'https://www.instagram.com/dexkit.io' },
     { name: 'Facebook', icon: faFacebook, url: 'https://www.facebook.com/dexkit.io' },
   ]
@@ -64,7 +63,7 @@ export default function Footer() {
     });
   };
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
     setMessage('');
@@ -135,11 +134,12 @@ export default function Footer() {
               </div>
             </LocalizedLink>
           </div>
+          
           <div className="w-full md:w-1/2">
-            <h3 className="text-2xl md:text-4xl font-semibold mb-4 text-center md:text-left">
+            <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold mb-4 text-center md:text-left">
               <FormattedMessage id="footer.newsletter.title" />
             </h3>
-            <p className="mb-4 text-center md:text-left">
+            <p className="mb-4 text-sm sm:text-base md:text-lg text-center md:text-left">
               <FormattedMessage id="footer.newsletter.description" />
             </p>
             <form onSubmit={handleSubmit} className="flex flex-col">
@@ -150,12 +150,12 @@ export default function Footer() {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder={intl.formatMessage({ id: 'newsletter.placeholder' })}
                   disabled={isLoading}
-                  className={`flex-grow p-2 rounded-l-md bg-transparent border border-gray-400 text-white placeholder-gray-400 ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`}
+                  className={`flex-grow p-2 rounded-l-md bg-transparent border border-gray-400 text-white placeholder-gray-400 text-sm sm:text-base ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`}
                 />
                 <button 
                   type="submit" 
                   disabled={isLoading}
-                  className={`flex items-center justify-center space-x-2 bg-orange-400 text-black p-2 rounded-r-md hover:bg-orange-500 transition duration-300 ${isLoading ? 'opacity-50 cursor-not-allowed bg-gray-400' : ''}`}
+                  className={`flex items-center justify-center space-x-2 bg-orange-400 text-black p-2 rounded-r-md hover:bg-orange-500 transition duration-300 text-sm sm:text-base ${isLoading ? 'opacity-50 cursor-not-allowed bg-gray-400' : ''}`}
                   aria-label={intl.formatMessage({ id: 'footer.subscribe.button' })}
                 >
                   <span>
@@ -194,14 +194,14 @@ export default function Footer() {
           
           <Link 
             href={termsPath} 
-            className="hidden md:block text-gray-400 hover:text-orange-400 transition-colors duration-200"
+            className="hidden md:block text-sm sm:text-base text-gray-400 hover:text-orange-400 transition-colors duration-200"
           >
             <FormattedMessage id="footer.legal.terms" />
           </Link>
 
           <Link 
             href={termsPath} 
-            className="md:hidden text-gray-400 hover:text-orange-400 transition-colors duration-200 mt-4"
+            className="md:hidden text-sm sm:text-base text-gray-400 hover:text-orange-400 transition-colors duration-200 mt-4"
           >
             <FormattedMessage id="footer.legal.terms" />
           </Link>

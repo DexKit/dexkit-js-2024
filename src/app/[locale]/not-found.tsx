@@ -19,15 +19,15 @@ export default function NotFound() {
           height={80}
           className="mx-auto mb-6"
         />
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           <FormattedMessage id="notFound.title" defaultMessage="Oops! Page Not Found" />
         </h1>
-        <p className="text-gray-600 mb-8">
+        <p className="text-base sm:text-lg md:text-xl mb-8 text-gray-600">
           <FormattedMessage id="notFound.message" />
         </p>
         <Link 
           href={`/${locale}`}
-          className="inline-flex items-center justify-center bg-[#8B5CF6] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#7C3AED] transition-colors"
+          className="inline-flex items-center justify-center bg-[#8B5CF6] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#7C3AED] transition-colors text-base sm:text-lg"
         >
           <FaHome className="mr-2" />
           <FormattedMessage id="notFound.returnHome" />

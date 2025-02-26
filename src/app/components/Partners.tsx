@@ -1,8 +1,8 @@
 'use client';
 
-import Image from 'next/image'
-import Link from 'next/link'
-import { FormattedMessage } from 'react-intl'
+import Link from 'next/link';
+import Image from 'next/image';
+import { FormattedMessage } from 'react-intl';
 
 export default function Partners() {
   const partners = [
@@ -21,7 +21,7 @@ export default function Partners() {
     { name: 'Thirdweb', logo: '/partner-logos/thirdweb.svg', url: 'https://thirdweb.com/' },
     { name: 'Gitcoin', logo: '/partner-logos/gitcoin.svg', url: 'https://www.gitcoin.co/' },
     { name: 'Giveth', logo: '/partner-logos/giveth.svg', url: 'https://giveth.io/' },
-  ]
+  ];
 
   return (
     <section className="py-12 sm:py-16 bg-white w-full">
