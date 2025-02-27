@@ -257,13 +257,14 @@ const messages: Messages = {
   'ourTeam.bio1': 'João holds a PhD in Electrical Engineering and is a former university professor turned passionate Full Stack developer. With an impressive track record in both education and professional work, his outstanding contributions to open-source projects, particularly his ongoing collaboration with the 0x project, have earned him wide respect within the Web3 developer community. João is currently a full-time developer at DexKit and resides in Brazil.',
   'ourTeam.role2': 'Process and project manager',
   'ourTeam.title2': 'Industrial Engineer',
-
   'ourTeam.bio2': 'Mariama is a key member of the Core team, specializing in Production Engineering and Process Management. Her keen attention to detail significantly contributes to the success of the products she oversees. Working closely with João in Natal, Brazil, she brings her exceptional background in education and professional experience, having played a vital role in building companies from the ground up to success.',
   'ourTeam.role3': 'Generalist',
   'ourTeam.title3': 'Lawyer and IT Specialist',
   'ourTeam.bio3': 'Eliécer is a lawyer and IT specialist with over 15 years of experience. As a versatile professional, he contributes to DexKit by creating content, identifying bugs, and advising the Founder on operational matters. Eliécer has a strong background in providing strategic guidance to small startups in his region, Canada and Panama. Currently working remotely, he is fully dedicated to helping João elevate DexKit as a leading startup in the Hispanic tech ecosystem.',
   'ourTeam.description': 'Our team is composed of experts in various fields, including engineering, law, project management, and marketing. We are a diverse group of individuals who are passionate about blockchain technology and its potential to transform the world.',
-
+  'ourTeam.role4': 'Developer',
+  'ourTeam.title4': 'Software Engineer',
+  'ourTeam.bio4': 'Tiago is a software engineer with over 10 years of experience. He contributes to DexKit by identifying bugs, adding features and advising the Founder on development matters. ',
 
   // Mission, Vision and Values
   'missionVisionValues.title': 'Mission, Vision and Values',
