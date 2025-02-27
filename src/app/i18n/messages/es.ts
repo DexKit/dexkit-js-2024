@@ -265,6 +265,9 @@ const messages: Messages = {
   'ourTeam.title3': 'Abogado y Especialista en TI',
   'ourTeam.bio3': 'Eliécer es abogado y especialista en TI con más de 15 años de experiencia. Como profesional versátil, contribuye a DexKit creando contenido, identificando errores y asesorando al Fundador en asuntos operativos. Eliécer tiene una sólida experiencia en brindar orientación estratégica a pequeñas empresas emergentes en su región, Canadá y Panamá. Actualmente trabaja de forma remota y está completamente dedicado a ayudar a João a elevar DexKit como una empresa emergente líder en el ecosistema tech hispano.',
   'ourTeam.description': 'Nuestro equipo está compuesto por expertos en diversos campos, incluidos ingeniería, derecho, gestión de proyectos y marketing. Somos un grupo diverso de personas apasionadas por la tecnología blockchain y su potencial para transformar el mundo.',
+  'ourTeam.role4': 'Desarrollador',
+  'ourTeam.title4': 'Ingeniero de software',
+  'ourTeam.bio4': 'Tiago es ingeniero de software con más de 10 años de experiencia. Contribuye a DexKit identificando errores, agregando funciones y asesorando al Fundador en asuntos de desarrollo.',
 
   // Mission, vision and values
   'missionVisionValues.title': 'Misión, Visión y Valores',

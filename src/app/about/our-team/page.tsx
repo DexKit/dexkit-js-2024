@@ -63,7 +63,8 @@ export default function OurTeam() {
       bio: intl.formatMessage({ id: "ourTeam.bio2" }),
       order: 2,
       socialMedia: {
-        linkedin: "https://br.linkedin.com/in/mariama-saskya"
+        linkedin: "https://br.linkedin.com/in/mariama-saskya",
+        github: "https://github.com/mariamasaskya"
       }
     },
     {
@@ -77,6 +78,18 @@ export default function OurTeam() {
         twitter: "https://twitter.com/eliecerhf",
         linkedin: "https://www.linkedin.com/in/eliecerhf/",
         github: "https://github.com/eliecerhf"
+      }
+    },
+    {
+      name: "Tiago Neto",
+      role: intl.formatMessage({ id: "ourTeam.role4" }),
+      title: intl.formatMessage({ id: "ourTeam.title4" }),
+      imageUrl: "/imgs/team/tiago.jpg",
+      bio: intl.formatMessage({ id: "ourTeam.bio4" }),
+      order: 4,
+      socialMedia: {
+        linkedin: "https://www.linkedin.com/in/tiago-neto-51440867/",
+        github: "https://github.com/birimbau"
       }
     },
   ];
