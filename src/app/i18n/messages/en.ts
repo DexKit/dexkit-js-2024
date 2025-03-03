@@ -313,7 +313,7 @@ const messages: Messages = {
   'tokenomics.details.title': 'Token Details',
   'tokenomics.details.description': 'DexKit\'s native token $KIT has the following characteristics:',
   'tokenomics.details.supply': 'Maximum hard-coded supply of 10 million tokens',
-  'tokenomics.details.networks': 'Present on Ethereum,Polygon, Base and Binance Chain blockchains with proxied Contracts',
+  'tokenomics.details.networks': 'Present on Ethereum, Polygon, Base, Binance Chain and Arbitrum blockchains with proxied Contracts',
   'tokenomics.distribution.title': 'Token Distribution',
   'tokenomics.distribution.liquidity': 'Liquidity',
   'tokenomics.distribution.marketing': 'Marketing',

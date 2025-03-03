@@ -316,7 +316,7 @@ const messages: Messages = {
   'tokenomics.details.title': 'Detalles del token',
   'tokenomics.details.description': 'El token nativo $KIT de DexKit tiene las siguientes características:',
   'tokenomics.details.supply': 'Suministro máximo codificado de 10 millones de tokens',
-  'tokenomics.details.networks': 'Presente en las cadenas de bloques Ethereum, Polygon, Base y Binance Chain con contratos proxy',
+  'tokenomics.details.networks': 'Presente en las cadenas de bloques Ethereum, Polygon, Base, Binance Chain y Arbitrum con contratos proxy',
   'tokenomics.distribution.title': 'Distribución de tokens',
   'tokenomics.distribution.liquidity': 'Liquidez',
   'tokenomics.distribution.marketing': 'Marketing',
