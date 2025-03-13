@@ -650,6 +650,7 @@ const messages: Messages = {
   'hireADev.form.paymentSupport': 'After payment, enter the transaction ID below. For support, contact support@dexkit.com',
   'hireADev.form.paymentTxId': 'Payment Transaction ID',
   'hireADev.services.viewExample': 'View example',
+  'hireADev.services.productsUsed': 'Products used:',
 };
 
 export default messages;

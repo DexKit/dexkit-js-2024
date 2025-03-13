@@ -402,7 +402,7 @@ export default function HireADevForm() {
                       {service.products && service.products.length > 0 && (
                         <div className="mb-2">
                           <h4 className="text-xs font-semibold text-gray-700 mb-1.5">
-                            <FormattedMessage id="hireADev.services.productsUsed" defaultMessage="Productos utilizados:" />
+                            <FormattedMessage id="hireADev.services.productsUsed" defaultMessage="Used products:" />
                           </h4>
                           <div className="flex flex-wrap gap-1.5">
                             {service.products.map((product, idx) => (

@@ -642,6 +642,7 @@ const messages: Messages = {
   'hireADev.form.paymentSupport': 'Após o pagamento, insira o ID da transação abaixo. Para suporte, contate support@dexkit.com',
   'hireADev.form.paymentTxId': 'ID da Transação de Pagamento',
   'hireADev.services.viewExample': 'Ver exemplo',
+  'hireADev.services.productsUsed': 'Produtos usados:',
 };
 
 export default messages;
