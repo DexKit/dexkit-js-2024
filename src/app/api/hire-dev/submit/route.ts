@@ -22,7 +22,18 @@ export async function POST(request: NextRequest) {
   }
   
   try {
-    const { clientEmail, product, extraNotes, cost, paymentType, locale, turnstileToken, paymentTxId } = await request.json();
+    const { 
+      clientEmail, 
+      product, 
+      extraNotes, 
+      cost, 
+      paymentType, 
+      locale, 
+      turnstileToken, 
+      paymentTxId,
+      paymentNetwork,
+      paymentCoin 
+    } = await request.json();
     
     console.log('Processing request with data:', { 
       email: clientEmail.substring(0, 3) + '...',
@@ -93,7 +104,9 @@ export async function POST(request: NextRequest) {
         status: 'pending',
         ipAddress: encrypt(ip),
         locale: locale || 'en',
-        paymentTxId: processedPaymentTxId || null
+        paymentTxId: processedPaymentTxId || null,
+        paymentNetwork,
+        paymentCoin
       }
     });
     

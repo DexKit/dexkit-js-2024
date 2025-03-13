@@ -651,6 +651,19 @@ const messages: Messages = {
   'hireADev.form.paymentTxId': 'Payment Transaction ID',
   'hireADev.services.viewExample': 'View example',
   'hireADev.services.productsUsed': 'Products used:',
+  'hireADev.form.selectNetwork': 'Select Blockchain Network',
+  'hireADev.form.selectNetworkOption': '-- Select a network --',
+  'hireADev.form.selectStablecoin': 'Select Stablecoin',
+  'hireADev.form.selectCoinOption': '-- Select a stablecoin --',
+  'hireADev.form.paymentAddress': 'Payment Address',
+  'hireADev.form.contractAddress': 'Token Contract Address',
+  'hireADev.form.paymentSteps': 'How to pay:',
+  'hireADev.form.paymentStep1': 'Send exactly {amount} {coin} on the {network} network to the address above',
+  'hireADev.form.paymentStep2': 'Copy the transaction ID (TxID) after sending',
+  'hireADev.form.paymentStep3': 'Paste the transaction ID in the field below',
+  'hireADev.form.paymentMethodRequired': 'Please select a blockchain network and stablecoin',
+  'hireADev.form.txIdRequired': 'Please enter the transaction ID',
+  'hireADev.form.getStablecoins': 'Need stablecoins? Get them here',
 };
 
 export default messages;

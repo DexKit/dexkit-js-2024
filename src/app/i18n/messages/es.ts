@@ -655,6 +655,19 @@ const messages: Messages = {
   'hireADev.form.verification': 'Verificación',
   'hireADev.services.productsUsed': 'Productos utilizados:',
   'hireADev.services.viewExample': 'Ver ejemplo',
+  'hireADev.form.selectNetwork': 'Seleccionar Red Blockchain',
+  'hireADev.form.selectNetworkOption': '-- Selecciona una red --',
+  'hireADev.form.selectStablecoin': 'Seleccionar Stablecoin',
+  'hireADev.form.selectCoinOption': '-- Selecciona una stablecoin --',
+  'hireADev.form.paymentAddress': 'Dirección de Pago',
+  'hireADev.form.contractAddress': 'Dirección del Contrato Token',
+  'hireADev.form.paymentSteps': 'Cómo pagar:',
+  'hireADev.form.paymentStep1': 'Envía exactamente {amount} {coin} en la red {network} a la dirección de arriba',
+  'hireADev.form.paymentStep2': 'Copia el ID de la transacción (TxID) después de enviar',
+  'hireADev.form.paymentStep3': 'Pega el ID de la transacción en el campo de abajo',
+  'hireADev.form.paymentMethodRequired': 'Por favor, selecciona una red blockchain y una stablecoin',
+  'hireADev.form.txIdRequired': 'Por favor, ingresa el ID de la transacción',
+  'hireADev.form.getStablecoins': '¿Necesitas stablecoins? Obtenlas aquí',
 
 };
 

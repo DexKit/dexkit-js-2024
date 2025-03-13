@@ -638,11 +638,16 @@ const messages: Messages = {
   'hireADev.services.blockchainConsulting.price': '100 USD/hora',
   'hireADev.form.verification': 'Verificação',
   'hireADev.form.paymentInstructions': 'Instruções de Pagamento',
-  'hireADev.form.paymentDesc': 'Por favor, envie {amount} para o seguinte endereço em sua rede blockchain preferida:',
+  'hireADev.form.paymentDesc': 'Por favor, envie {amount} (moedas comerciais estáveis como Tether, USDC, DAI) para o seguinte endereço em sua rede blockchain preferida:',
   'hireADev.form.paymentSupport': 'Após o pagamento, insira o ID da transação abaixo. Para suporte, contate support@dexkit.com',
   'hireADev.form.paymentTxId': 'ID da Transação de Pagamento',
   'hireADev.services.viewExample': 'Ver exemplo',
   'hireADev.services.productsUsed': 'Produtos usados:',
+  'hireADev.form.selectNetwork': 'Selecione a Rede Blockchain',
+  'hireADev.form.selectNetworkOption': '-- Selecione uma rede --',
+  'hireADev.form.selectStablecoin': 'Selecione a Stablecoin',
+  'hireADev.form.selectCoinOption': '-- Selecione uma stablecoin --',
+  'hireADev.form.getStablecoins': 'Precisa de stablecoins? Obtenha-as aqui',
 };
 
 export default messages;
