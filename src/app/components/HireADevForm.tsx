@@ -114,7 +114,7 @@ export default function HireADevForm() {
         { name: 'DexNFTStore', url: '/dexnftstore' },
         { name: 'DexGenerator', url: '/dexgenerator' },
         { name: 'Gated Content', url: 'https://docs.dexkit.com/defi-products/dexappbuilder/managing-this-tool/gated-content' },
-        { name: 'Gamificación', url: 'https://docs.dexkit.com/defi-products/dexappbuilder/leaderboards' }
+        { name: 'Gamification', url: 'https://docs.dexkit.com/defi-products/dexappbuilder/leaderboards' }
       ]
     },
     {
@@ -188,7 +188,7 @@ export default function HireADevForm() {
     }
     
     try {
-      console.log('Enviando datos al servidor, incluyendo paymentTxId:', paymentTxId);
+      console.log('Sending data to server, including paymentTxId:', paymentTxId);
       
       const response = await fetch('/api/hire-dev/submit', {
         method: 'POST',
