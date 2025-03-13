@@ -5,7 +5,11 @@ import redirects from './redirects.json';
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
-  
+    
+  if (pathname === '/hire-a-dev') {
+    return NextResponse.rewrite(new URL(`/${defaultLocale}/hire-a-dev`, request.url));
+  }
+
   if (pathname === '/terms') {
     const userLanguage = request.headers.get('accept-language')?.split(',')[0].split('-')[0] || defaultLocale;
     const locale = locales.includes(userLanguage as Locale) ? userLanguage : defaultLocale;
@@ -53,5 +57,6 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     '/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)',
+    '/hire-a-dev',
   ],
 };

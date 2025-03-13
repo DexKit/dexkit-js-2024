@@ -4,7 +4,7 @@ const ALGORITHM = 'aes-256-gcm';
 const IV_LENGTH = 12;
 const AUTH_TAG_LENGTH = 16;
 
-export async function encrypt(text: string): Promise<string> {
+export function encrypt(text: string): string {
   const iv = randomBytes(IV_LENGTH);
   const key = Buffer.from(process.env.ENCRYPTION_KEY!, 'hex');
 
@@ -22,7 +22,7 @@ export async function encrypt(text: string): Promise<string> {
   ]).toString('base64');
 }
 
-export async function decrypt(encryptedText: string): Promise<string> {
+export function decrypt(encryptedText: string): string {
   const buffer = Buffer.from(encryptedText, 'base64');
   
   const iv = buffer.subarray(0, IV_LENGTH);

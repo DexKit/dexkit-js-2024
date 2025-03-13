@@ -26,6 +26,14 @@ const nextConfig = {
       permanent,
     }));
   },
+  async rewrites() {
+    return [
+      {
+        source: '/hire-a-dev',
+        destination: '/en/hire-a-dev',
+      }
+    ];
+  },
 };
 
 export default nextConfig;

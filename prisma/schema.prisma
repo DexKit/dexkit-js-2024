@@ -29,4 +29,23 @@ model RateLimit {
 
   @@index([ip])
   @@map("rate_limits")
+}
+
+model Service {
+  id          String    @id @default(cuid())
+  clientEmail String
+  product     String
+  extraNotes  String    @default("")
+  cost        Float
+  paymentType String    @default("single")
+  paymentTxId String?
+  status      String    @default("pending")
+  createdAt   DateTime  @default(now())
+  completedAt DateTime?
+  updatedAt   DateTime  @updatedAt
+  archived    Boolean   @default(false)
+  ipAddress   String?
+  locale      String    @default("en")
+
+  @@map("services")
 } 
