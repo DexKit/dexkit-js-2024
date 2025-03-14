@@ -524,7 +524,7 @@ export default function HireADevForm() {
                     
                     <div className="mt-auto">
                       <div className="flex justify-between items-center mb-2">
-                        <div className="text-lg font-bold text-orange-600">
+                        <div className="text-lg font-bold text-black">
                           <FormattedMessage id={service.messageIds.price} />
                         </div>
                         
@@ -533,7 +533,7 @@ export default function HireADevForm() {
                             href={service.productUrl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-purple-600 hover:text-purple-800 text-xs hover:underline"
+                            className="text-orange-500 text-xs hover:underline"
                           >
                             <FormattedMessage id="hireADev.services.viewExample" defaultMessage="View example" />
                           </Link>
@@ -579,7 +579,7 @@ export default function HireADevForm() {
               <h3 className="font-semibold text-gray-700 mb-1">
                 <FormattedMessage id="hireADev.form.serviceCost" defaultMessage="Cost" />:
               </h3>
-              <p className="text-purple-600 font-bold">
+              <p className="text-orange-500 font-bold">
                 <FormattedMessage id={selectedService?.messageIds.price} defaultMessage={`${selectedService?.price} USD`} />
               </p>
             </div>
@@ -624,7 +624,7 @@ export default function HireADevForm() {
                   />
                 </p>
                 
-                <p className="mb-4 text-sm text-blue-600">
+                <p className="mb-4 text-sm text-orange-500 hover:underline">
                   <Link 
                     href="https://dexappbuilder.dexkit.com/token/buy/ethereum/usdt" 
                     target="_blank" 
