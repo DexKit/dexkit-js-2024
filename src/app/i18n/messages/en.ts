@@ -664,6 +664,11 @@ const messages: Messages = {
   'hireADev.form.paymentMethodRequired': 'Please select a blockchain network and stablecoin',
   'hireADev.form.txIdRequired': 'Please enter the transaction ID',
   'hireADev.form.getStablecoins': 'Need stablecoins? Get them here',
+  'captcha.title': 'Security verification',
+  'captcha.inputLabel': 'Enter the answer',
+  'captcha.verify': 'Verify',
+  'captcha.verified': 'Verification successful',
+  'captcha.error': 'Incorrect answer. Please try again.',
 };
 
 export default messages;

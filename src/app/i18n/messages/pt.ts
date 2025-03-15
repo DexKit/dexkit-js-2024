@@ -648,6 +648,13 @@ const messages: Messages = {
   'hireADev.form.selectStablecoin': 'Selecione a Stablecoin',
   'hireADev.form.selectCoinOption': '-- Selecione uma stablecoin --',
   'hireADev.form.getStablecoins': 'Precisa de stablecoins? Obtenha-as aqui',
+
+  // Captcha
+  'captcha.title': 'Verificação de segurança',
+  'captcha.inputLabel': 'Introduza a resposta',
+  'captcha.verify': 'Verificar',
+  'captcha.verified': 'Verificação correta',
+  'captcha.error': 'Resposta incorreta. Por favor, tente novamente.', 
 };
 
 export default messages;

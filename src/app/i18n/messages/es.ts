@@ -669,6 +669,13 @@ const messages: Messages = {
   'hireADev.form.txIdRequired': 'Por favor, ingresa el ID de la transacción',
   'hireADev.form.getStablecoins': '¿Necesitas stablecoins? Obtenlas aquí',
 
+  // Captcha
+  'captcha.title': 'Verificación de seguridad',
+  'captcha.inputLabel': 'Introduzca la respuesta',
+  'captcha.verify': 'Verificar',
+  'captcha.verified': 'Verificación correcta',
+  'captcha.error': 'Respuesta incorrecta. Por favor, inténtelo de nuevo.',
+
 };
 
 export default messages;

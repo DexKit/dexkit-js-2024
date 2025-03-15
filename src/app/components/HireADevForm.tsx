@@ -4,10 +4,11 @@ import { useState, useRef, FormEvent } from 'react';
 import { FormattedMessage, useIntl } from 'react-intl';
 import { useParams } from 'next/navigation';
 import Image from 'next/image';
-import { Turnstile } from '@marsidev/react-turnstile';
 import toast, { Toaster } from 'react-hot-toast';
 import Link from 'next/link';
 import { FaExternalLinkAlt } from 'react-icons/fa';
+import SimpleCaptcha from './SimpleCaptcha';
+import { CaptchaProvider, useCaptcha } from './CaptchaContext';
 
 interface ServiceType {
   id: string;
@@ -40,15 +41,22 @@ interface Stablecoin {
 }
 
 export default function HireADevForm() {
+  return (
+    <CaptchaProvider>
+      <HireADevFormContent />
+    </CaptchaProvider>
+  );
+}
+
+function HireADevFormContent() {
   const intl = useIntl();
   const { locale } = useParams();
+  const { captchaToken } = useCaptcha();
   
   const [email, setEmail] = useState('');
   const [extraNotes, setExtraNotes] = useState('');
   const [paymentTxId, setPaymentTxId] = useState('');
   const [selectedService, setSelectedService] = useState<ServiceType | null>(null);
-  const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
-  
   const [isLoading, setIsLoading] = useState(false);
   const [message, setMessage] = useState('');
   const [isSuccess, setIsSuccess] = useState(false);
@@ -228,7 +236,6 @@ export default function HireADevForm() {
     if (formRef.current) {
       formRef.current.reset();
     }
-    resetTurnstile();
   };
   
   const selectService = (service: ServiceType) => {
@@ -257,7 +264,7 @@ export default function HireADevForm() {
       return;
     }
     
-    if (!turnstileToken) {
+    if (!captchaToken) {
       setMessage(intl.formatMessage({ id: 'hireADev.form.turnstileError' }));
       setIsSuccess(false);
       toast.error(intl.formatMessage({ id: 'hireADev.form.turnstileError' }), {
@@ -298,7 +305,7 @@ export default function HireADevForm() {
           cost: selectedService.price,
           paymentType: 'single',
           locale: locale || 'en',
-          turnstileToken,
+          turnstileToken: captchaToken,
           paymentTxId: paymentTxId.trim(),
           paymentNetwork: selectedNetwork,
           paymentCoin: selectedCoin
@@ -338,17 +345,6 @@ export default function HireADevForm() {
     } finally {
       setIsLoading(false);
     }
-  };
-  
-  const resetTurnstile = () => {
-    const turnstileContainer = document.querySelector("[data-turnstile-widget-id]");
-    if (turnstileContainer) {
-      const widgetId = turnstileContainer.getAttribute("data-turnstile-widget-id");
-      if (widgetId && window.turnstile) {
-        window.turnstile.reset(widgetId);
-      }
-    }
-    setTurnstileToken(null);
   };
   
   const copyToClipboard = (text: string) => {
@@ -792,18 +788,8 @@ export default function HireADevForm() {
                 />
               </div>
               
-              <div className="py-2">
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  <FormattedMessage id="hireADev.form.verification" defaultMessage="Verification" />*
-                </label>
-                <div className="flex justify-center items-center overflow-hidden bg-gray-50 p-2 rounded-lg border border-gray-200">
-                  <Turnstile
-                    siteKey="1x00000000000000000000AA"
-                    onSuccess={setTurnstileToken}
-                    onError={() => setTurnstileToken(null)}
-                    onExpire={() => setTurnstileToken(null)}
-                  />
-                </div>
+              <div className="mb-4">
+                <SimpleCaptcha />
               </div>
               
               <p className="text-sm text-gray-600 italic">

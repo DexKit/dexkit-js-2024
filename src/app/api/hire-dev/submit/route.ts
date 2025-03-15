@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
       cost, 
       paymentType, 
       locale, 
-      turnstileToken, 
+      turnstileToken,
       paymentTxId,
       paymentNetwork,
       paymentCoin 
@@ -44,40 +44,26 @@ export async function POST(request: NextRequest) {
     
     let turnstileVerified = false;
     
-    if (process.env.NODE_ENV === 'development') {
-      turnstileVerified = true;
-    } else {
-      const turnstileResponse = await fetch(
-        'https://challenges.cloudflare.com/turnstile/v0/siteverify',
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            secret: process.env.CLOUDFLARE_TURNSTILE_SECRET_KEY,
-            response: turnstileToken,
-            remoteip: ip,
-          }),
+    if (turnstileToken) {
+      try {
+        const decodedToken = atob(turnstileToken);
+        const matches = decodedToken.match(/^(\d+)\+(\d+)=(\d+)$/);
+        
+        if (matches) {
+          const num1 = parseInt(matches[1]);
+          const num2 = parseInt(matches[2]);
+          const result = parseInt(matches[3]);
+          
+          turnstileVerified = (num1 + num2 === result);
         }
-      );
-      
-      const turnstileResult = await turnstileResponse.json();
-      
-      if (!turnstileResult.success) {
-        console.error('Error verifying turnstile:', turnstileResult);
-        return NextResponse.json(
-          { error: "Turnstile verification failed", messageId: "hireADev.form.turnstileError" },
-          { status: 400 }
-        );
+      } catch (error) {
+        console.error('Error verifying captcha token:', error);
       }
-      
-      turnstileVerified = true;
     }
     
     if (!turnstileVerified) {
       return NextResponse.json(
-        { error: "Turnstile verification failed", messageId: "hireADev.form.turnstileError" },
+        { error: "Captcha verification failed", messageId: "hireADev.form.turnstileError" },
         { status: 400 }
       );
     }
@@ -97,16 +83,16 @@ export async function POST(request: NextRequest) {
     const newService = await prisma.service.create({
       data: {
         clientEmail: encrypt(clientEmail),
-        product,
-        extraNotes: extraNotes || '',
-        cost,
-        paymentType,
-        status: 'pending',
+        product: encrypt(product),
+        extraNotes: encrypt(extraNotes || ''),
+        cost: parseFloat(cost),
+        paymentType: encrypt(paymentType),
+        status: encrypt('pending'),
         ipAddress: encrypt(ip),
         locale: locale || 'en',
-        paymentTxId: processedPaymentTxId || null,
-        paymentNetwork,
-        paymentCoin
+        paymentTxId: processedPaymentTxId ? encrypt(processedPaymentTxId) : null,
+        paymentNetwork: paymentNetwork ? encrypt(paymentNetwork) : null,
+        paymentCoin: paymentCoin ? encrypt(paymentCoin) : null
       }
     });
     
