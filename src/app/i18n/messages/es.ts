@@ -270,7 +270,13 @@ const messages: Messages = {
   'ourTeam.role4': 'Desarrollador',
   'ourTeam.title4': 'Ingeniero de software',
   'ourTeam.bio4': 'Tiago es ingeniero de software con más de 10 años de experiencia. Contribuye a DexKit identificando errores, agregando funciones y asesorando al Fundador en asuntos de desarrollo.',
-
+  'ourTeam.role5': 'Editor',
+  'ourTeam.title5': 'Abogada y editor audiovisual',
+  'ourTeam.bio5': 'Maria Laura es abogada y editor audiovisual con más de cuatro años de experiencia creando y editando contenido multimedia. Su enfoque proactivo y flexible le permite adaptarse a diferentes proyectos, proporcionando creatividad y eficiencia. Actualmente colabora en la producción de contenido visual y audiovisual, ayudando a mejorar la comunicación y la presencia digital de sus clientes.',
+  'ourTeam.role6': 'Desarrollador comunitario',
+  'ourTeam.title6': 'Músico y entusiasta de criptomonedas',
+  'ourTeam.bio6': 'Josh es músico y productor musical, conocido como el guitarrista principal de The Dialectic. Desde 2017, ha estado profundamente involucrado en el crypto, explorando DeFi, NFTs y la creación de tokens. Después de lanzar Josh Token (JOSH) en BASE y construir una DApp con DexKit, se unió al equipo para ayudar a desarrollar soluciones Web3 innovadoras.',
+  
   // Mission, vision and values
   'missionVisionValues.title': 'Misión, Visión y Valores',
   'missionVisionValues.description': 'Porque cada empresa debe saber lo que quiere para saber hacia dónde va. Estas son las pautas que nos sustentan como desarrolladores de software de código abierto.',
