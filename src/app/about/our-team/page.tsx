@@ -92,6 +92,29 @@ export default function OurTeam() {
         github: "https://github.com/birimbau"
       }
     },
+    {
+      name: "Maria Laura Hernández",
+      role: intl.formatMessage({ id: "ourTeam.role5" }),
+      title: intl.formatMessage({ id: "ourTeam.title5" }),
+      imageUrl: "/imgs/team/marialaura.jpg",
+      bio: intl.formatMessage({ id: "ourTeam.bio5" }),
+      order: 5,
+      socialMedia: {
+        linkedin: "https://www.linkedin.com/in/maria-laura-h-251641213/",
+        github: "https://github.com/BlackS340"
+      }
+    },
+    {
+      name: "Josh McGuire",
+      role: intl.formatMessage({ id: "ourTeam.role6" }),
+      title: intl.formatMessage({ id: "ourTeam.title6" }),
+      imageUrl: "/imgs/team/josh.jpg",
+      bio: intl.formatMessage({ id: "ourTeam.bio6" }),
+      order: 6,
+      socialMedia: {
+        twitter: "https://twitter.com/CryptoJosh1000x"
+      }
+    }
   ];
 
   const sortedTeamMembers = teamMembers.sort((a, b) => a.order - b.order);
