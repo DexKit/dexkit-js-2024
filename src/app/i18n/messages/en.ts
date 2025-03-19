@@ -676,6 +676,11 @@ const messages: Messages = {
   'captcha.verify': 'Verify',
   'captcha.verified': 'Verification successful',
   'captcha.error': 'Incorrect answer. Please try again.',
+  'hireADev.services.priority': 'Priority',
+  'hireADev.services.priorityDesc': 'This service has priority response within 1 hour.',
+  'hireADev.services.completeProject.title': 'Complete Project Development',
+  'hireADev.services.completeProject.desc': 'Full project creation including social media, NextJS 15 landing page with latest technologies, Telegram bot with AI learning for knowledge base contextualization, Discord server setup (if needed), and all previous services.',
+  'hireADev.services.completeProject.price': '10,000 USD',
 };
 
 export default messages;

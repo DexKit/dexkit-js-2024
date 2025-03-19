@@ -139,3 +139,28 @@
 .service-card:hover .nav-controls button:last-child {
   transform: translateX(0);
 }
+
+.priority-badge {
+  @apply absolute top-2 right-2 z-10 bg-green-500 text-white text-xs font-bold py-1 px-2 rounded-full;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 6px rgba(22, 163, 74, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(22, 163, 74, 0);
+  }
+}
+
+.priority-tooltip {
+  @apply hidden absolute right-0 mt-1 w-48 bg-white text-gray-800 text-xs p-2 rounded shadow-lg z-20;
+}
+
+.priority-badge:hover .priority-tooltip {
+  @apply block;
+}

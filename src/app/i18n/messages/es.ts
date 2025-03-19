@@ -674,6 +674,11 @@ const messages: Messages = {
   'hireADev.form.paymentMethodRequired': 'Por favor, selecciona una red blockchain y una stablecoin',
   'hireADev.form.txIdRequired': 'Por favor, ingresa el ID de la transacción',
   'hireADev.form.getStablecoins': '¿Necesitas stablecoins? Obtenlas aquí',
+  'hireADev.services.priority': 'Prioritario',
+  'hireADev.services.priorityDesc': 'Este servicio tiene respuesta prioritaria en menos de 1 hora.',
+  'hireADev.services.completeProject.title': 'Desarrollo de Proyecto Completo',
+  'hireADev.services.completeProject.desc': 'Creación completa de proyectos incluyendo redes sociales, página landing con NextJS 15 con la última tecnología, bot de Telegram con aprendizaje e IA para contextualizar la base de conocimientos, servidor en Discord configurado (si se requiere), y todos los servicios anteriores.',
+  'hireADev.services.completeProject.price': '10,000 USD',
 
   // Captcha
   'captcha.title': 'Verificación de seguridad',
@@ -681,6 +686,8 @@ const messages: Messages = {
   'captcha.verify': 'Verificar',
   'captcha.verified': 'Verificación correcta',
   'captcha.error': 'Respuesta incorrecta. Por favor, inténtelo de nuevo.',
+
+ 
 
 };
 

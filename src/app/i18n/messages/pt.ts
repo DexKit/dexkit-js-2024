@@ -655,6 +655,11 @@ const messages: Messages = {
   'hireADev.form.selectStablecoin': 'Selecione a Stablecoin',
   'hireADev.form.selectCoinOption': '-- Selecione uma stablecoin --',
   'hireADev.form.getStablecoins': 'Precisa de stablecoins? Obtenha-as aqui',
+  'hireADev.services.priority': 'Prioritário',
+  'hireADev.services.priorityDesc': 'Este serviço tem resposta prioritária em menos de 1 hora.',
+  'hireADev.services.completeProject.title': 'Desenvolvimento de Projeto Completo',
+  'hireADev.services.completeProject.desc': 'Criação completa de projetos incluindo redes sociais, página landing com NextJS 15 com a mais recente tecnologia, bot de Telegram com aprendizado e IA para contextualizar a base de conhecimento, servidor Discord configurado (se necessário), e todos os serviços anteriores.',
+  'hireADev.services.completeProject.price': '10.000 USD',
 
   // Captcha
   'captcha.title': 'Verificação de segurança',
