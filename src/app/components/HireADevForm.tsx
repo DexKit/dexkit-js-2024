@@ -24,6 +24,7 @@ interface ServiceType {
   imageUrl?: string;
   additionalImages?: string[];
   products?: Array<{name: string, url: string}>;
+  isPriority?: boolean;
 }
 
 interface BlockchainNetwork {
@@ -141,6 +142,34 @@ function HireADevFormContent() {
         { name: 'Gated Content', url: 'https://docs.dexkit.com/defi-products/dexappbuilder/managing-this-tool/gated-content' },
         { name: 'Gamification', url: 'https://docs.dexkit.com/defi-products/dexappbuilder/leaderboards' }
       ]
+    },
+    {
+      id: 'completeProject',
+      title: 'Complete Project Development',
+      description: 'Full project creation including social media, NextJS 15 landing page with latest technologies, Telegram bot with AI learning for knowledge base contextualization, Discord server setup (if needed), and all previous services.',
+      price: 10000,
+      messageIds: {
+        title: 'hireADev.services.completeProject.title',
+        desc: 'hireADev.services.completeProject.desc',
+        price: 'hireADev.services.completeProject.price'
+      },
+      imageUrl: '/imgs/services/ghostx.png',
+      additionalImages: [
+        '/imgs/services/ghostx.png',
+        '/imgs/services/ghostx.png'
+      ],
+      products: [
+        { name: 'NextJS 15 Landing', url: '#' },
+        { name: 'Telegram AI Bot', url: '#' },
+        { name: 'Discord Server', url: '#' },
+        { name: 'Social Media Setup', url: '#' },
+        { name: 'DexSwap', url: '/dexswap' },
+        { name: 'DexExchangePro', url: '/dexexchangepro' },
+        { name: 'DexNFTMarket', url: '/dexnftmarket' },
+        { name: 'DexNFTStore', url: '/dexnftstore' },
+        { name: 'DexGenerator', url: '/dexgenerator' }
+      ],
+      isPriority: true
     },
     {
       id: 'blockchainConsulting',
@@ -402,8 +431,24 @@ function HireADevFormContent() {
               {services.map((service) => (
                 <div 
                   key={service.id}
-                  className="service-card bg-white rounded-lg overflow-hidden shadow-xl flex flex-col h-full"
+                  className={`service-card bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-300 relative ${
+                    selectedService?.id === service.id ? 'ring-2 ring-orange-400' : ''
+                  }`}
                 >
+                  {service.isPriority && (
+                    <div className="absolute top-2 right-2 z-10">
+                      <div className="priority-badge group relative">
+                        <FormattedMessage id="hireADev.services.priority" defaultMessage="Priority" />
+                        <div className="absolute right-0 mt-1 w-48 bg-white text-gray-800 text-xs p-2 rounded shadow-lg z-20 hidden group-hover:block">
+                          <FormattedMessage 
+                            id="hireADev.services.priorityDesc" 
+                            defaultMessage="This service has priority response within 1 hour." 
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                  
                   {service.imageUrl && (
                     <div className="relative w-full h-48 overflow-hidden rounded-t-lg bg-gray-100">
                       <div className="relative w-full h-full flex items-center justify-center">
