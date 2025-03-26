@@ -276,6 +276,9 @@ const messages: Messages = {
   'ourTeam.role6': 'Desarrollador comunitario',
   'ourTeam.title6': 'Músico y entusiasta de criptomonedas',
   'ourTeam.bio6': 'Josh es músico y productor musical, conocido como el guitarrista principal de The Dialectic. Desde 2017, ha estado profundamente involucrado en el crypto, explorando DeFi, NFTs y la creación de tokens. Después de lanzar Josh Token (JOSH) en BASE y construir una DApp con DexKit, se unió al equipo para ayudar a desarrollar soluciones Web3 innovadoras.',
+  'ourTeam.role7': 'Desarrolladora comunitaria',
+  'ourTeam.title7': 'Super Based Queen',
+  'ourTeam.bio7': 'Super Based Queen es una desarrolladora comunitaria y trader de criptomonedas con algunos años de experiencia apoyando proyectos innovadores, incluyendo su propio (SKI MASK TANG CAT), cuyo objetivo es ayudar a animales en necesidad. Su enfoque proactivo y flexible le permite adaptarse a diferentes proyectos, proporcionando creatividad y eficiencia. Actualmente colabora con el equipo en redes sociales y crecimiento de la comunidad.',
   
   // Mission, vision and values
   'missionVisionValues.title': 'Misión, Visión y Valores',

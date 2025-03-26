@@ -2,6 +2,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { encrypt } from '@/lib/encryption';
 import { rateLimit } from '@/lib/rate-limit';
+import { Resend } from 'resend';
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: NextRequest) {
   const ip = request.headers.get('x-forwarded-for') || 'unknown';
@@ -78,7 +81,7 @@ export async function POST(request: NextRequest) {
     console.log('Try to save in database with paymentTxId:', paymentTxId ? 'Yes (length: ' + paymentTxId.length + ')' : 'No');
     
     const processedPaymentTxId = paymentTxId?.trim();
-    console.log('Valor final de paymentTxId a guardar:', processedPaymentTxId || 'NULL');
+    console.log('Final paymentTxId to save:', processedPaymentTxId || 'NULL');
     
     const newService = await prisma.service.create({
       data: {
@@ -97,6 +100,39 @@ export async function POST(request: NextRequest) {
     });
     
     console.log('Service saved with ID:', newService.id, 'PaymentTxId en respuesta:', newService.paymentTxId);
+    
+    try {
+      const serviceNames: {[key: string]: string} = {
+        singleDApp: "Single DApp",
+        intermediateDApp: "Intermediate DApp",
+        advancedDApp: "Advanced DApp",
+        blockchainConsulting: "Blockchain Consulting",
+        completeProject: "Complete Project"
+      };
+
+      const serviceName = serviceNames[product] || product;
+
+      await resend.emails.send({
+        from: 'DexKit Support <no-reply@dexkit.com>',
+        to: 'support@dexkit.com',
+        subject: `New service request: ${serviceName}`,
+        html: `
+          <h1>New service request</h1>
+          <p><strong>Service:</strong> ${serviceName}</p>
+          <p><strong>Client email:</strong> ${clientEmail}</p>
+          <p><strong>Cost:</strong> ${cost} USD</p>
+          <p><strong>Payment method:</strong> ${paymentCoin} on ${paymentNetwork} network</p>
+          <p><strong>Transaction ID:</strong> ${paymentTxId || 'Not provided'}</p>
+          <p><strong>Additional notes:</strong> ${extraNotes || 'None'}</p>
+          <p><strong>Service ID:</strong> ${newService.id}</p>
+          <p><strong>Request date:</strong> ${new Date().toLocaleString()}</p>
+          <p><strong>Language:</strong> ${locale || 'en'}</p>
+        `,
+      });
+      console.log('Email sent successfully to support@dexkit.com');
+    } catch (emailError) {
+      console.error('Error sending email:', emailError);
+    }
     
     return NextResponse.json({ 
       success: true, 

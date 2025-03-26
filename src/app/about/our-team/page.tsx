@@ -114,6 +114,17 @@ export default function OurTeam() {
       socialMedia: {
         twitter: "https://twitter.com/CryptoJosh1000x"
       }
+    },
+    {
+      name: "Super Based Queen",
+      role: intl.formatMessage({ id: "ourTeam.role7" }),
+      title: intl.formatMessage({ id: "ourTeam.title7" }),
+      imageUrl: "/imgs/team/superbasedqueen.jpg",
+      bio: intl.formatMessage({ id: "ourTeam.bio7" }),
+      order: 7,
+      socialMedia: {
+        twitter: "https://x.com/bossbitcoinbish"
+      }
     }
   ];
 
