@@ -434,9 +434,9 @@ function HireADevFormContent() {
                 {services.map((service) => (
                   <div 
                     key={service.id}
-                    className={`service-card bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-300 relative ${
+                    className={`service-card bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-300 relative h-[520px] flex flex-col ${
                       selectedService?.id === service.id ? 'ring-2 ring-orange-400' : ''
-                    } ${service.isPriority ? 'ring-2 ring-orange-400' : ''}`}
+                    } ${service.isPriority ? 'ring-2 ring-green-500' : ''}`}
                   >
                     {service.isPriority && (
                       <div className="absolute top-2 right-2 z-10">
@@ -532,12 +532,12 @@ function HireADevFormContent() {
                     )}
                     
                     <div className="p-4 flex flex-col flex-grow">
-                      <h3 className="text-lg font-semibold mb-2 text-gray-800">
-                        <FormattedMessage id={service.messageIds.title} />
+                      <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                        <FormattedMessage id={service.messageIds.title} defaultMessage={service.title} />
                       </h3>
                       
-                      <p className="text-sm text-gray-600 mb-3">
-                        <FormattedMessage id={service.messageIds.desc} />
+                      <p className="text-sm text-gray-700 mb-3 flex-grow">
+                        <FormattedMessage id={service.messageIds.desc} defaultMessage={service.description} />
                       </p>
                       
                       <div className="flex-grow min-h-[80px]">
