@@ -105,6 +105,7 @@ export default function Header() {
       subItems: [
         { name: intl.formatMessage({ id: "header.tokenomics" }), href: '/our-token/tokenomics', external: false, description: intl.formatMessage({ id: "header.tokenomics.description" }) },
         { name: intl.formatMessage({ id: "header.utilities" }), href: '/our-token/utilities', external: false, description: intl.formatMessage({ id: "header.utilities.description" }) },
+        { name: intl.formatMessage({ id: "header.airdrop" }), href: '/our-token/airdrop', external: false, description: intl.formatMessage({ id: "header.airdrop.description" }) },
         { name: intl.formatMessage({ id: "header.contractAddresses" }), href: '/our-token/contract-addresses', external: false, description: intl.formatMessage({ id: "header.contractAddresses.description" }) },
         { name: intl.formatMessage({ id: "header.governance" }), href: '/our-token/governance', external: false, description: intl.formatMessage({ id: "header.governance.description" }) },
       ]

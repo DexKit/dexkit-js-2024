@@ -39,6 +39,8 @@ const messages: Messages = {
   "header.featureRequest.description": "Suggest new features for DexKit",
   "header.whiteLabel.description": "Request custom white label solutions",
   'header.hireADev': 'Hire a Dev',
+  'header.airdrop': 'Airdrop',
+  'header.airdrop.description': 'Information about DexKit airdrop',
     
 
   // Footer
@@ -688,6 +690,12 @@ const messages: Messages = {
   'hireADev.services.completeProject.title': 'Complete Project Development',
   'hireADev.services.completeProject.desc': 'Full project creation including social media, NextJS 15 landing page with latest technologies, Telegram bot with AI learning for knowledge base contextualization, Discord server setup (if needed), and all previous services.',
   'hireADev.services.completeProject.price': '10,000 USD',
+
+  // Airdrop
+  'airdrop.title': 'Airdrop',
+  'airdrop.subtitle': 'Learn about DexKit token distribution',
+  'airdrop.description': 'Get information about DexKit airdrop program and token distribution',
+
 };
 
 export default messages;

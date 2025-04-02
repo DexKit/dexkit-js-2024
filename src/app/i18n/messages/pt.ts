@@ -673,6 +673,11 @@ const messages: Messages = {
   'captcha.verify': 'Verificar',
   'captcha.verified': 'Verificação correta',
   'captcha.error': 'Resposta incorreta. Por favor, tente novamente.', 
+
+  // Airdrop
+  'airdrop.title': 'Airdrop',
+  'airdrop.subtitle': 'Aprenda sobre a distribuição de tokens da DexKit',
+  'airdrop.description': 'Obtenha informações sobre o programa de airdrop da DexKit e a distribuição de tokens',
 };
 
 export default messages;

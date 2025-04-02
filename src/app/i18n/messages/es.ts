@@ -693,6 +693,11 @@ const messages: Messages = {
   'captcha.verified': 'Verificación correcta',
   'captcha.error': 'Respuesta incorrecta. Por favor, inténtelo de nuevo.',
 
+  // Airdrop
+  'airdrop.title': 'Airdrop',
+  'airdrop.subtitle': 'Aprende sobre la distribución de tokens de DexKit',
+  'airdrop.description': 'Obtén información sobre el programa de airdrop de DexKit y la distribución de tokens',
+
  
 
 };
