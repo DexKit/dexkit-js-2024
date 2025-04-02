@@ -279,6 +279,9 @@ const messages: Messages = {
   'ourTeam.role7': 'Desarrolladora comunitaria',
   'ourTeam.title7': 'Super Based Queen',
   'ourTeam.bio7': 'Super Based Queen es una desarrolladora comunitaria y trader de criptomonedas con algunos años de experiencia apoyando proyectos innovadores, incluyendo su propio (SKI MASK TANG CAT), cuyo objetivo es ayudar a animales en necesidad. Su enfoque proactivo y flexible le permite adaptarse a diferentes proyectos, proporcionando creatividad y eficiencia. Actualmente colabora con el equipo en redes sociales y crecimiento de la comunidad.',
+  'ourTeam.role8': 'Desarrollador comunitario',
+  'ourTeam.title8': 'Trader de criptomonedas',
+  'ourTeam.bio8': 'Will, también conocido como "ScamKiller", es un trader de criptomonedas prominente de Brasil con una comunidad organizada de 1,700 miembros y más de dos años de experiencia en el espacio crypto. Primero ganó reconocimiento como administrador en IvipCoin, donde construyó una reputación fuerte antes de trasladarse a una carrera en marketing. Ahora, Will está utilizando su experiencia para impulsar el crecimiento de DexKit, enfocándose en estrategias de marketing portugués y brasileño para expandir nuestro alcance en estos mercados clave.',
   
   // Mission, vision and values
   'missionVisionValues.title': 'Misión, Visión y Valores',
