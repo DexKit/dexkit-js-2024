@@ -40,6 +40,8 @@ const messages: Messages = {
   "header.featureRequest.description": "Sugiere nuevas características para DexKit",
   "header.whiteLabel.description": "Solicita soluciones personalizadas de marca blanca",
   'header.hireADev': 'Contratar un Dev',
+  'header.airdrop': 'Airdrop',
+  'header.airdrop.description': 'Información sobre el airdrop de DexKit',
 
   // Footer
   'footer.newsletter.title': 'Boletín',
@@ -697,8 +699,12 @@ const messages: Messages = {
   'airdrop.title': 'Airdrop',
   'airdrop.subtitle': 'Aprende sobre la distribución de tokens de DexKit',
   'airdrop.description': 'Obtén información sobre el programa de airdrop de DexKit y la distribución de tokens',
-
- 
+  'airdrop.treasuryBalance': 'Saldo de la Tesorería',
+  'airdrop.treasuryAddress': 'Dirección de la Tesorería',
+  'airdrop.totalUsdValue': 'Valor Total',
+  'airdrop.viewOnExplorer': 'Ver en Explorador',
+  'airdrop.balance': 'Saldo',
+  'airdrop.value': 'Valor',
 
 };
 

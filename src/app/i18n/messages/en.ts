@@ -695,6 +695,12 @@ const messages: Messages = {
   'airdrop.title': 'Airdrop',
   'airdrop.subtitle': 'Learn about DexKit token distribution',
   'airdrop.description': 'Get information about DexKit airdrop program and token distribution',
+  'airdrop.treasuryBalance': 'Treasury Balance',
+  'airdrop.treasuryAddress': 'Treasury Address',
+  'airdrop.totalUsdValue': 'Total Value',
+  'airdrop.viewOnExplorer': 'View on Explorer',
+  'airdrop.balance': 'Balance',
+  'airdrop.value': 'Value',
 
 };
 
