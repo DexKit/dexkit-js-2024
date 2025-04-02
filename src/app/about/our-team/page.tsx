@@ -3,12 +3,13 @@
 import { useState, useEffect } from 'react';
 import { useIntl, FormattedMessage } from 'react-intl';
 import Image from 'next/image';
-import { FaXTwitter, FaLinkedin, FaGithub } from 'react-icons/fa6';
+import { FaXTwitter, FaLinkedin, FaGithub, FaTelegram } from 'react-icons/fa6';
 
 interface SocialMedia {
   twitter?: string;
   linkedin?: string;
   github?: string;
+  telegram?: string;
 }
 
 interface TeamMember {
@@ -125,6 +126,17 @@ export default function OurTeam() {
       socialMedia: {
         twitter: "https://x.com/bossbitcoinbish"
       }
+    },
+    {
+      name: "Will (Scamkiller)",
+      role: intl.formatMessage({ id: "ourTeam.role8" }),
+      title: intl.formatMessage({ id: "ourTeam.title8" }),
+      imageUrl: "/imgs/team/will.jpg",
+      bio: intl.formatMessage({ id: "ourTeam.bio8" }),
+      order: 8,
+      socialMedia: {
+        telegram: "https://t.me/scamkillerwill"
+      }
     }
   ];
 
@@ -181,6 +193,11 @@ export default function OurTeam() {
                     {member.socialMedia.github && (
                       <a href={member.socialMedia.github} target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-black">
                         <FaGithub size={20} />
+                      </a>
+                    )}
+                    {member.socialMedia.telegram && (
+                      <a href={member.socialMedia.telegram} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+                        <FaTelegram size={20} />
                       </a>
                     )}
                   </div>
