@@ -706,6 +706,22 @@ const messages: Messages = {
   'airdrop.balance': 'Saldo',
   'airdrop.value': 'Valor',
 
+  // Airdrop Calculator
+  'airdrop.calculator.title': 'Calcula tus recompensas',
+  'airdrop.calculator.youStake': 'Tienes',
+  'airdrop.calculator.kitPrice': 'Precio KIT',
+  'airdrop.calculator.monthlyReward': 'Cada Mes',
+  'airdrop.calculator.annualReward': 'Recompensa anual',
+  'airdrop.calculator.description': 'Mantén KIT en cualquier red soportada para recibir recompensas mensuales automáticas. El tope máximo de recompensas se alcanza con 10,000 KIT.',
+  'airdrop.rewards.title': 'Calculadora de Recompensas',
+  'airdrop.polygonTreasuryBalance': 'Saldo de Tesorería en Polygon',
+  'airdrop.polygonNotice': 'Solo mostramos los saldos de KIT en la red Polygon.',
+
+  // Buy Kit Button
+  'buyKit.button': 'Comprar KIT',
+  'buyKit.selectNetwork': 'Selecciona una red',
+  
+
 };
 
 export default messages;

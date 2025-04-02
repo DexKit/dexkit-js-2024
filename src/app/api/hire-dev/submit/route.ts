@@ -99,7 +99,7 @@ export async function POST(request: NextRequest) {
       }
     });
     
-    console.log('Service saved with ID:', newService.id, 'PaymentTxId en respuesta:', newService.paymentTxId);
+    console.log('Service saved with ID:', newService.id, 'PaymentTxId:', newService.paymentTxId);
     
     try {
       const serviceNames: {[key: string]: string} = {

@@ -66,12 +66,12 @@ const NETWORKS = [
 
 export async function getKitPrice(): Promise<number> {
   try {
-    const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=dexkit&vs_currencies=usd');
+    const response = await fetch('/api/kit-price');
     const data = await response.json();
     return data.dexkit.usd;
   } catch (error) {
     console.error('Error fetching KIT price:', error);
-    return 0;
+    return 0.05;
   }
 }
 
@@ -184,4 +184,49 @@ export async function getKitBalances(walletAddress: string): Promise<TokenBalanc
 export function getTotalUsdValue(balances: TokenBalance[]): string {
   const total = balances.reduce((acc, balance) => acc + parseFloat(balance.usdValue), 0);
   return total.toFixed(2);
+}
+
+export async function getPolygonBalance(address: string): Promise<TokenBalance> {
+  try {
+    console.log('Consulting balance in Polygon...');
+    
+    const network = NETWORKS.find(n => n.name === 'Polygon');
+    
+    if (!network) {
+      throw new Error('Polygon network not found in configuration');
+    }
+    
+    const provider = new ethers.JsonRpcProvider(network.rpc);
+    const contract = new ethers.Contract(network.contractAddress, ERC20_ABI, provider);
+    
+    const balance = await contract.balanceOf(address);
+    const decimals = await contract.decimals();
+    
+    const formattedBalance = ethers.formatUnits(balance, decimals);
+    const kitPrice = await getKitPrice();
+    const usdValue = (parseFloat(formattedBalance) * kitPrice).toFixed(2);
+    
+    return {
+      network: network.name,
+      balance: balance.toString(),
+      formattedBalance,
+      icon: network.icon,
+      usdValue,
+      contractAddress: network.contractAddress,
+      networkId: network.id,
+    };
+  } catch (error) {
+    console.error('Error fetching Polygon balance:', error);
+    
+    return {
+      network: 'Polygon',
+      balance: '0',
+      formattedBalance: '0',
+      icon: '/imgs/networks/polygon.png',
+      usdValue: '0',
+      contractAddress: '0x4d0def42cf57d6f27cd4983042a55dce1c9f853c',
+      networkId: 137,
+      error: error instanceof Error ? error.message : 'Unknown error'
+    };
+  }
 } 

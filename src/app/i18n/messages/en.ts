@@ -618,7 +618,7 @@ const messages: Messages = {
   'terms.intellectualPropertyRights.content5': 'DexKit brands, logos, and content are copyright protected and cannot be used without authorization.',
 
   // Hire a Dev
-  'hireADev.title': 'Hire a Developer | DexKit',
+  'hireADev.title': 'Hire a Developer',
   'hireADev.description': 'Need help with your blockchain project? Our experienced developers can help you build custom solutions, integrate DexKit tools, or develop entirely new applications.',
   'hireADev.intro': 'Need help with your blockchain project? Our experienced developers can help you build custom solutions, integrate DexKit tools, or develop entirely new applications.',
   'hireADev.services.title': 'Our Services',
@@ -701,6 +701,22 @@ const messages: Messages = {
   'airdrop.viewOnExplorer': 'View on Explorer',
   'airdrop.balance': 'Balance',
   'airdrop.value': 'Value',
+
+  // Airdrop Calculator
+  'airdrop.calculator.title': 'Estimate your rewards',
+  'airdrop.calculator.youStake': 'You hold',
+  'airdrop.calculator.kitPrice': 'KIT price',
+  'airdrop.calculator.monthlyReward': 'Each Month',
+  'airdrop.calculator.annualReward': 'Annual reward',
+  'airdrop.calculator.description': 'Hold KIT on any supported network to receive automatic monthly rewards. Maximum rewards are reached with 10,000 KIT.',
+  'airdrop.rewards.title': 'Rewards Calculator',
+
+  'airdrop.polygonTreasuryBalance': 'Polygon Treasury Balance',
+  'airdrop.polygonNotice': 'We only display KIT balances on the Polygon network.',
+
+  // Buy Kit Button
+  'buyKit.button': 'Buy KIT',
+  'buyKit.selectNetwork': 'Select a network',
 
 };
 
