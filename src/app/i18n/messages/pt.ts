@@ -695,9 +695,11 @@ const messages: Messages = {
   'airdrop.calculator.annualReward': 'Recompensa anual',
   'airdrop.calculator.description': 'Mantenha KIT em qualquer rede suportada para receber recompensas mensais automáticas. O máximo de recompensas é alcançado com 10.000 KIT.',
   'airdrop.rewards.title': 'Calculadora de Recompensas',
-
   'airdrop.polygonTreasuryBalance': 'Saldo do Tesouro do Polygon',
   'airdrop.polygonNotice': 'Apenas exibimos saldos de KIT na rede Polygon.',
+  'airdrop.totalHolders': 'Total de Holders',
+  'airdrop.rewardsRatio': 'Razão de Recompensas',
+  'airdrop.totalCirculatingKit': 'KIT em mãos dos holders',
 
   // Buy Kit Button
   'buyKit.button': 'Comprar KIT',

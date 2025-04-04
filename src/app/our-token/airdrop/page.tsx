@@ -24,8 +24,13 @@ export default function AirdropContent() {
     const fetchPolygonBalance = async () => {
       try {
         setIsLoading(true);
-        const balance = await getPolygonBalance(treasuryAddress);
-        setPolygonBalance(balance);
+        if (treasuryAddress) {
+          const balance = await getPolygonBalance(treasuryAddress);
+          
+          if (balance) {
+            setPolygonBalance(balance);
+          }
+        }
       } catch (error) {
         console.error('Error fetching Polygon balance:', error);
       } finally {
@@ -34,7 +39,7 @@ export default function AirdropContent() {
     };
 
     fetchPolygonBalance();
-  }, []);
+  }, [treasuryAddress]);
 
   const getExplorerUrl = (networkId: number, contractAddress: string): string => {
     return `https://polygonscan.com/token/${contractAddress}?a=${treasuryAddress}`;
@@ -87,7 +92,7 @@ export default function AirdropContent() {
                         </div>
                         <p className="mb-1">
                           <span className="text-gray-600">{intl.formatMessage({ id: "airdrop.balance" })}: </span>
-                          <span className="font-medium">{parseFloat(polygonBalance.formattedBalance).toLocaleString()} KIT</span>
+                          <span className="font-medium">{polygonBalance.formattedBalance} KIT</span>
                         </p>
                         <p className="mb-2">
                           <span className="text-gray-600">{intl.formatMessage({ id: "airdrop.value" })}: </span>
@@ -123,8 +128,8 @@ export default function AirdropContent() {
                 <RewardsCalculator 
                   className="w-full" 
                   initialAmount={polygonBalance ? 
-                    Math.min(parseFloat(polygonBalance.formattedBalance), 300000) : 
-                    20000
+                    Math.min(parseFloat(polygonBalance.formattedBalance.replace(/,/g, '')), 15000) : 
+                    1000
                   } 
                 />
               </div>

@@ -129,7 +129,6 @@ export async function getKitBalances(walletAddress: string): Promise<TokenBalanc
 
   for (const network of NETWORKS) {
     try {
-      console.log(`Consulting balance in ${network.name}...`);
       
       const result = await tryMultipleRpcs(network, walletAddress);
       
@@ -146,7 +145,6 @@ export async function getKitBalances(walletAddress: string): Promise<TokenBalanc
           networkId: network.id
         });
         
-        console.log(`Balance in ${network.name}: ${result.formattedBalance} KIT`);
       } else {
         balances.push({
           network: network.name,
@@ -159,7 +157,6 @@ export async function getKitBalances(walletAddress: string): Promise<TokenBalanc
           error: result.error
         });
         
-        console.log(`Could not get balance in ${network.name}: ${result.error}`);
       }
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : 'Unknown error';
@@ -186,9 +183,8 @@ export function getTotalUsdValue(balances: TokenBalance[]): string {
   return total.toFixed(2);
 }
 
-export async function getPolygonBalance(address: string): Promise<TokenBalance> {
+export const getPolygonBalance = async (address: string): Promise<TokenBalance | null> => {
   try {
-    console.log('Consulting balance in Polygon...');
     
     const network = NETWORKS.find(n => n.name === 'Polygon');
     
@@ -203,6 +199,7 @@ export async function getPolygonBalance(address: string): Promise<TokenBalance> 
     const decimals = await contract.decimals();
     
     const formattedBalance = ethers.formatUnits(balance, decimals);
+    
     const kitPrice = await getKitPrice();
     const usdValue = (parseFloat(formattedBalance) * kitPrice).toFixed(2);
     

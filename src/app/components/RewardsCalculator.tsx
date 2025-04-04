@@ -2,11 +2,22 @@
 
 import React, { useState, useEffect } from 'react';
 import { useIntl } from 'react-intl';
-import { getKitPrice } from '@/services/kitBalanceService';
+import { getKitPrice, getPolygonBalance } from '@/services/kitBalanceService';
 
 interface RewardsCalculatorProps {
   className?: string;
   initialAmount?: number;
+}
+
+const HOLDERS_DATA_URL = 'https://raw.githubusercontent.com/DexKit/scripts-for-airdrop/refs/heads/main/mapped_holders.json';
+const TREASURY_ADDRESS = '0x65073B9BBb15Fec458eDa8c1646Fe443F606cB7b';
+
+interface Holder {
+  owner_address: string;
+  balance: string;
+  balance_formatted: string;
+  airdrop: string;
+  airdrop_formatted: string;
 }
 
 const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initialAmount = 20000 }) => {
@@ -14,8 +25,14 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
   const [kitAmount, setKitAmount] = useState<number>(initialAmount);
   const [kitPrice, setKitPrice] = useState<number>(0.05);
   const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [totalHolders, setTotalHolders] = useState<number>(0);
+  const [isLoadingHolders, setIsLoadingHolders] = useState<boolean>(true);
+  const [totalCirculatingKIT, setTotalCirculatingKIT] = useState<number>(0);
+  const [rewardsRatio, setRewardsRatio] = useState<number>(0);
+  const [treasuryBalance, setTreasuryBalance] = useState<number>(0);
+  const [isLoadingTreasury, setIsLoadingTreasury] = useState<boolean>(true);
   
-  const MAX_DISPLAY_AMOUNT = 300000;
+  const MAX_DISPLAY_AMOUNT = 12000;
   
   useEffect(() => {
     setKitAmount(Math.min(initialAmount, MAX_DISPLAY_AMOUNT));
@@ -37,13 +54,79 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
     fetchKitPrice();
   }, []);
   
+  useEffect(() => {
+    const fetchTreasuryBalance = async () => {
+      try {
+        setIsLoadingTreasury(true);
+        const balance = await getPolygonBalance(TREASURY_ADDRESS);
+        
+        if (balance) {
+          const balanceNumber = parseFloat(balance.formattedBalance);
+          setTreasuryBalance(balanceNumber);
+        }
+      } catch (error) {
+        console.error('Error fetching Treasury balance:', error);
+      } finally {
+        setIsLoadingTreasury(false);
+      }
+    };
+    
+    fetchTreasuryBalance();
+  }, []);
+  
+  useEffect(() => {
+    const fetchHoldersData = async () => {
+      try {
+        setIsLoadingHolders(true);
+        const response = await fetch(HOLDERS_DATA_URL);
+        if (!response.ok) {
+          throw new Error('Cannot load holders data');
+        }
+        const holders: Holder[] = await response.json();
+        const validHolders = holders.filter(holder => 
+          parseFloat(holder.balance_formatted) > 5
+        );
+        
+        setTotalHolders(validHolders.length);
+        
+        const totalKitCirculating = validHolders.reduce((sum, holder) => 
+          sum + parseFloat(holder.balance_formatted), 0);
+        
+        setTotalCirculatingKIT(totalKitCirculating);
+        
+        if (treasuryBalance > 0) {
+          const ratio = validHolders.length / treasuryBalance;
+          setRewardsRatio(ratio);
+        }
+        
+      } catch (error) {
+        console.error('Error loading holders data:', error);
+      } finally {
+        setIsLoadingHolders(false);
+      }
+    };
+    
+    fetchHoldersData();
+  }, [treasuryBalance]);
+  
   const calculateMonthlyReward = (amount: number): number => {
-    return Math.min((amount / 10000) * 500, 500);
+    if (isLoadingHolders || isLoadingTreasury || rewardsRatio === 0 || treasuryBalance === 0) {
+      const fallbackReward = (amount / 10000) * 500;
+      return Math.min(fallbackReward, 500);
+    }
+    
+    const monthlyTreasuryDistribution = (treasuryBalance * 0.05) / 12;
+    
+    const userRatio = amount / totalCirculatingKIT;
+    const userReward = monthlyTreasuryDistribution * userRatio;
+    
+    const maxReward = (treasuryBalance * 0.05) / 12 / 10;
+    return Math.min(userReward, maxReward);
   };
   
   const monthlyReward = calculateMonthlyReward(kitAmount);
   const annualReward = monthlyReward * 12;
-  const annualRewardPercentage = (annualReward / kitAmount) * 100 || 0;
+  const annualRewardPercentage = kitAmount > 0 ? (annualReward / kitAmount) * 100 : 0;
   const monthlyRewardUsd = monthlyReward * kitPrice;
   
   const handleSliderChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -84,12 +167,14 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
             max={MAX_DISPLAY_AMOUNT}
             value={kitAmount}
             onChange={handleSliderChange}
-            className="w-full h-2 rounded-lg cursor-pointer appearance-none"
+            className="w-full h-2 rounded-lg cursor-pointer appearance-none range-input-no-thumb"
             style={{
               background: 'linear-gradient(to right, #fb923c, #9333ea)',
               height: '4px',
               WebkitAppearance: 'none',
-              appearance: 'none'
+              appearance: 'none',
+              outline: 'none',
+              border: 'none'
             }}
           />
           <div 
@@ -97,7 +182,8 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
             style={{
               left: `${(kitAmount / MAX_DISPLAY_AMOUNT) * 100}%`,
               transform: 'translateX(-50%)',
-              boxShadow: '0 0 10px rgba(251, 146, 60, 0.5)'
+              boxShadow: '0 0 10px rgba(251, 146, 60, 0.5)',
+              pointerEvents: 'none'
             }}
           />
         </div>
@@ -127,7 +213,7 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
             {intl.formatMessage({ id: 'airdrop.calculator.monthlyReward' })}
           </h3>
           <p className="text-orange-500 text-lg font-bold">
-            $ {isLoading ? '...' : monthlyRewardUsd.toFixed(2)}
+            $ {isLoading || isLoadingHolders || isLoadingTreasury ? '...' : monthlyRewardUsd.toFixed(2)}
           </p>
         </div>
         
@@ -136,7 +222,61 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
             {intl.formatMessage({ id: 'airdrop.calculator.annualReward' })}
           </h3>
           <p className="text-orange-500 text-xl font-bold">
-            {isLoading ? '...' : `${annualRewardPercentage.toFixed(2)}%`}
+            {isLoading || isLoadingHolders || isLoadingTreasury ? '...' : `${annualRewardPercentage.toFixed(2)}%`}
+          </p>
+        </div>
+      </div>
+      
+      <div className="bg-blue-50 p-4 rounded mt-4 mb-4 border-l-4 border-blue-500">
+        <div className="flex justify-between items-center">
+          <h3 className="text-blue-700 font-medium">
+            {intl.formatMessage({ id: 'airdrop.totalHolders' })}:
+          </h3>
+          <p className="text-blue-700 font-bold">
+            {isLoadingHolders ? (
+              <span className="animate-pulse">...</span>
+            ) : (
+              totalHolders.toLocaleString()
+            )}
+          </p>
+        </div>
+      </div>
+      
+      <div className="bg-green-50 p-4 rounded mt-4 mb-4 border-l-4 border-green-500">
+        <div className="flex justify-between items-center">
+          <h3 className="text-green-700 font-medium">
+            {intl.formatMessage({ id: 'airdrop.treasuryBalance' })}:
+          </h3>
+          <p className="text-green-700 font-bold">
+            {isLoadingTreasury ? (
+              <span className="animate-pulse">...</span>
+            ) : (
+              `${treasuryBalance.toLocaleString()} KIT`
+            )}
+          </p>
+        </div>
+        <div className="flex justify-between items-center mt-2">
+          <h3 className="text-green-700 font-medium">
+            {intl.formatMessage({ id: 'airdrop.totalCirculatingKit' }) || 'KIT in holders hands'}:
+          </h3>
+          <p className="text-green-700 font-bold">
+            {isLoadingHolders ? (
+              <span className="animate-pulse">...</span>
+            ) : (
+              totalCirculatingKIT.toLocaleString()
+            )}
+          </p>
+        </div>
+        <div className="flex justify-between items-center mt-2">
+          <h3 className="text-green-700 font-medium">
+            {intl.formatMessage({ id: 'airdrop.rewardsRatio' }) || 'Rewards Ratio'}:
+          </h3>
+          <p className="text-green-700 font-bold">
+            {isLoadingHolders || isLoadingTreasury ? (
+              <span className="animate-pulse">...</span>
+            ) : (
+              `${rewardsRatio}`
+            )}
           </p>
         </div>
       </div>

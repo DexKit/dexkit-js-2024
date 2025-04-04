@@ -320,7 +320,6 @@ function HireADevFormContent() {
     setMessage('');
     
     try {
-      console.log('Sending data to server, including paymentTxId:', paymentTxId);
       
       const response = await fetch('/api/hire-dev/submit', {
         method: 'POST',
@@ -342,10 +341,8 @@ function HireADevFormContent() {
       });
       
       const result = await response.json();
-      console.log('Server answer:', result);
       
       if (response.ok) {
-        console.log('Processed correctly:', result.serviceId);
         setMessage(intl.formatMessage({ id: 'hireADev.form.success' }));
         setIsSuccess(true);
         toast.success(intl.formatMessage({ id: 'hireADev.form.success' }), {

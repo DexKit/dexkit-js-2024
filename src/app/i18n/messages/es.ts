@@ -716,11 +716,13 @@ const messages: Messages = {
   'airdrop.rewards.title': 'Calculadora de Recompensas',
   'airdrop.polygonTreasuryBalance': 'Saldo de Tesorería en Polygon',
   'airdrop.polygonNotice': 'Solo mostramos los saldos de KIT en la red Polygon.',
+  'airdrop.totalHolders': 'Total de Holders',
 
   // Buy Kit Button
   'buyKit.button': 'Comprar KIT',
   'buyKit.selectNetwork': 'Selecciona una red',
-  
+  'airdrop.totalCirculatingKit': 'KIT en manos de los holders',
+  'airdrop.rewardsRatio': 'Ratio de Recompensas',
 
 };
 

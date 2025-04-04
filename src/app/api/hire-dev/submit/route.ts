@@ -17,7 +17,6 @@ export async function POST(request: NextRequest) {
   );
   
   if (!rateLimitResult.success) {
-    console.log(`Rate limit exceeded for IP: ${ip}. Attempts: ${rateLimitResult.current}`);
     return NextResponse.json(
       { error: "Too many requests", messageId: "hireADev.form.rateLimit" },
       { status: 429 }
@@ -37,13 +36,6 @@ export async function POST(request: NextRequest) {
       paymentNetwork,
       paymentCoin 
     } = await request.json();
-    
-    console.log('Processing request with data:', { 
-      email: clientEmail.substring(0, 3) + '...',
-      product, 
-      cost,
-      paymentTxId: paymentTxId ? `Provided: "${paymentTxId}" (length: ${paymentTxId.length})` : 'Not provided'
-    });
     
     let turnstileVerified = false;
     
@@ -78,10 +70,7 @@ export async function POST(request: NextRequest) {
       );
     }
     
-    console.log('Try to save in database with paymentTxId:', paymentTxId ? 'Yes (length: ' + paymentTxId.length + ')' : 'No');
-    
     const processedPaymentTxId = paymentTxId?.trim();
-    console.log('Final paymentTxId to save:', processedPaymentTxId || 'NULL');
     
     const newService = await prisma.service.create({
       data: {
@@ -98,9 +87,7 @@ export async function POST(request: NextRequest) {
         paymentCoin: paymentCoin ? encrypt(paymentCoin) : null
       }
     });
-    
-    console.log('Service saved with ID:', newService.id, 'PaymentTxId:', newService.paymentTxId);
-    
+
     try {
       const serviceNames: {[key: string]: string} = {
         singleDApp: "Single DApp",
@@ -129,7 +116,6 @@ export async function POST(request: NextRequest) {
           <p><strong>Language:</strong> ${locale || 'en'}</p>
         `,
       });
-      console.log('Email sent successfully to support@dexkit.com');
     } catch (emailError) {
       console.error('Error sending email:', emailError);
     }
