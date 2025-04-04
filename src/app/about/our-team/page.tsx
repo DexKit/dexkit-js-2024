@@ -126,17 +126,6 @@ export default function OurTeam() {
       socialMedia: {
         twitter: "https://x.com/bossbitcoinbish"
       }
-    },
-    {
-      name: "Will (Scamkiller)",
-      role: intl.formatMessage({ id: "ourTeam.role8" }),
-      title: intl.formatMessage({ id: "ourTeam.title8" }),
-      imageUrl: "/imgs/team/will.jpg",
-      bio: intl.formatMessage({ id: "ourTeam.bio8" }),
-      order: 8,
-      socialMedia: {
-        telegram: "https://t.me/scamkillerwill"
-      }
     }
   ];
 

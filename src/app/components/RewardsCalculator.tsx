@@ -248,42 +248,44 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
         </div>
       </div>
       
-      <div className="bg-green-50 p-4 rounded mt-4 mb-4 border-l-4 border-green-500">
-        <div className="flex justify-between items-center">
-          <h3 className="text-green-700 font-medium">
-            {intl.formatMessage({ id: 'airdrop.treasuryBalance' })}:
-          </h3>
-          <p className="text-green-700 font-bold">
-            {isLoadingTreasury ? (
-              <span className="animate-pulse">...</span>
-            ) : (
-              `${treasuryBalance.toLocaleString()} KIT`
-            )}
-          </p>
-        </div>
-        <div className="flex justify-between items-center mt-2">
-          <h3 className="text-green-700 font-medium">
-            {intl.formatMessage({ id: 'airdrop.totalCirculatingKit' }) || 'KIT in holders hands'}:
-          </h3>
-          <p className="text-green-700 font-bold">
-            {isLoadingHolders ? (
-              <span className="animate-pulse">...</span>
-            ) : (
-              totalCirculatingKIT.toLocaleString()
-            )}
-          </p>
-        </div>
-        <div className="flex justify-between items-center mt-2">
-          <h3 className="text-green-700 font-medium">
-            {intl.formatMessage({ id: 'airdrop.rewardsRatio' }) || 'Rewards Ratio'}:
-          </h3>
-          <p className="text-green-700 font-bold">
-            {isLoadingHolders || isLoadingTreasury ? (
-              <span className="animate-pulse">...</span>
-            ) : (
-              `${rewardsRatio}`
-            )}
-          </p>
+      <div className="bg-green-50 p-3 sm:p-4 rounded mt-4 mb-4 border-l-4 border-green-500 overflow-hidden">
+        <div className="flex flex-col gap-2">
+          <div className="flex flex-wrap justify-between items-center">
+            <h3 className="text-green-700 font-medium text-sm sm:text-base">
+              {intl.formatMessage({ id: 'airdrop.treasuryBalance' })}:
+            </h3>
+            <p className="text-green-700 font-bold text-sm sm:text-base break-all">
+              {isLoadingTreasury ? (
+                <span className="animate-pulse">...</span>
+              ) : (
+                `${treasuryBalance.toLocaleString()} KIT`
+              )}
+            </p>
+          </div>
+          <div className="flex flex-wrap justify-between items-center">
+            <h3 className="text-green-700 font-medium text-sm sm:text-base">
+              {intl.formatMessage({ id: 'airdrop.totalCirculatingKit' }) || 'KIT in holders hands'}:
+            </h3>
+            <p className="text-green-700 font-bold text-sm sm:text-base break-all">
+              {isLoadingHolders ? (
+                <span className="animate-pulse">...</span>
+              ) : (
+                totalCirculatingKIT.toLocaleString()
+              )}
+            </p>
+          </div>
+          <div className="flex flex-wrap justify-between items-center">
+            <h3 className="text-green-700 font-medium text-sm sm:text-base">
+              {intl.formatMessage({ id: 'airdrop.rewardsRatio' }) || 'Rewards Ratio'}:
+            </h3>
+            <p className="text-green-700 font-bold text-sm sm:text-base break-all">
+              {isLoadingHolders || isLoadingTreasury ? (
+                <span className="animate-pulse">...</span>
+              ) : (
+                `${rewardsRatio.toFixed(6)}`
+              )}
+            </p>
+          </div>
         </div>
       </div>
       

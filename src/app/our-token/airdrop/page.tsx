@@ -48,38 +48,42 @@ export default function AirdropContent() {
   return (
     <div>
       <div className="bg-white text-black">
-        <main className="container mx-auto px-4 py-8 md:py-12">
+        <main className="container mx-auto px-4 py-6 md:py-8 lg:py-12">
           <div className="flex flex-col lg:flex-row lg:gap-6">
-            <section className="w-full lg:w-1/2 mb-12 lg:mb-0">
-              <div className="flex justify-between items-center mb-4">
-                <h2 className="text-2xl md:text-3xl font-bold">
+            <section className="w-full lg:w-1/2 mb-8 lg:mb-0">
+              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-4 gap-3">
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold">
                   {intl.formatMessage({ id: "airdrop.polygonTreasuryBalance" })}
                 </h2>
-                <BuyKitButton />
+                <div className="self-start sm:self-center">
+                  <BuyKitButton />
+                </div>
               </div>
               
               <p className="mb-4 text-gray-700">
-                {intl.formatMessage({ id: "airdrop.treasuryAddress" })}: <span className="font-mono text-sm bg-gray-100 p-1 rounded">{treasuryAddress}</span>
+                {intl.formatMessage({ id: "airdrop.polygonNotice" })}
               </p>
               
-              <div className="bg-white border border-gray-200 rounded-lg shadow-sm">
+              <div className="bg-gray-50 rounded-lg p-4 sm:p-6 shadow-sm">
                 {isLoading ? (
-                  <div className="p-6 flex justify-center items-center">
-                    <div className="w-12 h-12 border-4 border-t-4 border-t-orange-500 border-gray-200 rounded-full animate-spin"></div>
+                  <div className="p-4 flex justify-center">
+                    <div className="w-6 h-6 border-2 border-orange-500 border-t-transparent rounded-full animate-spin"></div>
                   </div>
                 ) : (
-                  <div className="p-6">
-                    <div className="flex justify-between items-center mb-4">
-                      <h3 className="text-xl font-bold">
-                        {intl.formatMessage({ id: "airdrop.totalUsdValue" })}
-                      </h3>
-                      <p className="text-lg text-green-600 font-bold">
-                        ${polygonBalance?.usdValue || '0.00'} USD
-                      </p>
+                  <div>
+                    <div className="mb-4">
+                      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2 gap-2">
+                        <h3 className="text-gray-700 font-medium">
+                          {intl.formatMessage({ id: "airdrop.treasuryAddress" })}:
+                        </h3>
+                        <code className="bg-gray-100 px-2 py-1 rounded text-xs sm:text-sm font-mono break-all">
+                          {treasuryAddress}
+                        </code>
+                      </div>
                     </div>
                     
                     {polygonBalance && (
-                      <div className="border border-gray-100 rounded-lg p-4 mb-2">
+                      <div className="border border-gray-100 rounded-lg p-3 sm:p-4 mb-2">
                         <div className="flex items-center gap-2 mb-2">
                           <Image
                             src={polygonBalance.icon}
@@ -90,14 +94,16 @@ export default function AirdropContent() {
                           />
                           <h4 className="font-semibold">{polygonBalance.network}</h4>
                         </div>
-                        <p className="mb-1">
-                          <span className="text-gray-600">{intl.formatMessage({ id: "airdrop.balance" })}: </span>
-                          <span className="font-medium">{polygonBalance.formattedBalance} KIT</span>
-                        </p>
-                        <p className="mb-2">
-                          <span className="text-gray-600">{intl.formatMessage({ id: "airdrop.value" })}: </span>
-                          <span className="font-medium text-green-600">${polygonBalance.usdValue} USD</span>
-                        </p>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                          <p className="mb-1">
+                            <span className="text-gray-600">{intl.formatMessage({ id: "airdrop.balance" })}: </span>
+                            <span className="font-medium">{polygonBalance.formattedBalance} KIT</span>
+                          </p>
+                          <p className="mb-2">
+                            <span className="text-gray-600">{intl.formatMessage({ id: "airdrop.value" })}: </span>
+                            <span className="font-medium text-green-600">${polygonBalance.usdValue} USD</span>
+                          </p>
+                        </div>
                         <a 
                           href={getExplorerUrl(polygonBalance.networkId, polygonBalance.contractAddress)} 
                           target="_blank" 
@@ -110,8 +116,8 @@ export default function AirdropContent() {
                       </div>
                     )}
                     
-                    <div className="bg-orange-50 border-l-4 border-orange-500 p-4 mt-4">
-                      <p className="text-orange-700">
+                    <div className="bg-orange-50 border-l-4 border-orange-500 p-3 sm:p-4 mt-4">
+                      <p className="text-orange-700 text-sm">
                         {intl.formatMessage({ id: "airdrop.polygonNotice" })}
                       </p>
                     </div>
@@ -121,7 +127,7 @@ export default function AirdropContent() {
             </section>
             
             <section className="w-full lg:w-1/2">
-              <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
                 {intl.formatMessage({ id: "airdrop.rewards.title" })}
               </h2>
               <div>
