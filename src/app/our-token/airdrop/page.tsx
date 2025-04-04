@@ -121,6 +121,24 @@ export default function AirdropContent() {
                         {intl.formatMessage({ id: "airdrop.polygonNotice" })}
                       </p>
                     </div>
+                    <div className="bg-gray-100 p-4 rounded mt-4 border-l-4 border-orange-500">
+                      <p className="text-gray-700 text-sm">
+                        {intl.formatMessage({ id: 'airdrop.calculator.description' })}
+                      </p>
+                      <div className="mt-2 text-gray-600 text-xs">
+                        <details className="cursor-pointer">
+                          <summary className="font-medium text-orange-600 hover:text-orange-700">
+                            {intl.formatMessage({ id: 'airdrop.calculator.howCalculated' })}
+                          </summary>
+                          <ul className="mt-2 pl-4 list-disc space-y-1">
+                            <li>{intl.formatMessage({ id: 'airdrop.calculator.hint.limit' })}</li>
+                            <li>{intl.formatMessage({ id: 'airdrop.calculator.hint.monthly' })}</li>
+                            <li>{intl.formatMessage({ id: 'airdrop.calculator.hint.ratio' })}</li>
+                            <li>{intl.formatMessage({ id: 'airdrop.calculator.hint.automatic' })}</li>
+                          </ul>
+                        </details>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>

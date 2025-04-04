@@ -116,14 +116,16 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
   }, [treasuryBalance]);
   
   const calculateMonthlyReward = (amount: number): number => {
+    const cappedAmount = Math.min(amount, 10000);
+    
     if (isLoadingHolders || isLoadingTreasury || rewardsRatio === 0 || treasuryBalance === 0) {
-      const fallbackReward = (amount / 10000) * 500;
+      const fallbackReward = (cappedAmount / 10000) * 500;
       return Math.min(fallbackReward, 500);
     }
     
     const monthlyTreasuryDistribution = (treasuryBalance * 0.05) / 12;
     
-    const userRatio = amount / totalCirculatingKIT;
+    const userRatio = cappedAmount / totalCirculatingKIT;
     const userReward = monthlyTreasuryDistribution * userRatio;
     
     const maxReward = (treasuryBalance * 0.05) / 12 / 10;
@@ -287,12 +289,6 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
             </p>
           </div>
         </div>
-      </div>
-      
-      <div className="bg-gray-100 p-4 rounded mt-4 border-l-4 border-orange-500">
-        <p className="text-gray-700 text-sm">
-          {intl.formatMessage({ id: 'airdrop.calculator.description' })}
-        </p>
       </div>
     </div>
   );

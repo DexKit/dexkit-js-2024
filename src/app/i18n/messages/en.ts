@@ -697,6 +697,12 @@ const messages: Messages = {
   'airdrop.viewOnExplorer': 'View on Explorer',
   'airdrop.balance': 'Balance',
   'airdrop.value': 'Value',
+  'airdrop.rewards.title': 'Rewards Calculator',
+  'airdrop.polygonTreasuryBalance': 'Polygon Treasury Balance',
+  'airdrop.polygonNotice': 'We only display KIT balances on the Polygon network.',
+  'airdrop.totalHolders': 'Total Holders',
+  'airdrop.totalCirculatingKit': 'KIT in holders hands',
+  'airdrop.rewardsRatio': 'Rewards Ratio',
 
   // Airdrop Calculator
   'airdrop.calculator.title': 'Estimate your rewards',
@@ -705,17 +711,17 @@ const messages: Messages = {
   'airdrop.calculator.monthlyReward': 'Each Month',
   'airdrop.calculator.annualReward': 'Annual reward',
   'airdrop.calculator.description': 'Hold KIT on any supported network to receive automatic monthly rewards. Maximum rewards are reached with 10,000 KIT.',
-  'airdrop.rewards.title': 'Rewards Calculator',
-
-  'airdrop.polygonTreasuryBalance': 'Polygon Treasury Balance',
-  'airdrop.polygonNotice': 'We only display KIT balances on the Polygon network.',
-  'airdrop.totalHolders': 'Total Holders',
-  'airdrop.totalCirculatingKit': 'KIT in holders hands',
-  'airdrop.rewardsRatio': 'Rewards Ratio',
+  'airdrop.calculator.howCalculated': 'How are rewards calculated?',
+  'airdrop.calculator.hint.limit': 'Maximum rewards are reached with 10,000 KIT.',
+  'airdrop.calculator.hint.monthly': 'Each month 0.42% of the treasury balance is distributed (5% annually).',
+  'airdrop.calculator.hint.ratio': 'Your reward is calculated based on your proportion of KIT relative to the total circulating supply.',
+  'airdrop.calculator.hint.automatic': 'Rewards are automatically delivered to all holders.',
 
   // Buy Kit Button
   'buyKit.button': 'Buy KIT',
   'buyKit.selectNetwork': 'Select a network',
+
+
 
 };
 

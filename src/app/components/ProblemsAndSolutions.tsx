@@ -49,7 +49,7 @@ export default function ProblemsAndSolutions() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {problems.map((problem, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-md p-6 transition-transform hover:scale-105">
+              <div key={index} className="bg-white rounded-lg p-6 transition-transform hover:scale-105">
                 <div className="flex flex-col items-center text-center">
                   <div className="w-16 h-16 mb-4 relative">
                     <Image 

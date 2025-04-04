@@ -702,24 +702,30 @@ const messages: Messages = {
   'airdrop.viewOnExplorer': 'Ver en Explorador',
   'airdrop.balance': 'Saldo',
   'airdrop.value': 'Valor',
+  'airdrop.rewards.title': 'Calculadora de Recompensas',
+  'airdrop.polygonTreasuryBalance': 'Saldo de Tesorería en Polygon',
+  'airdrop.polygonNotice': 'Solo mostramos los saldos de KIT en la red Polygon.',
+  'airdrop.totalHolders': 'Total de Holders',
+  'airdrop.totalCirculatingKit': 'KIT en manos de los holders',
+  'airdrop.rewardsRatio': 'Ratio de Recompensas',
 
   // Airdrop Calculator
+  'airdrop.calculator.howCalculated': '¿Cómo se calculan las recompensas?',
+  'airdrop.calculator.hint.limit': 'El máximo de recompensas se alcanza con 10,000 KIT.',
+  'airdrop.calculator.hint.monthly': 'Cada mes se distribuye el 0.42% del saldo de tesorería (5% anual).',
+  'airdrop.calculator.hint.ratio': 'Tu recompensa se calcula según tu proporción de KIT respecto al total circulante.',
+  'airdrop.calculator.hint.automatic': 'Las recompensas se entregan automáticamente a todos los holders.',
   'airdrop.calculator.title': 'Calcula tus recompensas',
   'airdrop.calculator.youStake': 'Tienes',
   'airdrop.calculator.kitPrice': 'Precio KIT',
   'airdrop.calculator.monthlyReward': 'Cada Mes',
   'airdrop.calculator.annualReward': 'Recompensa anual',
   'airdrop.calculator.description': 'Mantén KIT en cualquier red soportada para recibir recompensas mensuales automáticas. El tope máximo de recompensas se alcanza con 10,000 KIT.',
-  'airdrop.rewards.title': 'Calculadora de Recompensas',
-  'airdrop.polygonTreasuryBalance': 'Saldo de Tesorería en Polygon',
-  'airdrop.polygonNotice': 'Solo mostramos los saldos de KIT en la red Polygon.',
-  'airdrop.totalHolders': 'Total de Holders',
 
   // Buy Kit Button
   'buyKit.button': 'Comprar KIT',
   'buyKit.selectNetwork': 'Selecciona una red',
-  'airdrop.totalCirculatingKit': 'KIT en manos de los holders',
-  'airdrop.rewardsRatio': 'Ratio de Recompensas',
+
 
 };
 
