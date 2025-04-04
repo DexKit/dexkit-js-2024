@@ -127,10 +127,7 @@ export default function AirdropContent() {
               <div>
                 <RewardsCalculator 
                   className="w-full" 
-                  initialAmount={polygonBalance ? 
-                    Math.min(parseFloat(polygonBalance.formattedBalance.replace(/,/g, '')), 15000) : 
-                    1000
-                  } 
+                  initialAmount={1000}
                 />
               </div>
             </section>

@@ -35,7 +35,8 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
   const MAX_DISPLAY_AMOUNT = 12000;
   
   useEffect(() => {
-    setKitAmount(Math.min(initialAmount, MAX_DISPLAY_AMOUNT));
+    const safeInitialAmount = Math.min(initialAmount || 1000, MAX_DISPLAY_AMOUNT);
+    setKitAmount(safeInitialAmount);
   }, [initialAmount]);
   
   useEffect(() => {
@@ -94,8 +95,13 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
         
         setTotalCirculatingKIT(totalKitCirculating);
         
-        if (treasuryBalance > 0) {
-          const ratio = validHolders.length / treasuryBalance;
+        if (treasuryBalance > 0 && totalKitCirculating > 0) {
+          const ratio = treasuryBalance / totalKitCirculating;
+          console.log('Cálculo de ratio:', {
+            treasuryBalance,
+            totalKitCirculating,
+            ratio
+          });
           setRewardsRatio(ratio);
         }
         
