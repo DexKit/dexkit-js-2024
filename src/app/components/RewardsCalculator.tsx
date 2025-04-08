@@ -92,6 +92,7 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
         
         const totalKitCirculating = validHolders.reduce((sum, holder) => 
           sum + parseFloat(holder.balance_formatted), 0);
+
         
         setTotalCirculatingKIT(totalKitCirculating);
         
@@ -115,7 +116,7 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
     fetchHoldersData();
   }, [treasuryBalance]);
   
-  const calculateMonthlyReward = (amount: number): number => {
+  /* const calculateMonthlyReward = (amount: number): number => {
     const cappedAmount = Math.min(amount, 10000);
     
     if (isLoadingHolders || isLoadingTreasury || rewardsRatio === 0 || treasuryBalance === 0) {
@@ -130,11 +131,16 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
     
     const maxReward = (treasuryBalance * 0.05) / 12 / 10;
     return Math.min(userReward, maxReward);
-  };
-  
+  }; */
+
+  const calculateMonthlyReward = (amount: number): number => {
+
+    return amount * rewardsRatio * kitPrice;
+
+  }  
   const monthlyReward = calculateMonthlyReward(kitAmount);
   const annualReward = monthlyReward * 12;
-  const annualRewardPercentage = kitAmount > 0 ? (annualReward / kitAmount) * 100 : 0;
+  const annualRewardPercentage = kitAmount > 0 ? (annualReward / (kitAmount*kitPrice)) * 100 : 0;
   const monthlyRewardUsd = monthlyReward * kitPrice;
   
   const handleSliderChange = (event: React.ChangeEvent<HTMLInputElement>) => {
