@@ -93,7 +93,7 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
         const totalKitCirculating = validHolders.reduce((sum, holder) => 
           sum + parseFloat(holder.balance_formatted), 0);
 
-        
+        console.log(totalCirculatingKIT)
         setTotalCirculatingKIT(totalKitCirculating);
         
         if (treasuryBalance > 0 && totalKitCirculating > 0) {
@@ -133,15 +133,15 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
     return Math.min(userReward, maxReward);
   }; */
 
-  const calculateMonthlyReward = (amount: number): number => {
+  const calculateMonthlyRewardUSD = (amount: number): number => {
 
     return amount * rewardsRatio * kitPrice;
 
   }  
-  const monthlyReward = calculateMonthlyReward(kitAmount);
-  const annualReward = monthlyReward * 12;
-  const annualRewardPercentage = kitAmount > 0 ? (annualReward / (kitAmount*kitPrice)) * 100 : 0;
-  const monthlyRewardUsd = monthlyReward * kitPrice;
+  const monthlyRewardUSD = calculateMonthlyRewardUSD(kitAmount);
+  const annualRewardUSD = monthlyRewardUSD * 12;
+  const annualRewardPercentage = kitAmount > 0 ? (annualRewardUSD / (kitAmount*kitPrice)) * 100 : 0;
+  
   
   const handleSliderChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setKitAmount(parseInt(event.target.value));
@@ -227,7 +227,7 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
             {intl.formatMessage({ id: 'airdrop.calculator.monthlyReward' })}
           </h3>
           <p className="text-orange-500 text-lg font-bold">
-            $ {isLoading || isLoadingHolders || isLoadingTreasury ? '...' : monthlyRewardUsd.toFixed(2)}
+            $ {isLoading || isLoadingHolders || isLoadingTreasury ? '...' : monthlyRewardUSD.toFixed(2)}
           </p>
         </div>
         
