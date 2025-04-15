@@ -39,6 +39,8 @@ const messages: Messages = {
   "header.featureRequest.description": "Suggest new features for DexKit",
   "header.whiteLabel.description": "Request custom white label solutions",
   'header.hireADev': 'Hire a Dev',
+  'header.airdrop': 'Airdrop',
+  'header.airdrop.description': 'Information about DexKit airdrop',
     
 
   // Footer
@@ -276,10 +278,6 @@ const messages: Messages = {
   'ourTeam.role7': 'Community Developer',
   'ourTeam.title7': 'Crypto Trader',
   'ourTeam.bio7': 'Super Based Queen is a community developer and crypto trader with few years of experience supporting innovative projects, including her own (SKI MASK TANG CAT), aimed to help animals in need. Her proactive and flexible approach allows her to adapt to different projects, providing creativity and efficiency. She currently collaborates with the team in social media and community growth.',
-  'ourTeam.role8': 'Community Developer',
-  'ourTeam.title8': 'Crypto Trader',
-  'ourTeam.bio8': 'Will, also known as "ScamKiller," is a prominent Brazilian crypto caller with an organic community of 1,700 members and over two years of experience in the crypto space. He first gained recognition as an admin at IvipCoin, where he built a strong reputation before transitioning into a career in marketing. Now, Will is leveraging his expertise to drive DexKit’s growth, focusing on Portuguese and Brazilian marketing strategies to expand our reach in these key markets.',
-
 
   
   // Mission, Vision and Values
@@ -616,7 +614,7 @@ const messages: Messages = {
   'terms.intellectualPropertyRights.content5': 'DexKit brands, logos, and content are copyright protected and cannot be used without authorization.',
 
   // Hire a Dev
-  'hireADev.title': 'Hire a Developer | DexKit',
+  'hireADev.title': 'Hire a Developer',
   'hireADev.description': 'Need help with your blockchain project? Our experienced developers can help you build custom solutions, integrate DexKit tools, or develop entirely new applications.',
   'hireADev.intro': 'Need help with your blockchain project? Our experienced developers can help you build custom solutions, integrate DexKit tools, or develop entirely new applications.',
   'hireADev.services.title': 'Our Services',
@@ -688,6 +686,43 @@ const messages: Messages = {
   'hireADev.services.completeProject.title': 'Complete Project Development',
   'hireADev.services.completeProject.desc': 'Full project creation including social media, NextJS 15 landing page with latest technologies, Telegram bot with AI learning for knowledge base contextualization, Discord server setup (if needed), and all previous services.',
   'hireADev.services.completeProject.price': '10,000 USD',
+
+  // Airdrop
+  'airdrop.title': 'Airdrop',
+  'airdrop.subtitle': 'Learn about DexKit token distribution',
+  'airdrop.description': 'Get information about DexKit airdrop program and token distribution',
+  'airdrop.treasuryBalance': 'Treasury Balance',
+  'airdrop.treasuryAddress': 'Treasury Address',
+  'airdrop.totalUsdValue': 'Total Value',
+  'airdrop.viewOnExplorer': 'View on Explorer',
+  'airdrop.balance': 'Balance',
+  'airdrop.value': 'Value',
+  'airdrop.rewards.title': 'Rewards Calculator',
+  'airdrop.polygonTreasuryBalance': 'Polygon Treasury Balance',
+  'airdrop.polygonNotice': 'We only display KIT balances on the Polygon network.',
+  'airdrop.totalHolders': 'Total Holders',
+  'airdrop.totalCirculatingKit': 'KIT in holders hands',
+  'airdrop.rewardsRatio': 'Rewards Ratio',
+
+  // Airdrop Calculator
+  'airdrop.calculator.title': 'Estimate your rewards',
+  'airdrop.calculator.youStake': 'You hold',
+  'airdrop.calculator.kitPrice': 'KIT price',
+  'airdrop.calculator.monthlyReward': 'Each Month',
+  'airdrop.calculator.annualReward': 'Annual reward',
+  'airdrop.calculator.description': 'Hold KIT on any supported network to receive automatic monthly rewards. Maximum rewards are reached with 10,000 KIT.',
+  'airdrop.calculator.howCalculated': 'How are rewards calculated?',
+  'airdrop.calculator.hint.limit': 'Maximum rewards are reached with 10,000 KIT.',
+  'airdrop.calculator.hint.monthly': 'Each month 0.42% of the treasury balance is distributed (5% annually).',
+  'airdrop.calculator.hint.ratio': 'Your reward is calculated based on your proportion of KIT relative to the total circulating supply.',
+  'airdrop.calculator.hint.automatic': 'Rewards are automatically delivered to all holders.',
+
+  // Buy Kit Button
+  'buyKit.button': 'Buy KIT',
+  'buyKit.selectNetwork': 'Select a network',
+
+
+
 };
 
 export default messages;

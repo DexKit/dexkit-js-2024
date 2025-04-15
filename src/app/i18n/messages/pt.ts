@@ -40,6 +40,8 @@ const messages: Messages = {
   "header.featureRequest.description": "Sugira novos recursos para o DexKit",
   "header.whiteLabel.description": "Solicite soluções personalizadas de marca branca",
   'header.hireADev': 'Contratar um Dev',
+  'header.airdrop': 'Airdrop',
+  'header.airdrop.description': 'Informações sobre o airdrop da DexKit',
 
   // Footer
   'footer.newsletter.title': 'Boletim informativo',
@@ -292,9 +294,6 @@ const messages: Messages = {
   'ourTeam.role7': 'Desenvolvedora comunitária',
   'ourTeam.title7': 'Crypto Trader',
   'ourTeam.bio7': 'Super Based Queen é uma desenvolvedora comunitária e trader de criptomoedas com alguns anos de experiência apoiando projetos inovadores, incluindo seu próprio (SKI MASK TANG CAT), cujo objetivo é ajudar animais em necessidade. Seu enfoque proativo e flexível permite adaptá-lo a diferentes projetos, fornecendo criatividade e eficiência. Atualmente colabora com o time em redes sociais e crescimento da comunidade.',
-  'ourTeam.role8': 'Desenvolvedor comunitário',
-  'ourTeam.title8': 'Trader de criptomoedas',
-  'ourTeam.bio8': 'Will, também conhecido como "ScamKiller", é um trader de criptomoedas proeminente do Brasil com uma comunidade organizada de 1,700 membros e mais de dois anos de experiência no espaço crypto. Ele primeiro ganhou reconhecimento como administrador no IvipCoin, onde construiu uma reputação forte antes de se tornar um profissional em marketing. Agora, Will está utilizando sua experiência para impulsionar o crescimento do DexKit, focando em estratégias de marketing português e brasileiras para expandir nosso alcance em estes mercados chave.',
 
   // Mission, vision and values
   'missionVisionValues.title': 'Missão, Visão e Valores',
@@ -673,6 +672,40 @@ const messages: Messages = {
   'captcha.verify': 'Verificar',
   'captcha.verified': 'Verificação correta',
   'captcha.error': 'Resposta incorreta. Por favor, tente novamente.', 
+
+  // Airdrop
+  'airdrop.title': 'Airdrop',
+  'airdrop.subtitle': 'Aprenda sobre a distribuição de tokens da DexKit',
+  'airdrop.description': 'Obtenha informações sobre o programa de airdrop da DexKit e a distribuição de tokens',
+  'airdrop.treasuryBalance': 'Saldo da Tesouraria',
+  'airdrop.treasuryAddress': 'Endereço da Tesouraria',
+  'airdrop.totalUsdValue': 'Valor Total',
+  'airdrop.viewOnExplorer': 'Ver no Explorer',
+  'airdrop.balance': 'Saldo',
+  'airdrop.value': 'Valor',
+  'airdrop.rewards.title': 'Calculadora de Recompensas',
+  'airdrop.polygonTreasuryBalance': 'Saldo do Tesouro do Polygon',
+  'airdrop.polygonNotice': 'Apenas exibimos saldos de KIT na rede Polygon.',
+  'airdrop.totalHolders': 'Total de Holders',
+  'airdrop.rewardsRatio': 'Razão de Recompensas',
+  'airdrop.totalCirculatingKit': 'KIT em mãos dos holders',
+
+  // Airdrop Calculator
+  'airdrop.calculator.title': 'Calcule suas recompensas',
+  'airdrop.calculator.youStake': 'Você tem',
+  'airdrop.calculator.kitPrice': 'Preço KIT',
+  'airdrop.calculator.monthlyReward': 'Cada Mês',
+  'airdrop.calculator.annualReward': 'Recompensa anual',
+  'airdrop.calculator.description': 'Mantenha KIT em qualquer rede suportada para receber recompensas mensais automáticas. O máximo de recompensas é alcançado com 10.000 KIT.',
+  'airdrop.calculator.howCalculated': 'Como as recompensas são calculadas?',
+  'airdrop.calculator.hint.limit': 'O máximo de recompensas é alcançado com 10.000 KIT.',
+  'airdrop.calculator.hint.monthly': 'Cada mês, 0,42% do saldo da tesouraria (5% anualmente) é distribuído.',
+  'airdrop.calculator.hint.ratio': 'Sua recompensa é calculada com base na sua proporção de KIT em relação ao total circulante.',
+  'airdrop.calculator.hint.automatic': 'As recompensas são entregues automaticamente a todos os holders.',
+
+  // Buy Kit Button
+  'buyKit.button': 'Comprar KIT',
+  'buyKit.selectNetwork': 'Selecione uma rede',
 };
 
 export default messages;

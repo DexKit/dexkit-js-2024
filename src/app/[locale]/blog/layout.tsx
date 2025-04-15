@@ -6,9 +6,6 @@ export async function generateMetadata(props: { params: Promise<{ locale: string
   const locale = params.locale as keyof typeof messages;
   const localeMessages = messages[locale] || messages.en;
 
-  console.log('Generating metadata for blog');
-  console.log('Blog title:', localeMessages['blog.title']);
-
   return {
     title: localeMessages['blog.title'],
     description: localeMessages['blog.description'],
