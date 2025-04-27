@@ -47,6 +47,6 @@ Despite its many benefits, there are also some potential risks associated with c
 
 **Crypto staking** represents a revolutionary concept that offers numerous benefits for users looking to **earn passive income, promote network security, and support sustainable digital currency practices**. However, it is not without its risks, and users should carefully consider these factors before committing funds to a staking pool. By doing so, you can make an informed decision about whether crypto staking is the right choice for your needs.
 
-### DexGenerator: Hand in hand with token staking
+### DexContracts: Hand in hand with token staking
 
-DexGenerator, a no-code/low-code solution integrated into the DexAppBuilder platform, **ensures compatibility with token staking**, allowing creators to infuse liquidity into their emerging tokens right from the outset. Ready to experience the simplicity of DexGenerator and enhance your token creation journey? Explore DexGenerator [here](https://dexappbuilder.dexkit.com/forms/contracts/create)!
+DexContracts, a no-code/low-code solution integrated into the DexAppBuilder platform, **ensures compatibility with token staking**, allowing creators to infuse liquidity into their emerging tokens right from the outset. Ready to experience the simplicity of DexContracts and enhance your token creation journey? Explore DexContracts [here](https://dexappbuilder.dexkit.com/forms/contracts/create)!

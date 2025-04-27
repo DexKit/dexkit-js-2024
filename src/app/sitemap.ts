@@ -17,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { route: '/dexappbuilder', priority: 0.9, changefreq: 'monthly' as const },
     { route: '/dexswap', priority: 0.8, changefreq: 'monthly' as const },
     { route: '/dexexchangepro', priority: 0.8, changefreq: 'monthly' as const },
-    { route: '/dexgenerator', priority: 0.8, changefreq: 'monthly' as const },
+    { route: '/dexcontracts', priority: 0.8, changefreq: 'monthly' as const },
     { route: '/dexwallet', priority: 0.8, changefreq: 'monthly' as const },
     { route: '/dexnftmarket', priority: 0.8, changefreq: 'monthly' as const },
     { route: '/dexnftstore', priority: 0.8, changefreq: 'monthly' as const },

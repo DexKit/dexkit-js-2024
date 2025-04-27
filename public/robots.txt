@@ -11,7 +11,7 @@ Allow: /pt/blog/
 
 Allow: /dexappbuilder
 Allow: /dexexchangepro
-Allow: /dexgenerator
+Allow: /dexcontracts
 Allow: /dexnftmarket
 Allow: /dexnftstore
 Allow: /dexswap

@@ -47,6 +47,6 @@ Apesar dos seus muitos benefícios, existem também alguns riscos potenciais ass
 
 **Staking de criptografia** representa um conceito revolucionário que oferece inúmeros benefícios para usuários que buscam **ganhar renda passiva, promover segurança de rede e apoiar práticas sustentáveis ​​de moeda digital**. No entanto, não está isento de riscos, e os utilizadores devem considerar cuidadosamente estes factores antes de comprometerem fundos para um pool de apostas. Ao fazer isso, você pode tomar uma decisão informada sobre se o staking de criptografia é a escolha certa para suas necessidades.
 
-### DexGenerator: De mãos dadas com o piqueteamento de tokens
+### DexContracts: De mãos dadas com o piqueteamento de tokens
 
-DexGenerator, uma solução sem código/low-code integrada à plataforma DexAppBuilder, **garante compatibilidade com piquetagem de tokens**, permitindo que os criadores infundam liquidez em seus tokens emergentes desde o início. Pronto para experimentar a simplicidade do DexGenerator e aprimorar sua jornada de criação de tokens? Explore o DexGenerator [aqui](https://dexappbuilder.dexkit.com/forms/contracts/create)!
+DexContracts, uma solução sem código/low-code integrada à plataforma DexAppBuilder, **garante compatibilidade com piquetagem de tokens**, permitindo que os criadores infundam liquidez em seus tokens emergentes desde o início. Pronto para experimentar a simplicidade do DexContracts e aprimorar sua jornada de criação de tokens? Explore o DexContracts [aqui](https://dexappbuilder.dexkit.com/forms/contracts/create)!

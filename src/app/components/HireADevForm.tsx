@@ -113,7 +113,7 @@ function HireADevFormContent() {
         { name: 'DexExchangePro', url: '/dexexchangepro' },
         { name: 'DexNFTMarket', url: '/dexnftmarket' },
         { name: 'DexNFTStore', url: '/dexnftstore' },
-        { name: 'DexGenerator', url: '/dexgenerator' }
+        { name: 'DexContracts', url: '/dexcontracts' }
       ]
     },
     {
@@ -138,7 +138,7 @@ function HireADevFormContent() {
         { name: 'DexExchangePro', url: '/dexexchangepro' },
         { name: 'DexNFTMarket', url: '/dexnftmarket' },
         { name: 'DexNFTStore', url: '/dexnftstore' },
-        { name: 'DexGenerator', url: '/dexgenerator' },
+        { name: 'DexContracts', url: '/dexcontracts' },
         { name: 'Gated Content', url: 'https://docs.dexkit.com/defi-products/dexappbuilder/managing-this-tool/gated-content' },
         { name: 'Gamification', url: 'https://docs.dexkit.com/defi-products/dexappbuilder/leaderboards' }
       ]
@@ -167,7 +167,7 @@ function HireADevFormContent() {
         { name: 'DexExchangePro', url: '/dexexchangepro' },
         { name: 'DexNFTMarket', url: '/dexnftmarket' },
         { name: 'DexNFTStore', url: '/dexnftstore' },
-        { name: 'DexGenerator', url: '/dexgenerator' }
+        { name: 'DexContracts', url: '/dexcontracts' }
       ],
       isPriority: true
     },

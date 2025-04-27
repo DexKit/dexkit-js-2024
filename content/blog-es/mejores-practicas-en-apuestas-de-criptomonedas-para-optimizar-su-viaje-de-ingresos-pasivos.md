@@ -60,7 +60,7 @@ Podrás elegir entre una amplia variedad de carteras hardware de varios precios 
 
 ### DexKit proporciona contratos de participación fáciles de usar
 
-Usando [DexGenerator](https://dexappbuilder.dexkit.com/forms/contracts/create), los usuarios podrán crear contratos de participación para cualquier par de tokens utilizando contratos integrados de [Thirdweb](https://thirdweb.com/), que son de código abierto, seguros y eficientes.
+Usando [DexContracts](https://dexappbuilder.dexkit.com/forms/contracts/create), los usuarios podrán crear contratos de participación para cualquier par de tokens utilizando contratos integrados de [Thirdweb](https://thirdweb.com/), que son de código abierto, seguros y eficientes.
 
 ### Manténgase informado
 

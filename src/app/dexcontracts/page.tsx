@@ -5,13 +5,13 @@ import { FormattedMessage, useIntl } from 'react-intl';
 import Link from 'next/link';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
-export default function DexGenerator() {
+export default function DexContracts() {
     const [activeTab, setActiveTab] = useState('description');
     const [isMobile, setIsMobile] = useState(false);
     const intl = useIntl();
 
     useEffect(() => {
-        const productTitle = intl.formatMessage({ id: 'product.dexgenerator.title' });
+        const productTitle = intl.formatMessage({ id: 'product.dexcontracts.title' });
         document.title = `${productTitle} | DexKit`;
 
         const handleResize = () => {
@@ -27,27 +27,27 @@ export default function DexGenerator() {
     }, [intl]);
 
     const requirements = [
-        'dexgenerator.requirements.metamask',
-        'dexgenerator.requirements.gasFees',
-        'dexgenerator.requirements.artPieces',
-        'dexgenerator.requirements.aiGenerated',
-        'dexgenerator.requirements.aiCompletion'
+        'dexcontracts.requirements.metamask',
+        'dexcontracts.requirements.gasFees',
+        'dexcontracts.requirements.artPieces',
+        'dexcontracts.requirements.aiGenerated',
+        'dexcontracts.requirements.aiCompletion'
     ];
 
     const limitations = [
-        'dexgenerator.limitations.mintingLimit',
-        'dexgenerator.limitations.imageSize'
+        'dexcontracts.limitations.mintingLimit',
+        'dexcontracts.limitations.imageSize'
     ];
 
     const futureUpdates = [
-        'dexgenerator.futureUpdates.moreNetworks',
-        'dexgenerator.futureUpdates.increaseMinting',
-        'dexgenerator.futureUpdates.communityRequests'
+        'dexcontracts.futureUpdates.moreNetworks',
+        'dexcontracts.futureUpdates.increaseMinting',
+        'dexcontracts.futureUpdates.communityRequests'
     ];
 
     const tutorials = [
-        { titleId: "dexgenerator.tutorials.firstCollection", url: "https://docs.dexkit.com/defi-products/dexgenerator/creating-my-first-collection" },
-        { titleId: "dexgenerator.tutorials.thirdwebContracts", url: "https://youtube.com/playlist?list=PLue98kEkVwiuKad1hQs11rWiGUkyl0nq5" }
+        { titleId: "dexcontracts.tutorials.firstCollection", url: "https://docs.dexkit.com/defi-products/dexcontracts/creating-my-first-collection" },
+        { titleId: "dexcontracts.tutorials.thirdwebContracts", url: "https://youtube.com/playlist?list=PLue98kEkVwiuKad1hQs11rWiGUkyl0nq5" }
     ];
 
     return (
@@ -56,11 +56,11 @@ export default function DexGenerator() {
           <div className="container mx-auto px-4 max-w-5xl">
             <div className="flex flex-col md:flex-row items-center justify-between">
               <h1 className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-0 ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>
-                <FormattedMessage id="dexgenerator.title" defaultMessage="DexGenerator" />
+                <FormattedMessage id="dexcontracts.title" defaultMessage="DexContracts" />
               </h1>
               <p className={`text-base sm:text-lg md:text-xl ${isMobile ? 'w-full' : 'md:w-1/2'} text-center md:text-left`}>
                 <FormattedMessage 
-                  id="dexgenerator.subtitle" 
+                  id="dexcontracts.subtitle" 
                   defaultMessage="Create and deploy NFT collections with ease, no coding required."
                 />
               </p>
@@ -78,7 +78,7 @@ export default function DexGenerator() {
                       onClick={() => setActiveTab(tab)} 
                       className={`text-sm sm:text-base ${activeTab === tab ? 'text-orange-500' : 'text-gray-600'}`}
                     >
-                      {intl.formatMessage({ id: `dexgenerator.tabs.${tab}` })}
+                      {intl.formatMessage({ id: `dexcontracts.tabs.${tab}` })}
                     </button>
                   </li>
                 ))}
@@ -89,23 +89,23 @@ export default function DexGenerator() {
               <section id="description" className={`py-4 ${activeTab !== 'description' ? 'hidden' : ''}`}>
                 <p className="mb-4 text-sm sm:text-base md:text-lg">
                   <FormattedMessage 
-                    id="dexgenerator.description.paragraph1" 
-                    defaultMessage="DexGenerator is a powerful tool that allows you to create and deploy NFT collections without any coding knowledge. With an intuitive interface, you can upload your artwork, set collection parameters, and deploy directly to the blockchain."
+                    id="dexcontracts.description.paragraph1" 
+                    defaultMessage="DexContracts is a powerful tool that allows you to create and deploy NFT collections without any coding knowledge. With an intuitive interface, you can upload your artwork, set collection parameters, and deploy directly to the blockchain."
                   />
                 </p>
                 <p className="mb-4 text-sm sm:text-base md:text-lg">
                   <FormattedMessage 
-                    id="dexgenerator.description.paragraph2" 
-                    defaultMessage="This solution supports various NFT standards and blockchain networks, making it accessible to creators regardless of their technical expertise. DexGenerator streamlines the process of bringing your digital art to the blockchain market."
+                    id="dexcontracts.description.paragraph2" 
+                    defaultMessage="This solution supports various NFT standards and blockchain networks, making it accessible to creators regardless of their technical expertise. DexContracts streamlines the process of bringing your digital art to the blockchain market."
                   />
                 </p>
                 <Link 
-                  href="https://docs.dexkit.com/defi-products/dexgenerator/overview" 
+                  href="https://docs.dexkit.com/defi-products/dexcontracts/overview" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-orange-500 hover:underline text-sm sm:text-base"
                 >
-                  <FormattedMessage id="dexgenerator.overviewLink" defaultMessage="Learn more about DexGenerator" />
+                  <FormattedMessage id="dexcontracts.overviewLink" defaultMessage="Learn more about DexContracts" />
                 </Link>
               </section>
 
@@ -165,7 +165,7 @@ export default function DexGenerator() {
                 className="inline-flex items-center bg-orange-400 text-black py-2 px-4 sm:px-6 rounded hover:bg-orange-500 transition duration-300 text-sm sm:text-base md:text-lg"
               >
                 <FaExternalLinkAlt className="mr-2" />
-                {intl.formatMessage({ id: "dexgenerator.openSolution" })}
+                {intl.formatMessage({ id: "dexcontracts.openSolution" })}
               </Link>
             </div>
           </div>

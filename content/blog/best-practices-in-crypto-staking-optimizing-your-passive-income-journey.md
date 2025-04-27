@@ -57,7 +57,7 @@ You can choose from a wide variety of hardware wallets of various prices and fin
 
 ### DexKit provides easy-to-use staking contracts
 
-Using [DexGenerator](https://dexappbuilder.dexkit.com/forms/contracts/create), users will be able to create staking contracts for any pair of tokens using the default built-in [Thirdweb](https://thirdweb.com/) templates, which are open source, secure and efficient.
+Using [DexContracts](https://dexappbuilder.dexkit.com/forms/contracts/create), users will be able to create staking contracts for any pair of tokens using the default built-in [Thirdweb](https://thirdweb.com/) templates, which are open source, secure and efficient.
 
 ### Stay Informed
 
