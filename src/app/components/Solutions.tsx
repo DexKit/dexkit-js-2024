@@ -7,7 +7,7 @@ export default function Solutions() {
   const solutions = [
     'dexnftmarket',
     'dexnftstore',
-    'dexgenerator',
+    'dexcontracts',
     'dexswap',
     'dexexchangepro',
     'dexwallet'

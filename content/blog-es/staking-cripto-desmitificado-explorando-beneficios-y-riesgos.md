@@ -47,6 +47,6 @@ A pesar de sus numerosos beneficios, también existen algunos riesgos potenciale
 
 **Crypto staking** representa un concepto revolucionario que ofrece numerosos beneficios para los usuarios que buscan **obtener ingresos pasivos, promover la seguridad de la red y respaldar prácticas sostenibles de moneda digital**. Sin embargo, no está exento de riesgos y los usuarios deben considerar cuidadosamente estos factores antes de comprometer fondos en un grupo de staking. Al hacerlo, podrá tomar una decisión informada sobre si el staking de criptomonedas son la opción correcta para sus necesidades.
 
-### DexGenerator: De la mano del token staking
+### DexContracts: De la mano del token staking
 
-DexGenerator, una solución sin código/bajo código integrada en la plataforma DexAppBuilder, **garantiza la compatibilidad con el staking de tokens**, lo que permite a los creadores infundir liquidez en sus tokens emergentes desde el principio. ¿Listo para experimentar la simplicidad de DexGenerator y mejorar su proceso de creación de tokens? ¡Explore DexGenerator [aquí](https://dexappbuilder.dexkit.com/forms/contracts/create)!
+DexContracts, una solución sin código/bajo código integrada en la plataforma DexAppBuilder, **garantiza la compatibilidad con el staking de tokens**, lo que permite a los creadores infundir liquidez en sus tokens emergentes desde el principio. ¿Listo para experimentar la simplicidad de DexContracts y mejorar su proceso de creación de tokens? ¡Explore DexContracts [aquí](https://dexappbuilder.dexkit.com/forms/contracts/create)!

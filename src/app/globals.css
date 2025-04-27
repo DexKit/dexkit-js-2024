@@ -18,17 +18,7 @@
 }
 
 .hire-dev-button {
-  @apply relative overflow-hidden transition-all duration-300 transform hover:scale-105 hover:shadow-lg;
-}
-
-.hire-dev-button::before {
-  content: '';
-  @apply absolute inset-0 bg-gradient-to-r from-orange-400 to-purple-600 opacity-0 transition-opacity duration-300;
-  z-index: -1;
-}
-
-.hire-dev-button:hover::before {
-  @apply opacity-100;
+  @apply transition-all duration-300 transform hover:scale-105 hover:shadow-lg;
 }
 
 @keyframes soft-pulse {

@@ -466,7 +466,7 @@
                     └── page.tsx
                 └── 📁dexexchangepro
                     └── page.tsx
-                └── 📁dexgenerator
+                └── 📁dexcontracts
                     └── page.tsx
                 └── 📁dexnftmarket
                     └── page.tsx
@@ -531,7 +531,7 @@
                 └── page.tsx
             └── 📁dexexchangepro
                 └── page.tsx
-            └── 📁dexgenerator
+            └── 📁dexcontracts
                 └── page.tsx
             └── 📁dexnftmarket
                 └── page.tsx

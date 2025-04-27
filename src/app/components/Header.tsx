@@ -94,7 +94,7 @@ export default function Header() {
         { name: 'DexSwap', href: '/dexswap', external: false, description: intl.formatMessage({ id: "product.dexswap.description" }) },
         { name: 'DexNFTMarket', href: '/dexnftmarket', external: false, description: intl.formatMessage({ id: "product.dexnftmarket.description" }) },
         { name: 'DexNFTStore', href: '/dexnftstore', external: false, description: intl.formatMessage({ id: "product.dexnftstore.description" }) },
-        { name: 'DexGenerator', href: '/dexgenerator', external: false, description: intl.formatMessage({ id: "product.dexgenerator.description" }) },
+        { name: 'DexContracts', href: '/dexcontracts', external: false, description: intl.formatMessage({ id: "product.dexcontracts.description" }) },
         { name: 'DexWallet', href: '/dexwallet', external: false, description: intl.formatMessage({ id: "product.dexwallet.description" }) },
         { name: 'DexExchangePro', href: '/dexexchangepro', external: false, description: intl.formatMessage({ id: "product.dexexchangepro.description" }) },
       ]
@@ -154,10 +154,9 @@ export default function Header() {
             <div className="flex items-center">
               <LocalizedLink 
                 href="/hire-a-dev" 
-                className="hire-dev-button bg-orange-400 text-black px-3 py-1 rounded-lg font-semibold flex items-center mr-3 text-xs group whitespace-nowrap"
+                className="hire-dev-button bg-orange-400 hover:bg-gradient-to-r hover:from-purple-600 hover:to-orange-400 text-black hover:text-white px-3 py-1 rounded-lg font-semibold flex items-center mr-3 text-xs whitespace-nowrap transition-all duration-300"
               >
-                <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-full bg-gradient-to-r from-purple-600 to-orange-400 group-hover:translate-x-0 rounded-lg"></span>
-                <span className="relative flex items-center whitespace-nowrap w-full justify-center">
+                <span className="flex items-center whitespace-nowrap w-full justify-center">
                   <FormattedMessage id="header.hireADev" defaultMessage="Hire a Dev" />
                 </span>
               </LocalizedLink>
@@ -218,10 +217,9 @@ export default function Header() {
               <div className="flex items-center">
                 <LocalizedLink 
                   href="/hire-a-dev" 
-                  className="hire-dev-button pulse-effect bg-orange-400 text-black px-5 py-2 rounded-lg font-semibold flex items-center mr-4 text-sm sm:text-base group whitespace-nowrap min-w-fit max-w-[180px] justify-center"
+                  className="hire-dev-button pulse-effect bg-orange-400 hover:bg-gradient-to-r hover:from-purple-600 hover:to-orange-400 text-black hover:text-white px-5 py-2 rounded-lg font-semibold flex items-center mr-4 text-sm sm:text-base whitespace-nowrap min-w-fit max-w-[180px] justify-center transition-all duration-300"
                 >
-                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-full bg-gradient-to-r from-purple-600 to-orange-400 group-hover:translate-x-0 rounded-lg"></span>
-                  <span className="relative flex items-center whitespace-nowrap w-full justify-center">
+                  <span className="flex items-center whitespace-nowrap w-full justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor">
                       <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z" />
                     </svg>

@@ -57,7 +57,7 @@ Você pode escolher entre uma grande variedade de carteiras de hardware de vári
 
 ### DexKit fornece contratos de piquetagem fáceis de usar
 
-Usando o [DexGenerator](https://dexappbuilder.dexkit.com/forms/contracts/create), os usuários poderão criar contratos de piquetagem para qualquer par de tokens usando o [Thirdweb](https://thirdweb) integrado padrão .com/), que são de código aberto, seguros e eficientes.
+Usando o [DexContracts](https://dexappbuilder.dexkit.com/forms/contracts/create), os usuários poderão criar contratos de piquetagem para qualquer par de tokens usando o [Thirdweb](https://thirdweb) integrado padrão .com/), que são de código aberto, seguros e eficientes.
 
 ### Mantenha-se informado
 
