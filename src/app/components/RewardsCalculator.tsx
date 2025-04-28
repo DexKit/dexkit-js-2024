@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useIntl } from 'react-intl';
-import { getKitPrice, getPolygonBalance } from '@/services/kitBalanceService';
+import { getKitPrice, getPolygonBalance } from '../../services/kitBalanceService';
 
 interface RewardsCalculatorProps {
   className?: string;
@@ -32,10 +32,10 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
   const [treasuryBalance, setTreasuryBalance] = useState<number>(0);
   const [isLoadingTreasury, setIsLoadingTreasury] = useState<boolean>(true);
   
-  const MAX_DISPLAY_AMOUNT = 12000;
+  const MAX_DISPLAY_AMOUNT = 10000;
   
   useEffect(() => {
-    const safeInitialAmount = Math.min(initialAmount || 1000, MAX_DISPLAY_AMOUNT);
+    const safeInitialAmount = Math.max(1000, Math.min(initialAmount || 1000, MAX_DISPLAY_AMOUNT));
     setKitAmount(safeInitialAmount);
   }, [initialAmount]);
   
@@ -134,22 +134,22 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
   }; */
 
   const calculateMonthlyRewardUSD = (amount: number): number => {
-
     return amount * rewardsRatio * kitPrice;
-
   }  
+
   const monthlyRewardUSD = calculateMonthlyRewardUSD(kitAmount);
   const annualRewardUSD = monthlyRewardUSD * 12;
   const annualRewardPercentage = kitAmount > 0 ? (annualRewardUSD / (kitAmount*kitPrice)) * 100 : 0;
   
   
   const handleSliderChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setKitAmount(parseInt(event.target.value));
+    const value = parseInt(event.target.value);
+    setKitAmount(Math.max(1000, Math.min(value, MAX_DISPLAY_AMOUNT)));
   };
   
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const value = parseInt(event.target.value) || 0;
-    setKitAmount(Math.min(value, MAX_DISPLAY_AMOUNT));
+    const value = parseInt(event.target.value) || 1000;
+    setKitAmount(Math.max(1000, Math.min(value, MAX_DISPLAY_AMOUNT)));
   };
   
   return (
@@ -167,7 +167,7 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
               value={kitAmount}
               onChange={handleInputChange}
               className="w-24 bg-transparent text-gray-800 font-bold text-right border-b border-gray-300 focus:outline-none focus:border-orange-500"
-              min="0"
+              min="1000"
               max={MAX_DISPLAY_AMOUNT}
             />
             <span className="ml-2 text-gray-800 font-bold">KIT</span>
@@ -177,7 +177,7 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
         <div className="relative mt-4">
           <input
             type="range"
-            min="0"
+            min="1000"
             max={MAX_DISPLAY_AMOUNT}
             value={kitAmount}
             onChange={handleSliderChange}
@@ -194,7 +194,7 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
           <div 
             className="absolute top-[-6px] h-4 w-4 rounded-full bg-white border-2 border-orange-500 cursor-pointer"
             style={{
-              left: `${(kitAmount / MAX_DISPLAY_AMOUNT) * 100}%`,
+              left: `${((kitAmount - 1000) / (MAX_DISPLAY_AMOUNT - 1000)) * 100}%`,
               transform: 'translateX(-50%)',
               boxShadow: '0 0 10px rgba(251, 146, 60, 0.5)',
               pointerEvents: 'none'
@@ -203,7 +203,7 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
         </div>
         
         <div className="flex justify-between text-gray-500 text-sm mt-1">
-          <span>0</span>
+          <span>1,000</span>
           <span>{MAX_DISPLAY_AMOUNT.toLocaleString()}</span>
         </div>
       </div>
