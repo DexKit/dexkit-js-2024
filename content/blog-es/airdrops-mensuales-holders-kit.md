@@ -1,6 +1,6 @@
 ---
 title: "Presentamos Airdrops Mensuales para Holders de KIT"
-date: '28 de Abril de 2025'
+date: '28 de abril de 2025'
 excerpt: >
   A partir de este mes, DexKit distribuirá automáticamente airdrops de tokens KIT cada 30 días, financiados por nuestra tesorería en Polygon, directamente a todos los holders elegibles. Descubre cómo calificar, calcular tus recompensas y empezar.
 category: Blog
@@ -8,51 +8,51 @@ slug: airdrops-mensuales-holders-kit
 imageUrl: /blog-images/airdrop-dashboard.png
 ---
 
-¡Estamos emocionados de anunciar el lanzamiento de **airdrops mensuales** para todos los holders de KIT elegibles! 🎉 Cada mes, **el 0,42 % de nuestra tesorería en Polygon** (equivalente a un APR del 5 %) se distribuirá automáticamente entre nuestra comunidad de holders — sin necesidad de reclamo.
+¡Estamos emocionados de anunciar el lanzamiento de **airdrops mensuales** para todos los holders de KIT elegibles! 🎉 Cada mes, una porción de la tesorería de DexKit en Polygon se distribuye automáticamente entre los holders —sin necesidad de reclamo.
 
-### ¿Por qué airdrops mensuales?
+### ¿Por qué Airdrops Mensuales?
 
-Nuestro objetivo es recompensar a quienes confían en DexKit a largo plazo, compartiendo el valor que acumulamos en nuestra tesorería. Con un 0,42 % mensual, conseguimos un equilibrio perfecto entre crecimiento sostenible y retornos generosos.
+Nuestro objetivo es recompensar a los seguidores a largo plazo compartiendo el valor acumulado en nuestra tesorería, proveniente de **tarifas de trading en Uniswap** y **comisiones por servicios**. Las recompensas mensuales varían dinámicamente según el crecimiento de la tesorería y la participación de la comunidad.
 
-### Cómo calificar
+### Cómo Calificar
 
-Para participar en estas distribuciones mensuales, solo necesitas:
+Para participar, solo necesitas:
 
-- **Mantener al menos 1 000 KIT**  
-- Las recompensas máximas se obtienen con **10 000 KIT**  
-- **Conservar tus KIT en cualquier red soportada** (Polygon, Ethereum, BNB Chain, Base o Arbitrum)
+- **Mantener al menos 1.000 KIT**  
+- Las recompensas máximas se calculan hasta **10.000 KIT**  
+- **Mantener tus KIT en cualquier red soportada** (Polygon, Ethereum, BNB Chain, Base o Arbitrum.)
 
-### Cálculo de tus recompensas
+### Calcula tus Recompensas
 
-Utiliza nuestra [Calculadora de Airdrops](https://dexkit.com/our-token/airdrop) para ver exactamente cuánto ganarás cada mes.
+Utiliza nuestra [Calculadora de Airdrops](https://dexkit.com/our-token/airdrop) para estimar tus ganancias mensuales y anuales.
 
-![Calculadora de recompensas](/blog-images/rewards-calc.png)
+![Calculadora de Recompensas](/blog-images/rewards-calc.png)
 
-Solo desliza la barra “Tienes” para ingresar tu saldo de KIT y observa cómo se actualizan tus recompensas mensuales y anuales en tiempo real.
+Solo ingresa tu saldo de KIT y el sistema calculará automáticamente tus recompensas basadas en el tamaño de la tesorería, el suministro circulante y el precio actual de mercado.
 
-### Ver la tesorería
+### Visualiza la Tesorería
 
-¿Te preguntas de dónde vienen los airdrops? Nuestra tesorería en Polygon es totalmente transparente:
+Nuestra tesorería en Polygon es 100% transparente:
 
 > **Dirección:**  
 > `0x65073B9BBb15Fec458eDa8c1646Fe443F606cB7b`  
 > [Ver en PolygonScan](https://polygonscan.com/address/0x65073B9BBb15Fec458eDa8c1646Fe443F606cB7b)
 
-### Cómo funciona bajo el capó
+### ¿Cómo Funciona?
 
-1. **Disparo de fin de mes**  
-   Un contrato inteligente gobernado calcula el 0,42 % del saldo actual de la tesorería.  
-2. **Distribución proporcional**  
-   El pool se reparte entre todos los holders según su participación en el suministro circulante total (con un mínimo de 1 000 KIT).  
-3. **Airdrop automático**  
-   Los tokens se envían directamente a tu wallet — sin reclamo manual ni coste de gas.
+1. **Crecimiento de la Tesorería**  
+   A través de comisiones de trading y servicios.
+2. **Cálculo Dinámico**  
+   Las recompensas se calculan en proporción a tu participación del KIT circulante.
+3. **Distribución Automática**  
+   Los tokens se envían directamente a tu wallet —sin necesidad de reclamo manual ni pagar gas.
 
-### Cómo empezar
+### ¿Cómo Empezar?
 
 1. **Compra KIT** usando el botón “Buy KIT” en nuestra plataforma.  
-2. **Mantén un mínimo de 1 000 KIT** en cualquier red soportada.  
-3. **Relájate** y recibe tus recompensas al final de cada mes. 🚀
+2. **Mantén al menos 1.000 KIT** en cualquier red soportada.  
+3. **Relájate** y recibe tus recompensas cada mes. 🚀
 
 ---
 
-*¿Preguntas o comentarios?* Escríbenos en nuestro [Discord](https://discord.com/invite/dexkit-official-943552525217435649) o en [Telegram](https://t.me/dexkit).  
+*¿Preguntas o comentarios?* Únete a nuestro [Discord](https://discord.com/invite/dexkit-official-943552525217435649) o a nuestro [Telegram](https://t.me/dexkit).
