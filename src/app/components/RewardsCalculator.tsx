@@ -9,15 +9,13 @@ interface RewardsCalculatorProps {
   initialAmount?: number;
 }
 
-const HOLDERS_DATA_URL = 'https://raw.githubusercontent.com/DexKit/scripts-for-airdrop/refs/heads/main/mapped_holders.json';
+const METADATA_URL = 'https://raw.githubusercontent.com/DexKit/scripts-for-airdrop/refs/heads/main/monthly_airdrops/metadata_5.json';
 const TREASURY_ADDRESS = '0x65073B9BBb15Fec458eDa8c1646Fe443F606cB7b';
 
-interface Holder {
-  owner_address: string;
-  balance: string;
-  balance_formatted: string;
-  airdrop: string;
-  airdrop_formatted: string;
+interface MetadataResponse {
+  total_holders: number;
+  total_kit: number;
+  ratio_per_kit: number;
 }
 
 const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initialAmount = 20000 }) => {
@@ -26,9 +24,9 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
   const [kitPrice, setKitPrice] = useState<number>(0.05);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [totalHolders, setTotalHolders] = useState<number>(0);
-  const [isLoadingHolders, setIsLoadingHolders] = useState<boolean>(true);
+  const [isLoadingMetadata, setIsLoadingMetadata] = useState<boolean>(true);
   const [totalCirculatingKIT, setTotalCirculatingKIT] = useState<number>(0);
-  const [rewardsRatio, setRewardsRatio] = useState<number>(0);
+  const [ratioPerKit, setRatioPerKit] = useState<number>(0);
   const [treasuryBalance, setTreasuryBalance] = useState<number>(0);
   const [isLoadingTreasury, setIsLoadingTreasury] = useState<boolean>(true);
   
@@ -76,65 +74,35 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
   }, []);
   
   useEffect(() => {
-    const fetchHoldersData = async () => {
+    const fetchMetadata = async () => {
       try {
-        setIsLoadingHolders(true);
-        const response = await fetch(HOLDERS_DATA_URL);
+        setIsLoadingMetadata(true);
+        const response = await fetch(METADATA_URL);
         if (!response.ok) {
-          throw new Error('Cannot load holders data');
+          throw new Error('Cannot load metadata');
         }
-        const holders: Holder[] = await response.json();
-        const validHolders = holders.filter(holder => 
-          parseFloat(holder.balance_formatted) > 5
-        );
+        const metadata: MetadataResponse = await response.json();
         
-        setTotalHolders(validHolders.length);
-        
-        const totalKitCirculating = validHolders.reduce((sum, holder) => 
-          sum + parseFloat(holder.balance_formatted), 0);
-
-        console.log(totalCirculatingKIT)
-        setTotalCirculatingKIT(totalKitCirculating);
-        
-        if (treasuryBalance > 0 && totalKitCirculating > 0) {
-          const ratio = treasuryBalance / totalKitCirculating;
-          console.log('Cálculo de ratio:', {
-            treasuryBalance,
-            totalKitCirculating,
-            ratio
-          });
-          setRewardsRatio(ratio);
-        }
+        setTotalHolders(metadata.total_holders);
+        setTotalCirculatingKIT(metadata.total_kit);
+        setRatioPerKit(metadata.ratio_per_kit);
         
       } catch (error) {
-        console.error('Error loading holders data:', error);
+        console.error('Error loading metadata:', error);
       } finally {
-        setIsLoadingHolders(false);
+        setIsLoadingMetadata(false);
       }
     };
     
-    fetchHoldersData();
-  }, [treasuryBalance]);
-  
-  /* const calculateMonthlyReward = (amount: number): number => {
-    const cappedAmount = Math.min(amount, 10000);
-    
-    if (isLoadingHolders || isLoadingTreasury || rewardsRatio === 0 || treasuryBalance === 0) {
-      const fallbackReward = (cappedAmount / 10000) * 500;
-      return Math.min(fallbackReward, 500);
-    }
-    
-    const monthlyTreasuryDistribution = (treasuryBalance * 0.05) / 12;
-    
-    const userRatio = cappedAmount / totalCirculatingKIT;
-    const userReward = monthlyTreasuryDistribution * userRatio;
-    
-    const maxReward = (treasuryBalance * 0.05) / 12 / 10;
-    return Math.min(userReward, maxReward);
-  }; */
+    fetchMetadata();
+  }, []);
+
+  const calculateMonthlyRewardKIT = (amount: number): number => {
+    return amount * ratioPerKit;
+  }
 
   const calculateMonthlyRewardUSD = (amount: number): number => {
-    return amount * rewardsRatio * kitPrice;
+    return calculateMonthlyRewardKIT(amount) * kitPrice;
   }  
 
   const monthlyRewardUSD = calculateMonthlyRewardUSD(kitAmount);
@@ -227,7 +195,7 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
             {intl.formatMessage({ id: 'airdrop.calculator.monthlyReward' })}
           </h3>
           <p className="text-orange-500 text-lg font-bold">
-            $ {isLoading || isLoadingHolders || isLoadingTreasury ? '...' : monthlyRewardUSD.toFixed(2)}
+            $ {isLoading || isLoadingMetadata ? '...' : monthlyRewardUSD.toFixed(2)}
           </p>
         </div>
         
@@ -236,7 +204,7 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
             {intl.formatMessage({ id: 'airdrop.calculator.annualReward' })}
           </h3>
           <p className="text-orange-500 text-xl font-bold">
-            {isLoading || isLoadingHolders || isLoadingTreasury ? '...' : `${annualRewardPercentage.toFixed(2)}%`}
+            {isLoading || isLoadingMetadata ? '...' : `${annualRewardPercentage.toFixed(2)}%`}
           </p>
         </div>
       </div>
@@ -247,7 +215,7 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
             {intl.formatMessage({ id: 'airdrop.totalHolders' })}:
           </h3>
           <p className="text-blue-700 font-bold">
-            {isLoadingHolders ? (
+            {isLoadingMetadata ? (
               <span className="animate-pulse">...</span>
             ) : (
               totalHolders.toLocaleString()
@@ -275,7 +243,7 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
               {intl.formatMessage({ id: 'airdrop.totalCirculatingKit' }) || 'KIT in holders hands'}:
             </h3>
             <p className="text-green-700 font-bold text-sm sm:text-base break-all">
-              {isLoadingHolders ? (
+              {isLoadingMetadata ? (
                 <span className="animate-pulse">...</span>
               ) : (
                 totalCirculatingKIT.toLocaleString()
@@ -287,10 +255,10 @@ const RewardsCalculator: React.FC<RewardsCalculatorProps> = ({ className, initia
               {intl.formatMessage({ id: 'airdrop.rewardsRatio' }) || 'Rewards Ratio'}:
             </h3>
             <p className="text-green-700 font-bold text-sm sm:text-base break-all">
-              {isLoadingHolders || isLoadingTreasury ? (
+              {isLoadingMetadata ? (
                 <span className="animate-pulse">...</span>
               ) : (
-                `${rewardsRatio.toFixed(6)}`
+                `${ratioPerKit.toFixed(6)}`
               )}
             </p>
           </div>

@@ -4,9 +4,42 @@
         <description><![CDATA[Latest posts from DexKit Blog in English, Spanish, and Portuguese]]></description>
         <link>https://dexkit.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 27 Apr 2025 14:49:47 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Apr 2025 19:08:38 GMT</lastBuildDate>
         <atom:link href="https://dexkit.com/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Introducing Monthly Airdrops for KIT Holders]]></title>
+            <description><![CDATA[Starting this month, DexKit will automatically distribute KIT token airdrops every 30 days—funded by our Polygon treasury—directly to all eligible holders. Learn how to qualify, calculate your rewards, and get started!
+]]></description>
+            <link>https://dexkit.com/blog/monthly-airdrops-kit-holders</link>
+            <guid isPermaLink="true">https://dexkit.com/blog/monthly-airdrops-kit-holders</guid>
+            <category><![CDATA[Blog]]></category>
+            <dc:creator><![CDATA[DexKit Team]]></dc:creator>
+            <pubDate>Mon, 28 Apr 2025 04:00:00 GMT</pubDate>
+            <enclosure url="/blog-images/airdrop-dashboard.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Presentamos Airdrops Mensuales para Holders de KIT]]></title>
+            <description><![CDATA[A partir de este mes, DexKit distribuirá automáticamente airdrops de tokens KIT cada 30 días, financiados por nuestra tesorería en Polygon, directamente a todos los holders elegibles. Descubre cómo calificar, calcular tus recompensas y empezar.
+]]></description>
+            <link>https://dexkit.com/es/blog/airdrops-mensuales-holders-kit</link>
+            <guid isPermaLink="true">https://dexkit.com/es/blog/airdrops-mensuales-holders-kit</guid>
+            <category><![CDATA[Blog]]></category>
+            <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
+            <pubDate>Mon, 28 Apr 2025 04:00:00 GMT</pubDate>
+            <enclosure url="/blog-images/airdrop-dashboard.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Apresentamos Airdrops Mensais para Holders de KIT]]></title>
+            <description><![CDATA[A partir deste mês, a DexKit distribuirá automaticamente airdrops de tokens KIT a cada 30 dias, financiados pelo nosso tesouro na Polygon, diretamente a todos os holders elegíveis. Descubra como se qualificar, calcular suas recompensas e começar.
+]]></description>
+            <link>https://dexkit.com/pt/blog/airdrops-mensais-holders-kit</link>
+            <guid isPermaLink="true">https://dexkit.com/pt/blog/airdrops-mensais-holders-kit</guid>
+            <category><![CDATA[Blog]]></category>
+            <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
+            <pubDate>Mon, 28 Apr 2025 04:00:00 GMT</pubDate>
+            <enclosure url="/blog-images/airdrop-dashboard.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Empower Web3 Innovation: Support DexAppBuilder in Giveth’s Public Goods Round]]></title>
             <description><![CDATA[Join DexKit’s mission to democratize Web3 development! From Jan 28 to Feb 14, your donations to DexAppBuilder—the no-code DApp builder—will be amplified by Giveth’s $100K matching pool. Help us open-source the platform and accelerate integrations.]]></description>
