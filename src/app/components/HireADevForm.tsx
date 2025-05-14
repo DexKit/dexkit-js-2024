@@ -1,8 +1,8 @@
 'use client';
 
-import { useState, useRef, FormEvent } from 'react';
+import { useState, useRef, FormEvent, useEffect, useMemo } from 'react';
 import { FormattedMessage, useIntl } from 'react-intl';
-import { useParams } from 'next/navigation';
+import { useParams, useSearchParams, useRouter } from 'next/navigation';
 import Image from 'next/image';
 import toast, { Toaster } from 'react-hot-toast';
 import Link from 'next/link';
@@ -53,6 +53,8 @@ function HireADevFormContent() {
   const intl = useIntl();
   const { locale } = useParams();
   const { captchaToken } = useCaptcha();
+  const searchParams = useSearchParams();
+  const router = useRouter();
   
   const [email, setEmail] = useState('');
   const [extraNotes, setExtraNotes] = useState('');
@@ -70,7 +72,7 @@ function HireADevFormContent() {
   const [selectedNetwork, setSelectedNetwork] = useState<string>('');
   const [selectedCoin, setSelectedCoin] = useState<string>('');
   
-  const services: ServiceType[] = [
+  const services = useMemo<ServiceType[]>(() => [
     {
       id: 'singleDApp',
       title: 'Single DApp',
@@ -183,7 +185,7 @@ function HireADevFormContent() {
       },
       imageUrl: '/imgs/services/blockchainconsulting.png'
     }
-  ];
+  ], []);
   
   const networks: BlockchainNetwork[] = [
     {
@@ -256,12 +258,24 @@ function HireADevFormContent() {
     }
   ];
   
+  useEffect(() => {
+    const serviceId = searchParams.get('service');
+    if (serviceId) {
+      const service = services.find(s => s.id === serviceId);
+      if (service) {
+        setSelectedService(service);
+        setShowServiceForm(true);
+      }
+    }
+  }, [searchParams, services]);
+  
   const resetForm = () => {
     setEmail('');
     setExtraNotes('');
     setPaymentTxId('');
     setSelectedService(null);
     setShowServiceForm(false);
+    router.push('/hire-a-dev');
     if (formRef.current) {
       formRef.current.reset();
     }
@@ -270,6 +284,7 @@ function HireADevFormContent() {
   const selectService = (service: ServiceType) => {
     setSelectedService(service);
     setShowServiceForm(true);
+    router.push(`/hire-a-dev?service=${service.id}`);
   };
   
   const handleSubmit = async (e: FormEvent) => {
@@ -431,6 +446,7 @@ function HireADevFormContent() {
                 {services.map((service) => (
                   <div 
                     key={service.id}
+                    id={service.id}
                     className={`service-card bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-300 relative h-[520px] flex flex-col ${
                       selectedService?.id === service.id ? 'ring-2 ring-orange-400' : ''
                     } ${service.isPriority ? 'ring-2 ring-green-500' : ''}`}
@@ -581,12 +597,28 @@ function HireADevFormContent() {
                           )}
                         </div>
                         
-                        <button
-                          onClick={() => selectService(service)}
-                          className="w-full bg-orange-400 text-black py-1.5 rounded hover:bg-orange-500 transition duration-300 font-semibold text-sm"
-                        >
-                          <FormattedMessage id="hireADev.card.selectButton" />
-                        </button>
+                        <div className="flex gap-2">
+                          <button
+                            onClick={() => selectService(service)}
+                            className="flex-1 bg-orange-400 text-black py-1.5 rounded hover:bg-orange-500 transition duration-300 font-semibold text-sm"
+                          >
+                            <FormattedMessage id="hireADev.card.selectButton" />
+                          </button>
+                          
+                          <button
+                            onClick={() => {
+                              const url = `/hire-a-dev?service=${service.id}`;
+                              navigator.clipboard.writeText(`${window.location.origin}${url}`);
+                              toast.success(intl.formatMessage({ id: 'common.linkCopied', defaultMessage: 'Link copied to clipboard!' }));
+                            }}
+                            className="p-1.5 bg-gray-100 text-gray-700 rounded hover:bg-gray-200 transition duration-300"
+                            title={intl.formatMessage({ id: 'hireADev.copyServiceLink', defaultMessage: 'Copy direct link to this service' })}
+                          >
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+                            </svg>
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -596,7 +628,7 @@ function HireADevFormContent() {
           ) : (
             <div className="max-w-2xl mx-auto bg-white rounded-xl p-8 border border-gray-200 shadow-lg">
               <button
-                onClick={() => setShowServiceForm(false)}
+                onClick={() => resetForm()}
                 className="mb-6 text-gray-600 hover:text-gray-900 flex items-center"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
