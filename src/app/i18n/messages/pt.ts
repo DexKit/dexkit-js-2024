@@ -29,11 +29,13 @@ const messages: Messages = {
   'header.userSupport': 'Suporte ao usuário',
   'header.featureRequest': 'Solicitação de recursos',
   'header.whiteLabel': 'Solicitação personalizada de marca branca',
+  'header.hireADev': 'Contratar Dev',
   "header.missionVision.description": "Conheça nossa missão, visão e valores",
   "header.ourTeam.description": "Conheça a equipe DexKit",
   "header.brandMaterial.description": "Acesse os materiais da marca DexKit",
   "header.tokenomics.description": "Entenda a economia do token DexKit",
   "header.utilities.description": "Explore as utilidades do token DexKit",
+  "header.airdrop.description": "Aprenda sobre airdrops e recompensas do token DexKit",
   "header.contractAddresses.description": "Veja os endereços do contrato do token DexKit",
   "header.governance.description": "Aprenda sobre a governança DexKit",
   "header.userSupport.description": "Obtenha ajuda com os produtos DexKit",
@@ -282,7 +284,17 @@ const messages: Messages = {
   'ourTeam.role4': 'Desenvolvedor',
   'ourTeam.title4': 'Engenheiro de software',
   'ourTeam.bio4': 'Tiago é engenheiro de software com mais de 10 anos de experiência. Ele contribui para o DexKit identificando bugs, adicionando funcionalidades e aconselhando o Fundador em questões de desenvolvimento.',
-  // Mission, vision and values
+  'ourTeam.role5': 'Editora de Vídeo, Advogada e Designer Gráfica',
+  'ourTeam.title5': 'Especialista em Conteúdo Multimídia',
+  'ourTeam.bio5': 'Maria Laura é uma profissional versátil que combina edição de vídeo, expertise jurídica e habilidades de design gráfico. Ela traz uma perspectiva única para o DexKit criando conteúdo visual atrativo enquanto garante conformidade legal e consistência de marca em todos os projetos multimídia.',
+  'ourTeam.role6': 'Gerente de Comunidade',
+  'ourTeam.title6': 'Especialista em Crescimento de Comunidade',
+  'ourTeam.bio6': 'Josh é um especialista em gestão de comunidades com ampla experiência em projetos cripto e DeFi. Ele foca em construir e nutrir comunidades engajadas em torno de tecnologias blockchain.',
+  'ourTeam.role7': 'Criadora de Conteúdo',
+  'ourTeam.title7': 'Estrategista de Conteúdo Blockchain',
+  'ourTeam.bio7': 'Super Based Queen é uma criadora de conteúdo e entusiasta de blockchain que se especializa em tornar conceitos cripto complexos acessíveis para audiências mainstream através de conteúdo envolvente e redes sociais.',
+
+  // Mission, Vision and Values
   'missionVisionValues.title': 'Missão, Visão e Valores',
   'missionVisionValues.description': 'Porque cada empresa deve saber o que quer para saber para onde está indo. Aqui estão as diretrizes que nos sustentam como desenvolvedores de software de código aberto.',
   'missionVisionValues.missionTitle': 'Nossa missão',
@@ -652,6 +664,7 @@ const messages: Messages = {
   'hireADev.services.completeProject.title': 'Desenvolvimento de Projeto Completo',
   'hireADev.services.completeProject.desc': 'Criação completa de projetos incluindo redes sociais, página landing com NextJS 15 com a mais recente tecnologia, bot de Telegram com aprendizado e IA para contextualizar a base de conhecimento, servidor Discord configurado (se necessário), e todos os serviços anteriores.',
   'hireADev.services.completeProject.price': '10.000 USD',
+  'hireADev.copyServiceLink': 'Copiar link direto para este serviço',
 
   // Captcha
   'captcha.title': 'Verificação de segurança',

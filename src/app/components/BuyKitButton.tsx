@@ -58,7 +58,7 @@ const BuyKitButton: React.FC = () => {
       </button>
       
       {isOpen && (
-        <div className="absolute right-0 z-10 mt-2 w-64 bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
+        <div className="absolute left-0 sm:right-0 z-10 mt-2 w-56 sm:w-64 bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
           <div className="py-2">
             <div className="px-4 py-2 text-sm text-gray-700 font-medium border-b">
               {intl.formatMessage({ id: 'buyKit.selectNetwork' })}
