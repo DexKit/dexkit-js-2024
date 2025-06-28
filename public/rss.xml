@@ -4,7 +4,7 @@
         <description><![CDATA[Latest posts from DexKit Blog in English, Spanish, and Portuguese]]></description>
         <link>https://dexkit.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 May 2025 14:48:01 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Jun 2025 21:02:40 GMT</lastBuildDate>
         <atom:link href="https://dexkit.com/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <item>
@@ -15,7 +15,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/monthly-airdrops-kit-holders</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Mon, 28 Apr 2025 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 28 Apr 2025 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/airdrop-dashboard.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -26,7 +26,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/airdrops-mensuales-holders-kit</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Mon, 28 Apr 2025 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 28 Apr 2025 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/airdrop-dashboard.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -37,7 +37,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/airdrops-mensais-holders-kit</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Mon, 28 Apr 2025 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 28 Apr 2025 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/airdrop-dashboard.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -47,7 +47,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/support-dexappbuilder-giveth-public-goods-round</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Tue, 28 Jan 2025 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 28 Jan 2025 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/lovingoodsqf.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
@@ -57,7 +57,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/apoya-dexappbuilder-en-la-ronda-de-bienes-públicos-de-giveth</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Tue, 28 Jan 2025 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 28 Jan 2025 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/lovingoodsqf.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
@@ -67,7 +67,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/suporte-dexappbuilder-giveth-public-goods-round</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Tue, 28 Jan 2025 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 28 Jan 2025 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/lovingoodsqf.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
@@ -77,7 +77,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/meet-brandon-a-valuable-cryptopreneur-on-dexkits-community</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Thu, 04 Jul 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 04 Jul 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Brandon-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -87,7 +87,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/conozca-a-brandon-un-valioso-criptoemprendedor-en-dexkits-comunidad</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Thu, 04 Jul 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 04 Jul 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Brandon-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -97,7 +97,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/conheca-brandon-um-valioso-criptopreneur-na-dexkits-community</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Thu, 04 Jul 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 04 Jul 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Brandon-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -107,7 +107,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/integrating-gasless-api-into-dexappbuilder-for-gasless-swaps</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Thu, 23 May 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 23 May 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Gasless-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -117,7 +117,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/integrando-api-sin-gas-en-dexappbuilder-para-swaps-sin-gas</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Thu, 23 May 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 23 May 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Gasless-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -127,7 +127,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/integrando-gasless-api-into-dexappbuilder-for-gasless-swaps</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Thu, 23 May 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 23 May 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Gasless-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -137,7 +137,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/deciphering-crypto-swap</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Sun, 28 Apr 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sun, 28 Apr 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Crypto-Swap.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -147,7 +147,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/descifrando-cripto-intercambio</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Sun, 28 Apr 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sun, 28 Apr 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Crypto-Swap.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -157,7 +157,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/decifrando-troca-de-criptografia</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Sun, 28 Apr 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sun, 28 Apr 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Crypto-Swap.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -167,7 +167,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/creating-on-chain-application-made-easy-with-dexappbuilder</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Wed, 24 Apr 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 24 Apr 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/On-chain-app-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -177,7 +177,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/creacion-de-aplicaciones-en-cadena-simple-con-dexappbuilder</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Wed, 24 Apr 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 24 Apr 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/On-chain-app-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -187,7 +187,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/criacao-de-aplicativo-on-chain-facilitada-com-dexappbuilder</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Wed, 24 Apr 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 24 Apr 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/On-chain-app-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -197,7 +197,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/no-code-low-code-platforms-for-web2-and-web3</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Thu, 04 Apr 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 04 Apr 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Web2-and-Web3-blog-1.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -207,7 +207,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/plataformas-sin-code-low-code-para-web2-y-web3</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Thu, 04 Apr 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 04 Apr 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Web2-and-Web3-blog-1.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -217,7 +217,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/plataformas-sem-codigo-e-baixo-codigo-para-web2-e-web3</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Thu, 04 Apr 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 04 Apr 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Web2-and-Web3-blog-1.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -227,7 +227,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/no-code-low-code-revolution-transforming-digital-creation</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Fri, 29 Mar 2024 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 29 Mar 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/No.lo-code-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -237,7 +237,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/revolucion-sin-codigo-bajo-codigo-transformando-la-creacion-digital</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Fri, 29 Mar 2024 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 29 Mar 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/No.lo-code-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -247,7 +247,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/sem-codigo-low-code-revolucao-transformando-criacao-digital</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Fri, 29 Mar 2024 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 29 Mar 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/No.lo-code-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -257,7 +257,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/ai-empowered-web-3-dapp-building</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Sun, 24 Mar 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sun, 24 Mar 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/AI-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -267,7 +267,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/construccion-de-dapp-web-3-empoderada-por-ai</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Sun, 24 Mar 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sun, 24 Mar 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/AI-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -277,7 +277,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/construcao-de-ai-empowered-web-3-dapp</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Sun, 24 Mar 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sun, 24 Mar 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/AI-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -287,7 +287,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/the-power-of-decentralized-applications-dapps</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Tue, 12 Mar 2024 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 12 Mar 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/DApp-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -297,7 +297,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/el-poder-de-las-aplicaciones-dapps-descentralizadas</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Tue, 12 Mar 2024 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 12 Mar 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/DApp-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -307,7 +307,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/o-poder-dos-aplicativos-descentralizados-dapps</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Tue, 12 Mar 2024 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 12 Mar 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/DApp-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -317,7 +317,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/understanding-cryptocurrencies-a-hand-guide-to-decentralized-digital-currencies</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Wed, 06 Mar 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 06 Mar 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Cryptocurrencies-blog-1.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -327,7 +327,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/entender-las-criptomonedas-una-guia-manual-para-las-monedas-digitales-descentralizadas</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Wed, 06 Mar 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 06 Mar 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Cryptocurrencies-blog-1.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -337,7 +337,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/entendendo-criptomoedas-um-guia-manual-para-moedas-digitais-descentralizadas</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Wed, 06 Mar 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 06 Mar 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Cryptocurrencies-blog-1.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -347,7 +347,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/maximizing-success-on-blockchain-networks-top-options-for-dapp-developers-and-builders-and-cryptopreneurs</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Thu, 29 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 29 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Networks-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -357,7 +357,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/maximizar-el-exito-en-las-redes-blockchain-principales-opciones-para-desarrolladores-y-constructores-y-criptoemprendedores-de-dapps</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Thu, 29 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 29 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Networks-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -367,7 +367,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/maximizando-o-sucesso-nas-principais-opcoes-de-redes-blockchain-para-desenvolvedores-e-construtores-de-dapp-e-empreendedores-de-criptografia</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Thu, 29 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 29 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Networks-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -377,7 +377,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/embarking-on-blockchain-networks-understanding-and-their-transformative-applications</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Sat, 17 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sat, 17 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Blockchain-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -387,7 +387,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/embarcarse-en-la-comprension-de-las-redes-blockchain-y-sus-aplicaciones-transformadoras</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Sat, 17 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sat, 17 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Blockchain-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -397,7 +397,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/embarcando-na-compreensao-das-redes-blockchain-e-em-suas-aplicacoes-transformadoras</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Sat, 17 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sat, 17 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Blockchain-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -407,7 +407,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/real-world-cryptocurrency-exploration-consumer-infrastructure-and-governance-tokens</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Wed, 14 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 14 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Real-World.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -417,7 +417,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/tokens-de-gobernanza-y-infraestructura-del-consumidor-de-exploracion-de-criptomonedas-del-mundo-real</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Wed, 14 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 14 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Real-World.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -427,7 +427,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/tokens-de-infraestrutura-e-governanca-de-consumo-de-criptomoeda-do-mundo-real</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Wed, 14 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 14 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Real-World.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -437,7 +437,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/web3-the-present-and-the-future-of-the-internet</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Mon, 12 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 12 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Emerging-Web3-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -447,7 +447,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/web3-el-presente-y-el-futuro-de-internet</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Mon, 12 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 12 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Emerging-Web3-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -457,7 +457,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/web3-o-presente-e-o-futuro-da-internet</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Mon, 12 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 12 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Emerging-Web3-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -467,7 +467,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/fortress-your-crypto-battle-tested-tips-to-guard-your-digital-gold</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Fri, 09 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 09 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Fortresse-your-crypto-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -477,7 +477,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/fortalezca-su-cripto-batalla-consejos-probados-para-proteger-su-oro-digital</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Fri, 09 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 09 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Fortresse-your-crypto-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -487,7 +487,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/dicas-testadas-para-fortalecer-sua-cripto-batalha-para-proteger-seu-ouro-digital</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Fri, 09 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 09 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Fortresse-your-crypto-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -497,7 +497,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/best-practices-in-crypto-staking-optimizing-your-passive-income-journey</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Tue, 06 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 06 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Best-practices-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -507,7 +507,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/mejores-practicas-en-apuestas-de-criptomonedas-para-optimizar-su-viaje-de-ingresos-pasivos</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Tue, 06 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 06 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Best-practices-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -517,7 +517,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/melhores-praticas-em-criptografia-para-otimizar-sua-jornada-de-renda-passiva</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Tue, 06 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 06 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Best-practices-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -527,7 +527,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/crypto-mastery-navigating-risks-and-riding-high-in-the-investment-game</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Sun, 04 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sun, 04 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Crypto-Mastery-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -537,7 +537,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/dominio-cripto-navegando-riesgos-y-montando-alto-en-el-juego-de-inversion</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Sun, 04 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sun, 04 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Crypto-Mastery-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -547,7 +547,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/cripto-dominio-navegando-riscos-e-andando-alto-no-jogo-de-investimento</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Sun, 04 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sun, 04 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Crypto-Mastery-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -557,7 +557,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/avoiding-crypto-scams</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Thu, 01 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 01 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Scams-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -567,7 +567,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/evitando-criptoestafas</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Thu, 01 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 01 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Scams-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -577,7 +577,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/evitando-fraudes-criptograficas</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Thu, 01 Feb 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 01 Feb 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Scams-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -587,7 +587,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/crypto-staking-demystified-exploring-benefits-and-risks</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Thu, 25 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 25 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Staking-blog-.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -597,7 +597,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/staking-cripto-desmitificado-explorando-beneficios-y-riesgos</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Thu, 25 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 25 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Staking-blog-.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -607,7 +607,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/cripto-staking-desmistificado-explorando-beneficios-e-riscos</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Thu, 25 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 25 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Staking-blog-.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -617,7 +617,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/cryptocurrency-mining-the-key-to-decentralized-networks</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Wed, 24 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 24 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Crypto-Mining-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -627,7 +627,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/mineria-de-criptomonedas-la-clave-para-las-redes-descentralizadas</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Wed, 24 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 24 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Crypto-Mining-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -637,7 +637,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/mineracao-de-criptomoedas-a-chave-para-redes-descentralizadas</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Wed, 24 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 24 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Crypto-Mining-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -647,7 +647,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/practical-applications-of-cryptocurrencies</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Tue, 23 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 23 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Practical-applications-blog-1.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -657,7 +657,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/aplicaciones-practicas-de-las-criptomonedas</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Tue, 23 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 23 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Practical-applications-blog-1.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -667,7 +667,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/aplicacoes-praticas-de-criptomoedas</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Tue, 23 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 23 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Practical-applications-blog-1.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -677,7 +677,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/simple-steps-to-keep-your-crypto-safe</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Mon, 22 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 22 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Crypto-Safe-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -687,7 +687,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/pasos-simples-para-mantener-su-cripto-segura</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Mon, 22 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 22 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Crypto-Safe-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -697,7 +697,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/etapas-simples-para-manter-sua-criptografia-segura</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Mon, 22 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 22 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Crypto-Safe-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -707,7 +707,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/crypto-chronicles-bitcoin-unleashed-and-ethereums-odyssey</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Fri, 19 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 19 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20240109_Crypto-Chronicles.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -717,7 +717,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/cripto-cronicas-bitcoin-desatado-y-ethereums-odyssey</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Fri, 19 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 19 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20240109_Crypto-Chronicles.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -727,7 +727,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/crypto-chronicles-bitcoin-unleashed-and-ethereums-odyssey</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Fri, 19 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 19 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20240109_Crypto-Chronicles.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -737,7 +737,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/exploring-cryptocurrency-exchanges</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Thu, 18 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 18 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Exchanges-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -747,7 +747,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/explorando-intercambios-de-criptomonedas</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Thu, 18 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 18 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Exchanges-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -757,7 +757,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/explorando-trocas-de-criptomoedas</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Thu, 18 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 18 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Exchanges-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -767,7 +767,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/understanding-bitcoin-ethereum</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Wed, 17 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 17 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/cryptocurrencies-exposed.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -777,7 +777,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/comprension-bitcoin-ethereum</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Wed, 17 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 17 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/cryptocurrencies-exposed.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -787,7 +787,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/compreensao-bitcoin-ethereum</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Wed, 17 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 17 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/cryptocurrencies-exposed.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -797,7 +797,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/a-conversation-with-ken-from-dexkit-community</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Sat, 13 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sat, 13 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Unleashing-NFT-Creativity-with-Ken.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -807,7 +807,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/una-conversacion-con-ken-de-la-comunidad-dexkit</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Sat, 13 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sat, 13 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Unleashing-NFT-Creativity-with-Ken.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -817,7 +817,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/uma-conversa-com-ken-da-comunidade-dexkit</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Sat, 13 Jan 2024 04:00:00 GMT</pubDate>
+            <pubDate>Sat, 13 Jan 2024 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Unleashing-NFT-Creativity-with-Ken.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -827,7 +827,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/join-dexkit-in-powering-web3-innovation</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Thu, 28 Sep 2023 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 28 Sep 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230928_Arbitrum-Grant-blog-LinkedIn-Facebook.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -837,7 +837,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/unase-dexkit-para-impulsar-la-innovacion-web3</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Thu, 28 Sep 2023 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 28 Sep 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230928_Arbitrum-Grant-blog-LinkedIn-Facebook.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -847,7 +847,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/junte-se-dexkit-in-powering-web3-innovation</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Thu, 28 Sep 2023 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 28 Sep 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230928_Arbitrum-Grant-blog-LinkedIn-Facebook.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -857,7 +857,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/nft-empowering-creators-in-the-digital-sphere</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Mon, 21 Aug 2023 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 21 Aug 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230821_NFT-royalties-blog-LinkedIn-Facebook.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -867,7 +867,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/nft-empoderando-a-los-creadores-en-la-esfera-digital</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Mon, 21 Aug 2023 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 21 Aug 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230821_NFT-royalties-blog-LinkedIn-Facebook.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -877,7 +877,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/nft-capacitando-criadores-na-esfera-digital</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Mon, 21 Aug 2023 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 21 Aug 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230821_NFT-royalties-blog-LinkedIn-Facebook.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -887,7 +887,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/discover-the-power-of-erc-4337-wallets</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Thu, 17 Aug 2023 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 17 Aug 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Copy-of-20230817_ERC-4337-blog-LinkedIn-Facebook.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -897,7 +897,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/descubra-el-poder-de-las-billeteras-erc-4337</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Thu, 17 Aug 2023 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 17 Aug 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Copy-of-20230817_ERC-4337-blog-LinkedIn-Facebook.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -907,7 +907,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/descubra-o-poder-das-carteiras-erc-4337</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Thu, 17 Aug 2023 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 17 Aug 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Copy-of-20230817_ERC-4337-blog-LinkedIn-Facebook.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -917,7 +917,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/calling-all-blockchain-developers</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Fri, 04 Aug 2023 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 04 Aug 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230803_Calling-blog-LinkedIn-Facebook.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -927,7 +927,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/llamando-a-todos-los-desarrolladores-de-blockchain</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Fri, 04 Aug 2023 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 04 Aug 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230803_Calling-blog-LinkedIn-Facebook.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -937,7 +937,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/chamando-todos-os-desenvolvedores-de-blockchain</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Fri, 04 Aug 2023 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 04 Aug 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230803_Calling-blog-LinkedIn-Facebook.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -947,7 +947,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/embracing-the-digital-renaissance</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Fri, 28 Jul 2023 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 28 Jul 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230728_Cryptoverses-New-Era-blog-and-LinkedIn.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -957,7 +957,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/abrazando-el-renacimiento-digital</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Fri, 28 Jul 2023 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 28 Jul 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230728_Cryptoverses-New-Era-blog-and-LinkedIn.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -967,7 +967,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/abracando-o-renascimento-digital</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Fri, 28 Jul 2023 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 28 Jul 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230728_Cryptoverses-New-Era-blog-and-LinkedIn.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -977,7 +977,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/emojis-and-communication</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Mon, 17 Jul 2023 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 17 Jul 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230717_Emoji-day-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -987,7 +987,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/emojis-y-comunicacion</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Mon, 17 Jul 2023 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 17 Jul 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230717_Emoji-day-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -997,7 +997,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/emojis-e-comunicacao</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Mon, 17 Jul 2023 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 17 Jul 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230717_Emoji-day-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1007,7 +1007,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/dexkits-seamless-and-customizable-dex-aggregator</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Mon, 08 May 2023 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 08 May 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/compared.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
@@ -1017,7 +1017,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/dexkits-agregador-dex-perfecto-y-personalizable</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Mon, 08 May 2023 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 08 May 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/compared.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
@@ -1027,7 +1027,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/dexkits-seamless-and-customizable-dex-agregador</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Mon, 08 May 2023 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 08 May 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/compared.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
@@ -1037,7 +1037,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/disrupting-traditional-finance</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Wed, 19 Apr 2023 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 19 Apr 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230418_DexKit-DeFi-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1047,7 +1047,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/perturbando-las-finanzas-tradicionales</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Wed, 19 Apr 2023 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 19 Apr 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230418_DexKit-DeFi-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1057,7 +1057,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/perturbando-as-financas-tradicionais</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Wed, 19 Apr 2023 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 19 Apr 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230418_DexKit-DeFi-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1067,7 +1067,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/dexkit-secures-optimism-foundation-grant</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Tue, 04 Apr 2023 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 04 Apr 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230403_Thank-Optimism-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1077,7 +1077,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/dexkit-asegura-la-subvencion-de-la-fundacion-optimismo</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Tue, 04 Apr 2023 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 04 Apr 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230403_Thank-Optimism-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1087,7 +1087,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/dexkit-secures-optimism-foundation-grant</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Tue, 04 Apr 2023 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 04 Apr 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20230403_Thank-Optimism-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1097,7 +1097,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/build-your-own-crypto-business-with-ease-latest-update-to-dexappbuilder</guid>
             <category><![CDATA[Development]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Fri, 24 Mar 2023 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 24 Mar 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/DexAppBuilderblog-1200x630-1.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1107,7 +1107,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/cree-su-propio-negocio-de-cripto-con-facilidad-la-ultima-actualizacion-para-dexappbuilder</guid>
             <category><![CDATA[Development]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Fri, 24 Mar 2023 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 24 Mar 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/DexAppBuilderblog-1200x630-1.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1117,7 +1117,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/construa-seu-proprio-negocio-de-criptografia-com-facilidade-ultima-atualizacao-para-dexappbuilder</guid>
             <category><![CDATA[Development]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Fri, 24 Mar 2023 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 24 Mar 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/DexAppBuilderblog-1200x630-1.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1127,7 +1127,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/ai-revolutionizes-our-products-discover-our-advanced-implementation</guid>
             <category><![CDATA[Development]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Wed, 08 Feb 2023 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 08 Feb 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/AI_DexKit-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1137,7 +1137,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/ai-revoluciona-nuestros-productos-descubra-nuestra-implementacion-avanzada</guid>
             <category><![CDATA[Development]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Wed, 08 Feb 2023 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 08 Feb 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/AI_DexKit-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1147,7 +1147,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/ai-revoluciona-nossos-produtos-descobre-nossa-implementacao-avancada</guid>
             <category><![CDATA[Development]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Wed, 08 Feb 2023 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 08 Feb 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/AI_DexKit-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1157,7 +1157,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/exploring-the-world-of-blockchain-games</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Thu, 02 Feb 2023 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 02 Feb 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Gaming-genres-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1167,7 +1167,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/explorando-el-mundo-de-los-juegos-blockchain</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Thu, 02 Feb 2023 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 02 Feb 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Gaming-genres-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1177,7 +1177,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/explorando-o-mundo-dos-jogos-blockchain</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Thu, 02 Feb 2023 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 02 Feb 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Gaming-genres-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1187,7 +1187,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/cex-vs-dex-learn-why-you-need-both</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Wed, 25 Jan 2023 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 25 Jan 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/CEX-x-DEX_DexKit-blog-PNG.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1197,7 +1197,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/cex-vs-dex-aprende-por-que-necesitas-ambos</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Wed, 25 Jan 2023 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 25 Jan 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/CEX-x-DEX_DexKit-blog-PNG.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1207,7 +1207,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/cex-vs-dex-aprender-por-que-voce-precisa-de-ambos</guid>
             <category><![CDATA[Blog]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Wed, 25 Jan 2023 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 25 Jan 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/CEX-x-DEX_DexKit-blog-PNG.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1217,7 +1217,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/unlock-the-power-of-crypto-websites</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Fri, 20 Jan 2023 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 20 Jan 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Wizard-differentials_DexKit-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1227,7 +1227,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/desbloquear-el-poder-de-los-sitios-web-criptograficos</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Fri, 20 Jan 2023 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 20 Jan 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Wizard-differentials_DexKit-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1237,7 +1237,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/desbloquear-o-poder-dos-sites-criptograficos</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Fri, 20 Jan 2023 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 20 Jan 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Wizard-differentials_DexKit-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1247,7 +1247,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/join-us-at-websummit-rio-2023</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Tue, 10 Jan 2023 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 10 Jan 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Web-Summit_DexKit-Blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1257,7 +1257,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/unete-a-nosotros-en-websummit-rio-2023</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Tue, 10 Jan 2023 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 10 Jan 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Web-Summit_DexKit-Blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1267,7 +1267,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/junte-se-a-nos-no-websummit-rio-2023</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Tue, 10 Jan 2023 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 10 Jan 2023 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Web-Summit_DexKit-Blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1277,7 +1277,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/navigating-the-crypto-ecosystem-dexkits-resilience-and-growth-in-2022</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Sat, 31 Dec 2022 04:00:00 GMT</pubDate>
+            <pubDate>Sat, 31 Dec 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/png_20221230_224201_0000.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1287,7 +1287,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/navegando-por-el-criptoecosistema-dexkits-resiliencia-y-crecimiento-en-2022</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Sat, 31 Dec 2022 04:00:00 GMT</pubDate>
+            <pubDate>Sat, 31 Dec 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/png_20221230_224201_0000.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1297,7 +1297,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/navegando-no-criptoecossistema-dexkits-resiliencia-e-crescimento-em-2022</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Sat, 31 Dec 2022 04:00:00 GMT</pubDate>
+            <pubDate>Sat, 31 Dec 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/png_20221230_224201_0000.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1307,7 +1307,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/from-ideas-to-success-dexkits-latest-update</guid>
             <category><![CDATA[Development]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Mon, 31 Oct 2022 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 31 Oct 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Marketplace-Update-blog1200.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1317,7 +1317,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/de-las-ideas-al-exito-dexkits-ultima-actualizacion</guid>
             <category><![CDATA[Development]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Mon, 31 Oct 2022 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 31 Oct 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Marketplace-Update-blog1200.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1327,7 +1327,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/de-ideias-para-sucesso-dexkits-ultima-atualizacao</guid>
             <category><![CDATA[Development]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Mon, 31 Oct 2022 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 31 Oct 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Marketplace-Update-blog1200.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1337,7 +1337,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/discover-the-transformative-power-of-next-js-empowering-the-future-of-web-development</guid>
             <category><![CDATA[Development]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Wed, 26 Oct 2022 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 26 Oct 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/DexKit_nextjs.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1347,7 +1347,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/descubra-el-poder-transformador-de-next-js-potenciando-el-futuro-del-desarrollo-web</guid>
             <category><![CDATA[Development]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Wed, 26 Oct 2022 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 26 Oct 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/DexKit_nextjs.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1357,7 +1357,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/descubra-o-poder-transformador-do-next-js-capacitando-o-futuro-do-desenvolvimento-web</guid>
             <category><![CDATA[Development]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Wed, 26 Oct 2022 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 26 Oct 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/DexKit_nextjs.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1367,7 +1367,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/unlocking-defi-potential-dexkits-contributions-to-0xdao-polygon-studios-and-chainlink</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Mon, 03 Oct 2022 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 03 Oct 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Promoting-partnerships-GIF.gif" length="0" type="image/gif"/>
         </item>
         <item>
@@ -1377,7 +1377,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/desbloqueo-defi-potencial-dexkits-contribuciones-a-0xdao-polygon-studios-y-chainlink</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Mon, 03 Oct 2022 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 03 Oct 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Promoting-partnerships-GIF.gif" length="0" type="image/gif"/>
         </item>
         <item>
@@ -1387,7 +1387,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/desbloqueio-defi-potential-dexkits-contributions-to-0xdao-polygon-studios-and-chainlink</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Mon, 03 Oct 2022 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 03 Oct 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Promoting-partnerships-GIF.gif" length="0" type="image/gif"/>
         </item>
         <item>
@@ -1397,7 +1397,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/revolutionize-your-nft-sales-with-dexkit</guid>
             <category><![CDATA[Innovations]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Wed, 14 Sep 2022 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 14 Sep 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/NFT-Marketplace-Launch-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1407,7 +1407,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/revoluciona-tus-ventas-nft-con-dexkit</guid>
             <category><![CDATA[Innovations]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Wed, 14 Sep 2022 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 14 Sep 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/NFT-Marketplace-Launch-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1417,7 +1417,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/revolucione-suas-vendas-nft-com-dexkit</guid>
             <category><![CDATA[Innovations]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Wed, 14 Sep 2022 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 14 Sep 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/NFT-Marketplace-Launch-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1427,7 +1427,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/coin-league-earn-stablecoins-and-win-big-in-monthly-jackpot-games-with-dexkit</guid>
             <category><![CDATA[Affiliates]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Tue, 09 Aug 2022 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 09 Aug 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Jackpot-Game_DexKit-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1437,7 +1437,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/liga-de-monedas-gane-monedas-estables-y-gane-a-lo-grande-en-juegos-de-jackpot-mensuales-con-dexkit</guid>
             <category><![CDATA[Affiliates]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Tue, 09 Aug 2022 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 09 Aug 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Jackpot-Game_DexKit-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1447,7 +1447,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/coin-league-ganhe-stablecoins-e-ganhe-muito-em-jogos-jackpot-mensais-com-dexkit</guid>
             <category><![CDATA[Affiliates]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Tue, 09 Aug 2022 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 09 Aug 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Jackpot-Game_DexKit-blog.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1457,7 +1457,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/discover-the-exciting-update-in-our-coin-league-prediction-game</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Fri, 08 Jul 2022 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 08 Jul 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/stadium2222.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1467,7 +1467,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/descubre-la-emocionante-actualizacion-en-nuestro-juego-de-prediccion-de-la-liga-de-monedas</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Fri, 08 Jul 2022 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 08 Jul 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/stadium2222.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1477,7 +1477,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/descubra-a-atualizacao-emocionante-em-nosso-jogo-de-previsao-da-liga-de-moedas</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Fri, 08 Jul 2022 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 08 Jul 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/stadium2222.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1487,7 +1487,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/superapp-v0-0-6-23-introducing-new-integrations-for-enhanced-user-experience</guid>
             <category><![CDATA[Integrations]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Wed, 29 Jun 2022 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 29 Jun 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20220625_Dexkit_and_OKC_version2.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1497,7 +1497,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/superapp-v0-0-6-23-presentamos-nuevas-integraciones-para-mejorar-la-experiencia-de-usuario</guid>
             <category><![CDATA[Integrations]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Wed, 29 Jun 2022 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 29 Jun 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20220625_Dexkit_and_OKC_version2.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1507,7 +1507,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/superapp-v0-0-6-23-apresentando-novas-integracoes-para-experiencia-do-usuario-aprimorada</guid>
             <category><![CDATA[Integrations]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Wed, 29 Jun 2022 04:00:00 GMT</pubDate>
+            <pubDate>Wed, 29 Jun 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/20220625_Dexkit_and_OKC_version2.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1517,7 +1517,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/dexkit-unleashes-a-game-changing-market-maker-tool-for-crypto-entrepreneurs</guid>
             <category><![CDATA[Innovations]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Fri, 03 Jun 2022 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 03 Jun 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/AMM_bot_default.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1527,7 +1527,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/dexkit-lanza-una-herramienta-creadora-de-mercado-que-cambia-las-juegos-para-criptoempresarios</guid>
             <category><![CDATA[Innovations]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Fri, 03 Jun 2022 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 03 Jun 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/AMM_bot_default.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1537,7 +1537,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/dexkit-lanca-uma-ferramenta-de-criacao-de-mercado-que-muda-o-jogo-para-criptoempreendedores</guid>
             <category><![CDATA[Innovations]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Fri, 03 Jun 2022 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 03 Jun 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/AMM_bot_default.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1547,7 +1547,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/join-superapp-version-2-and-win-a-free-axie-infinity-battle-team</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Mon, 23 May 2022 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 23 May 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Axie_giveaway_v2_l.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1557,7 +1557,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/unete-a-superapp-version-2-y-gana-un-equipo-de-batalla-axie-infinity-gratis</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Mon, 23 May 2022 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 23 May 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Axie_giveaway_v2_l.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1567,7 +1567,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/junte-se-superapp-versao-2-e-ganhe-um-time-de-battle-axie-infinity-gratis</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Mon, 23 May 2022 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 23 May 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Axie_giveaway_v2_l.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1577,7 +1577,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/dexkit-empowers-non-technical-users</guid>
             <category><![CDATA[Integrations]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Tue, 22 Mar 2022 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 22 Mar 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/SuperApp_00619.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1587,7 +1587,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/dexkit-empodera-a-usuarios-no-tecnicos</guid>
             <category><![CDATA[Integrations]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Tue, 22 Mar 2022 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 22 Mar 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/SuperApp_00619.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1597,7 +1597,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/dexkit-capacita-usuarios-nao-tecnicos</guid>
             <category><![CDATA[Integrations]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Tue, 22 Mar 2022 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 22 Mar 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/SuperApp_00619.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1607,7 +1607,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/joao-campos-secures-50k-grant</guid>
             <category><![CDATA[Integrations]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Thu, 10 Mar 2022 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 10 Mar 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Dexkit__0x.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1617,7 +1617,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/joao-campos-obtiene-beca-50k</guid>
             <category><![CDATA[Integrations]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Thu, 10 Mar 2022 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 10 Mar 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Dexkit__0x.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1627,7 +1627,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/joao-campos-segura-50k-grant</guid>
             <category><![CDATA[Integrations]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Thu, 10 Mar 2022 04:00:00 GMT</pubDate>
+            <pubDate>Thu, 10 Mar 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Dexkit__0x.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1637,7 +1637,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/dexkit-enhances-accessibility-through-integration-with-crypto-coms-dexkit-price-page</guid>
             <category><![CDATA[Integrations]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Tue, 22 Feb 2022 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 22 Feb 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/cryptodotcomdexkit.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
@@ -1647,7 +1647,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/dexkit-mejora-la-accesibilidad-mediante-la-integracion-con-crypto-coms-dexkit-price-page</guid>
             <category><![CDATA[Integrations]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Tue, 22 Feb 2022 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 22 Feb 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/cryptodotcomdexkit.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
@@ -1657,7 +1657,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/dexkit-melhora-acessibilidade-por-integracao-com-crypto-coms-dexkit-price-page</guid>
             <category><![CDATA[Integrations]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Tue, 22 Feb 2022 04:00:00 GMT</pubDate>
+            <pubDate>Tue, 22 Feb 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/cryptodotcomdexkit.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
@@ -1667,7 +1667,7 @@
             <guid isPermaLink="true">https://dexkit.com/blog/exciting-news-for-nft-enthusiasts-kittygotchi</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[DexKit Team]]></dc:creator>
-            <pubDate>Fri, 11 Feb 2022 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 11 Feb 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Cover.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1677,7 +1677,7 @@
             <guid isPermaLink="true">https://dexkit.com/es/blog/emocionantes-noticias-para-los-entusiastas-de-nft-kittygotchi</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
-            <pubDate>Fri, 11 Feb 2022 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 11 Feb 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Cover.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1687,7 +1687,7 @@
             <guid isPermaLink="true">https://dexkit.com/pt/blog/noticias-emocionantes-para-entusiastas-de-nft-kittygotchi</guid>
             <category><![CDATA[Community]]></category>
             <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
-            <pubDate>Fri, 11 Feb 2022 04:00:00 GMT</pubDate>
+            <pubDate>Fri, 11 Feb 2022 03:00:00 GMT</pubDate>
             <enclosure url="/blog-images/Cover.png" length="0" type="image/png"/>
         </item>
     </channel>

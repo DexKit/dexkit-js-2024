@@ -14,7 +14,7 @@ export default function Hero() {
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
             <FormattedMessage
               id="hero.title"
-              defaultMessage="Create your own<br />branded <span>DApps.</span>"
+              defaultMessage="Create your own<br />branded <span>onchain apps.</span>"
               values={{
                 br: <br />,
                 span: (chunks) => <span className="text-orange-400">{chunks}</span>

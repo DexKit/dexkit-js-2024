@@ -75,8 +75,8 @@ function HireADevFormContent() {
   const services = useMemo<ServiceType[]>(() => [
     {
       id: 'singleDApp',
-      title: 'Single DApp',
-      description: 'Swap DApp, Exchange DApp, Wallet DApp + logo (if needed) 5 AI-generated images',
+      title: 'Single onchain app',
+      description: 'Swap onchain app, Exchange onchain app, Wallet onchain app + logo (if needed) 5 AI-generated images',
       price: 200,
       messageIds: {
         title: 'hireADev.services.singleDApp.title',
@@ -97,8 +97,8 @@ function HireADevFormContent() {
     },
     {
       id: 'intermediateDApp',
-      title: 'Intermediate DApp',
-      description: 'More complex DApp + logo (if needed) with testnet ERC20 token + testnet staking contract + 8 AI-generated images',
+      title: 'Intermediate onchain app',
+      description: 'More complex onchain app + logo (if needed) with testnet ERC20 token + testnet staking contract + 8 AI-generated images',
       price: 400,
       messageIds: {
         title: 'hireADev.services.intermediateDApp.title',
@@ -120,8 +120,8 @@ function HireADevFormContent() {
     },
     {
       id: 'advancedDApp',
-      title: 'Advanced DApp',
-      description: 'Complex DApp with all the options from the other ones, but with Gated Content and contract deployments',
+      title: 'Advanced onchain app',
+      description: 'Complex onchain app with all the options from the other ones, but with Gated Content and contract deployments',
       price: 800,
       messageIds: {
         title: 'hireADev.services.advancedDApp.title',
@@ -176,7 +176,7 @@ function HireADevFormContent() {
     {
       id: 'blockchainConsulting',
       title: 'Blockchain Consulting',
-      description: 'Expert guidance on blockchain strategy, smart contracts, DApps, tokenomics, and security. Flexible, hourly-rate advisory to help you innovate and integrate blockchain effectively.',
+      description: 'Expert guidance on blockchain strategy, smart contracts, onchain apps, tokenomics, and security. Flexible, hourly-rate advisory to help you innovate and integrate blockchain effectively.',
       price: 100,
       messageIds: {
         title: 'hireADev.services.blockchainConsulting.title',

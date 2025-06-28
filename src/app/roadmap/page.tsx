@@ -19,7 +19,7 @@ const timelineItems = [
     titleKey: 'roadmap.Q2_2024.title',
     items: [
       { text: 'DexAppBuilder diverse integrations:', textKey: 'roadmap.Q2_2024.item1', status: 'pending' },
-      { text: 'DApp quickstart templates', textKey: 'roadmap.Q2_2024.item2', status: 'completed' },
+      { text: 'Onchain app quickstart templates', textKey: 'roadmap.Q2_2024.item2', status: 'completed' },
       { text: 'UI/UX improvements', textKey: 'roadmap.Q2_2024.item3', status: 'completed' },
     ],
   },
@@ -31,7 +31,7 @@ const timelineItems = [
       { text: 'DexAppBuilder diverse integrations:', textKey: 'roadmap.Q1_2024.item1', status: 'completed' },
       { text: 'Gamification Leaderboards', textKey: 'roadmap.Q1_2024.item2', status: 'completed' },
       { text: 'Darkblock integration', textKey: 'roadmap.Q1_2024.item3', status: 'completed' },
-      { text: 'DApp event tracking', textKey: 'roadmap.Q1_2024.item4', status: 'completed' },
+      { text: 'Onchain app event tracking', textKey: 'roadmap.Q1_2024.item4', status: 'completed' },
       { text: 'Gated content feature', textKey: 'roadmap.Q1_2024.item5', status: 'completed' },
       { text: 'Blast and Pulsechain integrations', textKey: 'roadmap.Q1_2024.item6', status: 'completed' },
     ],

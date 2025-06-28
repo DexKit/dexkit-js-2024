@@ -15,7 +15,7 @@ export function generateMetadata({ params }: { params: { locale: string } }): Me
     },
     description: localeMessages['layout.description'],
     keywords: [
-      "DexKit", "DApps", "Web3", "Blockchain", "No-Code", "Low-Code", 
+      "DexKit", "onchain apps", "Web3", "Blockchain", "No-Code", "Low-Code", 
       "Decentralized Finance", "DeFi", "Ethereum", "Polygon", "Arbitrum", 
       "NFT Marketplace", "Crypto", "Cryptocurrency", "Smart Contracts"
     ],
@@ -37,7 +37,7 @@ export function generateMetadata({ params }: { params: { locale: string } }): Me
           url: ogImageUrl,
           width: 1200,
           height: 630,
-          alt: 'DexKit - Web3 DApp Building Platform',
+          alt: 'DexKit - onchain apps building platform',
         },
       ],
       locale: params.locale,

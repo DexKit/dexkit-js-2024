@@ -90,9 +90,9 @@ export async function POST(request: NextRequest) {
 
     try {
       const serviceNames: {[key: string]: string} = {
-        singleDApp: "Single DApp",
-        intermediateDApp: "Intermediate DApp",
-        advancedDApp: "Advanced DApp",
+        singleDApp: "Single onchain app",
+        intermediateDApp: "Intermediate onchain app",
+        advancedDApp: "Advanced onchain app",
         blockchainConsulting: "Blockchain Consulting",
         completeProject: "Complete Project"
       };
