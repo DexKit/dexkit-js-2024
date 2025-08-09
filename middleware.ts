@@ -10,6 +10,10 @@ export function middleware(request: NextRequest) {
     return NextResponse.rewrite(new URL(`/${defaultLocale}/hire-a-dev`, request.url));
   }
 
+  if (pathname.includes('/airdrop')) {
+    return NextResponse.redirect(new URL('/', request.url));
+  }
+
   if (pathname === '/terms') {
     const userLanguage = request.headers.get('accept-language')?.split(',')[0].split('-')[0] || defaultLocale;
     const locale = locales.includes(userLanguage as Locale) ? userLanguage : defaultLocale;
