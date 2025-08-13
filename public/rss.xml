@@ -4,9 +4,39 @@
         <description><![CDATA[Latest posts from DexKit Blog in English, Spanish, and Portuguese]]></description>
         <link>https://dexkit.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 12 Aug 2025 14:05:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 Aug 2025 19:36:50 GMT</lastBuildDate>
         <atom:link href="https://dexkit.com/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Unlock Web3 on Any Website with DexKit’s Web3 Widgets 🚀]]></title>
+            <description><![CDATA[DexKit’s Web3 Widgets let you bring blockchain power to any website in minutes. Embed token swaps, NFT mints, token drops, and more — no coding required. Customize the look, choose your networks, set fees, and start engaging users with Web3 experiences instantly.]]></description>
+            <link>https://dexkit.com/blog/unlock-web3-on-any-website-web3-widgets</link>
+            <guid isPermaLink="true">https://dexkit.com/blog/unlock-web3-on-any-website-web3-widgets</guid>
+            <category><![CDATA[Blog]]></category>
+            <dc:creator><![CDATA[DexKit Team]]></dc:creator>
+            <pubDate>Wed, 13 Aug 2025 03:00:00 GMT</pubDate>
+            <enclosure url="/blog-images/dexkit-web3-widgets.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Desbloquea la Web3 en cualquier sitio web con los widgets Web3 de DexKit 🚀]]></title>
+            <description><![CDATA[Los widgets Web3 de DexKit te permiten incorporar la potencia de la blockchain a cualquier sitio web en minutos. Integra intercambios de tokens, acuñaciones de NFT, entregas de tokens y más, sin necesidad de programar. Personaliza la apariencia, elige tus redes, establece comisiones y empieza a conectar con los usuarios al instante con experiencias Web3.]]></description>
+            <link>https://dexkit.com/es/blog/widgets-web3-dexkit</link>
+            <guid isPermaLink="true">https://dexkit.com/es/blog/widgets-web3-dexkit</guid>
+            <category><![CDATA[Blog]]></category>
+            <dc:creator><![CDATA[Equipo DexKit]]></dc:creator>
+            <pubDate>Wed, 13 Aug 2025 03:00:00 GMT</pubDate>
+            <enclosure url="/blog-images/dexkit-web3-widgets.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Desbloqueie a Web3 em qualquer site com os widgets Web3 da DexKit 🚀]]></title>
+            <description><![CDATA[Os widgets Web3 da DexKit permitem que você leve o poder do blockchain para qualquer site em minutos. Incorpore trocas de tokens, cunhagens de NFTs, lançamentos de tokens e muito mais — sem necessidade de programação. Personalize a aparência, escolha suas redes, defina taxas e comece a interagir com os usuários com experiências Web3 instantaneamente.]]></description>
+            <link>https://dexkit.com/pt/blog/widgets-web3-dexkit</link>
+            <guid isPermaLink="true">https://dexkit.com/pt/blog/widgets-web3-dexkit</guid>
+            <category><![CDATA[Blog]]></category>
+            <dc:creator><![CDATA[Equipe DexKit]]></dc:creator>
+            <pubDate>Wed, 13 Aug 2025 03:00:00 GMT</pubDate>
+            <enclosure url="/blog-images/dexkit-web3-widgets.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Introducing Monthly Airdrops for KIT Holders]]></title>
             <description><![CDATA[Starting this month, DexKit will automatically distribute KIT token airdrops every 30 days—funded by our Polygon treasury—directly to all eligible holders. Learn how to qualify, calculate your rewards, and get started!

@@ -3,13 +3,12 @@ import { getMessage } from '@/app/utils/locale';
 import HireADevForm from '@/app/components/HireADevForm';
 
 export const generateMetadata = async (props: { 
-  params: { locale: string },
-  searchParams: { service?: string } 
+  params: Promise<{ locale: string }>,
+  searchParams: Promise<{ service?: string }> 
 }): Promise<Metadata> => {
-  const { locale } = props.params;
-  const { service } = props.searchParams;
+  const { locale } = await props.params;
+  const { service } = await props.searchParams;
 
-  // Título base
   let title = getMessage('hireADev.title', locale);
   let description = getMessage('hireADev.description', locale);
 
