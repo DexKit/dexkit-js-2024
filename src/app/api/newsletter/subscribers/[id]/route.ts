@@ -5,7 +5,7 @@ import { authOptions } from '@/lib/auth';
 
 export async function PATCH(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     const session = await getServerSession(authOptions);
@@ -13,9 +13,10 @@ export async function PATCH(
       return NextResponse.json({ error: 'UNAUTHORIZED' }, { status: 401 });
     }
 
+    const { id } = await params;
     const { status } = await request.json();
     const updated = await prisma.newsletter.update({
-      where: { id: params.id },
+      where: { id },
       data: { status }
     });
 
@@ -31,7 +32,7 @@ export async function PATCH(
 
 export async function DELETE(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     const session = await getServerSession(authOptions);
@@ -39,8 +40,9 @@ export async function DELETE(
       return NextResponse.json({ error: 'UNAUTHORIZED' }, { status: 401 });
     }
 
+    const { id } = await params;
     await prisma.newsletter.delete({
-      where: { id: params.id }
+      where: { id }
     });
 
     return NextResponse.json({ success: true });

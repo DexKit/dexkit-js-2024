@@ -3,13 +3,13 @@ import { prisma } from '@/lib/prisma';
 import { encrypt, decrypt } from '@/lib/encryption';
 import { rateLimit } from '@/lib/rate-limit';
 import { headers } from 'next/headers';
-import { Prisma } from '@prisma/client';
 
 const isDev = process.env.NODE_ENV === 'development';
 
-export async function POST(request: Request) {
+export async function POST(request: Request): Promise<NextResponse> {
   try {
-    const ip = headers().get('x-forwarded-for') || 'anonymous';
+    const headersList = await headers();
+    const ip = headersList.get('x-forwarded-for') || 'anonymous';
     
     const limiter = await rateLimit(
       ip, 
@@ -69,39 +69,38 @@ export async function POST(request: Request) {
 
     const encryptedEmail = await encrypt(normalizedEmail);
 
-    return await prisma.$transaction(async (tx) => {
-      try {
-        await tx.newsletter.create({
-          data: {
-            email: encryptedEmail,
-            locale: locale || 'en',
-            status: 'ACTIVE',
-            subscriptionDate: new Date(),
-            createdAt: new Date(),
-            updatedAt: new Date(),
-          }
-        });
-
-        return NextResponse.json({ 
-          success: true,
-          messageId: 'newsletter.success',
-          remaining: limiter.remaining
-        }, { 
-          status: 201,
-          headers: {
-            'X-RateLimit-Remaining': limiter.remaining.toString()
-          }
-        });
-      } catch (error) {
-        if (error instanceof Prisma.PrismaClientKnownRequestError && error.code === 'P2002') {
-          return NextResponse.json({ 
-            error: 'DUPLICATE_EMAIL',
-            messageId: 'newsletter.error.duplicate'
-          }, { status: 400 });
+    try {
+      await prisma.newsletter.create({
+        data: {
+          email: encryptedEmail,
+          locale: locale || 'en',
+          status: 'ACTIVE',
+          subscriptionDate: new Date(),
+          createdAt: new Date(),
+          updatedAt: new Date(),
         }
-        throw error;
+      });
+
+      return NextResponse.json({ 
+        success: true,
+        messageId: 'newsletter.success',
+        remaining: limiter.remaining
+      }, { 
+        status: 201,
+        headers: {
+          'X-RateLimit-Remaining': limiter.remaining.toString()
+        }
+      });
+    } catch (error) {
+      const errorMessage = error instanceof Error ? error.message : String(error);
+      if (errorMessage.includes('Unique constraint') || errorMessage.includes('P2002')) {
+        return NextResponse.json({ 
+          error: 'DUPLICATE_EMAIL',
+          messageId: 'newsletter.error.duplicate'
+        }, { status: 400 });
       }
-    });
+      throw error;
+    }
 
   } catch (error) {
     console.error('Newsletter subscription error:', error);
