@@ -270,12 +270,6 @@ const messages: Messages = {
   'ourTeam.role5': 'Video Editor, Lawyer & Graphic Designer',
   'ourTeam.title5': 'Multimedia Content Specialist',
   'ourTeam.bio5': 'Maria Laura is a versatile professional combining video editing, legal expertise, and graphic design skills. She brings a unique perspective to DexKit by creating compelling visual content while ensuring legal compliance and brand consistency across all multimedia projects.',
-  'ourTeam.role6': 'Community Manager',
-  'ourTeam.title6': 'Community Growth Specialist',
-  'ourTeam.bio6': 'Josh is a community management expert with extensive experience in crypto and DeFi projects. He focuses on building and nurturing engaged communities around blockchain technologies.',
-  'ourTeam.role7': 'Content Creator',
-  'ourTeam.title7': 'Blockchain Content Strategist',
-  'ourTeam.bio7': 'Super Based Queen is a content creator and blockchain enthusiast who specializes in making complex crypto concepts accessible to mainstream audiences through engaging content and social media.',
   'ourTeam.description': 'Our team is composed of experts in various fields, including engineering, law, project management, and marketing. We are a diverse group of individuals who are passionate about blockchain technology and its potential to transform the world.',
 
   // Mission, Vision and Values

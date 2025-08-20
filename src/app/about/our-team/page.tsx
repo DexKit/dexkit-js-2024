@@ -72,13 +72,12 @@ export default function OurTeam() {
       name: "Eliécer Hernández",
       role: intl.formatMessage({ id: "ourTeam.role3" }),
       title: intl.formatMessage({ id: "ourTeam.title3" }),
-      imageUrl: "/imgs/team/eliecer.jpg",
+      imageUrl: "/imgs/team/eliecer.jpeg",
       bio: intl.formatMessage({ id: "ourTeam.bio3" }),
       order: 3,
       socialMedia: {
-        twitter: "https://twitter.com/eliecerhf",
         linkedin: "https://www.linkedin.com/in/eliecerhf/",
-        github: "https://github.com/eliecerhf"
+        github: "https://github.com/Paraguanads"
       }
     },
     {
@@ -103,28 +102,6 @@ export default function OurTeam() {
       socialMedia: {
         linkedin: "https://www.linkedin.com/in/maria-laura-h-251641213/",
         github: "https://github.com/BlackS340"
-      }
-    },
-    {
-      name: "Josh McGuire",
-      role: intl.formatMessage({ id: "ourTeam.role6" }),
-      title: intl.formatMessage({ id: "ourTeam.title6" }),
-      imageUrl: "/imgs/team/josh.jpg",
-      bio: intl.formatMessage({ id: "ourTeam.bio6" }),
-      order: 6,
-      socialMedia: {
-        twitter: "https://twitter.com/CryptoJosh1000x"
-      }
-    },
-    {
-      name: "Super Based Queen",
-      role: intl.formatMessage({ id: "ourTeam.role7" }),
-      title: intl.formatMessage({ id: "ourTeam.title7" }),
-      imageUrl: "/imgs/team/superbasedqueen.jpg",
-      bio: intl.formatMessage({ id: "ourTeam.bio7" }),
-      order: 7,
-      socialMedia: {
-        twitter: "https://x.com/bossbitcoinbish"
       }
     }
   ];
