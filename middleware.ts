@@ -29,7 +29,7 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  const publicFiles = ['robots.txt', 'sitemap.xml', 'favicon.ico'];
+  const publicFiles = ['robots.txt', 'sitemap.xml', 'favicon.ico', 'llms.txt'];
   if (publicFiles.some(file => pathname.endsWith(file))) {
     return NextResponse.next();
   }
