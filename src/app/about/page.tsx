@@ -45,14 +45,14 @@ function AboutPageContent() {
             </p>
           </LocalizedLink>
 
-          <LocalizedLink href="/about/our-team" className="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+          {/*<LocalizedLink href="/about/our-team" className="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
             <h2 className="text-xl sm:text-2xl font-semibold text-purple-900 mb-4">
               {intl.formatMessage({ id: "about.ourTeam" })}
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-gray-600">
               {intl.formatMessage({ id: "about.ourTeamDesc" })}
             </p>
-          </LocalizedLink>
+          </LocalizedLink>*/}
 
           <LocalizedLink href="/about/brand-material" className="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
             <h2 className="text-xl sm:text-2xl font-semibold text-purple-900 mb-4">

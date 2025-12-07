@@ -43,7 +43,7 @@ export default function OurTeam() {
   }, [intl]);
 
   const teamMembers: TeamMember[] = [
-    {
+   /* {
       name: "João Campos",
       role: intl.formatMessage({ id: "ourTeam.role1" }),
       title: intl.formatMessage({ id: "ourTeam.title1" }),
@@ -103,7 +103,7 @@ export default function OurTeam() {
         linkedin: "https://www.linkedin.com/in/maria-laura-h-251641213/",
         github: "https://github.com/BlackS340"
       }
-    }
+    }*/
   ];
 
   const sortedTeamMembers = teamMembers.sort((a, b) => a.order - b.order);
