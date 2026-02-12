@@ -4,7 +4,7 @@ import { encrypt } from '@/lib/encryption';
 import { rateLimit } from '@/lib/rate-limit';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+//const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: NextRequest) {
   const ip = request.headers.get('x-forwarded-for') || 'unknown';
@@ -99,7 +99,7 @@ export async function POST(request: NextRequest) {
 
       const serviceName = serviceNames[product] || product;
 
-      await resend.emails.send({
+      /*await resend.emails.send({
         from: 'DexKit Support <no-reply@dexkit.com>',
         to: 'support@dexkit.com',
         subject: `New service request: ${serviceName}`,
@@ -115,7 +115,7 @@ export async function POST(request: NextRequest) {
           <p><strong>Request date:</strong> ${new Date().toLocaleString()}</p>
           <p><strong>Language:</strong> ${locale || 'en'}</p>
         `,
-      });
+      });*/
     } catch (emailError) {
       console.error('Error sending email:', emailError);
     }
