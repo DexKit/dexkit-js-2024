@@ -1,75 +1,75 @@
 ---
 title: >-
-  Etapas simples para manter sua criptografia segura: um guia rápido para
-  iniciantes
-date: 22 de janeiro de 2024
+  Passos simples para manter sua cripto segura: guia rápido para iniciantes
+date: '23 de fevereiro de 2026'
 excerpt: >-
-  As criptomoedas estão em alta, mas também estão os riscos que as acompanham.
-  Não se preocupe – proteger seus ativos digitais não é difícil.
+  Proteja seus ativos digitais com 12 passos práticos: senhas fortes, 2FA,
+  VPN, carteiras de hardware, cold storage, backup da seed phrase e como
+  evitar phishing. Segurança cripto essencial para iniciantes e holders
+  experientes.
 category: Blog
 slug: etapas-simples-para-manter-sua-criptografia-segura
 imageUrl: /blog-images/Crypto-Safe-blog.png
 ---
-As criptomoedas estão em alta, mas também estão os riscos que as acompanham. Mas não se preocupe: proteger seus ativos digitais não precisa ser uma tarefa complicada.
 
-Embarque na jornada para proteger seus ativos digitais com DexWallet, uma solução avançada dentro da plataforma DexAppBuilder da DexKit. Antes de mergulhar no guia completo sobre como manter sua criptografia segura, explore [aqui](https://dexkit.com/dexwallet/) DexWallet e outros recursos interessantes do DexAppBuilder para elevar seu desenvolvimento de DApp para Web3.
+As criptomoedas oferecem novas formas de construir patrimônio e usar finanças descentralizadas, mas também atraem golpistas e hackers. A boa notícia: **proteger seus ativos digitais não precisa ser complicado**. Com alguns hábitos claros e as ferramentas certas, você reduz bastante o risco de perder sua cripto.
 
-Agora, vamos detalhar neste guia rápido o essencial para garantir que sua criptografia permaneça sã e salva:
+Para uma visão mais ampla dos riscos de investimento e como lidar com eles, veja nosso guia [Domínio em criptomoedas: como gerir riscos e aproveitar as altas](https://dexkit.com/pt/blog/cripto-dominio-navegando-riscos-e-andando-alto-no-jogo-de-investimento). Para reconhecer e evitar golpes comuns, leia [Evitando fraudes criptográficas](https://dexkit.com/pt/blog/evitando-fraudes-criptograficas).
+
+Comece assumindo o controle das suas chaves: o [DexWallet](https://dexkit.com/dexwallet/), parte da plataforma [DexAppBuilder](https://dexkit.com/dexappbuilder/), permite que você implante e gerencie sua própria carteira Web3 para manter o controle total dos seus ativos. Depois, siga estes 12 passos para manter sua cripto segura:
 
 ![Hacker em ação](/blog-images/ce3e8ce3-9c8e-440b-8ae1-906628ec4dc7.jpg)
 
-Existem muitos intervenientes negativos a circular na Internet, especialmente em plataformas financeiras, daí a importância de se manter seguro.
+Há muitos atores mal-intencionados na internet, principalmente em plataformas financeiras e de cripto; alguns hábitos simples de segurança fazem toda a diferença.
 
-### 1\. Bloqueie sua senha
+## 1. Bloqueie sua senha
 
-Sua senha é a primeira linha de defesa da sua criptografia. **Mantenha-o forte misturando letras maiúsculas e minúsculas, números e símbolos.** Evite usar informações fáceis de adivinhar, como seu nome ou aniversário. Dica: deixe um gerenciador de senhas confiável cuidar do trabalho pesado para você com segurança.
+Sua senha é sua **primeira linha de defesa**. Use uma senha forte e única: misture maiúsculas, minúsculas, números e símbolos. Evite dados fáceis de adivinhar (nome, aniversário, "senha123"). Prefira um **gerenciador de senhas** para gerar e guardar senhas fortes com segurança.
 
-### 2\. Duplique a diversão em segurança com 2FA
+## 2. Dobre a segurança com 2FA
 
-A autenticação de dois fatores (2FA) adiciona uma camada extra de proteção. **É como ter um aperto de mão secreto para impedir a entrada de convidados indesejados.** Receba este código em seu telefone ou e-mail e pronto: você aumentará sua segurança. Recomendamos [Aegis para gerenciamento 2FA](https://getaegis.app/). É de código aberto e altamente seguro.
+A **autenticação de dois fatores (2FA)** adiciona uma segunda camada: mesmo que alguém obtenha sua senha, ainda precisa do segundo fator (por exemplo um código de um app). Use um app autenticador em vez de SMS quando possível. Recomendamos o [Aegis](https://getaegis.app/) para 2FA: é open source e guarda os códigos no seu dispositivo.
 
-### 3\. Mantenha as coisas atualizadas
+## 3. Mantenha o software atualizado
 
-Pense em suas carteiras criptográficas como roupas de super-heróis – elas precisam de atualizações regulares. **Mantenha seu software atualizado para corrigir possíveis falhas.** É como vestir a armadura mais recente e brilhante contra os vilões digitais.
+Carteiras, navegador e sistema operacional recebem correções de segurança que fecham vulnerabilidades conhecidas. **Mantenha tudo em dia** para não ficar exposto a exploits evitáveis.
 
-### 4\. Mantenha a privacidade com uma VPN
+## 4. Fique no privado com uma VPN
 
-Quer ficar anônimo on-line? Uma Rede Privada Virtual (VPN) criptografa sua atividade, tornando-a invisível a olhares indiscretos. É como usar uma capa de invisibilidade para suas aventuras criptográficas ([ProtonVPN](https://protonvpn.com/) e [Windscribe](https://windscribe.com/) são opções incríveis).
+Em redes públicas ou não confiáveis, uma **VPN (rede privada virtual)** criptografa seu tráfego e o esconde de bisbilhoteiros. Use uma VPN ao consultar saldos ou assinar transações na rua. Opções confiáveis: [ProtonVPN](https://protonvpn.com/) e [Windscribe](https://windscribe.com/).
 
-### 5\. Escolha a carteira certa
+## 5. Escolha a carteira certa
 
-Escolher uma carteira é como encontrar um companheiro confiável. Opte por carteiras conhecidas e com sólida reputação. Procure recursos como camadas extras de proteção (autenticação com múltiplas assinaturas) e um covil secreto (opções de armazenamento refrigerado).
+Escolha uma carteira com boa reputação e, se possível, recursos como **multissinatura** ou **armazenamento frio**. Para uma opção de autocustódia que você controla, crie [sua própria carteira cripto com DexWallet](https://dexappbuilder.dexkit.com/admin/quick-builder/wallet) e associe seu e-mail para ter sempre acesso e controle total dos seus ativos.
 
-Recomendamos criar [sua própria carteira criptografada com DexWallet](https://dexappbuilder.dexkit.com/admin/quick-builder/wallet) anexando seu endereço de e-mail a ela, para que você tenha controle sobre seus ativos o tempo todo.
+## 6. Mantenha seus segredos em segredo
 
-### 6\. Mantenha seus segredos em segredo
+**Wi‑Fi público é arriscado** para qualquer coisa que envolva senhas ou chaves. Evite para cripto a menos que esteja usando VPN. Só compartilhe dados sensíveis (seed phrase, chaves privadas, senhas) com pessoas de total confiança e por canais seguros.
 
-**Wi-Fi público é como uma armadilha armada por vilões.** Fique longe, a menos que sua VPN esteja ligada. Lembre-se de compartilhar informações confidenciais apenas com pessoas confiáveis e usar apenas serviços VPN conhecidos.
+## 7. Cuidado com o phishing
 
-### 7\. Cuidado com Phish Sorrateiro
+**Phishing** tenta fazer você entregar dados de acesso, seed phrase ou outros segredos por e-mails, sites ou mensagens falsos. Sempre verifique URLs e remetentes; se algo parecer estranho, não clique nem responda. Para se aprofundar em golpes e como evitá-los, leia nosso artigo sobre [evitar golpes cripto](https://dexkit.com/pt/blog/evitando-fraudes-criptograficas).
 
-Golpes de phishing, como ladrões disfarçados, tentam induzi-lo a divulgar informações confidenciais, como nomes de usuário, senhas e detalhes de cartão de crédito. **Sempre verifique antes de entregar suas informações.** Se cheirar mal, provavelmente é.
+## 8. Use cold storage para holdings de longo prazo
 
-### 8\. Congele seus ativos em armazenamento refrigerado
+O **cold storage** mantém as chaves offline, longe de dispositivos conectados à internet. Para valores maiores ou de longo prazo, use uma **carteira de hardware** para que suas chaves privadas nunca toquem um computador conectado. Opções confiáveis: [Trezor](https://trezor.io/) e [Ledger](https://www.ledger.com/); [soluções de backup em metal](https://materialbitcoin.com/producto/material-bitcoin-estandar/) podem proteger sua seed phrase de fogo e água.
 
-Pense no armazenamento refrigerado como colocar sua criptografia no gelo – **está protegido contra ameaças online.** Use uma carteira de hardware e você será como Fort Knox para moeda digital. [Trezor](https://trezor.io/), [Ledger](https://www.ledger.com/) e até mesmo [carteiras frias de metal](https://materialbitcoin.com/producto/material-bitcoin-estandar/) são as melhores escolhas se você deseja guardar seu baú do tesouro.
+## 9. Faça backup da sua seed phrase com segurança
 
-### 9\. Planos de backup com uma frase-semente
+Sua **seed phrase** (frase de recuperação) é a chave mestra da sua carteira. Se você a perder, perde o acesso para sempre. **Anote e guarde em um lugar seguro e privado** (por exemplo um cofre ou local offline seguro). Nunca guarde na nuvem nem envie para ninguém.
 
-Esqueceu sua senha? Não se preocupe – a frase-semente é o seu plano de backup. **Mantenha-o tão seguro quanto um mapa do tesouro escondido.** Talvez em um local seguro ou ultrassecreto.
+## 10. Use mensagens criptografadas para assuntos sensíveis
 
-### 10\. Converse em particular com criptografia
+Ao falar de cripto, chaves ou planos sensíveis, use **mensagens com criptografia de ponta a ponta**. Exemplos: [Signal](https://signal.org/), [Session](https://getsession.org/) e [Keybase](https://keybase.io/). Muitos também usam WhatsApp, que oferece criptografia; em qualquer caso, confirme sempre que está falando com a pessoa certa.
 
-Ao discutir planos secretos (ou criptografia), **use plataformas de mensagens criptografadas**. É como ter uma linguagem secreta que só você e seus aliados de confiança entendem. Alguns exemplos são [Keybase](http://keybase.io), [Signal](https://signal.org/), [Session](https://getsession.org/) e, sim, até o WhatsApp oferece criptografia para seus bate-papos.
+## 11. Confira sua cripto e as permissões
 
-### 11\. Verifique sua criptografia
+Revise suas carteiras e apps conectadas com regularidade. Se notar **atividade estranha**, mude a senha e garanta que o 2FA está ativo. Use o [Revoke.cash](https://revoke.cash/) para revisar e **revogar aprovações de tokens antigas**, evitando que contratos obsoletos ou suspeitos movam seus fundos.
 
-Faça um check-up regular em sua criptografia. Alguma atividade estranha? Mude sua senha e ative o 2FA em breve. É como um exame de saúde de super-herói para seus ativos digitais.
+## 12. Faça auditorias de segurança regulares
 
-Você também pode revogar permissões antigas em sua carteira usando o [serviço Revoke](https://revoke.cash/). Isso ajudará você a manter suas carteiras ainda mais seguras, sem autorizações antigas/obsoletas/suspeitas.
+De tempos em tempos **revise sua configuração**: atualize o software, remova apps e permissões que não usa e confirme que seus backups (incluindo a seed phrase) continuam seguros e acessíveis. Corrija pontos fracos antes que possam ser explorados.
 
-### 12\. Jogue na defesa com auditorias regulares
+---
 
-Faça uma auditoria de segurança de vez em quando – é como apertar os parafusos do seu traje de super-herói. Corrija quaisquer pontos fracos antes que se tornem pontos de entrada para supervilões.
-
-E aí está – 12 etapas simples para manter sua criptografia sã e salva. Agora vá lá e seja o super-herói que seus ativos digitais merecem! 🦸‍♂️🦸‍♀️
+Esses 12 passos formam uma base sólida para **manter sua cripto segura**. Combine-os com uma boa compreensão de [como funcionam as criptomoedas e as carteiras](https://dexkit.com/pt/blog/entendendo-criptomoedas-um-guia-manual-para-moedas-digitais-descentralizadas) e [como evitar golpes](https://dexkit.com/pt/blog/evitando-fraudes-criptograficas), e você estará em posição muito melhor para proteger seus ativos digitais no longo prazo.
