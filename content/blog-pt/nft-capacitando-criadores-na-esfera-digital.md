@@ -1,14 +1,16 @@
 ---
 title: 'Royalties NFT revelados: capacitando criadores na esfera digital'
-date: 21 de agosto de 2023
+date: '23 de fevereiro de 2026'
 excerpt: >-
-  Desbloqueie o potencial dos royalties NFT: capacitando os criadores no cenário
-  digital.
+  Entenda como funcionam os royalties de NFT, como eles capacitam criadores com
+  receita recorrente nas revendas e como se encaixam na economia criadora Web3.
 category: Blog
 slug: nft-capacitando-criadores-na-esfera-digital
 imageUrl: /blog-images/20230821_NFT-royalties-blog-LinkedIn-Facebook.png
 ---
 No mundo em rápida evolução do blockchain, os Tokens Não Fungíveis (NFTs) surgiram em cena, revolucionando a forma como tokenizamos e trocamos ativos digitais exclusivos. Entre as características de destaque dos NFTs está o conceito de royalties. Neste artigo, nos aprofundaremos nos royalties NFT, abordando sua definição, propósito, benefícios tangíveis para os criadores e os cronogramas que os regem.
+
+Se você quer uma visão mais ampla de como NFTs e tokens são usados na prática, leia [Explorando o mundo dos jogos blockchain](https://dexkit.com/pt/blog/explorando-o-mundo-dos-jogos-blockchain) e [Aplicações práticas de criptomoedas](https://dexkit.com/pt/blog/aplicacoes-praticas-de-criptomoedas). Para sair da teoria e ir para a construção, combine este artigo com [O poder dos aplicativos descentralizados (DApps)](https://dexkit.com/pt/blog/o-poder-dos-aplicativos-descentralizados-dapps) e nosso guia no-code [Revolução No-Code/Low-Code: Transformando a Criação Digital](https://dexkit.com/pt/blog/sem-codigo-low-code-revolucao-transformando-criacao-digital).
 
 ### Definindo NFTs em poucas palavras
 

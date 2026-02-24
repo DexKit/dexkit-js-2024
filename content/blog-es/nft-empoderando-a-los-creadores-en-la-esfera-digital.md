@@ -1,14 +1,17 @@
 ---
 title: 'Se revelan las regalías de NFT: empoderar a los creadores en la esfera digital'
-date: 21 de agosto de 2023
+date: '23 de febrero de 2026'
 excerpt: >-
-  Libere el potencial de las regalías de NFT: empoderando a los creadores en el
-  panorama digital.
+  Aprende cómo funcionan las regalías de NFT, cómo empoderan a los creadores
+  con ingresos recurrentes en reventas y cómo encajan en la economía creadora
+  Web3.
 category: Blog
 slug: nft-empoderando-a-los-creadores-en-la-esfera-digital
 imageUrl: /blog-images/20230821_NFT-royalties-blog-LinkedIn-Facebook.png
 ---
 En el mundo de blockchain en rápida evolución, los tokens no fungibles (NFT) han irrumpido en escena, revolucionando la forma en que tokenizamos e intercambiamos activos digitales únicos. Entre las características destacadas de las NFT se encuentra el concepto de regalías. En este artículo, profundizaremos en las regalías de NFT, cubriendo su definición, propósito, beneficios tangibles para los creadores y los plazos que las rigen.
+
+Si quieres una visión más amplia de cómo se usan en la práctica los NFTs y los tokens, lee [Explorando el mundo de los juegos blockchain](https://dexkit.com/es/blog/explorando-el-mundo-de-los-juegos-blockchain) y [Aplicaciones prácticas de las criptomonedas](https://dexkit.com/es/blog/aplicaciones-practicas-de-las-criptomonedas). Para pasar de la teoría a la construcción, combina este artículo con [El poder de las aplicaciones DApps descentralizadas](https://dexkit.com/es/blog/el-poder-de-las-aplicaciones-dapps-descentralizadas) y nuestra guía sin código [Revolución sin código/bajo código: transformando la creación digital](https://dexkit.com/es/blog/revolucion-sin-codigo-bajo-codigo-transformando-la-creacion-digital).
 
 ### Definición de NFT en pocas palabras
 

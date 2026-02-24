@@ -1,18 +1,19 @@
 ---
 title: 'Emojis e comunicação: como passaram de irrelevantes a indispensáveis'
-date: 17 de julho de 2023
+date: '23 de fevereiro de 2026'
 excerpt: >-
-  Descubra a história fascinante e o profundo impacto dos emojis enquanto
-  exploramos sua jornada desde origens humildes até ícones globais.
+  Explore como os emojis se tornaram uma camada essencial da comunicação
+  digital, da cultura e até da comunicação financeira na era das criptomoedas,
+  da regulação e da Web3.
 category: Blog
 slug: emojis-e-comunicacao
 imageUrl: /blog-images/20230717_Emoji-day-blog.png
 ---
 Saudações, estimados leitores!
 
-À medida que nos aproximamos de julho No dia Internacional dos Emojis, é um momento oportuno para mergulhar na história cativante e no impacto profundo destes ícones expressivos. Os Emojis não só transformaram a forma como comunicamos, mas também deixaram a sua marca em áreas inesperadas, incluindo o mundo dos investimentos.
+À medida que nos aproximamos do Dia Internacional dos Emojis, é um momento oportuno para mergulhar na história cativante e no impacto profundo destes ícones expressivos. Os emojis não só transformaram a forma como comunicamos, mas também deixaram a sua marca em áreas inesperadas, incluindo o mundo dos investimentos.
 
-Junte-se a mim nesta jornada esclarecedora enquanto exploramos o significado histórico dos emojis, sua indispensabilidade na comunicação moderna e até mesmo seu envolvimento com as regulamentações financeiras.
+Para entender melhor o contexto digital em que vivem hoje emojis, redes sociais e ativos digitais, combine este artigo com [Entendendo criptomoedas: um guia manual para moedas digitais descentralizadas](https://dexkit.com/pt/blog/entendendo-criptomoedas-um-guia-manual-para-moedas-digitais-descentralizadas). Se você quer ver como comunicação, regulação e proteção do investidor se cruzam no cripto, leia [Evitando fraudes criptográficas](https://dexkit.com/pt/blog/evitando-fraudes-criptograficas) e nosso guia de segurança [Passos simples para manter sua cripto segura](https://dexkit.com/pt/blog/etapas-simples-para-manter-sua-criptografia-segura).\n\nJunte-se a mim nesta jornada esclarecedora enquanto exploramos o significado histórico dos emojis, sua indispensabilidade na comunicação moderna e até mesmo seu envolvimento com as regulamentações financeiras.
 
 ### O nascimento dos emojis e sua ascensão
 

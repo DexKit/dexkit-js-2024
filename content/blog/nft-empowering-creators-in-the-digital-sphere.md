@@ -1,15 +1,18 @@
 ---
 title: 'NFT Royalties Unveiled: Empowering Creators in the Digital Sphere'
-date: 'August 21, 2023'
+date: 'February 23, 2026'
 excerpt: >-
-  Unlock the potential of NFT royalties: Empowering creators in the digital
-  landscape.
+  Learn how NFT royalties work, how they empower creators with recurring
+  revenue on secondary sales, and how they fit into the broader Web3 creator
+  economy.
 category: Blog
 slug: nft-empowering-creators-in-the-digital-sphere
 imageUrl: /blog-images/20230821_NFT-royalties-blog-LinkedIn-Facebook.png
 ---
 
 In the rapidly evolving world of blockchain, Non-Fungible Tokens (NFTs) have burst onto the scene, revolutionizing the way we tokenize and exchange unique digital assets. Among the standout features of NFTs is the concept of royalties. In this article, we’ll take a deep dive into NFT royalties, covering their definition, purpose, tangible benefits for creators, and the timelines that govern them.
+
+If you want a broader view of how NFTs and tokens are used in practice, read [Exploring the World of Blockchain Games](https://dexkit.com/blog/exploring-the-world-of-blockchain-games/) and [Practical Applications of Cryptocurrencies](https://dexkit.com/blog/practical-applications-of-cryptocurrencies/). To go from theory to building, pair this with [The Power of Decentralized Applications (DApps)](https://dexkit.com/blog/the-power-of-decentralized-applications-dapps/) and our no-code guide [No-Code/Low-Code Revolution: Transforming Digital Creation](https://dexkit.com/blog/no-code-low-code-revolution-transforming-digital-creation/).
 
 ### Defining NFTs in a Nutshell
 

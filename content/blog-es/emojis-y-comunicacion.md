@@ -1,17 +1,17 @@
 ---
 title: 'Emojis y comunicación: cómo han pasado de irrelevantes a indispensables'
-date: 17 de julio de 2023
+date: '23 de febrero de 2026'
 excerpt: >-
-  Descubra la fascinante historia y el profundo impacto de los emojis mientras
-  exploramos su viaje desde sus humildes comienzos hasta convertirse en íconos
-  globales.
+  Explora cómo los emojis se convirtieron en una capa esencial de la
+  comunicación digital, la cultura y hasta la comunicación financiera en la era
+  de las criptomonedas, la regulación y la Web3.
 category: Blog
 slug: emojis-y-comunicacion
 imageUrl: /blog-images/20230717_Emoji-day-blog.png
 ---
 ¡Saludos, estimados lectores! A medida que nos acercamos al 17 de julio, el día Internacional de los Emojis, es un momento oportuno para profundizar en la cautivadora historia y el profundo impacto de estos expresivos íconos. Los emojis no sólo han transformado la forma en que nos comunicamos, sino que también han dejado su huella en áreas inesperadas, incluido el mundo de las inversiones.
 
-Únase a mí en este viaje esclarecedor mientras exploramos el significado histórico de los emojis, su carácter indispensable en la comunicación moderna e incluso su relación con las regulaciones financieras.
+Para comprender mejor el contexto digital donde viven hoy los emojis, las redes sociales y los activos digitales, combina este artículo con [Entender las criptomonedas: una guía manual para las monedas digitales descentralizadas](https://dexkit.com/es/blog/entender-las-criptomonedas-una-guia-manual-para-las-monedas-digitales-descentralizadas). Si quieres ver cómo se cruzan comunicación, regulación y protección del inversor en cripto, revisa [Evitando criptoestafas](https://dexkit.com/es/blog/evitando-criptoestafas) y nuestra guía de seguridad [Pasos sencillos para mantener tu cripto segura](https://dexkit.com/es/blog/pasos-simples-para-mantener-su-cripto-segura).\n\nÚnase a mí en este viaje esclarecedor mientras exploramos el significado histórico de los emojis, su carácter indispensable en la comunicación moderna e incluso su relación con las regulaciones financieras.
 
 ### El nacimiento de los emojis y su auge
 
