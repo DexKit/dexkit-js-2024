@@ -2,7 +2,7 @@
 title: >-
   Perturbando as finanças tradicionais: o poder das soluções descentralizadas e
   as inovações do DexKit
-date: '23 de fevereiro de 2026'
+date: '26 de fevereiro de 2026'
 excerpt: >-
   Como o DeFi está transformando as finanças: transparência, autocustódia, CEX
   vs DEX, escalabilidade em Camada 2 e as ferramentas DexKit para

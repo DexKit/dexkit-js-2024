@@ -2,7 +2,7 @@
 title: >-
   Criptomoedas expostas: Compreendendo Bitcoin, Ethereum e a próxima onda da
   revolução financeira
-date: '23 de fevereiro de 2026'
+date: '26 de fevereiro de 2026'
 excerpt: >-
   Entenda como funcionam Bitcoin, Ethereum e redes de Camada 2 como Polygon,
   Arbitrum e Optimism, quais problemas resolvem e como impulsionam DeFi,

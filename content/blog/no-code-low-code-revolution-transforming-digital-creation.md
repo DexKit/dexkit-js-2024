@@ -1,6 +1,6 @@
 ---
 title: 'No-Code/Low-Code Revolution: Transforming Digital Creation'
-date: 'February 23, 2026'
+date: 'February 26, 2026'
 excerpt: >-
   Discover how No-Code/Low-Code platforms empower anyone to build apps faster,
   cut costs, and launch Web3 experiences with tools like DexAppBuilder.

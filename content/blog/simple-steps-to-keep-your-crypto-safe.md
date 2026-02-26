@@ -1,6 +1,6 @@
 ---
 title: 'Simple Steps to Keep Your Crypto Safe: A Quick Guide for Beginners'
-date: 'February 23, 2026'
+date: 'February 26, 2026'
 excerpt: >-
   Protect your digital assets with 12 practical steps: strong passwords, 2FA,
   VPNs, hardware wallets, cold storage, seed phrase backup, and how to avoid

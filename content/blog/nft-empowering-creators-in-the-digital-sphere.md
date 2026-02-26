@@ -1,6 +1,6 @@
 ---
 title: 'NFT Royalties Unveiled: Empowering Creators in the Digital Sphere'
-date: 'February 23, 2026'
+date: 'February 26, 2026'
 excerpt: >-
   Learn how NFT royalties work, how they empower creators with recurring
   revenue on secondary sales, and how they fit into the broader Web3 creator

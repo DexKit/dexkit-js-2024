@@ -1,6 +1,6 @@
 ---
 title: 'Se revelan las regalías de NFT: empoderar a los creadores en la esfera digital'
-date: '23 de febrero de 2026'
+date: '26 de febrero de 2026'
 excerpt: >-
   Aprende cómo funcionan las regalías de NFT, cómo empoderan a los creadores
   con ingresos recurrentes en reventas y cómo encajan en la economía creadora

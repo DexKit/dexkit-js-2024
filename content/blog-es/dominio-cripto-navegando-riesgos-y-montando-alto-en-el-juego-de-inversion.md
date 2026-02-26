@@ -2,7 +2,7 @@
 title: >-
   Dominio en criptomonedas: cómo navegar riesgos y aprovechar las altas en el
   juego de la inversión
-date: '23 de febrero de 2026'
+date: '26 de febrero de 2026'
 excerpt: >-
   Aprende a dominar la inversión en criptomonedas en 2026 con estrategias
   impulsadas por IA, gestión de riesgo, buenas prácticas de seguridad y

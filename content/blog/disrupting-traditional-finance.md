@@ -2,7 +2,7 @@
 title: >-
   Disrupting Traditional Finance: The Power of Decentralized Solutions and
   DexKit's Innovations
-date: 'February 23, 2026'
+date: 'February 26, 2026'
 excerpt: >-
   How DeFi is reshaping finance: transparency, self-custody, CEX vs DEX, Layer
   2 scaling, and DexKit’s tools for digital entrepreneurs. CeFi vs DeFi explained.

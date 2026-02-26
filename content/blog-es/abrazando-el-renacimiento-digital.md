@@ -1,6 +1,6 @@
 ---
 title: 'Abrazar el renacimiento digital: la nueva era empresarial del criptoverso'
-date: '23 de febrero de 2026'
+date: '26 de febrero de 2026'
 excerpt: >-
   Descubre cómo el Renacimiento Digital, Web3, las criptomonedas, los NFTs y
   las herramientas sin código están impulsando una nueva era de emprendimiento

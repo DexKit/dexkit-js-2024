@@ -1,6 +1,6 @@
 ---
 title: 'Royalties NFT revelados: capacitando criadores na esfera digital'
-date: '23 de fevereiro de 2026'
+date: '26 de fevereiro de 2026'
 excerpt: >-
   Entenda como funcionam os royalties de NFT, como eles capacitam criadores com
   receita recorrente nas revendas e como se encaixam na economia criadora Web3.

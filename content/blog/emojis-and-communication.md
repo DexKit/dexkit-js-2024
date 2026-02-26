@@ -1,6 +1,6 @@
 ---
 title: 'Emojis and communication: how they have gone from irrelevance to indispensable'
-date: 'February 23, 2026'
+date: 'February 26, 2026'
 excerpt: >-
   Explore how emojis evolved into an essential layer of digital communication,
   culture, and even investment messaging—and what that means in the age of

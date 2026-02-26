@@ -1,6 +1,6 @@
 ---
 title: 'Revolución sin código/bajo código: transformando la creación digital'
-date: '23 de febrero de 2026'
+date: '26 de febrero de 2026'
 excerpt: >-
   Descubre cómo las plataformas No-Code/Low-Code permiten a cualquiera crear
   apps más rápido, reducir costes y lanzar experiencias Web3 con herramientas

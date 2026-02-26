@@ -2,7 +2,7 @@
 title: >-
   Criptomonedas al descubierto: comprensión de Bitcoin, Ethereum y la próxima
   ola de revolución financiera
-date: '23 de febrero de 2026'
+date: '26 de febrero de 2026'
 excerpt: >-
   Aprende cómo funcionan Bitcoin, Ethereum y redes de Capa 2 como Polygon,
   Arbitrum y Optimism, qué problemas resuelven y cómo impulsan DeFi, la

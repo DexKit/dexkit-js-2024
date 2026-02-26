@@ -2,7 +2,7 @@
 title: >-
   Pasos sencillos para mantener tu cripto segura: guía rápida para
   principiantes
-date: '23 de febrero de 2026'
+date: '26 de febrero de 2026'
 excerpt: >-
   Protege tus activos digitales con 12 pasos prácticos: contraseñas fuertes,
   2FA, VPN, billeteras hardware, almacenamiento en frío, respaldo del seed

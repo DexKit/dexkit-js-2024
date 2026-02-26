@@ -2,7 +2,7 @@
 title: >-
   Cryptocurrencies Exposed: Understanding Bitcoin, Ethereum, and the Next Wave
   of Financial Revolution
-date: 'February 23, 2026'
+date: 'February 26, 2026'
 excerpt: >-
   Learn how Bitcoin, Ethereum, and Layer 2 networks like Polygon, Arbitrum, and
   Optimism work, what problems they solve, and how they power DeFi,

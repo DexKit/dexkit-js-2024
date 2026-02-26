@@ -2,7 +2,7 @@
 title: >-
   Domínio em criptomoedas: como gerir riscos e aproveitar as altas no jogo de
   investimento
-date: '23 de fevereiro de 2026'
+date: '26 de fevereiro de 2026'
 excerpt: >-
   Aprenda a dominar o investimento em criptomoedas em 2026 com estratégias
   impulsionadas por IA, gestão de risco, boas práticas de segurança e dicas

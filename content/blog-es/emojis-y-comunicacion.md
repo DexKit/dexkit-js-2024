@@ -1,6 +1,6 @@
 ---
 title: 'Emojis y comunicación: cómo han pasado de irrelevantes a indispensables'
-date: '23 de febrero de 2026'
+date: '26 de febrero de 2026'
 excerpt: >-
   Explora cómo los emojis se convirtieron en una capa esencial de la
   comunicación digital, la cultura y hasta la comunicación financiera en la era
