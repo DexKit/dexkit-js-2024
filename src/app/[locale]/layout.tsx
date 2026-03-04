@@ -1,37 +1,25 @@
-'use client';
+import { Metadata } from 'next';
+import { locales } from '../i18n/config';
+import { generateMetadata as generateMetadataBase } from '../metadata';
+import LocaleLayoutClient from './LocaleLayoutClient';
 
-import { IntlProvider } from 'react-intl';
-import { useParams, usePathname, notFound } from 'next/navigation';
-import messages from '@/app/i18n/messages';
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
 
-type ValidLocale = keyof typeof messages;
-
-function isValidLocale(locale: string): locale is ValidLocale {
-  return locale in messages;
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return generateMetadataBase({ params: { locale } });
 }
 
 export default function LocaleLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-  const params = useParams();
-  const pathname = usePathname();
-  const localeParam = params?.locale as string;
-  
-  if (pathname === '/robots.txt' || pathname === '/sitemap.xml') {
-    return <>{children}</>;
-  }
-
-  if (!isValidLocale(localeParam)) {
-    notFound();
-  }
-
-  const locale = localeParam;
-
-  return (
-    <IntlProvider messages={messages[locale]} locale={locale} defaultLocale="en">
-      {children}
-    </IntlProvider>
-  );
+  return <LocaleLayoutClient>{children}</LocaleLayoutClient>;
 }
