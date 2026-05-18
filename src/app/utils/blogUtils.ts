@@ -1,9 +1,8 @@
 import fs from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
-import { remark } from 'remark';
-import html from 'remark-html';
 import { BlogPost } from '@/app/components/BlogPostPage';
+import { markdownToHtml } from '@/app/utils/markdown';
 
 export async function getPostData(slug: string, locale: string): Promise<BlogPost | null> {
   try {
@@ -14,10 +13,7 @@ export async function getPostData(slug: string, locale: string): Promise<BlogPos
     const fileContents = await fs.readFile(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
 
-    const processedContent = await remark()
-      .use(html)
-      .process(content);
-    const contentHtml = processedContent.toString();
+    const contentHtml = await markdownToHtml(content);
 
     return {
       slug,

@@ -76,6 +76,22 @@
   text-align: center;
 }
 
+.prose :where(table) {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.prose :where(thead th) {
+  white-space: nowrap;
+}
+
+/* Typography plugin decorates inline <code> with ` chars — remove for markdown output */
+.prose code::before,
+.prose code::after {
+  content: none !important;
+}
+
 .main-content {
   margin-top: 7rem;
 }

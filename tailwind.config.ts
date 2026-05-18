@@ -16,6 +16,27 @@ const config: Config = {
         background: '#FDF1EC',
         text: '#010101',
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            // Typography adds literal ` characters around inline <code> — disable for blog MD
+            'code::before': { content: '""' },
+            'code::after': { content: '""' },
+          },
+        },
+        sm: {
+          css: {
+            'code::before': { content: '""' },
+            'code::after': { content: '""' },
+          },
+        },
+        lg: {
+          css: {
+            'code::before': { content: '""' },
+            'code::after': { content: '""' },
+          },
+        },
+      },
     },
   },
   plugins: [

@@ -1,0 +1,71 @@
+---
+description: DexKit blog OG/social banner — brand gradient, logo, layout (use when creating blog images)
+globs:
+  - content/blog/**/*.md
+  - content/blog-pt/**/*.md
+  - content/blog-es/**/*.md
+  - public/blog-images/**
+  - scripts/compose-blog-banner.mjs
+alwaysApply: false
+---
+
+# DexKit blog banner images
+
+When the user asks for a **blog image**, **OG image**, **social banner**, or **tweet image** for dexkit.com articles:
+
+## Do not
+
+- Use raw AI image generation alone (dark navy, blockchain grids, 3D phones, teal/cyan themes).
+- Invent a new visual style per post.
+- Skip the DexKit logo in the top-left.
+- Use backgrounds that are not the brand purple → orange gradient.
+
+## Brand spec (1200×630 PNG)
+
+| Element | Spec |
+|--------|------|
+| Size | **1200×630** (OG / Twitter large card) |
+| Background | Diagonal gradient: `#5F25E0` (top-left) → `#8B2FC9` (mid) → `#F15A24` (bottom-right) |
+| Logo | `public/imgs/dexkit-logo-white-o-o.svg` — top-left (~48px from edges, ~200px wide). Orange D + white “DexKit” wordmark (same as other posts). |
+| Headline | Large white sans-serif; key phrase in **solid `#F24023` rounded rectangle** |
+| Subtitle | White, smaller, below headline |
+| Footer | `dexkit.com` in a pill: transparent fill, **`#F24023` border**, white text, bottom-left |
+| Optional | Light white node-network graphic bottom-right; simple flat white icon on the right (no 3D mockups) |
+
+**Reference banners (match these):**
+
+- `public/blog-images/dexkit-web3-widgets.png`
+- `public/blog-images/On-chain-app-blog.png`
+
+## How to produce the image
+
+1. **Prefer** `scripts/compose-blog-banner.mjs` (Sharp + SVG): gradient, official logo, text layers.
+2. Example:
+
+```bash
+node scripts/compose-blog-banner.mjs \
+  --out my-post-slug.png \
+  --line1 "Introducing" \
+  --highlight "Web3 Widgets" \
+  --subtitle "Embed swaps and drops on any site" \
+  --tagline "DexAppBuilder · No Code" \
+  --iconLabel "ERC-20"
+```
+3. Save as `public/blog-images/{slug-or-topic}.png` (kebab-case, descriptive).
+4. Set `imageUrl: /blog-images/{filename}.png` in frontmatter for **EN, PT, and ES** (required — see `.cursor/rules/dexkit-blog-content.mdc`).
+
+## After creating the image
+
+- Do not rely on `GenerateImage` unless compositing on top of the brand template or using reference images above; if used, post-process with the compose script or Sharp + logo SVG.
+- Hard-refresh / redeploy dexkit-js-2024 for CDN cache.
+
+## Example layout
+
+```
+[DexKit logo]                                    [optional icon]
+Deploy
+[ Token Allowance Drop ]  ← orange box
+ERC-20 Presale & Claim Guide
+DexAppBuilder · No Code
+[ dexkit.com ]
+```

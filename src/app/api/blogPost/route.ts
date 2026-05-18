@@ -2,8 +2,7 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { remark } from 'remark';
-import html from 'remark-html';
+import { markdownToHtml } from '@/app/utils/markdown';
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -25,10 +24,7 @@ export async function GET(request: Request) {
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
 
-    const processedContent = await remark()
-      .use(html)
-      .process(content);
-    const contentHtml = processedContent.toString();
+    const contentHtml = await markdownToHtml(content);
 
     const post = {
       slug,

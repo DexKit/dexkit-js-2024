@@ -1,8 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { remark } from 'remark';
-import html from 'remark-html';
+import { markdownToHtml } from '@/app/utils/markdown';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
@@ -27,10 +26,7 @@ async function getPostData(slug: string): Promise<BlogPost | null> {
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
 
-    const processedContent = await remark()
-      .use(html)
-      .process(content);
-    const contentHtml = processedContent.toString();
+    const contentHtml = await markdownToHtml(content);
 
     return {
       slug,

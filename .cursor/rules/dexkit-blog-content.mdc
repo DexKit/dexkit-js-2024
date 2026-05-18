@@ -1,0 +1,108 @@
+---
+description: DexKit blog posts — SEO + AI SEO, human tone, always EN + PT + ES
+globs:
+  - content/blog/**/*.md
+  - content/blog-pt/**/*.md
+  - content/blog-es/**/*.md
+alwaysApply: false
+---
+
+# DexKit blog content (EN, PT, ES)
+
+When the user asks for a **blog post**, **article**, or **guide** on dexkit.com:
+
+## Always ship three locales
+
+Create **all three files** in the same task (unless the user explicitly asks for one language only):
+
+| Locale | Folder | URL |
+|--------|--------|-----|
+| English | `content/blog/` | `https://dexkit.com/blog/{filename-without-md}` |
+| Portuguese | `content/blog-pt/` | `https://dexkit.com/pt/blog/{filename-without-md}` |
+| Spanish | `content/blog-es/` | `https://dexkit.com/es/blog/{filename-without-md}` |
+
+- **Same filename** in all three folders (e.g. `deploy-token-allowance-drop-with-dexappbuilder.md`).
+- **Same `slug`** in frontmatter (match filename).
+- **Translate** title, excerpt, and body; keep product names (`DexAppBuilder`, `DropAllowanceERC20`, UI labels) as in the product.
+- **Localized internal links** — do not link EN posts from PT/ES:
+
+```markdown
+<!-- EN -->
+[DexAppBuilder guide](https://dexkit.com/blog/creating-on-chain-application-made-easy-with-dexappbuilder)
+
+<!-- PT -->
+[guia DexAppBuilder](https://dexkit.com/pt/blog/criacao-de-aplicativo-on-chain-facilitada-com-dexappbuilder)
+
+<!-- ES -->
+[guía DexAppBuilder](https://dexkit.com/es/blog/creacion-de-aplicaciones-en-cadena-simple-con-dexappbuilder)
+```
+
+Use **filename** (not frontmatter slug) in URLs when they differ across legacy posts — grep `content/blog-pt/` for the PT/ES slug of a related post.
+
+## Frontmatter (all locales)
+
+```yaml
+---
+title: 'Primary keyword + DexAppBuilder | benefit'  # EN; translate for PT/ES
+date: 'May 18, 2026'   # PT: 18 de maio de 2026 | ES: 18 de mayo de 2026
+excerpt: >-
+  1–2 sentences, 140–160 chars: main keyword, what reader gets, DexKit/DexAppBuilder, no Solidity/no-code if relevant.
+category: Blog
+slug: kebab-case-matching-filename
+imageUrl: /blog-images/{same-image}.png
+---
+```
+
+Banner image: follow `.cursor/rules/dexkit-blog-images.mdc` and set the **same** `imageUrl` in EN, PT, ES.
+
+## SEO structure (every post)
+
+1. **Quick answer** — First paragraph starts with **Quick answer:** / **Resposta rápida:** / **Respuesta rápida:** One dense paragraph: what it is, main tool, 3–4 steps, primary links. Written for featured snippets and AI summaries.
+2. **Hook** — 1–2 short human paragraphs (problem → why this guide).
+3. **H2 as questions** where it fits: `What is…`, `…vs… which one`, `How to…`, `FAQ`.
+4. **Definition block** — Plain-language “X is…” with contract/product names.
+5. **Comparison table** (markdown tables supported via `remark-gfm`) when comparing options.
+6. **Who is this for** — bullet list of use cases.
+7. **Steps** — `##` + `###` with actionable instructions; keep UI strings in English (`Settings → Networks`, `DexGenerator`).
+8. **Checklist** — copy/paste launch list.
+9. **FAQ** — 5–7 questions as `###` headings; direct answers in 1–3 sentences (AI overviews).
+10. **More from DexKit** — 3–5 internal links (locale-correct) + docs.dexkit.com.
+11. **Get started** — 2 CTA links + contact/Discord.
+
+**Title:** Lead with primary keyword; include `DexAppBuilder` or `DexKit` when relevant (~50–65 chars).
+
+**Keywords:** Use naturally in H2s and first 100 words: product name, chain names, `ERC-20`, `no code` / `sem código` / `sin código`, task intent (`presale`, `claim`, `deploy`).
+
+## AI SEO
+
+- One **quotable definition** per core concept.
+- **Entity clarity:** DexKit, DexAppBuilder, DexContracts, contract types (`DropAllowanceERC20`).
+- **Tables and lists** for facts machines can extract.
+- Each section answers **one search intent** only.
+- FAQ questions phrased how users/search/AI ask them.
+
+## Voice (sound human, not AI)
+
+- Write like a teammate explaining to a builder — direct, specific, occasional “we’ve seen…”.
+- Vary sentence length; mix short paragraphs with bullets.
+- **Avoid:** delve, leverage, seamless, robust, comprehensive, “whether you’re a beginner or expert”, stacked em dashes, emoji CTAs, excessive `---` dividers.
+- **Do:** concrete scenarios (treasury wallet, testnet before mainnet), honest troubleshooting.
+
+## Markdown technical notes
+
+- Inline code: `` `DropAllowanceERC20` `` → renders as `<code>` (Tailwind typography backticks are disabled in `globals.css`).
+- Tables need a header row and `|---|---|` separator.
+- Link docs: `https://docs.dexkit.com/...` (same for all locales).
+
+## Reference post
+
+`content/blog/deploy-token-allowance-drop-with-dexappbuilder.md` (+ `blog-pt/`, `blog-es/` siblings).
+
+## Checklist before finishing
+
+- [ ] `content/blog/{slug}.md`
+- [ ] `content/blog-pt/{slug}.md`
+- [ ] `content/blog-es/{slug}.md`
+- [ ] Banner in `public/blog-images/` + `imageUrl` in all three
+- [ ] FAQ + quick answer in all three
+- [ ] Internal links use `/blog/`, `/pt/blog/`, `/es/blog/` correctly
