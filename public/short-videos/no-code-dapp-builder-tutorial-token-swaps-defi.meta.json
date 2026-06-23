@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "slug": "no-code-dapp-builder-tutorial-token-swaps-defi",
+  "title": "No Code DApp Builder Tutorial: Create Token Swap DApps Fast with DexAppBuilder",
+  "blogUrl": "https://dexkit.com/blog/no-code-dapp-builder-tutorial-token-swaps-defi",
+  "keyword": "no code dapp builder tutorial",
+  "producedAt": "2026-06-23T02:14:03.920Z",
+  "videoRelativePath": "public/short-videos/no-code-dapp-builder-tutorial-token-swaps-defi.mp4",
+  "videoUrl": "https://dexkit.com/short-videos/no-code-dapp-builder-tutorial-token-swaps-defi.mp4",
+  "metaRelativePath": "public/short-videos/no-code-dapp-builder-tutorial-token-swaps-defi.meta.json",
+  "script": {
+    "hook": "Build your token swap app in minutes!",
+    "bullets": [
+      "Connect your wallet like MetaMask",
+      "Sign a message to verify identity",
+      "Enter your email and create app"
+    ],
+    "cta": "Try DexAppBuilder now and visit our blog!",
+    "narration": "Ready to build your own token swap app quickly? Start by connecting your wallet, like MetaMask, and signing a message to verify your identity. Then, enter your email—such as info@dexkit.com—and create your app effortlessly. Within moments, your first app is live on DexAppBuilder. Check out the full tutorial on our blog to get started today!",
+    "scenePrompts": [
+      "Vertical 9:16 abstract cinematic Web3 art with swirling purple (#5F25E0) and teal accents, dynamic energy flows symbolizing rapid creation and innovation, no text or logos",
+      "Vertical 9:16 distinct visual metaphor of a glowing blueprint or circuit board illuminated in purple and teal, representing step-by-step guided building, no text or logos",
+      "Vertical 9:16 abstract visual of interconnected nodes and chains in purple and teal hues, symbolizing seamless DeFi integrations and connectivity, no text or logos",
+      "Vertical 9:16 vibrant futuristic cityscape in purple and teal lighting, conveying fast launch and accessible technology, no text or logos",
+      "Vertical 9:16 inspiring forward-looking Web3 builder vibe with abstract rising structures and light beams in purple and teal, evoking growth and opportunity, no text or logos"
+    ],
+    "youtubeTitle": "No Code Token Swap DApps Fast with DexAppBuilder Tutorial",
+    "youtubeDescription": "Learn how to create token swap DApps quickly without coding using DexAppBuilder. Follow our easy tutorial and launch your DeFi project today! https://dexkit.com/blog/no-code-dapp-builder-tutorial-token-swaps-defi #Web3 #NoCode #DexAppBuilder",
+    "tiktokCaption": "Build token swap DApps fast without coding!\nStep-by-step no code tutorial\nSeamless DeFi integrations\nLaunch your DApp in minutes\nhttps://dexkit.com/blog/no-code-dapp-builder-tutorial-token-swaps-defi #Web3 #NoCode #DeFi #DexAppBuilder #Crypto",
+    "instagramCaption": "Build token swap DApps fast without any coding! 🚀\nFollow our step-by-step no code tutorial and launch your DeFi project in minutes.\nhttps://dexkit.com/blog/no-code-dapp-builder-tutorial-token-swaps-defi\n#Web3 #NoCode #DeFi #DexAppBuilder #Crypto #Blockchain #SmartContracts #DApps",
+    "linkedinVideoCaption": "Discover how to build token swap DApps quickly without writing code using DexAppBuilder. Our step-by-step tutorial guides you through seamless DeFi integrations and fast deployment. Learn more at https://dexkit.com/blog/no-code-dapp-builder-tutorial-token-swaps-defi #Web3 #NoCode #DeFi #DexAppBuilder #Blockchain"
+  },
+  "usage": {
+    "totalTokens": 418,
+    "totalCostUsd": 0.007606400015258788,
+    "script": {
+      "model": "gpt-4.1-mini",
+      "promptTokens": 272,
+      "completionTokens": 146,
+      "totalTokens": 418,
+      "costUsd": 0.00034240000000000003
+    },
+    "tts": {
+      "model": "tts-1",
+      "characters": 342,
+      "costUsd": 0.00513
+    },
+    "whisper": {
+      "model": "whisper-1",
+      "durationSeconds": 21.34000015258789,
+      "costUsd": 0.002134000015258789
+    }
+  },
+  "totalTokens": 418,
+  "totalCostUsd": 0.007606400015258788,
+  "status": "ready",
+  "source": "clip",
+  "sourceType": "clip",
+  "clipId": "cmqiio5j40004nc26e8037ff9",
+  "clip": {
+    "clipKey": "connect-wallet-create-app",
+    "sourceSlug": "my-first-app",
+    "matchScore": 0.6215415232826298,
+    "matchReason": "embedding"
+  },
+  "audioMode": "tts",
+  "locale": "en",
+  "sourceLanguage": "en",
+  "dbId": "cmqq0gk2a000hbwt1vtzbobzp",
+  "publish": {
+    "mode": "review",
+    "attempted": true,
+    "youtube": {
+      "ok": false,
+      "privacyStatus": "private",
+      "error": "Request failed with status code 400"
+    }
+  }
+}
