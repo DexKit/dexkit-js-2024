@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "slug": "nft-storefronts-build-launch-without-code-dexappbuilder",
+  "title": "NFT Storefronts: Build and Launch Without Code with DexAppBuilder",
+  "blogUrl": "https://dexkit.com/blog/nft-storefronts-build-launch-without-code-dexappbuilder",
+  "keyword": "NFT Storefronts: Build and Launch Without Code",
+  "producedAt": "2026-06-27T19:45:00.493Z",
+  "videoRelativePath": "public/short-videos/nft-storefronts-build-launch-without-code-dexappbuilder.mp4",
+  "videoUrl": "https://dexkit.com/short-videos/nft-storefronts-build-launch-without-code-dexappbuilder.mp4",
+  "metaRelativePath": "public/short-videos/nft-storefronts-build-launch-without-code-dexappbuilder.meta.json",
+  "script": {
+    "hook": "Start building your app easily with DexAppBuilder!",
+    "bullets": [
+      "Visit dexappbuilder.dexkit.com homepage",
+      "Find and click 'Build My App' button",
+      "Begin creating your app without coding"
+    ],
+    "cta": "Explore DexAppBuilder and read the blog today!",
+    "narration": "Hi everyone! Today, I’ll show you how to start a blank app on DexAppBuilder at dexappbuilder.dexkit.com. First, visit the homepage and look for the “Build My App” button. You can find it either in the center or at the top of the page. Next, simply click the button to get started with your app creation. It’s quick and easy to begin building your project without any coding. For more details, check out the blog “NFT Storefronts: Build and Launch Without Code with DexAppBuilder.”",
+    "scenePrompts": [
+      "Vertical 9:16 abstract cinematic Web3 art featuring dynamic purple (#5F25E0) and teal light rays converging into a glowing digital storefront shape, futuristic and immersive, no text or faces",
+      "Vertical 9:16 abstract visual metaphor of interconnected glowing nodes and blocks forming a smooth, flowing network in purple and teal hues, symbolizing drag-and-drop no-code tools, no text or faces",
+      "Vertical 9:16 cinematic abstract art of a secure glowing smart contract scroll unfolding in purple and teal light, surrounded by digital lock symbols and circuitry patterns, no text or faces",
+      "Vertical 9:16 surreal abstract scene showing a gated digital portal made of purple and teal energy beams, symbolizing token-gated NFT storefronts, with a futuristic vibe, no text or faces",
+      "Vertical 9:16 inspiring forward-looking Web3 builder vibe with radiant purple and teal light beams shooting upward into a digital horizon, symbolizing innovation and new beginnings, no text or faces"
+    ],
+    "youtubeTitle": "NFT Storefronts: Build & Launch Without Code | DexAppBuilder",
+    "youtubeDescription": "Learn how to build NFT storefronts without coding using DexAppBuilder’s no-code tools. Deploy smart contracts and launch your Web3 store easily. Read more: https://dexkit.com/blog/nft-storefronts-build-launch-without-code-dexappbuilder #Web3 #NoCode #DexAppBuilder",
+    "tiktokCaption": "Build NFT storefronts fast without any coding skills! \nUse drag-and-drop no-code tools \nDeploy smart contracts securely \nCreate token-gated storefronts \nhttps://dexkit.com/blog/nft-storefronts-build-launch-without-code-dexappbuilder #Web3 #NoCode #NFT #DexAppBuilder #Crypto",
+    "instagramCaption": "Build NFT storefronts fast without any coding skills! Use DexAppBuilder’s drag-and-drop tools to deploy smart contracts and create token-gated storefronts. Start your Web3 journey today! Read more: https://dexkit.com/blog/nft-storefronts-build-launch-without-code-dexappbuilder #Web3 #NoCode #NFTStorefront #DexAppBuilder #Crypto #Blockchain #NFT",
+    "linkedinVideoCaption": "Discover how to build and launch NFT storefronts without writing any code using DexAppBuilder’s no-code platform. Deploy smart contracts and create token-gated storefronts easily. Learn more at https://dexkit.com/blog/nft-storefronts-build-launch-without-code-dexappbuilder #Web3 #NoCode #NFT #DexAppBuilder #Blockchain"
+  },
+  "usage": {
+    "totalTokens": 456,
+    "totalCostUsd": 0.0105116,
+    "script": {
+      "model": "gpt-4.1-mini",
+      "promptTokens": 265,
+      "completionTokens": 191,
+      "totalTokens": 456,
+      "costUsd": 0.00041160000000000003
+    },
+    "tts": {
+      "model": "tts-1",
+      "characters": 480,
+      "costUsd": 0.0072
+    },
+    "whisper": {
+      "model": "whisper-1",
+      "durationSeconds": 29,
+      "costUsd": 0.0029000000000000002
+    }
+  },
+  "totalTokens": 456,
+  "totalCostUsd": 0.0105116,
+  "status": "ready",
+  "source": "clip",
+  "sourceType": "clip",
+  "clipId": "cmqiinyy30002nc26sckrmi0e",
+  "clip": {
+    "clipKey": "start-blank-app-dexappbuilder",
+    "sourceSlug": "my-first-app",
+    "matchScore": 0.6352477591038896,
+    "matchReason": "embedding"
+  },
+  "audioMode": "tts",
+  "locale": "en",
+  "sourceLanguage": "en",
+  "dbId": "cmqwrrhhs0006apdtt9q4y32v",
+  "publish": {
+    "mode": "review",
+    "attempted": true,
+    "youtube": {
+      "ok": false,
+      "privacyStatus": "private",
+      "error": "Request failed with status code 400"
+    }
+  }
+}
