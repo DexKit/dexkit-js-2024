@@ -17,6 +17,12 @@ interface BlogPost {
   excerpt?: string;
 }
 
+const SITE_URL = 'https://dexkit.com';
+
+function absoluteUrl(url: string) {
+  return url.startsWith('http') ? url : `${SITE_URL}${url}`;
+}
+
 async function getPostData(slug: string): Promise<BlogPost | null> {
   const postsDirectory = path.join(process.cwd(), 'content', 'blog');
   const fullPath = path.join(postsDirectory, `${slug}.md`);
@@ -51,13 +57,24 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
       description: 'The requested blog post could not be found.',
     };
   }
+  const imageUrl = absoluteUrl(post.imageUrl);
   return {
     title: `${post.title} | DexKit Blog`,
     description: post.excerpt,
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      images: [{ url: post.imageUrl }],
+      type: 'article',
+      url: `${SITE_URL}/blog/${post.slug}`,
+      images: [{ url: imageUrl, width: 1200, height: 630, alt: post.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      site: '@dexkit',
+      creator: '@dexkit',
+      images: [imageUrl],
     },
   };
 }

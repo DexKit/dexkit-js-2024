@@ -58,6 +58,9 @@ export function generateMetadata({ params }: { params: { locale: string } }): Me
         'es-ES': '/es',
         'pt-BR': '/pt',
       },
+      types: {
+        'application/rss+xml': '/rss.xml',
+      },
     },
     robots: {
       index: true,
