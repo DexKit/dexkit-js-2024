@@ -10,7 +10,7 @@ author: DexKit Team
 ---
 
 **Quick answer:**  
-Web3 DApp Templates are pre-made building blocks for blockchain apps—think DeFi platforms, NFT marketplaces, or DAOs—so you don’t have to start from scratch. With DexAppBuilder, you can pick a template, drag and drop no-code blocks (like wallet connect or NFT mint), tweak the layout, and deploy your DApp live to chains like Ethereum or Polygon—no coding required. Start by picking a template, add your branding and features, connect a blockchain wallet, and launch. Templates save weeks of work, especially for non-developers, and DexAppBuilder makes the whole process visual and fast.
+Web3 DApp Templates are pre-made building blocks for blockchain apps—think DeFi platforms, NFT marketplaces, or token-gated blogs—so you don’t have to start from scratch. With [DexAppBuilder](https://dexappbuilder.dexkit.com), you browse [ready-to-clone templates](https://dexappbuilder.dexkit.com/site/templates), pick one that matches your use case (NFT storefront, swap DApp, blog, etc.), customize blocks like wallet connect or NFT mint, and deploy to chains like Polygon or Base—no coding required. Clone a template, add your branding, connect a wallet block, test on a testnet, then publish. Templates save weeks of work for first-time builders, and DexAppBuilder ships with real examples you can fork today—not generic placeholders.
 
 ## Why Web3 DApp Templates Are Essential for Fast Blockchain Development
 
@@ -42,6 +42,25 @@ Launching a new crypto token? Launchpad templates help projects distribute token
 
 Each template is designed for specific use cases, but most are customizable to fit your branding and workflow. Some are very opinionated—meaning you get less flexibility but faster setup. Others are modular, letting you swap out features or add new ones as you grow.
 
+## DexAppBuilder Templates You Can Clone Today
+
+DexAppBuilder maintains a live catalog at **[dexappbuilder.dexkit.com/site/templates](https://dexappbuilder.dexkit.com/site/templates)**. Each entry is a working DApp you can preview, then clone into your own project with one click. You are not starting from a blank canvas—you inherit layout, Web3 blocks, and contract wiring for that use case.
+
+| Template | Best for | Clone |
+| --- | --- | --- |
+| [The Bestiary](https://dexappbuilder.dexkit.com/site/template/thebestiary) | NFT collection + ERC20 showcase with staking | [Clone](https://dexappbuilder.dexkit.com/admin/create?clone=thebestiary) |
+| [CyberCows](https://dexappbuilder.dexkit.com/site/template/cybercows) | Full NFT platform: genesis mint, gated content, staking rewards | [Clone](https://dexappbuilder.dexkit.com/admin/create?clone=cybercows) |
+| [Dime-a-Dozen](https://dexappbuilder.dexkit.com/site/template/simple) | NFT collection + swap + gated support content | [Clone](https://dexappbuilder.dexkit.com/admin/create?clone=simple) |
+| [Pawtastic Times](https://dexappbuilder.dexkit.com/site/template/pawtastictimes) | Video blog with NFT donations and staking | [Clone](https://dexappbuilder.dexkit.com/admin/create?clone=pawtastictimes) |
+| [CrystalBlue App](https://dexappbuilder.dexkit.com/site/template/crystalblue) | ERC20 token claim and referral drop | [Clone](https://dexappbuilder.dexkit.com/admin/create?clone=crystalblue) |
+| [BaseCamp Wallet App](https://dexappbuilder.dexkit.com/site/template/basecamp) | Minimal wallet portal on Base | [Clone](https://dexappbuilder.dexkit.com/admin/create?clone=basecamp) |
+| [Simple Blog with Markdown](https://dexappbuilder.dexkit.com/site/template/markdown) | Markdown blog with embeddable Web3 components | [Clone](https://dexappbuilder.dexkit.com/admin/create?clone=markdown) |
+| [GivSwap](https://dexappbuilder.dexkit.com/site/template/givswap) | Branded multichain DEX aggregator (0x) | [Clone](https://dexappbuilder.dexkit.com/admin/create?clone=givswap) |
+| [Get Bitcoin](https://dexappbuilder.dexkit.com/site/template/getbitcoin) | Multichain swap focused on wrapped BTC access | [Clone](https://dexappbuilder.dexkit.com/admin/create?clone=getbitcoin) |
+| [Collab.Land Swap](https://dexappbuilder.dexkit.com/site/template/collabswap) | Branded swap DApp for a community token | [Clone](https://dexappbuilder.dexkit.com/admin/create?clone=collabswap) |
+
+For example, a creator launching an NFT collection on Base might start with **CyberCows** or **The Bestiary**, swap branding and contract addresses, and publish in days instead of building wallet flows and staking UI from scratch. A DeFi-focused project would lean toward **GivSwap** or **Get Bitcoin** instead—pick the row that matches your audience, not every template on the list.
+
 ## How DexAppBuilder Simplifies Building with Pre-Built DApp Templates
 
 DexAppBuilder is a no-code platform designed for real-world Web3 builders. Instead of writing smart contracts or front-end code, you add pre-made blocks to a visual canvas and configure them. The platform’s templates cover the most common app types—NFT marketplaces, DeFi dashboards, DAOs, and launchpads—so you don’t have to start from zero.
@@ -49,7 +68,7 @@ DexAppBuilder is a no-code platform designed for real-world Web3 builders. Inste
 Here’s how DexAppBuilder streamlines the process:
 
 1. **Pick a Template**  
-Start by choosing from a library of . Each comes with core blocks—like wallet connect, NFT mint, or governance voting—already set up.
+Start at the [template catalog](https://dexappbuilder.dexkit.com/site/templates). Open a preview (e.g. [CyberCows](https://cybercows.dexkit.app) or [GivSwap](https://givswap.dexkit.app)), then click **Clone** to copy it into your DexAppBuilder workspace. Each template ships with core blocks—wallet connect, NFT mint, swap, or gated content—already wired for that use case.
 
 2. **Customize with Drag-and-Drop Blocks**  
 Need a new feature? Just drag a block onto your app. Want to add NFT minting? Drop in the NFT Mint block. Need wallet support? Add a Wallet Connect block. No coding, no deploying smart contracts yourself.
@@ -129,4 +148,4 @@ Most users go from idea to live DApp in days, not months. For example, if you’
 
 ---
 
-If you’re new to Web3, using templates and no-code tools like DexAppBuilder is the fastest, safest way to launch. You’ll avoid most common pitfalls, focus on your users, and get real feedback—without burning months on infrastructure. For most first-time builders, that’s not just easier, it’s smarter. Explore DexAppBuilder’s templates at [dexappbuilder.dexkit.com](https://dexappbuilder.dexkit.com) and get your project live.
+If you’re new to Web3, using templates and no-code tools like DexAppBuilder is the fastest, safest way to launch. You’ll avoid most common pitfalls, focus on your users, and get real feedback—without burning months on infrastructure. Browse every starter app at **[dexappbuilder.dexkit.com/site/templates](https://dexappbuilder.dexkit.com/site/templates)**, clone the one closest to your idea, and get your project live.

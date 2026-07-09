@@ -42,6 +42,25 @@ Vai lançar um novo token cripto? Modelos Launchpad ajudam projetos a distribuir
 
 Cada modelo é desenhado para casos específicos, mas a maioria pode ser personalizada para sua marca e fluxo de trabalho. Alguns são mais rígidos — menos flexíveis, mas mais rápidos de configurar. Outros são modulares, permitindo trocar ou adicionar recursos conforme o projeto cresce.
 
+## Modelos DexAppBuilder que Pode Clonar Hoje
+
+O DexAppBuilder mantém um catálogo em **[dexappbuilder.dexkit.com/site/templates](https://dexappbuilder.dexkit.com/site/templates)**. Cada entrada é um DApp funcional que pode pré-visualizar e clonar com um clique.
+
+| Modelo | Ideal para | Clonar |
+| --- | --- | --- |
+| [The Bestiary](https://dexappbuilder.dexkit.com/site/template/thebestiary) | Coleção NFT + showcase ERC20 com staking | [Clonar](https://dexappbuilder.dexkit.com/admin/create?clone=thebestiary) |
+| [CyberCows](https://dexappbuilder.dexkit.com/site/template/cybercows) | Plataforma NFT completa: mint, conteúdo gated, staking | [Clonar](https://dexappbuilder.dexkit.com/admin/create?clone=cybercows) |
+| [Dime-a-Dozen](https://dexappbuilder.dexkit.com/site/template/simple) | Coleção NFT + swap + conteúdo gated | [Clonar](https://dexappbuilder.dexkit.com/admin/create?clone=simple) |
+| [Pawtastic Times](https://dexappbuilder.dexkit.com/site/template/pawtastictimes) | Video blog com doações NFT e staking | [Clonar](https://dexappbuilder.dexkit.com/admin/create?clone=pawtastictimes) |
+| [CrystalBlue App](https://dexappbuilder.dexkit.com/site/template/crystalblue) | Claim e referral de token ERC20 | [Clonar](https://dexappbuilder.dexkit.com/admin/create?clone=crystalblue) |
+| [BaseCamp Wallet App](https://dexappbuilder.dexkit.com/site/template/basecamp) | Carteira minimal na Base | [Clonar](https://dexappbuilder.dexkit.com/admin/create?clone=basecamp) |
+| [Simple Blog with Markdown](https://dexappbuilder.dexkit.com/site/template/markdown) | Blog Markdown com componentes Web3 | [Clonar](https://dexappbuilder.dexkit.com/admin/create?clone=markdown) |
+| [GivSwap](https://dexappbuilder.dexkit.com/site/template/givswap) | Agregador DEX multichain (0x) | [Clonar](https://dexappbuilder.dexkit.com/admin/create?clone=givswap) |
+| [Get Bitcoin](https://dexappbuilder.dexkit.com/site/template/getbitcoin) | Swap multichain focado em BTC wrapped | [Clonar](https://dexappbuilder.dexkit.com/admin/create?clone=getbitcoin) |
+| [Collab.Land Swap](https://dexappbuilder.dexkit.com/site/template/collabswap) | Swap com token de comunidade | [Clonar](https://dexappbuilder.dexkit.com/admin/create?clone=collabswap) |
+
+Por exemplo, um criador a lançar uma coleção NFT na Base pode começar com **CyberCows** ou **The Bestiary**; um projeto DeFi deve olhar para **GivSwap** ou **Get Bitcoin** — escolha o modelo que corresponde ao seu público.
+
 ## Como o DexAppBuilder Simplifica a Construção com Modelos Pré-Construídos de DApps
 
 O DexAppBuilder é uma plataforma no-code criada para construtores reais de Web3. Em vez de escrever smart contracts ou código front-end, adiciona blocos pré-fabricados a uma tela visual e configura-os. Os modelos da plataforma cobrem os tipos de apps mais comuns — marketplaces NFT, dashboards DeFi, DAOs e launchpads — para que não precise começar do zero.
