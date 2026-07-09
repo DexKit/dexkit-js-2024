@@ -61,6 +61,19 @@ DexAppBuilder maintains a live catalog at **[dexappbuilder.dexkit.com/site/templ
 
 For example, a creator launching an NFT collection on Base might start with **CyberCows** or **The Bestiary**, swap branding and contract addresses, and publish in days instead of building wallet flows and staking UI from scratch. A DeFi-focused project would lean toward **GivSwap** or **Get Bitcoin** instead—pick the row that matches your audience, not every template on the list.
 
+## Contracts, Solutions, and DexContracts
+
+Templates are only one entry point. DexAppBuilder also ships:
+
+| Surface | URL | What it does |
+| --- | --- | --- |
+| **Deploy contracts** | [dexappbuilder.dexkit.com/forms/contracts/create](https://dexappbuilder.dexkit.com/forms/contracts/create) | Deploy Thirdweb/DexKit contracts (ERC20, ERC721, drops, staking, airdrops, etc.). Each deployment gets **end-user UI** and **contract-owner admin UI** automatically. |
+| **Contract catalog** | [GitHub: thirdweb/index.json](https://github.com/DexKit/assets/blob/main/contracts/thirdweb/index.json) | Supported contract types. Thirdweb contracts deploy at `/forms/deploy/thirdweb/{slug}`; DexKit-native contracts (e.g. **Token Allowance Drop**) at `/forms/deploy/DexKit/{slug}`. |
+| **Solutions** | [dexappbuilder.dexkit.com/solutions](https://dexappbuilder.dexkit.com/solutions) | Quick-builder stacks: **DexSwap**, **DexExchange**, **DexWallet**, **DexNFTStore**. |
+| **DexContracts** | [dexappbuilder.dexkit.com/dexcontracts](https://dexappbuilder.dexkit.com/dexcontracts) | Deploy contracts, generate UI from ABI, and manage contract forms. |
+
+For example, to launch an NFT drop without a full template, deploy [NFT Drop (`DropERC721`)](https://dexappbuilder.dexkit.com/forms/deploy/thirdweb/DropERC721) from the contracts hub, then customize the generated user and admin interfaces. If you already have an ERC20 and want a sale page for it, use DexKit’s [Token Allowance Drop (`DropAllowanceERC20`)](https://dexappbuilder.dexkit.com/forms/deploy/DexKit/DropAllowanceERC20) — no new token mint required. For a swap-only DApp, start from [DexSwap on Solutions](https://dexappbuilder.dexkit.com/admin/quick-builder/swap) instead of cloning a full template.
+
 ## How DexAppBuilder Simplifies Building with Pre-Built DApp Templates
 
 DexAppBuilder is a no-code platform designed for real-world Web3 builders. Instead of writing smart contracts or front-end code, you add pre-made blocks to a visual canvas and configure them. The platform’s templates cover the most common app types—NFT marketplaces, DeFi dashboards, DAOs, and launchpads—so you don’t have to start from zero.
