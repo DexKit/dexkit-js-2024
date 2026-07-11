@@ -5,10 +5,54 @@ import { useEffect } from 'react';
 
 const timelineItems = [
   {
+    date: 'Q1-2026',
+    title: 'Q1 Roadmap',
+    titleKey: 'roadmap.Q1_2026.title',
+    items: [
+      { text: 'Swap tokens on more blockchain networks', textKey: 'roadmap.Q1_2026.item1', status: 'completed' },
+      { text: 'Smoother NFT and media experience in your app', textKey: 'roadmap.Q1_2026.item2', status: 'completed' },
+    ],
+  },
+  {
+    date: 'Q4-2025',
+    title: 'Q4 Roadmap',
+    titleKey: 'roadmap.Q4_2025.title',
+    items: [
+      { text: 'New page building blocks and design styles', textKey: 'roadmap.Q4_2025.item1', status: 'completed' },
+      { text: '"Under construction" mode for your site', textKey: 'roadmap.Q4_2025.item2', status: 'completed' },
+      { text: 'Audio and video NFT creation', textKey: 'roadmap.Q4_2025.item3', status: 'completed' },
+    ],
+  },
+  {
+    date: 'Q2-2025',
+    title: 'Q2 Roadmap',
+    titleKey: 'roadmap.Q2_2025.title',
+    items: [
+      { text: 'Full E-Commerce with crypto payments', textKey: 'roadmap.Q2_2025.item1', status: 'completed' },
+      { text: 'Smart contract deployment without code', textKey: 'roadmap.Q2_2025.item2', status: 'completed' },
+      { text: 'Referral leaderboards and community rewards', textKey: 'roadmap.Q2_2025.item3', status: 'completed' },
+      { text: 'AI assistant to customize your app', textKey: 'roadmap.Q2_2025.item4', status: 'completed' },
+      { text: 'Custom domains and embeddable widgets', textKey: 'roadmap.Q2_2025.item5', status: 'completed' },
+      { text: 'Gasless token drops for your community', textKey: 'roadmap.Q2_2025.item6', status: 'completed' },
+    ],
+  },
+  {
+    date: 'Q4-2024',
+    title: 'Q4 Roadmap',
+    titleKey: 'roadmap.Q4_2024.title',
+    items: [
+      { text: 'AI content editor and gallery pages', textKey: 'roadmap.Q4_2024.item1', status: 'completed' },
+      { text: 'QR wallet connect and new swap designs', textKey: 'roadmap.Q4_2024.item2', status: 'completed' },
+      { text: 'Gated content subscription renewals', textKey: 'roadmap.Q4_2024.item3', status: 'completed' },
+      { text: 'NFT trading on Base network', textKey: 'roadmap.Q4_2024.item4', status: 'completed' },
+    ],
+  },
+  {
     date: 'Q3-2024',
     title: 'Q3 Roadmap',
     titleKey: 'roadmap.Q3_2024.title',
     items: [
+      { text: 'DexAppBuilder diverse integrations', textKey: 'roadmap.Q3_2024.item1', status: 'completed' },
       { text: 'E-Commerce integration (Beta)', textKey: 'roadmap.Q3_2024.item2', status: 'completed' },
       { text: 'DexKit site improvements', textKey: 'roadmap.Q3_2024.item3', status: 'completed' },
     ],
@@ -18,7 +62,7 @@ const timelineItems = [
     title: 'Q2 Roadmap',
     titleKey: 'roadmap.Q2_2024.title',
     items: [
-      { text: 'DexAppBuilder diverse integrations:', textKey: 'roadmap.Q2_2024.item1', status: 'pending' },
+      { text: 'DexAppBuilder diverse integrations:', textKey: 'roadmap.Q2_2024.item1', status: 'completed' },
       { text: 'Onchain app quickstart templates', textKey: 'roadmap.Q2_2024.item2', status: 'completed' },
       { text: 'UI/UX improvements', textKey: 'roadmap.Q2_2024.item3', status: 'completed' },
     ],
