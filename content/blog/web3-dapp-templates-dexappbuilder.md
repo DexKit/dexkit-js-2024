@@ -10,7 +10,7 @@ author: DexKit Team
 ---
 
 **Quick answer:**  
-Web3 DApp Templates are pre-made building blocks for blockchain apps—think DeFi platforms, NFT marketplaces, or token-gated blogs—so you don’t have to start from scratch. With [DexAppBuilder](https://dexappbuilder.dexkit.com), you browse [ready-to-clone templates](https://dexappbuilder.dexkit.com/site/templates), pick one that matches your use case (NFT storefront, swap DApp, blog, etc.), customize blocks like wallet connect or NFT mint, and deploy to chains like Polygon or Base—no coding required. Clone a template, add your branding, connect a wallet block, test on a testnet, then publish. Templates save weeks of work for first-time builders, and DexAppBuilder ships with real examples you can fork today—not generic placeholders.
+Web3 DApp Templates are pre-made building blocks for blockchain apps—think DeFi platforms, NFT marketplaces, or token-gated blogs—so you don’t have to start from scratch. With [DexAppBuilder](https://dexappbuilder.dexkit.com), you browse [ready-to-clone templates](https://dexappbuilder.dexkit.com/site/templates), pick one that matches your use case (NFT storefront, swap DApp, blog, etc.), customize sections like the Wallet section or DexContracts (NFT Drop), and deploy to chains like Polygon or Base—no coding required. Clone a template, add your branding, add the Wallet section, test on a testnet, then publish. Templates save weeks of work for first-time builders, and DexAppBuilder ships with real examples you can fork today—not generic placeholders.
 
 ## Why Web3 DApp Templates Are Essential for Fast Blockchain Development
 
@@ -32,10 +32,10 @@ Not every blockchain app is the same. The most popular Web3 DApp Templates fall 
 These templates provide a foundation for decentralized finance (DeFi) products—think swaps, staking, or yield farming. After launch, track real wallet yield with [Yield by DexKit](https://yield.dexkit.com). They typically include wallet integration, token selection, and transaction history. For instance, you might use a template to launch a simple decentralized exchange on BNB Chain.
 
 2. **NFT DApp Templates**  
-NFT (Non-Fungible Token) templates are ideal for artists, creators, or brands wanting to mint, sell, or display digital collectibles. They come with blocks for minting NFTs, connecting a blockchain wallet, and listing items. For example, a no-code  lets you launch an NFT marketplace on Polygon without Solidity or React skills.
+NFT (Non-Fungible Token) templates are ideal for artists, creators, or brands wanting to mint, sell, or display digital collectibles. They come with sections for DexContracts (NFT Drop), Wallet, and collection displays. For example, a no-code  lets you launch an NFT marketplace on Polygon without Solidity or React skills.
 
 3. **DAO DApp Templates**  
-DAOs (Decentralized Autonomous Organizations) are blockchain-based groups that make decisions via on-chain voting. DAO templates include modules for proposals, voting, and treasury management. If you’re organizing a community project and want group governance, a  is the fastest way to get started.
+DAOs (Decentralized Autonomous Organizations) are blockchain-based groups that make decisions via on-chain voting. DAO templates include **VoteERC20** via DexContracts and governance UI from deployed contracts—not separate “voting blocks.” If you’re organizing a community project and want group governance, a  is the fastest way to get started.
 
 4. **Token Launchpad Templates**  
 Launching a new crypto token? Launchpad templates help projects distribute tokens to users, often with whitelist or vesting features. A  handles the tricky logic of sales and allocations, so you don’t need to code your own contracts.
@@ -81,10 +81,10 @@ DexAppBuilder is a no-code platform designed for real-world Web3 builders. Inste
 Here’s how DexAppBuilder streamlines the process:
 
 1. **Pick a Template**  
-Start at the [template catalog](https://dexappbuilder.dexkit.com/site/templates). Open a preview (e.g. [CyberCows](https://cybercows.dexkit.app) or [GivSwap](https://givswap.dexkit.app)), then click **Clone** to copy it into your DexAppBuilder workspace. Each template ships with core blocks—wallet connect, NFT mint, swap, or gated content—already wired for that use case.
+Start at the [template catalog](https://dexappbuilder.dexkit.com/site/templates). Open a preview (e.g. [CyberCows](https://cybercows.dexkit.app) or [GivSwap](https://givswap.dexkit.app)), then click **Clone** to copy it into your DexAppBuilder workspace. Each template ships with core sections—Wallet, Swap, DexContracts, or gated content—already wired for that use case.
 
-2. **Customize with Drag-and-Drop Blocks**  
-Need a new feature? Just drag a block onto your app. Want to add NFT minting? Drop in the NFT Mint block. Need wallet support? Add a Wallet Connect block. No coding, no deploying smart contracts yourself.
+2. **Customize with sections**  
+Need a new feature? Add a section via **Layout → Pages → + ADD SECTION**. Want NFT minting? Add **DexContracts** and deploy an **NFT Drop**. Need wallet UI? Add the **Wallet** section. No coding, no deploying smart contracts yourself.
 
 3. **Configure Blockchain Settings**  
 Select your target chain (Ethereum, Polygon, Base, etc.) in the settings. This means your DApp will interact with the right blockchain, handling tokens, NFTs, and transactions securely.
@@ -92,19 +92,19 @@ Select your target chain (Ethereum, Polygon, Base, etc.) in the settings. This m
 4. **Brand and Launch**  
 Upload your logo, tweak the theme, and set up your homepage. When you’re ready, hit publish. Your DApp is live and ready for users—without the headaches of manual deployment.
 
-For instance, if an art collective wants to launch an NFT gallery on Polygon, they can use DexAppBuilder’s drag-and-drop NFT Mint block and wallet integration to quickly customize and deploy their NFT marketplace, all without writing or auditing smart contracts. This isn’t just faster; it’s safer and more accessible for non-technical teams.
+For instance, if an art collective wants to launch an NFT gallery on Polygon, they can use DexAppBuilder’s **DexContracts** section (NFT Drop) and **NFT store** section to quickly customize and deploy their NFT marketplace, all without writing or auditing smart contracts. This isn’t just faster; it’s safer and more accessible for non-technical teams.
 
-The main trade-off with no-code tools like DexAppBuilder is that you’re limited to the blocks and templates available. If you want a feature no one’s built yet, you might hit a wall. But in my experience, most new projects benefit more from speed and security than from deep custom code—especially when you’re validating an idea.
+The main trade-off with no-code tools like DexAppBuilder is that you’re limited to the sections and templates available. If you want a feature no one’s built yet, you might hit a wall. But in my experience, most new projects benefit more from speed and security than from deep custom code—especially when you’re validating an idea.
 
-### No-Code Blocks and Drag-and-Drop Features Tailored for Web3
+### No-Code Sections Tailored for Web3
 
 DexAppBuilder’s visual editor is designed specifically for blockchain apps. Here’s what sets it apart:
 
-- **No-Code NFT Minting:** Add an NFT Mint block to let users create and list digital collectibles.
-- **Wallet Integration:** Drag in a Wallet Connect block so users can sign in with MetaMask or WalletConnect. (A blockchain wallet is a secure digital account that stores your crypto assets and lets you interact with DApps by signing transactions.)
-- **Token Swaps and Transactions:** Add DeFi blocks for swapping tokens or displaying transaction history.
-- **Governance Modules:** Drop in DAO voting or proposal blocks, enabling on-chain decision-making.
-- **Multi-Chain Support:** Select the blockchain network that fits your audience—Polygon for low fees, Ethereum for wider adoption, or BNB Chain for fast transactions.
+- **No-Code NFT Minting:** Add a **DexContracts** section and deploy an **NFT Drop** to let users mint digital collectibles.
+- **Wallet Integration:** Add the **Wallet** section so users can sign in with MetaMask or WalletConnect. (A blockchain wallet is a secure digital account that stores your crypto assets and lets you interact with DApps by signing transactions.)
+- **Token Swaps and Transactions:** Add **Swap** and **Exchange** sections, or start from the **DexSwap** solution.
+- **Governance:** Deploy **VoteERC20** via [DexContracts](https://dexappbuilder.dexkit.com/dexcontracts)—there is no separate “DAO voting block.”
+- **Multi-Chain Support:** Select the blockchain network in **Settings → Networks**—Polygon for low fees, Ethereum for wider adoption, or BNB Chain for fast transactions.
 
 The editor is intentionally simple. If you can use a website builder, you can build a DApp. That’s a conscious design choice: most people want to launch fast, not learn Solidity.
 
@@ -128,11 +128,11 @@ Copy and use this checklist to pick and customize the best template for your nee
 
 ### What is a Web3 DApp template?
 
-A Web3 DApp template is a ready-made framework for building blockchain applications. Instead of starting from a blank page, you get pre-built components—like wallet connections, NFT galleries, or governance modules—so you can launch faster. Templates save time, reduce errors, and make it possible for non-developers to build real s.
+A Web3 DApp template is a ready-made framework for building blockchain applications. Instead of starting from a blank page, you get pre-built components—like wallet connections, NFT storefronts, or governance via deployed contracts—so you can launch faster.
 
 ### How do DApp templates help non-developers build blockchain apps?
 
-Templates use no-code or low-code modules, meaning you don’t need to write complex code. For example, with DexAppBuilder, you drag in blocks for wallet connect or NFT minting, tweak the settings, and publish. This approach means artists, community leaders, or entrepreneurs can create blockchain apps without hiring developers.
+Templates use no-code sections, meaning you don’t need to write complex code. For example, with DexAppBuilder, you add the Wallet section or DexContracts (NFT Drop), tweak the settings, and publish. This approach means artists, community leaders, or entrepreneurs can create blockchain apps without hiring developers.
 
 ### What types of DApps can I build using templates?
 
@@ -149,7 +149,7 @@ A  is a digital account that stores your crypto assets (like ETH or NFTs) and ma
 
 ### Can I customize a template built with DexAppBuilder?
 
-Yes. DexAppBuilder is designed for customization. You can add, remove, or rearrange blocks (like NFT mint, wallet connect, or governance voting), change colors and branding, and adjust settings for your target blockchain. For deep custom features, you may need to export your project or add code, but 90% of use cases work with drag-and-drop.
+Yes. DexAppBuilder is designed for customization. You can add, remove, or rearrange sections (Wallet, DexContracts, Swap, etc.), change colors and branding, and adjust settings for your target blockchain. For deep custom features, you may need to export your project or add code, but 90% of use cases work with drag-and-drop.
 
 ### Are Web3 DApp templates compatible with multiple blockchains?
 

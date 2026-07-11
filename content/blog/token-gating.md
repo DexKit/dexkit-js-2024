@@ -78,13 +78,13 @@ Building token gated experiences used to require custom smart contracts and fron
 
 ### Setting Up Wallet Connections and Token Checks with No Code
 
-The first step is connecting your users’ wallets. A wallet is like a digital keychain for your tokens. With DexAppBuilder, you use the **Wallet Connect** block:
+The first step is connecting your users’ wallets. A wallet is like a digital keychain for your tokens. With DexAppBuilder:
 
-1. **Add the Wallet Connect Block:** Drag it onto your page in DexAppBuilder’s visual editor.
-2. **Configure Supported Wallets:** Choose which wallets to support (MetaMask, Coinbase Wallet, WalletConnect, etc.).
-3. **Select Blockchain Network:** Pick the chain where your tokens live (Ethereum, Polygon, Base, Arbitrum, or BNB Chain).
+1. **Add the Wallet section:** Add it via **Layout → Pages → + ADD SECTION**.
+2. **Configure supported wallets:** In **Settings**, choose which wallets to support (MetaMask, Coinbase Wallet, WalletConnect, etc.).
+3. **Select blockchain network:** In **Settings → Networks**, pick the chain where your tokens live (Ethereum, Polygon, Base, Arbitrum, or BNB Chain).
 
-Next, you’ll want to check for token ownership. DexAppBuilder’s **Token Ownership Check** block lets you:
+Next, configure token gating for your content. Deploy the token or NFT contract via [DexContracts](https://dexappbuilder.dexkit.com/dexcontracts), then gate pages using Settings and your deployed contract UI:
 
 - Enter the contract address of the NFT or ERC-20 token you want to gate with.
 - Set the minimum amount required (for ERC-20 tokens) or require a specific NFT ID.
@@ -93,7 +93,7 @@ Next, you’ll want to check for token ownership. DexAppBuilder’s **Token Owne
 **Recommendation:**  
 For your first project, start with a testnet (like Polygon Mumbai or Goerli) to avoid spending real tokens or gas (transaction fees). Once you’re confident, switch to mainnet.
 
-### Using DexAppBuilder Blocks to Create Gated Landing Pages and Memberships
+### Using DexAppBuilder Sections to Create Gated Landing Pages and Memberships
 
 Once wallet and token checks are in place, you can add whatever content you want to gate:
 
@@ -103,8 +103,8 @@ Once wallet and token checks are in place, you can add whatever content you want
 
 Steps:
 
-1. **Assemble Your Page:** Add content blocks for what you want to show.
-2. **Wrap Content in Token Check Block:** Place your content inside the Token Ownership Check block so only qualified users see it.
+1. **Assemble Your Page:** Add sections for what you want to show.
+2. **Configure token gating:** Set gating rules in Settings and link to your deployed contract via DexContracts so only qualified users see gated content.
 3. **Customize Messaging:** Set up fallback messages for users who don’t qualify (“You need the XYZ NFT to access this area. [Get one here]”).
 4. **Publish:** With one click, your gated page goes live—no deployment headaches.
 
@@ -120,7 +120,7 @@ Token gating isn’t limited to static pages. You can connect it to your communi
 - **Third-Party Tools:** Many Web3 community platforms now offer integrations—DexAppBuilder can act as the front door by verifying tokens before sending users onward.
 
 **Implementation scenario:**  
-Suppose you’re running a virtual conference on Base. You set up a DexAppBuilder page with Wallet Connect and Token Ownership Check. Only wallets holding your event NFT see the “Join the event” button and get emailed the private Zoom link.
+Suppose you’re running a virtual conference on Base. You set up a DexAppBuilder page with the **Wallet** section and token gating configured for your event NFT. Only wallets holding your event NFT see the “Join the event” button and get emailed the private Zoom link.
 
 ## Token Gating Implementation Checklist for Web3 Builders
 
@@ -184,7 +184,7 @@ Most commonly, NFTs and ERC-20 tokens are used. NFTs are best for unique or limi
 
 ### Do I need coding skills to build token gated experiences?
 
-No. With no-code tools like DexAppBuilder, you can build token gated landing pages, events, and memberships without programming. Just add wallet and token check blocks, configure your settings, and publish. 
+No. With no-code tools like DexAppBuilder, you can build token gated landing pages, events, and memberships without programming. Add the Wallet section, configure token gating in Settings, and publish. 
 
 ### How secure is token gating on Web3 platforms?
 

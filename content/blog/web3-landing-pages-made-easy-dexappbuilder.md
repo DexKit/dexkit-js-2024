@@ -10,7 +10,7 @@ author: DexKit Team
 ---
 
 **Quick answer:**  
-Web3 Landing Pages are websites designed to onboard users into blockchain projects by integrating wallet connections, smart contract info, and crypto-specific calls to action. With DexAppBuilder, anyone—even without coding experience—can launch a Web3 landing page by picking a template, adding wallet and token info blocks, customizing design, and publishing live. This approach helps blockchain projects boost engagement and conversions by making wallet onboarding and token details clear, secure, and user-friendly.
+Web3 Landing Pages are websites designed to onboard users into blockchain projects by integrating wallet connections, smart contract info, and crypto-specific calls to action. With DexAppBuilder, anyone—even without coding experience—can launch a Web3 landing page by picking a template, adding the Wallet and Token trade sections, customizing design, and publishing live. This approach helps blockchain projects boost engagement and conversions by making wallet onboarding and token details clear, secure, and user-friendly.
 
 ## Why Web3 Landing Pages Are Critical for Blockchain Projects
 
@@ -65,25 +65,25 @@ DexAppBuilder is a no-code tool for building Web3 Landing Pages. It’s designed
 
 Here’s how to use DexAppBuilder to get your landing page live—without hiring a developer.
 
-### Using Prebuilt Blocks for Wallet Gating and Token Display
+### Using Prebuilt Sections for Wallet Gating and Token Display
 
-DexAppBuilder offers ready-made “blocks” you can drop onto your page:
+DexAppBuilder offers ready-made page sections you can add via **Layout → Pages → + ADD SECTION**:
 
-- **Wallet Connect block:** Lets users connect with MetaMask, WalletConnect, or Coinbase Wallet. You can specify which wallets and chains (like Polygon or Arbitrum) your page supports.
-- **Token Info block:** Displays real-time token price, supply, and contract address. You can show users exactly what they’re interacting with, reducing confusion.
-- **Wallet Gating:** Restrict access to certain content or actions unless a user holds a specific token or NFT. This is useful for token-gated communities, early access sales, or exclusive content.
+- **Wallet section:** Lets users connect with MetaMask, WalletConnect, or Coinbase Wallet. You can specify which wallets and chains (like Polygon or Arbitrum) your page supports.
+- **Token trade section:** Displays token trading actions and contract-linked token details. You can show users exactly what they’re interacting with, reducing confusion.
+- **Wallet gating:** Restrict access to certain content or actions unless a user holds a specific token or NFT. Configure this in Settings alongside your deployed contracts—useful for token-gated communities, early access sales, or exclusive content.
 
 For instance, if you’re launching an NFT mint on Polygon, you can require users to connect a wallet and prove they hold a specific ERC-20 token before they can mint. This is a common pattern for “whitelisted” or VIP launches.
 
-To get started, go to [DexAppBuilder](https://dexappbuilder.dexkit.com), start a new project, and drag the Wallet Connect and Token Info blocks onto your canvas. Configure each block with your project’s contract details and chain settings.
+To get started, go to [DexAppBuilder](https://dexappbuilder.dexkit.com), start a new project, and add the **Wallet** and **Token trade** sections to your page. Configure each section with your project’s contract details and chain settings.
 
 ### Customizing Your Landing Page Without Code
 
-After adding the essential blocks, you can customize your landing page visually:
+After adding the essential sections, you can customize your landing page visually:
 
 - Change colors, fonts, and layout to match your brand or project vibe
 - Edit text to explain your project’s story and value proposition
-- Add images, videos, or custom content alongside your wallet and token blocks
+- Add images, videos, or custom content alongside your Wallet and Token trade sections
 
 You don’t need to touch code. DexAppBuilder’s visual editor lets you preview changes instantly. If you want to add advanced behavior (like conditional content for different wallet states), you can use built-in settings—no JavaScript required.
 
@@ -98,8 +98,8 @@ If you want to explore more advanced templates or see what’s possible, check o
 Copy and use this checklist before you go live:
 
 - [ ] Value proposition is clear and beginner-friendly
-- [ ] Wallet Connect block supports your target wallets and chains
-- [ ] Token Info block displays accurate contract address and token details
+- [ ] Wallet section supports your target wallets and chains
+- [ ] Token trade section displays accurate contract address and token details
 - [ ] Smart contract audit status and explorer links are visible
 - [ ] Call-to-action (mint, buy, join) is prominent and easy to follow
 - [ ] Page loads quickly and works on mobile
@@ -125,7 +125,7 @@ For more details, see .
 
 ### Can I build a Web3 landing page without coding experience?
 
-Yes. Tools like DexAppBuilder provide no-code blocks and templates designed for Web3 use cases. You can add wallet connection, token info, and crypto-specific features by dragging and configuring blocks—no programming required. This approach is ideal for founders, marketers, or creators who want to launch quickly.
+Yes. Tools like DexAppBuilder provide no-code sections and templates designed for Web3 use cases. You can add wallet connection, token info, and crypto-specific features by adding and configuring sections—no programming required. This approach is ideal for founders, marketers, or creators who want to launch quickly.
 
 If you want to build a more traditional crypto site, see .
 

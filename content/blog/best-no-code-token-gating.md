@@ -10,7 +10,7 @@ author: DexKit Team
 ---
 
 Quick answer:  
-Best no code token gating means restricting access to content or features in a decentralized app (DApp) based on digital token ownership, without writing code. Using DexAppBuilder, you can set up token gating by (1) connecting your crypto wallet, (2) adding visual Wallet Connect and Token Check blocks, (3) specifying which tokens grant access, and (4) publishing your DApp—all with clicks, not code. This lets creators, communities, and businesses on chains like Polygon or Base safely control who sees what, even if they aren't developers.
+Best no code token gating means restricting access to content or features in a decentralized app (DApp) based on digital token ownership, without writing code. Using DexAppBuilder, you can set up token gating by (1) connecting your crypto wallet, (2) adding the **Wallet** section and configuring gating in Settings, (3) specifying which tokens grant access via your deployed contracts, and (4) publishing your DApp—all with clicks, not code. This lets creators, communities, and businesses on chains like Polygon or Base safely control who sees what, even if they aren't developers.
 
 ## Why Token Gating Matters in No-Code DApp Building
 
@@ -51,8 +51,8 @@ Creating token-gated access used to mean writing custom smart contracts, handlin
 Here’s how the process usually works with a good no-code tool:
 
 1. **Connect Your Wallet:** Use MetaMask, WalletConnect, or another supported wallet to log in. This links your builder account to the blockchain so you can reference on-chain assets.
-2. **Add Token Gating Blocks:** Drag in blocks or modules labeled "Wallet Connect," "Token Check," or similar. These visually represent the steps your users will take.
-3. **Configure Token Rules:** Enter the contract address of the token(s) you want to gate with, select the chain (e.g., Polygon, Base), and set ownership requirements (e.g., must own at least 1 NFT).
+2. **Add sections for gating:** Add the **Wallet** section via **Layout → Pages → + ADD SECTION**, then configure token gating in Settings.
+3. **Configure token rules:** Enter the contract address of the token(s) you want to gate with, select the chain (e.g., Polygon, Base), and set ownership requirements (e.g., must own at least 1 NFT).
 4. **Set Up Gated Pages or Features:** Place the gating logic around the content or features you want to protect—could be a page, a download button, or a video.
 5. **Test and Publish:** Preview your DApp as a user, connect a wallet, and confirm that access is correctly restricted. Then publish to a live URL.
 
@@ -87,23 +87,22 @@ Token gating with no-code tools is much faster and safer for non-developers, but
 DexAppBuilder is a no-code DApp builder focused on making advanced Web3 features—like token gating—accessible to everyone. Here’s how you can set up best no code token gating using DexAppBuilder’s visual tools:
 
 1. **Start a New Project:** Head to [DexAppBuilder](https://dexappbuilder.dexkit.com) and create a new DApp project.
-2. **Add Wallet Connect Block:** Drag the Wallet Connect block onto your page. This lets users connect their crypto wallet (MetaMask, WalletConnect, etc.).
-3. **Add Token Check Block:** Right after the wallet block, drag in the Token Check block. This is where you configure which token(s) are required for access.
-4. **Configure Access Logic:** In the Token Check block settings, paste the contract address of your chosen token, pick the standard (ERC-20, ERC-721, or ERC-1155), select the blockchain (Polygon, Base, etc.), and set the required amount or token ID.
-5. **Wrap Content or Features:** Place your gated content—could be text, images, downloads, forms, or embeds—inside the area protected by the token check.
+2. **Add the Wallet section:** Add it via **Layout → Pages → + ADD SECTION**. Wallet connect is built into every app.
+3. **Configure token gating:** In **Settings**, paste the contract address of your chosen token, pick the standard (ERC-20, ERC-721, or ERC-1155), select the blockchain (Polygon, Base, etc.), and set the required amount or token ID.
+4. **Add gated content:** Place your gated content—text, images, downloads, forms, or embeds—on pages protected by your gating rules.
 6. **Preview and Test:** Use the DexAppBuilder preview function to connect a test wallet and confirm that access rules are working as expected.
 7. **Publish:** Once you’re satisfied, publish your DApp to a live URL. Share it with your community or audience.
 
 This approach means you don’t touch code, don’t need to deploy new contracts, and can change rules anytime.
 
-### Using the Wallet Connect + Token Check Blocks
+### Using the Wallet Section and Token Gating Settings
 
-The magic happens with DexAppBuilder’s Wallet Connect and Token Check blocks. Here’s a closer look:
+Token gating in DexAppBuilder works through the **Wallet** section (for wallet UI) and **Settings** (for ownership rules tied to your deployed contracts):
 
-- **Wallet Connect Block:** Handles the user’s wallet connection securely. No private keys are stored. Supports multiple wallet types.
-- **Token Check Block:** Visually configures which token(s) users must hold. Lets you specify ERC-20, ERC-721, or ERC-1155, plus minimum requirements.
+- **Wallet section:** Handles the user’s wallet connection securely. No private keys are stored. Supports multiple wallet types.
+- **Token gating in Settings:** Configure which token(s) users must hold. Specify ERC-20, ERC-721, or ERC-1155, plus minimum requirements.
 
-For example, if you want to create a members-only download area for NFT holders on Polygon, you’d add these two blocks, enter your NFT’s contract address, and DexAppBuilder handles the rest.
+For example, if you want to create a members-only download area for NFT holders on Polygon, add the Wallet section, configure gating for your NFT contract in Settings, and DexAppBuilder handles the rest.
 
 ### Creating Gated Pages and Features Seamlessly
 
@@ -141,7 +140,7 @@ Token gating is a way to restrict access to certain parts of a DApp or website b
 
 ### How does token gating work without coding?
 
-No code platforms like DexAppBuilder use visual blocks that handle wallet connections and token checks for you. All you do is drag in the right blocks, specify the token and access rules, and publish. There’s no need to write smart contracts or backend code. The platform checks the connected wallet’s tokens and enforces your rules automatically.
+No code platforms like DexAppBuilder use the Wallet section and Settings to handle wallet connections and token checks for you. Add the Wallet section, specify the token and access rules in Settings, and publish. There’s no need to write smart contracts or backend code. The platform checks the connected wallet’s tokens and enforces your rules automatically.
 
 ### What types of tokens can be used for gating?
 

@@ -57,7 +57,7 @@ Let’s break down three common Web3 projects you can build—without coding—u
 1. **Choose your blockchain**: Pick an EVM-compatible chain like Polygon for low fees and wide support.
 2. **Prepare your digital assets**: Collect the images, music, or files you want to mint as NFTs.
 3. **Open DexAppBuilder**: Go to [DexAppBuilder](https://dexappbuilder.dexkit.com) and start a new project.
-4. **Add the NFT Mint block**: Drag in the pre-built NFT Mint block—this handles wallet connection, minting logic, and user interface.
+4. **Add the DexContracts section**: Deploy an **NFT Drop** via DexContracts—this handles wallet connection, minting logic, and user interface.
 5. **Configure minting settings**: Set the price, maximum mints per wallet, and upload your media. Add descriptions and branding.
 6. **Connect your crypto wallet**: A wallet (like MetaMask) is a browser extension or app that stores your digital assets and lets you interact with Web3 apps. Connect it to DexAppBuilder to deploy contracts and manage NFTs.
 7. **Test on a testnet**: Before going live, deploy your site to a testnet (a blockchain for testing) to avoid real transaction fees (“gas”).
@@ -72,7 +72,7 @@ For more, see:
 1. **Define your token purpose**: Is it for rewards, access, or governance? Keep it focused.
 2. **Pick a chain**: Polygon, BNB Chain, or Arbitrum are popular for low costs.
 3. **Start a new project**: In DexAppBuilder, select a token launch template.
-4. **Add the Token Launch block**: This lets users view details, connect wallets, and claim or buy tokens.
+4. **Add DexContracts and Token trade sections**: Deploy a **Token Drop** via DexContracts and add the **Token trade** section so users can view details, connect wallets, and claim or buy tokens.
 5. **Customize token settings**: Name, symbol, supply, distribution method. DexAppBuilder’s interface guides you through each step.
 6. **Connect your wallet**: You’ll need this to deploy the token smart contract—a bit of code that runs on the blockchain and enforces rules.
 7. **Test on a testnet**: Use fake tokens to verify flows before launching for real.
@@ -87,7 +87,7 @@ For more, see:
 1. **Decide on access requirements**: Will users need to hold a specific NFT or token?
 2. **Create your NFT or token**: Use DexAppBuilder’s mint or token launch features.
 3. **Start a new site project**: Select a membership template.
-4. **Add the Wallet Gating block**: This checks if a connected wallet owns the required NFT or token before showing premium content.
+4. **Configure token gating:** Add the **Wallet** section and configure gating in Settings so only wallets holding the required NFT or token see premium content.
 5. **Design your members-only pages**: Add resources, videos, chat, or event links behind the gate.
 6. **Test access flows**: Use a testnet wallet to simulate different members.
 7. **Publish and onboard your community**: Share instructions for connecting wallets and joining.
@@ -98,12 +98,12 @@ For more, see:
 
 ## How to Build Web3 Use Cases with DexAppBuilder
 
-DexAppBuilder is built for anyone who wants to launch a Web3 project without writing code. Its drag-and-drop interface offers pre-built blocks for the most common use cases—NFT minting, token launches, and wallet-based access control.
+DexAppBuilder is built for anyone who wants to launch a Web3 project without writing code. Its section-based editor offers **DexContracts**, **Wallet**, **NFT store**, and other sections for the most common use cases—NFT minting, token launches, and wallet-based access control.
 
 Here’s how you can use DexAppBuilder for your next project:
 
 - **Choose a template**: Pick from NFT, token, or membership site templates to jumpstart your build.
-- **Add functional blocks**: Drag in NFT Mint, Token Launch, or Wallet Gating blocks as needed. These handle blockchain interactions and wallet connections behind the scenes.
+- **Add functional sections**: Add **DexContracts** (NFT Drop or Token Drop), **Wallet**, or **NFT store** sections as needed.
 - **Configure settings**: Set up your contract details, upload media, and set access rules—all through simple forms.
 - **Connect your wallet**: DexAppBuilder supports major EVM-compatible chains like Polygon, Base, and Arbitrum. You just connect your crypto wallet (e.g. MetaMask) to deploy and manage your project.
 - **Test before launch**: Deploy to a testnet first to check everything works. This saves on gas fees and helps catch mistakes.
@@ -111,7 +111,7 @@ Here’s how you can use DexAppBuilder for your next project:
 
 For example, a small business owner could create a gated membership site on Polygon, offering exclusive NFT-based access to their community—without any prior coding experience.
 
-**Limitation:** While DexAppBuilder handles most technical complexity, advanced customizations (like unique smart contract logic) may still require developer help. But for 90% of creator and business needs, the built-in blocks are enough.
+**Limitation:** While DexAppBuilder handles most technical complexity, advanced customizations (like unique smart contract logic) may still require developer help. But for 90% of creator and business needs, the built-in sections are enough.
 
 Want to see it in action? Try the live builder at [dexappbuilder.dexkit.com](https://dexappbuilder.dexkit.com).
 
@@ -126,7 +126,7 @@ Copy and use this checklist for your next build:
 - [ ] Prepare your digital assets (media, descriptions, branding)
 - [ ] Set up a crypto wallet (like MetaMask)
 - [ ] Start a new project in DexAppBuilder
-- [ ] Add relevant blocks (NFT Mint, Token Launch, Wallet Gating)
+- [ ] Add relevant sections (DexContracts, Wallet, NFT store)
 - [ ] Configure settings and upload assets
 - [ ] Test everything on a testnet first
 - [ ] Publish to mainnet when ready
@@ -144,7 +144,7 @@ A DApp, or decentralized application, is software that runs on a public blockcha
 
 ### How can beginners start building Web3 projects?
 
-Beginners can use no-code platforms like DexAppBuilder to create Web3 projects without writing code. Start by picking a template (NFT, token, or membership), drag in functional blocks, connect your crypto wallet, and follow step-by-step tutorials. Testing on a testnet first is highly recommended.
+Beginners can use no-code platforms like DexAppBuilder to create Web3 projects without writing code. Start by picking a template (NFT, token, or membership), add sections like DexContracts and Wallet, connect your crypto wallet, and follow step-by-step tutorials. Testing on a testnet first is highly recommended.
 
 For a full walkthrough, see: 
 
@@ -154,7 +154,7 @@ A crypto wallet is a digital tool (browser extension, app, or hardware device) t
 
 ### Can I launch an NFT project without coding skills?
 
-Yes. With DexAppBuilder, you can launch NFT projects using ready-made blocks and templates—no coding required. Just select your use case, upload your media, set minting rules, and publish. For detailed steps, see: 
+Yes. With DexAppBuilder, you can launch NFT projects using **DexContracts** (NFT Drop) and **NFT store** sections—no coding required. Just select your use case, upload your media, set minting rules, and publish. For detailed steps, see: 
 
 ### What chains does DexAppBuilder support for building Web3 projects?
 

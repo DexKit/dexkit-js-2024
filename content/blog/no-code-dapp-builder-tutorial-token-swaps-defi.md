@@ -49,11 +49,11 @@ This section walks through the practical steps to set up a swap DApp, focusing o
 1. **Go to [dexappbuilder.dexkit.com](https://dexappbuilder.dexkit.com/)** and sign in (wallet login supported).
 2. **Create your project:** Name it after your NFT or DAO, upload your logo, and set your branding/theme color.
 3. **Select blockchains:** Enable Ethereum, Polygon, or any supported EVM network where your token is live.
-4. **Add wallet connectors:** Drag Wallet Connect or MetaMask blocks onto your layout for easy user onboarding.
+4. **Add the Wallet section:** Add wallet UI via **Layout → Pages → + ADD SECTION** for easy user onboarding.
 
-### 2. Add and Configure the Token Swap Widget
+### 2. Add and Configure the Swap Section
 
-1. **Drag the Token Swap Widget:** Drop it onto your project canvas from the components panel.  
+1. **Add the Swap section:** Add it via **Layout → Pages → + ADD SECTION**, or start from [DexSwap](https://dexappbuilder.dexkit.com/admin/quick-builder/swap).  
    [Token Swaps and DeFi in DApps](/blog/no-code-dapp-builder-token-swaps-defi)
 2. **Token selection:** Choose which tokens users can swap (e.g., your NFT’s utility token, ETH, stablecoins).
 3. **Protocol integration:** Pick your preferred DEX aggregator (Uniswap, PancakeSwap, etc.)—DexAppBuilder handles the backend.
@@ -80,7 +80,7 @@ Use this checklist to ensure your no code community swap DApp is fully prepared:
 - [ ] Project created in DexAppBuilder with custom branding and logo
 - [ ] Supported blockchain(s) enabled (e.g., Polygon for NFT projects)
 - [ ] Wallet connection block added and tested
-- [ ] Token Swap Widget configured for relevant tokens  
+- [ ] Swap section (or DexSwap solution) configured for relevant tokens  
   
 - [ ] Swap protocol and slippage settings reviewed for your audience
 - [ ] UI styled to match your DAO/NFT theme

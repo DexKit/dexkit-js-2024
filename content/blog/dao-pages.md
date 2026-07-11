@@ -10,7 +10,7 @@ author: DexKit Team
 ---
 
 **Quick answer:**  
-DAO Pages and Governance UIs are web interfaces that let decentralized communities run on-chain organizations—called DAOs—without coding. With DexAppBuilder, you can assemble DAO voting, proposal, treasury, and dashboard pages using drag-and-drop blocks, deploy governance smart contracts like Token Drop or NFT Drop with a few clicks, and publish your DAO’s site for members to join and participate. To build your DAO Pages and Governance UIs: (1) pick your governance and membership smart contracts, (2) deploy them using no-code forms, (3) add voting, proposal, and treasury blocks in DexAppBuilder, and (4) publish your DAO site for your community.
+DAO Pages and Governance UIs are web interfaces that let decentralized communities run on-chain organizations—called DAOs—without coding. With DexAppBuilder, you deploy governance contracts (e.g. **VoteERC20**) via [DexContracts](https://dexappbuilder.dexkit.com/dexcontracts), add **DexContracts** and **Wallet** sections to your pages, and publish your DAO’s site for members to join and participate. To build your DAO Pages and Governance UIs: (1) deploy **VoteERC20** or membership contracts from the contracts hub, (2) add **DexContracts** sections linked to those contracts, (3) add the **Wallet** section for member sign-in, and (4) publish your DAO site for your community.
 
 ## Why DAO Pages and Governance UIs Matter for Decentralized Communities
 
@@ -92,25 +92,25 @@ Let’s walk through building DAO Pages and Governance UIs from scratch, step by
    Go to the [contracts hub](https://dexappbuilder.dexkit.com/forms/contracts/create). Decide how your DAO will manage membership and voting. For NFT-based DAOs, deploy an [Edition Drop](https://dexappbuilder.dexkit.com/forms/deploy/thirdweb/DropERC1155) or [NFT Drop](https://dexappbuilder.dexkit.com/forms/deploy/thirdweb/DropERC721) contract. For token-based DAOs, use [Token Drop](https://dexappbuilder.dexkit.com/forms/deploy/thirdweb/DropERC20) or [Token Allowance Drop](https://dexappbuilder.dexkit.com/forms/deploy/DexKit/DropAllowanceERC20). Fill in the contract details, select your preferred chain (Polygon is affordable for beginners), and deploy.
 
 2. **Assemble your DAO pages in DexAppBuilder.**  
-   Log in to [DexAppBuilder](https://dexappbuilder.dexkit.com), create a new site, and start adding blocks. Add wallet connect to let users sign in with their wallet (required for voting and claiming tokens/NFTs). Drag in voting, proposal, and treasury blocks. Connect each block to the relevant contract you just deployed. For example, link your voting block to the governance token or NFT contract.
+   Log in to [DexAppBuilder](https://dexappbuilder.dexkit.com), create a new site, and add sections via **Layout → Pages → + ADD SECTION**. Wallet connect is built into every app; add the **Wallet** section for wallet UI. Add **DexContracts** sections and link them to your deployed **VoteERC20** or membership contracts. Use **Markdown** or **Call to action** sections for proposals and treasury transparency.
 
 3. **Configure proposal and voting logic.**  
    Set up who can submit proposals and who can vote (e.g., only NFT holders, only token holders, or open to all). Add instructions and help text so members know what each action does. For more advanced DAOs, configure weighted voting (where votes are proportional to token/NFT holdings).
 
 4. **Add dashboards and transparency features.**  
-   Include a dashboard block showing each member’s voting power, current proposals, and treasury status. Transparency builds trust—show recent transactions and treasury balances clearly.
+   Include a dashboard area using **Cards** or **Tabs** sections showing each member’s voting power, current proposals, and treasury status. Transparency builds trust—show recent transactions and treasury balances clearly.
 
 5. **Publish and onboard your community.**  
    Once your pages are ready, publish the site and share the link. Members can connect their wallets, claim tokens or NFTs, submit proposals, and vote—all without leaving your DAO page.
 
 6. **Iterate and improve.**  
-   Use feedback from your community to refine the UI, add new features, and adjust contract settings. With DexAppBuilder’s no-code blocks, you can update your pages without redeploying contracts.
+   Use feedback from your community to refine the UI, add new features, and adjust contract settings. With DexAppBuilder’s no-code sections, you can update your pages without redeploying contracts.
 
 **Trade-off:**  
 No-code tools like DexAppBuilder make launching and iterating DAO pages much faster, but you’re limited to the features and contract types the platform supports. If your DAO needs highly custom voting logic or integrations, you might eventually outgrow the no-code approach. For most new DAOs, though, the speed and safety benefits far outweigh these limits.
 
 **Recommendation:**  
-If you’re just starting, stick to prebuilt contracts and standard UI blocks. Focus on getting a working DAO page live and onboarding your first members. You can always upgrade later.
+If you’re just starting, stick to prebuilt contracts and standard sections (DexContracts, Wallet, Markdown). Focus on getting a working DAO page live and onboarding your first members. You can always upgrade later.
 
 ## Checklist: Launching Your DAO Governance Pages Successfully
 

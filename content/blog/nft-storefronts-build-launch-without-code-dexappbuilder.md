@@ -55,15 +55,15 @@ A good no-code builder should let you pick your chain and switch easily. It shou
 
 DexAppBuilder is designed to solve the practical headaches that come with launching a no-code NFT storefront. Here’s how you’d use it in practice.
 
-### Using DexAppBuilder’s NFT Mint and Storefront Blocks
+### Using DexAppBuilder’s NFT Store and DexContracts Sections
 
-DexAppBuilder uses a simple block-based editor. Think drag-and-drop, but for Web3. Here’s a real-world scenario:
+DexAppBuilder uses a simple section-based editor. Here’s a real-world scenario:
 
 1. **Choose a Template or Start from Scratch:**  
-   Head to [DexAppBuilder](https://dexappbuilder.dexkit.com) and pick an NFT Storefront template or start with a blank canvas. Templates are pre-configured with the right blocks for NFT minting, collection displays, and wallet connect.
+   Head to [DexAppBuilder](https://dexappbuilder.dexkit.com) and pick an NFT storefront template (e.g. CyberCows) or start with the [DexNFTStore](https://dexappbuilder.dexkit.com/admin/quick-builder/nft-store) quick-builder solution.
 
-2. **Add NFT Mint and Storefront Blocks:**  
-   Drag the NFT Mint block onto your page. This block handles the minting logic, connects to your smart contract, and displays minting options (price, supply, etc.). Add a Storefront block to showcase your existing collections, individual NFTs, and details like artwork, rarity, or unlockable content.
+2. **Add NFT store and DexContracts sections:**  
+   Add the **DexContracts** section and deploy an **NFT Drop** contract for minting. Add the **NFT store** section (or **Featured NFTs** / **Collection List**) to showcase your collections, individual NFTs, and details like artwork, rarity, or unlockable content.
 
 3. **Configure Collection Details:**  
    Enter your collection name, upload images, set prices, and define minting limits. You can also decide whether minting should be public, allowlisted, or wallet-gated.
@@ -83,9 +83,9 @@ If you’re coming from the world of Shopify or Squarespace, the learning curve 
 
 **For example,** let’s say you’re an independent artist launching a 100-piece NFT collection on Polygon. You want only your newsletter subscribers to mint early. With DexAppBuilder, you’d:
 
-- Pick a Storefront template.
-- Add the NFT Mint block.
-- Set wallet gating to your subscriber addresses.
+- Pick an NFT storefront template.
+- Add the **DexContracts** section and deploy your **NFT Drop**.
+- Set wallet gating in Settings to your subscriber addresses.
 - Deploy on Polygon (low gas fees).
 - Share your custom storefront link with your audience.
 
@@ -97,7 +97,7 @@ Copy and use this checklist as you go:
 
 - [ ] **Design your storefront:** Choose a template, upload your logo, set colors and layout.
 - [ ] **Connect your crypto wallet:** Install MetaMask (or similar), fund with testnet tokens for testing.
-- [ ] **Add NFT Mint and Storefront blocks:** Configure collection name, images, pricing, and limits.
+- [ ] **Add NFT store and DexContracts sections:** Configure collection name, images, pricing, and limits via DexContracts (NFT Drop).
 - [ ] **Set up wallet gating (optional):** Restrict access or minting to specific addresses.
 - [ ] **Choose blockchain network:** Select Ethereum, Polygon, or BNB Chain.
 - [ ] **Deploy smart contract:** Use DexAppBuilder’s guided flow to launch on your chosen chain.
@@ -129,7 +129,7 @@ Yes, you need a crypto wallet—like MetaMask, WalletConnect, or Coinbase Wallet
 
 ### Can I customize the design of my NFT storefront without coding?
 
-Yes, DexAppBuilder lets you customize layouts, colors, logos, and branding through an intuitive interface. You can drag-and-drop blocks, tweak settings, and preview your changes live. No HTML, CSS, or JavaScript required.
+Yes, DexAppBuilder lets you customize layouts, colors, logos, and branding through an intuitive interface. You can add sections, tweak settings, and preview your changes live. No HTML, CSS, or JavaScript required.
 
 ### Is it safe to launch NFT storefronts without coding experience?
 

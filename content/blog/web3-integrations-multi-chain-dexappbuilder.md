@@ -88,7 +88,7 @@ If you’re unsure, start with one mainnet (live chain) and one testnet (sandbox
 
 Wallets are how users interact with DApps. Popular wallets like MetaMask, WalletConnect, and Coinbase Wallet let users store their tokens, sign transactions, and interact with smart contracts. Supporting multiple wallets is key—some users only trust certain providers, and some wallets only work on specific chains.
 
-In DexAppBuilder, add wallet support by dragging the wallet block into your app and selecting which wallet connectors you want. Make sure to test wallet connections on every chain you support.
+In DexAppBuilder, add wallet support by adding the **Wallet** section and configuring connectors in **Settings**. Make sure to test wallet connections on every chain you support.
 
 ### Testing and Security Best Practices
 

@@ -48,29 +48,28 @@ You don’t need to be a Solidity developer (the main programming language for E
 
 Here’s how DexAppBuilder helps you bring token swaps and DeFi into your DApp—step by step.
 
-### Using DexKit’s Token Swap Widget for Seamless Integration
+### Using the Swap Section for Seamless Integration
 
-The Token Swap Widget is the easiest way to add swap functionality. Here’s how to use it:
+The **Swap** section (or **DexSwap** quick-builder solution) is the easiest way to add swap functionality. Here’s how to use it:
 
 1. **Go to [DexAppBuilder](https://dexappbuilder.dexkit.com)** and create a new project.  
-2. **Select the “Token Swap Widget”** from the library of blocks. This widget connects to audited liquidity pools and supports major chains like Polygon, Arbitrum, and BNB Chain.  
-3. **Configure your widget:** Choose which tokens you want to support, select the default chain, and set up wallet connections (MetaMask, WalletConnect, Coinbase Wallet, etc.).  
-4. **Drag and drop** the widget onto your DApp page. You can style it to match your brand or product design.  
-5. **Test the swap flow** on a testnet (a safe blockchain for testing with no real money involved) before going live. This ensures your users won’t lose funds due to misconfiguration.  
+2. **Add the Swap section** via **Layout → Pages → + ADD SECTION**, or clone the [GivSwap](https://dexappbuilder.dexkit.com/site/template/givswap) template.  
+3. **Configure your swap:** Choose which tokens you want to support, select the default chain in **Settings → Networks**, and enable wallet connections (MetaMask, WalletConnect, Coinbase Wallet, etc.).  
+4. **Customize your page** to match your brand or product design.  
+5. **Test the swap flow** on a testnet (a safe blockchain for testing with no real money involved) before going live.  
 6. **Publish your DApp**—no code, no backend, no smart contract audits required on your part.
 
-For instance, say you’re building a community rewards app for creators on Base (an Ethereum Layer 2 chain). You want users to swap reward tokens for stablecoins or ETH inside your app. With DexAppBuilder, you’d just embed the Token Swap Widget, configure supported tokens, and publish—no blockchain developer needed.
+For instance, say you’re building a community rewards app for creators on Base (an Ethereum Layer 2 chain). You want users to swap reward tokens for stablecoins or ETH inside your app. With DexAppBuilder, add the **Swap** section, configure supported tokens, and publish—no blockchain developer needed.
 
 If you want to learn more about the widget’s features, check out [Token Swaps and DeFi in DApps](/blog/no-code-dapp-builder-tutorial-token-swaps-defi).
 
-### Embedding DeFi Widgets Without Coding
+### Embedding Swap and Exchange Sections Without Coding
 
-Beyond simple swaps, DexAppBuilder offers ready-made DeFi widgets—like liquidity pool displays or portfolio trackers—that you can embed anywhere in your DApp. Here’s what this looks like in practice:
+Beyond simple swaps, DexAppBuilder offers **Swap** and **Exchange** sections—and the **DexExchange** solution—for liquidity and trading features:
 
-- **Choose a DeFi widget** (for swaps, liquidity, or analytics) from the block library.
-- **Customize the settings:** Pick which pools or protocols to show, limit to certain chains, or let users choose.
-- **Embed with a simple drag-and-drop**—the builder generates the code for you.
-- **Connect wallets:** The widget handles wallet connections and permissions, so users can interact with DeFi features securely.
+- **Add a Swap or Exchange section** via **Layout → Pages → + ADD SECTION**.
+- **Customize the settings:** Pick supported tokens and chains in section settings and **Settings → Networks**.
+- **Connect wallets:** Wallet connect is built into every app; add the **Wallet** section where you need wallet UI.
 
 This approach is perfect if you’re building a DApp for a DAO treasury, NFT trading site, or even a niche DeFi dashboard. You can focus on your product and community, not smart contract audits or backend code.
 
@@ -82,10 +81,10 @@ Copy and use this checklist to make sure your DApp launch goes smoothly:
 
 - [ ] Choose your target blockchain(s) (e.g., Polygon, Arbitrum, BNB Chain).
 - [ ] Register and set up your project at [DexAppBuilder](https://dexappbuilder.dexkit.com).
-- [ ] Add the Token Swap Widget and configure supported tokens.
+- [ ] Add the Swap section (or start from DexSwap) and configure supported tokens.
 - [ ] Enable wallet connections (MetaMask, WalletConnect, Coinbase Wallet).
 - [ ] Test on a public testnet to verify swaps, fees, and wallet flows.
-- [ ] Customize widget styles to match your brand.
+- [ ] Customize section styles to match your brand.
 - [ ] Publish your DApp and share with your community.
 - [ ] Monitor usage and gather feedback for improvements.
 
@@ -103,7 +102,7 @@ Token swaps let users exchange one cryptocurrency token for another directly ins
 
 ### How can I add token swap features without coding?
 
-You can use no-code builders like DexAppBuilder to add ready-made swap widgets to your DApp. Just select the widget, configure supported tokens and chains, and embed it—no programming required. See .
+You can use no-code builders like DexAppBuilder to add the **Swap** section or **DexSwap** solution to your DApp. Configure supported tokens and chains, then publish—no programming required. See .
 
 ### What wallets support token swaps in DApps?
 

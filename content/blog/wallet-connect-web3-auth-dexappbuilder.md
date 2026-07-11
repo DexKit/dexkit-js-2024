@@ -10,7 +10,7 @@ author: DexKit Team
 ---
 
 Quick answer:  
-Wallet Connect and Web3 Auth let users log into decentralized apps (DApps) using their crypto wallet—no passwords, just cryptographic signatures. With DexAppBuilder, you can add secure wallet login to your no-code DApp in minutes: choose the Wallet Connect block, configure supported wallets, customize the login flow, and publish your project. This approach ensures your users can access your app with MetaMask, Trust Wallet, or other wallets, while you skip the headaches of custom coding and security maintenance. Wallet Connect and Web3 Auth are now simple—no jargon, just practical steps.
+Wallet Connect and Web3 Auth let users log into decentralized apps (DApps) using their crypto wallet—no passwords, just cryptographic signatures. With DexAppBuilder, you can add secure wallet login to your no-code DApp in minutes: add the **Wallet** section, configure supported wallets in Settings, customize the login flow, and publish your project. This approach ensures your users can access your app with MetaMask, Trust Wallet, or other wallets, while you skip the headaches of custom coding and security maintenance. Wallet Connect and Web3 Auth are now simple—no jargon, just practical steps.
 
 ## Why Wallet Connect and Web3 Authentication Matter for DApps
 
@@ -58,24 +58,22 @@ Now, let’s get practical. If you’re not a developer—or just want to move f
 
 Here’s how DexAppBuilder fits in:
 
-- **No-code blocks:** Drag-and-drop Wallet Connect and Web3 Login blocks into your app.
-- **Configuration, not coding:** Choose which wallets to support, customize the login prompt, and set authentication rules.
+- **No-code sections:** Add the **Wallet** section from **Layout → Pages → + ADD SECTION**.
+- **Configuration, not coding:** Choose which wallets to support in Settings, customize the login prompt, and set authentication rules.
 - **Instant publishing:** Deploy your DApp to testnet or mainnet with a few clicks.
 
 For instance, that indie game developer on Polygon can use DexAppBuilder to let players connect with any wallet, skip password setup, and focus on playing instead of onboarding headaches.
 
-### Step-by-Step Wallet Connect Integration Using DexAppBuilder Blocks
+### Step-by-Step Wallet Connect Integration Using DexAppBuilder
 
 Getting started is straightforward. Here’s a hands-on scenario:
 
 1. **Sign in to [DexAppBuilder](https://dexappbuilder.dexkit.com) and create a new project.**
-2. **Add the Wallet Connect block** from the available library. This block handles the protocol logic and wallet UI for you.
-3. **Configure supported wallets:** In the block settings, you can select which wallets to show (MetaMask, Trust Wallet, Coinbase Wallet, and others). You can also customize the call-to-action—e.g., “Connect Wallet to Play” for a game.
-4. **Set up network options:** Choose which blockchain networks your app supports (Polygon, Ethereum, Base, Arbitrum, BNB Chain, etc.). If your DApp is for a testnet (a sandbox version of a chain, useful for testing without risking real funds), pick the appropriate network here.
+2. **Add the Wallet section** from **Layout → Pages → + ADD SECTION**. Wallet connect is built into every app; this section adds wallet UI to your page.
+3. **Configure supported wallets:** In **Settings**, select which wallets to show (MetaMask, Trust Wallet, Coinbase Wallet, and others). You can also customize the call-to-action—e.g., “Connect Wallet to Play” for a game.
+4. **Set up network options:** In **Settings → Networks**, choose which blockchain networks your app supports (Polygon, Ethereum, Base, Arbitrum, BNB Chain, etc.). If your DApp is for a testnet (a sandbox version of a chain, useful for testing without risking real funds), pick the appropriate network here.
 5. **Test the wallet connection:** DexAppBuilder provides a preview mode. Connect with your own wallet (on desktop or mobile) to ensure the flow works as expected.
-6. **Publish your DApp:** Once you’re satisfied, deploy to your chosen network. The Wallet Connect integration is live.
-
-You don’t need to worry about the underlying protocol, event handling, or edge cases—DexAppBuilder’s block updates automatically as Wallet Connect evolves. This is a huge time-saver and dramatically reduces surface area for bugs.
+6. **Publish your DApp:** Once you’re satisfied, deploy to your chosen network. Wallet connect is live across your app.
 
 A limitation: While DexAppBuilder covers the main wallets and most common flows, if you need ultra-custom logic or experimental wallet types, you may eventually want to extend your app with custom code. For most use cases, though, the built-in options are enough.
 
@@ -85,13 +83,13 @@ A limitation: While DexAppBuilder covers the main wallets and most common flows,
 
 Web3 authentication is about more than just connecting a wallet—it’s about verifying the user’s identity without ever seeing a password or private key. Here’s how you’d set this up in DexAppBuilder:
 
-1. **Add the Web3 Login block** alongside your Wallet Connect block.
+1. **Add the Wallet section** to your page (wallet connect is app-wide; the section surfaces wallet UI where you need it).
 2. **Customize the challenge message:** For extra security, include a nonce (a random value that changes with each login attempt) and a short explanation (“Sign this message to log in to MyDApp”).
-3. **Enable signature verification:** DexAppBuilder handles signature validation automatically. When a user signs the challenge, the block checks that the signature matches the wallet address.
+3. **Enable signature verification:** DexAppBuilder handles signature validation automatically when users sign the challenge with their connected wallet.
 4. **Set post-login actions:** Decide what users can access once authenticated—maybe unlock a dashboard, enable gameplay, or show personalized content.
 5. **Configure session duration:** You can set how long a login session lasts before the user needs to re-authenticate. This balances user convenience with security.
 
-Everything is done visually—no code, no config files. Security best practices (like never storing private keys or sensitive data) are built in. If you want to add extra logic (like gating features based on NFT ownership), DexAppBuilder supports conditional blocks that trigger based on wallet address or token balance.
+Everything is done visually—no code, no config files. Security best practices (like never storing private keys or sensitive data) are built in. If you want to add extra logic (like gating features based on NFT ownership), configure token gating in Settings and use **DexContracts** sections for on-chain checks.
 
 My experience: For new builders, the no-code flow is a game changer. You can iterate quickly and focus on user experience, not protocol quirks.
 
@@ -101,7 +99,7 @@ My experience: For new builders, the no-code flow is a game changer. You can ite
 
 Copy and paste this checklist into your project plan before launch:
 
-- [ ] Added Wallet Connect block to support multiple wallets (MetaMask, Trust Wallet, etc.)
+- [ ] Added Wallet section and configured supported wallets in Settings (MetaMask, Trust Wallet, etc.)
 - [ ] Configured supported networks (Polygon, Ethereum, Base, etc.)
 - [ ] Customized login prompts and challenge messages for clarity
 - [ ] Enabled signature verification for Web3 authentication
@@ -127,7 +125,7 @@ Web3 authentication uses wallet signatures instead of passwords. When a user log
 
 ### Can I implement Wallet Connect without writing code?
 
-Yes. With DexAppBuilder, you can add Wallet Connect and Web3 Auth blocks visually, configure them in a few clicks, and publish your DApp—no programming required. This is especially helpful for non-developers or teams who want to move fast and avoid the pitfalls of custom wallet integrations. You get robust wallet support and best-practice security without having to become a protocol expert.
+Yes. With DexAppBuilder, you can add the Wallet section and configure wallet connect in Settings visually, then publish your DApp—no programming required. This is especially helpful for non-developers or teams who want to move fast and avoid the pitfalls of custom wallet integrations. You get robust wallet support and best-practice security without having to become a protocol expert.
 
 ### What are common security considerations with wallet authentication?
 
@@ -137,7 +135,7 @@ Secure wallet authentication means more than just connecting a wallet. You shoul
 - You verify wallet signatures properly.
 - Never store users’ private keys or sensitive data on your servers.
 - Inform users what they’re signing and why—to avoid phishing.
-DexAppBuilder’s blocks handle most of these best practices for you, but always test your flows and think about the user’s trust.
+DexAppBuilder handles most of these best practices for you, but always test your flows and think about the user’s trust.
 
 ### How do I support multiple wallet types in my DApp?
 

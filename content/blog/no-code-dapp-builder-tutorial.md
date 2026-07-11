@@ -35,13 +35,13 @@ Tip: Keep your first version simple. Focus on your DApp’s core value and the m
 
 Traditional smart contract development means writing Solidity, testing, and deploying—often a job for specialists. No code platforms like DexAppBuilder abstract this away. Instead, you select from a library of pre-audited smart contract templates (NFT, ERC-20, DeFi logic, etc.) and configure parameters with simple forms.
 
-For instance, to mint NFTs, you pick the “NFT Mint” block, set collection details, supply, and royalty percentages—all visually. The builder handles contract deployment and blockchain interaction behind the scenes.
+For instance, to mint NFTs, add the **DexContracts** section and deploy an **NFT Drop**—set collection details, supply, and royalty percentages visually. The builder handles contract deployment and blockchain interaction behind the scenes.
 
 ### Designing the Frontend with Drag-and-Drop Interfaces
 
 UI/UX is critical for adoption. No code DApp builders provide drag-and-drop editors where you arrange components like buttons, wallets, galleries, and forms. You can customize colors, typography, and layout to match your brand—no HTML/CSS required.
 
-Want to add a “Connect Wallet” button or an NFT showcase? Just drag the relevant block onto your canvas. Test the look and feel instantly.
+Want to add wallet UI or an NFT showcase? Add the **Wallet** section or **Featured NFTs** section via **Layout → Pages → + ADD SECTION**.
 
 ### Testing and Deploying Your DApp Seamlessly
 
@@ -55,13 +55,13 @@ Once satisfied, deploy to your chosen mainnet(s) with a click. The builder handl
 
 DexAppBuilder is designed to help anyone launch a production-ready DApp fast, without any coding. Here’s how DexAppBuilder’s unique features accelerate your build:
 
-### Using Prebuilt Blocks for NFT Minting and Wallet Integration
+### Using Prebuilt Sections for NFT Minting and Wallet Integration
 
-DexAppBuilder offers a library of composable blocks like “NFT Mint,” “Token Swap,” and “Wallet Connect.” Each block encapsulates the necessary smart contract logic and UI components. You simply drag blocks onto your app canvas and configure them.
+DexAppBuilder offers page sections like **DexContracts** (NFT Drop), **Swap**, and **Wallet**. Add them via **Layout → Pages → + ADD SECTION** and configure each section.
 
-For NFT projects, use the “NFT Mint” block to launch a collection with custom metadata and royalties. For DeFi apps, add “Liquidity Pool” or “Swap” blocks. Need users to connect their wallets? Drop in the “Wallet Connect” block and support MetaMask, WalletConnect, and more instantly.
+For NFT projects, use **DexContracts** to deploy an **NFT Drop** with custom metadata and royalties. For DeFi apps, add **Swap** or **Exchange** sections—or start from the [DexSwap](https://dexappbuilder.dexkit.com/admin/quick-builder/swap) solution. Need wallet UI? Add the **Wallet** section; wallet connect is built into every app and supports MetaMask, WalletConnect, and more.
 
-For example, a musician could launch an NFT music storefront on Binance Smart Chain by combining the NFT Mint and Wallet Connect blocks, customizing the storefront UI, and publishing—all in under an hour.
+For example, a musician could launch an NFT music storefront on Binance Smart Chain by combining **DexContracts** (NFT Drop) and the **Wallet** section, customizing the storefront UI, and publishing—all in under an hour.
 
 
 
