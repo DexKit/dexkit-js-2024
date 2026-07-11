@@ -39,7 +39,7 @@ Diversification is key to minimizing risk while maximizing potential returns. By
 
 ### 4\. Stake Monitoring
 
-Regularly monitor staked coins and their performance to make informed decisions about stake adjustments or fund withdrawals. Utilize tools like staking dashboards (like [Nansen](https://app.nansen.ai/) and [Candlestick](https://www.candlestick.io/)) to track your rewards and staking status effortlessly ensuring you that your investment is performing optimally and make timely adjustments as needed. Staking dashboards provide valuable insights into your portfolio’s performance, making it easier to keep track of rewards and staking status.
+Regularly monitor staked coins and their performance to make informed decisions about stake adjustments or fund withdrawals. Utilize tools like staking dashboards (like [Yield by DexKit](https://yield.dexkit.com), [Nansen](https://app.nansen.ai/) and [Candlestick](https://www.candlestick.io/)) to track your rewards and staking status effortlessly ensuring you that your investment is performing optimally and make timely adjustments as needed. Staking dashboards provide valuable insights into your portfolio’s performance, making it easier to keep track of rewards and staking status.
 
 ### 5\. Fee Optimization
 

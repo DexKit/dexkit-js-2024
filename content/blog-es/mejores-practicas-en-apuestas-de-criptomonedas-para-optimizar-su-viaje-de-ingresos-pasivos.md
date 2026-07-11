@@ -42,7 +42,7 @@ La diversificación es clave para minimizar el riesgo y maximizar los rendimient
 
 ### 4\. Monitoreo de estaca
 
-Supervise periódicamente las monedas apostadas y su rendimiento para tomar decisiones informadas sobre ajustes de apuestas o retiros de fondos. Utilice herramientas como paneles de control de apuestas (como [Nansen](https://app.nansen.ai/) y [Candlestick](https://www.candlestick.io/)) para realizar un seguimiento de sus recompensas y del estado de apuestas sin esfuerzo, asegurándole que su inversión está funcionando de manera óptima y realice los ajustes oportunos según sea necesario. Los paneles de control de apuestas brindan información valiosa sobre el desempeño de su cartera, lo que facilita el seguimiento de las recompensas y el estado de las apuestas.
+Supervise periódicamente las monedas apostadas y su rendimiento para tomar decisiones informadas sobre ajustes de apuestas o retiros de fondos. Utilice herramientas como paneles de control de apuestas (como [Yield by DexKit](https://yield.dexkit.com), [Nansen](https://app.nansen.ai/) y [Candlestick](https://www.candlestick.io/)) para realizar un seguimiento de sus recompensas y del estado de apuestas sin esfuerzo, asegurándole que su inversión está funcionando de manera óptima y realice los ajustes oportunos según sea necesario. Los paneles de control de apuestas brindan información valiosa sobre el desempeño de su cartera, lo que facilita el seguimiento de las recompensas y el estado de las apuestas.
 
 ### 5\. Optimización de tarifas
 

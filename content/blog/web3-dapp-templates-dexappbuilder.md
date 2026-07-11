@@ -29,7 +29,7 @@ Not every blockchain app is the same. The most popular Web3 DApp Templates fall 
 ### DeFi, NFT, DAO, and Launchpad Templates Explained
 
 1. **DeFi DApp Templates**  
-These templates provide a foundation for decentralized finance (DeFi) products—think swaps, staking, or yield farming. They typically include wallet integration, token selection, and transaction history. For instance, you might use a  to launch a simple decentralized exchange on BNB Chain.
+These templates provide a foundation for decentralized finance (DeFi) products—think swaps, staking, or yield farming. After launch, track real wallet yield with [Yield by DexKit](https://yield.dexkit.com). They typically include wallet integration, token selection, and transaction history. For instance, you might use a template to launch a simple decentralized exchange on BNB Chain.
 
 2. **NFT DApp Templates**  
 NFT (Non-Fungible Token) templates are ideal for artists, creators, or brands wanting to mint, sell, or display digital collectibles. They come with blocks for minting NFTs, connecting a blockchain wallet, and listing items. For example, a no-code  lets you launch an NFT marketplace on Polygon without Solidity or React skills.
@@ -137,7 +137,7 @@ Templates use no-code or low-code modules, meaning you don’t need to write com
 ### What types of DApps can I build using templates?
 
 You can build a wide range of blockchain apps using templates:  
-- DeFi platforms for swapping or staking tokens (see )
+- DeFi platforms for swapping or staking tokens (see [Yield by DexKit](https://yield.dexkit.com) for wallet yield tracking)
 - NFT marketplaces for minting and selling digital art (see )
 - DAOs for community governance (see )
 - Token launchpads for distributing new coins (see )

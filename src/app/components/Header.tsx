@@ -97,6 +97,7 @@ export default function Header() {
         { name: 'DexContracts', href: '/dexcontracts', external: false, description: intl.formatMessage({ id: "product.dexcontracts.description" }) },
         { name: 'DexWallet', href: '/dexwallet', external: false, description: intl.formatMessage({ id: "product.dexwallet.description" }) },
         { name: 'DexExchangePro', href: '/dexexchangepro', external: false, description: intl.formatMessage({ id: "product.dexexchangepro.description" }) },
+        { name: intl.formatMessage({ id: 'product.yield.title' }), href: 'https://yield.dexkit.com', external: true, description: intl.formatMessage({ id: "product.yield.description" }) },
       ]
     },
     { 

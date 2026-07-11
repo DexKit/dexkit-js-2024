@@ -29,7 +29,7 @@ Nem todos os apps blockchain são iguais. Os modelos mais populares de DApps Web
 ### Modelos DeFi, NFT, DAO e Launchpad Explicados
 
 1. **Modelos DeFi para DApps**  
-Esses modelos fornecem a base para produtos de finanças descentralizadas (DeFi) — pense em swaps, staking ou yield farming. Normalmente incluem integração de carteira, seleção de tokens e histórico de transações. Por exemplo, pode usar um modelo para lançar uma exchange descentralizada simples na BNB Chain.
+Esses modelos fornecem a base para produtos de finanças descentralizadas (DeFi) — pense em swaps, staking ou yield farming. Após o lançamento, acompanhe o rendimento real da carteira com o [Yield by DexKit](https://yield.dexkit.com). Normalmente incluem integração de carteira, seleção de tokens e histórico de transações. Por exemplo, pode usar um modelo para lançar uma exchange descentralizada simples na BNB Chain.
 
 2. **Modelos NFT para DApps**  
 Modelos NFT (Token Não Fungível) são ideais para artistas, criadores ou marcas que querem mintar, vender ou exibir colecionáveis digitais. Vêm com blocos para mintar NFTs, conectar carteira blockchain e listar itens. Por exemplo, um modelo sem código permite lançar um marketplace NFT na Polygon sem precisar de habilidades em Solidity ou React.
@@ -124,7 +124,7 @@ Modelos usam módulos no-code ou low-code, ou seja, não precisa escrever códig
 ### Que tipos de DApps posso construir usando modelos?
 
 Pode construir uma ampla variedade de apps blockchain usando modelos:  
-- Plataformas DeFi para troca ou staking de tokens  
+- Plataformas DeFi para troca ou staking de tokens (veja [Yield by DexKit](https://yield.dexkit.com) para acompanhar rendimento de carteiras)  
 - Marketplaces NFT para mintar e vender arte digital  
 - DAOs para governança comunitária  
 - Launchpads para distribuir novos tokens  

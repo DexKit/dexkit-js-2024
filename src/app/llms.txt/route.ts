@@ -54,13 +54,14 @@ DexKit stands as a comprehensive platform that bridges the gap between complex b
 
 ## Core Products
 
-- [DexAppBuilder](https://dexappbuilder.dexkit.com/): Revolutionary no-code/low-code crypto app builder that empowers users to create, customize, and launch branded crypto apps without complex coding
-- [DexSwap](https://dexkit.com/dexswap): Advanced DEX aggregator with smart routing system, outperforming popular platforms by showing best real-time prices from over thirty protocols
-- [DexNFTMarket](https://dexkit.com/dexnftmarket): Customizable NFT marketplace solution for creating branded NFT trading platforms
-- [DexNFTStore](https://dexkit.com/dexnftstore): Complete NFT store solution with minting, trading, and management capabilities
-- [DexWallet](https://dexkit.com/dexwallet): Secure crypto wallet solution with advanced security features and multi-network support
-- [DexExchangePro](https://dexkit.com/dexexchangepro): Professional-grade cryptocurrency exchange platform
-- [DexContracts](https://dexkit.com/dexcontracts): Smart contract development and deployment tools
+- [DexAppBuilder](https://dexkit.com/dexappbuilder): No-code and low-code platform to create, customize, and launch branded Web3 DApps—swap, wallet, exchange, NFT store, marketplace, and smart contracts on major EVM networks
+- [DexSwap](https://dexkit.com/dexswap): White-label DEX aggregator for branded in-app token swaps—0x liquidity routing, optimized gas, multi-chain support, and Quick Builder deployment via DexAppBuilder
+- [DexNFTMarket](https://dexkit.com/dexnftmarket): White-label NFT marketplace for multi-seller listing and trading—branded platform, analytics, and multi-chain support via DexAppBuilder
+- [DexNFTStore](https://dexkit.com/dexnftstore): No-code NFT storefront—upload collections, set pricing, manage orders, and sell on-chain with branded checkout via DexAppBuilder Quick Builder
+- [DexWallet](https://dexkit.com/dexwallet): Embedded self-custodial Web3 wallet for DApps—manage tokens and NFTs across EVM chains, fiat on-ramp, and no-code launch via DexAppBuilder Quick Builder
+- [DexExchangePro](https://dexkit.com/dexexchangepro): White-label decentralized exchange with charts, limit orders, non-custodial trading, and multi-chain support—deploy via DexAppBuilder
+- [DexContracts](https://dexkit.com/dexcontracts): No-code smart contract toolkit—deploy Thirdweb/DexKit contracts, generate UI from ABI, and launch on-chain apps via DexAppBuilder
+- [Yield by DexKit](https://yield.dexkit.com/): Free read-only Ethereum wallet yield calculator — estimates daily, monthly, and yearly passive income from staking, lending, and DeFi across Lido, Aave, Morpho, and more
 
 ## Key Features
 
@@ -107,13 +108,14 @@ DexKit se posiciona como una plataforma integral que cierra la brecha entre la c
 
 ## Productos Principales
 
-- [DexAppBuilder](https://dexappbuilder.dexkit.com/): Constructor revolucionario de aplicaciones crypto no-code/low-code que permite a los usuarios crear, personalizar y lanzar aplicaciones crypto con marca propia sin codificación compleja
-- [DexSwap](https://dexkit.com/es/dexswap): Agregador DEX avanzado con sistema de enrutamiento inteligente, superando a plataformas populares mostrando los mejores precios en tiempo real de más de treinta protocolos
-- [DexNFTMarket](https://dexkit.com/es/dexnftmarket): Solución de marketplace NFT personalizable para crear plataformas de trading NFT con marca propia
-- [DexNFTStore](https://dexkit.com/es/dexnftstore): Solución completa de tienda NFT con capacidades de acuñación, trading y gestión
-- [DexWallet](https://dexkit.com/es/dexwallet): Solución de wallet crypto segura con características de seguridad avanzadas y soporte multi-red
-- [DexExchangePro](https://dexkit.com/es/dexexchangepro): Plataforma de intercambio de criptomonedas de nivel profesional
-- [DexContracts](https://dexkit.com/es/dexcontracts): Herramientas de desarrollo y despliegue de contratos inteligentes
+- [DexAppBuilder](https://dexkit.com/es/dexappbuilder): Plataforma no-code y low-code para crear, personalizar y lanzar DApps Web3 con marca propia—swap, wallet, exchange, tienda NFT, marketplace y contratos en las principales redes EVM
+- [DexSwap](https://dexkit.com/es/dexswap): Agregador DEX white-label para swaps con marca dentro de tu DApp—enrutamiento 0x, gas optimizado, soporte multired y despliegue con Quick Builder de DexAppBuilder
+- [DexNFTMarket](https://dexkit.com/es/dexnftmarket): Marketplace NFT white-label para listado y trading multi-vendedor—plataforma con marca, analíticas y soporte multired vía DexAppBuilder
+- [DexNFTStore](https://dexkit.com/es/dexnftstore): Tienda NFT sin código—sube colecciones, define precios, gestiona pedidos y vende on-chain con checkout con marca vía DexAppBuilder Quick Builder
+- [DexWallet](https://dexkit.com/es/dexwallet): Wallet Web3 integrada de autocustodia para DApps—gestiona tokens y NFTs en redes EVM, rampa fiat y lanzamiento sin código con DexAppBuilder Quick Builder
+- [DexExchangePro](https://dexkit.com/es/dexexchangepro): Exchange descentralizado white-label con gráficos, órdenes límite, trading no custodial y soporte multired—despliegue con DexAppBuilder
+- [DexContracts](https://dexkit.com/es/dexcontracts): Toolkit de contratos inteligentes sin código—despliega contratos Thirdweb/DexKit, genera UI desde ABI y lanza apps on-chain con DexAppBuilder
+- [Yield by DexKit](https://yield.dexkit.com/): Calculadora gratuita de rendimiento de carteras Ethereum de solo lectura — estima ingresos pasivos diarios, mensuales y anuales de staking, préstamos y DeFi en Lido, Aave, Morpho y más
 
 ## Características Clave
 
@@ -161,13 +163,14 @@ DexKit se posiciona como uma plataforma abrangente que preenche a lacuna entre a
 
 ## Produtos Principais
 
-- [DexAppBuilder](https://dexappbuilder.dexkit.com/): Construtor revolucionário de aplicativos crypto no-code/low-code que capacita usuários a criar, personalizar e lançar aplicativos crypto com marca própria sem codificação complexa
-- [DexSwap](https://dexkit.com/pt/dexswap): Agregador DEX avançado com sistema de roteamento inteligente, superando plataformas populares mostrando os melhores preços em tempo real de mais de trinta protocolos
-- [DexNFTMarket](https://dexkit.com/pt/dexnftmarket): Solução de marketplace NFT personalizável para criar plataformas de trading NFT com marca própria
-- [DexNFTStore](https://dexkit.com/pt/dexnftstore): Solução completa de loja NFT com capacidades de cunhagem, trading e gestão
-- [DexWallet](https://dexkit.com/pt/dexwallet): Solução de wallet crypto segura com características de segurança avançadas e suporte multi-rede
-- [DexExchangePro](https://dexkit.com/pt/dexexchangepro): Plataforma de intercâmbio de criptomoedas de nível profissional
-- [DexContracts](https://dexkit.com/pt/dexcontracts): Ferramentas de desenvolvimento e deploy de contratos inteligentes
+- [DexAppBuilder](https://dexkit.com/pt/dexappbuilder): Plataforma no-code e low-code para criar, personalizar e lançar DApps Web3 com marca própria—swap, wallet, exchange, loja NFT, marketplace e contratos nas principais redes EVM
+- [DexSwap](https://dexkit.com/pt/dexswap): Agregador DEX white-label para swaps com marca no seu DApp—roteamento 0x, gás otimizado, suporte multichain e deploy via Quick Builder do DexAppBuilder
+- [DexNFTMarket](https://dexkit.com/pt/dexnftmarket): Marketplace NFT white-label para listagem e trading multi-vendedor—plataforma com marca, analytics e suporte multichain via DexAppBuilder
+- [DexNFTStore](https://dexkit.com/pt/dexnftstore): Loja NFT no-code—envie coleções, defina preços, gerencie pedidos e venda on-chain com checkout com marca via DexAppBuilder Quick Builder
+- [DexWallet](https://dexkit.com/pt/dexwallet): Carteira Web3 integrada de autocustódia para DApps—gerencie tokens e NFTs em redes EVM, rampa fiat e lançamento sem código com DexAppBuilder Quick Builder
+- [DexExchangePro](https://dexkit.com/pt/dexexchangepro): Exchange descentralizada white-label com gráficos, ordens limitadas, trading não custodial e suporte multichain—deploy via DexAppBuilder
+- [DexContracts](https://dexkit.com/pt/dexcontracts): Toolkit de contratos inteligentes no-code—implante contratos Thirdweb/DexKit, gere UI a partir de ABI e lance apps on-chain via DexAppBuilder
+- [Yield by DexKit](https://yield.dexkit.com/): Calculadora gratuita de rendimento de carteiras Ethereum somente leitura — estima renda passiva diária, mensal e anual de staking, empréstimos e DeFi em Lido, Aave, Morpho e mais
 
 ## Características Principais
 

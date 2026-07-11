@@ -47,6 +47,8 @@ Despite its many benefits, there are also some potential risks associated with c
 
 **Crypto staking** represents a revolutionary concept that offers numerous benefits for users looking to **earn passive income, promote network security, and support sustainable digital currency practices**. However, it is not without its risks, and users should carefully consider these factors before committing funds to a staking pool. By doing so, you can make an informed decision about whether crypto staking is the right choice for your needs.
 
+To see what your wallet actually earns today, use [Yield by DexKit](https://yield.dexkit.com) — a free, read-only calculator that estimates daily, monthly, and yearly passive income across Lido, Aave, Morpho, and other supported protocols.
+
 ### DexContracts: Hand in hand with token staking
 
 DexContracts, a no-code/low-code solution integrated into the DexAppBuilder platform, **ensures compatibility with token staking**, allowing creators to infuse liquidity into their emerging tokens right from the outset. Ready to experience the simplicity of DexContracts and enhance your token creation journey? Explore DexContracts [here](https://dexappbuilder.dexkit.com/forms/contracts/create)!

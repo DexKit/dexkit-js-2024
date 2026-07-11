@@ -29,7 +29,7 @@ No todas las apps blockchain son iguales. Las plantillas Web3 más populares se 
 ### Plantillas DeFi, NFT, DAO y Launchpad Explicadas
 
 1. **Plantillas DeFi para DApps**  
-Estas plantillas ofrecen la base para productos de finanzas descentralizadas (DeFi) — piensa en swaps, staking o yield farming. Normalmente incluyen integración de wallet, selección de tokens e historial de transacciones. Por ejemplo, podrías usar una plantilla para lanzar un exchange descentralizado simple en BNB Chain.
+Estas plantillas ofrecen la base para productos de finanzas descentralizadas (DeFi) — piensa en swaps, staking o yield farming. Tras el lanzamiento, rastrea el rendimiento real de tu cartera con [Yield by DexKit](https://yield.dexkit.com). Normalmente incluyen integración de wallet, selección de tokens e historial de transacciones. Por ejemplo, podrías usar una plantilla para lanzar un exchange descentralizado simple en BNB Chain.
 
 2. **Plantillas NFT para DApps**  
 Las plantillas NFT son ideales para artistas, creadores o marcas que quieren mintear, vender o mostrar coleccionables digitales. Incluyen bloques para mintear NFTs, conectar wallets blockchain y listar ítems. Por ejemplo, una plantilla sin código te permite lanzar un mercado NFT en Polygon sin conocimientos de Solidity o React.
@@ -124,7 +124,7 @@ Las plantillas usan módulos sin código o con poco código, así no necesitas e
 ### ¿Qué tipos de DApps puedo construir usando plantillas?
 
 Puedes crear una amplia variedad de apps blockchain con plantillas:  
-- Plataformas DeFi para swap o staking de tokens  
+- Plataformas DeFi para swap o staking de tokens (consulta [Yield by DexKit](https://yield.dexkit.com) para seguimiento de rendimiento de carteras)
 - Mercados NFT para mintear y vender arte digital  
 - DAOs para gobernanza comunitaria  
 - Launchpads para distribuir nuevos tokens  

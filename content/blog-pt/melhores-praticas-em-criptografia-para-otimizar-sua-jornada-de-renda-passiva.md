@@ -39,7 +39,7 @@ A diversificação é fundamental para minimizar o risco e, ao mesmo tempo, maxi
 
 ### **4\. Monitoramento de estacas**
 
-Monitore regularmente as moedas apostadas e seu desempenho para tomar decisões informadas sobre ajustes de apostas ou retiradas de fundos. Utilize ferramentas como painéis de piquetagem (como [Nansen](https://app.nansen.ai/) e [Candlestick](https://www.candlestick.io/)) para rastrear suas recompensas e status de piquetagem sem esforço, garantindo que você seu investimento está tendo um desempenho ideal e faça ajustes oportunos conforme necessário. Os painéis de staking fornecem informações valiosas sobre o desempenho do seu portfólio, facilitando o acompanhamento das recompensas e do status do staking.
+Monitore regularmente as moedas apostadas e seu desempenho para tomar decisões informadas sobre ajustes de apostas ou retiradas de fundos. Utilize ferramentas como painéis de piquetagem (como [Yield by DexKit](https://yield.dexkit.com), [Nansen](https://app.nansen.ai/) e [Candlestick](https://www.candlestick.io/)) para rastrear suas recompensas e status de piquetagem sem esforço, garantindo que você seu investimento está tendo um desempenho ideal e faça ajustes oportunos conforme necessário. Os painéis de staking fornecem informações valiosas sobre o desempenho do seu portfólio, facilitando o acompanhamento das recompensas e do status do staking.
 
 ### **5\. Otimização de taxas**
 
