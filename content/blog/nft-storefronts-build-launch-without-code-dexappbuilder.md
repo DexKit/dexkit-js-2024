@@ -138,3 +138,7 @@ Using trusted no-code tools like DexAppBuilder is much safer than trying to writ
 ---
 
 If you want to dive deeper into no-code NFT storefronts, check these out:
+
+## Related reads
+
+- [NFT Storefronts: Build and Launch Without Code](/blog/nft-storefronts)

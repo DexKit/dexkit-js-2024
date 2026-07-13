@@ -138,3 +138,7 @@ Usar herramientas no-code confiables como DexAppBuilder es mucho más seguro que
 ---
 
 Si quieres profundizar en tiendas NFT sin código, explora estos recursos:
+
+## Related reads
+
+- [NFT Storefronts: Build and Launch Without Code](/blog/nft-storefronts)
