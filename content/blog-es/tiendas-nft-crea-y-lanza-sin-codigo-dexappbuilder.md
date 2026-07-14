@@ -142,3 +142,4 @@ Si quieres profundizar en tiendas NFT sin código, explora estos recursos:
 ## Related reads
 
 - [NFT Storefronts: Build and Launch Without Code](/blog/nft-storefronts)
+- [Minting NFTs on No-Code NFT Storefronts: A Complete Guide](/blog/minting-nfts-no-code-nft-storefronts)
