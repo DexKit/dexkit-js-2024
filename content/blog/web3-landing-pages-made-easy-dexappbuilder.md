@@ -154,3 +154,8 @@ If you’re interested in building more complex sites, launching a token, or man
 ## Final Thoughts from Experience
 
 After building and shipping multiple Web3 products, I’ve learned that the biggest challenge isn’t the technology—it’s onboarding and trust. A confusing landing page can kill a great idea before it starts. Tools like DexAppBuilder let you focus on your message, not your codebase. My advice: start simple, test with real users, and don’t be afraid to iterate. Your landing page is your first handshake with the world—make it count.
+
+## Related reads
+
+- [Desbloqueie a Web3 em qualquer site com os widgets Web3 da DexKit 🚀](/blog/dexkit-web3-widgets)
+- [Construção de DApps Web3 com tecnologia de IA: dê início à sua criatividade com os recursos de IA do DexAppBuilder](/blog/construcao-de-ai-empowered-web-3-dapp)

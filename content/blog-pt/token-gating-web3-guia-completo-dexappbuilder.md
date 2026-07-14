@@ -197,3 +197,11 @@ Sim. Muitas plataformas comunitárias (como Discord) suportam papéis token gate
 ---
 
 Se quiser aprofundar ou encontrar guias passo a passo para tipos específicos de token e casos de uso, confira os recursos indicados no site DexKit.
+
+## Related reads
+
+- [Conozca a Brandon: un valioso criptoemprendedor en la comunidad de DexKit](/blog/conozca-a-brandon-un-valioso-criptoemprendedor-en-dexkits-comunidad)
+- [Construtor de DApps Sem Código: Simplificando o Token Gating com DexAppBuilder](/blog/construtor-dapps-sem-codigo-token-gating-dexappbuilder)
+- [La mejor token gating sin código: Simplifica el control de acceso con DexAppBuilder](/blog/la-mejor-token-gating-sin-codigo-control-acceso-dexappbuilder)
+- [Token Gating para Web3: Guía Completa con Beneficios de DexAppBuilder](/blog/token-gating-web3-guia-completa-beneficios-dexappbuilder)
+- [Desenvolvimento emocionante: João Campos garante doação de US$ 50 mil para o DexKit](/blog/joao-campos-segura-50k-grant)

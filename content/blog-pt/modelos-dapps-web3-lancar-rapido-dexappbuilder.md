@@ -149,3 +149,8 @@ A maioria dos usuários vai da ideia ao DApp ativo em dias, não meses. Por exem
 ---
 
 Se é novo em Web3, usar modelos e ferramentas no-code como o DexAppBuilder é a forma mais rápida e segura de lançar. Evitará os erros mais comuns, focará nos seus usuários e obterá feedback real — sem gastar meses com infraestrutura. Para a maioria dos construtores iniciantes, isso não é só mais fácil, é mais inteligente. Explore os modelos do DexAppBuilder em [dexappbuilder.dexkit.com](https://dexappbuilder.dexkit.com) e lance seu projeto.
+
+## Related reads
+
+- [Desbloqueie a Web3 em qualquer site com os widgets Web3 da DexKit 🚀](/blog/dexkit-web3-widgets)
+- [Construção de DApps Web3 com tecnologia de IA: dê início à sua criatividade com os recursos de IA do DexAppBuilder](/blog/construcao-de-ai-empowered-web-3-dapp)

@@ -154,3 +154,8 @@ Se estiver interessado em construir sites mais complexos, lançar um token ou ge
 ## Considerações Finais com Base na Experiência
 
 Depois de construir e lançar múltiplos produtos Web3, aprendi que o maior desafio não é a tecnologia — é o onboarding e a confiança. Uma página de aterragem confusa pode matar uma ótima ideia antes de começar. Ferramentas como o DexAppBuilder permitem que se foque na sua mensagem, não no código. O meu conselho: comece simples, teste com utilizadores reais e não tenha medo de iterar. A sua página de aterragem é o seu primeiro aperto de mão com o mundo — faça com que conte.
+
+## Related reads
+
+- [Desbloqueie a Web3 em qualquer site com os widgets Web3 da DexKit 🚀](/blog/dexkit-web3-widgets)
+- [Construção de DApps Web3 com tecnologia de IA: dê início à sua criatividade com os recursos de IA do DexAppBuilder](/blog/construcao-de-ai-empowered-web-3-dapp)

@@ -53,3 +53,7 @@ Com o DexKit, você obtém uma plataforma que não é apenas rápida de implanta
 ### Junte-se à nossa comunidade
 
 Mergulhe em [nossa comunidade Discord](https://discord.com/invite/GJCRu4CYFH), um centro para entusiastas de DeFi onde você pode se conectar, compartilhar e se manter informado sobre as últimas tendências.
+
+## Related reads
+
+- [Token Gating para Web3: Guía Completa con Beneficios de DexAppBuilder](/blog/token-gating-web3-guia-completa-beneficios-dexappbuilder)

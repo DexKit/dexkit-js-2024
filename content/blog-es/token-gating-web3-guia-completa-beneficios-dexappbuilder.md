@@ -195,3 +195,10 @@ Sí. Muchas plataformas comunitarias (como Discord) soportan roles token-gated u
 ---
 
 Si quieres profundizar o encontrar guías paso a paso para tipos específicos de tokens y casos de uso, consulta estos recursos:
+
+## Related reads
+
+- [Conozca a Brandon: un valioso criptoemprendedor en la comunidad de DexKit](/blog/conozca-a-brandon-un-valioso-criptoemprendedor-en-dexkits-comunidad)
+- [Construtor de DApps Sem Código: Simplificando o Token Gating com DexAppBuilder](/blog/construtor-dapps-sem-codigo-token-gating-dexappbuilder)
+- [La mejor token gating sin código: Simplifica el control de acceso con DexAppBuilder](/blog/la-mejor-token-gating-sin-codigo-control-acceso-dexappbuilder)
+- [Desenvolvimento emocionante: João Campos garante doação de US$ 50 mil para o DexKit](/blog/joao-campos-segura-50k-grant)

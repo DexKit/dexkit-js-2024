@@ -197,3 +197,11 @@ Yes. Many community platforms (like Discord) support token-gated roles using wal
 ---
 
 If you want to go deeper or find step-by-step guides for specific token types and use cases, check out these resources:
+
+## Related reads
+
+- [Conozca a Brandon: un valioso criptoemprendedor en la comunidad de DexKit](/blog/conozca-a-brandon-un-valioso-criptoemprendedor-en-dexkits-comunidad)
+- [Construtor de DApps Sem Código: Simplificando o Token Gating com DexAppBuilder](/blog/construtor-dapps-sem-codigo-token-gating-dexappbuilder)
+- [La mejor token gating sin código: Simplifica el control de acceso con DexAppBuilder](/blog/la-mejor-token-gating-sin-codigo-control-acceso-dexappbuilder)
+- [Token Gating para Web3: Guía Completa con Beneficios de DexAppBuilder](/blog/token-gating-web3-guia-completa-beneficios-dexappbuilder)
+- [Desenvolvimento emocionante: João Campos garante doação de US$ 50 mil para o DexKit](/blog/joao-campos-segura-50k-grant)
