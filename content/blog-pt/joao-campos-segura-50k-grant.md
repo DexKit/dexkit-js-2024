@@ -57,3 +57,4 @@ Mergulhe em [nossa comunidade Discord](https://discord.com/invite/GJCRu4CYFH), u
 ## Related reads
 
 - [Token Gating para Web3: Guía Completa con Beneficios de DexAppBuilder](/blog/token-gating-web3-guia-completa-beneficios-dexappbuilder)
+- [Token Gating para Web3: Guia Completo com Vantagens do DexAppBuilder](/blog/token-gating-web3-guia-completo-dexappbuilder)

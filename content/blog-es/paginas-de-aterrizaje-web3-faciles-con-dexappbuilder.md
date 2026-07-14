@@ -154,3 +154,8 @@ Si te interesa construir sitios más complejos, lanzar un token o gestionar drop
 ## Reflexiones finales desde la experiencia
 
 Después de construir y lanzar múltiples productos Web3, he aprendido que el mayor desafío no es la tecnología, sino la incorporación y la confianza. Una página de aterrizaje confusa puede matar una gran idea antes de empezar. Herramientas como DexAppBuilder te permiten enfocarte en tu mensaje, no en tu código. Mi consejo: empieza simple, prueba con usuarios reales y no temas iterar. Tu página de aterrizaje es tu primer apretón de manos con el mundo — haz que valga la pena.
+
+## Related reads
+
+- [Plantillas de DApps Web3 para Lanzar Más Rápido con DexAppBuilder](/blog/plantillas-dapps-web3-lanzar-rapido-dexappbuilder)
+- [Tutorial para Crear DApps Sin Código: Lanza Tu App Web3 Rápidamente con DexAppBuilder](/blog/tutorial-crear-dapps-sin-codigo-lanza-app-web3-rapido-dexappbuilder)

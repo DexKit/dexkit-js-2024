@@ -148,3 +148,8 @@ Una DApp (aplicación descentralizada) corre en una red blockchain como Ethereum
 ---
 
 Para más sobre integración de wallets y creación de DApps sin código, explora nuestras guías en https://dexkit.com/es/blog/wallet-connect-autenticacion-web3-simplificados-dexappbuilder.
+
+## Related reads
+
+- [Plantillas de DApps Web3 para Lanzar Más Rápido con DexAppBuilder](/blog/plantillas-dapps-web3-lanzar-rapido-dexappbuilder)
+- [Tutorial para Crear DApps Sin Código: Lanza Tu App Web3 Rápidamente con DexAppBuilder](/blog/tutorial-crear-dapps-sin-codigo-lanza-app-web3-rapido-dexappbuilder)

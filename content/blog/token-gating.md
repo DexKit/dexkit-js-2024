@@ -205,3 +205,7 @@ If you want to go deeper or find step-by-step guides for specific token types an
 - [La mejor token gating sin código: Simplifica el control de acceso con DexAppBuilder](/blog/la-mejor-token-gating-sin-codigo-control-acceso-dexappbuilder)
 - [Token Gating para Web3: Guía Completa con Beneficios de DexAppBuilder](/blog/token-gating-web3-guia-completa-beneficios-dexappbuilder)
 - [Desenvolvimento emocionante: João Campos garante doação de US$ 50 mil para o DexKit](/blog/joao-campos-segura-50k-grant)
+- [Deploy de Token Allowance Drop en DexAppBuilder: guía de preventa y claim ERC-20](/blog/deploy-token-allowance-drop-with-dexappbuilder)
+- [Construa seu próprio negócio criptográfico com facilidade – Apresentando a atualização mais recente do DexAppBuilder](/blog/construa-seu-proprio-negocio-de-criptografia-com-facilidade-ultima-atualizacao-para-dexappbuilder)
+- [Tutorial de Criador de DApps Sem Código: Crie DApps de Troca de Tokens Rápido com DexAppBuilder](/blog/tutorial-criador-dapps-sem-codigo-troca-tokens-rapido-dexappbuilder)
+- [Token Gating para Web3: Guia Completo com Vantagens do DexAppBuilder](/blog/token-gating-web3-guia-completo-dexappbuilder)

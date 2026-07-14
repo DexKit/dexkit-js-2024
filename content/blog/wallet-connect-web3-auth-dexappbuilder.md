@@ -148,3 +148,7 @@ A DApp (Decentralized Application) runs on a blockchain network like Ethereum or
 ---
 
 For more on wallet integration and no-code DApp building, explore our guides on  and .
+
+## Related reads
+
+- [Plantillas de DApps Web3 para Lanzar Más Rápido con DexAppBuilder](/blog/plantillas-dapps-web3-lanzar-rapido-dexappbuilder)

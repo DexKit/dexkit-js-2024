@@ -106,3 +106,7 @@ Yes. DexAppBuilder supports Ethereum, Polygon, BSC, and other EVM networks. You 
 ---
 
 Looking for more no-code DeFi widgets? Explore our guide on [DeFi Widget No-Code](#), or see how to design a dedicated [Swap Page for DApp](#) using DexAppBuilder.
+
+## Related reads
+
+- [Construcción de DApps sin Código: Crea tu DApp Fácilmente con DexAppBuilder](/blog/construccion-dapps-sin-codigo-dexappbuilder)
