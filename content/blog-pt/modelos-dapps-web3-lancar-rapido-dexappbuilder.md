@@ -155,3 +155,5 @@ Se é novo em Web3, usar modelos e ferramentas no-code como o DexAppBuilder é a
 - [Desbloqueie a Web3 em qualquer site com os widgets Web3 da DexKit 🚀](/blog/dexkit-web3-widgets)
 - [Construção de DApps Web3 com tecnologia de IA: dê início à sua criatividade com os recursos de IA do DexAppBuilder](/blog/construcao-de-ai-empowered-web-3-dapp)
 - [Tutorial de Criador de DApps Sem Código: Lance Sua Aplicação Web3 Rápido com DexAppBuilder](/blog/tutorial-criador-dapps-sem-codigo-lance-web3-rapido-dexappbuilder)
+- [Desbloquea la Web3 en cualquier sitio web con los widgets Web3 de DexKit 🚀](/blog/widgets-web3-dexkit)
+- [Empower Web3 Innovation: Support DexAppBuilder in Giveth’s Public Goods Round](/blog/support-dexappbuilder-giveth-public-goods-round)
