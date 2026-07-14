@@ -162,3 +162,4 @@ Depois de construir e lançar múltiplos produtos Web3, aprendi que o maior desa
 - [Tutorial de Criador de DApps Sem Código: Lance Sua Aplicação Web3 Rápido com DexAppBuilder](/blog/tutorial-criador-dapps-sem-codigo-lance-web3-rapido-dexappbuilder)
 - [Desbloquea la Web3 en cualquier sitio web con los widgets Web3 de DexKit 🚀](/blog/widgets-web3-dexkit)
 - [Empower Web3 Innovation: Support DexAppBuilder in Giveth’s Public Goods Round](/blog/support-dexappbuilder-giveth-public-goods-round)
+- [Crypto Landing Page: Key Elements for Effective Web3 Onboarding](/blog/crypto-landing-page)
