@@ -164,3 +164,4 @@ Web3 website builders are rapidly evolving. For most NFT, token, and blockchain 
 ## Related reads
 
 - [Best Web3 Website Builder: Top Tools Compared for No-Code DApp Creation](/blog/best-web3-website-builder)
+- [Free Crypto Landing Page Template: Build Web3 Landing Pages Without Coding](/blog/free-crypto-landing-page-template)

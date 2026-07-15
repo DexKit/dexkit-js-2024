@@ -158,3 +158,7 @@ Some no-code and developer-focused builders support multi-chain deployment to ma
 ### What if I want to build on Solana or non-EVM chains?
 
 Most no-code and low-code Web3 builders focus on EVM-compatible chains. For Solana, you’ll need to look at specialized tools or developer frameworks, such as Metaplex or the Jupiter swap widget, which are not yet available in mainstream no-code builders.
+
+## Related reads
+
+- [Free Crypto Landing Page Template: Build Web3 Landing Pages Without Coding](/blog/free-crypto-landing-page-template)

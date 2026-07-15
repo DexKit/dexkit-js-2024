@@ -161,3 +161,4 @@ Want to learn more about building crypto and blockchain landing pages? Explore o
 
 - [Web3 Website Builder: How to Create Decentralized Sites Without Coding](/blog/web3-website-builder)
 - [Best Web3 Website Builder: Top Tools Compared for No-Code DApp Creation](/blog/best-web3-website-builder)
+- [Free Crypto Landing Page Template: Build Web3 Landing Pages Without Coding](/blog/free-crypto-landing-page-template)
