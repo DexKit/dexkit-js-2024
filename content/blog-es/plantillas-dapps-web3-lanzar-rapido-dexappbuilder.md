@@ -153,3 +153,4 @@ Si eres nuevo en Web3, usar plantillas y herramientas sin código como DexAppBui
 ## Related reads
 
 - [Tutorial para Crear DApps Sin Código: Lanza Tu App Web3 Rápidamente con DexAppBuilder](/blog/tutorial-crear-dapps-sin-codigo-lanza-app-web3-rapido-dexappbuilder)
+- [WalletConnect vs Privy: Comparing Web3 Wallet Authentication Solutions](/blog/walletconnect-vs-privy)
