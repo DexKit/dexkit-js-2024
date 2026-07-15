@@ -172,3 +172,7 @@ You can find free templates on GitHub, design marketplaces, and no-code platform
 
 [Best Web3 Website Builder: Top Tools Compared for No-Code DApp Creation](/blog/best-web3-website-builder)
 [Crypto Landing Page: Key Elements for Effective Web3 Onboarding](/blog/crypto-landing-page)
+
+## Related reads
+
+- [Web3 Website Development: Building Decentralized Sites Without Code](/blog/web3-website-development)
