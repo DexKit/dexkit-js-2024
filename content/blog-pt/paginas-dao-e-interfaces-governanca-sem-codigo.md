@@ -147,3 +147,7 @@ Para DAOs novas, o [Token Drop](https://dexappbuilder.dexkit.com/forms/deploy/th
 ### E se minha DAO crescer e eu precisar de recursos mais avançados?
 
 Ferramentas no-code são ótimas para começar, mas conforme sua DAO cresce, pode encontrar limites de recursos (como lógica de votação customizada ou integrações com outros protocolos). Nesse caso, precisará trabalhar com um desenvolvedor para criar contratos personalizados ou buscar plataformas mais especializadas. Para a maioria das comunidades novas, o DexAppBuilder resolve 90% das necessidades com uma fração do esforço.
+
+## Related reads
+
+- [Proposal in DAO Governance: How They Power Decentralized Decision-Making](/blog/proposal-dao-governance)

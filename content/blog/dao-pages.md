@@ -158,3 +158,7 @@ For new DAOs, [Token Drop](https://dexappbuilder.dexkit.com/forms/deploy/thirdwe
 ### What if my DAO grows and I need more advanced features?
 
 No-code tools are great for starting, but as your DAO grows, you might hit feature limits (like custom voting logic or integrations with other protocols). At that point, you’ll need to either work with a developer to build custom contracts or look for more specialized platforms. For most new communities, DexAppBuilder gets you 90% of the way with a fraction of the effort.
+
+## Related reads
+
+- [Proposal in DAO Governance: How They Power Decentralized Decision-Making](/blog/proposal-dao-governance)
