@@ -1,0 +1,38 @@
+name: IndexNow — notify search engines of new/updated blog posts
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'content/blog/**'
+      - 'content/blog-pt/**'
+      - 'content/blog-es/**'
+
+jobs:
+  notify-indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Wait for deploy (Vercel)
+        run: sleep 120
+
+      - name: Submit changed blog URLs to IndexNow
+        env:
+          INDEXNOW_HOST: dexkit.com
+          INDEXNOW_SITE_URL: https://dexkit.com
+        run: |
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            BEFORE="HEAD~1"
+          fi
+          npx --yes ts-node scripts/notify-indexnow.ts --from-git "$BEFORE" "$AFTER"

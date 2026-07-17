@@ -2,6 +2,14 @@
 
 ## Blog Management
 
+### IndexNow (search engine URL notification)
+
+When blog markdown under `content/blog*`, `content/blog-pt*`, or `content/blog-es*` lands on `master`, GitHub Actions waits for Vercel deploy and submits the public URLs to [IndexNow](https://www.indexnow.org/) (Bing, Yandex, and other participants).
+
+- Ownership key: `public/4171b1da1a684e82911439ebbc0a73c4.txt` → `https://dexkit.com/4171b1da1a684e82911439ebbc0a73c4.txt`
+- Manual submit: `npm run indexnow -- --urls https://dexkit.com/blog/your-slug`
+- From git range: `npm run indexnow -- --from-git HEAD~1`
+
 ### Creating New Posts
 
 To create new blog posts, please refer to the [Creating Posts Guide](creatingposts.md). This guide provides step-by-step instructions on how to create and format new blog posts using Markdown.
