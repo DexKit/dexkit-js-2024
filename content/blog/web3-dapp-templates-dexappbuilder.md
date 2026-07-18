@@ -166,3 +166,4 @@ If you’re new to Web3, using templates and no-code tools like DexAppBuilder is
 ## Related reads
 
 - [DeFi DApp Templates: Building Decentralized Finance Apps Without Code](/blog/defi-dapp-templates)
+- [Web3 Website Template Free: Build Your DApp Without Coding](/blog/web3-website-template-free)
