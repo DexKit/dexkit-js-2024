@@ -187,3 +187,7 @@ Most no-code builders focus on Ethereum-compatible (EVM) chains. For Solana or h
 For more details on building with no-code, see:  
 [Web3 Website Development: Building Decentralized Sites Without Code](/blog/web3-website-development)  
 [Best Web3 Website Builder: Top Tools Compared for No-Code DApp Creation](/blog/best-web3-website-builder)
+
+## Related reads
+
+- [AI Web3 Website Builder: How the Options Compare](/blog/ai-web3-website-builder)

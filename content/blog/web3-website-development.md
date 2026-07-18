@@ -178,3 +178,4 @@ Explore more with our resources on [Web3 Landing Pages](/blog/web3-landing-pages
 ## Related reads
 
 - [Best Web3 Website Design: Comparing Top No-Code Web3 Landing Page Builders](/blog/best-web3-website-design)
+- [AI Web3 Website Builder: How the Options Compare](/blog/ai-web3-website-builder)
