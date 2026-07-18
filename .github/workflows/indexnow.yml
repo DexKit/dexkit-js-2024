@@ -35,4 +35,4 @@ jobs:
           if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
             BEFORE="HEAD~1"
           fi
-          npx --yes ts-node scripts/notify-indexnow.ts --from-git "$BEFORE" "$AFTER"
+          node scripts/notify-indexnow.mjs --from-git "$BEFORE" "$AFTER"

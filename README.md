@@ -9,6 +9,7 @@ When blog markdown under `content/blog*`, `content/blog-pt*`, or `content/blog-e
 - Ownership key: `public/4171b1da1a684e82911439ebbc0a73c4.txt` → `https://dexkit.com/4171b1da1a684e82911439ebbc0a73c4.txt`
 - Manual submit: `npm run indexnow -- --urls https://dexkit.com/blog/your-slug`
 - From git range: `npm run indexnow -- --from-git HEAD~1`
+- CI uses plain `node scripts/notify-indexnow.mjs` (no ts-node)
 
 ### Creating New Posts
 

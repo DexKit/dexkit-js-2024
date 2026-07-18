@@ -1,10 +1,11 @@
+#!/usr/bin/env node
 /**
  * Submit URLs to IndexNow (Bing, Yandex, Naver, Seznam, etc.).
  *
  * Usage:
- *   npx ts-node scripts/notify-indexnow.ts --urls https://dexkit.com/blog/slug
- *   npx ts-node scripts/notify-indexnow.ts --from-git HEAD~1
- *   npx ts-node scripts/notify-indexnow.ts --from-git "$BEFORE_SHA" "$AFTER_SHA"
+ *   node scripts/notify-indexnow.mjs --urls https://dexkit.com/blog/slug
+ *   node scripts/notify-indexnow.mjs --from-git HEAD~1
+ *   node scripts/notify-indexnow.mjs --from-git "$BEFORE_SHA" "$AFTER_SHA"
  *
  * Env (optional overrides):
  *   INDEXNOW_KEY          default: key from public/{key}.txt
@@ -14,17 +15,20 @@
  *   INDEXNOW_DRY_RUN=true print payload only
  */
 
-import { execSync } from 'child_process';
-import * as fs from 'fs';
-import * as path from 'path';
+import { execSync } from 'node:child_process';
+import fs from 'node:fs';
+import path from 'node:path';
 
-const SITE_URL = (process.env.INDEXNOW_SITE_URL || 'https://dexkit.com').replace(/\/$/, '');
+const SITE_URL = (process.env.INDEXNOW_SITE_URL || 'https://dexkit.com').replace(
+  /\/$/,
+  '',
+);
 const HOST = process.env.INDEXNOW_HOST || new URL(SITE_URL).host;
 const ENDPOINT =
   process.env.INDEXNOW_ENDPOINT || 'https://api.indexnow.org/indexnow';
 const DEFAULT_KEY = '4171b1da1a684e82911439ebbc0a73c4';
 
-function resolveKey(): string {
+function resolveKey() {
   const fromEnv = process.env.INDEXNOW_KEY?.trim();
   if (fromEnv) return fromEnv;
 
@@ -36,7 +40,7 @@ function resolveKey(): string {
   return DEFAULT_KEY;
 }
 
-function blogUrlFromRepoPath(filePath: string): string | null {
+function blogUrlFromRepoPath(filePath) {
   const normalized = filePath.replace(/\\/g, '/');
   const en = normalized.match(/(?:^|\/)content\/blog\/([^/]+)\.md$/);
   if (en) return `${SITE_URL}/blog/${en[1]}`;
@@ -47,11 +51,11 @@ function blogUrlFromRepoPath(filePath: string): string | null {
   return null;
 }
 
-function urlsFromGitDiff(range: string): string[] {
+function urlsFromGitDiff(range) {
   const out = execSync(`git diff --name-only --diff-filter=ACMR ${range}`, {
     encoding: 'utf8',
   });
-  const urls = new Set<string>();
+  const urls = new Set();
   for (const line of out.split('\n')) {
     const url = blogUrlFromRepoPath(line.trim());
     if (url) urls.add(url);
@@ -59,8 +63,8 @@ function urlsFromGitDiff(range: string): string[] {
   return [...urls];
 }
 
-function parseArgs(argv: string[]): { urls: string[]; dryRun: boolean } {
-  const urls: string[] = [];
+function parseArgs(argv) {
+  const urls = [];
   let dryRun = process.env.INDEXNOW_DRY_RUN === 'true';
 
   for (let i = 0; i < argv.length; i++) {
@@ -94,7 +98,7 @@ function parseArgs(argv: string[]): { urls: string[]; dryRun: boolean } {
   return { urls: [...new Set(urls)], dryRun };
 }
 
-async function submit(urls: string[], dryRun: boolean): Promise<void> {
+async function submit(urls, dryRun) {
   if (urls.length === 0) {
     console.log('IndexNow: no blog URLs to submit.');
     return;

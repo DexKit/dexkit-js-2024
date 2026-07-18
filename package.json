@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build && npm run check:rss && npx ts-node scripts/generate-rss.ts",
     "check:rss": "ts-node scripts/check-rss.ts",
-    "indexnow": "ts-node scripts/notify-indexnow.ts",
+    "indexnow": "node scripts/notify-indexnow.mjs",
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate",
