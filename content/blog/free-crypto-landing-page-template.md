@@ -176,3 +176,4 @@ You can find free templates on GitHub, design marketplaces, and no-code platform
 ## Related reads
 
 - [Web3 Website Development: Building Decentralized Sites Without Code](/blog/web3-website-development)
+- [Best Web3 Website Design: Comparing Top No-Code Web3 Landing Page Builders](/blog/best-web3-website-design)

@@ -174,3 +174,7 @@ For example, an artist could use a no-code builder to launch a multi-chain NFT s
 ### Where can I learn more about web3 landing pages and builders?
 
 Explore more with our resources on [Web3 Landing Pages](/blog/web3-landing-pages-made-easy-dexappbuilder), [Best Web3 Website Builder: Top Tools Compared for No-Code DApp Creation](/blog/best-web3-website-builder), [Free Crypto Landing Page Template: Build Web3 Landing Pages Without Coding](/blog/free-crypto-landing-page-template), or try a  to start building your own decentralized site.
+
+## Related reads
+
+- [Best Web3 Website Design: Comparing Top No-Code Web3 Landing Page Builders](/blog/best-web3-website-design)
