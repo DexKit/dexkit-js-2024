@@ -199,3 +199,7 @@ With a visual no-code builder, yes. You can add an NFT store (using the NFT stor
 ### What if I need to support Solana or build a custom protocol?
 
 If your project is Solana-native (e.g., uses Jupiter for swaps) or needs a highly custom protocol, EVM-focused no-code builders may not be suitable. You’ll likely need to use code-based tools or Solana-specific builders for these use cases.
+
+## Related reads
+
+- [No-Code DApp Building: Create Your DApp Easily with DexAppBuilder](/blog/no-code-dapp-building-create-your-dapp-easily-with-dexappbuilder)
