@@ -163,7 +163,7 @@ DAO members vote according to the rules set by their organization. The most comm
 
 Yes. Many DAOs now use no-code or low-code platforms, such as visual proposal builders, to make proposal creation accessible to all members. Tools like Tally or custom DAO dashboards allow you to draft, submit, and monitor proposals without programming knowledge.
 
-[Páginas DAO y UIs de Gobernanza con DexAppBuilder: Construye Interfaces Web3 sin Código](/blog/paginas-dao-y-uis-de-gobernanza-sin-codigo-con-dexappbuilder)
+[DAO Pages: Build Governance UIs Without Code](/blog/dao-pages)
 
 ### What are common challenges in DAO proposal processes?
 

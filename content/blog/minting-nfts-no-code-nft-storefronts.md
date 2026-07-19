@@ -157,4 +157,4 @@ Yes, some no-code platforms support multi-chain minting to reach wider audiences
 
 ---
 
-For a deeper dive into no-code NFT storefronts and how to build your own, see [Tiendas NFT: Crea y Lanza Sin Código con DexAppBuilder](/blog/tiendas-nft-crea-y-lanza-sin-codigo-dexappbuilder) or explore .
+For a deeper dive into no-code NFT storefronts and how to build your own, see [NFT Storefronts: Build and Launch Without Code](/blog/nft-storefronts-build-launch-without-code-dexappbuilder) or [NFT Storefronts](/blog/nft-storefronts).

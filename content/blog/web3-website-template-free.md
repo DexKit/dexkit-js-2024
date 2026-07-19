@@ -158,7 +158,7 @@ Many free templates—especially those from no-code builders—include wallet co
 
 ### Where can I find templates for specific use cases like DeFi or NFT projects?
 
-Look for templates that match your application type. Some no-code platforms and open-source communities offer specialized templates—such as  for DeFi protocols or  for NFT marketplaces and minting sites. These come with pre-integrated features tailored to common workflows in those verticals.
+Look for templates that match your application type. Some no-code platforms and open-source communities offer specialized templates—such as [DeFi DApp Templates](/blog/defi-dapp-templates) for DeFi protocols or [Minting NFTs / No-Code NFT Storefronts](/blog/minting-nfts-no-code-nft-storefronts) for NFT marketplaces and minting sites. These come with pre-integrated features tailored to common workflows in those verticals.
 
 ---
 

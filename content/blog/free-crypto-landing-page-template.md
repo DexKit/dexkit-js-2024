@@ -39,11 +39,11 @@ Token gating is the practice of restricting access to certain content or actions
 
 Effective crypto landing page templates may include:
 
-- **NFT galleries:** Display owned or featured NFTs directly on the landing page.
+- **Featured NFTs:** Display owned or featured NFTs directly on the landing page.
 - **Token gating logic:** Hide or reveal sections based on wallet contents.
 - **Minting widgets:** Let users mint NFTs or buy tokens without leaving the page.
 
-If you’re launching a new NFT collection, you’ll want a template that can showcase your art and connect directly to your smart contract. Some free templates let you embed NFT galleries or add simple token gating, but advanced gating (e.g., by trait, rarity, or multi-token rules) might require a no-code builder or developer help.
+If you’re launching a new NFT collection, you’ll want a template that can showcase your art and connect directly to your smart contract. Some free templates let you embed Featured NFTs sections or add simple token gating, but advanced gating (e.g., by trait, rarity, or multi-token rules) might require a no-code builder or developer help.
 
 ### Responsive Design and Mobile Optimization
 
@@ -53,7 +53,7 @@ When evaluating free crypto landing page templates, always test the demo on your
 
 - Readable text and buttons on small screens
 - Wallet connect flows that work on mobile browsers (e.g., MetaMask Mobile, WalletConnect QR codes)
-- NFT galleries that scale images and layouts gracefully
+- Featured NFTs sections that scale images and layouts gracefully
 
 For example, a crypto startup preparing for a token launch needs a landing page where users can research the project, connect their wallets, and swap tokens—all from their phone. Mobile optimization isn’t optional; it’s table stakes.
 
@@ -73,7 +73,7 @@ If you’re non-technical, look for no-code builders that abstract away the bloc
 There are two main ways to use a free crypto landing page template: no-code builders and custom development.
 
 **No-Code Builders**  
-No-code platforms let you create, customize, and publish crypto landing pages using a visual editor—no programming required. They often include built-in wallet integration, NFT galleries, token gating, and multi-chain support.
+No-code platforms let you create, customize, and publish crypto landing pages using a visual editor—no programming required. They often include built-in wallet integration, Featured NFTs sections, token gating, and multi-chain support.
 
 Benefits:
 - Fast setup; live in hours, not weeks
@@ -104,7 +104,7 @@ For example, a DAO organizer can use a no-code builder to publish a token-gated 
 
 - **Wallet integration:** Supports MetaMask, WalletConnect, and popular wallets out of the box.
 - **Token gating:** Can restrict access based on token or NFT holdings.
-- **NFT gallery:** Displays owned or featured NFTs with metadata.
+- **Featured NFTs section:** Displays owned or featured NFTs with metadata.
 - **Responsive design:** Looks great and works smoothly on all devices.
 - **Custom branding:** Easy to update logo, colors, and content.
 - **Multi-chain support:** Works with Ethereum, Polygon, BNB Chain, and others.
@@ -164,11 +164,11 @@ Common limitations include lack of built-in smart contract integration, limited 
 
 ### What’s the difference between a crypto landing page and a regular landing page?
 
-A crypto landing page includes Web3-specific features—wallet connect, NFT galleries, token purchase widgets, and sometimes token gating. Regular landing pages focus on marketing or lead capture and lack blockchain integration. If your project involves NFTs, DAOs, or tokens, a crypto landing page template is the right fit.
+A crypto landing page includes Web3-specific features—wallet connect, Featured NFTs sections, token purchase widgets, and sometimes token gating. Regular landing pages focus on marketing or lead capture and lack blockchain integration. If your project involves NFTs, DAOs, or tokens, a crypto landing page template is the right fit.
 
 ### Where can I find free crypto landing page templates?
 
-You can find free templates on GitHub, design marketplaces, and no-code platforms. Some no-code builders offer starter templates with wallet integration, NFT galleries, and token gating out of the box. Always review the license and check for active maintenance.
+You can find free templates on GitHub, design marketplaces, and no-code platforms. Some no-code builders offer starter templates with wallet integration, Featured NFTs sections, and token gating out of the box. Always review the license and check for active maintenance.
 
 [Best Web3 Website Builder: Top Tools Compared for No-Code DApp Creation](/blog/best-web3-website-builder)
 [Crypto Landing Page: Key Elements for Effective Web3 Onboarding](/blog/crypto-landing-page)

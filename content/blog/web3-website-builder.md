@@ -31,7 +31,7 @@ If you’re evaluating web3 website builders, there are several must-have featur
 
 A strong web3 website builder should offer native wallet connection blocks or components. For example, you might want users to log in, mint an NFT, or view token-gated content. Without wallet integration, your site is just a regular web2 site.
 
-Some platforms only offer basic wallet connect widgets that require manual coding, while others provide visual wallet integration that you can add with a few clicks. If you’re new to blockchain, avoid tools that require you to write or modify JavaScript for wallet features.
+Some platforms only offer basic wallet connect libraries that require manual coding, while others provide a visual Wallet section that you can add with a few clicks. If you’re new to blockchain, avoid tools that require you to write or modify JavaScript for wallet features.
 
 **Trade-off:**  
 The simpler the integration, the less custom logic you can add. If you need highly custom authentication flows (like multi-factor wallet auth or custom session management), you may need a developer.
@@ -155,7 +155,7 @@ Absolutely. Many no-code web3 website builders now allow you to visually set up 
 
 ### Where can I learn more about designing Web3 landing pages or token launches?
 
-Explore our guides on , , and  for step-by-step walkthroughs, design tips, and real examples.
+Explore our guides on [Best Web3 Website Builder](/blog/best-web3-website-builder), [Free Crypto Landing Page Template](/blog/free-crypto-landing-page-template), and [Web3 Website Development](/blog/web3-website-development) for step-by-step walkthroughs, design tips, and real examples.
 
 ---
 

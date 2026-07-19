@@ -87,11 +87,11 @@ WordPress remains the world’s most popular website builder for blogs, marketin
 **Best for:** Content-driven sites, blogs, or marketing pages where Web3 features are secondary or handled via plugins.  
 **Limitations:** Not suitable for projects needing direct wallet, contract, or blockchain integration.
 
-### Visual No-Code End-to-End Web3 DApp Builders
+### DexAppBuilder: Visual No-Code End-to-End Web3 DApps
 
-Some visual no-code builders are built for non-developers and technical teams who want to launch real Web3 DApps—wallet integration, smart contracts, NFT stores, swaps—without writing Solidity or React code. Using a visual editor, you can add Wallet sections, contract deployment sections, token gating, and more. Multi-chain deployment (Ethereum, Polygon, Base, and other EVM chains) is often handled natively. Some platforms deploy Thirdweb contracts visually, so you get access to a wide contract library without coding.
+DexAppBuilder is built for non-developers and technical teams who want to launch real Web3 DApps—wallet integration, smart contracts, NFT stores, swaps—without writing Solidity or React code. Using a visual editor, you can add Wallet sections, contract deployment sections, token gating, and more. Multi-chain deployment (Ethereum, Polygon, Base, and other EVM chains) is often handled natively. It can deploy Thirdweb contracts visually via DexContracts, so you get access to a wide contract library without coding.
 
-For example, a marketing team could use a visual no-code builder to launch a Web3 landing page on Polygon with wallet login, token-gated content, and an NFT store—without any developer involvement.
+For example, a marketing team could launch a Web3 landing page on Polygon with wallet login, token-gated content, and an NFT store—without any developer involvement.
 
 **Best for:** Founders, marketers, and teams who want to build and launch end-to-end Web3 DApps visually, not just static sites.  
 **Limitations:** Not ideal for pure blogs or content-only projects; currently EVM chains only (no Solana).

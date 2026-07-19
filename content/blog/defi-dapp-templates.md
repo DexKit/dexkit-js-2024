@@ -93,8 +93,8 @@ To provide a clear perspective, here’s how different approaches compare for bu
 |------------------|----------------------------------------------|-----------------|--------------|-------------|---------------------------------------------------------|
 | Custom Code      | Teams with blockchain devs, custom protocols | Months          | Unlimited    | High        | Expensive, secure if done right, but slow and complex   |
 | API-Based (e.g., Moralis) | Projects needing data, analytics    | Weeks           | Medium       | Medium      | Easier than custom, but UI and contracts still needed   |
-| No-Code Templates (e.g., Thirdweb Embed) | Non-devs, fast MVPs, communities | Days            | High (within template limits) | Low         | Fastest, but limited to template features; less control |
-| Thirdweb SDK     | Devs wanting contract templates + widgets    | Days–weeks      | High         | Medium      | Flexible, but requires devs; some visual tools can deploy Thirdweb contracts |
+| No-Code Templates (e.g., DexAppBuilder) | Non-devs, fast MVPs, communities | Days            | High (within template limits) | Low         | Fastest, but limited to template features; less control |
+| Thirdweb SDK     | Devs wanting contract templates + widgets    | Days–weeks      | High         | Medium      | Flexible, but requires devs; DexAppBuilder can deploy Thirdweb contracts via DexContracts |
 
 No-code tools stand out for full no-code, end-to-end DApp building—including wallet integration, DeFi smart contracts, and multi-chain deployment—without writing Solidity or connecting APIs. However, if you need a marketing landing page with no blockchain features, or want to build an enterprise-grade protocol with custom on-chain logic, fully custom code or other approaches may be better.
 
@@ -191,7 +191,7 @@ Yes. No-code tools enable you to visually create, configure, and deploy a DeFi D
 
 ---
 
-Want to explore more options? Check out our guides on [Web3 DApp Templates](/blog/web3-dapp-templates-dexappbuilder), , , and  for deeper dives into each template type.
+Want to explore more options? Check out our guides on [Web3 DApp Templates](/blog/web3-dapp-templates-dexappbuilder), [Web3 Website Template Free](/blog/web3-website-template-free), and [How to Build a DApp](/blog/how-to-build-a-dapp) for deeper dives into each template type.
 
 ## Related reads
 

@@ -155,7 +155,7 @@ To optimize conversions, use clear and visible calls to action, enable fast wall
 
 ---
 
-Want to learn more about building crypto and blockchain landing pages? Explore our guides on [Web3 Landing Pages](/blog/web3-landing-pages-made-easy-dexappbuilder), [Páginas de Aterragem Web3 Facilitadas com DexAppBuilder](/blog/paginas-de-aterragem-web3-facilitadas-com-dexappbuilder), , and .
+Want to learn more about building crypto and blockchain landing pages? Explore our guides on [Web3 Landing Pages](/blog/web3-landing-pages-made-easy-dexappbuilder), [Web3 Website Builder](/blog/web3-website-builder), and [Free Crypto Landing Page Template](/blog/free-crypto-landing-page-template).
 
 ## Related reads
 

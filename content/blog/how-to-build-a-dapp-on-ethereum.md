@@ -102,7 +102,7 @@ No-code DApp builders come with drag-and-drop editors for designing your app’s
 **Steps to design your UI:**
 
 - **Select a template**: Many platforms offer templates for common DApp types (marketplace, swap, DAO dashboard).
-- **Drag and drop elements**: Add buttons, forms, NFT galleries, token lists, and wallet connect widgets.
+- **Drag and drop elements**: Add buttons, forms, Featured NFTs or Collection List sections, token lists, and a Wallet section.
 - **Customize branding**: Upload your logo, set colors, and edit text to match your project.
 - **Preview and test**: Use the builder’s preview mode to see how your DApp looks and works.
 
@@ -206,7 +206,7 @@ Yes. No-code platforms allow you to create end-to-end Ethereum DApps without wri
 
 ### What are the benefits of using no-code tools for Ethereum DApps?
 
-No-code tools dramatically reduce the time and technical barrier to building blockchain apps. You can prototype, test, and launch real DApps quickly — without needing to learn Solidity or JavaScript. This is ideal for community leaders, marketers, and entrepreneurs who want to experiment or launch projects without hiring developers. See also: [No Code DApp Builder Tutorial: Create Token Swap DApps Fast with DexAppBuilder](/blog/no-code-dapp-builder-tutorial-token-swaps-defi).
+No-code tools dramatically reduce the time and technical barrier to building blockchain apps. You can prototype, test, and launch real DApps quickly — without needing to learn Solidity or JavaScript. This is ideal for community leaders, marketers, and entrepreneurs who want to experiment or launch projects without hiring developers. See also: [No Code DApp Builder Tutorial: Create Token Swap DApps Fast](/blog/no-code-dapp-builder-tutorial-token-swaps-defi).
 
 ### How do no-code builders handle smart contract deployment?
 

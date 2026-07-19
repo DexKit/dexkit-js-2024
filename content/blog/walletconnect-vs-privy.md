@@ -111,9 +111,9 @@ A developer building a multi-vendor NFT marketplace wants to support MetaMask, W
 #### For example,  
 A no-code creator wants to build a DApp with wallet connection, an NFT store, and token-gated content. Privy and Dynamic are easy for auth, but a visual tool for the full DApp is needed if they want to avoid coding.
 
-[Wallet Connect and Web3 Auth](/blog/wallet-connect-autenticacion-web3-simplificados-dexappbuilder)
-[Páginas de aterrizaje Web3 fáciles con DexAppBuilder](/blog/paginas-de-aterrizaje-web3-faciles-con-dexappbuilder)
-[Plantillas de DApps Web3 para Lanzar Más Rápido con DexAppBuilder](/blog/plantillas-dapps-web3-lanzar-rapido-dexappbuilder)
+[Wallet Connect and Web3 Auth](/blog/wallet-connect-web3-auth-dexappbuilder)
+[Web3 Landing Pages](/blog/web3-landing-pages-made-easy-dexappbuilder)
+[Web3 DApp Templates](/blog/web3-dapp-templates-dexappbuilder)
 
 
 

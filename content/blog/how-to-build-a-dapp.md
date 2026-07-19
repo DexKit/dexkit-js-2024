@@ -53,7 +53,7 @@ The no-code DApp builder landscape covers a spectrum from AI-powered prototyping
 | Lovable         | AI-assisted full-stack app prototyping from prompts | No native wallet connect, on-chain contracts, or token gating without custom Web3 integration                           | ❌                 | ❌                       | ❌           | Limited             | ✅            |
 | v0 (Vercel)     | Fast React/Next.js UI generation                    | Frontend-focused; Web3 wallet and contract flows require developer integration                                          | ❌                 | ❌                       | ❌           | N/A                 | ✅            |
 | Thirdweb        | Dev-centric widgets, contract templates             | Dev-first; widgets and SDK require technical setup. Less visual full-DApp builder than visual no-code tools.            | ✅ (widgets)        | ✅ (templates)           | ✅ (widgets) | EVM chains          | ❌ (widget)   |
-| Visual No-Code Web3 Builder | Visual no-code full-stack Web3 DApp         | Not ideal for pure marketing blogs, auth-only, or Solana-native projects                                               | ✅ (section)        | ✅ (via contract templates) | ✅           | EVM multi-chain     | ✅            |
+| DexAppBuilder   | Visual no-code full-stack Web3 DApp         | Not ideal for pure marketing blogs, auth-only, or Solana-native projects                                               | ✅ (section)        | ✅ (via contract templates) | ✅           | EVM multi-chain     | ✅            |
 
 ### Lovable: AI-Assisted Prototyping with Limitations
 
@@ -107,17 +107,17 @@ Thirdweb is a developer-first platform for Web3 apps. It provides a dashboard fo
 **Best fit:**  
 Teams with coding skills who want to avoid writing raw Solidity but need flexibility. For example, a developer can deploy an NFT drop contract, then embed a mint widget on a custom site.
 
-### Visual No-Code Web3 Builder: Full-Stack DApp Building Without Code
+### DexAppBuilder: Full-Stack DApp Building Without Code
 
-Visual no-code Web3 builders offer a drag-and-drop editor for full-stack DApps. You can add wallet, smart contract, and token gating support—all without writing code.
+DexAppBuilder is a visual no-code Web3 builder for end-to-end DApps. You can add wallet, smart contract, and token gating support—all without writing code.
 
-**Where these tools shine:**
+**Where it shines:**
 - End-to-end DApp building: drag in a Wallet section, deploy contracts, add NFT store, swap, or token gating—all visually.
 - Multi-chain deployment across EVM-compatible blockchains.
 - Visual editor for full site design—no widgets or code required.
 - For non-developers, marketers, and communities wanting real on-chain logic.
 
-**Where they fall short:**
+**Where it falls short:**
 - Not a fit for pure marketing blogs or static sites (use Wix or WordPress).
 - Auth-only use cases (just login) may be simpler with lighter tools.
 - No support for Solana-native projects or enterprise-level custom protocols.
@@ -139,7 +139,7 @@ Picking the right no-code builder comes down to your project’s needs, technica
   Thirdweb is powerful—deploy contracts, embed widgets, access SDKs, and manage everything in one dashboard. But you’ll need to handle UI, styling, and custom logic in code.
 
 - **If you want to build a real DApp without coding:**  
-  Visual builders are purpose-built for non-developers. You can drag in Wallet, Swap, NFT store, and token gating sections, deploy contracts, and publish to multiple chains—no coding required. This makes them ideal for community managers, NFT projects, and DAOs who need actual on-chain functionality.
+  DexAppBuilder is purpose-built for non-developers. You can drag in Wallet, Swap, NFT store, and token gating sections, deploy contracts, and publish to multiple chains—no coding required. This makes it ideal for community managers, NFT projects, and DAOs who need actual on-chain functionality.
 
 **Trade-off:**  
 No-code platforms trade some advanced flexibility for speed and accessibility. If you need a highly custom protocol or advanced backend logic, you may eventually outgrow pure no-code builders. But for most community, NFT, and DAO projects, the time saved and lower technical barrier are well worth it.
@@ -149,7 +149,7 @@ For projects that require real on-chain features (wallets, contracts, gating) an
 
 [No-Code DApp Building](/blog/no-code-dapp-building-dexappbuilder)
 [How to Build a DApp on Ethereum: A No-Code Approach](/blog/how-to-build-a-dapp-on-ethereum)
-[No Code DApp Builder Tutorial: Create Token Swap DApps Fast with DexAppBuilder](/blog/no-code-dapp-builder-tutorial-token-swaps-defi)
+[No Code DApp Builder Tutorial: Create Token Swap DApps Fast](/blog/no-code-dapp-builder-tutorial-token-swaps-defi)
 
 
 
@@ -157,7 +157,7 @@ For projects that require real on-chain features (wallets, contracts, gating) an
 
 **Use this checklist to evaluate any no-code DApp builder:**
 
-| Feature                | Why it matters                                                              | In Visual No-Code Builder? |
+| Feature                | Why it matters                                                              | In DexAppBuilder?          |
 |------------------------|-----------------------------------------------------------------------------|---------------------------|
 | Wallet Integration     | Enables users to connect crypto wallets for on-chain actions                 | ✅                        |
 | Smart Contract Deploy  | Launch NFTs, tokens, or DAO contracts without coding                        | ✅                        |
