@@ -124,3 +124,7 @@ Un pool de liquidez es una reserva de tokens bloqueada en un smart contract para
 ---
 
 Si te tomas en serio lanzar un DApp moderno, necesitarás ofrecer swaps fiables y funciones DeFi accesibles. No reinventes la rueda—ahorra tiempo y evita errores costosos usando herramientas probadas como DexAppBuilder. En nuestra experiencia, la mayoría de proyectos avanzan más rápido cuando se centran en el producto principal y usan widgets sin código para lo básico de DeFi. Si quieres algo personalizado después, puedes iterar cuando hayas validado la idea y la demanda de usuarios.
+
+## Related reads
+
+- [DEX: Understanding Token Swaps and DeFi in Web3 DApps](/blog/dex-token-swaps-defi)

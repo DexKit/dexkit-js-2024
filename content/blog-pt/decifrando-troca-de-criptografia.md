@@ -85,3 +85,7 @@ Há muitas maneiras de realizar swaps—CEXs, DEXs, contratos inteligentes P2P e
 DexSwap, oferecido pela plataforma DexAppBuilder, é um exemplo marcante de agregador DEX moderno. **Ela agrega liquidez de múltiplas fontes e oferece um conjunto rico de recursos para os usuários.** Com o DexAppBuilder, qualquer pessoa pode criar sua própria plataforma de swap personalizada inspirada na DexSwap e integrá-la a uma estratégia Web3 mais ampla que inclua [DApps](https://dexkit.com/pt/blog/o-poder-dos-aplicativos-descentralizados-dapps) e [sites Web3](https://dexkit.com/pt/blog/desbloquear-o-poder-dos-sites-criptograficos).
 
 Interessado em explorar o trading descentralizado de criptomoedas? Comece desenhando sua própria interface ou agregador de swaps hoje mesmo—**o DexAppBuilder pode ajudar você a lançar uma experiência de swap Web3 pronta para produção em poucos minutos.**
+
+## Related reads
+
+- [DEX: Understanding Token Swaps and DeFi in Web3 DApps](/blog/dex-token-swaps-defi)

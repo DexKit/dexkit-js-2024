@@ -35,3 +35,7 @@ Da mesma forma, o DexKit adicionou muitas novas personalizações para os gatinh
 Quanto mais $KIT você economizar, mais personalizações você desbloqueará.
 
 Mantenha-se atualizado com as inovações do DexKit e seja um dos primeiros a adotar seus emocionantes desenvolvimentos.
+
+## Related reads
+
+- [DEX: Understanding Token Swaps and DeFi in Web3 DApps](/blog/dex-token-swaps-defi)
