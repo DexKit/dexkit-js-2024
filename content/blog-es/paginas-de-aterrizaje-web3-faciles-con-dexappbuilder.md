@@ -160,3 +160,4 @@ Después de construir y lanzar múltiples productos Web3, he aprendido que el ma
 - [Plantillas de DApps Web3 para Lanzar Más Rápido con DexAppBuilder](/blog/plantillas-dapps-web3-lanzar-rapido-dexappbuilder)
 - [Tutorial para Crear DApps Sin Código: Lanza Tu App Web3 Rápidamente con DexAppBuilder](/blog/tutorial-crear-dapps-sin-codigo-lanza-app-web3-rapido-dexappbuilder)
 - [WalletConnect vs Privy: Comparing Web3 Wallet Authentication Solutions](/blog/walletconnect-vs-privy)
+- [Coin League: ¡Gana monedas estables y gana a lo grande en juegos de jackpot mensuales con DexKit!](/blog/liga-de-monedas-gane-monedas-estables-y-gane-a-lo-grande-en-juegos-de-jackpot-mensuales-con-dexkit)
