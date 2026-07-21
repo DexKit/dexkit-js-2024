@@ -139,3 +139,7 @@ Construir DApps Web3 multi-chain ya no es solo para devs experimentados. Con her
 Por ejemplo, si eres artista y quieres mostrar NFTs a fans en Polygon y Base, no necesitas aprender Solidity (el lenguaje principal de smart contracts) ni mantener codebases separados. Selecciona tus chains, configura conectores de billetera y publica. Llegas a más usuarios, gastas menos tiempo depurando y recibes feedback más rápido—que, en nuestra experiencia, es la mejor forma de construir algo que la gente realmente quiere.
 
 Para saber más, explora nuestro [tutorial de crear DApps sin código](https://dexkit.com/es/blog/tutorial-crear-dapps-sin-codigo-lanza-app-web3-rapido-dexappbuilder) o prueba construir tu propia [app on-chain](https://dexkit.com/es/blog/creacion-de-aplicaciones-en-cadena-simple-con-dexappbuilder) con DexAppBuilder.
+
+## Related reads
+
+- [Chain: Understanding Blockchain Networks and Their Integrations](/blog/chain-integrations-blockchain-networks)
