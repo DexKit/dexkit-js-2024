@@ -67,7 +67,7 @@ Existem várias formas de criar uma vitrine NFT, cada uma com vantagens e desvan
 |---|---|---|---|---|
 | **Plataformas Web2 de E-commerce com Extensões NFT** | Negócios já usando Shopify, WooCommerce, etc. | UX familiar, pagamentos, plugins; fácil adicionar NFTs como produtos digitais | Recursos NFT dependem de plugins; propriedade on-chain e fluxos de carteira não nativos; token gating limitado | Shopify + apps NFT, plugins WooCommerce NFT |
 | **SDKs e APIs para Desenvolvedores** | Times com desenvolvedores; necessidade de fluxos customizados | Flexibilidade máxima; integra NFTs em qualquer app/site; controle profundo de contratos | Requer conhecimento em blockchain e programação; ciclos longos; UI a montar | Thirdweb (widgets, SDK), Moralis (API, backend) |
-| **Construtores Visuais No-Code Puros** | Criadores, times, marcas sem devs; querem lançar rápido | Edição drag-and-drop; lógica de carteira e NFT embutida; deploy multi-chain; token gating fácil | Controle menos granular que código customizado; casos avançados podem precisar de devs | DexAppBuilder, NiftyKit, Mintlify (opções no-code) |
+| **DexAppBuilder** | Criadores, times, marcas sem devs; querem lançar rápido | Edição drag-and-drop; lógica de carteira e NFT embutida; deploy multi-chain; token gating fácil | Controle menos granular que código customizado; casos avançados podem precisar de devs | DexAppBuilder |
 
 ### Plataformas Web2 de E-commerce com Extensões NFT
 
@@ -99,11 +99,9 @@ Essa abordagem é para times com recursos de programação. Plataformas como Thi
 - Ciclos de desenvolvimento e testes mais longos.
 - UI/UX é sua responsabilidade; não é turnkey.
 
-Nota: Alguns construtores no-code na verdade fazem deploy de contratos Thirdweb via seus próprios módulos, combinando construção visual com contratos testados.
+### DexAppBuilder: Vitrines NFT Sem Código
 
-### Construtores Visuais No-Code Puros
-
-Construtores no-code para vitrines NFT são feitos para não desenvolvedores. Você usa um editor visual para montar a vitrine, conectar carteira e blockchain, e publicar — tudo sem escrever código.
+O DexAppBuilder é feito para não desenvolvedores. Você usa um editor visual para montar a vitrine, conectar carteira e blockchain, e publicar — tudo sem escrever código. Pode fazer deploy de contratos Thirdweb via DexContracts, combinando construção visual com contratos testados.
 
 **Prós:**
 - Caminho mais rápido da ideia ao lançamento.
@@ -115,7 +113,7 @@ Construtores no-code para vitrines NFT são feitos para não desenvolvedores. Vo
 - Algumas plataformas limitam personalização profunda de branding ou UX.
 - Performance ou escalabilidade para drops massivos podem exigir upgrades.
 
-Por exemplo, um pequeno empresário pode montar uma loja NFT para testar colecionáveis digitais em um dia, usando um construtor no-code. Se o projeto crescer, pode migrar para solução customizada.
+Por exemplo, um pequeno empresário pode montar uma loja NFT para testar colecionáveis digitais em um dia com o DexAppBuilder. Se o projeto crescer, pode migrar para solução customizada.
 
 ## Checklist para Lançar Sua Vitrine NFT Sem Código
 

@@ -87,11 +87,11 @@ WordPress continua sendo o construtor mais popular para blogs, páginas de marke
 **Ideal para:** Sites focados em conteúdo, blogs ou marketing onde Web3 é secundário ou tratado via plugins.  
 **Limitações:** Não indicado para projetos que precisam de integração direta com carteira, contratos ou blockchain.
 
-### Construtores Visuais No-Code para DApps Web3 Completos
+### DexAppBuilder: DApps Web3 Completos Sem Código
 
-Alguns construtores visuais no-code são feitos para não desenvolvedores e equipes técnicas que querem lançar DApps Web3 reais — integração de carteira, contratos inteligentes, lojas NFT, swaps — sem escrever Solidity ou React. Com editor visual, você pode adicionar seções de carteira, implantação de contratos, token gating e mais. Implantação multi-chain (Ethereum, Polygon, Base e outras chains EVM) é frequentemente nativa. Algumas plataformas implantam contratos Thirdweb visualmente, dando acesso a uma biblioteca ampla sem codificação.
+O DexAppBuilder é feito para não desenvolvedores e equipes técnicas que querem lançar DApps Web3 reais — integração de carteira, contratos inteligentes, lojas NFT, swaps — sem escrever Solidity ou React. Com editor visual, você pode adicionar seções de carteira, implantação de contratos, token gating e mais. Implantação multi-chain (Ethereum, Polygon, Base e outras chains EVM) é frequentemente nativa. O DexAppBuilder implanta contratos Thirdweb visualmente via DexContracts, dando acesso a uma biblioteca ampla sem codificação.
 
-Por exemplo, uma equipe de marketing pode usar um construtor visual no-code para lançar uma landing page Web3 na Polygon com login de carteira, conteúdo token-gated e loja NFT — sem envolvimento de desenvolvedor.
+Por exemplo, uma equipe de marketing pode usar o DexAppBuilder para lançar uma landing page Web3 na Polygon com login de carteira, conteúdo token-gated e loja NFT — sem envolvimento de desenvolvedor.
 
 **Ideal para:** Fundadores, marketeiros e equipes que querem construir e lançar DApps Web3 completos visualmente, não só sites estáticos.  
 **Limitações:** Não ideal para blogs ou projetos só de conteúdo; atualmente só chains EVM (sem Solana).
@@ -107,7 +107,7 @@ Thirdweb oferece widgets embutidos (Connect, Embed, Pay), templates de contratos
 
 Não há resposta única. Veja como pensar na escolha:
 
-- **Quer construir um DApp Web3 completo — carteira, contratos, token gating, loja NFT — sem programar:** uma solução visual no-code madura é ideal para fundadores, marketeiros e equipes não técnicas visando lançamento rápido e suporte multi-chain.
+- **Quer construir um DApp Web3 completo — carteira, contratos, token gating, loja NFT — sem programar:** o DexAppBuilder é ideal para fundadores, marketeiros e equipes não técnicas visando lançamento rápido e suporte multi-chain.
 - **Só precisa de conteúdo e plugins básicos:** WordPress ainda é o melhor para blogs ou marketing, mas não espere integração Web3 profunda.
 - **Está prototipando ou brainstormando:** Lovable é imbatível para protótipos gerados por IA, mas depois precisará adicionar recursos Web3 reais.
 - **É desenvolvedor construindo apps React/Next.js customizados:** v0 (Vercel) e Thirdweb oferecem mais flexibilidade, mas exigem codificação.

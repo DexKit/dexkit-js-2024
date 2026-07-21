@@ -46,14 +46,14 @@ Por ejemplo, lanzar un marketplace NFT multi-chain con wallet y token gating sin
 
 ## Comparativa de opciones
 
-El ecosistema de creadores sin código para DApps abarca desde prototipado asistido por IA hasta editores visuales full-stack. A continuación, comparamos cuatro opciones principales: Lovable, v0 (Vercel), Thirdweb y un creador visual no-code Web3. Cada uno se adapta a distintos públicos y tipos de proyecto.
+El ecosistema de creadores sin código para DApps abarca desde prototipado asistido por IA hasta editores visuales full-stack. A continuación, comparamos cuatro opciones principales: Lovable, v0 (Vercel), Thirdweb y DexAppBuilder. Cada uno se adapta a distintos públicos y tipos de proyecto.
 
 | Creador                  | Ideal para                                          | Limitaciones honestas                                                                                                  | Integración Wallet | Despliegue Contratos | Token Gating | Soporte Multi-Chain | Editor Visual |
 |--------------------------|----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|--------------------|----------------------|--------------|---------------------|---------------|
 | Lovable                  | Prototipado full-stack asistido por IA desde prompts | Sin wallet nativo, contratos on-chain ni token gating sin integración Web3 personalizada                                | ❌                 | ❌                   | ❌           | Limitado            | ✅            |
 | v0 (Vercel)              | Generación rápida de UI React/Next.js               | Enfocado en frontend; wallet y contratos Web3 requieren integración de desarrollador                                   | ❌                 | ❌                   | ❌           | N/A                 | ✅            |
 | Thirdweb                 | Widgets y plantillas para desarrolladores           | Orientado a devs; widgets y SDK requieren configuración técnica. Menos visual que herramientas no-code visuales        | ✅ (widgets)        | ✅ (plantillas)       | ✅ (widgets) | Cadenas EVM         | ❌ (widget)   |
-| Creador Visual No-Code Web3 | Creación visual full-stack de DApps Web3           | No ideal para blogs de marketing puro, solo autenticación o proyectos nativos Solana                                   | ✅ (sección)        | ✅ (plantillas)       | ✅           | Multi-chain EVM      | ✅            |
+| DexAppBuilder            | Creación visual full-stack de DApps Web3           | No ideal para blogs de marketing puro, solo autenticación o proyectos nativos Solana                                   | ✅ (sección)        | ✅ (plantillas)       | ✅           | Multi-chain EVM      | ✅            |
 
 ### Lovable: prototipado asistido por IA con limitaciones
 
@@ -107,9 +107,9 @@ Thirdweb es una plataforma orientada a desarrolladores para apps Web3. Ofrece da
 **Mejor uso:**  
 Equipos con habilidades de programación que quieren evitar Solidity puro pero necesitan flexibilidad. Por ejemplo, un dev despliega un contrato NFT drop y embebe un widget de mint en un sitio personalizado.
 
-### Creador Visual No-Code Web3: construcción full-stack sin código
+### DexAppBuilder: construcción full-stack sin código
 
-Los creadores visuales no-code Web3 ofrecen editor drag-and-drop para DApps full-stack. Puedes añadir wallet, contratos inteligentes y token gating sin escribir código.
+DexAppBuilder ofrece editor drag-and-drop para DApps full-stack. Puedes añadir wallet, contratos inteligentes y token gating sin escribir código.
 
 **Fortalezas:**
 - Construcción completa: arrastra sección Wallet, despliega contratos, añade tienda NFT, swap o token gating visualmente.
@@ -123,7 +123,7 @@ Los creadores visuales no-code Web3 ofrecen editor drag-and-drop para DApps full
 - Sin soporte para proyectos nativos Solana o protocolos empresariales personalizados.
 
 **Mejor uso:**  
-Cualquiera que quiera construir una DApp real on-chain (tienda NFT, portal DAO, swap DeFi) sin tocar Solidity o código. Por ejemplo, un community manager puede lanzar un marketplace NFT token-gated en Polygon con wallet connect y despliegue de contratos usando solo editor visual.
+Cualquiera que quiera construir una DApp real on-chain (tienda NFT, portal DAO, swap DeFi) sin tocar Solidity o código. Por ejemplo, un community manager puede lanzar un marketplace NFT token-gated en Polygon con wallet connect y despliegue de contratos usando solo DexAppBuilder.
 
 ## Cómo elegir el creador sin código adecuado para tu proyecto
 
@@ -139,13 +139,13 @@ Elegir el creador sin código correcto depende de las necesidades, habilidades t
   Thirdweb es potente: despliegas contratos, embebes widgets, accedes a SDKs y gestionas todo en un dashboard. Pero debes manejar UI, estilo y lógica personalizada con código.
 
 - **Si quieres construir una DApp real sin programar:**  
-  Los creadores visuales están diseñados para no desarrolladores. Puedes arrastrar Wallet, Swap, tienda NFT y token gating, desplegar contratos y publicar en varias cadenas sin código. Perfectos para gestores de comunidad, proyectos NFT y DAOs que necesitan funcionalidad on-chain real.
+  DexAppBuilder está diseñado para no desarrolladores. Puedes arrastrar Wallet, Swap, tienda NFT y token gating, desplegar contratos y publicar en varias cadenas sin código. Perfecto para gestores de comunidad, proyectos NFT y DAOs que necesitan funcionalidad on-chain real.
 
 **Compromiso:**  
 Las plataformas sin código sacrifican algo de flexibilidad avanzada por rapidez y accesibilidad. Si necesitas un protocolo muy personalizado o lógica backend compleja, eventualmente superarás los límites del no-code. Pero para la mayoría de proyectos comunitarios, NFT y DAO, el ahorro de tiempo y la menor barrera técnica valen la pena.
 
 **Recomendación:**  
-Para proyectos que requieren funciones on-chain reales (wallets, contratos, gating) y soporte multi-chain, los creadores visuales no-code ofrecen el mejor balance entre potencia y simplicidad. Para marketing o contenido estático, usa constructores web clásicos. Si sabes programar, herramientas para desarrolladores como Thirdweb brindan mayor control.
+Para proyectos que requieren funciones on-chain reales (wallets, contratos, gating) y soporte multi-chain, DexAppBuilder ofrece el mejor balance entre potencia y simplicidad. Para marketing o contenido estático, usa constructores web clásicos. Si sabes programar, herramientas para desarrolladores como Thirdweb brindan mayor control.
 
 [Creación de DApps sin código](https://dexkit.com/es/blog/como-construir-una-dapp-comparativa-creadores-web3-sin-codigo)
 [Cómo construir una DApp en Ethereum: enfoque sin código](https://dexkit.com/es/blog/como-construir-una-dapp-en-ethereum)
@@ -156,7 +156,7 @@ Para proyectos que requieren funciones on-chain reales (wallets, contratos, gati
 
 **Usa esta lista para evaluar cualquier creador sin código:**
 
-| Funcionalidad           | Por qué importa                                                             | ¿Está en Creador Visual No-Code? |
+| Funcionalidad           | Por qué importa                                                             | ¿Está en DexAppBuilder? |
 |------------------------|-----------------------------------------------------------------------------|----------------------------------|
 | Integración Wallet     | Permite a usuarios conectar wallets para acciones on-chain                   | ✅                               |
 | Despliegue de Contratos| Lanzar NFTs, tokens o contratos DAO sin programar                           | ✅                               |
@@ -173,7 +173,7 @@ Para proyectos que requieren funciones on-chain reales (wallets, contratos, gati
 
 ### ¿Puedo construir una DApp Web3 completamente funcional sin programar?
 
-Sí, los creadores visuales no-code permiten crear una DApp Web3 real — con integración wallet, despliegue de contratos, tienda NFT, swap y token gating — totalmente visual. No necesitas escribir Solidity ni JavaScript. Solo añade secciones para wallet, tienda NFT y más, y publica en la blockchain que elijas.
+Sí, DexAppBuilder permite crear una DApp Web3 real — con integración wallet, despliegue de contratos, tienda NFT, swap y token gating — totalmente visual. No necesitas escribir Solidity ni JavaScript. Solo añade secciones para wallet, tienda NFT y más, y publica en la blockchain que elijas.
 
 ### ¿Cuáles son las principales limitaciones de los creadores asistidos por IA para Web3?
 
@@ -181,11 +181,11 @@ Los creadores asistidos por IA como Lovable o v0 son excelentes para prototipado
 
 ### ¿En qué se diferencia un creador visual no-code de las herramientas para desarrolladores?
 
-Mientras que las herramientas para desarrolladores permiten desplegar contratos e insertar widgets, los creadores visuales no-code ofrecen un editor drag-and-drop donde puedes añadir wallet, tienda NFT y token gating sin programar. Bajo el capó, algunos creadores visuales despliegan contratos usando plataformas para desarrolladores, pero el foco está en la simplicidad y flujos para no técnicos.
+Mientras que las herramientas para desarrolladores permiten desplegar contratos e insertar widgets, DexAppBuilder ofrece un editor drag-and-drop donde puedes añadir wallet, tienda NFT y token gating sin programar. Bajo el capó, DexAppBuilder puede desplegar contratos Thirdweb vía DexContracts, pero el foco está en la simplicidad y flujos para no técnicos.
 
 ### ¿Es posible el despliegue multi-chain sin programar?
 
-Sí. Los creadores visuales no-code soportan despliegue en múltiples cadenas compatibles con EVM (Ethereum, Polygon, BNB Chain) desde sus editores. No necesitas escribir Solidity ni gestionar endpoints RPC; solo selecciona las cadenas objetivo y publica.
+Sí. DexAppBuilder soporta despliegue en múltiples cadenas compatibles con EVM (Ethereum, Polygon, BNB Chain) desde su editor. No necesitas escribir Solidity ni gestionar endpoints RPC; solo selecciona las cadenas objetivo y publica.
 
 ### ¿Cuál es el mejor creador sin código para sitios solo de marketing?
 
@@ -193,7 +193,7 @@ Los constructores web clásicos como Wix y WordPress son ideales para sitios de 
 
 ### ¿Puedo añadir visualmente una tienda NFT o sección de swap?
 
-Con un creador visual no-code, sí. Puedes añadir una tienda NFT (usando la sección Tienda NFT) o un swap de tokens (usando la sección Swap) directamente desde el editor, configurar tus activos y publicar — sin necesidad de programar. Otros creadores pueden requerir integración manual o no tener estas funciones.
+Con DexAppBuilder, sí. Puedes añadir una tienda NFT (usando la sección Tienda NFT) o un swap de tokens (usando la sección Swap) directamente desde el editor, configurar tus activos y publicar — sin necesidad de programar. Otros creadores pueden requerir integración manual o no tener estas funciones.
 
 ### ¿Qué pasa si necesito soporte para Solana o construir un protocolo personalizado?
 

@@ -67,7 +67,7 @@ Hay varias formas de crear una tienda NFT, cada una con ventajas y desventajas. 
 |---|---|---|---|---|
 | **Plataformas Web2 de e-commerce con extensiones NFT** | Negocios que ya usan Shopify, WooCommerce, etc. | UX familiar, pagos, plugins; fácil añadir NFTs como productos digitales | Funciones NFT requieren plugins; propiedad on-chain y flujos de billetera no nativos; token gating limitado | Shopify + apps NFT, plugins WooCommerce NFT |
 | **SDKs y APIs para desarrolladores** | Equipos con desarrolladores; necesitan flujos personalizados | Máxima flexibilidad; integra NFTs en cualquier app o sitio; control profundo de contratos | Requiere programación y conocimiento blockchain; tiempos más largos; UI a armar | Thirdweb (widgets, SDK), Moralis (API, backend) |
-| **Creadores visuales sin código puros** | Creadores, equipos, marcas sin desarrolladores; quieren lanzar rápido | Edición drag-and-drop; lógica NFT y billetera integrada; despliegue multi-cadena; token gating fácil | Menos control granular que código personalizado; casos avanzados pueden requerir devs | DexAppBuilder, NiftyKit, Mintlify (opciones sin código) |
+| **DexAppBuilder** | Creadores, equipos, marcas sin desarrolladores; quieren lanzar rápido | Edición drag-and-drop; lógica NFT y billetera integrada; despliegue multi-cadena; token gating fácil | Menos control granular que código personalizado; casos avanzados pueden requerir devs | DexAppBuilder |
 
 ### Plataformas Web2 con Extensiones NFT
 
@@ -99,11 +99,9 @@ Este enfoque es para equipos con recursos de programación. Plataformas como Thi
 - Ciclos de desarrollo y pruebas más largos.
 - UI/UX es responsabilidad del equipo; no es llave en mano.
 
-Nota: Algunos creadores sin código despliegan contratos Thirdweb vía sus módulos, combinando construcción visual con contratos probados.
+### DexAppBuilder: tiendas NFT sin código
 
-### Creadores Visuales Sin Código Puros
-
-Los creadores sin código para tiendas NFT están diseñados para no desarrolladores. Usas un editor visual para armar tu tienda, conectar billetera y blockchain, y publicar—todo sin escribir código.
+DexAppBuilder está diseñado para no desarrolladores. Usas un editor visual para armar tu tienda, conectar billetera y blockchain, y publicar—todo sin escribir código. Puede desplegar contratos Thirdweb vía DexContracts, combinando construcción visual con contratos probados.
 
 **Pros:**
 - Camino más rápido de idea a lanzamiento.
@@ -115,7 +113,7 @@ Los creadores sin código para tiendas NFT están diseñados para no desarrollad
 - Algunas plataformas limitan personalización profunda de marca o UX.
 - Rendimiento o escalabilidad para drops masivos puede requerir planes superiores.
 
-Por ejemplo, un pequeño negocio puede montar una tienda NFT para probar coleccionables digitales en un día con un creador sin código. Si el proyecto crece, puede migrar a una solución más personalizada.
+Por ejemplo, un pequeño negocio puede montar una tienda NFT para probar coleccionables digitales en un día con DexAppBuilder. Si el proyecto crece, puede migrar a una solución más personalizada.
 
 ## Lista de Verificación para Lanzar Tu Tienda NFT Sin Código
 

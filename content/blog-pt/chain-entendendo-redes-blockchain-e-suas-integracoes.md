@@ -103,7 +103,7 @@ Ao pensar em como construir um DApp multi-chain, normalmente escolhe-se entre tr
 |-----------------------|---------------------------------------------|---------------------------------------|-------------------------------------------|
 | Programação Tradicional| Desenvolvedores experientes, protocolos customizados | Flexibilidade máxima, controle total  | Ciclos longos, custo alto, requer Solidity e frontend |
 | Plataformas API-First  | Equipes que precisam de dados backend, analytics | Integração rápida com fontes de dados | Menos controle sobre UI, pode exigir montagem de UI, backend pesado |
-| Construtores Visuais No-Code | Não desenvolvedores, equipes pequenas, prototipagem rápida | Lançamento mais rápido, edição visual, multi-chain por padrão | Menos customizável para casos complexos, não ideal para lógica empresarial |
+| DexAppBuilder (no-code) | Não desenvolvedores, equipes pequenas, prototipagem rápida | Lançamento mais rápido, edição visual, multi-chain por padrão | Menos customizável para casos complexos, não ideal para lógica empresarial |
 
 **Compromisso:** Se estiver construindo protocolo altamente customizado ou precisar controle total, programação tradicional pode ser o único caminho. Mas para a maioria dos projetos novos — especialmente gating de conteúdo, lojas de NFT e swaps simples — ferramentas no-code reduzem drasticamente complexidade e tempo.
 

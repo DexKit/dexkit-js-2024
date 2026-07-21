@@ -67,7 +67,7 @@ There are several ways to create an NFT storefront, each with strengths and trad
 |---|---|---|---|---|
 | **Web2 E-commerce Platforms with NFT Extensions** | Businesses already using Shopify, WooCommerce, etc. | Familiar UX, payments, plugins; easy to add NFTs as digital products | NFT features need plugins; on-chain ownership and wallet flows are not native; limited token gating | Shopify + NFT apps, WooCommerce NFT plugins |
 | **Developer-First SDKs and APIs** | Teams with developers; need for custom flows | Maximum flexibility; integrate NFTs into any app or site; deep contract control | Requires coding and blockchain knowledge; longer timelines; UI assembly needed | Thirdweb (embeddable widgets, SDK), Moralis (API, backend) |
-| **Pure No-Code Visual Builders** | Creators, teams, brands with no developers; want to launch fast | Drag-and-drop editing; wallet and NFT logic built-in; multi-chain deploy; easy token gating | Less granular control than custom code; advanced use cases may need dev help | DexAppBuilder, NiftyKit, Mintlify (no-code options) |
+| **DexAppBuilder** | Creators, teams, brands with no developers; want to launch fast | Drag-and-drop editing; wallet and NFT logic built-in; multi-chain deploy; easy token gating | Less granular control than custom code; advanced use cases may need dev help | DexAppBuilder |
 
 ### Web2 E-commerce Platforms with NFT Extensions
 
@@ -99,11 +99,9 @@ This approach is for teams with coding resources. Platforms like Thirdweb and Mo
 - Longer build and QA cycles.
 - UI/UX is your responsibility; not turnkey.
 
-Note: Some no-code builders actually deploy Thirdweb contracts via their own modules, so you get the best of both worlds—visual building with proven smart contracts.
+### DexAppBuilder: No-Code NFT Storefronts
 
-### Pure No-Code Visual Builders
-
-No-code NFT storefront builders are designed for non-developers. You use a visual editor to assemble your storefront, connect wallet and blockchain features, and publish—all without writing code.
+DexAppBuilder is designed for non-developers. You use a visual editor to assemble your storefront, connect wallet and blockchain features, and publish—all without writing code. It can deploy Thirdweb contracts via DexContracts, so you get visual building with proven smart contracts.
 
 **Pros:**
 - Fastest path from idea to launch.
@@ -115,7 +113,7 @@ No-code NFT storefront builders are designed for non-developers. You use a visua
 - Some platforms may limit deep branding or UX tweaks.
 - Performance or scalability for massive drops may require upgrades.
 
-For example, a small business owner can set up an NFT shop to test digital collectibles in a day, using a no-code builder. If the project grows, they can later migrate to a more custom solution.
+For example, a small business owner can set up an NFT shop to test digital collectibles in a day with DexAppBuilder. If the project grows, they can later migrate to a more custom solution.
 
 ## Checklist for Launching Your NFT Storefront Without Code
 

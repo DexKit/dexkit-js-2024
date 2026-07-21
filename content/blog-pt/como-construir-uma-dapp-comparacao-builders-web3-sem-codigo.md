@@ -46,14 +46,14 @@ Por exemplo, lançar um marketplace NFT multi-chain com integração de carteira
 
 ## Comparação das Opções
 
-O mercado de builders sem código para DApps vai de prototipagem assistida por IA a editores visuais full-stack. Abaixo, comparamos quatro opções líderes: Lovable, v0 (Vercel), Thirdweb e um builder visual no-code Web3. Cada um serve a um público e tipo de projeto diferente.
+O mercado de builders sem código para DApps vai de prototipagem assistida por IA a editores visuais full-stack. Abaixo, comparamos quatro opções líderes: Lovable, v0 (Vercel), Thirdweb e DexAppBuilder. Cada um serve a um público e tipo de projeto diferente.
 
 | Builder                 | Melhor para                                         | Limitações Honestamente                                                                                               | Integração de Carteira | Deploy de Contratos | Token Gating | Suporte Multi-Chain | Editor Visual |
 |-------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|------------------------|---------------------|--------------|---------------------|---------------|
 | Lovable                 | Prototipagem full-stack assistida por IA a partir de prompts | Sem suporte nativo a carteira, contratos on-chain ou token gating sem integração Web3 customizada                     | ❌                     | ❌                  | ❌           | Limitado            | ✅            |
 | v0 (Vercel)             | Geração rápida de UI React/Next.js                  | Focado no frontend; fluxos Web3 de carteira e contratos exigem integração de desenvolvedor                             | ❌                     | ❌                  | ❌           | N/A                 | ✅            |
 | Thirdweb                | Widgets para devs, templates de contratos           | Focado em devs; widgets e SDK exigem configuração técnica. Menos visual que ferramentas no-code visuais               | ✅ (widgets)            | ✅ (templates)       | ✅ (widgets) | Cadeias EVM         | ❌ (widget)   |
-| Builder Visual No-Code Web3 | Construção visual full-stack Web3 sem código       | Não ideal para blogs puramente marketing, autenticação simples ou projetos nativos Solana                             | ✅ (seção)              | ✅ (via templates)   | ✅           | Multi-chain EVM     | ✅            |
+| DexAppBuilder           | Construção visual full-stack Web3 sem código       | Não ideal para blogs puramente marketing, autenticação simples ou projetos nativos Solana                             | ✅ (seção)              | ✅ (via templates)   | ✅           | Multi-chain EVM     | ✅            |
 
 ### Lovable: Prototipagem Assistida por IA com Limitações
 
@@ -107,9 +107,9 @@ Thirdweb é uma plataforma focada em desenvolvedores para apps Web3. Oferece das
 **Melhor uso:**  
 Times com habilidades de código que querem evitar Solidity puro, mas precisam de flexibilidade. Por exemplo, um dev pode deployar um contrato NFT drop e embutir widget de mint num site customizado.
 
-### Builder Visual No-Code Web3: Construção Full-Stack Sem Código
+### DexAppBuilder: Construção Full-Stack Sem Código
 
-Builders visuais no-code Web3 oferecem editor drag-and-drop para DApps full-stack. Pode adicionar carteira, contratos, token gating — tudo sem código.
+O DexAppBuilder oferece editor drag-and-drop para DApps full-stack. Pode adicionar carteira, contratos, token gating — tudo sem código.
 
 **Onde brilham:**
 - Construção end-to-end: arraste seção Wallet, deploy contratos, adicione loja NFT, swap ou token gating — tudo visual.
@@ -123,7 +123,7 @@ Builders visuais no-code Web3 oferecem editor drag-and-drop para DApps full-stac
 - Sem suporte a projetos nativos Solana ou protocolos empresariais customizados.
 
 **Melhor uso:**  
-Quem quer construir uma DApp real on-chain — loja NFT, portal DAO, swap DeFi — sem tocar em Solidity ou código. Por exemplo, um gestor de comunidade pode lançar marketplace NFT token-gated na Polygon, com wallet connect e deploy, só com editor visual.
+Quem quer construir uma DApp real on-chain — loja NFT, portal DAO, swap DeFi — sem tocar em Solidity ou código. Por exemplo, um gestor de comunidade pode lançar marketplace NFT token-gated na Polygon, com wallet connect e deploy, só com o DexAppBuilder.
 
 ## Escolhendo o Builder Sem Código Certo para Seu Projeto
 
@@ -139,13 +139,13 @@ Escolher o builder certo depende das necessidades do projeto, habilidades técni
   Thirdweb é poderoso — deploya contratos, embute widgets, acessa SDKs e gerencia tudo num dashboard. Mas precisa cuidar de UI, estilo e lógica custom em código.
 
 - **Quer construir uma DApp real sem codificar:**  
-  Builders visuais são feitos para não devs. Pode arrastar Wallet, Swap, loja NFT, token gating, deployar contratos e publicar em várias chains — sem código. Ideal para gestores de comunidade, projetos NFT e DAOs que precisam de funcionalidade on-chain.
+  O DexAppBuilder é feito para não devs. Pode arrastar Wallet, Swap, loja NFT, token gating, deployar contratos e publicar em várias chains — sem código. Ideal para gestores de comunidade, projetos NFT e DAOs que precisam de funcionalidade on-chain.
 
 **Compromisso:**  
 Plataformas no-code trocam alguma flexibilidade avançada por velocidade e acessibilidade. Se precisar de protocolo altamente custom ou lógica backend complexa, pode ultrapassar os limites do no-code. Mas para a maioria dos projetos de comunidade, NFT e DAO, o tempo ganho e a barreira técnica menor compensam.
 
 **Recomendação:**  
-Para projetos que exigem recursos on-chain reais (carteiras, contratos, gating) e suporte multi-chain, builders visuais no-code oferecem o melhor equilíbrio entre poder e simplicidade. Para marketing puro ou conteúdo estático, fique com construtores clássicos. Se sabe programar, ferramentas para devs como Thirdweb dão mais controle.
+Para projetos que exigem recursos on-chain reais (carteiras, contratos, gating) e suporte multi-chain, o DexAppBuilder oferece o melhor equilíbrio entre poder e simplicidade. Para marketing puro ou conteúdo estático, fique com construtores clássicos. Se sabe programar, ferramentas para devs como Thirdweb dão mais controle.
 
 [Construção de DApps Sem Código](https://dexkit.com/pt/blog/como-construir-uma-dapp-comparacao-builders-web3-sem-codigo)
 [Como Construir uma DApp na Ethereum: Uma Abordagem Sem Código](https://dexkit.com/pt/blog/como-construir-uma-dapp-na-ethereum)
@@ -156,7 +156,7 @@ Para projetos que exigem recursos on-chain reais (carteiras, contratos, gating) 
 
 **Use este checklist para avaliar qualquer builder sem código:**
 
-| Recurso               | Por que importa                                                        | Presente no Builder Visual No-Code? |
+| Recurso               | Por que importa                                                        | Presente no DexAppBuilder? |
 |-----------------------|------------------------------------------------------------------------|------------------------------------|
 | Integração de Carteira | Permite que usuários conectem carteiras para ações on-chain           | ✅                                 |
 | Deploy de Contratos    | Lance NFTs, tokens ou contratos DAO sem codificar                      | ✅                                 |
@@ -173,7 +173,7 @@ Para projetos que exigem recursos on-chain reais (carteiras, contratos, gating) 
 
 ### Posso construir uma DApp Web3 totalmente funcional sem codificar?
 
-Sim, builders visuais no-code permitem criar uma DApp Web3 real — com integração de carteira, deploy de contratos, loja NFT, swap e token gating — tudo visualmente. Não precisa escrever Solidity ou JavaScript. Basta adicionar seções de carteira, loja NFT e mais, e publicar na blockchain escolhida.
+Sim, o DexAppBuilder permite criar uma DApp Web3 real — com integração de carteira, deploy de contratos, loja NFT, swap e token gating — tudo visualmente. Não precisa escrever Solidity ou JavaScript. Basta adicionar seções de carteira, loja NFT e mais, e publicar na blockchain escolhida.
 
 ### Quais as principais limitações dos builders assistidos por IA para Web3?
 
@@ -181,11 +181,11 @@ Builders assistidos por IA como Lovable ou v0 são excelentes para prototipagem 
 
 ### Como um builder visual no-code difere das ferramentas para desenvolvedores?
 
-Enquanto ferramentas para devs permitem deploy de contratos e embutir widgets, builders visuais no-code oferecem editor drag-and-drop onde pode adicionar seções de carteira, loja NFT e token gating sem codificar. Por trás, alguns deployam contratos via plataformas para devs, mas o foco é simplicidade e fluxo para não desenvolvedores.
+Enquanto ferramentas para devs permitem deploy de contratos e embutir widgets, o DexAppBuilder oferece editor drag-and-drop onde pode adicionar seções de carteira, loja NFT e token gating sem codificar. Por trás, o DexAppBuilder pode deployar contratos Thirdweb via DexContracts, mas o foco é simplicidade e fluxo para não desenvolvedores.
 
 ### É possível deploy multi-chain sem codificar?
 
-Sim. Builders visuais no-code suportam deploy em múltiplas chains compatíveis EVM (como Ethereum, Polygon, BNB Chain) via editor. Não precisa escrever Solidity nem gerir endpoints RPC — só escolher as chains e publicar.
+Sim. O DexAppBuilder suporta deploy em múltiplas chains compatíveis EVM (como Ethereum, Polygon, BNB Chain) via editor. Não precisa escrever Solidity nem gerir endpoints RPC — só escolher as chains e publicar.
 
 ### Qual builder sem código é melhor para sites só de marketing?
 
@@ -193,7 +193,7 @@ Construtores clássicos como Wix e WordPress são melhores para sites marketing,
 
 ### Posso adicionar loja NFT ou seção de swap visualmente?
 
-Com um builder visual no-code, sim. Pode adicionar loja NFT (usando a seção Loja NFT) ou swap de tokens (usando a seção Swap) diretamente no editor, configurar ativos e publicar — sem codificação. Outros builders podem exigir integração manual ou não ter esses recursos.
+Com o DexAppBuilder, sim. Pode adicionar loja NFT (usando a seção Loja NFT) ou swap de tokens (usando a seção Swap) diretamente no editor, configurar ativos e publicar — sem codificação. Outros builders podem exigir integração manual ou não ter esses recursos.
 
 ### E se precisar suportar Solana ou construir protocolo customizado?
 

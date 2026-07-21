@@ -103,7 +103,7 @@ Al considerar cómo construir una DApp multi-cadena, normalmente elegirás entre
 |-----------------------|----------------------------------------------|---------------------------------------|-------------------------------------------|
 | Programación Tradicional | Desarrolladores experimentados, protocolos personalizados | Máxima flexibilidad, control total    | Ciclos largos, alto costo, requiere Solidity y frontend |
 | Plataformas API-First  | Equipos que necesitan datos backend, analíticas | Integración rápida con fuentes de datos | Menos control UI, puede requerir ensamblar componentes, backend pesado |
-| Constructores Visuales Sin Código | No desarrolladores, equipos pequeños, prototipado rápido | Lanzamiento rápido, edición visual, multi-cadena por defecto | Menos personalizable para casos complejos, no ideal para lógica empresarial |
+| DexAppBuilder (no-code) | No desarrolladores, equipos pequeños, prototipado rápido | Lanzamiento rápido, edición visual, multi-cadena por defecto | Menos personalizable para casos complejos, no ideal para lógica empresarial |
 
 **Compromiso:** Si construyes un protocolo muy personalizado o necesitas control total, la programación tradicional puede ser la única opción. Pero para la mayoría de proyectos nuevos —especialmente gating de contenido, tiendas NFT y swaps simples— las herramientas sin código reducen drásticamente la complejidad y tiempo al mercado.
 
