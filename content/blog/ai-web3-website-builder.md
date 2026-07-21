@@ -190,3 +190,7 @@ Some platforms allow you to deploy and interact with existing contracts—often 
 [Web3 Landing Pages](/blog/web3-landing-pages-made-easy-dexappbuilder)
 [Best Web3 Website Design: Comparing Top No-Code Web3 Landing Page Builders](/blog/best-web3-website-design)
 [Best Web3 Website Builder: Top Tools Compared for No-Code DApp Creation](/blog/best-web3-website-builder)
+
+## Related reads
+
+- [How to Invest in Web3: Best Tools Compared](/blog/how-to-invest-in-web3)
