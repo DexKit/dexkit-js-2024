@@ -180,3 +180,7 @@ Traditional EOAs are simple but inflexible—lose your private key, and your ass
 ### Where can I learn more about building with account abstraction?
 
 Check out our  for step-by-step instructions, or explore  for developer resources and onboarding tips. For hands-on no-code building, visit a supported no-code platform or similar solutions.
+
+## Related reads
+
+- [ERC-4337 vs EOA: Key Differences in Account Abstraction](/blog/erc-4337-vs-eoa)
