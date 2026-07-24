@@ -209,3 +209,4 @@ Se quiser aprofundar ou encontrar guias passo a passo para tipos específicos de
 - [Construa seu próprio negócio criptográfico com facilidade – Apresentando a atualização mais recente do DexAppBuilder](/blog/construa-seu-proprio-negocio-de-criptografia-com-facilidade-ultima-atualizacao-para-dexappbuilder)
 - [Tutorial de Criador de DApps Sem Código: Crie DApps de Troca de Tokens Rápido com DexAppBuilder](/blog/tutorial-criador-dapps-sem-codigo-troca-tokens-rapido-dexappbuilder)
 - [Conheça Brandon: um criptopreneur valioso na comunidade DexKit](/blog/conheca-brandon-um-valioso-criptopreneur-na-dexkits-community)
+- [Access Control in Token Gating: How the Options Compare](/blog/access-control-token-gating-comparison)
