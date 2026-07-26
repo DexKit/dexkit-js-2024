@@ -170,3 +170,4 @@ You can build authentication and onboarding flows with Privy or Dynamic, but you
 ## Related reads
 
 - [Coin League: ¡Gana monedas estables y gana a lo grande en juegos de jackpot mensuales con DexKit!](/blog/liga-de-monedas-gane-monedas-estables-y-gane-a-lo-grande-en-juegos-de-jackpot-mensuales-con-dexkit)
+- [Web3 Auth: Secure Wallet Connection and User Authentication Explained](/blog/web3-auth-secure-wallet-connection)
