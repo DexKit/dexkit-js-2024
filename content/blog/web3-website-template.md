@@ -167,3 +167,7 @@ Costs vary widely. No-code builders may charge a subscription or per-site fee, p
 ---
 
 For hands-on exploration, browse [the template catalog](https://dexappbuilder.dexkit.com/site/templates) or clone a template like [The Bestiary](https://dexappbuilder.dexkit.com/admin/create?clone=thebestiary) or [Dime-a-Dozen](https://dexappbuilder.dexkit.com/admin/create?clone=simple) to see what’s possible without code.
+
+## Related reads
+
+- [DApp Templates: Building Blocks for Your Web3 Projects](/blog/dapp-templates)

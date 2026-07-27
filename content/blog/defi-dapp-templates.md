@@ -197,3 +197,4 @@ Want to explore more options? Check out our guides on [Web3 DApp Templates](/blo
 
 - [Web3 Website Template Free: Build Your DApp Without Coding](/blog/web3-website-template-free)
 - [Web3 Website Template: Best DApp Builders Compared](/blog/web3-website-template)
+- [DApp Templates: Building Blocks for Your Web3 Projects](/blog/dapp-templates)

@@ -167,3 +167,4 @@ By understanding what features matter, where to find templates, and how to evalu
 ## Related reads
 
 - [Web3 Website Template: Best DApp Builders Compared](/blog/web3-website-template)
+- [DApp Templates: Building Blocks for Your Web3 Projects](/blog/dapp-templates)
