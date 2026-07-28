@@ -162,3 +162,4 @@ No-code tools are great for starting, but as your DAO grows, you might hit featu
 ## Related reads
 
 - [Proposal in DAO Governance: How They Power Decentralized Decision-Making](/blog/proposal-dao-governance)
+- [DAO Dashboard](/blog/dao-dashboard)

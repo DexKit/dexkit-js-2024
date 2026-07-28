@@ -182,3 +182,7 @@ Many DAOs use dashboards or governance interfaces that centralize proposal track
 ### What tools can help me create and manage DAO proposals more easily?
 
 If you’re looking for a visual, no-code solution, consider platforms that integrate proposal creation, voting, and execution. For developer-centric DAOs, tools like Thirdweb or custom scripts may offer more flexibility at the cost of higher complexity.
+
+## Related reads
+
+- [DAO Dashboard](/blog/dao-dashboard)

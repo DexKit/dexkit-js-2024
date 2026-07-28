@@ -157,3 +157,4 @@ Las herramientas sin código son geniales para empezar, pero a medida que tu DAO
 ## Related reads
 
 - [Proposal in DAO Governance: How They Power Decentralized Decision-Making](/blog/proposal-dao-governance)
+- [DAO Dashboard](/blog/dao-dashboard)
