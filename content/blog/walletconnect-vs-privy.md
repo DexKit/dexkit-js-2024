@@ -167,6 +167,10 @@ For users who already have a wallet, WalletConnect is straightforward. For newco
 
 You can build authentication and onboarding flows with Privy or Dynamic, but you’ll need additional tools or development work to create a full-featured DApp—such as NFT stores, token swaps, or custom UI. If you want to build the entire app visually, a no-code platform is better suited.
 
+Need a full DApp (wallet UI, contracts, NFT store)—not just auth? Compare no-code builders and SDKs in our [Web3 wallet builders comparison](/blog/web3-wallet-comparison). For a visual Wallet Connect setup, see [Wallet Connect and Web3 auth in DexAppBuilder](/blog/wallet-connect-web3-auth-dexappbuilder).
+
 ## Related reads
 
-- [Coin League: ¡Gana monedas estables y gana a lo grande en juegos de jackpot mensuales con DexKit!](/blog/liga-de-monedas-gane-monedas-estables-y-gane-a-lo-grande-en-juegos-de-jackpot-mensuales-con-dexkit)
+- [Web3 Wallet Comparison: Best No-Code Builders and Wallet Solutions](/blog/web3-wallet-comparison) — builders and SDKs beyond auth-only
+- [Wallet Connect and Web3 auth in DexAppBuilder](/blog/wallet-connect-web3-auth-dexappbuilder) — add connect flows without coding
+- [ERC-4337 account abstraction guide](/blog/erc-4337-account-abstraction-guide) — smart wallets and gasless onboarding

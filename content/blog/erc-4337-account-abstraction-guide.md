@@ -181,6 +181,10 @@ Traditional EOAs are simple but inflexible—lose your private key, and your ass
 
 Check out our  for step-by-step instructions, or explore  for developer resources and onboarding tips. For hands-on no-code building, visit a supported no-code platform or similar solutions.
 
+Once you know you need smart accounts, pick how you will ship wallet UX—auth SDK, developer widgets, or no-code—via the [Web3 wallet builders comparison](/blog/web3-wallet-comparison).
+
 ## Related reads
 
-- [ERC-4337 vs EOA: Key Differences in Account Abstraction](/blog/erc-4337-vs-eoa)
+- [ERC-4337 vs EOA: Key Differences in Account Abstraction](/blog/erc-4337-vs-eoa) — when programmable wallets beat classic keys
+- [Web3 Wallet Comparison: Best No-Code Builders and Wallet Solutions](/blog/web3-wallet-comparison) — builders and SDKs that ship wallet UX
+- [Wallet Connect and Web3 auth in DexAppBuilder](/blog/wallet-connect-web3-auth-dexappbuilder) — connect flows in a visual builder

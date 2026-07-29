@@ -219,6 +219,10 @@ You cannot convert an EOA directly to an ERC-4337 wallet, but you can build flow
 
 Most EVM-compatible chains (like Polygon, Arbitrum, Optimism) are adding support for ERC-4337, but infrastructure maturity and paymaster support can vary. Always check chain support before deploying at scale.
 
+Building the product around wallets (not only the account type)? See how builders and auth SDKs compare in our [Web3 wallet builders comparison](/blog/web3-wallet-comparison).
+
 ## Related reads
 
-- [ERC-4337 and Account Abstraction Guide](/blog/erc-4337-account-abstraction-guide)
+- [ERC-4337 and Account Abstraction Guide](/blog/erc-4337-account-abstraction-guide) — how ERC-4337 works in practice
+- [Web3 Wallet Comparison: Best No-Code Builders and Wallet Solutions](/blog/web3-wallet-comparison) — no-code vs SDK wallet stacks
+- [WalletConnect vs Privy for DApps](/blog/walletconnect-vs-privy) — connection protocol vs embedded auth
