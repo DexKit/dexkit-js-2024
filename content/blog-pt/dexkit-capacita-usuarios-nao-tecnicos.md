@@ -39,3 +39,4 @@ Mantenha-se atualizado com as inovações do DexKit e seja um dos primeiros a ad
 ## Related reads
 
 - [DEX: Understanding Token Swaps and DeFi in Web3 DApps](/blog/dex-token-swaps-defi)
+- [Desbloqueando o potencial DeFi: contribuições do DexKit para 0xDAO, Polygon Studios e Chainlink](/blog/desbloqueio-defi-potential-dexkits-contributions-to-0xdao-polygon-studios-and-chainlink)

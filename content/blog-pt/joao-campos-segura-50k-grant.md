@@ -59,3 +59,5 @@ Mergulhe em [nossa comunidade Discord](https://discord.com/invite/GJCRu4CYFH), u
 - [Token Gating para Web3: Guía Completa con Beneficios de DexAppBuilder](/blog/token-gating-web3-guia-completa-beneficios-dexappbuilder)
 - [Token Gating para Web3: Guia Completo com Vantagens do DexAppBuilder](/blog/token-gating-web3-guia-completo-dexappbuilder)
 - [Access Control in Token Gating: How the Options Compare](/blog/access-control-token-gating-comparison)
+- [De las ideas al éxito: la última actualización de DexKit empodera a los emprendedores digitales en el mundo criptográfico](/blog/de-las-ideas-al-exito-dexkits-ultima-actualizacion)
+- [Coin League: Ganhe Stablecoins e ganhe muito em jogos de jackpot mensais com DexKit!](/blog/coin-league-ganhe-stablecoins-e-ganhe-muito-em-jogos-jackpot-mensais-com-dexkit)

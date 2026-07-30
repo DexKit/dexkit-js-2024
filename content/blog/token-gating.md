@@ -211,3 +211,5 @@ If you want to go deeper or find step-by-step guides for specific token types an
 - [Token Gating para Web3: Guia Completo com Vantagens do DexAppBuilder](/blog/token-gating-web3-guia-completo-dexappbuilder)
 - [Conheça Brandon: um criptopreneur valioso na comunidade DexKit](/blog/conheca-brandon-um-valioso-criptopreneur-na-dexkits-community)
 - [Access Control in Token Gating: How the Options Compare](/blog/access-control-token-gating-comparison)
+- [De las ideas al éxito: la última actualización de DexKit empodera a los emprendedores digitales en el mundo criptográfico](/blog/de-las-ideas-al-exito-dexkits-ultima-actualizacion)
+- [Coin League: Ganhe Stablecoins e ganhe muito em jogos de jackpot mensais com DexKit!](/blog/coin-league-ganhe-stablecoins-e-ganhe-muito-em-jogos-jackpot-mensais-com-dexkit)

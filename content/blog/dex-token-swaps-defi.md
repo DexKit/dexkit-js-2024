@@ -153,3 +153,7 @@ Not all DEXs support cross-chain swaps. Most DEXs operate on a single blockchain
 ---
 
 Explore more about [Token Swaps and DeFi in DApps](/blog/no-code-dapp-builder-tutorial-token-swaps-defi), learn how to [Swaps de tokens y DeFi en DApps: simplifica con DexAppBuilder](/blog/token-swaps-defi-dexappbuilder), or try a [DexKit capacita usuários não técnicos com ferramentas DeFi fáceis de usar e compatibilidade universal](/blog/dexkit-capacita-usuarios-nao-tecnicos) for your project. For founders and creators,  solutions are making Web3 DApp building more accessible than ever.
+
+## Related reads
+
+- [Desbloqueando o potencial DeFi: contribuições do DexKit para 0xDAO, Polygon Studios e Chainlink](/blog/desbloqueio-defi-potential-dexkits-contributions-to-0xdao-polygon-studios-and-chainlink)

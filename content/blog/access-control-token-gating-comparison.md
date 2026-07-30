@@ -179,3 +179,5 @@ Some tools allow gating by NFT traits or metadata, but the process varies. Third
 - [Token Gating para Web3: Guia Completo com Vantagens do DexAppBuilder](/blog/token-gating-web3-guia-completo-dexappbuilder)
 - [Token Gating for Web3: Complete Guide with DexAppBuilder Benefits](/blog/token-gating)
 - [Best No Code Token Gating: Simplify Access Control with DexAppBuilder](/blog/best-no-code-token-gating)
+- [De las ideas al éxito: la última actualización de DexKit empodera a los emprendedores digitales en el mundo criptográfico](/blog/de-las-ideas-al-exito-dexkits-ultima-actualizacion)
+- [Coin League: Ganhe Stablecoins e ganhe muito em jogos de jackpot mensais com DexKit!](/blog/coin-league-ganhe-stablecoins-e-ganhe-muito-em-jogos-jackpot-mensais-com-dexkit)
