@@ -113,3 +113,4 @@ Ao encerrar esta visão geral, fica claro que a jornada no universo cripto **ain
 ## Related reads
 
 - [Chain: Understanding Blockchain Networks and Their Integrations](/blog/chain-integrations-blockchain-networks)
+- [Polygon DApp: Comparing No-Code and Custom Development Options](/blog/polygon-dapp-comparison)

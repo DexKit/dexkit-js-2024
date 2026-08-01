@@ -148,3 +148,7 @@ Layer 1 chains are the base blockchains (like Ethereum) that handle their own se
 
 [Integraciones Web3 y beneficios multi-chain con DexAppBuilder](/blog/web3-integrations-multi-chain-dexappbuilder)
 [Criptomoedas expostas: Compreendendo Bitcoin, Ethereum e a próxima onda da revolução financeira](/blog/compreensao-bitcoin-ethereum)
+
+## Related reads
+
+- [Polygon DApp: Comparing No-Code and Custom Development Options](/blog/polygon-dapp-comparison)
