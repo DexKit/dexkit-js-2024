@@ -188,3 +188,4 @@ Once you know you need smart accounts, pick how you will ship wallet UX—auth S
 - [ERC-4337 vs EOA: Key Differences in Account Abstraction](/blog/erc-4337-vs-eoa) — when programmable wallets beat classic keys
 - [Web3 Wallet Comparison: Best No-Code Builders and Wallet Solutions](/blog/web3-wallet-comparison) — builders and SDKs that ship wallet UX
 - [Wallet Connect and Web3 auth in DexAppBuilder](/blog/wallet-connect-web3-auth-dexappbuilder) — connect flows in a visual builder
+- [Smart Account: A Comparison of Account Abstraction Solutions](/blog/smart-account-account-abstraction-comparison)
