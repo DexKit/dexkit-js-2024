@@ -213,3 +213,4 @@ If you want to go deeper or find step-by-step guides for specific token types an
 - [Access Control in Token Gating: How the Options Compare](/blog/access-control-token-gating-comparison)
 - [De las ideas al éxito: la última actualización de DexKit empodera a los emprendedores digitales en el mundo criptográfico](/blog/de-las-ideas-al-exito-dexkits-ultima-actualizacion)
 - [Coin League: Ganhe Stablecoins e ganhe muito em jogos de jackpot mensais com DexKit!](/blog/coin-league-ganhe-stablecoins-e-ganhe-muito-em-jogos-jackpot-mensais-com-dexkit)
+- [Token Gated Events: How to Secure Exclusive Access with Blockchain](/blog/token-gated-events)
