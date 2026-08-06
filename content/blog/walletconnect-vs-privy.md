@@ -175,3 +175,4 @@ Need a full DApp (wallet UI, contracts, NFT store)—not just auth? Compare no-c
 - [Wallet Connect and Web3 auth in DexAppBuilder](/blog/wallet-connect-web3-auth-dexappbuilder) — add connect flows without coding
 - [Web3 Auth: Secure Wallet Connection and User Authentication Explained](/blog/web3-auth-secure-wallet-connection) — wallet connection and auth patterns
 - [ERC-4337 account abstraction guide](/blog/erc-4337-account-abstraction-guide) — smart wallets and gasless onboarding
+- [No Code Wallet Authentication](/blog/no-code-wallet-authentication)

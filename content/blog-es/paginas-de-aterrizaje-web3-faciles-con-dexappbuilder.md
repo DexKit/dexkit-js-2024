@@ -162,3 +162,4 @@ Después de construir y lanzar múltiples productos Web3, he aprendido que el ma
 - [WalletConnect vs Privy: Comparing Web3 Wallet Authentication Solutions](/blog/walletconnect-vs-privy)
 - [Coin League: ¡Gana monedas estables y gana a lo grande en juegos de jackpot mensuales con DexKit!](/blog/liga-de-monedas-gane-monedas-estables-y-gane-a-lo-grande-en-juegos-de-jackpot-mensuales-con-dexkit)
 - [Web3 Auth: Secure Wallet Connection and User Authentication Explained](/blog/web3-auth-secure-wallet-connection)
+- [No Code Wallet Authentication](/blog/no-code-wallet-authentication)
