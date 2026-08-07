@@ -176,3 +176,6 @@ Need a full DApp (wallet UI, contracts, NFT store)—not just auth? Compare no-c
 - [Web3 Auth: Secure Wallet Connection and User Authentication Explained](/blog/web3-auth-secure-wallet-connection) — wallet connection and auth patterns
 - [ERC-4337 account abstraction guide](/blog/erc-4337-account-abstraction-guide) — smart wallets and gasless onboarding
 - [No Code Wallet Authentication](/blog/no-code-wallet-authentication)
+- [DexKit melhora acessibilidade por meio da integração com a página de preços DexKit da Crypto.com](/blog/dexkit-melhora-acessibilidade-por-integracao-com-crypto-coms-dexkit-price-page)
+- [Construya su propio negocio criptográfico con facilidad: presentamos la última actualización de DexAppBuilder](/blog/cree-su-propio-negocio-de-cripto-con-facilidad-la-ultima-actualizacion-para-dexappbuilder)
+- [DexKit mejora la accesibilidad mediante la integración con la página de precios de DexKit de Crypto.com](/blog/dexkit-mejora-la-accesibilidad-mediante-la-integracion-con-crypto-coms-dexkit-price-page)

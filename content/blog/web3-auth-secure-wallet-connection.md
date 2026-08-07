@@ -208,3 +208,6 @@ For more on wallet connection, authentication libraries, and integrating secure 
 - [WalletConnect vs Privy: Comparing Web3 Wallet Authentication Solutions](/blog/walletconnect-vs-privy)
 - [Wallet Connect and Web3 Auth Made Simple with DexAppBuilder](/blog/wallet-connect-web3-auth-dexappbuilder)
 - [No Code Wallet Authentication](/blog/no-code-wallet-authentication)
+- [DexKit melhora acessibilidade por meio da integração com a página de preços DexKit da Crypto.com](/blog/dexkit-melhora-acessibilidade-por-integracao-com-crypto-coms-dexkit-price-page)
+- [Construya su propio negocio criptográfico con facilidad: presentamos la última actualización de DexAppBuilder](/blog/cree-su-propio-negocio-de-cripto-con-facilidad-la-ultima-actualizacion-para-dexappbuilder)
+- [DexKit mejora la accesibilidad mediante la integración con la página de precios de DexKit de Crypto.com](/blog/dexkit-mejora-la-accesibilidad-mediante-la-integracion-con-crypto-coms-dexkit-price-page)
