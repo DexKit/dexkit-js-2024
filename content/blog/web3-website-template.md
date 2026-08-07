@@ -171,3 +171,4 @@ For hands-on exploration, browse [the template catalog](https://dexappbuilder.de
 ## Related reads
 
 - [DApp Templates: Building Blocks for Your Web3 Projects](/blog/dapp-templates)
+- [DApp Template Comparison: Choosing the Best Web3 Builder for Your Project](/blog/dapp-template-comparison)
