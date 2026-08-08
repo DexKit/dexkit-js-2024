@@ -187,3 +187,4 @@ If you’re looking for a visual, no-code solution, consider platforms that inte
 
 - [DAO Dashboard](/blog/dao-dashboard)
 - [Das ideias ao sucesso: a última atualização do DexKit capacita empreendedores digitais no mundo criptográfico](/blog/de-ideias-para-sucesso-dexkits-ultima-atualizacao)
+- [Páginas DAO y UIs de Gobernanza con DexAppBuilder: Construye Interfaces Web3 sin Código](/blog/paginas-dao-u-gobernanza-dexappbuilder-web3-sin-codigo)
