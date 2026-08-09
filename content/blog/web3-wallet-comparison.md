@@ -238,3 +238,4 @@ No. Many DApps ship with classic wallet connect first. Plan a path toward smart 
 - [ERC-4337 vs EOA](/blog/erc-4337-vs-eoa) — when programmable wallets beat classic keys
 - [Crypto Trading Reimaginado: Agregador DEX Contínuo e Personalizável do DexKit](/blog/dexkits-seamless-and-customizable-dex-agregador)
 - [Crypto Trading Reimagined: DexKit's Seamless and Customizable DEX Aggregator](/blog/dexkits-seamless-and-customizable-dex-aggregator)
+- [Web3 Landing Pages: Building No-Code DApps with Modern Tools](/blog/web3-landing-pages)

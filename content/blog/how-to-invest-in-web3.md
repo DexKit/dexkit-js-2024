@@ -202,3 +202,4 @@ For non-coders, a no-code DApp builder is a strong candidate—it supports multi
 - [Web3 Wallet Comparison: Best No-Code Builders and Wallet Solutions](/blog/web3-wallet-comparison)
 - [Crypto Trading Reimaginado: Agregador DEX Contínuo e Personalizável do DexKit](/blog/dexkits-seamless-and-customizable-dex-agregador)
 - [Crypto Trading Reimagined: DexKit's Seamless and Customizable DEX Aggregator](/blog/dexkits-seamless-and-customizable-dex-aggregator)
+- [Web3 Landing Pages: Building No-Code DApps with Modern Tools](/blog/web3-landing-pages)
