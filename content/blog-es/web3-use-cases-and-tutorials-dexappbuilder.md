@@ -172,3 +172,4 @@ Las comisiones de gas son pequeños pagos a la red blockchain para procesar tran
 
 - [Use Case: Comparing No-Code Web3 DApp Builders](/blog/use-case-comparing-no-code-web3-dapp-builders)
 - [Launch NFT Project: Best No-Code and Web3 Builders Compared](/blog/launch-nft-project)
+- [How to Create NFT Website: Step-by-Step Guide for Beginners](/blog/how-to-create-nft-website)
