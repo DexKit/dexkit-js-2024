@@ -227,3 +227,4 @@ Building the product around wallets (not only the account type)? See how builder
 - [Web3 Wallet Comparison: Best No-Code Builders and Wallet Solutions](/blog/web3-wallet-comparison) — no-code vs SDK wallet stacks
 - [WalletConnect vs Privy for DApps](/blog/walletconnect-vs-privy) — connection protocol vs embedded auth
 - [Smart Account: A Comparison of Account Abstraction Solutions](/blog/smart-account-account-abstraction-comparison)
+- [Account Abstraction: Unlocking Flexible Wallets and UX in Web3](/blog/account-abstraction-blog)

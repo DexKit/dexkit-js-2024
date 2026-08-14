@@ -189,3 +189,4 @@ Once you know you need smart accounts, pick how you will ship wallet UX—auth S
 - [Web3 Wallet Comparison: Best No-Code Builders and Wallet Solutions](/blog/web3-wallet-comparison) — builders and SDKs that ship wallet UX
 - [Wallet Connect and Web3 auth in DexAppBuilder](/blog/wallet-connect-web3-auth-dexappbuilder) — connect flows in a visual builder
 - [Smart Account: A Comparison of Account Abstraction Solutions](/blog/smart-account-account-abstraction-comparison)
+- [Account Abstraction: Unlocking Flexible Wallets and UX in Web3](/blog/account-abstraction-blog)
