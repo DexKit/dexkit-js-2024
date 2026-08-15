@@ -181,3 +181,4 @@ For a comprehensive overview of token gating—including use cases beyond events
 - [Access Control in Token Gating: How the Options Compare](/blog/access-control-token-gating-comparison)
 - [Token Gating para Web3: Guia Completo com Vantagens do DexAppBuilder](/blog/token-gating-web3-guia-completo-dexappbuilder)
 - [Token Gating for Web3: Complete Guide with DexAppBuilder Benefits](/blog/token-gating)
+- [Token Gated Landing Page: How to Create and Optimize for Web3](/blog/token-gated-landing-page)
