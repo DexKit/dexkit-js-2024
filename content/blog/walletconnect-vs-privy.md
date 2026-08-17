@@ -179,3 +179,4 @@ Need a full DApp (wallet UI, contracts, NFT store)—not just auth? Compare no-c
 - [DexKit melhora acessibilidade por meio da integração com a página de preços DexKit da Crypto.com](/blog/dexkit-melhora-acessibilidade-por-integracao-com-crypto-coms-dexkit-price-page)
 - [Construya su propio negocio criptográfico con facilidad: presentamos la última actualización de DexAppBuilder](/blog/cree-su-propio-negocio-de-cripto-con-facilidad-la-ultima-actualizacion-para-dexappbuilder)
 - [DexKit mejora la accesibilidad mediante la integración con la página de precios de DexKit de Crypto.com](/blog/dexkit-mejora-la-accesibilidad-mediante-la-integracion-con-crypto-coms-dexkit-price-page)
+- [Sign-in with Ethereum: Secure Wallet Connect & Web3 Authentication Explained](/blog/sign-in-with-ethereum)
