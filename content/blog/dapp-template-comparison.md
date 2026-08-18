@@ -156,3 +156,4 @@ Related links:
 - [DApp Templates: Building Blocks for Your Web3 Projects](/blog/dapp-templates)
 - [Web3 Website Template: Best DApp Builders Compared](/blog/web3-website-template)
 - [Web3 Website Template Free: Build Your DApp Without Coding](/blog/web3-website-template-free)
+- [Token Launchpad Template: Build Your Web3 Token Sale DApp with No-Code](/blog/token-launchpad-template)

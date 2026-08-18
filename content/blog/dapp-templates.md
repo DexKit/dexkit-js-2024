@@ -159,3 +159,4 @@ For more on Web3 DApp Templates, explore our guides and see how different templa
 - [Web3 Website Template Free: Build Your DApp Without Coding](/blog/web3-website-template-free)
 - [Web3 DApp Templates to Launch Faster with DexAppBuilder](/blog/web3-dapp-templates-dexappbuilder)
 - [DApp Template Comparison: Choosing the Best Web3 Builder for Your Project](/blog/dapp-template-comparison)
+- [Token Launchpad Template: Build Your Web3 Token Sale DApp with No-Code](/blog/token-launchpad-template)

@@ -172,3 +172,4 @@ For hands-on exploration, browse [the template catalog](https://dexappbuilder.de
 
 - [DApp Templates: Building Blocks for Your Web3 Projects](/blog/dapp-templates)
 - [DApp Template Comparison: Choosing the Best Web3 Builder for Your Project](/blog/dapp-template-comparison)
+- [Token Launchpad Template: Build Your Web3 Token Sale DApp with No-Code](/blog/token-launchpad-template)
