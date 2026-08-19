@@ -202,3 +202,4 @@ Yes. If you only need a marketing blog, an auth-only login flow, or a standalone
 - [Junte-se ao DexKit para impulsionar a inovação Web3: Apoie-nos na Nova Round da Arbitrum Grants DAO!](/blog/junte-se-dexkit-in-powering-web3-innovation)
 - [Das ideias ao sucesso: a última atualização do DexKit capacita empreendedores digitais no mundo criptográfico](/blog/de-ideias-para-sucesso-dexkits-ultima-atualizacao)
 - [DAO Governance Pages with DexAppBuilder: Build Web3 Interfaces Without Code](/blog/dao-governance-pages-no-code-dexappbuilder)
+- [DAO Treasury Page: Managing and Visualizing Your DAO Funds](/blog/dao-treasury-page)
