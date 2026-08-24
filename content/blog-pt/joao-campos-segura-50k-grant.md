@@ -63,3 +63,5 @@ Mergulhe em [nossa comunidade Discord](https://discord.com/invite/GJCRu4CYFH), u
 - [Coin League: Ganhe Stablecoins e ganhe muito em jogos de jackpot mensais com DexKit!](/blog/coin-league-ganhe-stablecoins-e-ganhe-muito-em-jogos-jackpot-mensais-com-dexkit)
 - [Token Gated Events: How to Secure Exclusive Access with Blockchain](/blog/token-gated-events)
 - [Token Gated Landing Page: How to Create and Optimize for Web3](/blog/token-gated-landing-page)
+- [DexKit lança uma ferramenta de criação de mercado revolucionária para empreendedores criptográficos](/blog/dexkit-lanca-uma-ferramenta-de-criacao-de-mercado-que-muda-o-jogo-para-criptoempreendedores)
+- [Token Gating for Web3: Complete Guide with DexAppBuilder Benefits](/blog/token-gating)

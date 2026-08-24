@@ -126,3 +126,5 @@ For more on building without code, see:
 - [No Code DApp Builder: Create Your DApp Without Coding with DexAppBuilder](/blog/no-code-dapp-builder-create-your-dapp-without-coding)
 - [DApp Builder Comparison: Which No-Code Tool Fits Your Web3 Project?](/blog/dapp-builder-comparison-no-code)
 - [No-Code DApp Building: Create Your DApp Easily with DexAppBuilder](/blog/no-code-dapp-building-create-your-dapp-easily-with-dexappbuilder)
+- [Construtor de DApps Sem Código: Crie Seu DApp Sem Programar com DexAppBuilder](/blog/construtor-dapps-sem-codigo-dexappbuilder)
+- [Constructor de DApps Sin Código: Crea Tu DApp Sin Programar con DexAppBuilder](/blog/constructor-dapps-sin-codigo-con-dexappbuilder)

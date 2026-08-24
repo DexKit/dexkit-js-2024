@@ -148,3 +148,4 @@ If you want to learn more about building NFT storefronts, check out our guides o
 - [Royalties NFT revelados: capacitando criadores na esfera digital](/blog/nft-capacitando-criadores-na-esfera-digital)
 - [Revolucione suas vendas de NFT com o primeiro mercado NFT de marca branca da DexKit](/blog/revolucione-suas-vendas-nft-com-dexkit)
 - [NFT Storefront Comparison: No-Code, Custom, and Hybrid Builders](/blog/nft-storefront-comparison)
+- [Revolutionize Your NFT Sales with the First White-Label NFT Marketplace by DexKit](/blog/revolutionize-your-nft-sales-with-dexkit)

@@ -195,3 +195,5 @@ Learn more about [the builder solutions](https://dexappbuilder.dexkit.com/soluti
 - [Construya su propio negocio criptográfico con facilidad: presentamos la última actualización de DexAppBuilder](/blog/cree-su-propio-negocio-de-cripto-con-facilidad-la-ultima-actualizacion-para-dexappbuilder)
 - [DexKit mejora la accesibilidad mediante la integración con la página de precios de DexKit de Crypto.com](/blog/dexkit-mejora-la-accesibilidad-mediante-la-integracion-con-crypto-coms-dexkit-price-page)
 - [Sign-in with Ethereum: Secure Wallet Connect & Web3 Authentication Explained](/blog/sign-in-with-ethereum)
+- [Navegando por el ecosistema criptográfico: la resiliencia y el crecimiento de DexKit en 2022](/blog/navegando-por-el-criptoecosistema-dexkits-resiliencia-y-crecimiento-en-2022)
+- [Crear aplicaciones en cadena es fácil con DexAppBuilder](/blog/creacion-de-aplicaciones-en-cadena-simple-con-dexappbuilder)

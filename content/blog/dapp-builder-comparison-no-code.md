@@ -163,3 +163,5 @@ AI-powered app editors like Lovable or v0 are great for quickly building fronten
 - [No Code DApp Builder Tutorial: Launch Your Web3 App Fast with DexAppBuilder](/blog/no-code-dapp-builder-tutorial)
 - [No Code DApp Builder: Create Your DApp Without Coding with DexAppBuilder](/blog/no-code-dapp-builder-create-your-dapp-without-coding)
 - [Dapp Browser: Navigating No-Code Web3 DApp Building](/blog/dapp-browser-no-code-dapp-building)
+- [Construtor de DApps Sem Código: Crie Seu DApp Sem Programar com DexAppBuilder](/blog/construtor-dapps-sem-codigo-dexappbuilder)
+- [Constructor de DApps Sin Código: Crea Tu DApp Sin Programar con DexAppBuilder](/blog/constructor-dapps-sin-codigo-con-dexappbuilder)

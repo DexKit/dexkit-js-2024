@@ -168,3 +168,5 @@ AI app editors like Lovable or v0 (Vercel) focus on frontend code generation, no
 - [No-Code DApp Building: Create Your DApp Easily with DexAppBuilder](/blog/no-code-dapp-building-create-your-dapp-easily-with-dexappbuilder)
 - [How to Build a DApp: Comparing No-Code Web3 Builders](/blog/how-to-build-a-dapp)
 - [Dapp Browser: Navigating No-Code Web3 DApp Building](/blog/dapp-browser-no-code-dapp-building)
+- [Construtor de DApps Sem Código: Crie Seu DApp Sem Programar com DexAppBuilder](/blog/construtor-dapps-sem-codigo-dexappbuilder)
+- [Constructor de DApps Sin Código: Crea Tu DApp Sin Programar con DexAppBuilder](/blog/constructor-dapps-sin-codigo-con-dexappbuilder)

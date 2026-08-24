@@ -141,3 +141,5 @@ For more on no-code token gating, explore:
 - [Desenvolvimento emocionante: João Campos garante doação de US$ 50 mil para o DexKit](/blog/joao-campos-segura-50k-grant)
 - [Access Control in Token Gating: How the Options Compare](/blog/access-control-token-gating-comparison)
 - [Token Gating para Web3: Guia Completo com Vantagens do DexAppBuilder](/blog/token-gating-web3-guia-completo-dexappbuilder)
+- [DexKit lança uma ferramenta de criação de mercado revolucionária para empreendedores criptográficos](/blog/dexkit-lanca-uma-ferramenta-de-criacao-de-mercado-que-muda-o-jogo-para-criptoempreendedores)
+- [Token Gating for Web3: Complete Guide with DexAppBuilder Benefits](/blog/token-gating)
