@@ -117,3 +117,4 @@ When considering how to launch an NFT project, weigh your need for on-chain feat
 
 - [Use Case: Comparing No-Code Web3 DApp Builders](/blog/use-case-comparing-no-code-web3-dapp-builders)
 - [How to Create NFT Website: Step-by-Step Guide for Beginners](/blog/how-to-create-nft-website)
+- [How to Build a DApp: Comparing No-Code and Web3 Builders](/blog/how-to-build-a-dapp-comparison)
