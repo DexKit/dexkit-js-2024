@@ -228,3 +228,4 @@ Building the product around wallets (not only the account type)? See how builder
 - [WalletConnect vs Privy for DApps](/blog/walletconnect-vs-privy) — connection protocol vs embedded auth
 - [Smart Account: A Comparison of Account Abstraction Solutions](/blog/smart-account-account-abstraction-comparison)
 - [Account Abstraction: Unlocking Flexible Wallets and UX in Web3](/blog/account-abstraction-blog)
+- [erc-4337 wallet comparison: choosing the right account abstraction solution](/blog/erc-4337-wallet-comparison-account-abstraction)
