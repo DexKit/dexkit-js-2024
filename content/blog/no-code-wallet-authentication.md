@@ -197,3 +197,4 @@ Learn more about [the builder solutions](https://dexappbuilder.dexkit.com/soluti
 - [Sign-in with Ethereum: Secure Wallet Connect & Web3 Authentication Explained](/blog/sign-in-with-ethereum)
 - [Navegando por el ecosistema criptográfico: la resiliencia y el crecimiento de DexKit en 2022](/blog/navegando-por-el-criptoecosistema-dexkits-resiliencia-y-crecimiento-en-2022)
 - [Crear aplicaciones en cadena es fácil con DexAppBuilder](/blog/creacion-de-aplicaciones-en-cadena-simple-con-dexappbuilder)
+- [Web3 Login Button: How to Seamlessly Connect Wallets and Authenticate Users](/blog/web3-login-button)

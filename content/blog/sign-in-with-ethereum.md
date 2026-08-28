@@ -155,3 +155,4 @@ Some solutions do. SDKs like Privy, Dynamic, and Web3Auth combine wallet authent
 - [Wallet Connect and Web3 Auth Made Simple with DexAppBuilder](/blog/wallet-connect-web3-auth-dexappbuilder)
 - [Navegando por el ecosistema criptográfico: la resiliencia y el crecimiento de DexKit en 2022](/blog/navegando-por-el-criptoecosistema-dexkits-resiliencia-y-crecimiento-en-2022)
 - [Crear aplicaciones en cadena es fácil con DexAppBuilder](/blog/creacion-de-aplicaciones-en-cadena-simple-con-dexappbuilder)
+- [Web3 Login Button: How to Seamlessly Connect Wallets and Authenticate Users](/blog/web3-login-button)
