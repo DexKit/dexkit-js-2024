@@ -174,3 +174,4 @@ For more resources and related templates, explore , .
 - [DApp Template Comparison: Choosing the Best Web3 Builder for Your Project](/blog/dapp-template-comparison)
 - [Web3 Website Template: Best DApp Builders Compared](/blog/web3-website-template)
 - [Web3 Website Template Free: Build Your DApp Without Coding](/blog/web3-website-template-free)
+- [Web3 Landing Page Template: Which DApp Builder Fits Your Needs?](/blog/web3-landing-page-template-comparison)

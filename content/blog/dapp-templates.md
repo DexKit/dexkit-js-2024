@@ -160,3 +160,4 @@ For more on Web3 DApp Templates, explore our guides and see how different templa
 - [Web3 DApp Templates to Launch Faster with DexAppBuilder](/blog/web3-dapp-templates-dexappbuilder)
 - [DApp Template Comparison: Choosing the Best Web3 Builder for Your Project](/blog/dapp-template-comparison)
 - [Token Launchpad Template: Build Your Web3 Token Sale DApp with No-Code](/blog/token-launchpad-template)
+- [Web3 Landing Page Template: Which DApp Builder Fits Your Needs?](/blog/web3-landing-page-template-comparison)
