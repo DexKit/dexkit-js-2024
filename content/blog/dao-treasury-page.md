@@ -153,3 +153,4 @@ The right treasury page isn’t just a technical choice—it reflects your DAO�
 - [Proposal in DAO Governance: How They Power Decentralized Decision-Making](/blog/proposal-dao-governance)
 - [Perturbando as finanças tradicionais: o poder das soluções descentralizadas e as inovações do DexKit](/blog/perturbando-as-financas-tradicionais)
 - [Join DexKit in powering Web3 innovation: Support us in Nova Round by Arbitrum Grants DAO!](/blog/join-dexkit-in-powering-web3-innovation)
+- [Join DexKit to Drive Web3 Innovation: Support Us in the New Round of Arbitrum Grants DAO!](/blog/join-dexkit-arbitrum-grants-dao-web3-innovation)
