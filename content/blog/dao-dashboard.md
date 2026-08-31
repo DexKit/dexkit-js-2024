@@ -204,4 +204,4 @@ Yes. If you only need a marketing blog, an auth-only login flow, or a standalone
 - [DAO Governance Pages with DexAppBuilder: Build Web3 Interfaces Without Code](/blog/dao-governance-pages-no-code-dexappbuilder)
 - [DAO Treasury Page: Managing and Visualizing Your DAO Funds](/blog/dao-treasury-page)
 - [Join DexKit in powering Web3 innovation: Support us in Nova Round by Arbitrum Grants DAO!](/blog/join-dexkit-in-powering-web3-innovation)
-- [Join DexKit to Drive Web3 Innovation: Support Us in the New Round of Arbitrum Grants DAO!](/blog/join-dexkit-arbitrum-grants-dao-web3-innovation)
+- [DAO Governance Tools on Arbitrum: How Builders Compare](/blog/dao-governance-tools-arbitrum-comparison)

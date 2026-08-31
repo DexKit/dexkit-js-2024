@@ -49,6 +49,9 @@
     "/cripto-apuestas-desmitificadas-explorando-beneficios-y-riesgos/": { "destination": "/blog/staking-cripto-desmitificado-explorando-beneficios-y-riesgos", "permanent": true },
     "/practical-applications-of-cryptocurrencies/": { "destination": "/blog/practical-applications-of-cryptocurrencies", "permanent": true },
     "/join-superapp-version-2-and-win-a-free-axie-infinity-battle-team/": { "destination": "/blog/join-superapp-version-2-and-win-a-free-axie-infinity-battle-team", "permanent": true },
+    "/blog/join-dexkit-arbitrum-grants-dao-web3-innovation": { "destination": "/blog/dao-governance-tools-arbitrum-comparison", "permanent": true },
+    "/pt/blog/junte-se-dexkit-impulsionar-inovacao-web3-arbitrum-grants-dao": { "destination": "/pt/blog/ferramentas-governanca-dao-arbitrum-comparacao", "permanent": true },
+    "/es/blog/unete-a-dexkit-para-impulsar-la-innovacion-web3-apoyanos-arbitrum-grants-dao": { "destination": "/es/blog/herramientas-gobernanza-dao-arbitrum-comparacion", "permanent": true },
     "/faq/": { "destination": "/", "permanent": true },
     "/category/faq": { "destination": "/", "permanent": true }
   }
