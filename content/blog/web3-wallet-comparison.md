@@ -240,3 +240,4 @@ No. Many DApps ship with classic wallet connect first. Plan a path toward smart 
 - [Crypto Trading Reimagined: DexKit's Seamless and Customizable DEX Aggregator](/blog/dexkits-seamless-and-customizable-dex-aggregator)
 - [Web3 Landing Pages: Building No-Code DApps with Modern Tools](/blog/web3-landing-pages)
 - [web3 reddit: Exploring Web3 Discussions and Communities](/blog/web3-reddit)
+- [Landing Page: Best Web3 Landing Pages Compared](/blog/landing-page-web3-landing-pages-comparison)
