@@ -43,3 +43,4 @@ Mantenha-se atualizado com as inovações do DexKit e seja um dos primeiros a ad
 - [DeFi Widget No Code: Comparing Top Token Swap & DeFi Tools](/blog/defi-widget-no-code)
 - [DexKit capacita usuários não técnicos com ferramentas DeFi fáceis de usar e compatibilidade universal](/blog/dexkit-capacita-usuarios-nao-tecnicos-ferramentas-defi-compatibilidade-universal)
 - [Decoding Crypto Swaps: How They Work and When to Use Them](/blog/decoding-crypto-swaps-how-they-work-when-to-use)
+- [Decifrando Crypto Swaps: How They Work and When to Use Them](/blog/decifrando-crypto-swaps-how-they-work-when-to-use)
