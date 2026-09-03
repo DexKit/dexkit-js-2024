@@ -53,5 +53,8 @@
     "/pt/blog/junte-se-dexkit-impulsionar-inovacao-web3-arbitrum-grants-dao": { "destination": "/pt/blog/ferramentas-governanca-dao-arbitrum-comparacao", "permanent": true },
     "/es/blog/unete-a-dexkit-para-impulsar-la-innovacion-web3-apoyanos-arbitrum-grants-dao": { "destination": "/es/blog/herramientas-gobernanza-dao-arbitrum-comparacion", "permanent": true },
     "/faq/": { "destination": "/", "permanent": true },
-    "/category/faq": { "destination": "/", "permanent": true }
+    "/category/faq": { "destination": "/", "permanent": true },
+    "/blog/decifrando-crypto-swaps-how-they-work-when-to-use": { "destination": "/blog/decoding-crypto-swaps-how-they-work-when-to-use", "permanent": true },
+    "/pt/blog/decifrando-trocas-cripto-como-funcionam-quando-usar": { "destination": "/pt/blog/decodificando-trocas-cripto-como-funcionam-quando-usar", "permanent": true },
+    "/es/blog/descifrando-los-crypto-swaps-como-funcionan-cuando-usarlos": { "destination": "/es/blog/descifrando-intercambios-criptomonedas-como-funcionan-cuando-usarlos", "permanent": true }
   }

@@ -154,4 +154,3 @@ For deeper dives on token swap mechanics and best practices for DApp builders, s
 - [DeFi Widget No Code: Comparing Top Token Swap & DeFi Tools](/blog/defi-widget-no-code)
 - [Swaps de tokens y DeFi en DApps: simplifica con DexAppBuilder](/blog/token-swaps-defi-dexappbuilder)
 - [Integrating Gasless API into DexAppBuilder for Gasless Swaps](/blog/integrating-gasless-api-into-dexappbuilder-for-gasless-swaps)
-- [Decifrando Crypto Swaps: How They Work and When to Use Them](/blog/decifrando-crypto-swaps-how-they-work-when-to-use)
