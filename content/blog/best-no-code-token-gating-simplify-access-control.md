@@ -204,3 +204,4 @@ Yes, tools like Privy and Dynamic are focused on wallet login, social/email onbo
 - [Token Gated Landing Page: How to Create and Optimize for Web3](/blog/token-gated-landing-page)
 - [Token Gated Events: How to Secure Exclusive Access with Blockchain](/blog/token-gated-events)
 - [Access Control in Token Gating: How the Options Compare](/blog/access-control-token-gating-comparison)
+- [Desenvolvimento emocionante: João Campos guarantees US$ 50K donation for DexKit](/blog/joao-campos-50k-donation-dexkit-token-gating)

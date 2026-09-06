@@ -66,3 +66,4 @@ Mergulhe em [nossa comunidade Discord](https://discord.com/invite/GJCRu4CYFH), u
 - [DexKit lança uma ferramenta de criação de mercado revolucionária para empreendedores criptográficos](/blog/dexkit-lanca-uma-ferramenta-de-criacao-de-mercado-que-muda-o-jogo-para-criptoempreendedores)
 - [Token Gating for Web3: Complete Guide with DexAppBuilder Benefits](/blog/token-gating)
 - [The Best No-Code Token Gating: Simplify Access Control with DexAppBuilder](/blog/best-no-code-token-gating-simplify-access-control)
+- [Desenvolvimento emocionante: João Campos guarantees US$ 50K donation for DexKit](/blog/joao-campos-50k-donation-dexkit-token-gating)
