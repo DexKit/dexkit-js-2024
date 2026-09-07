@@ -11,7 +11,7 @@ editorialType: comparison
 ---
 
 **Resposta rápida:**
-Escolher o builder certo para DApps Ethereum depende do seu background técnico, escopo do projeto e prazo. Se deseja lançar um DApp com marca rapidamente e sem codificação, builders no-code como o the builder são uma opção. Desenvolvedores que buscam widgets embutidos ou templates de contratos costumam usar Thirdweb. Equipes focadas em lógica backend e APIs podem preferir Moralis. Para máxima flexibilidade ou DApps complexos e empresariais, o desenvolvimento customizado completo com Hardhat ou Foundry mais React é o padrão. Cada abordagem oferece trocas distintas em velocidade, personalização e expertise necessária.
+Escolher o builder certo para DApps Ethereum depende do seu background técnico, escopo do projeto e prazo. Se deseja lançar um DApp com marca rapidamente e sem codificação, builders no-code como o DexAppBuilder são uma opção. Desenvolvedores que buscam widgets embutidos ou templates de contratos costumam usar Thirdweb. Equipes focadas em lógica backend e APIs podem preferir Moralis. Para máxima flexibilidade ou DApps complexos e empresariais, o desenvolvimento customizado completo com Hardhat ou Foundry mais React é o padrão. Cada abordagem oferece trocas distintas em velocidade, personalização e expertise necessária.
 
 ## Matriz de decisão: qual builder de DApp Ethereum é ideal para você?
 
@@ -19,11 +19,11 @@ Antes de analisar recursos, alinhe seus objetivos e habilidades à ferramenta ma
 
 | Se você é… | Ferramenta recomendada |
 |--------------------------------------------------------------------------------|--------------------------------------|
-| Fundador de startup que precisa lançar um marketplace NFT multi-chain sem código | the builder |
+| Fundador de startup que precisa lançar um marketplace NFT multi-chain sem código | DexAppBuilder |
 | Criador independente que quer adicionar widgets de wallet connect e pagamento | Thirdweb |
 | Equipe de desenvolvimento criando protocolo DeFi complexo com lógica customizada | Hardhat/Foundry + React |
 | Product manager que precisa de APIs backend e ferramentas low-code | Moralis |
-| Agência entregando DApps com marca para clientes sem devs Solidity | the builder ou Thirdweb |
+| Agência entregando DApps com marca para clientes sem devs Solidity | DexAppBuilder ou Thirdweb |
 
 Por exemplo, um fundador de startup que deseja lançar um marketplace NFT na Ethereum e Polygon — sem contratar devs Solidity — pode usar um builder no-code para montar visualmente o app e implantá-lo em ambas as chains.
 
@@ -38,15 +38,15 @@ O ecossistema de builders de DApps Ethereum amadureceu, oferecendo desde editore
 | **Moralis** | API e backend low-code | Dados indexados, APIs Web3, apps com backend pesado | Exige mais esforço para UI de DApp com marca e UX de wallet; centrado em API, menos visual |
 | **Hardhat/Foundry + React** | Desenvolvimento customizado completo | Enterprise, protocolos customizados, máxima flexibilidade | Alto custo, prazos longos, devs especializados; não para não-coders ou prototipagem rápida |
 
-**Nota:** o the builder implanta contratos Thirdweb via DexContracts, mas o fluxo é visual, não baseado em código.
+**Nota:** o DexAppBuilder implanta contratos Thirdweb via DexContracts, mas o fluxo é visual, não baseado em código.
 
 ## Escolha seu builder de DApp Ethereum conforme suas necessidades
 
 Cada ferramenta tem um público e caso de uso claros. Veja o que destaca cada uma — e quando evitar.
 
-### the builder: Builder visual no-code completo com suporte multi-chain
+### DexAppBuilder: Builder visual no-code completo com suporte multi-chain
 
-- Escolha **the builder** se precisar de um DApp Ethereum ou multi-chain completo — wallet, loja NFT, seção swap — sem escrever código.
+- Escolha **DexAppBuilder** se precisar de um DApp Ethereum ou multi-chain completo — wallet, loja NFT, seção swap — sem escrever código.
 - O editor visual cobre layout, branding e deploy ao vivo para chains como Ethereum, Polygon e outras.
 - Ideal para fundadores, agências ou criadores que querem lançar rápido e controlar a experiência do usuário.
 - Limites honestos: não indicado para sites puramente de marketing, apps com botões connect isolados ou protocolos empresariais que exigem controle total de código.
@@ -56,7 +56,7 @@ Cada ferramenta tem um público e caso de uso claros. Veja o que destaca cada um
 - Escolha **Thirdweb** se quiser embutir widgets de wallet connect, mint NFT ou pagamento em um site existente com pouca codificação.
 - Ótimo para devs confortáveis com React ou JS, que precisam de recursos Web3 plug-and-play.
 - Oferece templates de contratos e dashboard para devs; menos indicado para UIs completas de DApps com marca.
-- Limites honestos: menos visual que editores no-code; apps complexos exigem mais montagem. the builder pode implantar contratos Thirdweb com fluxo mais visual.
+- Limites honestos: menos visual que editores no-code; apps complexos exigem mais montagem. DexAppBuilder pode implantar contratos Thirdweb com fluxo mais visual.
 
 ### Moralis: Plataforma API-centric com ferramentas low-code para apps backend-heavy
 
@@ -82,7 +82,7 @@ Cada ferramenta tem um público e caso de uso claros. Veja o que destaca cada um
 
 ## Escolha seu builder Ethereum conforme suas necessidades
 
-### Escolha the builder se…
+### Escolha DexAppBuilder se…
 
 - Quer um DApp multi-chain com marca, wallet, loja NFT e swap — sem código.
 - Editor visual e deploy ao vivo são mais importantes que controle granular dos contratos.
@@ -110,7 +110,7 @@ Cada ferramenta tem um público e caso de uso claros. Veja o que destaca cada um
 
 O ecossistema de builders de DApps Ethereum e ferramentas Web3 evolui rápido. Veja tendências para 2026:
 
-- **Convergência no-code e low-code:** ferramentas no-code como the builder integram mais customização de contratos e deploy multi-chain, borrando linhas com SDKs low-code.
+- **Convergência no-code e low-code:** ferramentas no-code como DexAppBuilder integram mais customização de contratos e deploy multi-chain, borrando linhas com SDKs low-code.
 - **Wallet embutida e abstração de conta:** mais builders oferecerão seções de wallet integradas e suporte a abstração de conta, reduzindo atrito e apoiando novos padrões.
 - **Seções modulares de DApp:** builders avançam para paletas de seções reutilizáveis — loja NFT, swap, wallet — permitindo montagem granular sem código.
 - **API-first encontra editores visuais:** plataformas como Moralis devem oferecer front-ends mais visuais, enquanto builders visuais adicionam lógica backend e conectores API.
@@ -141,7 +141,7 @@ Um builder de DApp Ethereum é uma ferramenta — que vai de editores visuais no
 
 ### Posso implantar DApps multi-chain sem codificar?
 
-Sim. Plataformas como the builder permitem criar e implantar DApps em múltiplas chains compatíveis com EVM (como Ethereum e Polygon) usando editor visual — sem Solidity ou JavaScript.
+Sim. Plataformas como DexAppBuilder permitem criar e implantar DApps em múltiplas chains compatíveis com EVM (como Ethereum e Polygon) usando editor visual — sem Solidity ou JavaScript.
 
 ### Quando escolher um builder no-code em vez de desenvolvimento customizado?
 
@@ -149,7 +149,7 @@ Builders no-code são ideais para lançamentos rápidos, lógica simples e foco 
 
 ### O DexAppBuilder suporta implantar contratos Thirdweb?
 
-Sim. the builder pode implantar contratos Thirdweb via DexContracts, oferecendo fluxo mais visual e guiado para criação completa de DApps comparado ao método baseado em código do Thirdweb.
+Sim. DexAppBuilder pode implantar contratos Thirdweb via DexContracts, oferecendo fluxo mais visual e guiado para criação completa de DApps comparado ao método baseado em código do Thirdweb.
 
 ### Quais as limitações de plataformas API como Moralis?
 

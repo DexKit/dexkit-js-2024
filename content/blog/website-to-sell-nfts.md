@@ -67,7 +67,7 @@ No-code NFT storefront builders provide visual editors and prebuilt components, 
 
 - **Who it’s for:** Creators, artists, small teams, and brands that want to launch fast without hiring developers.
 - **Strengths:** Fast deployment, lower costs, easy updates, built-in wallet integration, and often multi-chain support.
-- **Limitations:** Custom logic or unique designs may be constrained by the builder’s template system.
+- **Limitations:** Custom logic or unique designs may be constrained by DexAppBuilder’s template system.
 
 **Example tools:** DexAppBuilder, Thirdweb’s Embed (developer-focused but some visual options).
 
@@ -110,7 +110,7 @@ Use this checklist to make sure you’re covering the essentials as you create y
 
 ### Can I build a website to sell NFTs without coding?
 
-Yes, you can launch an NFT storefront without any programming by using no-code platforms. These tools provide visual editors and prebuilt components for wallet integration, NFT minting, and sales. *the builder* is one example, allowing creators to build and deploy NFT stores with just a few clicks.
+Yes, you can launch an NFT storefront without any programming by using no-code platforms. These tools provide visual editors and prebuilt components for wallet integration, NFT minting, and sales. *DexAppBuilder* is one example, allowing creators to build and deploy NFT stores with just a few clicks.
 
 ### What wallet integrations are important for NFT sales websites?
 

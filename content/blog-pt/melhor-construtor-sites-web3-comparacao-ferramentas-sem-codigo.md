@@ -82,7 +82,7 @@ A ferramenta v0 da Vercel é um sonho para desenvolvedores que querem gerar cód
 
 ### WordPress: Ecossistema Maduro para Conteúdo
 
-WordPress continua sendo o construtor mais popular para blogs, páginas de marketing e sites ricos em conteúdo. Seu ecossistema de plugins é imbatível para SEO, analytics e e-commerce. Mas suporte Web3 é limitado. Existem plugins terceiros para login de carteira ou exibição de NFTs, mas sem suporte nativo para implantação de contratos ou fluxos completos de DApps. WordPress funciona melhor quando você precisa de um CMS familiar e não requer recursos on-chain.
+WordPress continua sendo DexAppBuilder mais popular para blogs, páginas de marketing e sites ricos em conteúdo. Seu ecossistema de plugins é imbatível para SEO, analytics e e-commerce. Mas suporte Web3 é limitado. Existem plugins terceiros para login de carteira ou exibição de NFTs, mas sem suporte nativo para implantação de contratos ou fluxos completos de DApps. WordPress funciona melhor quando você precisa de um CMS familiar e não requer recursos on-chain.
 
 **Ideal para:** Sites focados em conteúdo, blogs ou marketing onde Web3 é secundário ou tratado via plugins.  
 **Limitações:** Não indicado para projetos que precisam de integração direta com carteira, contratos ou blockchain.

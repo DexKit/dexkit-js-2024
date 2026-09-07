@@ -24,7 +24,7 @@ Por exemplo, um desenvolvedor indie lançando um jogo Web3 na Polygon quer receb
 
 ## Conceitos Básicos: Protocolo Wallet Connect e Autenticação Web3 Explicados
 
-Antes de começar a construir, vamos explicar as duas ideias principais: Wallet Connect e autenticação Web3. Se você está criando para Web3, vai ouvir esses termos em todo lugar, mas muitas vezes são mal explicados. Aqui está uma visão clara e focada no construtor.
+Antes de começar a construir, vamos explicar as duas ideias principais: Wallet Connect e autenticação Web3. Se você está criando para Web3, vai ouvir esses termos em todo lugar, mas muitas vezes são mal explicados. Aqui está uma visão clara e focada no DexAppBuilder.
 
 ### Como o Wallet Connect Permite Acesso Multi-Carteira
 

@@ -132,13 +132,13 @@ Thirdweb is popular among developers for its SDKs, embeddable widgets, and contr
 - Less visual than some no-code builders; requires some coding.
 - Full DApp creation and layout require developer effort.
 
-**Note:** the builder deploys Thirdweb contracts via DexContracts, combining no-code editing with Thirdweb’s robust contract library.
+**Note:** DexAppBuilder deploys Thirdweb contracts via DexContracts, combining no-code editing with Thirdweb’s robust contract library.
 
 **Best for:** Developers who want flexibility and control, and are comfortable working with SDKs. 
 
 ### DexAppBuilder: No-Code End-to-End DApp Builder
 
-the builder is a visual, no-code DApp builder that lets you create full-featured Web3 apps—including wallet onboarding, NFT stores, and token swaps—without writing Solidity. It integrates with Thirdweb contracts via DexContracts, so you get the benefits of account abstraction and ERC-4337 wallets along with visual editing.
+DexAppBuilder is a visual, no-code DApp builder that lets you create full-featured Web3 apps—including wallet onboarding, NFT stores, and token swaps—without writing Solidity. It integrates with Thirdweb contracts via DexContracts, so you get the benefits of account abstraction and ERC-4337 wallets along with visual editing.
 
 **Pros:**
 - End-to-end DApp creation: wallet onboarding, NFT store, swaps, and more.
@@ -201,7 +201,7 @@ ERC-4337 wallets can enable flexible transaction fee payment methods. Through pa
 
 ### Is DexAppBuilder compatible with ERC-4337 wallets?
 
-Yes, the builder supports deploying smart contract wallets leveraging ERC-4337 via DexContracts. This means you can build DApps with advanced wallet logic and onboarding features—without coding—using the visual builder.
+Yes, DexAppBuilder supports deploying smart contract wallets leveraging ERC-4337 via DexContracts. This means you can build DApps with advanced wallet logic and onboarding features—without coding—using the visual builder.
 
 ### When should I choose a simple EOA over ERC-4337 wallets?
 

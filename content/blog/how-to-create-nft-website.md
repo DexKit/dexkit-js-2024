@@ -73,7 +73,7 @@ When should you use each? If your main goal is a marketing site with a blog, sti
 
 Traditionally, creating NFT smart contracts required learning Solidity and deploying via developer tools. Today, no-code builders let you pick a template (ERC-721 or ERC-1155), customize settings (name, symbol, royalties), and deploy to your chosen blockchain—often in a few clicks.
 
-For example, with the builder, you can deploy standard NFT contracts visually, using audited templates from providers like Thirdweb (which the builder integrates under the hood). This removes the risk of copy-paste errors or insecure code while still letting you mint and manage NFTs on Ethereum, Polygon, or Binance Smart Chain.
+For example, with DexAppBuilder, you can deploy standard NFT contracts visually, using audited templates from providers like Thirdweb (which DexAppBuilder integrates under the hood). This removes the risk of copy-paste errors or insecure code while still letting you mint and manage NFTs on Ethereum, Polygon, or Binance Smart Chain.
 
 If you want to experiment, some platforms offer testnets—blockchain networks that use fake tokens—so you can try minting NFTs without spending real crypto.
 
@@ -120,7 +120,7 @@ Even with no-code tools, launching an NFT website isn’t always straightforward
 
 ### Do I need coding skills to create an NFT website?
 
-No, many no-code and low-code builders allow you to create NFT websites without writing code. Tools like the builder, Thirdweb, and Moralis offer visual interfaces for deploying contracts and integrating wallets.
+No, many no-code and low-code builders allow you to create NFT websites without writing code. Tools like DexAppBuilder, Thirdweb, and Moralis offer visual interfaces for deploying contracts and integrating wallets.
 
 ### Which blockchain should I choose for my NFT project?
 
@@ -132,7 +132,7 @@ Wallet integration is typically done via SDKs or widgets that connect to wallets
 
 ### Can I deploy smart contracts without coding?
 
-Yes, some no-code tools enable deploying standard NFT contracts through visual interfaces. For example, the builder lets you deploy ERC-721 or ERC-1155 contracts on multiple chains without writing Solidity.
+Yes, some no-code tools enable deploying standard NFT contracts through visual interfaces. For example, DexAppBuilder lets you deploy ERC-721 or ERC-1155 contracts on multiple chains without writing Solidity.
 
 ### What are the common pitfalls when launching an NFT website?
 

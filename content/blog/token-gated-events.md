@@ -88,7 +88,7 @@ You get maximum flexibility, but higher complexity and longer build times.
 
 No-code and low-code platforms let non-developers create token gated events using visual editors and pre-built components.
 
-- **the builder**: Allows you to deploy wallet connections, token gating logic, and even NFT stores without writing code. You can visually set up which tokens grant access, design your event landing page, and publish across multiple blockchains.
+- **DexAppBuilder**: Allows you to deploy wallet connections, token gating logic, and even NFT stores without writing code. You can visually set up which tokens grant access, design your event landing page, and publish across multiple blockchains.
 - **Thirdweb**: Offers embeddable widgets and contract templates. While it’s developer-oriented, some workflows can be assembled by non-coders, especially for simple gating.
 - **Moralis**: Provides APIs and some low-code tools for token and NFT data, but full event UI assembly may require additional work.
 
@@ -157,7 +157,7 @@ They use blockchain verification to prevent ticket fraud and unauthorized entry.
 
 ### Can I create token gated events without coding?
 
-Yes, no-code builders enable creating token gated events using visual tools without writing smart contracts. For example, the builder lets you visually configure wallet authentication, gating logic, and even NFT ticketing. This is ideal for creators, marketers, and event organizers without a developer background.
+Yes, no-code builders enable creating token gated events using visual tools without writing smart contracts. For example, DexAppBuilder lets you visually configure wallet authentication, gating logic, and even NFT ticketing. This is ideal for creators, marketers, and event organizers without a developer background.
 
 ### Which tokens can be used for gating events?
 
@@ -165,7 +165,7 @@ Both NFTs and fungible tokens can be used. For exclusive, one-of-a-kind access, 
 
 ### What are common tools for token gated event implementation?
 
-Popular tools include auth SDKs like Privy (for embedded wallets and social login), widget suites like Thirdweb (for embeddable Connect and Pay widgets), and custom developer frameworks such as Hardhat or Foundry (for full-code solutions). No-code platforms like the builder can simplify the process further. For a detailed breakdown, see .
+Popular tools include auth SDKs like Privy (for embedded wallets and social login), widget suites like Thirdweb (for embeddable Connect and Pay widgets), and custom developer frameworks such as Hardhat or Foundry (for full-code solutions). No-code platforms like DexAppBuilder can simplify the process further. For a detailed breakdown, see .
 
 ### Are token gated events suitable for virtual and physical events?
 
@@ -173,7 +173,7 @@ Yes, token gating can secure access for both virtual events (like online confere
 
 ---
 
-For a comprehensive overview of token gating—including use cases beyond events—check out our . If you want to experiment with token gated events without a developer, try a visual builder such as the builder to get started fast.
+For a comprehensive overview of token gating—including use cases beyond events—check out our . If you want to experiment with token gated events without a developer, try a visual builder such as DexAppBuilder to get started fast.
 
 ## Related reads
 

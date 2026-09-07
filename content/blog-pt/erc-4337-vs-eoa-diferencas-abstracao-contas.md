@@ -128,7 +128,7 @@ O Thirdweb é popular entre desenvolvedores pelas suas SDKs, widgets embutíveis
 - Menos visual que alguns construtores no-code; requer alguma codificação.
 - Criação e layout completos de DApp exigem esforço do desenvolvedor.
 
-**Nota:** o construtor faz deploy de contratos Thirdweb via DexContracts, combinando edição no-code com a robusta biblioteca de contratos Thirdweb.
+**Nota:** DexAppBuilder faz deploy de contratos Thirdweb via DexContracts, combinando edição no-code com a robusta biblioteca de contratos Thirdweb.
 
 **Ideal para:** Desenvolvedores que querem flexibilidade e controlo, e estão confortáveis a trabalhar com SDKs.
 
@@ -191,7 +191,7 @@ O ERC-4337 introduz abstração de contas, permitindo que carteiras sejam contra
 As carteiras ERC-4337 podem permitir métodos flexíveis de pagamento de taxas. Através dos paymasters, apps ou terceiros podem patrocinar as taxas de gás, permitindo transações “sem gás” que melhoram o onboarding em comparação com EOAs tradicionais, onde o utilizador tem sempre de pagar o gás.
 
 ### O DexAppBuilder é compatível com carteiras ERC-4337?
-Sim, o builder suporta o deploy de carteiras de contrato inteligente usando ERC-4337 via DexContracts. Isto significa que pode construir DApps com lógica avançada de carteira e funcionalidades de onboarding — sem codificar — usando o construtor visual.
+Sim, o builder suporta o deploy de carteiras de contrato inteligente usando ERC-4337 via DexContracts. Isto significa que pode construir DApps com lógica avançada de carteira e funcionalidades de onboarding — sem codificar — usando DexAppBuilder visual.
 
 ### Quando devo escolher uma EOA simples em vez de carteiras ERC-4337?
 Escolha EOAs se precisar de uma carteira simples controlada pelo dev, valorizar simplicidade e estiver a construir para utilizadores confortáveis a gerir chaves privadas e frases-semente. EOAs têm menos complexidade e custos de deploy mais baixos.

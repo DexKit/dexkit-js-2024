@@ -104,7 +104,7 @@ No-code DApp builders come with drag-and-drop editors for designing your app’s
 - **Select a template**: Many platforms offer templates for common DApp types (marketplace, swap, DAO dashboard).
 - **Drag and drop elements**: Add buttons, forms, Featured NFTs or Collection List sections, token lists, and a Wallet section.
 - **Customize branding**: Upload your logo, set colors, and edit text to match your project.
-- **Preview and test**: Use the builder’s preview mode to see how your DApp looks and works.
+- **Preview and test**: Use DexAppBuilder’s preview mode to see how your DApp looks and works.
 
 **Best practice:** Keep your interface simple and intuitive, especially for users new to crypto.
 
@@ -116,7 +116,7 @@ Smart contracts are the backbone of any DApp. Traditionally, deploying a contrac
 
 - **Choose from templates**: Most builders offer pre-built contracts for tokens (ERC20, ERC721), marketplaces, or DAOs.
 - **Configure contract parameters**: Set token name, symbol, supply, royalty rates, or permissions via simple forms.
-- **Deploy to testnet**: Click “Deploy” and confirm the transaction in your wallet. The builder handles the rest.
+- **Deploy to testnet**: Click “Deploy” and confirm the transaction in your wallet. DexAppBuilder handles the rest.
 - **Connect contract to UI**: Link contract actions (mint, buy, transfer) to buttons or forms in your DApp.
 
 Some platforms let you deploy Thirdweb contracts via a visual editor, combining the flexibility of established templates with the simplicity of no-code workflows.

@@ -79,13 +79,13 @@ You’re responsible for integrating the SDK, handling edge cases, and maintaini
 **Example:** 
 Onboarding new users to a DeFi platform with a “Sign in with Google or connect your wallet” button, using a Privy or Web3Auth SDK.
 
-### Builder Widgets and No-Code Tools: Thirdweb, Moralis, and the builder
+### Builder Widgets and No-Code Tools: Thirdweb, Moralis, and DexAppBuilder
 
 No-code and low-code tools let you add wallet login buttons without writing complex code.
 
-- **Thirdweb:** Provides embeddable Connect and Pay widgets, plus contract templates and a developer dashboard. Best for devs who want plug-and-play widgets and contract deployment, but not a full visual DApp builder. (the builder actually deploys Thirdweb contracts with its own visual editor.)
+- **Thirdweb:** Provides embeddable Connect and Pay widgets, plus contract templates and a developer dashboard. Best for devs who want plug-and-play widgets and contract deployment, but not a full visual DApp builder. (DexAppBuilder actually deploys Thirdweb contracts with its own visual editor.)
 - **Moralis:** Focuses on Web3 APIs, indexed blockchain data, and some no-code/low-code tooling. You can build basic authentication flows, but for a full branded DApp UI, more assembly is needed.
-- **the builder:** Offers a visual, no-code builder for end-to-end DApp creation—including wallet login, NFT stores, token gating, and swaps—without writing JavaScript or Solidity. Especially useful for solo founders, creators, and communities who want to launch a branded DApp fast.
+- **DexAppBuilder:** Offers a visual, no-code builder for end-to-end DApp creation—including wallet login, NFT stores, token gating, and swaps—without writing JavaScript or Solidity. Especially useful for solo founders, creators, and communities who want to launch a branded DApp fast.
 
 **When to use:** 
 Choose widgets or no-code builders if you want to launch quickly, have minimal coding resources, or need to prototype wallet login as part of a larger DApp.
@@ -94,7 +94,7 @@ Choose widgets or no-code builders if you want to launch quickly, have minimal c
 You may have less control over the fine details of the login flow. Advanced features or custom UI may still require manual coding or SDK integration.
 
 **Example:** 
-Launching an NFT marketplace that requires fast wallet login, using the builder to add a connect-wallet button and NFT store visually.
+Launching an NFT marketplace that requires fast wallet login, using DexAppBuilder to add a connect-wallet button and NFT store visually.
 
 ### Custom Development with Hardhat/Foundry and React
 
@@ -143,7 +143,7 @@ A web3 login button enables users to connect their cryptocurrency wallets and au
 
 ### Can I implement a Web3 login button without coding?
 
-Yes, no-code tools like the builder and some widget providers allow you to add Web3 login buttons without writing code. This is ideal for founders or creators who want to launch fast without hiring developers.
+Yes, no-code tools like DexAppBuilder and some widget providers allow you to add Web3 login buttons without writing code. This is ideal for founders or creators who want to launch fast without hiring developers.
 
 ### Which wallets are commonly supported by Web3 login buttons?
 
@@ -167,7 +167,7 @@ See our guides on and for deeper dives into protocols and implementation strateg
 
 ---
 
-For more visual, no-code options, explore how the builder can help you add wallet login, NFT stores, and more—without writing a single line of code.
+For more visual, no-code options, explore how DexAppBuilder can help you add wallet login, NFT stores, and more—without writing a single line of code.
 
 ## Related reads
 

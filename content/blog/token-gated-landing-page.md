@@ -71,7 +71,7 @@ Token gating relies on smart contracts—self-executing code on the blockchain�
 
 - **Standard Contracts:** Most gating uses standard ERC-20 (fungible token) or ERC-721/ERC-1155 (NFT) contracts. You can gate a page by requiring ownership of a specific contract’s token.
 - **Custom Logic:** For advanced scenarios, deploy a custom smart contract that defines complex rules (e.g., holding multiple tokens, time-based access, or staking requirements).
-- **No-Code Deployment:** Many no-code platforms let you deploy standard token contracts or import existing ones. Some, like the builder, support deploying Thirdweb contracts via their visual interface.
+- **No-Code Deployment:** Many no-code platforms let you deploy standard token contracts or import existing ones. Some, like DexAppBuilder, support deploying Thirdweb contracts via their visual interface.
 - **Security:** Once deployed, the contract logic is public and tamper-proof—users can verify the rules, and access checks are enforced transparently.
 
 If you’re building from scratch, frameworks like Hardhat or Foundry with React give you full control but require Solidity expertise, longer timelines, and thorough audits.
@@ -117,7 +117,7 @@ Wallet authentication typically involves prompting users to connect their crypto
 
 ### Can I create a token gated landing page without coding?
 
-Yes, you can create a token gated landing page without writing code by using no-code Web3 builders. Platforms like the builder let you visually design your page, set up token gating, and integrate wallet connections—all without coding smart contracts or frontend logic.
+Yes, you can create a token gated landing page without writing code by using no-code Web3 builders. Platforms like DexAppBuilder let you visually design your page, set up token gating, and integrate wallet connections—all without coding smart contracts or frontend logic.
 
 ### What types of tokens can be used for gating?
 

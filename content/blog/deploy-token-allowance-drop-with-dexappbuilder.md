@@ -117,7 +117,7 @@ Deployment alone doesn’t give you a shareable presale link your community will
 
 From [DexAppBuilder](https://dexappbuilder.dexkit.com/), **Create App** (or open an existing project). Add name, email, wallet. Under **Settings**, set logo, domain, theme, and turn on the network where you deployed the drop.
 
-New to the builder? Our [on-chain app walkthrough](https://dexkit.com/blog/creating-on-chain-application-made-easy-with-dexappbuilder) covers Settings and Layout in more detail.
+New to DexAppBuilder? Our [on-chain app walkthrough](https://dexkit.com/blog/creating-on-chain-application-made-easy-with-dexappbuilder) covers Settings and Layout in more detail.
 
 ### Add the claim page (DexGenerator section)
 

@@ -32,8 +32,8 @@ For example, imagine launching a multi-chain NFT marketplace without writing Sol
 Choosing an AI Web3 website builder involves more than picking the most popular tool. Here are the key features to evaluate:
 
 - **No-code DApp creation:** Can you build and publish a functional Web3 app without writing code? Visual editors and guided workflows are critical if you’re not a developer.
-- **Wallet integration:** Does the builder support wallet authentication (like MetaMask or WalletConnect)? This is essential for user login and on-chain actions.
-- **Smart contract deployment:** Can you launch and manage smart contracts, such as ERC-20 tokens, NFT drops, or token-gated memberships, directly from the builder?
+- **Wallet integration:** Does the tool support wallet authentication (like MetaMask or WalletConnect)? This is essential for user login and on-chain actions.
+- **Smart contract deployment:** Can you launch and manage smart contracts, such as ERC-20 tokens, NFT drops, or token-gated memberships, directly from the tool?
 - **AI-generated UI and content:** Does the platform use AI to generate layouts, copy, or even code based on your prompts?
 - **Multi-chain support:** Can you deploy on major blockchains (e.g., Ethereum, Polygon, Arbitrum) without extra setup?
 - **Token gating and on-chain logic:** Is it possible to restrict content or features to users who hold certain tokens or NFTs?

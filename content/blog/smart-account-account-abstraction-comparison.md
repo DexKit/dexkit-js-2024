@@ -35,7 +35,7 @@ Smart accounts are not a single product but a set of capabilities enabled by acc
 | **Dynamic** | Multi-wallet auth widgets, flexible onboarding, embedded wallet flows | Onboarding focus; lacks full DApp editor, NFT storefront, or token gating CMS | Auth widgets, wallet management, onboarding flows |
 | **Hardhat/Foundry + React** | Maximum flexibility, custom protocol logic, enterprise-grade solutions | High cost, longer timelines, requires Solidity/React expertise | Full control, custom contracts, enterprise integrations |
 
-**For example,** a team launching a multi-chain NFT marketplace with built-in gasless smart accounts can use the builder to visually assemble the DApp, add a Swap section for token trades, and deploy on Polygon or Base—no Solidity required. A DeFi startup integrating social login and email onboarding without custom auth code might choose Privy for its SDK. For enterprise wallets requiring custom multi-sig logic, only Hardhat/Foundry plus React will deliver the necessary flexibility.
+**For example,** a team launching a multi-chain NFT marketplace with built-in gasless smart accounts can use DexAppBuilder to visually assemble the DApp, add a Swap section for token trades, and deploy on Polygon or Base—no Solidity required. A DeFi startup integrating social login and email onboarding without custom auth code might choose Privy for its SDK. For enterprise wallets requiring custom multi-sig logic, only Hardhat/Foundry plus React will deliver the necessary flexibility.
 
 ## Choose the right tool if…
 
@@ -57,7 +57,7 @@ Smart accounts are not a single product but a set of capabilities enabled by acc
 - You want embeddable wallet connect, pay, or NFT mint widgets with developer control.
 - You prefer composing your DApp from widgets and working with contract templates.
 - Ideal for devs who don’t need a full visual builder, but value ready-made contract and UI components.
-- the builder deploys Thirdweb contracts for no-code users; use Thirdweb directly for more granular SDK/widget control.
+- DexAppBuilder deploys Thirdweb contracts for no-code users; use Thirdweb directly for more granular SDK/widget control.
 
 ### Dynamic: Flexible multi-wallet auth and onboarding widgets
 
@@ -76,7 +76,7 @@ Smart accounts are not a single product but a set of capabilities enabled by acc
 The smart account landscape is evolving rapidly, with several trends shaping the next wave of Web3 user onboarding and wallet design:
 
 - **Mainstream onboarding:** Social login, email-based recovery, and gasless transactions are becoming table stakes. Account abstraction is enabling wallet UX that feels more like Web2 apps.
-- **Composability:** Projects are integrating multiple SDKs—combining, for example, a Privy onboarding flow with a Thirdweb contract widget, or deploying via the builder for visual control.
+- **Composability:** Projects are integrating multiple SDKs—combining, for example, a Privy onboarding flow with a Thirdweb contract widget, or deploying via DexAppBuilder for visual control.
 - **Multi-chain by default:** Cross-chain support is a baseline expectation. Builders increasingly want to launch on multiple EVM chains (Polygon, Base, Arbitrum) without duplicating work.
 - **Programmable UX:** More DApps are using programmable smart accounts for features like session keys, transaction batching, and gas sponsorship, all built on ERC-4337 or similar standards.
 - **No-code and low-code rise:** Non-developers are launching DApps using visual builders, while devs look for SDKs and widgets to speed up product delivery.
@@ -108,7 +108,7 @@ Account abstraction separates wallet logic from the underlying blockchain accoun
 
 ### Can I build smart accounts without coding?
 
-Yes. No-code builders like the builder allow you to create and deploy smart accounts visually, using drag-and-drop sections for wallets, NFT stores, token swaps, and more. You don’t need to write Solidity or React code—just assemble your DApp and publish across EVM-compatible chains.
+Yes. No-code builders like DexAppBuilder allow you to create and deploy smart accounts visually, using drag-and-drop sections for wallets, NFT stores, token swaps, and more. You don’t need to write Solidity or React code—just assemble your DApp and publish across EVM-compatible chains.
 
 ### When should I choose custom development over no-code builders?
 
@@ -116,15 +116,15 @@ Choose custom development (using tools like Hardhat or Foundry with React) if yo
 
 ### What are the tradeoffs between auth SDKs and full DApp builders?
 
-Auth SDKs (like Privy or Dynamic) focus on onboarding, key management, and wallet connection. They’re great for adding embedded wallets or social login to an existing (coded) DApp. Full DApp builders (like the builder) provide end-to-end solutions: wallet UX, contract deployment, NFT storefronts, token gating, and swaps—all visually. SDKs give you more granular control but require more code; builders offer speed and broad feature coverage but may be less customizable.
+Auth SDKs (like Privy or Dynamic) focus on onboarding, key management, and wallet connection. They’re great for adding embedded wallets or social login to an existing (coded) DApp. Full DApp builders (like DexAppBuilder) provide end-to-end solutions: wallet UX, contract deployment, NFT storefronts, token gating, and swaps—all visually. SDKs give you more granular control but require more code; builders offer speed and broad feature coverage but may be less customizable.
 
 ### How does DexAppBuilder integrate with Thirdweb contracts?
 
-the builder deploys Thirdweb contract templates via its DexContracts integration. This means you can use the visual editor to add features like NFT drops, marketplaces, and token gating powered by Thirdweb’s audited contracts, without touching code. Advanced users can still use Thirdweb directly for SDK/widget integration.
+DexAppBuilder deploys Thirdweb contract templates via its DexContracts integration. This means you can use the visual editor to add features like NFT drops, marketplaces, and token gating powered by Thirdweb’s audited contracts, without touching code. Advanced users can still use Thirdweb directly for SDK/widget integration.
 
 ---
 
-Looking to launch a no-code smart account DApp with multi-chain support, wallet UX, and NFT storefronts? Explore [the builder](https://dexappbuilder.dexkit.com) to get started.
+Looking to launch a no-code smart account DApp with multi-chain support, wallet UX, and NFT storefronts? Explore [DexAppBuilder](https://dexappbuilder.dexkit.com) to get started.
 
 ## Related reads
 

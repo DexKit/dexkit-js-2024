@@ -77,7 +77,7 @@ For example, suppose you want to launch an NFT marketplace on Polygon without wr
 While dapp browsers and no-code builders have lowered the barrier to Web3 development, there are still some challenges:
 
 - **Browser Compatibility:** Not all dapp browsers support every blockchain or DApp standard. Some features (like advanced contract calls or Layer 2 networks) may work in one browser but not another.
-- **UX Gaps:** No-code DApps may look different across browsers, or have wallet connection issues if the browser doesn’t fully support the builder’s features.
+- **UX Gaps:** No-code DApps may look different across browsers, or have wallet connection issues if the browser doesn’t fully support DexAppBuilder’s features.
 - **Security Risks:** No-code creators must still be mindful of contract security. If a DApp builder connects to a malicious or misconfigured contract, users could lose funds—even with a secure browser.
 - **Performance:** Dapp browsers can sometimes be slower than traditional browsers, especially on mobile devices or when interacting with complex contracts.
 

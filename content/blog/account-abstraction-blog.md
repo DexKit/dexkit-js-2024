@@ -164,7 +164,7 @@ ERC-4337 is the main Ethereum standard making Account Abstraction possible witho
 
 ### Can I implement Account Abstraction without coding?
 
-Yes. Some no-code platforms, including the builder, offer visual editors and templates for deploying smart wallets and gasless onboarding. These tools let you add advanced wallet UX to your DApp without writing Solidity or front-end code.
+Yes. Some no-code platforms, including DexAppBuilder, offer visual editors and templates for deploying smart wallets and gasless onboarding. These tools let you add advanced wallet UX to your DApp without writing Solidity or front-end code.
 
 ### What are the main challenges in adopting Account Abstraction?
 

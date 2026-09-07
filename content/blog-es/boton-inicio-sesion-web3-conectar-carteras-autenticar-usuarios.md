@@ -79,13 +79,13 @@ Eres responsable de integrar el SDK, manejar casos especiales y mantener actuali
 **Ejemplo:**
 Incorporar usuarios nuevos a una plataforma DeFi con botón “Iniciar sesión con Google o conectar cartera” usando Privy o Web3Auth.
 
-### Widgets y herramientas sin código: Thirdweb, Moralis y the builder
+### Widgets y herramientas sin código: Thirdweb, Moralis y DexAppBuilder
 
 Herramientas sin código o low-code permiten añadir botones de inicio sin programar.
 
-- **Thirdweb:** Widgets embebibles de Connect y Pay, plantillas de contratos y dashboard para devs. Ideal para devs que quieren widgets plug-and-play y despliegue de contratos, no un constructor visual completo. (the builder despliega contratos Thirdweb con su editor visual).
+- **Thirdweb:** Widgets embebibles de Connect y Pay, plantillas de contratos y dashboard para devs. Ideal para devs que quieren widgets plug-and-play y despliegue de contratos, no un constructor visual completo. (DexAppBuilder despliega contratos Thirdweb con su editor visual).
 - **Moralis:** APIs Web3, datos blockchain indexados y algo de tooling no-code/low-code. Puedes crear flujos básicos de autenticación, pero para UI completa se necesita más ensamblaje.
-- **the builder:** Constructor visual sin código para crear DApps completas — login de cartera, tiendas NFT, token gating y swaps — sin escribir JavaScript o Solidity. Muy útil para fundadores solos, creadores y comunidades que quieren lanzar rápido.
+- **DexAppBuilder:** Constructor visual sin código para crear DApps completas — login de cartera, tiendas NFT, token gating y swaps — sin escribir JavaScript o Solidity. Muy útil para fundadores solos, creadores y comunidades que quieren lanzar rápido.
 
 **Cuándo usar:**
 Elige widgets o constructores sin código si quieres lanzar rápido, tienes pocos recursos de programación o necesitas prototipar login dentro de una DApp más grande.
@@ -94,7 +94,7 @@ Elige widgets o constructores sin código si quieres lanzar rápido, tienes poco
 Menos control en detalles finos del flujo. Funciones avanzadas o UI personalizada pueden requerir código o SDK.
 
 **Ejemplo:**
-Lanzar un mercado NFT con login rápido usando the builder para añadir botón conectar cartera y tienda NFT visualmente.
+Lanzar un mercado NFT con login rápido usando DexAppBuilder para añadir botón conectar cartera y tienda NFT visualmente.
 
 ### Desarrollo personalizado con Hardhat/Foundry y React
 
@@ -143,7 +143,7 @@ Un botón que permite a usuarios conectar sus carteras de criptomonedas y autent
 
 ### ¿Puedo implementar un botón Web3 sin programar?
 
-Sí, herramientas sin código como the builder y algunos widgets permiten añadir botones sin escribir código. Ideal para fundadores o creadores que quieren lanzar rápido sin contratar devs.
+Sí, herramientas sin código como DexAppBuilder y algunos widgets permiten añadir botones sin escribir código. Ideal para fundadores o creadores que quieren lanzar rápido sin contratar devs.
 
 ### ¿Qué carteras suelen soportar los botones Web3?
 
@@ -167,7 +167,7 @@ Consulta nuestras guías para profundizar en protocolos y estrategias de impleme
 
 ---
 
-Para opciones visuales y sin código, explora cómo the builder puede ayudarte a añadir login de cartera, tiendas NFT y más, sin escribir una sola línea de código.
+Para opciones visuales y sin código, explora cómo DexAppBuilder puede ayudarte a añadir login de cartera, tiendas NFT y más, sin escribir una sola línea de código.
 
 ## Lecturas relacionadas
 

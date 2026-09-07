@@ -73,7 +73,7 @@ No tienes que empezar desde cero. Hay varios caminos:
 
 Tradicionalmente, crear contratos NFT requería aprender Solidity y usar herramientas de desarrollador. Hoy, constructores no-code te permiten elegir una plantilla (ERC-721 o ERC-1155), personalizar ajustes (nombre, símbolo, regalías) y desplegar en la blockchain elegida, a menudo con unos pocos clics.
 
-Por ejemplo, con el constructor puedes desplegar contratos NFT estándar visualmente, usando plantillas auditadas de proveedores como Thirdweb (que el constructor integra bajo el capó). Esto elimina riesgos de errores por copiar y pegar o código inseguro, mientras te permite acuñar y gestionar NFTs en Ethereum, Polygon o Binance Smart Chain.
+Por ejemplo, con DexAppBuilder puedes desplegar contratos NFT estándar visualmente, usando plantillas auditadas de proveedores como Thirdweb (que DexAppBuilder integra bajo el capó). Esto elimina riesgos de errores por copiar y pegar o código inseguro, mientras te permite acuñar y gestionar NFTs en Ethereum, Polygon o Binance Smart Chain.
 
 Si quieres experimentar, algunas plataformas ofrecen testnets, redes blockchain con tokens falsos, para probar acuñación sin gastar cripto real.
 

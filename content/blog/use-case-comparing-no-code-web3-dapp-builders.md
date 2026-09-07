@@ -118,7 +118,7 @@ If you’re unsure where to start, browse our [Web3 use cases and tutorials: bui
 ## Checklist: What to Look For in a No-Code Web3 DApp Builder
 
 - **Native wallet integration:** Can users connect wallets like MetaMask or WalletConnect without coding?
-- **Visual smart contract deployment:** Does the builder offer prebuilt, audited contracts for NFTs, tokens, or marketplaces?
+- **Visual smart contract deployment:** Does the tool offer prebuilt, audited contracts for NFTs, tokens, or marketplaces?
 - **Token gating:** Can you restrict access to content or features based on token ownership—no code required?
 - **Multi-chain support:** Is deployment possible on different blockchains (e.g., Ethereum, Polygon, Base)?
 - **Visual editor:** Is the page and flow builder drag-and-drop, or does it require code?

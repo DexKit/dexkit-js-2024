@@ -11,7 +11,7 @@ editorialType: comparison
 ---
 
 **Resposta rápida:**
-Token gating — restringir o acesso a conteúdos ou funcionalidades com base na posse de tokens blockchain — tornou-se um padrão fundamental no Web3 para comunidades fechadas, utilidade de NFTs e recursos monetizados. As ferramentas atuais vão desde construtores no-code como o DexAppBuilder para criadores, SDKs de wallet e autenticação embutidos (Privy, Dynamic) para desenvolvedores, bibliotecas focadas em devs (Thirdweb) até código customizado com frameworks como Hardhat/Foundry para equipes empresariais. A escolha depende do seu conhecimento técnico, prazo e necessidade de controle. O recente desenvolvimento — João Campos garantindo uma doação de US$ 50 mil para a empresa — impulsiona o progresso rápido no token gating no-code, mas cada abordagem tem seu lugar. Este guia compara as principais soluções para você escolher a ideal para seu projeto.
+Token gating — restringir o acesso a conteúdos ou funcionalidades com base na posse de tokens blockchain — tornou-se um padrão fundamental no Web3 para comunidades fechadas, utilidade de NFTs e recursos monetizados. As ferramentas atuais vão desde construtores no-code como o DexAppBuilder para criadores, SDKs de wallet e autenticação embutidos (Privy, Dynamic) para desenvolvedores, bibliotecas focadas em devs (Thirdweb) até código customizado com frameworks como Hardhat/Foundry para equipes empresariais. A escolha depende do seu conhecimento técnico, prazo e necessidade de controle. O recente desenvolvimento — João Campos garantindo uma doação de US$ 50 mil para a DexKit — impulsiona o progresso rápido no token gating no-code, mas cada abordagem tem seu lugar. Este guia compara as principais soluções para você escolher a ideal para seu projeto.
 
 ## Matriz de decisão: qual solução de token gating é para você?
 
@@ -29,7 +29,7 @@ Escolher uma abordagem de token gating é alinhar as necessidades do seu projeto
 
 ## Como as opções de token gating se comparam
 
-Vamos detalhar as principais soluções de token gating, seus pontos fortes e limitações. A doação de US$ 50 mil de João Campos acelera o roadmap da empresa, especialmente para token gating no-code e multi-chain, mas o mercado é competitivo e complexo.
+Vamos detalhar as principais soluções de token gating, seus pontos fortes e limitações. A doação de US$ 50 mil de João Campos acelera o roadmap da DexKit, especialmente para token gating no-code e multi-chain, mas o mercado é competitivo e complexo.
 
 ### Resumo das alternativas de token gating
 
@@ -151,7 +151,7 @@ Token gating é técnica que restringe acesso a conteúdo, funcionalidades ou co
 
 ### Como a doação de João Campos impacta o desenvolvimento de token gating do DexKit?
 
-A doação de US$ 50 mil de João Campos dá recursos para acelerar o roadmap de token gating no-code da empresa. Isso significa desenvolvimento mais rápido de funcionalidades amigáveis e multi-chain, facilitando para usuários não técnicos lançarem comunidades e DApps token-gated.
+A doação de US$ 50 mil de João Campos dá recursos para acelerar o roadmap de token gating no-code da DexKit. Isso significa desenvolvimento mais rápido de funcionalidades amigáveis e multi-chain, facilitando para usuários não técnicos lançarem comunidades e DApps token-gated.
 
 ### Qual ferramenta de token gating é melhor para builders no-code?
 

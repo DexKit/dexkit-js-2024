@@ -115,7 +115,7 @@ Choosing the right web3 website builder is about matching your needs to the plat
 - **Cost:**  
   Are there free tiers, transaction fees, or subscription costs?
 - **Scalability:**  
-  Does the builder support growth—adding new features, more users, or scaling to new chains?
+  Does the tool support growth—adding new features, more users, or scaling to new chains?
 
 If your main goal is a marketing or blog site, you might be better off with a traditional builder like WordPress or Wix (see our  guide). But for NFT projects, token communities, or DApps, a web3-first builder is usually worth it.
 

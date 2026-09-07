@@ -111,7 +111,7 @@ No. DexAppBuilder está diseñado para usuarios sin experiencia en programación
 
 ### ¿Qué tan seguras son las DApps sin código creadas con DexAppBuilder?
 
-DexAppBuilder utiliza plantillas de smart contracts auditadas y protocolos seguros de despliegue para garantizar la seguridad de tu DApp. Los contratos se verifican on-chain y el constructor gestiona las claves privadas de forma segura. Siempre revisa tus configuraciones antes de desplegar en mainnet.
+DexAppBuilder utiliza plantillas de smart contracts auditadas y protocolos seguros de despliegue para garantizar la seguridad de tu DApp. Los contratos se verifican on-chain y DexAppBuilder gestiona las claves privadas de forma segura. Siempre revisa tus configuraciones antes de desplegar en mainnet.
 
 ### ¿Puedo personalizar el diseño frontend de mi DApp sin código?
 

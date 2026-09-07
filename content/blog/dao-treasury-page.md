@@ -69,7 +69,7 @@ No-code platforms allow you to build a treasury page visually, without writing c
 - **Pros:** Fast to launch, low technical barrier, easy to iterate.
 - **Cons:** Customization is limited; advanced logic (like custom vesting or unique governance models) may not be supported.
 
-the builder is one example: it lets DAOs create treasury pages by dragging and dropping wallet and contract sections, setting up multi-chain support, and integrating with governance tools. This is ideal for DAOs that want transparency and simple reporting, but don’t need deep customization.
+DexAppBuilder is one example: it lets DAOs create treasury pages by dragging and dropping wallet and contract sections, setting up multi-chain support, and integrating with governance tools. This is ideal for DAOs that want transparency and simple reporting, but don’t need deep customization.
 
 ### Custom Development for Complex Logic
 
@@ -120,7 +120,7 @@ A DAO treasury page provides a transparent interface to track, manage, and repor
 
 ### Can I build a DAO treasury page without coding?
 
-Yes, no-code tools like the builder enable building treasury pages visually with integrated wallet and contract management. You can connect your DAO’s wallets, display balances, and even integrate basic governance flows—all without writing code.
+Yes, no-code tools like DexAppBuilder enable building treasury pages visually with integrated wallet and contract management. You can connect your DAO’s wallets, display balances, and even integrate basic governance flows—all without writing code.
 
 ### How do DAO treasury pages support multiple tokens and chains?
 
@@ -136,11 +136,11 @@ Custom development is preferred for complex treasury logic, enterprise needs, or
 
 ### Are there existing platforms that simplify treasury page creation?
 
-Platforms like the builder, Thirdweb, and Moralis offer different approaches—from no-code visual builders to API-driven solutions—enabling treasury page creation for DAOs of all sizes and technical backgrounds.
+Platforms like DexAppBuilder, Thirdweb, and Moralis offer different approaches—from no-code visual builders to API-driven solutions—enabling treasury page creation for DAOs of all sizes and technical backgrounds.
 
 ## For Example
 
-For example, a small community DAO could set up a treasury page using the builder to transparently display holdings and expenditures for members across Ethereum and Polygon, without writing a single line of code. A more technical DAO might use Moralis APIs to create a custom dashboard, or build from scratch with Hardhat and React if they need enterprise-grade features. An NFT collective could integrate their treasury page with a DAO voting system, automating fund releases only when proposals pass—making governance and financial management truly seamless.
+For example, a small community DAO could set up a treasury page using DexAppBuilder to transparently display holdings and expenditures for members across Ethereum and Polygon, without writing a single line of code. A more technical DAO might use Moralis APIs to create a custom dashboard, or build from scratch with Hardhat and React if they need enterprise-grade features. An NFT collective could integrate their treasury page with a DAO voting system, automating fund releases only when proposals pass—making governance and financial management truly seamless.
 
 If your DAO wants to go further, consider connecting your treasury page to other DAO tools, such as the , or , for a fully integrated governance and finance experience.
 

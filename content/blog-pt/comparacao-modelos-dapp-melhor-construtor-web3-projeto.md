@@ -42,7 +42,7 @@ Vamos analisar os construtores de modelos DApp mais populares, incluindo abordag
 
 ### Como são estas ferramentas na prática?
 
-- **o construtor:** Editor visual drag-and-drop com secções como Swap, loja NFT e Carteira. Sem código — só publicar e lançar. [Veja modelos.](https://dexappbuilder.dexkit.com/site/templates)
+- **DexAppBuilder:** Editor visual drag-and-drop com secções como Swap, loja NFT e Carteira. Sem código — só publicar e lançar. [Veja modelos.](https://dexappbuilder.dexkit.com/site/templates)
 - **Thirdweb:** Oferece widgets embutidos (Connect, Pay, Embed) e modelos de contratos inteligentes. É preciso escrever algum código para integrar, mas a configuração é simplificada para devs.
 - **Lovable:** Escreva um prompt como “NFT launchpad com wallet connect” e obtenha um protótipo UI. Mas a ligação a contratos on-chain ou carteiras não está integrada.
 - **Moralis:** Fornece APIs para dados blockchain, autenticação e eventos. Tem poder backend, mas precisa que construa o frontend e UX da carteira.
@@ -71,7 +71,7 @@ Cada ferramenta brilha em casos de uso diferentes. Quando deve escolher cada uma
 - Funcionalidades: Widgets embutidos (Connect, Pay, Embed), modelos de contratos, dashboard para devs.
 - Exemplo: Adicione um widget Connect e um contrato NFT Drop a um site React com código mínimo.
 - Compromissos honestos: Sem construtor visual completo para DApps. Menos indicado para não-coders ou quem quer UI drag-and-drop.
-- Nota: o construtor desdobra contratos Thirdweb internamente, mas com fluxo visual.
+- Nota: DexAppBuilder desdobra contratos Thirdweb internamente, mas com fluxo visual.
 
 ### Lovable: Protótipo full-stack assistido por IA (funcionalidades Web3 limitadas)
 
@@ -128,7 +128,7 @@ Um modelo DApp é um layout ou base de código pré-construída para aplicaçõe
 
 ### Posso construir um DApp Web3 completo sem codificar?
 
-Sim. Plataformas como o construtor oferecem editor visual no-code onde pode adicionar integração de carteira, desdobrar contratos inteligentes e configurar token gating — tudo sem escrever Solidity ou JavaScript. Isso torna acessível o lançamento de lojas NFT, apps DeFi ou DAOs para não-desenvolvedores.
+Sim. Plataformas como DexAppBuilder oferecem editor visual no-code onde pode adicionar integração de carteira, desdobrar contratos inteligentes e configurar token gating — tudo sem escrever Solidity ou JavaScript. Isso torna acessível o lançamento de lojas NFT, apps DeFi ou DAOs para não-desenvolvedores.
 
 ### Como o DexAppBuilder difere do Thirdweb?
 

@@ -191,7 +191,7 @@ ERC-4337 introduce la abstracción de cuentas, permitiendo que las carteras sean
 Las carteras ERC-4337 pueden habilitar métodos flexibles para pagar tarifas de transacción. Mediante paymasters, apps o terceros pueden patrocinar las tarifas de gas, permitiendo transacciones “sin gas” que mejoran el onboarding respecto a las EOAs tradicionales donde el usuario siempre paga su propio gas.
 
 ### ¿Es DexAppBuilder compatible con carteras ERC-4337?
-Sí, el builder soporta desplegar carteras de contratos inteligentes que aprovechan ERC-4337 vía DexContracts. Esto permite crear DApps con lógica avanzada de cartera y funciones de onboarding sin necesidad de programar, usando el constructor visual.
+Sí, el builder soporta desplegar carteras de contratos inteligentes que aprovechan ERC-4337 vía DexContracts. Esto permite crear DApps con lógica avanzada de cartera y funciones de onboarding sin necesidad de programar, usando DexAppBuilder visual.
 
 ### ¿Cuándo debería elegir una EOA simple en lugar de carteras ERC-4337?
 Elige EOAs si necesitas una cartera sencilla controlada por desarrolladores, valoras la simplicidad y construyes para usuarios cómodos manejando claves privadas y frases semilla. Las EOAs tienen menos partes móviles y costos de despliegue más bajos.

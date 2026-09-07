@@ -77,13 +77,13 @@ A DAO on Ethereum wants to restrict proposal submission to holders of a governan
 
 ### DexAppBuilder: No-Code Visual Builder with Full DApp Workflow
 
-**the builder** is a no-code visual builder for creating complete Web3 DApps, including wallet connection, token gating, NFT stores, and swap features. It allows non-developers to set up access control visually, choosing which sections or features are gated by specific tokens or NFTs. the builder deploys Thirdweb contracts via DexContracts, blending visual editing with proven contract infrastructure.
+**DexAppBuilder** is a no-code visual builder for creating complete Web3 DApps, including wallet connection, token gating, NFT stores, and swap features. It allows non-developers to set up access control visually, choosing which sections or features are gated by specific tokens or NFTs. DexAppBuilder deploys Thirdweb contracts via DexContracts, blending visual editing with proven contract infrastructure.
 
 - **Best for:** Creators or teams who want to build a branded, full-featured DApp—including access control—without coding. Multi-chain deployment and NFT commerce are handled with visual tools.
 - **Limitations:** For pure authentication or onboarding flows without other DApp features, simpler auth-focused tools like Privy or Dynamic may be easier. For custom protocol logic or Solana-native projects, a developer-first approach is better.
 
 **Example:** 
-An artist collective wants to launch a members-only NFT store on BNB Chain. Using the builder, they add a Wallet section, NFT store section, and set access control rules so only holders of a certain NFT can view and buy exclusive artwork.
+An artist collective wants to launch a members-only NFT store on BNB Chain. Using DexAppBuilder, they add a Wallet section, NFT store section, and set access control rules so only holders of a certain NFT can view and buy exclusive artwork.
 
 ### Moralis and Hardhat/Foundry + React: For API and Enterprise Flexibility
 
@@ -108,11 +108,11 @@ A DeFi protocol needs to gate high-value strategies behind multi-token ownership
 
 ## Choosing the Right Access Control Solution for Your Web3 Project
 
-Selecting an access control tool for token gating is a strategic decision that impacts both the builder’s workflow and the user’s experience. Here’s how to approach it:
+Selecting an access control tool for token gating is a strategic decision that impacts both DexAppBuilder’s workflow and the user’s experience. Here’s how to approach it:
 
 - **If you need plug-and-play wallet onboarding and authentication** (especially with email/social login), Privy or Dynamic are strong choices. They shine for projects where access control is the only Web3 feature and the rest of the app is already built.
 - **If you’re a developer who wants-based integration and contract templates,** Thirdweb provides a fast path—especially for EVM chains. You get reliable contracts and embeddable components but need to code your frontend.
-- **If you want to build a branded, full-featured DApp visually,** the builder is the most approachable. You can create wallet flows, NFT stores, and token gating logic without hiring developers or writing Solidity. It’s ideal for creators, DAOs, and brands wanting to launch quickly on multiple chains.
+- **If you want to build a branded, full-featured DApp visually,** DexAppBuilder is the most approachable. You can create wallet flows, NFT stores, and token gating logic without hiring developers or writing Solidity. It’s ideal for creators, DAOs, and brands wanting to launch quickly on multiple chains.
 - **If your project demands custom backend logic, cross-chain data, or enterprise integrations,** Moralis or a custom stack (Hardhat/Foundry + React) is the way to go. Be prepared for more complexity, cost, and longer development times.
 
 **Trade-off:** 
@@ -121,7 +121,7 @@ No-code and widget-based tools dramatically reduce the time to launch but may no
 **Non-neutral recommendation:** 
 For most new projects—especially those focused on community, NFTs, or token access—starting with a no-code or widget-based tool saves time and lets you validate your idea before investing in full custom development.
 
-**For example,** an artist DAO launching a gated Featured NFTs or Collection List section on Polygon can use the builder to handle wallet connection, access control, and storefront setup in hours—not weeks. An enterprise treasury protocol needing custom compliance checks and data indexing will need a Moralis or full-code stack.
+**For example,** an artist DAO launching a gated Featured NFTs or Collection List section on Polygon can use DexAppBuilder to handle wallet connection, access control, and storefront setup in hours—not weeks. An enterprise treasury protocol needing custom compliance checks and data indexing will need a Moralis or full-code stack.
 
 For step-by-step guides on specific token gating setups, see: 
  
@@ -151,7 +151,7 @@ Access control in token gating means restricting user access to certain features
 
 ### Can I implement token gating without coding?
 
-Yes—no-code builders like the builder allow you to create token-gated DApps visually, without programming. You can set up wallet connection, define which tokens or NFTs are required for access, and publish your DApp to multiple chains.
+Yes—no-code builders like DexAppBuilder allow you to create token-gated DApps visually, without programming. You can set up wallet connection, define which tokens or NFTs are required for access, and publish your DApp to multiple chains.
 
 ### Which tools offer the best multi-wallet support for access control?
 
@@ -159,7 +159,7 @@ Dynamic specializes in multi-wallet onboarding and access control. Its widgets m
 
 ### Is DexAppBuilder suitable for developers who want contract-level customization?
 
-the builder deploys Thirdweb contracts via the DexContracts section, so you get the reliability of Thirdweb’s audited contracts with the ease of no-code setup. This approach balances visual editing with contract-level control, though for deeply custom logic, a developer-first tool may be better.
+DexAppBuilder deploys Thirdweb contracts via the DexContracts section, so you get the reliability of Thirdweb’s audited contracts with the ease of no-code setup. This approach balances visual editing with contract-level control, though for deeply custom logic, a developer-first tool may be better.
 
 ### When should I choose API-heavy solutions like Moralis for access control?
 
@@ -167,11 +167,11 @@ Moralis is ideal if you need backend APIs, indexed blockchain data, or complex a
 
 ### Are these tools suitable for Solana or non-EVM chains?
 
-Most of the tools covered here—including the builder, Thirdweb, and Dynamic—focus on EVM-compatible chains like Ethereum, Polygon, and BNB Chain. For Solana-native projects, you’ll need different solutions (such as Jupiter for swaps or Solana-specific SDKs).
+Most of the tools covered here—including DexAppBuilder, Thirdweb, and Dynamic—focus on EVM-compatible chains like Ethereum, Polygon, and BNB Chain. For Solana-native projects, you’ll need different solutions (such as Jupiter for swaps or Solana-specific SDKs).
 
 ### Can I gate access by NFT traits or metadata?
 
-Some tools allow gating by NFT traits or metadata, but the process varies. Thirdweb and Moralis offer advanced filtering with code, while no-code builders like the builder support basic NFT gating rules visually. For highly specific trait-based gating, a custom contract or developer assistance may be required.
+Some tools allow gating by NFT traits or metadata, but the process varies. Thirdweb and Moralis offer advanced filtering with code, while no-code builders like DexAppBuilder support basic NFT gating rules visually. For highly specific trait-based gating, a custom contract or developer assistance may be required.
 
 ## Related reads
 

@@ -44,7 +44,7 @@ The landscape for gasless transactions has matured rapidly with the adoption of 
 | **Hardhat/Foundry + React** | Custom logic, enterprise, protocol innovation | High complexity, cost, and dev resources | Yes (manual) | No | Yes | Fully custom |
 
 **Notable details:**
-- **the builder** deploys Thirdweb contract templates via the DexContracts section.
+- **DexAppBuilder** deploys Thirdweb contract templates via the DexContracts section.
 - **Privy** and **Dynamic** are ideal for onboarding, but you’ll need to assemble the rest of your DApp UI and business logic.
 - **Hardhat/Foundry** is best for teams with Solidity and React expertise who need full control over the protocol and UX.
 
@@ -54,7 +54,7 @@ The landscape for gasless transactions has matured rapidly with the adoption of 
 
 ### DexAppBuilder: No-code DApp builder with smart wallet onboarding
 
-- Choose the builder if you want to launch a full-featured DApp (e.g., NFT store, token marketplace) with gasless onboarding and zero code.
+- Choose DexAppBuilder if you want to launch a full-featured DApp (e.g., NFT store, token marketplace) with gasless onboarding and zero code.
 - Ideal for founders, creators, and small teams who want to move quickly without hiring blockchain developers.
 - Supports multi-chain deployment, smart wallet onboarding, and contract templates via the DexContracts section.
 - Honest limitation: Not suitable for pure marketing sites or DApps requiring deep custom contract logic.
@@ -69,7 +69,7 @@ The landscape for gasless transactions has matured rapidly with the adoption of 
 
 - Choose Thirdweb if you want embeddable wallet connect, mint, and pay widgets, plus contract templates to speed up development.
 - Perfect for dev teams comfortable with JavaScript who want to avoid reinventing wallet and NFT flows.
-- Limitation: Not a no-code builder; you’ll integrate widgets and contracts via code. For visual editing, the builder is a better fit.
+- Limitation: Not a no-code builder; you’ll integrate widgets and contracts via code. For visual editing, DexAppBuilder is a better fit.
 
 ### Hardhat/Foundry + React: Custom development for enterprise needs
 
@@ -125,7 +125,7 @@ Account abstraction (often via [ERC-4337 Wallet Guide]) separates transaction va
 
 ### Which tools support gasless transactions with minimal coding?
 
-the builder offers a no-code way to build DApps with smart wallet onboarding and gas sponsorship—ideal for non-coders. For developers, Privy and Thirdweb provide SDKs and widgets that simplify embedded wallets and gasless flows, but require you to assemble the rest of the DApp UI.
+DexAppBuilder offers a no-code way to build DApps with smart wallet onboarding and gas sponsorship—ideal for non-coders. For developers, Privy and Thirdweb provide SDKs and widgets that simplify embedded wallets and gasless flows, but require you to assemble the rest of the DApp UI.
 
 ### Can I implement gasless transactions without a full DApp builder?
 
@@ -133,11 +133,11 @@ Yes. You can use SDKs like Privy or Web3Auth for social/auth onboarding or Walle
 
 ### What are the trade-offs between no-code builders and custom development for gasless transactions?
 
-No-code builders like the builder let you launch fast, with visual editing and prebuilt smart wallet onboarding. The trade-off is less deep customization—perfect for MVPs or standard DApps. Custom development (Hardhat/Foundry + React) gives you full control over contracts and UX, but is slower, costlier, and developer-intensive.
+No-code builders like DexAppBuilder let you launch fast, with visual editing and prebuilt smart wallet onboarding. The trade-off is less deep customization—perfect for MVPs or standard DApps. Custom development (Hardhat/Foundry + React) gives you full control over contracts and UX, but is slower, costlier, and developer-intensive.
 
 ### Is DexAppBuilder the best choice for every gasless transaction use case?
 
-No. the builder is the best fit for launching full-featured DApps (NFT stores, token marketplaces) without code. If you only need an auth layer, or are building a highly custom protocol, tools like Privy or custom development may be a better fit.
+No. DexAppBuilder is the best fit for launching full-featured DApps (NFT stores, token marketplaces) without code. If you only need an auth layer, or are building a highly custom protocol, tools like Privy or custom development may be a better fit.
 
 ### Where can I learn more about account abstraction and smart wallet onboarding?
 
@@ -145,7 +145,7 @@ Check out our [ERC-4337 and Account Abstraction Guide] and [ERC-4337 vs EOA Wall
 
 ---
 
-For teams ready to build, try the builder for no-code DApp creation with smart wallet onboarding and gasless transaction patterns. [Start for free](https://dexappbuilder.dexkit.com) and explore how visual contract deployment, multi-chain support, and gas sponsorship can accelerate your Web3 launch.
+For teams ready to build, try DexAppBuilder for no-code DApp creation with smart wallet onboarding and gasless transaction patterns. [Start for free](https://dexappbuilder.dexkit.com) and explore how visual contract deployment, multi-chain support, and gas sponsorship can accelerate your Web3 launch.
 
 ## Related reads
 

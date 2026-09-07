@@ -73,7 +73,7 @@ Quando usar cada um? Se o objetivo principal é um site de marketing com blog, o
 
 Tradicionalmente, criar smart contracts NFT exigia aprender Solidity e usar ferramentas de programador. Hoje, construtores no-code permitem escolher um template (ERC-721 ou ERC-1155), personalizar definições (nome, símbolo, royalties) e implementar na blockchain escolhida — muitas vezes com poucos cliques.
 
-Por exemplo, com o construtor, pode implementar contratos NFT padrão visualmente, usando templates auditados de fornecedores como Thirdweb (integrado no backend do construtor). Isto elimina riscos de erros de copiar-colar ou código inseguro, enquanto permite cunhar e gerir NFTs em Ethereum, Polygon ou Binance Smart Chain.
+Por exemplo, com DexAppBuilder, pode implementar contratos NFT padrão visualmente, usando templates auditados de fornecedores como Thirdweb (integrado no backend do construtor). Isto elimina riscos de erros de copiar-colar ou código inseguro, enquanto permite cunhar e gerir NFTs em Ethereum, Polygon ou Binance Smart Chain.
 
 Se quiser experimentar, algumas plataformas oferecem testnets — redes blockchain que usam tokens falsos — para testar a cunhagem sem gastar criptomoeda real.
 

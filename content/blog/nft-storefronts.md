@@ -145,7 +145,7 @@ No-code NFT storefronts usually include built-in wallet connection options, such
 
 ### Are no-code NFT storefronts suitable for large collections?
 
-Yes, many no-code platforms support large NFT collections, sometimes in the thousands or tens of thousands. However, you should evaluate performance, scalability, and customization needs. For very large or complex drops, check if the builder supports batch minting, collection management, and high-traffic scenarios. Some platforms may require a paid tier or custom plan for enterprise-scale collections.
+Yes, many no-code platforms support large NFT collections, sometimes in the thousands or tens of thousands. However, you should evaluate performance, scalability, and customization needs. For very large or complex drops, check if the tool supports batch minting, collection management, and high-traffic scenarios. Some platforms may require a paid tier or custom plan for enterprise-scale collections.
 
 ### Do no-code builders support token gating and exclusive access?
 

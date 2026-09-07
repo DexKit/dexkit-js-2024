@@ -67,7 +67,7 @@ Los constructores sin código para tiendas NFT ofrecen editores visuales y compo
 
 - **Para quién es:** Creadores, artistas, pequeños equipos y marcas que quieren lanzar rápido sin contratar desarrolladores.
 - **Fortalezas:** Despliegue rápido, costos bajos, actualizaciones fáciles, integración de cartera incorporada y soporte multichain frecuente.
-- **Limitaciones:** La lógica personalizada o diseños únicos pueden estar limitados por el sistema de plantillas del constructor.
+- **Limitaciones:** La lógica personalizada o diseños únicos pueden estar limitados por el sistema de plantillas de DexAppBuilder.
 
 **Ejemplos de herramientas:** DexAppBuilder, Embed de Thirdweb (orientado a desarrolladores pero con opciones visuales).
 
@@ -110,7 +110,7 @@ Usa esta lista para asegurarte de cubrir lo esencial al crear tu tienda NFT:
 
 ### ¿Puedo crear un sitio para vender NFTs sin programar?
 
-Sí, puedes lanzar una tienda NFT sin programar usando plataformas sin código. Estas herramientas ofrecen editores visuales y componentes preconstruidos para integración de cartera, acuñación y ventas NFT. *the builder* es un ejemplo, permitiendo a creadores construir y desplegar tiendas NFT con solo unos clics.
+Sí, puedes lanzar una tienda NFT sin programar usando plataformas sin código. Estas herramientas ofrecen editores visuales y componentes preconstruidos para integración de cartera, acuñación y ventas NFT. *DexAppBuilder* es un ejemplo, permitiendo a creadores construir y desplegar tiendas NFT con solo unos clics.
 
 ### ¿Qué integraciones de cartera son importantes para sitios de venta NFT?
 

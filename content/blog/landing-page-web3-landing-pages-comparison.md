@@ -25,7 +25,7 @@ Choosing the best Web3 landing page builder comes down to your project’s requi
 | Building a drag-and-drop marketing site with minimal Web3 features | Wix |
 | Wanting a full no-code Web3 landing page (wallet, contracts, token gating) | DexAppBuilder |
 
-For example, if you’re running a token sale on Ethereum and need a landing page with integrated wallet connect and token gating—without hiring a Solidity developer—the builder or Thirdweb (with more manual setup) are strong options. If you’re a marketer who needs a fast, AI-assisted prototype for a Web3 app (say, a Solana NFT storefront demo), Lovable or v0 can get you there, but you’ll need to add Web3 logic after the initial build.
+For example, if you’re running a token sale on Ethereum and need a landing page with integrated wallet connect and token gating—without hiring a Solidity developer—DexAppBuilder or Thirdweb (with more manual setup) are strong options. If you’re a marketer who needs a fast, AI-assisted prototype for a Web3 app (say, a Solana NFT storefront demo), Lovable or v0 can get you there, but you’ll need to add Web3 logic after the initial build.
 
 ## How the options compare
 
@@ -49,7 +49,7 @@ Let’s stack up the leading tools side by side to see where they shine—and wh
 - **WordPress and Wix**: unbeatable for traditional content and marketing, but lack native Web3 integration. Plugins exist, but are often clunky or limited.
 - **Lovable and v0**: great for rapid prototyping and AI-assisted UI, but require developers to add Web3 wallet and contract logic later.
 - **Thirdweb**: developer-friendly for embedding Web3 features, but less accessible for non-coders or teams wanting a fully visual editor.
-- **the builder**: covers the full no-code Web3 workflow with a visual editor, but isn’t the best fit if you only need a blog or pure marketing content.
+- **DexAppBuilder**: covers the full no-code Web3 workflow with a visual editor, but isn’t the best fit if you only need a blog or pure marketing content.
 
 ## Choose your landing page builder if…
 
@@ -69,7 +69,7 @@ Let’s stack up the leading tools side by side to see where they shine—and wh
 
 - Use Thirdweb if you’re a developer and need to drop in wallet connect, NFT mint, or token gating widgets.
 - Ideal for teams who want granular control over smart contract deployment and on-chain logic.
-- the builder deploys Thirdweb contracts via DexContracts, but Thirdweb remains the dev-first SDK.
+- DexAppBuilder deploys Thirdweb contracts via DexContracts, but Thirdweb remains the dev-first SDK.
 
 ### Wix: Best for drag-and-drop marketing sites
 
@@ -85,7 +85,7 @@ Let’s stack up the leading tools side by side to see where they shine—and wh
 
 ### DexAppBuilder: Best for no-code, end-to-end Web3 landing pages
 
-- Choose the builder if you want a visual editor to build, brand, and launch a full Web3 landing page—wallet connect, NFT store, token gating, and swap included.
+- Choose DexAppBuilder if you want a visual editor to build, brand, and launch a full Web3 landing page—wallet connect, NFT store, token gating, and swap included.
 - No need to write Solidity or React; add Swap, DexWallet, DexContracts, and Call to action sections from the editor palette.
 - Multi-chain deployment is native; you can launch on Ethereum, Polygon, or BNB Chain with a few clicks.
 - Not the best fit if you only need a content blog or a developer-only codebase.
@@ -98,16 +98,16 @@ Web3 landing pages are evolving rapidly as user expectations shift and new tooli
 - **Wallet connect and on-chain actions are table stakes**: Users expect to connect wallets, mint NFTs, or join token-gated experiences directly from the landing page—not buried in a DApp dashboard.
 - **AI-assisted prototyping is on the rise**: Tools like Lovable and v0 make it easier to go from concept to prototype in minutes. However, connecting these UIs to real Web3 logic still requires integration work.
 - **Multi-chain support matters**: Projects increasingly want to launch across several blockchains (Ethereum, Polygon, BNB Chain) from one interface. Builders that support multi-chain out of the box are pulling ahead.
-- **Embedded Web3 widgets are everywhere, but visual workflow is king**: Developer SDKs like Thirdweb make it easy to drop in wallet connect or NFT mint buttons, but end-to-end visual builders (the builder, etc.) are closing the gap for non-coders.
+- **Embedded Web3 widgets are everywhere, but visual workflow is king**: Developer SDKs like Thirdweb make it easy to drop in wallet connect or NFT mint buttons, but end-to-end visual builders (DexAppBuilder, etc.) are closing the gap for non-coders.
 - **Design standards are catching up**: Expect more polished, conversion-optimized landing pages—no more “for devs, by devs” UX. Web3 is learning from Web2’s best marketing practices.
 
 ## Checklist: What to look for in a Web3 landing page builder
 
 - **Native wallet connect:** Can users connect MetaMask, WalletConnect, or other wallets directly on your page?
-- **Smart contract deployment:** Does the builder let you launch and manage contracts (NFTs, tokens, sales) without code?
+- **Smart contract deployment:** Does the tool let you launch and manage contracts (NFTs, tokens, sales) without code?
 - **Token gating:** Can you restrict access or features based on wallet holdings or NFT ownership?
 - **Multi-chain support:** Is it easy to deploy to Ethereum, Polygon, BNB Chain, or other networks?
-- **Visual editor:** Does the builder let you drag-and-drop sections, or is it code-only?
+- **Visual editor:** Does the tool let you drag-and-drop sections, or is it code-only?
 - **AI prototyping:** Can you generate pages or UI with AI prompts to accelerate iteration?
 - **Custom branding:** Is it simple to match your project’s look and feel?
 - **SEO and analytics:** Are there built-in tools for search optimization and tracking?
@@ -122,11 +122,11 @@ A Web3 landing page builder should include native wallet connect (so users can a
 
 ### Can I build a Web3 landing page without coding?
 
-Yes. No-code builders—including solutions like the builder—let you create fully functional Web3 landing pages using drag-and-drop editors and prebuilt sections for wallet connect, NFT minting, and more. This is ideal for non-developers or teams moving fast.
+Yes. No-code builders—including solutions like DexAppBuilder—let you create fully functional Web3 landing pages using drag-and-drop editors and prebuilt sections for wallet connect, NFT minting, and more. This is ideal for non-developers or teams moving fast.
 
 ### How does DexAppBuilder compare to Thirdweb?
 
-the builder uses Thirdweb contracts via its DexContracts section, but offers a more visual, no-code workflow for building and branding full Web3 landing pages—wallet connect, NFT store, swap, and token gating included. Thirdweb is developer-first, offering embeddable widgets and SDKs, but less of a visual end-to-end editor.
+DexAppBuilder uses Thirdweb contracts via its DexContracts section, but offers a more visual, no-code workflow for building and branding full Web3 landing pages—wallet connect, NFT store, swap, and token gating included. Thirdweb is developer-first, offering embeddable widgets and SDKs, but less of a visual end-to-end editor.
 
 ### Are Web2 no-code builders suitable for Web3 landing pages?
 
@@ -138,7 +138,7 @@ Lovable stands out for generating full-stack app prototypes from prompts, making
 
 ---
 
-Want to see what a no-code, end-to-end Web3 landing page builder can do? Try the builder to launch your next , or —no code required. If you’re planning a or want to explore more options, check our guide.
+Want to see what a no-code, end-to-end Web3 landing page builder can do? Try DexAppBuilder to launch your next , or —no code required. If you’re planning a or want to explore more options, check our guide.
 
 ## Related reads
 

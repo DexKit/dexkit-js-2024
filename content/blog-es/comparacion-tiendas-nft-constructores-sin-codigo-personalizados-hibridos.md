@@ -97,7 +97,7 @@ Por ejemplo, un artista digital puede usar el editor visual para configurar una 
 
 Las tiendas NFT evolucionan rápidamente conforme maduran la tecnología y las expectativas de usuarios. Aquí las tendencias clave a considerar:
 
-- **Experiencias wallet-nativas:** Los compradores esperan conectar sus wallets cripto directamente, poseer NFTs on-chain y minting o transferir activos sin salir del sitio. Soluciones con secciones wallet integradas o flujos wallet connect (como en el constructor o widgets Thirdweb) se vuelven estándar.
+- **Experiencias wallet-nativas:** Los compradores esperan conectar sus wallets cripto directamente, poseer NFTs on-chain y minting o transferir activos sin salir del sitio. Soluciones con secciones wallet integradas o flujos wallet connect (como en DexAppBuilder o widgets Thirdweb) se vuelven estándar.
 - **Multi-cadena por defecto:** Artistas y marcas quieren llegar a audiencias en Ethereum, Polygon, Base y más. El despliegue multi-cadena sin configuraciones manuales complejas es ya imprescindible. El constructor y algunas herramientas para desarrolladores lideran aquí.
 - **Editores visuales sin código:** El auge de constructores visuales permite a más creadores lanzar tiendas NFT sin programar. Se esperan más interfaces drag-and-drop, despliegue integrado de contratos y secciones de comercio listas para usar.
 - **Widgets Web3 composables:** Herramientas para desarrolladores como Thirdweb facilitan ensamblar flujos de wallet, minting y pagos como widgets embebibles. Sin embargo, crear una tienda con marca completa aún requiere más ensamblaje que con plataformas verdaderamente sin código.

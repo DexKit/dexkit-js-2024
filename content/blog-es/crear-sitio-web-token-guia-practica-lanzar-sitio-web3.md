@@ -122,7 +122,7 @@ Con estas herramientas puedes integrar funciones Web3 clave sin escribir Solidit
 
 Estas plataformas son ideales para añadir wallet connect, interacciones con tokens y token gating básico a un sitio existente, o si manejas algo de código.
 
-**the builder** se ubica en esta categoría, pero con un enfoque más visual, sin código y despliegue multi-chain, haciéndolo accesible para no desarrolladores que quieren lanzar un sitio de token completo.
+**DexAppBuilder** se ubica en esta categoría, pero con un enfoque más visual, sin código y despliegue multi-chain, haciéndolo accesible para no desarrolladores que quieren lanzar un sitio de token completo.
 
 ## Matriz de enfoques: ¿Cómo crear un sitio web de token?
 
@@ -133,7 +133,7 @@ Estas plataformas son ideales para añadir wallet connect, interacciones con tok
 | Lovable               | IA a prototipo  | Solo scaffolding UI                       | Prototipado rápido frontend | Sin wallet ni contratos nativos; dev necesario para Web3 |
 | v0 (Vercel)           | Generación UI IA| Ninguna out of the box                    | Kickstart UI React/Next.js | Se requieren habilidades dev para Web3 |
 | Thirdweb              | Widget + SDK   | Fuerte: wallet, token, contrato          | Integrar Web3 en sitios personalizados | Orientado a dev; menos visual; no es un builder completo |
-| the builder           | Visual, no-code Web3 | Completo: wallet, contratos, gating, swap | No desarrolladores lanzando sitios completos | Menos adecuado para sitios solo de contenido/blog |
+| DexAppBuilder           | Visual, no-code Web3 | Completo: wallet, contratos, gating, swap | No desarrolladores lanzando sitios completos | Menos adecuado para sitios solo de contenido/blog |
 
 ## Lista de verificación: Pasos para lanzar tu sitio web de token con éxito
 
@@ -156,7 +156,7 @@ Un sitio web de token es el hogar oficial en línea para el token de tu proyecto
 
 ### ¿Puedo crear un sitio web de token sin habilidades de programación?
 
-Sí. Existen constructores no-code y low-code que permiten crear sitios con wallet connect, visualización de tokens e incluso funciones on-chain sin programar. Plataformas como the builder, Thirdweb y Moralis atienden a no desarrolladores, mientras que herramientas Web2 como WordPress son mejores para sitios solo informativos.
+Sí. Existen constructores no-code y low-code que permiten crear sitios con wallet connect, visualización de tokens e incluso funciones on-chain sin programar. Plataformas como DexAppBuilder, Thirdweb y Moralis atienden a no desarrolladores, mientras que herramientas Web2 como WordPress son mejores para sitios solo informativos.
 
 ### ¿Qué herramientas soportan transacciones on-chain y wallet connect?
 
@@ -164,7 +164,7 @@ Constructores Web3 como Thirdweb y Moralis ofrecen soporte nativo para integraci
 
 ### ¿Cómo se comparan las plataformas no-code Web2 con los constructores Web3 para sitios de token?
 
-Las plataformas Web2 (WordPress, Wix) son excelentes para contenido, SEO y marketing, pero no soportan wallet connect ni funciones on-chain nativamente. Los constructores Web3 (Thirdweb, the builder) ofrecen módulos integrados para wallet, contratos y token gating, ideales para sitios interactivos. Si tu sitio es principalmente informativo, Web2 está bien; para funciones Web3 reales, usa un constructor Web3.
+Las plataformas Web2 (WordPress, Wix) son excelentes para contenido, SEO y marketing, pero no soportan wallet connect ni funciones on-chain nativamente. Los constructores Web3 (Thirdweb, DexAppBuilder) ofrecen módulos integrados para wallet, contratos y token gating, ideales para sitios interactivos. Si tu sitio es principalmente informativo, Web2 está bien; para funciones Web3 reales, usa un constructor Web3.
 
 ### ¿Cuáles son las consideraciones clave de seguridad al crear un sitio web de token?
 

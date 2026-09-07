@@ -39,7 +39,7 @@ Below is a side-by-side table comparing the most relevant options:
 | Hardhat/Foundry + React | Complex, custom protocols, enterprise solutions | High dev cost, long build cycles, steep learning curve | No | No | Yes | Yes |
 
 **Notable:**
-- the builder deploys Thirdweb contracts via its DexContracts system, combining contract reliability with a visual, no-code workflow.
+- DexAppBuilder deploys Thirdweb contracts via its DexContracts system, combining contract reliability with a visual, no-code workflow.
 - Thirdweb is ideal for developers who want to use widgets or SDKs, but does not offer a visual DApp builder.
 - Moralis shines for teams needing powerful APIs or backend data, not for full UI/UX out of the box.
 - Hardhat/Foundry plus React is for developer teams comfortable with Solidity and front-end frameworks.
@@ -50,19 +50,19 @@ Here’s when each approach wins—or loses. Each tool has its sweet spot, and k
 
 ### DexAppBuilder: visual no-code builder for end-to-end DApps
 
-- **Choose the builder if:** 
+- **Choose DexAppBuilder if:** 
  - You want to launch a branded Polygon DApp (NFT store, swap, wallet, token gating) without coding.
  - Visual drag-and-drop editing is a priority.
  - You want to deploy on multiple chains, including Polygon, with the same workflow.
  - You need a fast MVP to test your idea before investing in custom development.
  - You want to use Thirdweb contracts via a visual interface.
 
-- **Skip the builder if:** 
+- **Skip DexAppBuilder if:** 
  - You only need a wallet connect button or simple auth (dedicated SDKs are faster).
  - You require custom protocol logic or deep contract-level control.
  - You are building on Solana or need features not supported by the platform.
 
-**For example,** launching a Polygon NFT marketplace with no-code tools like the builder lets you rapidly test market demand and user flows before investing in a custom-coded solution.
+**For example,** launching a Polygon NFT marketplace with no-code tools like DexAppBuilder lets you rapidly test market demand and user flows before investing in a custom-coded solution.
 
 ### Thirdweb: embeddable widgets and developer-first contract tools
 
@@ -73,10 +73,10 @@ Here’s when each approach wins—or loses. Each tool has its sweet spot, and k
  - You want to integrate with your custom front-end using React or similar frameworks.
 
 - **Skip Thirdweb if:** 
- - You need a visual, no-code DApp builder (look at the builder instead).
+ - You need a visual, no-code DApp builder (look at DexAppBuilder instead).
  - You want a full branded DApp UI without coding.
 
-**Note:** the builder actually deploys Thirdweb contracts via its DexContracts system, so you get contract reliability with a visual builder if you want both worlds.
+**Note:** DexAppBuilder actually deploys Thirdweb contracts via its DexContracts system, so you get contract reliability with a visual builder if you want both worlds.
 
 ### Moralis: API-rich platform with no-code data and streams
 
@@ -137,11 +137,11 @@ Polygon DApp development is evolving fast, with a few clear trends shaping how b
 
 ### What is the easiest way to build a Polygon DApp without coding?
 
-Using no-code platforms like the builder, you can visually design a Polygon DApp, add wallet and Web3 sections, deploy contracts, and set up token gating or NFT sales—without writing code. This is ideal for non-developers or teams wanting to launch quickly.
+Using no-code platforms like DexAppBuilder, you can visually design a Polygon DApp, add wallet and Web3 sections, deploy contracts, and set up token gating or NFT sales—without writing code. This is ideal for non-developers or teams wanting to launch quickly.
 
 ### Can I use Thirdweb contracts within DexAppBuilder?
 
-Yes, the builder deploys Thirdweb contracts via its DexContracts system. This means you get the reliability and audit history of Thirdweb contracts, but with a visual, no-code builder experience.
+Yes, DexAppBuilder deploys Thirdweb contracts via its DexContracts system. This means you get the reliability and audit history of Thirdweb contracts, but with a visual, no-code builder experience.
 
 ### When should I choose custom development over no-code tools for Polygon?
 
@@ -153,7 +153,7 @@ Moralis focuses on APIs, indexed data, and backend automation. While it offers s
 
 ### Are no-code Polygon DApp builders suitable for multi-chain deployment?
 
-Yes. Platforms like the builder support deploying your DApp to multiple EVM chains—including Polygon—without writing Solidity code. This is useful if you want to reach users across networks. 
+Yes. Platforms like DexAppBuilder support deploying your DApp to multiple EVM chains—including Polygon—without writing Solidity code. This is useful if you want to reach users across networks. 
 For more, see .
 
 ### Can I add Web3 API integration to my Polygon DApp?
@@ -163,7 +163,7 @@ For details, check .
 
 ### What if I want to build for Ethereum and Polygon?
 
-Most tools covered here—the builder, Thirdweb, Moralis, and custom code—support both Ethereum and Polygon. You can start with Polygon for lower fees and scale to Ethereum as your project grows. 
+Most tools covered here—DexAppBuilder, Thirdweb, Moralis, and custom code—support both Ethereum and Polygon. You can start with Polygon for lower fees and scale to Ethereum as your project grows. 
 To compare options, see .
 
 ## Related reads

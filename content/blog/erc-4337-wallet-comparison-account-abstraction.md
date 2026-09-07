@@ -36,7 +36,7 @@ Here’s how leading ERC-4337 wallet solutions compare, including honest limitat
 | **Thirdweb** | Dev-first widgets, contract templates, developer dashboard | Less visual than DexAppBuilder; full DApp UI requires assembly; uses SDKs, not drag-and-drop |
 | **Hardhat/Foundry + React**| Maximum flexibility, custom protocol, enterprise builds | High cost, longer build times, requires skilled developers; no visual builder |
 
-**Note:** The builder deploys Thirdweb contracts via its DexContracts integration, so you can use Thirdweb’s contract templates inside a no-code visual builder.
+**Note:** DexAppBuilder deploys Thirdweb contracts via its DexContracts integration, so you can use Thirdweb’s contract templates inside a no-code visual builder.
 
 ## How the ERC-4337 wallet options compare
 
@@ -44,7 +44,7 @@ ERC-4337 introduced account abstraction, making it possible for wallets to be sm
 
 ### DexAppBuilder: no-code visual builder with embedded wallet
 
-- Choose the builder if you need to launch a full-featured, branded Web3 DApp and want to skip coding.
+- Choose DexAppBuilder if you need to launch a full-featured, branded Web3 DApp and want to skip coding.
 - Ideal for creators, agencies, and startups wanting to launch an NFT marketplace, DeFi portal, or crypto app with wallet onboarding, token trading, and NFT commerce.
 - You can add a **Wallet section** for embedded ERC-4337 smart wallets, a **Swap section** for token swaps, or an **NFT store section** for digital asset sales—all visually.
 - Supports multi-chain deploy out of the box.
@@ -52,7 +52,7 @@ ERC-4337 introduced account abstraction, making it possible for wallets to be sm
 - Honest trade-off: If you need highly customized protocol logic or want to build something beyond the editor’s templates, a developer toolchain is better.
 
 **Try a pre-built solution:** 
-To get started quickly, use the [DexWallet solution](https://dexappbuilder.dexkit.com/admin/quick-builder/wallet) for embedded wallet onboarding, or explore more at [the builder Solutions](https://dexappbuilder.dexkit.com/solutions).
+To get started quickly, use the [DexWallet solution](https://dexappbuilder.dexkit.com/admin/quick-builder/wallet) for embedded wallet onboarding, or explore more at [DexAppBuilder Solutions](https://dexappbuilder.dexkit.com/solutions).
 
 ### Privy: embedded auth with social login focus
 
@@ -68,7 +68,7 @@ To get started quickly, use the [DexWallet solution](https://dexappbuilder.dexki
 - Offers a developer dashboard, contract templates, and ready-to-use UI components.
 - Good middle ground for teams who want to move fast but still code their app.
 - For example, a DeFi aggregator that needs flexible smart wallet onboarding with gas fee abstraction, but you have React developers on hand.
-- Limitation: Less visual than the builder; you still need to assemble the DApp UI.
+- Limitation: Less visual than DexAppBuilder; you still need to assemble the DApp UI.
 
 ### Hardhat/Foundry + React: custom code for maximum flexibility
 
@@ -83,9 +83,9 @@ The ERC-4337 ecosystem is evolving quickly, with several trends shaping the futu
 
 - **Social login is becoming the norm:** More wallet solutions (like Privy and Web3Auth) offer email, Google, or Apple login, abstracting away seed phrases. This makes onboarding less intimidating for mainstream users.
 - **Gasless transactions:** Account abstraction enables projects to sponsor or batch user transactions, reducing friction. Solutions like Thirdweb and Alchemy Account Kit are popular for this.
-- **Embedded wallets vs. connect-only flows:** Projects increasingly embed wallets directly in their DApps (as with the builder or Privy), rather than relying on users to “connect” an external wallet like MetaMask.
+- **Embedded wallets vs. connect-only flows:** Projects increasingly embed wallets directly in their DApps (as with DexAppBuilder or Privy), rather than relying on users to “connect” an external wallet like MetaMask.
 - **Multi-chain by default:** Modern tools let you deploy contracts and onboard users across multiple EVM-compatible chains without duplicated work.
-- **No-code and low-code adoption:** Visual builders (the builder, Moralis) are lowering the barrier for creators and non-devs to launch sophisticated DApps with smart wallet flows.
+- **No-code and low-code adoption:** Visual builders (DexAppBuilder, Moralis) are lowering the barrier for creators and non-devs to launch sophisticated DApps with smart wallet flows.
 - **Programmable recovery and permissions:** Smart contract wallets can support social recovery, multi-sig, and custom spending policies, all via account abstraction.
 
 These trends mean that launching a user-friendly Web3 app is more accessible than ever—if you pick the right wallet and onboarding stack.
@@ -113,7 +113,7 @@ An ERC-4337 wallet is a smart contract wallet that separates key management from
 
 ### How does DexAppBuilder support ERC-4337 wallets?
 
-The builder enables you to create Web3 DApps with embedded ERC-4337-compatible wallets through a visual, no-code interface. You can add a Wallet section to your project, so users onboard directly inside your app. The builder also supports multi-chain deployment, NFT stores, and token swaps—all without writing code.
+DexAppBuilder enables you to create Web3 DApps with embedded ERC-4337-compatible wallets through a visual, no-code interface. You can add a Wallet section to your project, so users onboard directly inside your app. DexAppBuilder also supports multi-chain deployment, NFT stores, and token swaps—all without writing code.
 
 ### When should I choose custom development over no-code or SDK solutions?
 
@@ -125,11 +125,11 @@ Yes. Solutions like Privy and Web3Auth provide social login layers (Google, Appl
 
 ### What are the trade-offs between embedded wallets and connect-only protocols?
 
-Embedded wallets (like those in the builder or Privy) offer onboarding within your app, letting users create and manage wallets without leaving your site. This is great for mainstream adoption and retention. Connect-only protocols (like WalletConnect or RainbowKit) let users bring their own wallets, appealing to crypto-native users but requiring more steps and outside tools. The right choice depends on your audience and onboarding goals.
+Embedded wallets (like those in DexAppBuilder or Privy) offer onboarding within your app, letting users create and manage wallets without leaving your site. This is great for mainstream adoption and retention. Connect-only protocols (like WalletConnect or RainbowKit) let users bring their own wallets, appealing to crypto-native users but requiring more steps and outside tools. The right choice depends on your audience and onboarding goals.
 
 ---
 
-For a fast start with embedded ERC-4337 wallets and no coding, try the [DexWallet solution](https://dexappbuilder.dexkit.com/admin/quick-builder/wallet) in the builder, or browse all [the builder Solutions](https://dexappbuilder.dexkit.com/solutions).
+For a fast start with embedded ERC-4337 wallets and no coding, try the [DexWallet solution](https://dexappbuilder.dexkit.com/admin/quick-builder/wallet) in DexAppBuilder, or browse all [DexAppBuilder Solutions](https://dexappbuilder.dexkit.com/solutions).
 
 ## Related reads
 

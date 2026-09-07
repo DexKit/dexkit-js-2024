@@ -11,7 +11,7 @@ editorialType: informational
 ---
 
 Quick answer: 
-Sign-in with Ethereum is a way for users to securely authenticate on websites and apps using their Ethereum wallet—no passwords, no centralized accounts. The typical steps: (1) User clicks “Sign in with Ethereum,” (2) connects their wallet (like MetaMask or via WalletConnect), (3) signs a unique message to prove ownership, and (4) gains access. This approach is safer than passwords, streamlines onboarding, and is now accessible to both developers and non-coders. Tools like the builder offer no-code wallet authentication, while SDKs such as Privy and Dynamic give developers more flexibility.
+Sign-in with Ethereum is a way for users to securely authenticate on websites and apps using their Ethereum wallet—no passwords, no centralized accounts. The typical steps: (1) User clicks “Sign in with Ethereum,” (2) connects their wallet (like MetaMask or via WalletConnect), (3) signs a unique message to prove ownership, and (4) gains access. This approach is safer than passwords, streamlines onboarding, and is now accessible to both developers and non-coders. Tools like DexAppBuilder offer no-code wallet authentication, while SDKs such as Privy and Dynamic give developers more flexibility.
 
 ## What Is Sign-in with Ethereum and Why It Matters
 
@@ -61,9 +61,9 @@ Whether you’re a developer, product manager, or non-coder, there are multiple 
 No-code and low-code solutions have made wallet authentication accessible to non-developers and teams with limited engineering resources. These platforms offer drag-and-drop interfaces or simple configuration to add wallet connect and authentication flows.
 
 - **Embedded widgets:** Tools like Thirdweb and Moralis provide ready-made “Connect Wallet” widgets you can drop into a website or landing page. Configure supported wallets, branding, and callback URLs—no JavaScript required.
-- **Visual builders:** Platforms like the builder go further, letting you create full DApps with wallet authentication, NFT storefronts, token gating, and swap functionality—all from a visual editor. This suits teams who want to launch quickly without hiring blockchain developers.
+- **Visual builders:** Platforms like DexAppBuilder go further, letting you create full DApps with wallet authentication, NFT storefronts, token gating, and swap functionality—all from a visual editor. This suits teams who want to launch quickly without hiring blockchain developers.
 
-For example, a no-code creator can use a visual builder to launch a Web3 game that authenticates players via Ethereum wallets, using an embedded connect widget. The builder handles the wallet connection and user session management.
+For example, a no-code creator can use a visual builder to launch a Web3 game that authenticates players via Ethereum wallets, using an embedded connect widget. DexAppBuilder handles the wallet connection and user session management.
 
 **Trade-off:** No-code tools are fastest for standard flows, but may be less flexible if you need deep UI customization or advanced authentication logic.
 
@@ -73,7 +73,7 @@ For custom apps, developer SDKs and libraries offer granular control over the si
 
 - **Privy:** Lets you add wallet connect, embedded wallets, and social/email onboarding to your app. Handles auth logic, session management, and lets you customize the UX.
 - **Dynamic:** Provides multi-wallet connect widgets, embedded wallet flows, and flexible onboarding tailored for developers who want to fine-tune the experience.
-- **Thirdweb:** Offers embeddable wallet connect widgets, plus contract templates and developer dashboards. (Note: the builder uses Thirdweb contracts for some features.)
+- **Thirdweb:** Offers embeddable wallet connect widgets, plus contract templates and developer dashboards. (Note: DexAppBuilder uses Thirdweb contracts for some features.)
 - **Moralis:** Focuses on APIs and backend infrastructure, with widgets for wallet connect and user management.
 - **Hardhat/Foundry + React:** Full custom development gives you total control, but requires blockchain-savvy developers and more time.
 
@@ -113,7 +113,7 @@ Sign-in with Ethereum lets users authenticate by proving wallet ownership throug
 
 ### Can I implement Sign-in with Ethereum without coding?
 
-Yes. No-code platforms and embedded widgets make it possible to add wallet authentication without programming. Tools like the builder and others let you set up wallet connect flows visually or by pasting a small embed snippet.
+Yes. No-code platforms and embedded widgets make it possible to add wallet authentication without programming. Tools like DexAppBuilder and others let you set up wallet connect flows visually or by pasting a small embed snippet.
 
 ### Which wallet protocols support Sign-in with Ethereum?
 

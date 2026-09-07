@@ -31,7 +31,7 @@ Before comparing no-code DApp builders, it’s worth clarifying what Web3 featur
   Restrict access to content or features based on wallet holdings. Essential for DAOs, NFT communities, or premium content.
 
 - **Multi-Chain Support:**  
-  Does the builder support multiple blockchains? Ethereum, Polygon, and BNB Chain are common; some tools are EVM-only, others may support Solana or Layer 2s.
+  Does the tool support multiple blockchains? Ethereum, Polygon, and BNB Chain are common; some tools are EVM-only, others may support Solana or Layer 2s.
 
 - **UI Flexibility:**  
   Can you visually design your app, or are you limited to widgets and templates? Is there a drag-and-drop editor, or do you need to tweak code?

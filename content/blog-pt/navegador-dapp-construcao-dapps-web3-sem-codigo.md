@@ -77,7 +77,7 @@ Por exemplo, suponha que você queira lançar um marketplace NFT na Polygon sem 
 Embora navegadores de dapp e construtores sem código tenham reduzido a barreira para o desenvolvimento Web3, ainda existem desafios:
 
 - **Compatibilidade do Navegador:** Nem todos os navegadores de dapp suportam todas as blockchains ou padrões de DApp. Algumas funcionalidades (como chamadas avançadas de contrato ou redes Layer 2) podem funcionar em um navegador e não em outro.
-- **Lacunas na Experiência do Usuário:** DApps sem código podem apresentar diferenças visuais entre navegadores ou problemas na conexão da carteira se o navegador não suportar totalmente os recursos do construtor.
+- **Lacunas na Experiência do Usuário:** DApps sem código podem apresentar diferenças visuais entre navegadores ou problemas na conexão da carteira se o navegador não suportar totalmente os recursos do DexAppBuilder.
 - **Riscos de Segurança:** Criadores sem código ainda precisam se preocupar com a segurança dos contratos. Se um construtor conectar a um contrato malicioso ou mal configurado, usuários podem perder fundos — mesmo com um navegador seguro.
 - **Performance:** Navegadores de dapp podem ser mais lentos que navegadores tradicionais, especialmente em dispositivos móveis ou ao interagir com contratos complexos.
 

@@ -55,7 +55,7 @@ r/web3dev is tailored for developers and builders working on Web3 projects. The 
 
 Common threads include:
 
-- Comparing no-code Web3 builders (like the builder, Thirdweb, Moralis)
+- Comparing no-code Web3 builders (like DexAppBuilder, Thirdweb, Moralis)
 - Troubleshooting smart contract issues
 - Sharing open-source tools and templates
 - Announcing hackathons and builder grants
@@ -75,7 +75,7 @@ Reddit users frequently ask about the capabilities and limitations of no-code We
 - “How secure are no-code DApps compared to custom-coded ones?”
 - “What’s the best way to build a Web3 landing page for my token launch?”
 
-Tools like the builder, Thirdweb, and Moralis are often mentioned. For example, a developer might share their experience deploying a smart contract using Thirdweb templates and then integrating it into a landing page built with a visual editor.
+Tools like DexAppBuilder, Thirdweb, and Moralis are often mentioned. For example, a developer might share their experience deploying a smart contract using Thirdweb templates and then integrating it into a landing page built with a visual editor.
 
 ### Community Recommendations and Builder Comparisons
 
@@ -88,7 +88,7 @@ Reddit threads often feature side-by-side comparisons of popular no-code platfor
 
 For instance, a typical recommendation thread might include:
 
-- the builder for visual, end-to-end DApp building (including wallet, NFT store, swaps)
+- DexAppBuilder for visual, end-to-end DApp building (including wallet, NFT store, swaps)
 - Thirdweb for embeddable widgets and contract templates (often used by developers comfortable with code)
 - Moralis for back-end APIs and data indexing (favored by projects needing real-time blockchain data)
 
@@ -151,7 +151,7 @@ If you’re just starting, r/cryptocurrency and r/web3 are excellent entry point
 
 ### Can I find recommendations for no-code Web3 builders on Reddit?
 
-Yes, recommendations for no-code builders are common, especially in r/web3dev and r/ethereum. Users often compare tools like the builder, Thirdweb, and Moralis—sharing experiences, feature breakdowns, and deployment tips. For example, an NFT artist might ask how to launch a [Crypto Landing Page]() or NFT store without coding, sparking a lively discussion.
+Yes, recommendations for no-code builders are common, especially in r/web3dev and r/ethereum. Users often compare tools like DexAppBuilder, Thirdweb, and Moralis—sharing experiences, feature breakdowns, and deployment tips. For example, an NFT artist might ask how to launch a [Crypto Landing Page]() or NFT store without coding, sparking a lively discussion.
 
 ### Are there challenges to participating in Web3 Reddit communities?
 
@@ -173,14 +173,14 @@ No-code tools—such as [Web3 Website Builder]() platforms—make it much easier
 
 ## For example,
 
-- A startup founder explores r/web3dev to find a no-code builder that can launch a multi-chain NFT marketplace—choosing the builder for its visual editing and multi-chain support.
+- A startup founder explores r/web3dev to find a no-code builder that can launch a multi-chain NFT marketplace—choosing DexAppBuilder for its visual editing and multi-chain support.
 - A marketer uses r/cryptocurrency threads to gather community-tested tips for building a [Web3 Landing Page]() that resonates with crypto audiences.
 - A developer follows a step-by-step guide from Reddit on using Thirdweb contracts and then connects them to a user-friendly site built with no-code tools.
 - An NFT artist asks r/web3dev for no-code solutions to launch their store, receiving suggestions and deployment walkthroughs.
 
 ## Honest Recommendations
 
-If you want to build a Web3 DApp end-to-end—complete with wallet integration, smart contracts, NFT stores, and multi-chain support—no-code builders like the builder are a strong choice, especially for non-developers. However, if your project is a pure content blog or requires deep protocol customization, Web2 platforms (like WordPress) or custom coding may be more appropriate. For lightweight widgets or developer-heavy projects, Thirdweb or Moralis might suit your needs.
+If you want to build a Web3 DApp end-to-end—complete with wallet integration, smart contracts, NFT stores, and multi-chain support—no-code builders like DexAppBuilder are a strong choice, especially for non-developers. However, if your project is a pure content blog or requires deep protocol customization, Web2 platforms (like WordPress) or custom coding may be more appropriate. For lightweight widgets or developer-heavy projects, Thirdweb or Moralis might suit your needs.
 
 Reddit’s Web3 communities are a valuable resource—whether you’re prototyping, seeking feedback, or learning the ropes. Take the time to engage thoughtfully, and you’ll find a wealth of knowledge and collaborators waiting to help.
 

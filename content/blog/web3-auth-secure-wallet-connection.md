@@ -189,7 +189,7 @@ WalletConnect is a protocol that links DApps to mobile wallets using QR codes or
 
 ### Can I implement Web3 auth without coding skills?
 
-Yes. No-code platforms like the builder provide visual tools to add wallet connection, authentication, and even token-gating to your DApp without writing smart contracts or frontend code. This empowers creators, artists, and businesses to launch Web3 projects faster and with fewer resources.
+Yes. No-code platforms like DexAppBuilder provide visual tools to add wallet connection, authentication, and even token-gating to your DApp without writing smart contracts or frontend code. This empowers creators, artists, and businesses to launch Web3 projects faster and with fewer resources.
 
 ### Are social login methods secure for Web3 authentication?
 

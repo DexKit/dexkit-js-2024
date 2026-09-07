@@ -35,7 +35,7 @@ Tip: Keep your first version simple. Focus on your DApp’s core value and the m
 
 Traditional smart contract development means writing Solidity, testing, and deploying—often a job for specialists. No code platforms like DexAppBuilder abstract this away. Instead, you select from a library of pre-audited smart contract templates (NFT, ERC-20, DeFi logic, etc.) and configure parameters with simple forms.
 
-For instance, to mint NFTs, add the **DexContracts** section and deploy an **NFT Drop**—set collection details, supply, and royalty percentages visually. The builder handles contract deployment and blockchain interaction behind the scenes.
+For instance, to mint NFTs, add the **DexContracts** section and deploy an **NFT Drop**—set collection details, supply, and royalty percentages visually. DexAppBuilder handles contract deployment and blockchain interaction behind the scenes.
 
 ### Designing the Frontend with Drag-and-Drop Interfaces
 
@@ -47,7 +47,7 @@ Want to add wallet UI or an NFT showcase? Add the **Wallet** section or **Featur
 
 Before going live, preview your DApp in a test environment. No code builders let you simulate transactions, test wallet connections, and interact with your smart contracts using testnets (e.g., Polygon Mumbai, Ethereum Goerli).
 
-Once satisfied, deploy to your chosen mainnet(s) with a click. The builder handles contract deployment, frontend hosting, and blockchain integration automatically—no need to manage keys or infrastructure yourself.
+Once satisfied, deploy to your chosen mainnet(s) with a click. DexAppBuilder handles contract deployment, frontend hosting, and blockchain integration automatically—no need to manage keys or infrastructure yourself.
 
 [No Code DApp Builder: Create Your DApp Without Coding with DexAppBuilder](/blog/no-code-dapp-builder-dexappbuilder)
 
@@ -118,7 +118,7 @@ No. DexAppBuilder is designed for users with no coding experience, providing int
 
 ### How secure are no code DApps created with DexAppBuilder?
 
-DexAppBuilder uses audited smart contract templates and secure deployment protocols to ensure your DApp’s safety. Contracts are verified on-chain, and the builder manages private keys securely. Always review your configurations before deploying to mainnet.
+DexAppBuilder uses audited smart contract templates and secure deployment protocols to ensure your DApp’s safety. Contracts are verified on-chain, and DexAppBuilder manages private keys securely. Always review your configurations before deploying to mainnet.
 
 ### Can I customize my DApp’s frontend design without code?
 

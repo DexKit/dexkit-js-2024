@@ -16,7 +16,7 @@ Ya sea que tu plataforma esté en Web2 o Web3, en producción o simplemente sea 
 
 ## ¿Qué son los widgets Web3?
 
-Los widgets Web3 son **componentes de blockchain listos para usar** impulsados por el constructor sin código/bajo código de DexKit.
+Los widgets Web3 son **componentes de blockchain listos para usar** impulsados por DexAppBuilder sin código/bajo código de DexKit.
 
 En lugar de crear integraciones de contratos inteligentes desde cero, puedes integrar componentes listos para usar usando un simple **iframe**: solo copia, pega y listo.
 

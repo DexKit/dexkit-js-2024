@@ -42,7 +42,7 @@ Let’s look at the most popular DApp template builders, including no-code, deve
 
 ### What do these tools actually look like in practice?
 
-- **the builder**: Visual, drag-and-drop editor with sections like Swap, NFT store, and Wallet. No code required—just publish and deploy. [See templates.](https://dexappbuilder.dexkit.com/site/templates)
+- **DexAppBuilder**: Visual, drag-and-drop editor with sections like Swap, NFT store, and Wallet. No code required—just publish and deploy. [See templates.](https://dexappbuilder.dexkit.com/site/templates)
 - **Thirdweb**: Offers embeddable widgets (Connect, Pay, Embed) and smart contract templates. You’ll write some code to integrate, but setup is streamlined for developers.
 - **Lovable**: Type a prompt like “NFT launchpad with wallet connect” and get a prototype UI. But connecting to on-chain contracts or wallets isn’t built-in.
 - **Moralis**: Provides APIs for blockchain data, authentication, and events. You get backend power, but must build the frontend and wallet UX yourself.
@@ -71,7 +71,7 @@ Each tool shines in different use cases. Here’s when you should choose each op
 - Features: Embeddable widgets (Connect, Pay, Embed), contract templates, developer dashboard.
 - Example: Add a Connect widget and NFT Drop contract to a React site with minimal code.
 - Honest trade-offs: No visual full-DApp builder. Less suitable for non-coders or those needing drag-and-drop UI.
-- Note: the builder deploys Thirdweb contracts under the hood, but with a visual workflow.
+- Note: DexAppBuilder deploys Thirdweb contracts under the hood, but with a visual workflow.
 
 ### Lovable: AI-assisted full-stack prototype builder (limited Web3 features)
 
@@ -116,7 +116,7 @@ Expect Web3 builders to keep bridging the gap between visual editing and develop
 - Do you need embeddable widgets, or a full branded DApp site?
 - How important is custom protocol logic and control?
 - What’s your budget and timeline?
-- Does the builder offer prebuilt templates matching your use case (DeFi, NFT, DAO, blog, etc.)?
+- Does the tool offer prebuilt templates matching your use case (DeFi, NFT, DAO, blog, etc.)?
 - Is the platform actively maintained and secure?
 - Can you easily add, remove, or update DApp sections as your project grows?
 
@@ -128,11 +128,11 @@ A DApp template is a pre-built layout or codebase for decentralized applications
 
 ### Can I build a full Web3 DApp without coding?
 
-Yes. Platforms like the builder offer a no-code visual editor where you can add wallet integration, deploy smart contracts, and set up token gating—all without writing Solidity or JavaScript. This makes launching NFT stores, DeFi apps, or DAOs accessible to non-developers.
+Yes. Platforms like DexAppBuilder offer a no-code visual editor where you can add wallet integration, deploy smart contracts, and set up token gating—all without writing Solidity or JavaScript. This makes launching NFT stores, DeFi apps, or DAOs accessible to non-developers.
 
 ### How does DexAppBuilder differ from Thirdweb?
 
-the builder provides a visual, drag-and-drop builder for end-to-end DApp creation. It deploys Thirdweb contracts under the hood (via DexContracts), letting you add NFT stores, swaps, and wallet connect visually. Thirdweb, on the other hand, is developer-first, offering embeddable widgets and SDKs—best for those comfortable with code.
+DexAppBuilder provides a visual, drag-and-drop builder for end-to-end DApp creation. It deploys Thirdweb contracts under the hood (via DexContracts), letting you add NFT stores, swaps, and wallet connect visually. Thirdweb, on the other hand, is developer-first, offering embeddable widgets and SDKs—best for those comfortable with code.
 
 ### When should I choose custom development over no-code builders?
 

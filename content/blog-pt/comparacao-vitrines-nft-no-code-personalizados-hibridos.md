@@ -97,7 +97,7 @@ Por exemplo, um artista digital pode usar o editor visual para montar uma vitrin
 
 As vitrines NFT evoluem rapidamente conforme tecnologia e expectativas dos usuários amadurecem. Veja as principais tendências para planejar seu projeto:
 
-- **Experiências nativas de carteira:** Compradores esperam conectar suas carteiras cripto diretamente, possuir NFTs on-chain e mintar ou transferir ativos sem sair do site. Soluções com seções de carteira integradas ou fluxos wallet connect (como no construtor ou widgets Thirdweb) tornam-se padrão.
+- **Experiências nativas de carteira:** Compradores esperam conectar suas carteiras cripto diretamente, possuir NFTs on-chain e mintar ou transferir ativos sem sair do site. Soluções com seções de carteira integradas ou fluxos wallet connect (como no DexAppBuilder ou widgets Thirdweb) tornam-se padrão.
 - **Multi-chain por padrão:** Artistas e marcas querem alcançar públicos em Ethereum, Polygon, Base e além. Implantação multi-chain — sem configuração manual complexa — é requisito para novas vitrines NFT. O construtor e algumas ferramentas para desenvolvedores lideram aqui.
 - **Editores visuais no-code:** A ascensão dos construtores visuais permite que mais criadores lancem lojas NFT sem programação. Espere mais interfaces drag-and-drop, deploy integrado de contratos e seções de comércio turnkey.
 - **Widgets Web3 composáveis:** Ferramentas para desenvolvedores como Thirdweb facilitam montar fluxos de carteira, mintagem e pagamento como widgets embutidos. Porém, montar uma vitrine totalmente personalizada ainda exige mais montagem que plataformas verdadeiramente no-code.

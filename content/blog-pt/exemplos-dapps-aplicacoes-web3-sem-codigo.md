@@ -27,7 +27,7 @@ NFTs — tokens não fungíveis — representam colecionáveis digitais únicos,
 
 Por exemplo, um artista digital pode usar um construtor visual para criar uma loja NFT em menos de uma hora. O processo pode ser:
 
-1. Selecionar um template de loja NFT na biblioteca do construtor.
+1. Selecionar um template de loja NFT na biblioteca do DexAppBuilder.
 2. Personalizar a marca, carregar obras e definir preços ou lógica de leilão.
 3. Arrastar um widget de wallet connect para que compradores usem MetaMask, WalletConnect ou Coinbase Wallet.
 4. Desplegar smart contracts NFT pré-construídos em Ethereum, Polygon ou outras chains suportadas — sem necessidade de Solidity.

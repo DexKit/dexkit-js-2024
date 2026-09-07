@@ -122,7 +122,7 @@ With these tools, you can embed key Web3 features into your site without writing
 
 These platforms are ideal if you want to add wallet connect, token interactions, and basic token gating to an existing site, or if you’re comfortable with some low-code assembly.
 
-**the builder** sits in this category, but with a stronger focus on visual, no-code editing and multi-chain deployment—making it approachable for non-developers who want to launch a full-featured token website.
+**DexAppBuilder** sits in this category, but with a stronger focus on visual, no-code editing and multi-chain deployment—making it approachable for non-developers who want to launch a full-featured token website.
 
 ## Approaches Matrix: How Can You Create a Token Website?
 
@@ -133,7 +133,7 @@ These platforms are ideal if you want to add wallet connect, token interactions,
 | Lovable | AI prompt to prototype | UI scaffolding only | Fast frontend prototyping | No native wallet or contract support; dev needed for Web3 logic |
 | v0 (Vercel) | AI UI generation | None out of the box | React/Next.js UI kickstart | Dev skills needed for Web3 features |
 | Thirdweb | Widget + SDK | Strong: wallet, token, contract | Embedding Web3 features in custom sites | Dev-first; less visual; not a full DApp builder |
-| the builder | Visual, no-code Web3 | Full: wallet, contracts, gating, swap | Non-devs launching complete token websites | Less suited for pure content/blog sites |
+| DexAppBuilder | Visual, no-code Web3 | Full: wallet, contracts, gating, swap | Non-devs launching complete token websites | Less suited for pure content/blog sites |
 
 ## Checklist: Steps to Launch Your Token Website Successfully
 
@@ -175,7 +175,7 @@ A token website is the official online home for your crypto project’s token. I
 
 ### Can I create a token website without coding skills?
 
-Yes. No-code and low-code builders exist that let you create token websites with wallet connect, token display, and even on-chain features—no programming required. Platforms like the builder, Thirdweb, and Moralis cater to non-developers, while Web2 tools like WordPress are best for content-only sites.
+Yes. No-code and low-code builders exist that let you create token websites with wallet connect, token display, and even on-chain features—no programming required. Platforms like DexAppBuilder, Thirdweb, and Moralis cater to non-developers, while Web2 tools like WordPress are best for content-only sites.
 
 ### Which tools support on-chain token transactions and wallet connect?
 
@@ -183,7 +183,7 @@ Web3-focused builders such as Thirdweb and Moralis offer native support for wall
 
 ### How do Web2 no-code platforms compare to Web3 builders for token websites?
 
-Web2 platforms (WordPress, Wix) excel at content, SEO, and marketing but do not natively support wallet connect or on-chain features. Web3 builders (Thirdweb, the builder) provide built-in wallet, contract, and token gating modules—ideal for interactive token sites. If your site is mainly informational, Web2 is fine; for real Web3 features, use a Web3 builder.
+Web2 platforms (WordPress, Wix) excel at content, SEO, and marketing but do not natively support wallet connect or on-chain features. Web3 builders (Thirdweb, DexAppBuilder) provide built-in wallet, contract, and token gating modules—ideal for interactive token sites. If your site is mainly informational, Web2 is fine; for real Web3 features, use a Web3 builder.
 
 ### What are the key security considerations when creating a token website?
 
