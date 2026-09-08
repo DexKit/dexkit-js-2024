@@ -175,3 +175,4 @@ For more visual, no-code options, explore how DexAppBuilder can help you add wal
 - [No Code Wallet Authentication](/blog/no-code-wallet-authentication)
 - [Web3 Auth: Secure Wallet Connection and User Authentication Explained](/blog/web3-auth-secure-wallet-connection)
 - [WalletConnect vs Privy: Comparing Web3 Wallet Authentication Solutions](/blog/walletconnect-vs-privy)
+- [Web3 Authentication Libraries: Comparing Wallet Connect & Auth Solutions](/blog/web3-authentication-libraries-wallet-connect-auth)
