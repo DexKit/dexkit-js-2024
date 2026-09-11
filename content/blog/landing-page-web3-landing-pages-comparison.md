@@ -146,3 +146,4 @@ Want to see what a no-code, end-to-end Web3 landing page builder can do? Try Dex
 - [web3 reddit: Exploring Web3 Discussions and Communities](/blog/web3-reddit)
 - [Web3 Landing Pages: Building No-Code DApps with Modern Tools](/blog/web3-landing-pages)
 - [Web3 Wallet Comparison: Best No-Code Builders and Wallet Solutions](/blog/web3-wallet-comparison)
+- [Web3 Developer Salary: Comparison of No-Code and Developer Tools](/blog/web3-developer-salary)
