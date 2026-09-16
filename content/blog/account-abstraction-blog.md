@@ -190,3 +190,4 @@ See our , or for specific tutorials and workflows. For onboarding UX, check out 
 - [ERC-4337 vs EOA: Key Differences in Account Abstraction](/blog/erc-4337-vs-eoa)
 - [erc-4337 wallet comparison: choosing the right account abstraction solution](/blog/erc-4337-wallet-comparison-account-abstraction)
 - [Gasless Transactions Web3: Best Tools and Account Abstraction Comparison](/blog/gasless-transactions-web3-comparison-account-abstraction)
+- [Smart Wallet Onboarding in Account Abstraction: Streamlining User Access](/blog/smart-wallet-onboarding-account-abstraction)

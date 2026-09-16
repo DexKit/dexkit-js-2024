@@ -153,3 +153,4 @@ For teams ready to build, try DexAppBuilder for no-code DApp creation with smart
 - [erc-4337 wallet comparison: choosing the right account abstraction solution](/blog/erc-4337-wallet-comparison-account-abstraction)
 - [Account Abstraction: Unlocking Flexible Wallets and UX in Web3](/blog/account-abstraction-blog)
 - [Smart Account: A Comparison of Account Abstraction Solutions](/blog/smart-account-account-abstraction-comparison)
+- [Smart Wallet Onboarding in Account Abstraction: Streamlining User Access](/blog/smart-wallet-onboarding-account-abstraction)

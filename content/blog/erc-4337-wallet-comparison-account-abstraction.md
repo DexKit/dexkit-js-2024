@@ -138,3 +138,4 @@ For a fast start with embedded ERC-4337 wallets and no coding, try the [DexWalle
 - [Smart Account: A Comparison of Account Abstraction Solutions](/blog/smart-account-account-abstraction-comparison)
 - [ERC-4337 vs EOA: Key Differences in Account Abstraction](/blog/erc-4337-vs-eoa)
 - [Gasless Transactions Web3: Best Tools and Account Abstraction Comparison](/blog/gasless-transactions-web3-comparison-account-abstraction)
+- [Smart Wallet Onboarding in Account Abstraction: Streamlining User Access](/blog/smart-wallet-onboarding-account-abstraction)
