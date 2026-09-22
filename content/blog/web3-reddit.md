@@ -192,3 +192,4 @@ Reddit’s Web3 communities are a valuable resource—whether you’re prototypi
 - [How to Invest in Web3: Best Tools Compared](/blog/how-to-invest-in-web3)
 - [Landing Page: Best Web3 Landing Pages Compared](/blog/landing-page-web3-landing-pages-comparison)
 - [Web3 Developer Salary: Comparison of No-Code and Developer Tools](/blog/web3-developer-salary)
+- [How to Build a Web3 Website: A Practical Guide for No-Code Builders](/blog/how-to-build-a-web3-website)
