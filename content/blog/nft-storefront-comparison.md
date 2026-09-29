@@ -160,3 +160,4 @@ Ready to launch your own NFT storefront without coding? Explore [DexNFTStore](ht
 - [NFT Storefronts: Build and Launch Without Code](/blog/nft-storefronts)
 - [NFT Storefronts: Build and Launch Without Code with DexAppBuilder](/blog/nft-storefronts-build-launch-without-code-dexappbuilder)
 - [Revolutionize Your NFT Sales with the First White-Label NFT Marketplace by DexKit](/blog/revolutionize-your-nft-sales-with-dexkit)
+- [NFT Collection Landing Page: Build an Engaging Showcase Without Code](/blog/nft-collection-landing-page)
