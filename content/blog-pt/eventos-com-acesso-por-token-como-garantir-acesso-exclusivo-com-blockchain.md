@@ -1,8 +1,8 @@
 ---
-title: 'Eventos com Acesso por Token: Como Garantir Acesso Exclusivo com Blockchain'
+title: 'Eventos com Acesso por Token: Gates NFT para Reuniões e Acesso Exclusivo'
 date: '4 de agosto de 2026'
 excerpt: >-
-  Descubra como eventos com acesso por token desbloqueiam acesso exclusivo usando blockchain. Explore casos de uso, métodos de configuração e ferramentas no-code.
+  Eventos com acesso por token usam gates NFT para que só carteiras com o token entrem em reuniões ou eventos. Veja controle de acesso, casos de uso e setup no-code com DexAppBuilder.
 category: Blog
 slug: eventos-com-acesso-por-token-como-garantir-acesso-exclusivo-com-blockchain
 imageUrl: /blog-images/token-gated-events.png

@@ -1,8 +1,8 @@
 ---
-title: 'Token Gated Events: How to Secure Exclusive Access with Blockchain'
+title: 'Token Gated Events: NFT Gates for Exclusive Meetings & Access'
 date: 'August 4, 2026'
 excerpt: >-
-  Learn how token gated events unlock exclusive access using blockchain. Explore use cases, setup methods, and no-code tools to streamline event gating.
+  Token gated events use NFT gates so only wallet holders join meetings or events. See how access control works, use cases, and no-code setup with DexAppBuilder.
 category: Blog
 slug: token-gated-events
 imageUrl: /blog-images/token-gated-events.png
