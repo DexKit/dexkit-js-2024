@@ -138,3 +138,4 @@ Ready to launch your own NFT marketplace, token swap, or gated community DApp? [
 - [Token Launchpad Template: Build Your Web3 Token Sale DApp with No-Code](/blog/token-launchpad-template)
 - [DApp Template Comparison: Choosing the Best Web3 Builder for Your Project](/blog/dapp-template-comparison)
 - [Cryptocurrency Website Template GitHub: Exploring Top Web3 DApp Templates](/blog/cryptocurrency-website-template-github)
+- [Crypto Website Template HTML: Comparing Top Web3 DApp Builders](/blog/crypto-website-template-html)
