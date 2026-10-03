@@ -185,3 +185,4 @@ Multi-chain deployment adds significant complexity, as each blockchain may have 
 - [Web3 Landing Pages: Building No-Code DApps with Modern Tools](/blog/web3-landing-pages)
 - [Web3 Wallet Comparison: Best No-Code Builders and Wallet Solutions](/blog/web3-wallet-comparison)
 - [How to Build a Web3 Website: A Practical Guide for No-Code Builders](/blog/how-to-build-a-web3-website)
+- [Web3 Website Hosting: How to Host Your Decentralized Site Without Code](/blog/web3-website-hosting)

@@ -148,3 +148,4 @@ Want to see what a no-code, end-to-end Web3 landing page builder can do? Try Dex
 - [Web3 Wallet Comparison: Best No-Code Builders and Wallet Solutions](/blog/web3-wallet-comparison)
 - [Web3 Developer Salary: Comparison of No-Code and Developer Tools](/blog/web3-developer-salary)
 - [How to Build a Web3 Website: A Practical Guide for No-Code Builders](/blog/how-to-build-a-web3-website)
+- [Web3 Website Hosting: How to Host Your Decentralized Site Without Code](/blog/web3-website-hosting)
