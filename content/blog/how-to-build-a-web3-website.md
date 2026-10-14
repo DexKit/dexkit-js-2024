@@ -159,3 +159,4 @@ Want to learn more about launching powerful Web3 sites visually? See our guides 
 - [Landing Page: Best Web3 Landing Pages Compared](/blog/landing-page-web3-landing-pages-comparison)
 - [web3 reddit: Exploring Web3 Discussions and Communities](/blog/web3-reddit)
 - [Web3 Website Hosting: How to Host Your Decentralized Site Without Code](/blog/web3-website-hosting)
+- [Web3 Website Template: Compare Top Builders for Your Landing Page](/blog/web3-website-template-comparison)

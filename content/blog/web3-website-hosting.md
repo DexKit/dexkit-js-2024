@@ -171,3 +171,4 @@ Yes. DexAppBuilder’s visual editor enables you to build dApps and landing page
 - [How to Build a Web3 Website: A Practical Guide for No-Code Builders](/blog/how-to-build-a-web3-website)
 - [Web3 Developer Salary: Comparison of No-Code and Developer Tools](/blog/web3-developer-salary)
 - [Landing Page: Best Web3 Landing Pages Compared](/blog/landing-page-web3-landing-pages-comparison)
+- [Web3 Website Template: Compare Top Builders for Your Landing Page](/blog/web3-website-template-comparison)
